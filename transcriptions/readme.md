@@ -1,0 +1,2 @@
+# Transcription of the manuscripts of Agathemerus 
+This folder includes all the transcriptions of the manuscripts and copyright-free editions of Agathemerus' _Sketch of Geography_ in XML EpiDoc-compliant format. 
