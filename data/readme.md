@@ -1,4 +1,4 @@
-This folder is meant to provide data for testing CTS files on Capitains before submitting them to the official Perseus repository. 
+This folder is meant to provide data for testing CTS files on Capitains. 
 
 Testing so far: 
 * Dionysius Periegetes eng 
