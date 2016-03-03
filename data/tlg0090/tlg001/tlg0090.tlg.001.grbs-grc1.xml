@@ -194,7 +194,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
     <text>
         <body>
-            <div type="edition" n="" xml:lang="grc">
+            <div type="edition" n="urn:cts:greekLit:tlg0090.tlg001.grbs-grc1" xml:lang="grc">
 
 
                 <div type="textpart" subtype="chapter" n="1">
@@ -208,7 +208,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             περιόδους καὶ περίπλους ἐπραγματεύσαντο.  </p>
                     </div>
                 </div>
-                <div type="textpart" subtype="chapter" n="1">
+              
                     <div type="textpart" subtype="section" n="2">
                         <p>Οἱ μὲν οὖν παλαιοὶ τὴν
                             οἰκουμένην ἔγραφον στρογγύλην, μέσην δ’ ἡγεῖσθαι τὴν Ἑλλάδα καὶ
@@ -221,9 +221,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             μεσόπλατον ἀπὸ νότου εἰς βορρᾶν, στενὴν πρὸς ἕω καὶ δύσιν, τὰ πρὸς
                             εὖρον δ’ ὁμοίως πλατύτερα τὰ πρὸς τὴν Ἰνδικήν.</p>
                     </div>
-                </div>
+                
 
-                <div type="textpart" subtype="chapter" n="1">
+              
                     <div type="textpart" subtype="section" n="3">
                         <p>Ὅροι ἠπείρων·
                             Εὐρώπης μὲν καὶ Λιβύης αἴ Ἡρακλέους στῆλαι, Λιβύης δὲ καὶ Ἀσίας
@@ -232,9 +232,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             ἕως Κασπίας ἰσθμόν, οἱ δ’ ὕστερον νεώτεροι Μαιῶτιν λίμνην καὶ
                             Τάναϊν ποταμόν. </p>
                     </div>
-                </div>
+                
 
-                <div type="textpart" subtype="chapter" n="1">
+            
                     <div type="textpart" subtype="section" n="4">
                         <p>Ἐκλήθησαν δ’ ἤπειροι ἄπειροί τινες οὖσαι δι’
                             ἄγνοιαν· Ἀσία δ’ ἀπὸ τοῦ ἆσσον ἰέναι τοῖς ἀπ’ Εὐρώπης ἀπιοῦσι καὶ
@@ -244,17 +244,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             Φοίνικες ὠνομάσθησαν πλέοντες, ὠκεανὸς δὲ διὰ τὸ ὠκέως ἀνύειν
                             κύκλῳ τὴν γῆν. </p>
                     </div>
-                </div>
+                
 
 
-                <div type="textpart" subtype="chapter" n="1">
                     <div type="textpart" subtype="section" n="5">
                         <p>Δικαίαρχος δ’ ὁρίζει τὴν γῆν οὐχ ὕδασιν ἀλλὰ τομῇ
                             εὐθείᾳ εὐκράτῳ ἀπὸ Στηλῶν διὰ Σαρδοῦς Σικελίας Πελοποννήσου
                             Ἰωνίας Καρίας Λυκίας Παμφυλίας Κιλικίας καὶ Ταύρου ἑξῆς ἕως
                             Ἰμάου ὄρους· τῶν τοίνυν τόπων τὸ μὲν βόρειον τὸ δὲ νότιον ὀνομάζει.</p>
                     </div>
-                </div>
+                
 
 
                 <div type="textpart" subtype="chapter" n="2">
@@ -271,7 +270,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </div>
 
 
-                <div type="textpart" subtype="chapter" n="2">
                     <div type="textpart" subtype="section" n="7">
                         <p>Τιμοσθένης δὲ ὁ γράψας τοὺς περίπλους δώδεκά φησι
                             προστιθεὶς μέσον ἀπαρκτίου καὶ καικίου βορέαν, εὔρου δὲ καὶ νότου
@@ -286,7 +284,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             Ἱσπανίαν, κατὰ θρασκίαν Κελτοὺς καὶ τὰ ὅμορα, κατὰ ἀπαρκτίαν τοὺς ὑπὲρ Θράκην Σκύθας, κατὰ βορρᾶν Πόντον Μαιῶτιν
                             Σαρμάτας, κατὰ καικίαν Κασπίαν θάλασσαν καὶ Σάκας.</p>
                     </div>
-                </div>
+                
 
 
                 <div type="textpart" subtype="chapter" n="3">
@@ -298,7 +296,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </div>
 
 
-                <div type="textpart" subtype="chapter" n="3">
                     <div type="textpart" subtype="section" n="9">
                         <p>διαδέχεται τὸ Αἰγαῖον πέλαγος Ἑλλήσποντος λήγων εἰς Ἄβυδον
                             καὶ Σηστόν, εἶτα ἡ Προποντὶς λήγουσα εἰς Χαλκηδόνα καὶ Βυζάντιον, ἔνθα τὰ στενὰ ἀφ’ ὧν ὁ Πόντος ἄρχεται, εἶτα ἡ Μαιῶτις λίμνη.
@@ -311,10 +308,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             Σουνίῳ καὶ Σκυλλαίῳ περιεχόμενον πέλαγος Σαρωνικόν, εἶτα Μυρτῶον καὶ Ἰκάριον ἐν ᾧ αἱ Κυκλάδες, εἶτα Καρπάθιον καὶ Παμφύλιον
                             καὶ Αἰγύπτιον. ὑπὲρ δὲ τὸ Ἰκάριον ἑξῆς ἀναχεῖται τὸ Αἰγαῖον.</p>
                     </div>
-                </div>
+                
 
 
-                <div type="textpart" subtype="chapter" n="3">
+       
                     <div type="textpart" subtype="section" n="10">
                         <p>Ἔστι δὲ ὁ τῆς Εὐρώπης παράπλους ἀπὸ Τανάιδος ποταμοῦ
                             ἐκβολῶν ἕως Ἡρακλείων στηλῶν σταδίων μυριάδων ἓξ καὶ &#885;θψθ,
@@ -325,35 +322,31 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             συμμετρουμένης τῆς Μαιώτιδος λίμνης, ἧς περίμετρος  σταδίων &#885;θ,
                             τὸ δὲ στόμα ὁ Κιμμέριος Βόσπορος σταδίων κ. </p>
                     </div>
-                </div>
+                
 
-                <div type="textpart" subtype="chapter" n="3">
+            
                     <div type="textpart" subtype="section" n="11">
                         <p>ὁ δὲ Πόντος
                             σταδίων &#885;γτν. ὁ δὲ Θράκιος Βόσπορος τὰ στενὰ ὅπῃ Δαρεῖος ἔζευξεν
                             ἐπὶ Σκύθας τὴν σχεδίαν σταδίων ἕξ. </p>
                     </div>
-                </div>
+                
 
-                <div type="textpart" subtype="chapter" n="3">
                     <div type="textpart" subtype="section" n="12">
                         <p> Ἡ δὲ Περσικὴ θάλασσα
                             κυκλοτερὴς οὖσα συνάγουσα τὸ στόμα ἄκρῳ Καρμανίας καὶ Ἀραβίας
                             περίμετρον ἔχει μυριάδων δύο σταδίων. ἔστι δὲ τὸ μεταξὺ στόμα
                             Ἀραβίας καὶ Καρμανίας σταδίων υ.</p>
                     </div>
-                </div>
+                
 
-                <div type="textpart" subtype="chapter" n="3">
                     <div type="textpart" subtype="section" n="13">
                         <p> Ἡ δὲ Ὑρκανία ἤτοι
                             Κασπία θάλασσα μηνοειδὴς οὖσα, κατὰ δέ τινας καὶ προμήκης, ἐστὶ
                             σταδίων δισμυρίων, τοῦ δὲ στόματος ἔχει τὸ δίαρμα
                             σταδίους  &#885;α. </p>
                     </div>
-                </div>
-
-                <div type="textpart" subtype="chapter" n="3">
+                
                     <div type="textpart" subtype="section" n="14">
                         <p> Ὁ δὲ Ἀράβιος κόλπος στενὸς ὢν καὶ προμήκης
                             ἄρχεται ἀπὸ Ἡρώων πολίτου μυχοῦ παρὰ τὴν Τρωγλοδυτικὴν ἕως τῆς
@@ -365,7 +358,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             σταδίων μυρίων δισχιλίων.
                         </p>
                     </div>
-                </div>
+                
 
 
                 <div type="textpart" subtype="chapter" n="4">
@@ -383,7 +376,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </div>
 
 
-                <div type="textpart" subtype="chapter" n="4">
                     <div type="textpart" subtype="section" n="16">
                         <p>ἀπὸ δὲ Μυριάνδρου ἐπὶ Γάδειρα σταδίων δισμυρίων
                             &#885;ϛωκ οὕτως· ἀπὸ Μυριάνδρου ἐπὶ Κλεῖδας Κύπρου σταδίων  χιλίων
@@ -396,10 +388,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             ἀκρωτηρίου καὶ Ἀρτάβρων λιμένος στάδιοι &#885;ζ↑λβ· ὁμοῦ γίνονται
                             μυριάδες ἑπτὰ καὶ &#885;ϛυοζ. </p>
                     </div>
-                </div>
+                
 
 
-                <div type="textpart" subtype="chapter" n="4">
                     <div type="textpart" subtype="section" n="17">
                         <p>καὶ ἄλλως· ἀπὸ Γάγγου ἕως Εὐφράτου
                             ποταμοῦ μυριάδων τεσσάρων καὶ χιλίων τν, ἀπὸ Εὐφράτου εἰς Μάζακα
@@ -417,10 +408,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             διὰ τῶν πανδοκίων στάδια ξ· ὁμοῦ ἀπὸ Γάγγου εἰς Γάδειρα  σταδίων
                             μυριάδες ἑπτὰ καὶ &#885;αφξ.</p>
                     </div>
-                </div>
+                
 
 
-                <div type="textpart" subtype="chapter" n="4">
                     <div type="textpart" subtype="section" n="18">
                         <p> Πλάτος δὲ τῆς οἰκουμένης ἀπὸ τῆς
                             Αἰθιοπικῆς θαλάσσης ἐπὶ Μερόην σταδίων &#885;ε, ἀπὸ Μερόης εἰς Ἀλεξάνδρειαν  σταδίων μυρίων, ἀπὸ δὲ Ἀλεξανδρείας ἐπὶ Τάναϊν
@@ -436,9 +426,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             ἐπὶ στόμα Πόντου στάδια &#885;βφ, ἐπὶ Κάραμβιν στάδια &#885;βω, ἐπὶ στόμα
                             Μαιώτιδος στάδια &#885;βφ, ἐπὶ Τάναϊν στάδια &#885;βσ.</p>
                     </div>
-                </div>
+                
 
-                <div type="textpart" subtype="chapter" n="4">
                     <div type="textpart" subtype="section" n="19">
                         <p> ἄλλως, ἀπὸ πόλεως
                             εἰς πόλιν, ἀπὸ Ἀλεξανδρείας εἰς Ῥόδον στάδια &#885;δχο, εἰς Κνίδον
@@ -448,7 +437,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             ποταμὸν &#885;βσ· ὁμοῦ ἀπὸ  Ἀλεξανδρείας ἕως Τανάιδος σταδίων μυρίων
                             &#885;ηχϟ.</p>
                     </div>
-                </div>
+                
 
                 <div type="textpart" subtype="chapter" n="5">
                     <div type="textpart" subtype="section" n="20">
@@ -473,7 +462,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </div>
                 </div>
 
-                <div type="textpart" subtype="chapter" n="5">
                     <div type="textpart" subtype="section" n="21">
                         <p> Κέρκινα νῆσος μῆκος σ πλάτος στάδια ο, ὅπου
                             δὲ στενοτάτη στάδια μ. ὑπέρκειται δὲ πόλεως ἠπειρωτικῆς Θεήνης
@@ -481,28 +469,22 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             νῆσος Καρκινῖτις γεφύρᾳ ζευχθεῖσα στάδια μῆκος μ,  πλάτος δὲ
                             στάδια κε.</p>
                     </div>
-                </div>
-
-                <div type="textpart" subtype="chapter" n="5">
+                
                     <div type="textpart" subtype="section" n="22">
                         <p>ἀπὸ Κερκίνης ἐπὶ νῆσον Μήνιγγα τὴν Λωτοφαγῖτιν ὁ
                             διάπλους στάδια χ, ὅσον τῆς μικρᾶς λέγεται Σύρτιδος τὸ στόμα, ἡ δὲ
                             Μῆνιγξ μῆκος σταδίων χ  πλάτος σταδίων ρπ, μεγάλαι δ’ εἰσὶ περὶ
                             αὐτὴν παλίρροιαι.   </p>
                     </div>
-                </div>
-
-                <div type="textpart" subtype="chapter" n="5">
                     <div type="textpart" subtype="section" n="23">
                         <p>Κεφαλληνία νῆσος τετράπολις μῆκος σταδίων υ.
                             εἴσι δὲ καὶ  ἐν τῷ Ἀδρίᾳ νῆσοι παρὰ τὴν Ἰλλυρίδα ὧν ἐπισημότεραι
                             Ἴσση καὶ ἡ μέλαινα Κόρκυρα καὶ Φάρος καὶ Μελίτη, ὧν ἀγνοῶ τὰς
                             περιμέτρους.</p>
                     </div>
-                </div>
+                
 
 
-                <div type="textpart" subtype="chapter" n="5">
                     <div type="textpart" subtype="section" n="24">
                         <p>Πελοποννήσου δὲ ὁ περίπλους καὶ τῶν κόλπων
                             συμμετρουμένων στάδια &#885;εχκζ, χωρὶς δὲ τοῦ κατακολπίσαι ὁ περίπλους
@@ -520,10 +502,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             ἀναχεῖται κόλπος ζ σταδίων συγκλειόμενος στόματι κατὰ τὸ ῾Ρίον
                             ἄκρον ὅ ἐστι τῆς Πελοποννήσου τὸ δ’ Ἀντίριον Λοκρίδος. ἀπὸ  Ταινάρου ἐπὶ Φυκοῦντα Λιβύης τὸ δίαρμα στάδια &#885;γ. </p>
                     </div>
-                </div>
+                
 
-
-                <div type="textpart" subtype="chapter" n="5">
                     <div type="textpart" subtype="section" n="25">
                         <p>Αἴγινα νῆσος
                             προμήκης στάδια ρξ ἐξ ἐναντίας κεῖται τῆς Ἀττικῆς, Σαλαμὶς  μῆκος
@@ -533,10 +513,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             ἐκ δὲ θατέρου ἐπί ποσον καὶ τῇ Ἀττικῇ, ἔστι γὰρ μακρά,  διὸ Μάκρις
                             ὠνομάσθη, μῆκος σταδίων &#885;αψ.  </p>
                     </div>
-                </div>
+                
 
 
-                <div type="textpart" subtype="chapter" n="5">
                     <div type="textpart" subtype="section" n="26">
                         <p>ἡ δὲ Κρήτη κατὰ Μαλέαν πλησιάζει
                             Πελοποννήσῳ, περίμετρος δὲ αὐτῆς σταδίων &#885;δρ μῆκος &#885;βτ,  κατὰ
@@ -546,7 +525,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             Ἰκαρία δέ ἐστι μακρὰ τραχεῖα, μῆκος σταδίων τ. Χίου περίμετρος
                             στάδια χξ. Λέσβου περίμετρος στάδ &#885;αρ.</p>
                     </div>
-                </div>
+                
 
 
 
