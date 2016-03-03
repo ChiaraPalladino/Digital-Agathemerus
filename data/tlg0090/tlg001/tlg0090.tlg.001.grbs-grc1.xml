@@ -207,7 +207,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             περίπλουν ἔγραψεν. ἑξῆς Δημόκριτος καὶ Εὔδοξος καὶ ἄλλοι τινὲς γῆς
                             περιόδους καὶ περίπλους ἐπραγματεύσαντο.  </p>
                     </div>
-                </div>
+              
               
                     <div type="textpart" subtype="section" n="2">
                         <p>Οἱ μὲν οὖν παλαιοὶ τὴν
@@ -253,7 +253,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             Ἰωνίας Καρίας Λυκίας Παμφυλίας Κιλικίας καὶ Ταύρου ἑξῆς ἕως
                             Ἰμάου ὄρους· τῶν τοίνυν τόπων τὸ μὲν βόρειον τὸ δὲ νότιον ὀνομάζει.</p>
                     </div>
-                
+                </div>
 
 
                 <div type="textpart" subtype="chapter" n="2">
@@ -267,7 +267,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             Ἰᾶπυξ, εἶτα νότος καὶ ἀπαρκτίας ἀντιπνέοντες ἀλλήλοις· γίνονται
                             οὖν ὀκτώ. </p>
                     </div>
-                </div>
+              
 
 
                     <div type="textpart" subtype="section" n="7">
@@ -286,14 +286,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </div>
                 
 
-
+                </div>
                 <div type="textpart" subtype="chapter" n="3">
                     <div type="textpart" subtype="section" n="8">
                         <p>ἔστι δὲ ἡ μεγάλη Σύρτις σταδίων &#885;ε, ἡ δὲ μικρὰ σταδίων &#885;αχ. τὸ δὲ
                             στόμα τοῦ Ἀδρίου ὃ καλοῦσί τινες Ἰόνιον πέλαγος ἔχει διάπλουν
                             σταδίων ψ ἀπὸ ἄκρας Ἰαπυγίας ἐπὶ Κεραύνια ὄρη τῆς Ἠπείρου.</p>
                     </div>
-                </div>
+     
 
 
                     <div type="textpart" subtype="section" n="9">
@@ -359,7 +359,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </p>
                     </div>
                 
-
+                </div>
 
                 <div type="textpart" subtype="chapter" n="4">
                     <div type="textpart" subtype="section" n="15">
@@ -373,8 +373,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             σταδίων τοε, 
                         </p>
                     </div>
-                </div>
-
+      
 
                     <div type="textpart" subtype="section" n="16">
                         <p>ἀπὸ δὲ Μυριάνδρου ἐπὶ Γάδειρα σταδίων δισμυρίων
@@ -438,7 +437,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             &#885;ηχϟ.</p>
                     </div>
                 
-
+                </div>
                 <div type="textpart" subtype="chapter" n="5">
                     <div type="textpart" subtype="section" n="20">
                         <p>Λοιπὸν δὲ ἐροῦμεν τῶν καθ’ ἡμᾶς νήσων τὰς περιμέτρους
@@ -460,7 +459,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             εἰς Λιλύβαιον στάδια &#885;αχ· κατὰ Τιμοσθένην ἀπὸ Λιλυβαίου εἰς Πελωριάδα στάδια &#885;αφ· ἀπὸ Λιλυβαίου διάπλους εἰς Ἀσπίδα τῆς Λιβύης
                             ἐγγὺς στάδια &#885;αφ. </p>
                     </div>
-                </div>
+                
 
                     <div type="textpart" subtype="section" n="21">
                         <p> Κέρκινα νῆσος μῆκος σ πλάτος στάδια ο, ὅπου
@@ -526,7 +525,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             στάδια χξ. Λέσβου περίμετρος στάδ &#885;αρ.</p>
                     </div>
                 
-
+                </div>
 
 
 
