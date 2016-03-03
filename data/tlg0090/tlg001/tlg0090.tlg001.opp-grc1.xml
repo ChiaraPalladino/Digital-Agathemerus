@@ -95,11 +95,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
             <refsDecl n="CTS">
                 <cRefPattern n="section" matchPattern="(.+).(.+)"
-                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])">
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2']/tei:div[@n='$3'])">
                     <p>This pointer pattern extracts sections</p>
                 </cRefPattern>
                 <cRefPattern n="chapter" matchPattern="(.+)"
-                    replacementPattern="#xpath/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])">
+                    replacementPattern="#xpath/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])">
                     <p>This pointer pattern extracts chapters</p>
                 </cRefPattern>
             </refsDecl>
