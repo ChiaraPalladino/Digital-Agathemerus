@@ -17,12 +17,5 @@
             Agathemerus, creator; Müller, Karl, of Paris, editor
         </ti:description>
     </ti:edition>
-    <ti:edition urn="urn:cts:greekLit:tlg0090.tlg001.grbs-grc1" workUrn="urn:cts:greekLit:tlg0090.tlg001">
-        <ti:label xml:lang="eng">
-            Agathemerus, Sketch of Geography
-        </ti:label>
-        <ti:description xml:lang="eng">
-            Agathemerus, creator; Diller, Aubrey, editor
-        </ti:description>
-    </ti:edition>
+   
 </ti:work>
