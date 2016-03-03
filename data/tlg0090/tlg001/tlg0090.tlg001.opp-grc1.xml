@@ -99,7 +99,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <p>This pointer pattern extracts chapters and sections</p>
                 </cRefPattern>
                 <cRefPattern n="chapter" matchPattern="(.+)"
-                    replacementPattern="#xpath/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
                     <p>This pointer pattern extracts chapters</p>
                 </cRefPattern>
             </refsDecl>
@@ -120,8 +120,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <div type="edition" n="urn:cts:greekLit:tlg0090.tlg001.opp-grc1" xml:lang="grc">                                            
-                <div type="textpart"  n="1" subtype="chapter">
-                    <div type="textpart" n="1" subtype="section">
+                <div type="textpart" subtype="chapter" n="1" >
+                    <div type="textpart" subtype="section" n="1">
                          <head> [Περὶ τῆς τῶν παλαιῶν γεωγραφίας] </head>      
                         <p> Ἀναξίμανδρος ὁ Μιλήσιος, ἀκουστὴς Θάλεω, πρῶτος ἐτόλμησε τὴν οἰκουμένην
                             ἐν πίνακι γράψαι· μεθ᾿ ὅν Ἑκαταῖος ὁ Μιλήσιος, ἀνὴρ πολυπλανὴς,
