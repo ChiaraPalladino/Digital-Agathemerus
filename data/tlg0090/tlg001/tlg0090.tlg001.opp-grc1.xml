@@ -113,13 +113,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
 
         <revisionDesc>
-            <change who="CP" when="2016-02-15">Created the XML file</change>
+            <change who="Chiara Palladino" when="2016-03-04">Made the file CTS compliant</change>
+            <change who="Chiara Palladino" when="2016-02-15">Created the XML file</change>
         </revisionDesc>
     </teiHeader>
 
     <text>
         <body>
             <div type="edition" n="urn:cts:greekLit:tlg0090.tlg001.opp-grc1" xml:lang="grc">                                            
+                <head>
+                    <title type="main">ἈΓΑΘΗΜΕΡΟΥ ΤΟΥ ὌΡΘΩΝΟΣ ΓΕΩΓΡΑΦΊΑΣ ὙΠΟΤΎΠΩΣΙΣ</title>
+                </head>
+                
                 <div type="textpart" subtype="chapter" n="1" >
                     <div type="textpart" subtype="section" n="1">
                          <head> [Περὶ τῆς τῶν παλαιῶν γεωγραφίας] </head>      
