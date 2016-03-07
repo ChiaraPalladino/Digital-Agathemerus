@@ -93,7 +93,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>The following text is encoded in accordance with EpiDoc standards and with the
                 CTS/CITE Architecture.</p>
 
-            <refsDecl n="CTS">
+         <refsDecl n="CTS">
                 <cRefPattern n="section" matchPattern="(.+).(.+)"
                     replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
                     <p>This pointer pattern extracts chapters and sections</p>
@@ -120,12 +120,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
     <text>
         <body>
-            <div type="edition" n="urn:cts:greekLit:tlg0090.tlg001.opp-grc1" xml:lang="grc">                                            
-                <head>
-                    <title type="main">ἈΓΑΘΗΜΕΡΟΥ ΤΟΥ ὌΡΘΩΝΟΣ ΓΕΩΓΡΑΦΊΑΣ ὙΠΟΤΎΠΩΣΙΣ</title>
-                </head>
-                
-                <div type="textpart" subtype="chapter" n="1" >
+            <div type="edition" n="urn:cts:greekLit:tlg0090.tlg001.opp-grc1" xml:lang="grc">           
+              <head>
+                  <title type="main">ἈΓΑΘΗΜΕΡΟΥ ΤΟΥ ὌΡΘΩΝΟΣ ΓΕΩΓΡΑΦΊΑΣ ὙΠΟΤΎΠΩΣΙΣ</title>
+              </head>
+                <div type="textpart" subtype="chapter" n="1">
                     <div type="textpart" subtype="section" n="1">
                          <head> [Περὶ τῆς τῶν παλαιῶν γεωγραφίας] </head>      
                         <p> Ἀναξίμανδρος ὁ Μιλήσιος, ἀκουστὴς Θάλεω, πρῶτος ἐτόλμησε τὴν οἰκουμένην
@@ -136,8 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             καὶ Εὔδοξος καὶ ἄλλοι τινὲς γῆς περιόδους καὶ περίπλους ἐπραγματεύσαντο.
                         </p>
                     </div>
-
- 
+      
                     <div type="textpart" subtype="section" n="2">
                         <p> Οἱ μὲν οὖν παλαιοὶ τὴν οἰκουμένην ἔγραφον στρογγύλην, μέσην δὲ κεῖσθαι
                             τὴν Ἑλλάδα, καὶ ταύτης Δελφούς· τὸν ὀμφαλὸν γὰρ ἔχειν τῆς γῆς. πρῶτος δὲ
@@ -150,8 +148,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             πλατύτερα [τὰ] πρὸς τὴν Ἰνδικήν. </p>
                     </div>
                 
-
- 
                     <div type="textpart" subtype="section" n="3">
                         <p> Ὅροι ἠπείρων· Εὐρώπης μὲν καὶ Λιβύης αἴ Ἡρακλέους στῆλαι· Λιβύης δὲ καὶ
                             Ἀσίας ὁ Νεῖλος, οἱ δὲ ἰσθμὸν τὸν ἀπὸ Σερβωνίδος λίμνης καὶ Ἀραβίου
@@ -159,8 +155,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             Κασπίας ἰσθμὸν, οἱ δὲ ὕστερον (νεώτεροι) Μαιῶτιν λίμνην καὶ Τάναϊν
                             ποταμόν. </p>
                     </div>
-        
-
+              
                     <div type="textpart" subtype="section" n="4">
                         <p> Ἐκλήθησαν δ᾿ ἤπειροι ἄπειροί τινες οὖσαι δι᾿ ἄγνοιαν· Ἀσία δὲ ἀπὸ τοῦ
                             ἆσσον εἶναι τοῖς ἀπ᾿ Εὐρώπης ἀπιοῦσι καὶ πεζῇ καὶ νήσοις στιχηδὸν
@@ -169,9 +164,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             πάνυ, ἀπὸ δὲ ἔθνους ἐπισήμου Φοινικῶς ὠνομάσθησαν [Λίβυες, τουτέστι]
                             λέοντες· Ὠκεανὸς δὲ διὰ τὸ ὠκέως ἀνύειν κύκλῳ τὴν γῆν. </p>
                     </div>
-          
-
-
+                
                     <div type="textpart" subtype="section" n="5">
                         <p> Δικαίαρχος δ᾿ ὁρίζει τὴν γῆν οὐχ ὕδασιν, ἀλλὰ τομῇ εὐθείᾳ ἀκράτῳ ἀπὸ
                             Στηλῶν διὰ Σαρδοῦς, Σικελίας, Πελοποννήσου, (Ἰωνίας,) Καρίας, Λυκίας,
@@ -195,7 +188,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             οὖν ὀκτώ. 
                         </p>
                     </div>
-         
+              
                     <div type="textpart" subtype="section" n="7">
                         <p> 
                             Τιμοσθένης δὲ, ὁ γράψας τοὺς περίπλους, δώδεκά φησι,
@@ -225,7 +218,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             σταδίων ψ&#884; ἀπὸ ἄκρας Ἰαπυγίας ἐπὶ Κεραύνια ὄρη τῆς Ἠπείρου.
                         </p>
                     </div>
-         
+           
                     <div type="textpart" subtype="section" n="9">
                         <p> 
                             Διαδέχεται τὸ Αἰγαῖον [ὁ] Ἑλλήσποντος, λήγων εἰς Ἄβυδον
@@ -244,7 +237,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             καὶ Αἰγύπτιον· ὑπὲρ δὲ τὸ Ἰκάριον ἑξῆς ἀναχεῖται τὸ Αἰγαῖον.
                         </p>
                     </div>
-      
+                
                     <div type="textpart" subtype="section" n="10">
                         <p> 
                             Ἔστι δὲ ὁ τῆς Εὐρώπης παράπλους ἀπὸ Τανάϊδος ποταμοῦ
@@ -257,7 +250,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             τὸ δὲ στόμα, ὁ Κιμμέριος Βόσπορος, σταδίων οη&#884; (οή: correxi). 
                         </p>
                     </div>
-    
+                
                     <div type="textpart" subtype="section" n="11">
                         <p> 
                             ὁ δὲ Πόντος
@@ -265,7 +258,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             ἐπὶ Σκύθας τὴν σχεδίαν, σταδίων ϛ&#884;. 
                         </p>
                     </div>
-                    
+              
                     <div type="textpart" subtype="section" n="12">
                         <p> 
                             Ἡ δὲ Περσικὴ θάλασσα
@@ -275,7 +268,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             
                         </p>
                     </div>
-         
+              
                     <div type="textpart" subtype="section" n="13">
                         <p> 
                             Ἡ δὲ Ὑρκανία ἤτοι
@@ -284,7 +277,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             σταδίους δ&#884;. 
                         </p>
                     </div>
-     
+              
                     <div type="textpart" subtype="section" n="14">
                         <p> 
                             Ὁ δὲ Ἀράβιος κόλπος, στενὸς ὢν καὶ προμήκης,
@@ -312,7 +305,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             μυρίων &#885;ϛ· ἀπὸ Ἰνδοῦ ἕως Κασπίων πυλῶν μυρίων &#885;ετ&#884;· ἐπὶ τὸν Εὐφράτην σταδίων μυρίων ν&#884;· εἰς Μυρίανδρον
                             σταδίων τοε&#884;. </p>
                     </div>
-
+               
                     <div type="textpart" subtype="section" n="16">
                         <p> Ἀπὸ δὲ Μυριάνδρου ἐπὶ Γάδειρα σταδίων δισμυρίων
                             &#885;ϛωκ&#884;, οὕτως· ἀπὸ Μυριάνδρου ἐπὶ Κλεῖδας Κύπρου στάδια &#885;αυ&#884;· ἐπὶ Ἀκάμαντα τὸ ἀκρωτήριον στάδια &#885;ατ&#884;· ἐπὶ δὲ
@@ -324,7 +317,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             ἀκρωτηρίου ἐπὶ Ἀρτάβρων λιμένα στάδιοι &#885;ζϡλβ&#884;. Ὁμοῦ γίνονται
                             μυριάδες ζ&#884; καὶ &#885;ϛυοζ&#884;. </p>
                     </div>
-           
+               
                     <div type="textpart" subtype="section" n="17">
                         <p> Καὶ ἄλλως· ἀπὸ Γάγγου ἕως Εὐφράτου
                             ποταμοῦ μυριάδες δ&#884; καὶ &#885;ατν&#884;· ἀπὸ Εὐφράτου εἰς Μάζακα
@@ -339,7 +332,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             ἕως πόλεως Ἰλλιβίρρεως [στάδια &#885;γψμζ&#884;· ἀπὸ Ἰλλιβίρρεως] διὰ τῶν πανδοκείων ἕως Γαδείρων στάδια &#885;ϛχνα&#884;, καὶ ὁ διάπλους ἐπὶ Γάδειρα στάδια ξ&#884;. Ὁμοῦ ἀπὸ Γάγγου εἰς Γάδειρα σταδίων
                             μυριάδες ζ&#884; καὶ &#885;αφξ&#884;. </p>
                     </div>
-                
+              
                     <div type="textpart" subtype="section" n="18">
                         <p> Πλάτος δὲ τῆς οἰκουμένης ἀπὸ τῆς
                             Αἰθιοπικῆς θαλάσσης ἐπὶ Μερόην σταδίων &#885;ε· ἀπὸ Μερόης εἰς Ἀλεξάνδρειαν σταδίων μυρίων· ἀπὸ δὲ Ἀλεξανδρείας ἐπὶ Τάναϊν
@@ -355,7 +348,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             ἐπὶ στόμα Πόντου στάδια βφ&#884;· ἐπὶ Κάραμβιν στάδια &#885;βω&#884;· ἐπὶ στόμα
                             Μαιώτιδος στάδια βφ&#884;· ἐπὶ Τάναϊν στάδια &#885;βσ. </p>
                     </div>
-   
+               
                     <div type="textpart" subtype="section" n="19">
                         <p>ἄλλως, ἀπὸ πόλεως
                             εἰς πόλιν· ἀπὸ Ἀλεξανδρείας εἰς Ῥόδον στάδια &#885;δχο&#884;· εἰς Κνίδον
@@ -400,20 +393,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             νῆσος Κερκινῖτις γεφύρᾳ ζευχθεῖσα, μῆκος στάδια μ&#884;, πλάτος δὲ
                             στάδια κε&#884;. </p>
                     </div>
-            
+               
                     <div type="textpart" subtype="section" n="22">
                         <p> ἀπὸ Κερκίνης ἐπὶ νῆσον Μήνιγγα τὴν Λωτοφαγῖτιν ὁ
                             διάπλους στάδια χ&#884;, ὅσον τῆς μικρᾶς Σύρτιδος λέγεται τὸ στόμα. ἡ δὲ
                             Μῆνιγξ μῆκος σταδίων σ&#884;, πλάτος σταδίων ρπ&#884;. μεγάλαι δ᾿ εἰσὶν περὶ αὐτὴν παλίρροιαι. </p>
                     </div>
-             
+               
                     <div type="textpart" subtype="section" n="23">
                         <p> Κεφαλληνία νῆσος τετράπολις μῆκος σταδίων υ&#884;.
                             εἰσὶ δὲ καὶ ἐν τῷ Ἀδρίᾳ νῆσοι παρὰ τὴν Ἰλλυρίδα, ὧν ἐπισημότεραι
                             Ἴσση καὶ ἡ Μέλαινα Κόρκυρα καὶ Φάρος καὶ Μελίτη, ὧν ἀγνοῶ τὰς
                             περιμέτρους.  </p>
                     </div>
-            
+             
                     <div type="textpart" subtype="section" n="24">
                         <p> Πελοποννήσου δὲ ὁ περίπλους καὶ τῶν κόλπων
                             συμμετρουμένων στάδια &#885;εχκζ&#884;, χωρὶς δὲ τοῦ κατακολπίσαι ὁ περίπλους
@@ -428,8 +421,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             ἀναχεῖται κόλπος, ζ&#884; σταδίων συγκλειόμενος στόματι κατὰ τὸ Ῥίον
                             ἄκρον, ὅ ἔστι τῆς Πελοποννήσου, τὸ δ᾿ Ἀντίρριον Λοκρίδος. ἀπὸ Ταινάρου ἐπὶ Φυκοῦντα Λιβύης τὸ δίαρμα στάδια &#885;γ. </p>
                     </div>
-         
-                    <div type="textpart" subtype="section" n="25">
+                                 <div type="textpart" subtype="section" n="25">
                         <p>Αἴγινα νῆσος
                             προμήκης στάδια ρξ&#884;· ἐξ ἐναντίας κεῖται τῆς Ἀττικῆς. Σαλαμὶς μῆκος
                             στάδια ο&#884;· ἡ Κεία ρκ&#884;. τῶν δὲ Κυκλάδων κρατίστη ἐστὶν ἡ Νάξος· διὸ
@@ -438,7 +430,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             ἐκ δὲ θατέρου ἐπί ποσὸν καὶ τὴn Ἀττικήν· ἔστι γὰρ μακρά, διὸ Μάκρις
                             ὠνομάσθη, μῆκος σταδίων &#885;αψ&#884;. </p>
                     </div>
-
+              
                     <div type="textpart" subtype="section" n="26">
                         <p>ἡ δὲ Κρήτη κατὰ Μαλέαν πλησιάζει
                             Πελοποννήσῳ· περίμετρος δὲ αὐτῆς σταδίων &#885;δρ&#884;, μῆκος &#885;βτ&#884;· κατὰ

@@ -116,8 +116,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
 
         <revisionDesc>
-            <change who="Chiara Palladino" when="2016-03-04">Made the file CTS compliant</change>
-            <change who="Chiara Palladino" when="2016-03-03">Created the XML file</change>
+            <change who="CP" when="2016-03-03">Created the XML file and made the file CTS compliant</change>
         </revisionDesc>
     </teiHeader>
 
@@ -166,8 +165,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </div>
 
                     <div type="textpart" subtype="section" n="4">
-                        <p> Continentes ἤπειροι appellantur quod quasi ἄπειροι, infinit&#230;, esse
-                            putabantur ob ignorationem. Asia dicta est ab ἆσσον, quod propinqua est
+                        <p> Continentes <foreign xml:lang="grc">ἤπειροι</foreign> appellantur quod quasi <foreign xml:lang="grc">ἄπειροι</foreign>, infinit&#230;, esse
+                            putabantur ob ignorationem. Asia dicta est ab <foreign xml:lang="grc">ἆσσον</foreign>, quod propinqua est
                             ex Europa in illam euntibus, sive terrestri itinere, sive navali
                             secundum insulas ex ordine sitas, quales sunt Eub&#339;a, Andros, Tenos,
                             Myconos, Icaria, Samos, Mycale. Europa dicta est a latitudine. Libya
