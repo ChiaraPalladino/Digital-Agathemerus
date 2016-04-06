@@ -1,0 +1,289 @@
+<aligned-text xmlns="http://alpheios.net/namespaces/aligned-text">
+    <language lnum="L1" xml:lang="grc"/>
+    <language lnum="L2" xml:lang="lat"/>
+    <sentence n="1">
+        <wds lnum="L1">
+            <comment class="uri"/>
+            <w n="1-1">
+                <text>ἀπὸ</text>
+                <refs nrefs="1-1"/>
+            </w>
+            <w n="1-2">
+                <text>Κερκίνης</text>
+                <refs nrefs="1-2"/>
+            </w>
+            <w n="1-3">
+                <text>ἐπὶ</text>
+                <refs nrefs="1-3"/>
+            </w>
+            <w n="1-4">
+                <text>νῆσον</text>
+                <refs nrefs="1-6"/>
+            </w>
+            <w n="1-5">
+                <text>Μήνιγγα</text>
+                <refs nrefs="1-4"/>
+            </w>
+            <w n="1-6">
+                <text>τὴν</text>
+                <refs nrefs="1-5"/>
+            </w>
+            <w n="1-7">
+                <text>Λωτοφαγίτιν</text>
+                <refs nrefs="1-5"/>
+            </w>
+            <w n="1-8">
+                <text>ὁ</text>
+                <refs nrefs="1-7"/>
+            </w>
+            <w n="1-9">
+                <text>διάπλους</text>
+                <refs nrefs="1-7"/>
+            </w>
+            <w n="1-10">
+                <text>σταδίων</text>
+                <refs nrefs="1-8"/>
+            </w>
+            <w n="1-11">
+                <text>χˊ</text>
+                <comment class="mark">600</comment>
+                <refs nrefs="1-9"/>
+            </w>
+            <w n="1-12">
+                <text>·</text>
+            </w>
+            <w n="1-13">
+                <text>ὅσον</text>
+                <refs nrefs="1-11"/>
+            </w>
+            <w n="1-14">
+                <text>τῆς</text>
+                <refs nrefs="1-15"/>
+            </w>
+            <w n="1-15">
+                <text>μικροῦ</text>
+                <refs nrefs="1-14"/>
+            </w>
+            <w n="1-16">
+                <text>Σύρτιδος</text>
+                <refs nrefs="1-15"/>
+            </w>
+            <w n="1-17">
+                <text>λέγεται</text>
+                <refs nrefs="1-16"/>
+            </w>
+            <w n="1-18">
+                <text>τὸ</text>
+                <refs nrefs="1-13"/>
+            </w>
+            <w n="1-19">
+                <text>στόμα</text>
+                <refs nrefs="1-13"/>
+            </w>
+            <w n="1-20">
+                <text>.</text>
+            </w>
+            <w n="2-1">
+                <text>ἡ</text>
+                <refs nrefs="2-1"/>
+            </w>
+            <w n="2-2">
+                <text>δὲ</text>
+            </w>
+            <w n="2-3">
+                <text>Μήνιγξ</text>
+                <refs nrefs="2-1"/>
+            </w>
+            <w n="2-4">
+                <text>μῆκος</text>
+                <refs nrefs="2-2"/>
+            </w>
+            <w n="2-5">
+                <text>σταδίων</text>
+                <refs nrefs="2-4"/>
+            </w>
+            <w n="2-6">
+                <text>χˊ</text>
+                <comment class="mark">600</comment>
+                <refs nrefs="2-5"/>
+            </w>
+            <w n="2-7">
+                <text>,</text>
+            </w>
+            <w n="2-8">
+                <text>πλάτος</text>
+                <refs nrefs="3-1"/>
+            </w>
+            <w n="2-9">
+                <text>σταδίων</text>
+                <refs nrefs="3-2"/>
+            </w>
+            <w n="2-10">
+                <text>ρπˊ</text>
+                <comment class="mark">180</comment>
+                <refs nrefs="3-3"/>
+            </w>
+            <w n="2-11">
+                <text>.</text>
+            </w>
+            <w n="3-1">
+                <text>μεγάλαι</text>
+                <refs nrefs="3-7"/>
+            </w>
+            <w n="3-2">
+                <text>δ᾿</text>
+            </w>
+            <w n="3-3">
+                <text>εἰσὶ</text>
+                <refs nrefs="3-8"/>
+            </w>
+            <w n="3-4">
+                <text>περὶ</text>
+                <refs nrefs="3-5"/>
+            </w>
+            <w n="3-5">
+                <text>αὐτὴν</text>
+                <refs nrefs="3-6"/>
+            </w>
+            <w n="3-6">
+                <text>παλίῤῥοιαι</text>
+                <refs nrefs="3-9 3-10"/>
+            </w>
+            <w n="3-7">
+                <text>.</text>
+            </w>
+        </wds>
+        <wds lnum="L2">
+            <comment class="uri"/>
+            <w n="1-1">
+                <text>ex</text>
+                <refs nrefs="1-1"/>
+            </w>
+            <w n="1-2">
+                <text>Cercina</text>
+                <refs nrefs="1-2"/>
+            </w>
+            <w n="1-3">
+                <text>in</text>
+                <refs nrefs="1-3"/>
+            </w>
+            <w n="1-4">
+                <text>Meningem</text>
+                <refs nrefs="1-5"/>
+            </w>
+            <w n="1-5">
+                <text>Lotophagitin</text>
+                <refs nrefs="1-6 1-7"/>
+            </w>
+            <w n="1-6">
+                <text>insulam</text>
+                <refs nrefs="1-4"/>
+            </w>
+            <w n="1-7">
+                <text>trajectus</text>
+                <refs nrefs="1-8 1-9"/>
+            </w>
+            <w n="1-8">
+                <text>stadiorum</text>
+                <refs nrefs="1-10"/>
+            </w>
+            <w n="1-9">
+                <text>DC</text>
+                <refs nrefs="1-11"/>
+            </w>
+            <w n="1-10">
+                <text>.</text>
+            </w>
+            <w n="1-11">
+                <text>quantum</text>
+                <refs nrefs="1-13"/>
+            </w>
+            <w n="1-12">
+                <text>etiam</text>
+            </w>
+            <w n="1-13">
+                <text>ostium</text>
+                <refs nrefs="1-18 1-19"/>
+            </w>
+            <w n="1-14">
+                <text>minoris</text>
+                <refs nrefs="1-15"/>
+            </w>
+            <w n="1-15">
+                <text>Sÿrtis</text>
+                <refs nrefs="1-14 1-16"/>
+            </w>
+            <w n="1-16">
+                <text>perhibetur</text>
+                <refs nrefs="1-17"/>
+            </w>
+            <w n="1-17">
+                <text>.</text>
+            </w>
+            <w n="2-1">
+                <text>Meninx</text>
+                <refs nrefs="2-1 2-3"/>
+            </w>
+            <w n="2-2">
+                <text>longitudinem</text>
+                <refs nrefs="2-4"/>
+            </w>
+            <w n="2-3">
+                <text>habet</text>
+            </w>
+            <w n="2-4">
+                <text>stadiorum</text>
+                <refs nrefs="2-5"/>
+            </w>
+            <w n="2-5">
+                <text>DC</text>
+                <refs nrefs="2-6"/>
+            </w>
+            <w n="2-6">
+                <text>:</text>
+            </w>
+            <w n="3-1">
+                <text>latitudinem</text>
+                <refs nrefs="2-8"/>
+            </w>
+            <w n="3-2">
+                <text>stadiorum</text>
+                <refs nrefs="2-9"/>
+            </w>
+            <w n="3-3">
+                <text>CLXXX</text>
+                <refs nrefs="2-10"/>
+            </w>
+            <w n="3-4">
+                <text>.</text>
+            </w>
+            <w n="3-5">
+                <text>circa</text>
+                <refs nrefs="3-4"/>
+            </w>
+            <w n="3-6">
+                <text>eam</text>
+                <refs nrefs="3-5"/>
+            </w>
+            <w n="3-7">
+                <text>maximi</text>
+                <refs nrefs="3-1"/>
+            </w>
+            <w n="3-8">
+                <text>sunt</text>
+                <refs nrefs="3-3"/>
+            </w>
+            <w n="3-9">
+                <text>aestus</text>
+                <refs nrefs="3-6"/>
+            </w>
+            <w n="3-10">
+                <text>maris</text>
+                <refs nrefs="3-6"/>
+            </w>
+            <w n="3-11">
+                <text>.</text>
+            </w>
+        </wds>
+    </sentence>
+</aligned-text>
