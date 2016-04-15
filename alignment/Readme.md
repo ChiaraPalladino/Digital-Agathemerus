@@ -1,1 +1,3 @@
-This folder collects manual work of textual alignment performed on Alpheios. It is a work in progress aimed at comparing mainly Greek-Latin translations. 
+This folder collects manual and automatic work of textual alignment. It is a work in progress aimed at comparing mainly Greek-Latin translations. 
+
+Automatic intra-language alignment to be added soon. 
