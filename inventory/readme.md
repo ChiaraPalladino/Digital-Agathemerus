@@ -9,7 +9,7 @@ Definitions of the inventory:
 
 - "Real" geographical space is privileged. Texts pertaining to imaginary, paradoxographic or mythological geographies, such as Homer, Apollonius Rhodius and the Paradoxographi Graeci, are not included. 
 
-- Chronology: 8th-4th century. A second part of this inventory will be devoted to texts from the V century onwards, including a larger part of the Geographi Latini Minores. 
+- Chronology: 7th-4th century. A second part of this inventory will be devoted to texts from the V century onwards, including a larger part of the Geographi Latini Minores. 
 
 - Links bring to .txt or .xml versions in downloadable format. Complete texts are also available in the Perseus GitHub repository. The links to Pelagios bring to downloadable XML TEI versions: however, it is necessary to register to Recogito in order to use them. 
 
