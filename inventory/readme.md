@@ -19,6 +19,6 @@ Definitions of the inventory:
 
 Although I am aware that "geographical" is far from being a precise definition of a genre, it is my intention to initially focus on textual instances where the density of geographical data (including number of places and descriptions) is predominant in the entire work. Therefore, I am not including works which are of large interest for the geography of the ancient world, such as Caesar's Gallic Wars and Sallust's Bellum Iugurthinum, because the proportion of their geographical material is comparatively low. However, it is my goal to add them in a further stage of the project.   
   
-The catalog is being continuously updated. Additions and corrections are welcome.   
-  
+The catalog is being continuously updated. Additions and corrections are welcome. A fancy version of the catalog can be found here: https://docs.google.com/spreadsheets/d/1aYwKi_CPx1e28Mj03oD6FsZLazOn1Kt9ZdQpiYGtvVM/edit?usp=sharing 
+
 
