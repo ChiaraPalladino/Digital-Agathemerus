@@ -5,7 +5,7 @@ This inventory contains texts of geographical interest pertaining to the Graeco-
 
 Definitions of the inventory: 
 
-- Texts are in Greek or Latin. Translations are not included. 
+- Texts are in Greek or Latin. Translations are not included: the majority of these texts, however, has translations available in Perseus. 
 
 - "Real" geographical space is privileged. Texts pertaining to imaginary, paradoxographic or mythological geographies, such as Homer, Apollonius Rhodius and the Paradoxographi Graeci, are not included. 
 
