@@ -1,4 +1,4 @@
-### Inventory of Graeco-Roman geographical texts in machine readable format 
+### Inventory of Graeco-Roman geographical texts in machine-readable format 
 #### 7th cent. BC to 4th cent. CE 
 
 This inventory contains texts of geographical interest pertaining to the Graeco-Roman world. The texts are selected according to their availability in a machine-readable format (txt or xml). 
