@@ -1,11 +1,11 @@
-### Inventory of Graeco-Roman geographical texts in machine readable format 
+### Inventory of Graeco-Roman geographical texts in machine-readable format 
 #### 7th cent. BC to 4th cent. CE 
 
 This inventory contains texts of geographical interest pertaining to the Graeco-Roman world. The texts are selected according to their availability in a machine-readable format (txt or xml). 
 
 Definitions of the inventory: 
 
-- Texts are in Greek or Latin. Translations are not included. 
+- Texts are in Greek or Latin. Translations are not included: the majority of these texts, however, has translations available in Perseus. 
 
 - "Real" geographical space is privileged. Texts pertaining to imaginary, paradoxographic or mythological geographies, such as Homer, Apollonius Rhodius and the Paradoxographi Graeci, are not included. 
 
