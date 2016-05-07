@@ -11,9 +11,11 @@ Criteria:
 
 - Chronological span: 7th-4th century. A second stage will be devoted to texts from the 5th century onwards, including a larger part of the Geographi Latini Minores. 
 
-- Links bring to .txt or .xml formats, exceptions are indicated in the table. Complete texts in raw .xml format are also available in the Perseus GitHub repository. The links to Pelagios bring to downloadable XML TEI documents: however, it is necessary to register to Recogito in order to use them. Some texts are added, which can be copypasted directly from the given link.
+- Formats: .txt or .xml, exceptions are indicated in the table (mainly texts that can be copypasted but are not directly downloadable). Complete texts in raw .xml format are also available in the Perseus GitHub repository. The links to Pelagios bring to downloadable XML TEI documents: however, it is necessary to register to Recogito in order to use them. 
 
 - Pdf, scans and images are not included. 
+
+- I am considering ONLY texts in the Public Domain or under various CC conditions. I am not considering any text provided under subscription or subject to other usage restrictions aside from Creative Commons.  
 
 ### Notes
 
