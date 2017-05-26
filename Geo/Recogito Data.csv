@@ -13,11 +13,11 @@ d29cfd3f-956d-4e47-99f2-66f3cf037686;Δαμάστης;char-offset:297;PERSON;;;
 acfe3823-ff3b-4cbe-bd4d-a92c2e80312d;Ἑκαταίου;char-offset:334;PERSON;;;;;;;;
 679527c7-ff5a-497b-9d4d-c1d788607ed1;Δημόκριτος;char-offset:378;PERSON;;;;;;;;
 6c50760d-c649-45fb-b890-3e71109099b7;Εὔδοξος;char-offset:393;PERSON;;;;;;;;
-c90fd72c-d935-4c89-ad9f-ce512ddb105f;οἰκουμένην;char-offset:487;PLACE;;;;;;UNVERIFIED;concept;#documentation: concept indicates a geographical entity with no specific location
-9d3a23a8-e7bf-497a-83ee-3f80092f6f6c;Ἑλλάδα;char-offset:540;PLACE;http://pleiades.stoa.org/places/1001896;Hellas;37.5;22.5;province;VERIFIED;region;#documentation: region marks any spatial extent on land.
+c90fd72c-d935-4c89-ad9f-ce512ddb105f;οἰκουμένην;char-offset:487;PLACE;;;;;;UNVERIFIED;concept;"#documentation: ""concept"" indicates a geographical entity with no specific location"
+9d3a23a8-e7bf-497a-83ee-3f80092f6f6c;Ἑλλάδα;char-offset:540;PLACE;http://pleiades.stoa.org/places/1001896;Hellas;37.5;22.5;province;VERIFIED;region;"#documentation: ""region"" marks any spatial extent on land."
 93ea4f83-2b1b-46e8-90a7-cc62d81db3f1;Δελφούς;char-offset:558;PLACE;http://pleiades.stoa.org/places/540726;Delphi|Delphi, Delphi;38.482289;22.501169;sanctuary,settlement;VERIFIED;settlement;#documentation: we need to decide what to do with multiple gazetteer references. for the sake of consistency, I am preferring Pleiades over other gazetteers, but multiple choices tend to affect the annotation export format.
 e2c2ac3c-eac1-4abd-9d93-3982c623630c;Δημόκριτος;char-offset:608;PERSON;;;;;;;;
-c83744fd-0fda-4205-96f9-24fbe59d6d08;Δικαίαρχος ὁ περιπατητικός;char-offset:725;PERSON;;;;;;;;#documentation: i am tagging as education references to the philosophical, religious school of individuals expressed in the form of adjectives.
+c83744fd-0fda-4205-96f9-24fbe59d6d08;Δικαίαρχος ὁ περιπατητικός;char-offset:725;PERSON;;;;;;;;"#documentation: i am tagging as ""education"" references to the philosophical, religious school of individuals expressed in the form of adjectives."
 e0fa3c05-8e12-4189-aaee-39f49e1addd2;Δικαίαρχος;char-offset:725;PERSON;;;;;;;;
 8200e58a-4a7d-4dc9-a1df-4c91c7498726;Εὔδοξος;char-offset:753;PERSON;;;;;;;;
 ac31d51a-a03c-4807-bd57-a4133f751393;Ἐρατοσθένης;char-offset:799;PERSON;;;;;;;;
@@ -36,16 +36,16 @@ c369adad-c008-4cb8-9387-1341c139a1b8;Ὅροι;char-offset:1057;PLACE;;;;;;UNVER
 38ecc735-0483-4000-8102-0d945e245b86;Ἀσίας;char-offset:1129;PLACE;http://pleiades.stoa.org/places/981509;Asia;37.5;27.5;province;VERIFIED;concept|continent;
 c84d453b-e94b-40db-b784-95049d39d9de;Νεῖλος;char-offset:1137;PLACE;http://pleiades.stoa.org/places/727172;Nilus (river);19.211408766666665;30.567329633333333;river;VERIFIED;natural feature|water mass|river;
 8337c20b-55e9-48eb-bf26-47fca89227a3;ἰσθμὸν τὸν ἀπὸ Σερβωνίδος λίμνης;char-offset:1151;PLACE;;;;;;UNVERIFIED;natural feature|isthmus;identification by relative location.
-07ea33cf-6098-403f-9618-692167aee664;Σερβωνίδος;char-offset:1166;PLACE;http://pleiades.stoa.org/places/688025;Serbonitis L.;31.25;33.25;lake;VERIFIED;natural feature|water mass|lake;#documentation: when in presence of a placename + category, i am georeferencing the placename only, unless it is a case when the category is necessary for the identification of the name as a place.|#documentation: when assigning categories to placenames explicitly referenced in a way, I am using that category despite of modern classifications.
 42d95d73-1bff-476d-bed2-c5d8127686a3;Σερβωνίδος λίμνης;char-offset:1166;;;;;;;;;testing...
-7f9524ba-1fd8-430b-bb7b-d6f9a14b4af8;Ἀραβίου
-κόλπου;char-offset:1188;PLACE;http://pleiades.stoa.org/places/39290;Arabicus Sinus/Erythr(ae)um/Rubrum Mare;19.0;39.5;water-open;VERIFIED;natural feature|water mass|gulf;
+07ea33cf-6098-403f-9618-692167aee664;Σερβωνίδος;char-offset:1166;PLACE;http://pleiades.stoa.org/places/688025;Serbonitis L.;31.25;33.25;lake;VERIFIED;natural feature|water mass|lake;#documentation: when in presence of a placename + category, i am georeferencing the placename only, unless it is a case when the category is necessary for the identification of the name as a place.|#documentation: when assigning categories to placenames explicitly referenced in a way, I am using that category despite of modern classifications.
+7f9524ba-1fd8-430b-bb7b-d6f9a14b4af8;"Ἀραβίου
+κόλπου";char-offset:1188;PLACE;http://pleiades.stoa.org/places/39290;Arabicus Sinus/Erythr(ae)um/Rubrum Mare;19.0;39.5;water-open;VERIFIED;natural feature|water mass|gulf;
 9a1bb341-1331-4695-94f2-650ed919faf7;Ἀσίας;char-offset:1204;PLACE;http://pleiades.stoa.org/places/981509;Asia;37.5;27.5;province;VERIFIED;concept|continent;
 b2052cd0-bbad-4881-8c1e-b85423f7835a;Εὐρώπης;char-offset:1217;PLACE;http://pleiades.stoa.org/places/536074;Europe;;;unlocated;VERIFIED;concept|continent;
-846fb223-c38e-41ce-abe1-b986844a677f;Φᾶσιν ποταμὸν;char-offset:1240;;;;;;;;;testing again...
 3d2dfad5-0d66-448f-a6f9-1ac53c9938d4;Φᾶσιν;char-offset:1240;PLACE;http://pleiades.stoa.org/places/874645;Phasis fl.;39.5;41.5;river;VERIFIED;natural feature|water mass|river;
-091a4459-6922-40f5-a28e-d41244af3bc7;τὸν
-ἕως Κασπίας ἰσθμόν;char-offset:1258;PLACE;;;;;;UNVERIFIED;natural feature|isthmus;
+846fb223-c38e-41ce-abe1-b986844a677f;Φᾶσιν ποταμὸν;char-offset:1240;;;;;;;;;testing again...
+091a4459-6922-40f5-a28e-d41244af3bc7;"τὸν
+ἕως Κασπίας ἰσθμόν";char-offset:1258;PLACE;;;;;;UNVERIFIED;natural feature|isthmus;
 f39ce831-1c0e-47f9-80da-8d643c4c1e35;Κασπίας;char-offset:1266;PLACE;http://pleiades.stoa.org/places/884130;Caspium/Hyrcanium Mare;42.6759567125;49.98680535;lake,water-open;VERIFIED;natural feature|water mass|sea;
 0a71971c-cb7f-4665-8fec-d7ef1437f4f2;Μαιῶτιν;char-offset:1305;PLACE;http://pleiades.stoa.org/places/825318;Maeotis;45.814417000000006;35.862586;water-open;VERIFIED;natural feature|water mass|lake;
 729353ab-30d8-43d1-8616-b08ddc5f2a02;Μαιῶτιν λίμνην;char-offset:1305;PLACE;;;;;;UNVERIFIED;;
@@ -86,8 +86,8 @@ ec65ac57-885a-4692-bde2-c3541d066bce;Ἰνδούς;char-offset:2763;PLACE;http:
 d7ff74bd-ef7f-4899-94e4-997e144bec17;Ἐρυθρὰν;char-offset:2784;PLACE;http://pleiades.stoa.org/places/39290;Arabicus Sinus/Erythr(ae)um/Rubrum Mare;19.0;39.5;water-open;VERIFIED;natural feature|water mass|sea;
 09395a99-8ea6-4eee-8c31-9ea6f113c34a;Ἐρυθρὰν θάλασσαν;char-offset:2784;PLACE;;;;;;UNVERIFIED;;
 780ceb41-5ffe-4e92-8ef4-73ac465aab60;Αἰθιοπίαν;char-offset:2805;PLACE;http://pleiades.stoa.org/places/39274;Aethiopia;14.125005;38.721522;unknown;VERIFIED;region;
-23fa857b-52a7-4d21-8b55-162d1195a2c6;τὴν ὑπὲρ Αἴγυπτον
-Αἰθιοπίαν;char-offset:2827;PLACE;http://pleiades.stoa.org/places/39274;Aethiopia;14.125005;38.721522;unknown;VERIFIED;region;
+23fa857b-52a7-4d21-8b55-162d1195a2c6;"τὴν ὑπὲρ Αἴγυπτον
+Αἰθιοπίαν";char-offset:2827;PLACE;http://pleiades.stoa.org/places/39274;Aethiopia;14.125005;38.721522;unknown;VERIFIED;region;
 e4a2f73c-1e22-432f-96c6-4dba39a6b48b;Αἴγυπτον;char-offset:2836;PLACE;http://pleiades.stoa.org/places/981503;Aegyptus;27.5;27.5;province;VERIFIED;region;
 27d27745-016b-426d-b32c-e6042f0a16d7;Αἰθιοπίαν;char-offset:2845;PLACE;;;;;;UNVERIFIED;;
 e8824424-8b07-4443-a49f-0f8bc6816cbc;τοὺς ὑπὲρ Σύρτεις Γαράμαντας;char-offset:2872;PLACE;http://pleiades.stoa.org/places/354116;Garamantes;27.5;13.5;people;VERIFIED;ethnos;
@@ -98,8 +98,8 @@ cd95a557-ebfd-4502-9185-8f293b1fc590;Μαύρους;char-offset:2936;PLACE;http
 4d1fba96-a94b-41a8-95cd-95e13c448bbd;ἀρχὰς Λιβύης;char-offset:2969;PLACE;;;;;;UNVERIFIED;;position.
 5d19ecc2-278c-42f2-a3f0-c0dc268d10a8;Λιβύης;char-offset:2975;PLACE;http://pleiades.stoa.org/places/716588;Libya;31.5;26.5;region;VERIFIED;concept|continent;
 67247534-46f8-49cc-b636-21f5b98252ce;Εὐρώπης;char-offset:2986;PLACE;http://pleiades.stoa.org/places/536074;Europe;;;unlocated;VERIFIED;concept|continent;
-0c57f07b-8a86-40df-9cb3-a39e6d109907;Ἰβηρίαν τὴν νῦν
-Ἱσπανίαν;char-offset:3009;PLACE;;;;;;UNVERIFIED;;
+0c57f07b-8a86-40df-9cb3-a39e6d109907;"Ἰβηρίαν τὴν νῦν
+Ἱσπανίαν";char-offset:3009;PLACE;;;;;;UNVERIFIED;;
 7d5bc2e9-00a2-4f87-9c1a-124a2cf59dc1;Ἰβηρίαν;char-offset:3009;PLACE;http://pleiades.stoa.org/places/1027;Hispania;42.5;-7.5;province;VERIFIED;region;
 ff9ebbf2-0457-49d7-a496-3a93e3fbec88;Ἱσπανίαν;char-offset:3025;PLACE;http://pleiades.stoa.org/places/1027;Hispania;42.5;-7.5;province;VERIFIED;region;
 7aa96ee2-f9c9-4705-b1df-1af30a9ac22f;Κελτοὺς;char-offset:3049;PLACE;http://pleiades.stoa.org/places/993;Gallia;44.730982100000006;3.5988981583333333;region;VERIFIED;ethnos;
@@ -120,8 +120,8 @@ adbc1be4-c1fe-4166-89ff-c24399c82f3e;στόμα τοῦ Ἀδρίου;char-off
 70a37fad-4baf-4d1e-b5ef-e5bef9431cac;Ἰόνιον πέλαγος;char-offset:3291;PLACE;;;;;;UNVERIFIED;;
 4a9072cc-8a97-463a-9949-1480e06a1d8e;ἄκρας Ἰαπυγίας;char-offset:3334;PLACE;http://pleiades.stoa.org/places/442763;Sallentinum/Iapygia|Sallentinum Pr./Iapygia Pr., Capo Santa Maria di Leuca;39.796261;18.368275;cape;VERIFIED;natural feature|promontory;
 cbe8c644-08a3-4484-9c14-716a3996eebe;Κεραύνια ὄρη τῆς Ἠπείρου;char-offset:3353;PLACE;;;;;;UNVERIFIED;;
-f026e216-ceee-44ca-8d3f-d17b1ffa737d;Κεραύνια ὄρη;char-offset:3353;PLACE;;;;;;UNVERIFIED;;
 4a9c7beb-fcc5-4531-942b-dce55ba5f16e;Κεραύνια;char-offset:3353;PLACE;http://pleiades.stoa.org/places/481785;Ceraunii M.|Ceraunii M., Ceraunian Mountains;40.198056;19.638889;mountain;VERIFIED;natural feature|mountain;
+f026e216-ceee-44ca-8d3f-d17b1ffa737d;Κεραύνια ὄρη;char-offset:3353;PLACE;;;;;;UNVERIFIED;;
 fbf72192-1976-4245-a05c-a5fe9e951eec;Ἠπείρου;char-offset:3370;PLACE;http://pleiades.stoa.org/places/530871;Epirus;39.577073022222216;20.590387322222224;region;VERIFIED;region;
 bec18a2a-2216-4722-b2fd-9992cd50b98f;Αἰγαῖον;char-offset:3395;PLACE;http://pleiades.stoa.org/places/560221;Aegaeum Mare;37.42245628773585;25.8829628235849;water-open;VERIFIED;natural feature|water mass|sea;
 252eec54-8f67-484d-bce6-d3f0976eba6f;Αἰγαῖον πέλαγος;char-offset:3395;PLACE;;;;;;UNVERIFIED;;
@@ -137,27 +137,27 @@ d69c11de-e110-47ee-85d2-308c1d85d2c5;Σηστόν;char-offset:3444;PLACE;http:/
 3fe8be05-e074-44ff-97e8-1215da0bacfe;Μαιῶτις λίμνη;char-offset:3552;PLACE;;;;;;UNVERIFIED;;
 24a411b9-c422-4034-9b0c-321dceaee134;Εὐρώπης;char-offset:3586;PLACE;http://pleiades.stoa.org/places/536074;Europe;;;unlocated;VERIFIED;concept|continent;
 b5e8a348-8573-431d-a03e-268fbd4f0d42;Λιβύης;char-offset:3598;PLACE;http://pleiades.stoa.org/places/716588;Libya;31.5;26.5;region;VERIFIED;concept|continent;
-c70c5d09-8e7e-459e-8f0c-b9717507601b;Ἰβηρικὸν τὸ ἀπὸ Στηλῶν;char-offset:3605;PLACE;;;;;;UNVERIFIED;;
 33f040fe-9961-4e3f-9939-98cd0c40c034;Ἰβηρικὸν;char-offset:3605;PLACE;http://pleiades.stoa.org/places/1033;Ibericum Mare;37.5;-2.5;water-open;VERIFIED;natural feature|water mass|sea;
+c70c5d09-8e7e-459e-8f0c-b9717507601b;Ἰβηρικὸν τὸ ἀπὸ Στηλῶν;char-offset:3605;PLACE;;;;;;UNVERIFIED;;
 841b1104-5bb9-425a-8f98-46699cc3cd80;Στηλῶν;char-offset:3621;PLACE;http://pleiades.stoa.org/places/275614;Columnae Herculis;35.9358335;-5.384583;cape;VERIFIED;;
 75254185-8d9b-493c-86c8-a274ad1913b5;Πυρήνην τὸ ὄρος;char-offset:3632;PLACE;;;;;;UNVERIFIED;;
 bdde5a48-62eb-427e-96f1-a4809b2e6b04;Πυρήνην;char-offset:3632;PLACE;http://pleiades.stoa.org/places/246582;Pyrenaei (mountains)|Pyrenaei Mons, Pyrenees Mts.;42.67;1.0;mountain;VERIFIED;natural feature|mountain;
 4b0fdd28-97cf-4097-b70f-061e9f34af64;Λιγυστικὸν;char-offset:3649;PLACE;http://pleiades.stoa.org/places/157878;Ligusticum Mare;43.5000002;8.9999997;water-open;VERIFIED;natural feature|water mass|sea;
-44934c18-b51b-44d9-9db7-dbdbb3b14cdc;Λιγυστικὸν δὲ τὸ ἕως τῶν τῆς Τυρρηνίας
-περάτων;char-offset:3649;PLACE;;;;;;UNVERIFIED;;
-c9b709fb-289a-4dce-9784-cf3c2baa780b;τῶν τῆς Τυρρηνίας
-περάτων;char-offset:3670;PLACE;;;;;;UNVERIFIED;;
+44934c18-b51b-44d9-9db7-dbdbb3b14cdc;"Λιγυστικὸν δὲ τὸ ἕως τῶν τῆς Τυρρηνίας
+περάτων";char-offset:3649;PLACE;;;;;;UNVERIFIED;;
+c9b709fb-289a-4dce-9784-cf3c2baa780b;"τῶν τῆς Τυρρηνίας
+περάτων";char-offset:3670;PLACE;;;;;;UNVERIFIED;;
 d62fb8bd-7d78-4797-a6bb-741b6674b047;Τυρρηνίας;char-offset:3678;PLACE;http://pleiades.stoa.org/places/413122;Etruria/Tuscia;42.42106799642196;11.754185895075311;region;VERIFIED;region;
 80629330-5fbc-4c6b-9c1f-05a0d1b8200a;Σαρδῶον;char-offset:3697;PLACE;http://pleiades.stoa.org/places/472127;Sardoum Mare;40.5;8.5;water-open;VERIFIED;natural feature|water mass|sea;
 35f2c2ca-73a7-4bd2-bb71-85a1cb4168bc;Σαρδῶον δὲ τὸ ὑπὲρ Σαρδὼ;char-offset:3697;PLACE;;;;;;UNVERIFIED;;
 bc2c884b-d1b1-4d0b-be7d-a0bbf599afc6;Σαρδὼ;char-offset:3716;PLACE;http://pleiades.stoa.org/places/472014;Sardinia (island);40.07256202831716;8.897134151294493;island;VERIFIED;natural feature|island;
 be0b0e42-642f-48fb-a116-e656fb8e9045;Λιβύην κάτω;char-offset:3733;PLACE;http://pleiades.stoa.org/places/991388;Libya Inferior;32.5;27.5;province;VERIFIED;region;
-676fa1c6-4d33-4f53-8a5d-5554d0d1410e;Τυρρηνικὸν δὲ τὸ μέχρι Σικελίας λῆγον ἀρχόμενον ἀπὸ τῶν Λιγυστικῆς
-ἄκρων;char-offset:3746;;;;;;;;;place definition: beginning and end of the Tyrrhenum mare.
+676fa1c6-4d33-4f53-8a5d-5554d0d1410e;"Τυρρηνικὸν δὲ τὸ μέχρι Σικελίας λῆγον ἀρχόμενον ἀπὸ τῶν Λιγυστικῆς
+ἄκρων";char-offset:3746;;;;;;;;;place definition: beginning and end of the Tyrrhenum mare.
 4fe0a605-3eb9-4210-b1b6-ebedb556df0e;Τυρρηνικὸν;char-offset:3746;PLACE;http://pleiades.stoa.org/places/1356;Tyrrhenum/Inferum Mare;41.664192791693274;12.054850937614777;water-open;VERIFIED;natural feature|water mass|sea;
 cb609726-8e62-4905-81e8-2b23d135d4ee;Σικελίας;char-offset:3769;PLACE;http://pleiades.stoa.org/places/462492;Sicilia (island);37.47230988464223;14.258442358012013;island;VERIFIED;natural feature|island;
-516e336d-06e4-49d9-a284-ede66036ac12;τῶν Λιγυστικῆς
-ἄκρων;char-offset:3798;PLACE;;;;;;UNVERIFIED;natural feature|promontory;
+516e336d-06e4-49d9-a284-ede66036ac12;"τῶν Λιγυστικῆς
+ἄκρων";char-offset:3798;PLACE;;;;;;UNVERIFIED;natural feature|promontory;
 182918df-6442-4f0a-abe1-0ce5e8c9c0a6;Λιγυστικῆς;char-offset:3802;PLACE;http://pleiades.stoa.org/places/383698;Liguria;44.22656549434755;9.235707726672372;region;VERIFIED;region;
 37cd6ac0-16cf-42b8-be6c-5cdeb33b8ae8;Λιβυκόν;char-offset:3825;PLACE;http://pleiades.stoa.org/places/716590;Libycum Mare;31.5;25.5;water-open;VERIFIED;natural feature|water mass|sea;
 8c605338-84ae-45d8-ac09-1e2a1af3b1c2;Κρητικὸν;char-offset:3839;PLACE;http://pleiades.stoa.org/places/589749;Creticum Mare;35.75;24.75;water-open;VERIFIED;natural feature|water mass|sea;
@@ -182,8 +182,8 @@ a20fa9d5-361b-465a-a72a-356913ed7d4c;ὑπὲρ δὲ τὸ Ἰκάριον ἑ
 f16113ae-bd8d-446a-a78c-5aa81dee3aff;Ἰκάριον;char-offset:4143;PLACE;http://pleiades.stoa.org/places/599668;Ikarion Mare;37.5;26.333333;water-open;VERIFIED;natural feature|water mass|sea;
 77fcec8e-fc8c-44fe-82ca-f5d653921634;Αἰγαῖον;char-offset:4169;PLACE;http://pleiades.stoa.org/places/560221;Aegaeum Mare;37.42245628773585;25.8829628235849;water-open;VERIFIED;natural feature|water mass|sea;
 969b95b1-67af-4cb1-ba81-c601c76eed6d;Εὐρώπης;char-offset:4194;PLACE;http://pleiades.stoa.org/places/536074;Europe;;;unlocated;VERIFIED;concept|continent;
-03fa853e-d69b-454a-b011-a9318bdc01a0;Τανάιδος ποταμοῦ;char-offset:4216;PLACE;;;;;;UNVERIFIED;;
 93065c52-bf8a-40a2-bf52-d19a094b74e0;Τανάιδος;char-offset:4216;PLACE;http://pleiades.stoa.org/places/59844;Iaxartes/Silis/Tanais fl.;45.7077742;63.5889496;river;VERIFIED;natural feature|water mass|river;
+03fa853e-d69b-454a-b011-a9318bdc01a0;Τανάιδος ποταμοῦ;char-offset:4216;PLACE;;;;;;UNVERIFIED;;
 d5338545-d194-4e5f-9c1f-0c6be87b0eab;Ἡρακλείων;char-offset:4245;PERSON;;;;;;;;
 6729505f-b2f4-4291-aba1-d78f306f93df;Ἡρακλείων στηλῶν;char-offset:4245;PLACE;http://pleiades.stoa.org/places/275614;Columnae Herculis;35.9358335;-5.384583;cape;VERIFIED;;
 1ebcd4bf-f93b-4dce-92d4-cc7535878db5;στηλῶν;char-offset:4255;PLACE;;;;;;UNVERIFIED;;
@@ -210,22 +210,22 @@ da72f19c-69cd-44bb-8e58-543f34391367;Περσικὴ;char-offset:4785;PLACE;http
 daff8891-a358-4109-a535-e73679ef64ab;Περσικὴ θάλασσα;char-offset:4785;PLACE;;;;;;UNVERIFIED;;
 1ba406ef-1731-44cc-ab61-5de10bd7b802;Καρμανίας;char-offset:4841;PLACE;http://pleiades.stoa.org/places/29517;Carmania;27.5;57.5;region;VERIFIED;region;
 ca3c6b6e-38d0-48a8-8a9f-a27db6648148;Ἀραβίας;char-offset:4855;PLACE;http://pleiades.stoa.org/places/981506;Arabia;27.5;32.5;province;VERIFIED;region;
-4788da60-2580-49d0-8d5e-ad9560a08271;τὸ μεταξὺ στόμα
-Ἀραβίας καὶ Καρμανίας;char-offset:4909;PLACE;;;;;;UNVERIFIED;natural feature;
+4788da60-2580-49d0-8d5e-ad9560a08271;"τὸ μεταξὺ στόμα
+Ἀραβίας καὶ Καρμανίας";char-offset:4909;PLACE;;;;;;UNVERIFIED;natural feature;
 d5cb0ccf-19da-426e-bba4-06110194793a;Ἀραβίας;char-offset:4925;PLACE;http://pleiades.stoa.org/places/981506;Arabia;27.5;32.5;province;VERIFIED;region;
 f99e2979-5975-498f-8a6d-b77d14e87c59;Καρμανίας;char-offset:4937;PLACE;http://pleiades.stoa.org/places/29517;Carmania;27.5;57.5;region;VERIFIED;region;
 01a99705-632a-4c4f-a89f-393b8ea917ec;Ὑρκανία;char-offset:4965;PLACE;http://pleiades.stoa.org/places/884130;Caspium/Hyrcanium Mare;42.6759567125;49.98680535;lake,water-open;VERIFIED;natural feature|water mass|sea;
-bcfb76ba-eefb-4a62-bbf3-56d49c9d8a30;Ὑρκανία ἤτοι
-Κασπία θάλασσα;char-offset:4965;PLACE;;;;;;UNVERIFIED;;
+bcfb76ba-eefb-4a62-bbf3-56d49c9d8a30;"Ὑρκανία ἤτοι
+Κασπία θάλασσα";char-offset:4965;PLACE;;;;;;UNVERIFIED;;
 9fa45f6a-8963-45f8-952b-40bc7d4fdc9a;Κασπία;char-offset:4978;PLACE;http://pleiades.stoa.org/places/884130;Caspium/Hyrcanium Mare;42.6759567125;49.98680535;lake,water-open;VERIFIED;natural feature|water mass|sea;
 ae2fa63c-9715-466a-a293-b9c48dd5e76f;Κασπία θάλασσα;char-offset:4978;PLACE;;;;;;UNVERIFIED;;
 8ca4b81c-0fd7-4527-83d9-4d1b2e711c48;Ἀράβιος κόλπος;char-offset:5113;PLACE;http://pleiades.stoa.org/places/39290;Arabicus Sinus/Erythr(ae)um/Rubrum Mare;19.0;39.5;water-open;VERIFIED;natural feature|water mass|gulf;
-b20abb2f-a58c-4af0-902c-2d2f9d1b2967;Ἡρώων πολίτου μυχοῦ;char-offset:5163;PLACE;http://pleiades.stoa.org/places/746744;Heroopoliticus Sinus;28.166667;33.45;water-open;VERIFIED;natural feature|water mass|gulf;
 ee91445d-738a-49b0-8d6c-adba1db39186;Ἡρώων πολίτου;char-offset:5163;PLACE;http://pleiades.stoa.org/places/727124;Heroonpolis|Patoumos/Pithom, Tell el-Maskhuta;30.55278;32.09944;settlement;VERIFIED;settlement;
+b20abb2f-a58c-4af0-902c-2d2f9d1b2967;Ἡρώων πολίτου μυχοῦ;char-offset:5163;PLACE;http://pleiades.stoa.org/places/746744;Heroopoliticus Sinus;28.166667;33.45;water-open;VERIFIED;natural feature|water mass|gulf;
 989776db-20d6-40c7-afd3-237a5bcaff96;Τρωγλοδυτικὴν;char-offset:5192;PLACE;http://pleiades.stoa.org/places/39435;Trogodytice;17.5;37.5;region;VERIFIED;region;
 f46b62e5-922e-45f9-87ff-1d3dd3e29cd6;Πτολεμαΐδος τῆς ἐπὶ θήρας;char-offset:5214;PLACE;http://pleiades.stoa.org/places/39409;Ptolemais Theron|Ptolemais Theron, Trinkatat;18.222236;38.184316;settlement,port;VERIFIED;settlement;
-426de158-b670-4fb4-83e9-68f3c5cae34d;τὰ δὲ  κατὰ
-Δειρὴν στενὰ;char-offset:5261;PLACE;;;;;;UNVERIFIED;natural feature;
+426de158-b670-4fb4-83e9-68f3c5cae34d;"τὰ δὲ  κατὰ
+Δειρὴν στενὰ";char-offset:5261;PLACE;;;;;;UNVERIFIED;natural feature;
 ffdab691-e93c-4861-ba3a-15ad5ef9e80b;Δειρὴν;char-offset:5273;PLACE;http://pleiades.stoa.org/places/39335;Deire|Deire, Ras Siyan;12.469263;43.322268;settlement,cape;VERIFIED;settlement;
 31cd6d22-09a2-443c-a9b3-fa2e6d82922a;Ἐρυθρὰν;char-offset:5360;PLACE;http://pleiades.stoa.org/places/39290;Arabicus Sinus/Erythr(ae)um/Rubrum Mare;19.0;39.5;water-open;VERIFIED;natural feature|water mass|sea;
 fd8aa011-9c22-44de-b20f-279d582aebdb;Ἐρυθρὰν θάλασσαν;char-offset:5360;PLACE;;;;;;UNVERIFIED;;Place category referred to the following ethnics.
@@ -280,16 +280,16 @@ ae9b9b2b-9a13-42f5-ad15-c969a2b05f7a;Τυρσηνικοῦ;char-offset:6373;PLAC
 5d9a43dd-e4af-40d8-a8d3-1b0c851b2a72;Γυμνησίας  νήσους;char-offset:6431;PLACE;;;;;;UNVERIFIED;;
 0c85949e-9872-4113-af6f-bdd33be12f61;Γυμνησίας;char-offset:6431;PLACE;http://pleiades.stoa.org/places/265817;Baliares/Gymnesiae Inss. (Maior et Minor)|Baliares Inss./Gymnesiae Inss., Islas Baleares;39.5;3.0;archipelago;VERIFIED;natural feature|island;
 02bb236a-20a3-4486-81ca-9dc49ed7d756;Γαδείρων;char-offset:6467;PLACE;http://pleiades.stoa.org/places/256177;Gadeira/Gades/Col. Augusta Gaditana|Gades/Gadeira/Col. Augusta Gaditana, Cádiz;36.528381;-6.294444;arch,theatre,townhouse,settlement;VERIFIED;settlement;
-419990c5-c64b-46f3-8271-d7d5453148e9;Ἱεροῦ
-ἀκρωτηρίου;char-offset:6483;PLACE;http://pleiades.stoa.org/places/472125;Sacrum Pr. (promontory)|Sacrum Pr., Îles Finocchiarola;42.98429;9.46911;island,cape;VERIFIED;natural feature|promontory;
+419990c5-c64b-46f3-8271-d7d5453148e9;"Ἱεροῦ
+ἀκρωτηρίου";char-offset:6483;PLACE;http://pleiades.stoa.org/places/472125;Sacrum Pr. (promontory)|Sacrum Pr., Îles Finocchiarola;42.98429;9.46911;island,cape;VERIFIED;natural feature|promontory;
 90718ff4-0025-4d59-b063-b089a7eb1d80;Ἀρτάβρων λιμένος;char-offset:6504;PLACE;http://pleiades.stoa.org/places/236344;Artabris Sinus/Megas Limen;43.5;-8.5;water-open;VERIFIED;;
 0cb872d9-707a-49a2-9838-4258b84df640;Γάγγου;char-offset:6592;PLACE;http://pleiades.stoa.org/places/59822;Ganges fl.;25.621435;86.51155633333333;river;VERIFIED;natural feature|water mass|river;
 9e7a5138-0072-4441-af01-f13125bdf0eb;Εὐφράτου;char-offset:6603;PLACE;http://pleiades.stoa.org/places/912849;Euphrates;33.82173363333333;42.27809201666667;river;VERIFIED;natural feature|water mass|river;
-723099be-2580-4a67-91c1-82bbd2cf2228;Εὐφράτου
-ποταμοῦ;char-offset:6603;PLACE;;;;;;UNVERIFIED;;
+723099be-2580-4a67-91c1-82bbd2cf2228;"Εὐφράτου
+ποταμοῦ";char-offset:6603;PLACE;;;;;;UNVERIFIED;;
 0116ba19-39bd-4c87-850c-c5de91e19714;Εὐφράτου;char-offset:6657;PLACE;http://pleiades.stoa.org/places/912849;Euphrates;33.82173363333333;42.27809201666667;river;VERIFIED;natural feature|water mass|river;
-223ca121-13f8-4386-94bd-d0be39895102;Μάζακα
-Καππαδοκῶν;char-offset:6670;PLACE;http://pleiades.stoa.org/places/629035;Mazaka/Eusebeia/Caesarea|Caesarea/Mazaka/Eusebeia, Kayseri;38.733252;35.483548;settlement;VERIFIED;settlement;
+223ca121-13f8-4386-94bd-d0be39895102;"Μάζακα
+Καππαδοκῶν";char-offset:6670;PLACE;http://pleiades.stoa.org/places/629035;Mazaka/Eusebeia/Caesarea|Caesarea/Mazaka/Eusebeia, Kayseri;38.733252;35.483548;settlement;VERIFIED;settlement;
 bef44a87-4d78-4c0a-a03f-56a7c4cd68ca;Μαζάκων;char-offset:6709;PLACE;http://pleiades.stoa.org/places/629035;Mazaka/Eusebeia/Caesarea|Caesarea/Mazaka/Eusebeia, Kayseri;38.733252;35.483548;settlement;VERIFIED;settlement;
 1328d207-185d-4604-bf02-b98c389b11ca;Φρυγίας τῆς παρορίου;char-offset:6721;PLACE;http://pleiades.stoa.org/places/982260;Phrygia Paroreius;37.5;32.5;province;VERIFIED;region;
 f76f4cd4-e05c-4db1-9905-8be5b1b5be96;μεγάλης;char-offset:6746;PLACE;;;;;;UNVERIFIED;region;
@@ -314,8 +314,8 @@ c4c94504-f456-495b-8211-ca871987e9b6;Κόρκυραν;char-offset:7008;PLACE;ht
 e7f09a44-06cd-40e7-b403-eea3476d579e;Ρώμης;char-offset:7119;PLACE;http://pleiades.stoa.org/places/423025;Roma|Roma, Roma|Rome;41.89262;12.4843457;settlement,urban;VERIFIED;settlement;
 33af0846-f7dd-4e00-899d-90b0c97ef760;Ῥώμης;char-offset:7142;PLACE;http://pleiades.stoa.org/places/423025;Roma|Roma, Roma|Rome;41.89262;12.4843457;settlement,urban;VERIFIED;settlement;
 716af796-b66a-4764-9fdc-b6fc24123e2f;Αλπεις;char-offset:7157;PLACE;http://pleiades.stoa.org/places/167636;Alpes Cottiae;44.670438;7.0288105000000005;mountain;VERIFIED;natural feature|mountain;
-2db45ecf-0b8b-4e44-924a-4b9361a2495c;Σκιγγομάγου
-κώμης;char-offset:7168;PLACE;;;;;;UNVERIFIED;region;
+2db45ecf-0b8b-4e44-924a-4b9361a2495c;"Σκιγγομάγου
+κώμης";char-offset:7168;PLACE;;;;;;UNVERIFIED;region;
 e977e165-92b7-4331-ba70-08d0755749d7;Σκιγγομάγου;char-offset:7168;PLACE;http://pleiades.stoa.org/places/167914;Scingomagus|Scingomagus, Exilles|Exilles;45.09775;6.92952;station;VERIFIED;settlement;
 4c50158f-a4e6-46c3-83a4-ec2da2efc1f2;Ἄλπεσιν;char-offset:7195;PLACE;http://pleiades.stoa.org/places/167636;Alpes Cottiae;44.670438;7.0288105000000005;mountain;VERIFIED;natural feature|mountain;
 3c5db948-a1ee-4cb1-b1b8-9d109eb3a89b;Κελτικῆς;char-offset:7232;PLACE;http://pleiades.stoa.org/places/993;Gallia;44.730982100000006;3.5988981583333333;region;VERIFIED;region;
@@ -354,8 +354,8 @@ ac681aef-5bd5-46a5-8b3c-d0b2a5064ecf;Κῴας;char-offset:7858;PLACE;http://ple
 06fd2bfb-7411-45a0-a88a-c9b12a7c11ca;Ἀρκίτιν;char-offset:7877;PLACE;http://pleiades.stoa.org/places/599477;Akrite (island)|Akrite Ins., Arkoi;37.4125411;26.7185965;island;VERIFIED;natural feature|island;
 10eac610-f9e1-48b3-9792-207397fc3521;Κορσίας;char-offset:7906;PLACE;http://pleiades.stoa.org/places/599726;Korsiai (islands)|Korsiai Inss., Phournoi;37.566667;26.5;island,archipelago;VERIFIED;natural feature|island;
 965aa977-f62f-46b9-983e-3aa48d3a8a23;Σαμίων;char-offset:7921;PLACE;http://pleiades.stoa.org/places/599926;Samos (island)|Samos Ins., Samos;37.73;26.84;island;VERIFIED;;#documentation: this and similar instances are not marked as ethnos because they do not indicate a location, but are used as attributes for other places.
-aa539bd5-a289-46f5-b9e3-bcc9cbf82594;Σαμίων
-Ἄμπελον;char-offset:7921;PLACE;;;;;;UNVERIFIED;;
+aa539bd5-a289-46f5-b9e3-bcc9cbf82594;"Σαμίων
+Ἄμπελον";char-offset:7921;PLACE;;;;;;UNVERIFIED;;
 3e77c814-3155-42d6-8692-916421d40045;Ἄμπελον;char-offset:7928;PLACE;http://pleiades.stoa.org/places/599487;Ampelos Pr.|Ampelos Pr., Aspro Kabo, Samos;37.64653;26.88089;cape;VERIFIED;;
 e0be2872-6f16-4c25-a1b4-8dc5a1aa2bb4;Αἰγαῖον;char-offset:7953;PLACE;http://pleiades.stoa.org/places/560221;Aegaeum Mare;37.42245628773585;25.8829628235849;water-open;VERIFIED;natural feature|water mass|sea;
 fc2ab71b-6e8e-40d9-86cc-67dcf7878e68;Ἄργεννον;char-offset:7961;PLACE;http://pleiades.stoa.org/places/550448;Argennon Pr.|Argennon Pr., Ak Burun;38.265;26.235;cape;VERIFIED;natural feature|promontory;
@@ -363,15 +363,15 @@ fc2ab71b-6e8e-40d9-86cc-67dcf7878e68;Ἄργεννον;char-offset:7961;PLACE;ht
 ad44eff1-d201-4711-9789-7596c018b134;Ἐρυθραῖον Κορυναῖον;char-offset:8004;PLACE;http://pleiades.stoa.org/places/550505;Corynaeum? Pr.|Corynaeum? Pr., Çolak Burnu;38.44509;26.39658;cape;VERIFIED;natural feature|promontory;
 a8bcd3a4-e91d-4d75-93bc-cbd78396ddda;Φλίον;char-offset:8039;PLACE;http://pleiades.stoa.org/places/550820;Phanai Pr.|Phanai Pr., Mastikho;38.14667;26.0125;cape;VERIFIED;natural feature|promontory;
 6ac3b7f8-927b-43a3-bad5-c39b7dbb2635;Φλίον ἄκρον;char-offset:8039;PLACE;;;;;;UNVERIFIED;;
-955a98c9-095a-4aa2-a346-aaaadfa65374;Φλίον ἄκρον
-Χίου;char-offset:8039;PLACE;;;;;;UNVERIFIED;;
+955a98c9-095a-4aa2-a346-aaaadfa65374;"Φλίον ἄκρον
+Χίου";char-offset:8039;PLACE;;;;;;UNVERIFIED;;
 dc1601ad-2155-4f24-9451-bb4b84b83bd1;Χίου;char-offset:8051;PLACE;http://pleiades.stoa.org/places/550497;Chios (island)|Chios Ins., Chios;38.414;26.053;island;VERIFIED;natural feature|island;
 18a74363-47d5-4f6e-9e26-6287f1251ed1;Μελανέα;char-offset:8070;PLACE;http://pleiades.stoa.org/places/550715;Malia Pr.|Malia Pr., Agrelias, Lesbos;39.00925;26.60745;cape;VERIFIED;natural feature|promontory;
 c6e14905-da51-4910-99a7-5554afd28fea;Μελανέα ἄκρον Λέσβου;char-offset:8070;PLACE;;;;;;UNVERIFIED;;
 6c8dc706-dfc3-4da7-9555-29dcab456d69;Λέσβου;char-offset:8084;PLACE;http://pleiades.stoa.org/places/550696;Lesbos (island)|Lesbos Ins., Lesbos;39.20874;26.10052;island;VERIFIED;natural feature|island;
 466996cc-8129-4a17-ab78-341534c5ef92;Σίγριον;char-offset:8107;PLACE;http://pleiades.stoa.org/places/550879;Sigrion Pr.|Sigrion Pr., Sigri;39.18879;25.8317;cape;VERIFIED;natural feature|promontory;
-a1967285-0aa7-4c15-aeee-76d9f71e1e92;Σίγριον
-Λέσβου;char-offset:8107;PLACE;;;;;;UNVERIFIED;;
+a1967285-0aa7-4c15-aeee-76d9f71e1e92;"Σίγριον
+Λέσβου";char-offset:8107;PLACE;;;;;;UNVERIFIED;;
 15ce8d15-86c3-40b3-9d84-6cdd7f3a51c2;Λέσβου;char-offset:8115;PLACE;http://pleiades.stoa.org/places/550696;Lesbos (island)|Lesbos Ins., Lesbos;39.20874;26.10052;island;VERIFIED;natural feature|island;
 dd371f72-5554-4b52-8a93-d76d6ef5e7c4;Τένεδον;char-offset:8136;PLACE;http://pleiades.stoa.org/places/550912;Tenedos (island)|Tenedos Ins., Bozcaada;39.816667;26.05;island;VERIFIED;natural feature|island;
 aab2633c-0dca-41d2-88a1-a53e6c5b3018;Τένεδον νῆσον;char-offset:8136;PLACE;;;;;;UNVERIFIED;;
@@ -379,8 +379,8 @@ aab2633c-0dca-41d2-88a1-a53e6c5b3018;Τένεδον νῆσον;char-offset:813
 b8074f67-b9ed-45fc-b724-bb6251c5dcd9;στόμα Πόντου;char-offset:8187;PLACE;;;;;;UNVERIFIED;;
 6236189c-68a0-41e9-b3b9-e18d4ef46f30;Πόντου;char-offset:8193;PLACE;http://pleiades.stoa.org/places/1224;Pontus Euxinus;43.0786852;34.7425505;water-open;VERIFIED;natural feature|water mass;
 c646a81b-5d09-4b91-b28c-60dc2847a2ae;Κάραμβιν;char-offset:8216;PLACE;http://pleiades.stoa.org/places/844971;Karambis|Karambis Pr., Kerembe burnu;42.016667;33.35;cape;VERIFIED;natural feature|promontory;
-86fde57b-a0fb-4043-be53-0e88f6753cf2;στόμα
-Μαιώτιδος;char-offset:8241;PLACE;;;;;;UNVERIFIED;natural feature;
+86fde57b-a0fb-4043-be53-0e88f6753cf2;"στόμα
+Μαιώτιδος";char-offset:8241;PLACE;;;;;;UNVERIFIED;natural feature;
 75a54d92-f29d-41b6-8f22-cdba9958288d;Μαιώτιδος;char-offset:8247;PLACE;http://pleiades.stoa.org/places/825318;Maeotis;45.814417000000006;35.862586;water-open;VERIFIED;natural feature|water mass|lake;
 b163048b-8acd-4827-a1d3-52d8f44a9c1f;Τάναϊν;char-offset:8273;PLACE;http://pleiades.stoa.org/places/59844;Iaxartes/Silis/Tanais fl.;45.7077742;63.5889496;river;VERIFIED;natural feature|water mass|river;
 5d1598a5-9342-4e09-8acb-4891aa1f57d4;πόλεως;char-offset:8305;PLACE;;;;;;UNVERIFIED;settlement;
@@ -394,32 +394,32 @@ de2371b4-b39a-49a0-a610-989198a1a2a7;Χίον;char-offset:8425;PLACE;http://ple
 f9901b77-052f-42a8-ae78-ea33303ea238;Μιτυλήνην;char-offset:8445;PLACE;http://pleiades.stoa.org/places/550763;Mytilene|Mytilene, Mitiline;39.110475;26.547048;settlement,aqueduct;VERIFIED;settlement;
 0dcc7f4f-f60b-43c1-945e-b2235eaacfa8;Τένεδον;char-offset:8470;PLACE;http://pleiades.stoa.org/places/550912;Tenedos (island)|Tenedos Ins., Bozcaada;39.816667;26.05;island;VERIFIED;natural feature|island;
 5dc5e273-b0f1-47ea-aefd-d624a1991e0e;Σίγειον;char-offset:8487;PLACE;http://pleiades.stoa.org/places/550878;Sigeion Pr.|Sigeion Pr., Kumkale;40.00867;26.19813;cape;VERIFIED;natural feature|promontory;
-4d115c93-f09c-4c1d-971e-97da2bcbbcb6;στόμα
-Πόντου;char-offset:8505;PLACE;;;;;;UNVERIFIED;natural feature;
+4d115c93-f09c-4c1d-971e-97da2bcbbcb6;"στόμα
+Πόντου";char-offset:8505;PLACE;;;;;;UNVERIFIED;natural feature;
 cab9c36c-cd6c-4401-8a9c-f990fa38dbd1;Πόντου;char-offset:8511;PLACE;http://pleiades.stoa.org/places/1224;Pontus Euxinus;43.0786852;34.7425505;water-open;VERIFIED;natural feature|water mass;
 805cdde3-ee02-48f9-98ef-963549a41071;Κάραμβιν;char-offset:8527;PLACE;http://pleiades.stoa.org/places/844971;Karambis|Karambis Pr., Kerembe burnu;42.016667;33.35;cape;VERIFIED;natural feature|promontory;
 78107cbd-c90d-43a7-8704-7dc4c53231f1;στόμα Μαιώτιδος;char-offset:8545;PLACE;;;;;;UNVERIFIED;natural feature;
 91a5a9da-2115-44c8-8865-ec55a291e557;Μαιώτιδος;char-offset:8551;PLACE;http://pleiades.stoa.org/places/825318;Maeotis;45.814417000000006;35.862586;water-open;VERIFIED;natural feature|water mass|lake;
 0daa2ced-89f4-4731-98db-18af4eca71b2;Τάναϊν;char-offset:8570;PLACE;http://pleiades.stoa.org/places/59844;Iaxartes/Silis/Tanais fl.;45.7077742;63.5889496;river;VERIFIED;natural feature|water mass|river;
-a039a810-7f67-4f9a-8332-4f52b6828f0c;Τάναϊν
-ποταμὸν;char-offset:8570;PLACE;;;;;;UNVERIFIED;;
+a039a810-7f67-4f9a-8332-4f52b6828f0c;"Τάναϊν
+ποταμὸν";char-offset:8570;PLACE;;;;;;UNVERIFIED;;
 2a1d2d21-d096-4962-a56b-fb72dea014a9;Ἀλεξανδρείας;char-offset:8600;PLACE;http://pleiades.stoa.org/places/727070;Alexandria|Alexandria, Alexandria;31.195371;29.904133;cemetery,temple-2,architecturalcomplex,theatre,port,settlement;VERIFIED;settlement;
 9b46b2f7-a92d-4470-a66f-b8b6edf95518;Τανάιδος;char-offset:8617;PLACE;http://pleiades.stoa.org/places/59844;Iaxartes/Silis/Tanais fl.;45.7077742;63.5889496;river;VERIFIED;natural feature|water mass|river;
 a42c0ca7-4eab-4490-9450-e43e9316ec8a;Ἀρτεμιδώρου;char-offset:8717;PERSON;;;;;;;;
 582734f7-37bc-4161-bcc7-c1457023b768;Μενίππου;char-offset:8734;PERSON;;;;;;;;
 407de737-733c-4477-b006-1231ee7699d0;Γάδειρα;char-offset:8766;PLACE;http://pleiades.stoa.org/places/256177;Gadeira/Gades/Col. Augusta Gaditana|Gades/Gadeira/Col. Augusta Gaditana, Cádiz;36.528381;-6.294444;arch,theatre,townhouse,settlement;VERIFIED;settlement;
-601d1c5f-8c95-4156-bf15-039006805ae3;῾Ηρακλείους
-στήλας;char-offset:8821;PLACE;http://pleiades.stoa.org/places/275614;Columnae Herculis;35.9358335;-5.384583;cape;VERIFIED;;
+601d1c5f-8c95-4156-bf15-039006805ae3;"῾Ηρακλείους
+στήλας";char-offset:8821;PLACE;http://pleiades.stoa.org/places/275614;Columnae Herculis;35.9358335;-5.384583;cape;VERIFIED;;
 0d294be1-721c-4e63-ad9a-f35dc2b5f66f;στήλας;char-offset:8833;PLACE;;;;;;UNVERIFIED;;
 849a7888-e1c0-41c9-83f7-bdcbb9415ada;Ἰβηρικῷ;char-offset:8885;PLACE;http://pleiades.stoa.org/places/246419;Hispanum/(H)Ibericum Mare;40.0000001;1.9999999;water-open;VERIFIED;natural feature|water mass|sea;
-5dd25c64-c2fd-4d3f-b518-00f75b79dd45;Ἰβηρικῷ
-πελάγει;char-offset:8885;PLACE;;;;;;UNVERIFIED;;
+5dd25c64-c2fd-4d3f-b518-00f75b79dd45;"Ἰβηρικῷ
+πελάγει";char-offset:8885;PLACE;;;;;;UNVERIFIED;;
 70500197-97a2-4057-bf61-93529d0a6f17;νῆσοι Πιτυοῦσσαι;char-offset:8901;PLACE;;;;;;UNVERIFIED;;
 c13ecf8b-d0a3-4ee9-8120-ddd61b0a014d;Πιτυοῦσσαι;char-offset:8907;PLACE;http://pleiades.stoa.org/places/266001;Pityussae Inss.;39.36121435;1.4532148999999999;archipelago;VERIFIED;natural feature|island;
 0ed3918b-36ab-42a8-86fe-a34f150759f5;ἡ μείζων;char-offset:8918;PLACE;;;;;;UNVERIFIED;natural feature|island;
 67adedcd-2493-4762-87b8-6cec37a651b5;ἡ δὲ ἐλάττων;char-offset:8958;PLACE;;;;;;UNVERIFIED;natural feature|island;
-0e4292bc-a545-42e5-9265-96d8ba44b7c3;Γυμνασίων ἃς Καρχηδόνιοι Βαλιαρίας
-καλοῦσιν;char-offset:8989;PLACE;;;;;;UNVERIFIED;;
+0e4292bc-a545-42e5-9265-96d8ba44b7c3;"Γυμνασίων ἃς Καρχηδόνιοι Βαλιαρίας
+καλοῦσιν";char-offset:8989;PLACE;;;;;;UNVERIFIED;;
 e8a412d8-c566-4b17-bc10-3be18d5a46e2;Γυμνασίων;char-offset:8989;PLACE;http://pleiades.stoa.org/places/265817;Baliares/Gymnesiae Inss. (Maior et Minor)|Baliares Inss./Gymnesiae Inss., Islas Baleares;39.5;3.0;archipelago;VERIFIED;natural feature|island;
 eb2216de-0f5e-46f1-a9a1-0094e229bf37;Καρχηδόνιοι;char-offset:9002;PLACE;;;;;;UNVERIFIED;;
 b19c2ddd-0358-4360-b506-99eb97104294;Βαλιαρίας;char-offset:9014;PLACE;http://pleiades.stoa.org/places/265817;Baliares/Gymnesiae Inss. (Maior et Minor)|Baliares Inss./Gymnesiae Inss., Islas Baleares;39.5;3.0;archipelago;VERIFIED;natural feature|island;
@@ -427,8 +427,8 @@ b19c2ddd-0358-4360-b506-99eb97104294;Βαλιαρίας;char-offset:9014;PLACE;
 fbbde8c3-434f-4462-96b2-9829d24406a3;ἡ μείζων;char-offset:9082;PLACE;;;;;;UNVERIFIED;natural feature|island;
 d0e80612-6067-4dcc-80d2-2dbef8b9a124;ἡ ἐλάττων;char-offset:9128;PLACE;;;;;;UNVERIFIED;natural feature|island;
 2284805b-ec40-45ca-9af1-a8d01862aa33;Στοιχάδες;char-offset:9156;PLACE;http://pleiades.stoa.org/places/157929;Stoechades (islands);43.009435425;6.3633469;island,archipelago;VERIFIED;natural feature|island;
-13f059c8-f11b-4ef0-8554-2a5652f932b0;Μασσαλιακῶν
-πόλεων;char-offset:9212;PLACE;;;;;;UNVERIFIED;;
+13f059c8-f11b-4ef0-8554-2a5652f932b0;"Μασσαλιακῶν
+πόλεων";char-offset:9212;PLACE;;;;;;UNVERIFIED;;
 cbf3a4e8-41d4-491d-a1e0-b7da3061bc31;Μασσαλιακῶν;char-offset:9212;PLACE;;;;;;UNVERIFIED;settlement;
 2da0f312-8ddd-41b2-ba19-c89b1d5c0924;αἱ μὲν μείζους τρεῖς;char-offset:9231;PLACE;;;;;;UNVERIFIED;natural feature|island;
 5f6a2361-c6b5-4459-aefb-3b49d3c6c960;δύο δὲ μικραὶ;char-offset:9252;PLACE;;;;;;UNVERIFIED;natural feature|island;
@@ -487,8 +487,8 @@ b00faf5a-cbb6-4498-bb1a-a5db68de7824;Μαλέας;char-offset:10651;PLACE;http:
 8a80d2eb-102b-4b7d-b072-4e4d0e63ef33;Αἰγίου;char-offset:10662;PLACE;http://pleiades.stoa.org/places/570049;Aigion|Aigion, Aigio;38.252707;22.081952;settlement;VERIFIED;;
 8539a57b-6fcd-4f53-afcc-8cdce19c2314;κόλποις;char-offset:10717;PLACE;;;;;;UNVERIFIED;natural feature|water mass|gulf;
 0da80c78-6761-4e92-88f4-d003cfeed73b;Κορινθίων ἰσθμὸν;char-offset:10768;PLACE;http://pleiades.stoa.org/places/570317;Isthmos;37.9510881;22.9602226;isthmus;VERIFIED;natural feature|isthmus;
-ab575aa5-0178-4ea0-9bc8-27285d682001;Κορινθίου
-κόλπου;char-offset:10810;PLACE;;;;;;UNVERIFIED;;
+ab575aa5-0178-4ea0-9bc8-27285d682001;"Κορινθίου
+κόλπου";char-offset:10810;PLACE;;;;;;UNVERIFIED;;
 89146b8d-ecdb-4fb8-afbe-8759767b9674;Κορινθίου;char-offset:10810;PLACE;http://pleiades.stoa.org/places/570181;Corinthiacus Sinus;38.175407050000004;22.395744800000003;water-open;VERIFIED;natural feature|water mass|gulf;
 f615c290-7721-42cf-8490-9db29594237d;Σαρωνικοῦ;char-offset:10831;PLACE;http://pleiades.stoa.org/places/570654;Saronicus Sinus;37.77606943333334;23.46300815833333;water-open;VERIFIED;natural feature|water mass|gulf;
 bb20b4a8-64f9-483b-9e29-42826cbf855b;Σκύλλαιον ἄκρον;char-offset:10849;PLACE;;;;;;UNVERIFIED;;
@@ -496,8 +496,8 @@ bb20b4a8-64f9-483b-9e29-42826cbf855b;Σκύλλαιον ἄκρον;char-offset
 e50a740d-5dce-4d4a-a4df-d6029f86296e;νῆσος  Καλαυρία;char-offset:10893;PLACE;;;;;;UNVERIFIED;;
 d2cf70e4-26b0-4396-a5e6-bb5cc0564968;Καλαυρία;char-offset:10900;PLACE;http://pleiades.stoa.org/places/570325;Kalaureia Ins.|Poseidon, Agios Nektarios, Poros|Kalaureia Ins., Poros;37.52255;23.48041;island;VERIFIED;natural feature|island;
 7e144cb2-d8bf-4e6e-9f3b-0fdbfa2140b3;Ἀργολικὸς;char-offset:10936;PLACE;http://pleiades.stoa.org/places/570103;Argolicus Sinus;37.500864;22.728648;water-open;VERIFIED;natural feature|water mass|gulf;
-17c14171-2c05-4979-a21d-f2381d80b9c9;Ἀργολικὸς
-κόλπος;char-offset:10936;PLACE;;;;;;UNVERIFIED;;
+17c14171-2c05-4979-a21d-f2381d80b9c9;"Ἀργολικὸς
+κόλπος";char-offset:10936;PLACE;;;;;;UNVERIFIED;;
 dd686071-89ab-4120-8336-64f3b89632ae;Μαλέας ἄκρου;char-offset:10959;PLACE;;;;;;UNVERIFIED;;
 1cb3dd92-7a03-4c1a-af01-0922a3e91bbf;Μαλέας;char-offset:10959;PLACE;http://pleiades.stoa.org/places/570455;Malea Pr.|Malea Pr., Akr. Maleas;36.43603;23.19975;cape;VERIFIED;natural feature|promontory;
 6f623691-3a34-4f79-ad59-0c96cba9ed56;πέλαγος;char-offset:10995;PLACE;;;;;;UNVERIFIED;natural feature|water mass|sea;
@@ -508,12 +508,12 @@ f957771a-0b9f-4fb9-a436-707b247a8998;Λακωνικὸς κόλπος;char-offs
 ec48eb0f-f02f-4890-b1a6-e128e3eb2ac5;Λακωνικὸς;char-offset:11050;PLACE;http://pleiades.stoa.org/places/570407;Laconicus Sinus;36.66;22.71;water-open;VERIFIED;natural feature|water mass|gulf;
 4e1e981b-a9f0-4aaa-a75b-7ea103c1fdae;Ταινάρου;char-offset:11071;PLACE;http://pleiades.stoa.org/places/570703;Tainaron Pr.|Tainaron Pr., Akr. Tainaron;36.3856534;22.4831905;cape;VERIFIED;natural feature|promontory;
 e422f106-9a0c-4e57-afe7-eac8a4ed83d8;Μεσσηνιακόν;char-offset:11120;PLACE;http://pleiades.stoa.org/places/570123;Asinaeus/Coronaeus Sinus;36.75;22.25;water-open;VERIFIED;natural feature|water mass|gulf;
-447846c7-a22c-4a1e-b22e-030a78332aa7;Μεσσηνιακόν
-κόλπον;char-offset:11120;PLACE;;;;;;UNVERIFIED;;
+447846c7-a22c-4a1e-b22e-030a78332aa7;"Μεσσηνιακόν
+κόλπον";char-offset:11120;PLACE;;;;;;UNVERIFIED;;
 2ed26d25-205d-4fa3-a42e-440947aa0cca;Ἀκρίτας;char-offset:11152;PLACE;http://pleiades.stoa.org/places/570057;Ak(r)itas Pr.|Akritas Pr./Akitas Pr., Cape Akritas;36.72016;21.8764;cape;VERIFIED;natural feature|promontory;
 d2de2545-6e8c-4acd-b11a-ce46bc92d514;Ἀκρίτας ἄκρα;char-offset:11152;PLACE;;;;;;UNVERIFIED;;
-e94a6461-50ee-40ae-81be-06bf402c2f46;ἄκρον
-Ἰχθὺς;char-offset:11184;PLACE;;;;;;UNVERIFIED;;
+e94a6461-50ee-40ae-81be-06bf402c2f46;"ἄκρον
+Ἰχθὺς";char-offset:11184;PLACE;;;;;;UNVERIFIED;;
 fde4c00d-677d-45d8-b63d-7740f01c4316;Ἰχθὺς;char-offset:11190;PLACE;http://pleiades.stoa.org/places/570310;Ichthys Pr.|Ichthys Pr., Akr. Katakolon;37.63163;21.3114;cape;VERIFIED;natural feature|promontory;
 116d26c9-b39a-45ff-baad-96d12ccccb54;Ζάκυνθος;char-offset:11211;PLACE;http://pleiades.stoa.org/places/531155;Zacynthus (island)|Zacynthus Ins., Zakynthos;37.77;20.76;island;VERIFIED;natural feature|island;
 7909144d-d5e7-45b9-bd89-b503351a50af;Χελωνάτας;char-offset:11234;PLACE;http://pleiades.stoa.org/places/570174;Chelonatas Pr.|Chelonatas Pr., Akr. Kyllinis;37.93748;21.12557;cape;VERIFIED;natural feature|promontory;
@@ -522,9 +522,9 @@ a4edeb39-d45d-42f9-a15f-09e31cfe46dd;Ἄραξος;char-offset:11265;PLACE;http:
 ff686d64-c9bc-4006-8526-b3c3fe054415;Ἀκαρνανίᾳ;char-offset:11285;PLACE;http://pleiades.stoa.org/places/530767;Acarnania;38.6722238;21.318433766666665;unknown;VERIFIED;region;
 f98f4d48-3052-4fce-8ccd-4c8224c3c3eb;Κορινθιακὸς;char-offset:11307;PLACE;http://pleiades.stoa.org/places/570181;Corinthiacus Sinus;38.175407050000004;22.395744800000003;water-open;VERIFIED;natural feature|water mass|gulf;
 e44e47cb-a998-4992-b679-188bbc058f58;κόλπος;char-offset:11329;PLACE;;;;;;UNVERIFIED;;
+4ef52abb-8b02-4402-87d4-b623e9e64936;"῾Ρίον
+ἄκρον";char-offset:11376;PLACE;;;;;;UNVERIFIED;;
 792be495-55ce-4bc5-8b02-3bf4a62e08b6;῾Ρίον;char-offset:11376;PLACE;http://pleiades.stoa.org/places/570646;Rhion Pr.|Rhion Pr., Rion;38.3099987;21.7850004;cape;VERIFIED;natural feature|promontory;
-4ef52abb-8b02-4402-87d4-b623e9e64936;῾Ρίον
-ἄκρον;char-offset:11376;PLACE;;;;;;UNVERIFIED;;
 3a3c8a39-aba3-4db4-900c-a41d6d6e5f5a;Πελοποννήσου;char-offset:11399;PLACE;http://pleiades.stoa.org/places/570577;Peloponnesus/Peloponnesos/Peloponnese;37.25289777692308;22.312752688461543;peninsula,region;VERIFIED;natural feature;
 da49226b-71b5-4243-b731-7b4e16ba38c7;Ἀντίριον;char-offset:11418;PLACE;http://pleiades.stoa.org/places/540643;Antirrhion Pr.|Antirrhion Pr., Antirrhion;38.327;21.7658;cape;VERIFIED;natural feature|promontory;
 a4839684-f4a9-40ec-b090-80de879b8553;Ἀντίριον Λοκρίδος;char-offset:11418;PLACE;http://pleiades.stoa.org/places/540643;Antirrhion Pr.|Antirrhion Pr., Antirrhion;38.327;21.7658;cape;VERIFIED;;
