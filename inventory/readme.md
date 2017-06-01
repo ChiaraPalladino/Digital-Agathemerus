@@ -17,7 +17,7 @@
 
 - Language: texts are in Greek or Latin. Translations are not included: most of them, however, have translations available in the same repository. 
 
-- "Real" geographical space is privileged. Texts pertaining to imaginary, paradoxographic or mythological geographies, such as Homer, Apollonius Rhodius and the Paradoxographi Graeci, are not included. 
+- "Real" geographical space is privileged. Texts pertaining to imaginary or mythological geographies, such as Homer and Apollonius Rhodius, are not included. 
 
 - Chronological span: 7th BC- end of the 5th century CE. A second stage will be devoted to texts from the 6th century onwards, including a larger part of the Geographi Latini Minores. 
 
