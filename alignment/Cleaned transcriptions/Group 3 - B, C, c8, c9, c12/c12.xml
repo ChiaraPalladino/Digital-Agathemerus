@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+<?xml-stylesheet type="text/xsl" href="../../../Digital/Work%20in%20Progress/Epidoc%20Stylesheets%20-%208.23/start-edition.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="parisinus2857_gr"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <!-- id of the manuscript or print edition -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="lat">Geographiae Informatio</title>
+                <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+                    >Agathemerus</author>
+                <author role="editor"/>
+                <author role="translator"/>
+                <sponsor>University of Leipzig</sponsor>
+                <sponsor>Università degli Studi di Bari Aldo Moro</sponsor>
+                <respStmt>
+                    <persName xml:id="CP">Chiara Palladino</persName>
+                    <resp>Editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Pasquale Massimo Pinto</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">parisinus2857_gr.xml</idno>
+                <!-- has to be the same name declared in the xml:id above -->
+                <authority>University of Leipzig</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2017</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl>
+
+                    <msDesc>
+                        <msIdentifier xml:id="c12">
+                            <settlement>Paris</settlement>
+                            <repository>Bibliothèque Nationale</repository>
+                            <collection>Grec</collection>
+                            <idno>Parisinus Graecus 2857</idno>
+
+                            <altIdentifier type="editor">
+                                <idno>G</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+
+                        <msContents>
+
+
+                            <msItem n="1">
+                                <locus>ff. 1-70 v.</locus>
+                                <author>Eusthatius</author>
+                                <title xml:lang="lat">Commentarius in Dionysii Alexandrini orbis
+                                    descriptionem</title>
+                            </msItem>
+                            <msItem n="2">
+                                <locus>ff. 71rv</locus>
+                                <author>Agathemerus</author>
+                                <title xml:lang="lat">Geographiae Informatio</title>
+                                <note>incomplete, added by second hand</note>
+                            </msItem>
+                            <msItem n="3">
+                                <locusGrp>
+                                    <locus>ff. 73-89</locus>
+                                    <locus>ff. 90-92</locus>
+                                </locusGrp>
+                                <author>Polybius</author>
+                                <title xml:lang="lat">Comparatio Romanorum et Macedonum exercituum,
+                                    e Polybii lib. XVIII</title>
+                                <note>Excerpta from Polybius, ff. 90-92 added by later hand</note>
+                            </msItem>
+                        </msContents>
+
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc material="paper">
+
+
+                                    <extent>
+                                        <measure type="composition" unit="leaf">92</measure>
+                                        <dimensions/>
+                                    </extent>
+                                    <collation>
+                                        <p/>
+                                    </collation>
+                                </supportDesc>
+
+                            </objectDesc>
+
+                            <handDesc hands="3">
+                                <handNote xml:id="M1" scope="major">Angelus Vergetius</handNote>
+                                <handNote xml:id="M2" scope="minor">Other copyist, mainly correcting
+                                    the texts and adding Agathemerus</handNote>
+                                <handNote xml:id="M3" scope="minor">Later hand, copied ff.
+                                    90-92</handNote>
+                            </handDesc>
+                        </physDesc>
+
+                        <history>
+
+                            <origin>
+                                <origPlace>Royal Bibliothéque de Fontainebleau</origPlace>
+                                <origDate>16th century</origDate>
+                            </origin>
+
+                            <acquisition/>
+
+                        </history>
+
+                    </msDesc>
+
+
+
+                </listBibl>
+                <!-- 
+                <bibl>
+                    <ref target="http://gallica.bnf.fr/ark:/12148/btv1b107229060"
+                        >Gallica.BnF</ref>
+                </bibl> -->
+
+
+            </sourceDesc>
+
+        </fileDesc>
+        <xi:include href="file:/Users/Chiara/Dropbox/AGATEMERO/Manuscripts/Glyphs/glyphs.xml"/>
+        <encodingDesc>
+            <projectDesc>
+                <ab>
+                    <title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>
+                </ab>
+            </projectDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+            <!--
+				
+			<refsDecl n="CTS">
+				<cRefPattern n="section" matchPattern="(.+).(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+					<p>This pointer pattern extracts chapters and sections</p>
+				</cRefPattern>
+				<cRefPattern n="chapter" matchPattern="(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+					<p>This pointer pattern extracts chapters</p>
+				</cRefPattern>
+			</refsDecl>
+			-->
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="lat">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="Chiara Palladino" when="2017-08-15">Created the XML file</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+
+
+            <div type="edition" subtype="transcription" xml:lang="grc">
+                <head>ἀγαθημέρου τοῦ ὄθωνος γεωγραφίας ὑποτύπωσις</head>
+                <div type="textpart" subtype="chapter" n="1">
+                    <div type="textpart" subtype="section" n="1">
+
+                        <p>ἀναξίμανδρος ὁ μιλήσιος ἀκουστὴς
+                            θάλεω πρῶτος ἐτόλμησε τὴν οἰκουμένην ἐν πίνακι γράψαι μεθ᾿ ὃν ἑκαταῖος
+                            ὁ μιλήσιος ἀνὴρ πολυπλανὴς διηκρίβωσεν ὥστε θαυμασθῆναι τὸ πρᾶγμα
+                            ἑλλάνικος γὰρ ὁ λέσβιος ἀνὴρ πολυίστωρ ἀπλάστως παρέδωκε τὴν ἱστορίαν
+                            εἶτα δαμάστης ὁ κητιεὺς τὰ πλεῖστα ἐκ τῶν ἑκαταίου μεταγράψας περίπλουν
+                            ἔγραψεν ἑξῆς δημόκριτος καὶ εὔδοξος καὶ ἄλλοί τινες γῆς περιόδους καὶ
+                            περίπλους ἐπραγματεύσαντο</p>
+                    </div>
+
+
+                    <div type="textpart" subtype="section" n="2">
+
+                        <p>οἱ μὲν οὖν παλαιοὶ τὴν οἰκουμένην
+                            ἔγραφον στρογγύλην μέσην δ᾿ ἡγεῖσθαι τὴν ἑλλάδα καὶ ταύτης δελφούς
+                            τὸν ὀμφαλὸν γὰρ ἔχειν τῆς γῆς πρῶτος δὲ δημόκριτος πολύπειρος ἀνὴρ
+                            συνεῖδεν ὅτι προμήκης ἐστὶν ἡ γῆ ἡμιόλιος τὸ μῆκος τοῦ πλάτους ἔχουσα
+                            συνάγεται τούτῳ καὶ δικαίαρχος ὁ περιπατητικός</p>
+                    </div>
+                    
+                    
+                    <div type="textpart" subtype="section" n="2a">
+                        
+                        <p>εὔδοξος δὲ τὸ μῆκος
+                            διπλοῦν τοῦ πλάτους ὁ δὲ ἐρατοσθένης πλέων τοῦ διπλοῦ κράτης δὲ ὡς
+                            ἡμικύκλιον ἵππαρχος δὲ τραπεζοειδῆ ἄλλοι οὐροειδῆ ποσειδώνιος δ᾿ ὁ
+                            στωϊκὸς σφενδονοειδῆ καὶ μεσόπλατον ἀπὸ νότου εἰς βορρᾶν στενὴν πρὸς
+                            ἕω καὶ δύσιν τὰ πρὸς εὖρον δὲ πλατύτερα πρὸς τὴν ἰνδικήν</p>
+                    </div>
+
+
+
+                    <div type="textpart" subtype="section" n="3">
+                        <p>ὅροι ἠπείρων εὐρώπης μὲν καὶ
+                            λιβύης αἱ ἡρακλέους στῆλαι λιβύης δὲ καὶ ἀσίας ὁ νεῖλος οἱ δὲ ἰσθμὸν
+                            τὸν ἀπὸ σαρβωνίδος λίμνης καὶ ἀραβίου κόλπου ἀσίας δὲ καὶ εὐρώπης οἱ
+                            μὲν ἀρχαῖοι φᾶσιν ποταμὸν καὶ τὸν ἕως κασπίας ἰσθμόν οἱ δ᾿ ὕστερον
+                            νεώτεροι μαιῶτιν λίμνην καὶ τάναϊν ποταμόν</p>
+                    </div>
+
+
+
+                    <div type="textpart" subtype="section" n="4">
+                        <p>ἐκλήθησαν δ᾿ ἤπειροι ἄπειροί τινες
+                            οὖσαι δι᾿ ἄγνοιαν ἀσία δὲ ἀπὸ τοῦ ἆσσον ἰέναι τοῖς ἀπ᾿ εὐρώπης ἀπιοῦσι
+                            καὶ πεζῆ καὶ νήσοις στιχηδὸν κειμέναις εὔβοια ἄνδρος τῆνος μύκωνος
+                            ἰκαρία σάμος μυκάλη ἡ δὲ εὐρώπη ἀπὸ τοῦ εὔρου ὠνομάσθη λιβύη δ᾿ ὑπ᾿
+                            ἑλλήνων ἦν ἄγνωστος πάνυ ἀπὸ δὲ ἔθνους ἐπισήμου φοίνικες ὠνομάσθησαν
+                            πλέοντες ὠκεανὸς δὲ διὰ τὸ ὠκέως ἀνύειν κύκλω τὴν γῆν</p>
+                    </div>
+
+
+
+                    <div type="textpart" subtype="section" n="5">
+                        <p>δικαίαρχος δ᾿ ὁρίζει τὴν γῆν οὐχ
+                            ὕδασιν ἀλλὰ τομῇ εὐθείᾳ ἀκράτω ἀπὸ στηλῶν διὰ σαρδοῦς σικελίας
+                            πελοπονήσου καρίας λυκίας παμφυλίας κιλικίας καὶ ταύρου ἑξῆς ἕω
+                            ἰμαίου ὄρους τῶν τοίνυν τόπων τὸ μὲν βόρειον τὸ δὲ νότιον ὀνομάζει
+                       </p>
+                    </div>
+                </div>
+
+
+                <div type="textpart" subtype="chapter" n="2">
+                    <div type="textpart" subtype="section" n="6">
+                        <p>ἄνεμοι δὲ πλέουσιν ἀπὸ μὲν
+                            ἰσημερινῆς ἀνατολῆς ἀπηλιώτης ἀπὸ δὲ ἰσημερινῆς δύσεως ζέφυρος ἀπὸ δὲ
+                            μεσημβρίας νότος ἀπὸ δὲ ἄρκτου ἀπαρκτίας ἀπὸ δὲ τροπῆς θερινῆς
+                            καικίας ἑξῆς δὲ ἀπὸ ἰσημαρινῆς ἀνατολῆς ἀπηλιώτης καὶ ἀπὸ χειμερινῆς
+                            εὖρος δυσμικὸς δὲ ἀπὸ μὲν δύσεως χειμερινῆς λίψ καὶ ἑξῆς πάλιν ἀπὸ
+                            δύσεως ἰσημερινῆς ζέφυρος ἀπὸ δὲ δύσεως θερινῆς ἀργέστης ἤτοι ὀλυμπίας
+                            εἶτα νότος καὶ ἀπαρκτίας ἀντιπνέοντες γίνονται οὖν ὀκτώ</p>
+                    </div>
+
+
+
+                    <div type="textpart" subtype="section" n="7">
+                        <p>τιμοσθένης δὲ ὁ γράψας τοὺς
+                            περίπλους δώδεκα φησὶν προθεὶς μέσον ἀπαρκτίου καὶ καικίου βορέαν εὔρου
+                            δὲ καὶ νότου φοίνικα τὸν καὶ εὐρόνοτον μέσον δὲ νότου καὶ λιβὸς τὸν
+                            λευκόνοτον ἤτοι λιβόνοτον μέσον δὲ ἀπαρκτίου καὶ ἀργέστου θρασκίαν ἤτοι
+                            κίρκιον ὑπὸ τῶν περιοίκων</p>
+                    </div>
+                    
+                    
+                    <div type="textpart" subtype="section" n="7a">
+                        
+                        <p>ἔθνη δὲ οἰκεῖν τὰ πέρατα κατ᾿ ἀπηλιώτην
+                            βακτριανούς κατ᾿ εὖρον ἰνδούς κατὰ φοίνικα ἐρυθρὰν θάλασσαν καὶ
+                            αἰθιοπίαν κατὰ νότον τὴν ὑπὲρ αἴγυπτον αἰθιοπίαν κατὰ λευκόνοτον τοὺς
+                            ὑπὲρ σύρτεις γαράματτας κατὰ λίβα αἰθίοπας καὶ δυσμικοὺς ὑπερμαύρους
+                            κατὰ ζέφυρον στήλας καὶ ἀρχὰς λιβύης καὶ εὐρώπης κατ᾿ ἀργέστην
+                            ἰβηρίαν τὴν νῦν ἱσπανίαν κατὰ δὲ θρασκίαν τοὺς ὑπὲρ θράκην σκύθας
+                            κατὰ δὲ βορρᾶν πόντον μαιῶτιν σαρμάτας κατὰ καικίαν κασπίαν θάλασσαν
+                            καὶ σάκας</p>
+                    </div>
+
+
+                </div>
+                <div type="textpart" subtype="chapter" n="3">
+                    <div type="textpart" subtype="section" n="8">
+                        <p>ἔστι δὲ ἡ μεγάλη σύρτις σταδίων
+                            ͵ε ἡ δὲ μικρὰ ͵αχ τὸ δὲ στόμα τοῦ ἀδρίου ὃ καλοῦσι τινὲς ἰόνιον
+                            πέλαγος ἔχει διάπλουν σταδίων ͵αψ ἀπὸ ἄκρας ἰαπυγίας ἐπὶ κεραύνια ὄρη
+                            τῆς ἠπείρου</p>
+                    </div>
+
+
+
+                    <div type="textpart" subtype="section" n="9">
+                        <p>διαδέχεται τὸ αἰγαῖον ἑλλήσποντος
+                            λήγον εἰς ἄβυδον καὶ σηστόν εἶτα ἡ προποντὶς λήγει εἰς χαλκηδόνα καὶ
+                            βυζάντιον ἔνθα τὰ στενὰ ἀφ᾿ ὧν ὁ πόντος ἄρχεται εἶτα ἡ μαιῶτις λίμνη
+                            πάλιν δ᾿ ἀπ᾿ ἀρχῆς εὐρώπης καὶ λιβύης ἰβηρικὸν τὸ ἀπὸ στηλῶν εἰς
+                            πυρήνην τὸ ὄρος λιγυστικὸν δὲ τὸ ἕως τῶν τῆς τυρηνίας περάτων σαρδῶον
+                            δὲ τὸ ὑπὲρ σαρδὼ νεῦον πρὸς λιβύην κάτω</p>
+                    </div>
+                    
+                    
+                    <div type="textpart" subtype="section" n="9a">
+                        
+                        <p>τυρηνικὸν δὲ τὸ τὸ μέχρι
+                            σικελίας ἀρχόμενον ἀπὸ τῶν λιγυστικῆς ἄκρων εἶτα λιβυκόν εἶτα κρητικὸν
+                            καὶ σικελικὸν καὶ ἰόνιον καὶ ἀδρίαν</p>
+                    </div>
+                </div>
+            </div>
+
+        </body>
+    </text>
+</TEI>

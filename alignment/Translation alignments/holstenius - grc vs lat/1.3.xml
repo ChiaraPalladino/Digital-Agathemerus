@@ -1,0 +1,474 @@
+<aligned-text>
+	<language lnum="L1" xml:lang="GRC"/>
+	<language lnum="L2" xml:lang="LAT"/>
+	<sentence n="1">
+		<wds lnum="L1">
+			<w n='1_1-1'>
+				<text>3</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1_1-2'>
+				<text>.</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1_2-1'>
+				<text>Ὅροι</text>
+				<refs nrefs='2_2-2'></refs>
+			</w>
+			<w n='1_2-2'>
+				<text>ἠπείρων</text>
+				<refs nrefs='2_2-1'></refs>
+			</w>
+			<w n='1_2-3'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1_2-4'>
+				<text>Εὐρώπης</text>
+				<refs nrefs='2_2-5'></refs>
+			</w>
+			<w n='1_2-5'>
+				<text>μὲν</text>
+				<refs nrefs='2_2-6'></refs>
+			</w>
+			<w n='1_2-6'>
+				<text>καὶ</text>
+				<refs nrefs='2_2-7'></refs>
+			</w>
+			<w n='1_2-7'>
+				<text>Λιβύης</text>
+				<refs nrefs='2_2-8'></refs>
+			</w>
+			<w n='1_2-8'>
+				<text>αἱ</text>
+				<refs nrefs='2_2-10'></refs>
+			</w>
+			<w n='1_2-9'>
+				<text>Ἡρακλέους</text>
+				<refs nrefs='2_2-9'></refs>
+			</w>
+			<w n='1_2-10'>
+				<text>στῆλαι</text>
+				<refs nrefs='2_2-10'></refs>
+			</w>
+			<w n='1_2-11'>
+				<text>·</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1_2-12'>
+				<text>Λιβύης</text>
+				<refs nrefs='2_3-1'></refs>
+			</w>
+			<w n='1_2-13'>
+				<text>δὲ</text>
+				<refs nrefs='2_3-2'></refs>
+			</w>
+			<w n='1_2-14'>
+				<text>καὶ</text>
+				<refs nrefs='2_3-3'></refs>
+			</w>
+			<w n='1_2-15'>
+				<text>Ἀσίας</text>
+				<refs nrefs='2_3-4'></refs>
+			</w>
+			<w n='1_2-16'>
+				<text>ὁ</text>
+				<refs nrefs='2_3-5'></refs>
+			</w>
+			<w n='1_2-17'>
+				<text>Νεῖλος</text>
+				<refs nrefs='2_3-5'></refs>
+			</w>
+			<w n='1_2-18'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1_2-19'>
+				<text>οἱ</text>
+				<refs nrefs='2_3-9'></refs>
+			</w>
+			<w n='1_2-20'>
+				<text>δὲ</text>
+				<refs nrefs='2_3-9'></refs>
+			</w>
+			<w n='1_2-21'>
+				<text>ἰσθμὸν</text>
+				<refs nrefs='2_3-11'></refs>
+			</w>
+			<w n='1_2-22'>
+				<text>τὸν</text>
+				<refs nrefs='2_3-12 2_3-13'></refs>
+			</w>
+			<w n='1_2-23'>
+				<text>ἀπὸ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1_2-24'>
+				<text>Σαρβωνίδος</text>
+				<refs nrefs='2_3-14'></refs>
+			</w>
+			<w n='1_2-25'>
+				<text>λίμνης</text>
+				<refs nrefs='2_3-15'></refs>
+			</w>
+			<w n='1_2-26'>
+				<text>καὶ</text>
+				<refs nrefs='2_3-16'></refs>
+			</w>
+			<w n='1_2-27'>
+				<text>Ἀραβίου</text>
+				<refs nrefs='2_3-16'></refs>
+			</w>
+			<w n='1_2-28'>
+				<text>κόλπου</text>
+				<refs nrefs='2_3-17'></refs>
+			</w>
+			<w n='1_2-29'>
+				<text>.</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1_3-1'>
+				<text>Ἀσίας</text>
+				<refs nrefs='2_4-1'></refs>
+			</w>
+			<w n='1_3-2'>
+				<text>δὲ</text>
+				<refs nrefs='2_4-2'></refs>
+			</w>
+			<w n='1_3-3'>
+				<text>καὶ</text>
+				<refs nrefs='2_4-3'></refs>
+			</w>
+			<w n='1_3-4'>
+				<text>Εὐρώπης</text>
+				<refs nrefs='2_4-4'></refs>
+			</w>
+			<w n='1_3-5'>
+				<text>οἱ</text>
+				<refs nrefs='2_4-6'></refs>
+			</w>
+			<w n='1_3-6'>
+				<text>μὲν</text>
+				<refs nrefs='2_4-6'></refs>
+			</w>
+			<w n='1_3-7'>
+				<text>ἀρχαῖοι</text>
+				<refs nrefs='2_4-6'></refs>
+			</w>
+			<w n='1_3-8'>
+				<text>Φάσιν</text>
+				<refs nrefs='2_4-7'></refs>
+			</w>
+			<w n='1_3-9'>
+				<text>ποταμὸν</text>
+				<refs nrefs='2_4-8'></refs>
+			</w>
+			<w n='1_3-10'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1_3-11'>
+				<text>καὶ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1_3-12'>
+				<text>τὸν</text>
+				<refs nrefs='2_4-12'></refs>
+			</w>
+			<w n='1_3-13'>
+				<text>ἕως</text>
+				<refs nrefs='2_4-13'></refs>
+			</w>
+			<w n='1_3-14'>
+				<text>Κασπίας</text>
+				<refs nrefs='2_4-14'></refs>
+			</w>
+			<w n='1_3-15'>
+				<text>ἰσθμὸν</text>
+				<refs nrefs='2_4-11'></refs>
+			</w>
+			<w n='1_3-16'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1_3-17'>
+				<text>οἱ</text>
+				<refs nrefs='2_5-1'></refs>
+			</w>
+			<w n='1_3-18'>
+				<text>δὲ</text>
+				<refs nrefs='2_5-2'></refs>
+			</w>
+			<w n='1_3-19'>
+				<text>ὕστερον</text>
+				<refs nrefs='2_5-1'></refs>
+			</w>
+			<w n='1_3-20'>
+				<text>νεώτεροι</text>
+				<refs nrefs='2_5-1'></refs>
+			</w>
+			<w n='1_3-21'>
+				<text>Μαιῶτιν</text>
+				<refs nrefs='2_5-3'></refs>
+			</w>
+			<w n='1_3-22'>
+				<text>λίμνην</text>
+				<refs nrefs='2_5-4'></refs>
+			</w>
+			<w n='1_3-23'>
+				<text>καὶ</text>
+				<refs nrefs='2_5-5'></refs>
+			</w>
+			<w n='1_3-24'>
+				<text>Τάναϊν</text>
+				<refs nrefs='2_5-6'></refs>
+			</w>
+			<w n='1_3-25'>
+				<text>ποταμόν</text>
+				<refs nrefs='2_5-5'></refs>
+			</w>
+			<w n='1_3-26'>
+				<text>.</text>
+				<refs nrefs=''></refs>
+			</w>
+		</wds>
+		<wds lnum="L2">
+			<w n='2_1-1'>
+				<text>3</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_1-2'>
+				<text>.</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_2-1'>
+				<text>Continentium</text>
+				<refs nrefs='1_2-2'></refs>
+			</w>
+			<w n='2_2-2'>
+				<text>termini</text>
+				<refs nrefs='1_2-1'></refs>
+			</w>
+			<w n='2_2-3'>
+				<text>sunt</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_2-4'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_2-5'>
+				<text>Europae</text>
+				<refs nrefs='1_2-4'></refs>
+			</w>
+			<w n='2_2-6'>
+				<text>quidem</text>
+				<refs nrefs='1_2-5'></refs>
+			</w>
+			<w n='2_2-7'>
+				<text>et</text>
+				<refs nrefs='1_2-6'></refs>
+			</w>
+			<w n='2_2-8'>
+				<text>Africae</text>
+				<refs nrefs='1_2-7'></refs>
+			</w>
+			<w n='2_2-9'>
+				<text>Herculis</text>
+				<refs nrefs='1_2-9'></refs>
+			</w>
+			<w n='2_2-10'>
+				<text>columnae</text>
+				<refs nrefs='1_2-8 1_2-10'></refs>
+			</w>
+			<w n='2_2-11'>
+				<text>:</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_3-1'>
+				<text>Africae</text>
+				<refs nrefs='1_2-12'></refs>
+			</w>
+			<w n='2_3-2'>
+				<text>vero</text>
+				<refs nrefs='1_2-13'></refs>
+			</w>
+			<w n='2_3-3'>
+				<text>atque</text>
+				<refs nrefs='1_2-14'></refs>
+			</w>
+			<w n='2_3-4'>
+				<text>Asiae</text>
+				<refs nrefs='1_2-15'></refs>
+			</w>
+			<w n='2_3-5'>
+				<text>Nilus</text>
+				<refs nrefs='1_2-16 1_2-17'></refs>
+			</w>
+			<w n='2_3-6'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_3-7'>
+				<text>vel</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_3-8'>
+				<text>ut</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_3-9'>
+				<text>alij</text>
+				<refs nrefs='1_2-19 1_2-20'></refs>
+			</w>
+			<w n='2_3-10'>
+				<text>volunt</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_3-11'>
+				<text>Isthmus</text>
+				<refs nrefs='1_2-21'></refs>
+			</w>
+			<w n='2_3-12'>
+				<text>ille</text>
+				<refs nrefs='1_2-22'></refs>
+			</w>
+			<w n='2_3-13'>
+				<text>qui</text>
+				<refs nrefs='1_2-22'></refs>
+			</w>
+			<w n='2_3-14'>
+				<text>Sarbonidi</text>
+				<refs nrefs='1_2-24'></refs>
+			</w>
+			<w n='2_3-15'>
+				<text>paludi</text>
+				<refs nrefs='1_2-25'></refs>
+			</w>
+			<w n='2_3-16'>
+				<text>Arabicoque</text>
+				<refs nrefs='1_2-26 1_2-27'></refs>
+			</w>
+			<w n='2_3-17'>
+				<text>sinui</text>
+				<refs nrefs='1_2-28'></refs>
+			</w>
+			<w n='2_3-18'>
+				<text>medius</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_3-19'>
+				<text>interiacet</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_3-20'>
+				<text>.</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_4-1'>
+				<text>Asiae</text>
+				<refs nrefs='1_3-1'></refs>
+			</w>
+			<w n='2_4-2'>
+				<text>autem</text>
+				<refs nrefs='1_3-2'></refs>
+			</w>
+			<w n='2_4-3'>
+				<text>et</text>
+				<refs nrefs='1_3-3'></refs>
+			</w>
+			<w n='2_4-4'>
+				<text>Europae</text>
+				<refs nrefs='1_3-4'></refs>
+			</w>
+			<w n='2_4-5'>
+				<text>terminos</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_4-6'>
+				<text>antiqui</text>
+				<refs nrefs='1_3-5 1_3-6 1_3-7'></refs>
+			</w>
+			<w n='2_4-7'>
+				<text>Phasin</text>
+				<refs nrefs='1_3-8'></refs>
+			</w>
+			<w n='2_4-8'>
+				<text>ﬂuvium</text>
+				<refs nrefs='1_3-9'></refs>
+			</w>
+			<w n='2_4-9'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_4-10'>
+				<text>alij</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_4-11'>
+				<text>Isthmum</text>
+				<refs nrefs='1_3-15'></refs>
+			</w>
+			<w n='2_4-12'>
+				<text>qui</text>
+				<refs nrefs='1_3-12'></refs>
+			</w>
+			<w n='2_4-13'>
+				<text>ad</text>
+				<refs nrefs='1_3-13'></refs>
+			</w>
+			<w n='2_4-14'>
+				<text>Caspium</text>
+				<refs nrefs='1_3-14'></refs>
+			</w>
+			<w n='2_4-15'>
+				<text>mare</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_4-16'>
+				<text>protenditur</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_4-17'>
+				<text>:</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_5-1'>
+				<text>recentiores</text>
+				<refs nrefs='1_3-17 1_3-19 1_3-20'></refs>
+			</w>
+			<w n='2_5-2'>
+				<text>vero</text>
+				<refs nrefs='1_3-18'></refs>
+			</w>
+			<w n='2_5-3'>
+				<text>Maeotidem</text>
+				<refs nrefs='1_3-21'></refs>
+			</w>
+			<w n='2_5-4'>
+				<text>paludem</text>
+				<refs nrefs='1_3-22'></refs>
+			</w>
+			<w n='2_5-5'>
+				<text>ﬂuviumque</text>
+				<refs nrefs='1_3-23 1_3-25'></refs>
+			</w>
+			<w n='2_5-6'>
+				<text>Tanain</text>
+				<refs nrefs='1_3-24'></refs>
+			</w>
+			<w n='2_5-7'>
+				<text>esse</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_5-8'>
+				<text>dixerunt</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2_5-9'>
+				<text>.</text>
+				<refs nrefs=''></refs>
+			</w>
+		</wds>
+	</sentence>
+</aligned-text>

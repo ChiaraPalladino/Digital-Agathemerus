@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="parisinus1739_gr">
+	<!-- id of the manuscript or print edition -->
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="lat">Geographiae Informatio</title>
+				<author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+					>Agathemerus</author>
+				<author role="editor"/>
+				<author role="translator"/>
+				<sponsor>University of Leipzig</sponsor>
+				<sponsor>Università degli Studi di Bari Aldo Moro</sponsor>
+				<respStmt>
+					<persName xml:id="CP">Chiara Palladino</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="MB">Monica Berti</persName>
+					<resp>Supervisor</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="GC">Gregory Crane</persName>
+					<resp>Supervisor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Pasquale Massimo Pinto</persName>
+					<resp>Supervisor</resp>
+				</respStmt>
+			</titleStmt>
+
+			<publicationStmt>
+				<authority/>
+				<idno type="filename">parisinus1739_gr.xml</idno>
+				<!-- has to be the same name declared in the xml:id above -->
+				<authority>University of Leipzig</authority>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+						under a Creative Commons Attribution-ShareAlike International 4.0
+						License</licence>
+				</availability>
+				<date>2017</date>
+				<publisher>University of Leipzig</publisher>
+				<pubPlace>Germany</pubPlace>
+			</publicationStmt>
+
+			<sourceDesc>
+				<listBibl>
+
+					<msDesc>
+						<msIdentifier xml:id="parisinus1739">
+							<settlement>Paris</settlement>
+							<repository>Bibliothèque Nationale</repository>
+							<collection>Grec</collection>
+							<idno>Parisinus Graecus 1739</idno>
+						</msIdentifier>
+						<msContents>
+
+
+							<msItem>
+								<locus>ff. 376rv</locus>
+								<!-- here we specify the section where the excerpta are hosted. Eventually it will
+                              be necessary to indicate the content and the works of John as well -->
+								<author>Agathemerus</author>
+								<title xml:lang="lat">Excerptum J ex Johanne Damasceno</title>
+								<note>Excerptum J De Maribus</note>
+
+
+							</msItem>
+						</msContents>
+
+						<physDesc>
+							<objectDesc>
+								<supportDesc material="paper">
+
+
+									<extent>
+										<measure type="composition" unit="leaf">376</measure>
+										<dimensions/>
+									</extent>
+									<collation>
+										<p> quaternion </p>
+									</collation>
+								</supportDesc>
+
+							</objectDesc>
+
+							<handDesc hands="1">
+								<handNote xml:id="M1" scope="major"/>
+
+							</handDesc>
+						</physDesc>
+
+						<history>
+
+							<origin>
+								<origPlace/>
+								<origDate>15th century</origDate>
+							</origin>
+
+							<acquisition/>
+
+						</history>
+
+					</msDesc>
+
+
+
+				</listBibl>
+				<bibl>
+					<ref target="http://gallica.bnf.fr/ark:/12148/btv1b107229060">Gallica.BnF</ref>
+				</bibl>
+
+
+			</sourceDesc>
+
+		</fileDesc>
+
+		<encodingDesc>
+			<projectDesc>
+				<ab>
+					<title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>
+				</ab>
+			</projectDesc>
+			<p>The following text is encoded in accordance with EpiDoc standards and with the
+				CTS/CITE Architecture.</p>
+			<!--
+				
+			<refsDecl n="CTS">
+				<cRefPattern n="section" matchPattern="(.+).(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+					<p>This pointer pattern extracts chapters and sections</p>
+				</cRefPattern>
+				<cRefPattern n="chapter" matchPattern="(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+					<p>This pointer pattern extracts chapters</p>
+				</cRefPattern>
+			</refsDecl>
+			-->
+		</encodingDesc>
+
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latin</language>
+				<language ident="grc">Greek</language>
+			</langUsage>
+		</profileDesc>
+
+		<revisionDesc>
+			<change who="Chiara Palladino" when="2017-07-21">Created the XML file</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text>
+		<body>
+			<div type="edition" subtype="transcription" xml:lang="grc">
+				<div type="textpart" subtype="chapter" n="2">
+
+
+
+					<div type="textpart" subtype="section" n="9">
+
+						<p>διαδέχεται τὸ αἰγαῖον πέλαγος Ἑλλίσποντος λῆγον εἰς ἄβυδον καὶ σηστόν
+							εἶτα ἡ προποντὶς λήγουσα εἰς καλχηδόνα καὶ βυζάντιον ἔνθα τὰ στενὰ
+							ἀφ᾿ ῶν ὁ πόντος ἄρχεται εἶτα ἡ μαιῶτις λύμνη πάλιν δὲ ἀπ᾿ ἀρχῆς
+							εὐρώπης καὶ λιβύης ἰβερικὸν τὸ ἀπὸ στηλῶν εἰς πυρίνης τὸ ὄρος
+							λυγυστικῶν δὲ τὸ ἕως τῆς τῶν τυρρινίας περάτων σαρδόνιον δὲ τὸ ὑπὲρ
+							τὴν σαρδονεῦον πρὸς τὴν λιβύην κάτω </p>
+					</div>
+
+
+
+					<div type="textpart" subtype="section" n="9a">
+
+						<p>τυρρικὸν δὲ τὸ μέχρι σικηλίας λῆγον ἀρχόμενον ἀπὸ λιγυστικῆς ἄκρων
+							εἶτα λιβυκὸν εἶτα κρητικὸν καὶ σικηλικὸν καὶ ἰώνιον καὶ ἄδριον τὸ τὲ
+							ἀνακεχυμένον ἐκ τοῦ σικελικοῦ πελάγου ὃν καλοῦσι κορινθιακὸν κόλπον
+							ἤτοι ἀλκυονίδα θάλασαν τὸ δὲ σουνίω καὶ σκυλαίω περιεχόμενον πέλαγος
+							σαρωνικὸν εἶτα μυρτώον καὶ ἱκάριον ἐν ὧ αἰ κυκάδαις εἶτα καρπάθιον
+							καὶ παμφύλιον καὶ αἰγίπτιον</p>
+					</div>
+
+					<div type="textpart" subtype="section" n="10">
+						<p> ἔστι δὲ ὁ τῆς εὐρώπης παράπλους ἀπὸ ταναίδος ποταμοῦ ἐκβολῶν ἕως
+							ἡρακλέους στηλῶν στάδια μυριάδες ἕξ καὶ ͵θψθ τῆς δὲ λιβυκῆς ἀπὸ
+							τιτάσεως στόματος κανοβικοῦ στάδια μυριάδες β καὶ ͵θ σϟβ </p>
+					</div>
+
+					<div type="textpart" subtype="section" n="10a">
+						<p>τῆς δὲ ἀσίας ἀπὸ κανώβου ἕως ταναίδος ποταμοῦ μετὰ τῶν κόλπον στάδια
+							μυριάδες δ καὶ ρια ὁμοῦ παράλιος τῆς καθ' ἡμᾶς οἰκουμένης στάδια
+							μυριάδες ιγ καὶ ͵θοβ</p>
+					</div>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

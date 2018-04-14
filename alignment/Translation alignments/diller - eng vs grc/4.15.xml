@@ -1,0 +1,538 @@
+<aligned-text>
+	<language lnum="L1" xml:lang="GRC"/>
+	<language lnum="L2" xml:lang="ENG"/>
+	<sentence n="1">
+		<wds lnum="L1">
+			<w n='1-1'>
+				<text>Μῆκος</text>
+				<refs nrefs='2-2'></refs>
+			</w>
+			<w n='1-2'>
+				<text>δὲ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-3'>
+				<text>τῆς</text>
+				<refs nrefs='2-4'></refs>
+			</w>
+			<w n='1-4'>
+				<text>οἰκουμένης</text>
+				<refs nrefs='2-3 2-5'></refs>
+			</w>
+			<w n='1-5'>
+				<text>ἀπὸ</text>
+				<refs nrefs='2-6'></refs>
+			</w>
+			<w n='1-6'>
+				<text>Γάγγου</text>
+				<refs nrefs='2-8'></refs>
+			</w>
+			<w n='1-7'>
+				<text>εἰς</text>
+				<refs nrefs='2-9'></refs>
+			</w>
+			<w n='1-8'>
+				<text>τὰ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-9'>
+				<text>Γάδειρα</text>
+				<refs nrefs='2-10'></refs>
+			</w>
+			<w n='1-10'>
+				<text>σταδίων</text>
+				<refs nrefs='2-13'></refs>
+			</w>
+			<w n='1-11'>
+				<text>μυριάδων</text>
+				<refs nrefs='2-12'></refs>
+			</w>
+			<w n='1-12'>
+				<text>ϛ</text>
+				<refs nrefs='2-12'></refs>
+			</w>
+			<w n='1-13'>
+				<text>καὶ</text>
+				<refs nrefs='2-12'></refs>
+			</w>
+			<w n='1-14'>
+				<text>ηφμε</text>
+				<refs nrefs='2-12'></refs>
+			</w>
+			<w n='1-15'>
+				<text>οὕτως</text>
+				<refs nrefs='2-15'></refs>
+			</w>
+			<w n='1-16'>
+				<text>·</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-17'>
+				<text>ἀπὸ</text>
+				<refs nrefs='2-17'></refs>
+			</w>
+			<w n='1-18'>
+				<text>μὲν</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-19'>
+				<text>Γάγγου</text>
+				<refs nrefs='2-19'></refs>
+			</w>
+			<w n='1-20'>
+				<text>ποταμοῦ</text>
+				<refs nrefs='2-20'></refs>
+			</w>
+			<w n='1-21'>
+				<text>ἕως</text>
+				<refs nrefs='2-21'></refs>
+			</w>
+			<w n='1-22'>
+				<text>Μυριάνδρου</text>
+				<refs nrefs='2-22'></refs>
+			</w>
+			<w n='1-23'>
+				<text>τῆς</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-24'>
+				<text>ἐν</text>
+				<refs nrefs='2-23'></refs>
+			</w>
+			<w n='1-25'>
+				<text>Ἰσσικῷ</text>
+				<refs nrefs='2-26 2-27'></refs>
+			</w>
+			<w n='1-26'>
+				<text>κόλπῳ</text>
+				<refs nrefs='2-25'></refs>
+			</w>
+			<w n='1-27'>
+				<text>σταδίων</text>
+				<refs nrefs='2-29'></refs>
+			</w>
+			<w n='1-28'>
+				<text>μυριάδων</text>
+				<refs nrefs='2-28'></refs>
+			</w>
+			<w n='1-29'>
+				<text>τεσσάρων</text>
+				<refs nrefs='2-28'></refs>
+			</w>
+			<w n='1-30'>
+				<text>καὶ</text>
+				<refs nrefs='2-28'></refs>
+			</w>
+			<w n='1-31'>
+				<text>χιλίων</text>
+				<refs nrefs='2-28'></refs>
+			</w>
+			<w n='1-32'>
+				<text>ψκε</text>
+				<refs nrefs='2-28'></refs>
+			</w>
+			<w n='1-33'>
+				<text>οὕτως</text>
+				<refs nrefs='2-31'></refs>
+			</w>
+			<w n='1-34'>
+				<text>·</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-35'>
+				<text>ἀπὸ</text>
+				<refs nrefs='2-33'></refs>
+			</w>
+			<w n='1-36'>
+				<text>Γάγγου</text>
+				<refs nrefs='2-35'></refs>
+			</w>
+			<w n='1-37'>
+				<text>ἐπὶ</text>
+				<refs nrefs='2-36'></refs>
+			</w>
+			<w n='1-38'>
+				<text>ἐκβολὰς</text>
+				<refs nrefs='2-38'></refs>
+			</w>
+			<w n='1-39'>
+				<text>Ἰνδοῦ</text>
+				<refs nrefs='2-39 2-41'></refs>
+			</w>
+			<w n='1-40'>
+				<text>ποταμοῦ</text>
+				<refs nrefs='2-42'></refs>
+			</w>
+			<w n='1-41'>
+				<text>σταδίων</text>
+				<refs nrefs='2-44'></refs>
+			</w>
+			<w n='1-42'>
+				<text>δισ</text>
+				<refs nrefs='2-43'></refs>
+			</w>
+			<w n='1-43'>
+				<text>μυρίων</text>
+				<refs nrefs='2-43'></refs>
+			</w>
+			<w n='1-44'>
+				<text>ϛ</text>
+				<refs nrefs='2-43'></refs>
+			</w>
+			<w n='1-45'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-46'>
+				<text>ἀπὸ</text>
+				<refs nrefs='2-46'></refs>
+			</w>
+			<w n='1-47'>
+				<text>Ἰνδοῦ</text>
+				<refs nrefs='2-48'></refs>
+			</w>
+			<w n='1-48'>
+				<text>ἕως</text>
+				<refs nrefs='2-49'></refs>
+			</w>
+			<w n='1-49'>
+				<text>Κασπίων</text>
+				<refs nrefs='2-51'></refs>
+			</w>
+			<w n='1-50'>
+				<text>πυλῶν</text>
+				<refs nrefs='2-52'></refs>
+			</w>
+			<w n='1-51'>
+				<text>μυρίων</text>
+				<refs nrefs='2-53'></refs>
+			</w>
+			<w n='1-52'>
+				<text>πεντακισχιλίων</text>
+				<refs nrefs='2-53'></refs>
+			</w>
+			<w n='1-53'>
+				<text>τριακοσίων</text>
+				<refs nrefs='2-53'></refs>
+			</w>
+			<w n='1-54'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-55'>
+				<text>ἐπὶ</text>
+				<refs nrefs='2-56'></refs>
+			</w>
+			<w n='1-56'>
+				<text>τὸν</text>
+				<refs nrefs='2-57'></refs>
+			</w>
+			<w n='1-57'>
+				<text>Εὐφράτην</text>
+				<refs nrefs='2-58'></refs>
+			</w>
+			<w n='1-58'>
+				<text>σταδίων</text>
+				<refs nrefs='2-60'></refs>
+			</w>
+			<w n='1-59'>
+				<text>μυρίων</text>
+				<refs nrefs='2-59'></refs>
+			</w>
+			<w n='1-60'>
+				<text>ν</text>
+				<refs nrefs='2-59'></refs>
+			</w>
+			<w n='1-61'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-62'>
+				<text>εἰς</text>
+				<refs nrefs='2-62'></refs>
+			</w>
+			<w n='1-63'>
+				<text>Μυρίανδρον</text>
+				<refs nrefs='2-63'></refs>
+			</w>
+			<w n='1-64'>
+				<text>σταδίων</text>
+				<refs nrefs='2-65'></refs>
+			</w>
+			<w n='1-65'>
+				<text>τοε</text>
+				<refs nrefs='2-64'></refs>
+			</w>
+			<w n='1-66'>
+				<text>.</text>
+				<refs nrefs=''></refs>
+			</w>
+		</wds>
+		<wds lnum="L2">
+			<w n='2-1'>
+				<text>The</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-2'>
+				<text>length</text>
+				<refs nrefs='1-1'></refs>
+			</w>
+			<w n='2-3'>
+				<text>of</text>
+				<refs nrefs='1-4'></refs>
+			</w>
+			<w n='2-4'>
+				<text>the</text>
+				<refs nrefs='1-3'></refs>
+			</w>
+			<w n='2-5'>
+				<text>earth</text>
+				<refs nrefs='1-4'></refs>
+			</w>
+			<w n='2-6'>
+				<text>from</text>
+				<refs nrefs='1-5'></refs>
+			</w>
+			<w n='2-7'>
+				<text>the</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-8'>
+				<text>Ganges</text>
+				<refs nrefs='1-6'></refs>
+			</w>
+			<w n='2-9'>
+				<text>to</text>
+				<refs nrefs='1-7'></refs>
+			</w>
+			<w n='2-10'>
+				<text>Gades</text>
+				<refs nrefs='1-9'></refs>
+			</w>
+			<w n='2-11'>
+				<text>is</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-12'>
+				<text>68545</text>
+				<refs nrefs='1-11 1-12 1-13 1-14'></refs>
+			</w>
+			<w n='2-13'>
+				<text>stades</text>
+				<refs nrefs='1-10'></refs>
+			</w>
+			<w n='2-14'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-15'>
+				<text>thus</text>
+				<refs nrefs='1-15'></refs>
+			</w>
+			<w n='2-16'>
+				<text>:</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-17'>
+				<text>from</text>
+				<refs nrefs='1-17'></refs>
+			</w>
+			<w n='2-18'>
+				<text>the</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-19'>
+				<text>Ganges</text>
+				<refs nrefs='1-19'></refs>
+			</w>
+			<w n='2-20'>
+				<text>River</text>
+				<refs nrefs='1-20'></refs>
+			</w>
+			<w n='2-21'>
+				<text>to</text>
+				<refs nrefs='1-21'></refs>
+			</w>
+			<w n='2-22'>
+				<text>Myriandrus</text>
+				<refs nrefs='1-22'></refs>
+			</w>
+			<w n='2-23'>
+				<text>in</text>
+				<refs nrefs='1-24'></refs>
+			</w>
+			<w n='2-24'>
+				<text>the</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-25'>
+				<text>gulf</text>
+				<refs nrefs='1-26'></refs>
+			</w>
+			<w n='2-26'>
+				<text>of</text>
+				<refs nrefs='1-25'></refs>
+			</w>
+			<w n='2-27'>
+				<text>Issus</text>
+				<refs nrefs='1-25'></refs>
+			</w>
+			<w n='2-28'>
+				<text>41725</text>
+				<refs nrefs='1-28 1-29 1-30 1-31 1-32'></refs>
+			</w>
+			<w n='2-29'>
+				<text>stades</text>
+				<refs nrefs='1-27'></refs>
+			</w>
+			<w n='2-30'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-31'>
+				<text>thus</text>
+				<refs nrefs='1-33'></refs>
+			</w>
+			<w n='2-32'>
+				<text>:</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-33'>
+				<text>from</text>
+				<refs nrefs='1-35'></refs>
+			</w>
+			<w n='2-34'>
+				<text>the</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-35'>
+				<text>Ganges</text>
+				<refs nrefs='1-36'></refs>
+			</w>
+			<w n='2-36'>
+				<text>to</text>
+				<refs nrefs='1-37'></refs>
+			</w>
+			<w n='2-37'>
+				<text>the</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-38'>
+				<text>outlet</text>
+				<refs nrefs='1-38'></refs>
+			</w>
+			<w n='2-39'>
+				<text>of</text>
+				<refs nrefs='1-39'></refs>
+			</w>
+			<w n='2-40'>
+				<text>the</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-41'>
+				<text>Indus</text>
+				<refs nrefs='1-39'></refs>
+			</w>
+			<w n='2-42'>
+				<text>River</text>
+				<refs nrefs='1-40'></refs>
+			</w>
+			<w n='2-43'>
+				<text>16000</text>
+				<refs nrefs='1-42 1-43 1-44'></refs>
+			</w>
+			<w n='2-44'>
+				<text>stades</text>
+				<refs nrefs='1-41'></refs>
+			</w>
+			<w n='2-45'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-46'>
+				<text>from</text>
+				<refs nrefs='1-46'></refs>
+			</w>
+			<w n='2-47'>
+				<text>the</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-48'>
+				<text>Indus</text>
+				<refs nrefs='1-47'></refs>
+			</w>
+			<w n='2-49'>
+				<text>to</text>
+				<refs nrefs='1-48'></refs>
+			</w>
+			<w n='2-50'>
+				<text>the</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-51'>
+				<text>Caspian</text>
+				<refs nrefs='1-49'></refs>
+			</w>
+			<w n='2-52'>
+				<text>Gates</text>
+				<refs nrefs='1-50'></refs>
+			</w>
+			<w n='2-53'>
+				<text>15300</text>
+				<refs nrefs='1-51 1-52 1-53'></refs>
+			</w>
+			<w n='2-54'>
+				<text>stades</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-55'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-56'>
+				<text>to</text>
+				<refs nrefs='1-55'></refs>
+			</w>
+			<w n='2-57'>
+				<text>the</text>
+				<refs nrefs='1-56'></refs>
+			</w>
+			<w n='2-58'>
+				<text>Euphrates</text>
+				<refs nrefs='1-57'></refs>
+			</w>
+			<w n='2-59'>
+				<text>10050</text>
+				<refs nrefs='1-59 1-60'></refs>
+			</w>
+			<w n='2-60'>
+				<text>stades</text>
+				<refs nrefs='1-58'></refs>
+			</w>
+			<w n='2-61'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-62'>
+				<text>to</text>
+				<refs nrefs='1-62'></refs>
+			</w>
+			<w n='2-63'>
+				<text>Myriandrus</text>
+				<refs nrefs='1-63'></refs>
+			</w>
+			<w n='2-64'>
+				<text>375</text>
+				<refs nrefs='1-65'></refs>
+			</w>
+			<w n='2-65'>
+				<text>stades</text>
+				<refs nrefs='1-64'></refs>
+			</w>
+			<w n='2-66'>
+				<text>.</text>
+				<refs nrefs=''></refs>
+			</w>
+		</wds>
+	</sentence>
+</aligned-text>

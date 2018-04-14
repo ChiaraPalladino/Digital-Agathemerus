@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../../../../../Desktop/example-p5-xslt-8.19/start-txt.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="coislinianus_gr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="lat">Geographiae Informatio</title>
+                <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+                    >Agathemerus</author>
+                <author role="transcriptor">Chiara Palladino</author>
+                <sponsor>University of Leipzig</sponsor>
+                <sponsor>Università degli Studi di Bari Aldo Moro</sponsor>
+                <respStmt>
+                    <persName xml:id="CP">Chiara Palladino</persName>
+                    <resp>Editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName> Pasquale Massimo Pinto</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority>University of Leipzig</authority>
+                <idno type="filename">coislinianus_gr.xml</idno>
+
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2015</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <!-- This section will be revised after all the transcriptions have been completed -->
+                <!-- compare with catalogue descriptions! -->
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier xml:lang="fr" xml:id="coislinianus">
+
+                            <settlement>Paris</settlement>
+                            <repository>Bibliothéque Nationale</repository>
+                            <collection>Coislin</collection>
+                            <idno>Par. Coisl. 374</idno>
+
+
+
+
+                        </msIdentifier>
+
+                        <msContents>
+
+
+                            <msItem n="1">
+                                <locus>f. 307r </locus>
+                                <author>Agathemerus</author>
+                                <title xml:lang="lat">Excerpta J</title>
+                                <author role="transcriptor" xml:id="BdM">Bernard de
+                                    Montfaucon</author>
+                                <!-- cataloged and transcribed the extracts of this manuscript in his Bibliotheca
+                                Coisliniana, 1975-->
+                                <author role="translator">Bernard de Montfaucon</author>
+                                <!-- also provided a latin translation of the extracts  -->
+                            </msItem>
+                            <msItem n="2">
+                                <locus/>
+                                <author>John of Damascus</author>
+                                <title xml:lang="lat">Expositio fidei orthodoxae</title>
+                                <author role="transcriptor" ref="#BdM">Bernard de
+                                    Montfaucon</author>
+                                <!-- cataloged and transcribed the extracts of this manuscript in his Bibliotheca
+                                Coisliniana, 1975-->
+                                <author role="translator">Bernard de Montfaucon</author>
+                                <!-- also provided a latin translation of the extracts  -->
+                            </msItem>
+
+
+
+                        </msContents>
+
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc material="parch">
+
+                                    <extent>
+                                        <dimensions>
+                                            <height/>
+                                            <width/>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+
+                            </objectDesc>
+
+                            <handDesc hands="1">
+                                <handNote xml:id="M1" scope="major"/>
+
+                            </handDesc>
+                        </physDesc>
+
+                        <history>
+
+                            <origin>
+                                <origPlace/>
+                                <origDate/>
+                            </origin>
+
+                            <acquisition/>
+
+                        </history>
+                    </msDesc>
+
+
+
+
+                </listBibl>
+
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <ab>
+                    <title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>
+                </ab>
+            </projectDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+
+            <refsDecl n="CTS">
+                <!-- this will need to be refined.  -->
+
+                <cRefPattern n="section" matchPattern="(.+).(.+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+                    <p>This pointer pattern extracts chapters and sections</p>
+                </cRefPattern>
+                <cRefPattern n="chapter" matchPattern="(.+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                    <p>This pointer pattern extracts chapters</p>
+                </cRefPattern>
+            </refsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="CP" when="2016-09-01">Created the XML file</change>
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="edition" subtype="transcription" xml:lang="grc">
+
+
+                <div type="textpart" subtype="chapter" n="2">
+
+
+
+                    <div type="textpart" subtype="section" n="9">
+
+                        <p>διαδέχεται τὸ αἰγαῖον πέλαγος ἐλλήσποντος λῆγον εἰς ἄβυδον καὶ σηστόν
+                            εἶτα ἡ προποντὶς λήγουσα εἰς χαλκηδόνα καὶ βυζάντιον ἔνθα τὰ στενὰ ἀφ᾿
+                            ὧν ὁ πόντος ἄρχεται εἶτα ἡ μαιῶτις λίμνη πάλιν δὲ ἀπ᾿ ἀρχῆς εὐρώπης καὶ
+                            λιβύης ἱβηρικὸν τὸ ἀπὸ στηλῶν εἰς πυρήνην τὸ ὄρος λιγυστικὸν δὲ τὸ ἕως
+                            τῶν τῆς τυρρηνίας περάτων σαρδώνιον δὲ τὸ ὑπὲρ τὴν σαρδὼ νεῦον πρὸς τὴν
+                            λιβύην κάτω </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="9a">
+                        <p>τυρρηνικὸν δὲ τὸ μέχρι σικελίας λῆγον ἀρχόμενον ἀπὸ λιγυστικῆς ἄκρων εἶτα
+                            λιβυκόν εἶτα κρητικὸν καὶ σικελικὸν καὶ ἰόνιον καὶ ἄδριον τὸ δὲ
+                            ἀνακεχυμένον ἐκ τοῦ σικελικοῦ πελάγους ὃν καλοῦσιν κορινθιακὸν κόλπον
+                            ἤτοι ἀλκυονίδα θάλασσαν τῷ δὲ σουνίῳ καὶ σκυλλαίῳ περιεχόμενον πέλαγος
+                            σαρωνικόν εἶτα μυρτῶον καὶ ἰκάριον ἐν ᾧ αἱ κυκλάδες εἶτα καρπάθιον καὶ
+                            παμφύλιον καὶ αἰγύπτιον ὑπὲρ δὲ τὸ ἰκάριον ἑξῆς ἀναχεῖται τὸ αἰγαῖον
+                        </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="10">
+                        <p>ἔστι δὲ ὁ τῆς εὐρώπης παράπλους ἀπὸ ταναίδος ποταμοῦ ἐκβολῶν ἕως
+                            ἡρακλέους στηλῶν στάδια ϛ ͵θψθ τῆς δὲ λιβύης ἀπὸ τίγας ἕως στόματος
+                            κανωβικοῦ στάδια β͵θσνβ </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="10a">
+                        <p>τῆς δ᾿ ἀσίας ἀπὸ κανώβου ἕως ταναίδος ποταμοῦ μετὰ τῶν κόλπων ὁ παράπλους
+                            στάδια δ͵ρια ὁμοῦ παράλιος σὺν κόλποις τῆς καθ᾿ ἡμᾶς οἰκουμένης στάδια
+                            ιγ ͵θοβ </p>
+
+                    </div>
+                </div>
+                <div type="textpart" subtype="section" n="7a">
+                    <p>ἔθνη δὲ οἰκεῖ τὰ πέρατα κατ᾿ ἀπηλιώτην Βακτριανοὶ κατ᾿ εὖρον Ἰνδοὶ κατὰ
+                        Φοίνικα Ἐρυθρὰ θάλασσα καὶ Αἰθιοπία κατὰ λευκόνοτον οἱ ὑπὲρ Σύρτιν
+                        Γαράμαντες κατὰ Λίβα Αἰθίοπες καὶ δυσμικοὶ Ὑπέρμαυροι κατὰ ζέφυρον Στῆλαι
+                        καὶ ἀρχαὶ Λιβύης καὶ Εὐρώπης κατὰ ἀργέστην Ἰβηρία ἡ νῦν Ἱσπανία κατὰ δὲ
+                        θρασκίαν Κελτοὶ καὶ τὰ ὅμορα κατὰ ἀπαρκτίαν οἱ ὑπὲρ τὴν Θρᾴκην Σκύθαι κατὰ
+                        βορρᾶν Πόντος Μαιῶτις καὶ Σαρμάται κατὰ καικίαν Κασπία θάλασσα καὶ Σάκες
+                    </p>
+                </div>
+            </div>
+
+        </body>
+    </text>
+</TEI>

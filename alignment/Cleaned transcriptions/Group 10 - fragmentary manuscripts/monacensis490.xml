@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="monacensis490_gr">
+	<!-- id of the manuscript or print edition -->
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="lat">Geographiae Informatio</title>
+				<author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+					>Agathemerus</author>
+				<author role="editor"/>
+				<author role="translator"/>
+				<sponsor>University of Leipzig</sponsor>
+				<sponsor>Università degli Studi di Bari Aldo Moro</sponsor>
+				<respStmt>
+					<persName xml:id="CP">Chiara Palladino</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="MB">Monica Berti</persName>
+					<resp>Supervisor</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="GC">Gregory Crane</persName>
+					<resp>Supervisor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Pasquale Massimo Pinto</persName>
+					<resp>Supervisor</resp>
+				</respStmt>
+			</titleStmt>
+
+			<publicationStmt>
+				<authority/>
+				<idno type="filename">monacensis490_gr.xml</idno>
+				<!-- has to be the same name declared in the xml:id above -->
+				<authority>University of Leipzig</authority>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+						under a Creative Commons Attribution-ShareAlike International 4.0
+						License</licence>
+				</availability>
+				<date>2017</date>
+				<publisher>University of Leipzig</publisher>
+				<pubPlace>Germany</pubPlace>
+			</publicationStmt>
+
+			<sourceDesc>
+				<listBibl>
+
+					<msDesc>
+						<msIdentifier xml:id="monacensis490">
+							<settlement>Munich</settlement>
+							<repository>Bayerische Staatsbibliothek</repository>
+							<collection>Graeci</collection>
+							<idno>Monac. Gr. 490</idno>
+						</msIdentifier>
+						<msContents>
+
+
+							<msItem>
+								<locus>ff. 299r-300v</locus>
+								<!-- here we specify the section where the excerpta are hosted. Eventually it will
+                              be necessary to indicate the content and the works of John as well -->
+								<author>Agathemerus</author>
+								<title xml:lang="lat">Excerpta ex Johanne Damasceno</title>
+								<note>Contains Excerpta J De Maribus and Excerpta J De
+									Populis</note>
+
+
+							</msItem>
+						</msContents>
+
+						<physDesc>
+							<objectDesc>
+								<supportDesc material="paper">
+
+
+									<extent>
+										<measure type="composition" unit="leaf">500</measure>
+										<dimensions/>
+									</extent>
+									<collation>
+										<p> quaternion </p>
+									</collation>
+								</supportDesc>
+
+							</objectDesc>
+
+							<handDesc hands="1">
+								<handNote xml:id="M1" scope="major">Georgios Hermonymos</handNote>
+
+							</handDesc>
+						</physDesc>
+
+						<history>
+
+							<origin>
+								<origPlace/>
+								<origDate>end of 15th century</origDate>
+							</origin>
+
+							<acquisition/>
+
+						</history>
+
+					</msDesc>
+
+
+
+				</listBibl>
+				<bibl>
+					<ref target="http://daten.digitale-sammlungen.de/bsb00108557/image_580"
+						>Bayerische Staatsbibliothek</ref>
+				</bibl>
+
+
+			</sourceDesc>
+
+		</fileDesc>
+
+		<encodingDesc>
+			<projectDesc>
+				<ab>
+					<title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>
+				</ab>
+			</projectDesc>
+			<p>The following text is encoded in accordance with EpiDoc standards and with the
+				CTS/CITE Architecture.</p>
+			<!--
+				
+			<refsDecl n="CTS">
+				<cRefPattern n="section" matchPattern="(.+).(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+					<p>This pointer pattern extracts chapters and sections</p>
+				</cRefPattern>
+				<cRefPattern n="chapter" matchPattern="(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+					<p>This pointer pattern extracts chapters</p>
+				</cRefPattern>
+			</refsDecl>
+			-->
+		</encodingDesc>
+
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latin</language>
+				<language ident="grc">Greek</language>
+			</langUsage>
+		</profileDesc>
+
+		<revisionDesc>
+			<change who="Chiara Palladino" when="2017-07-21">Created the XML file</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text>
+		<body>
+
+			<div type="edition" subtype="transcription" xml:lang="grc">
+
+
+				<div type="textpart" subtype="chapter" n="2">
+
+
+
+					<div type="textpart" subtype="section" n="9">
+
+						<p>διαδέχεται τὸ αἰγαῖον πέλαγος ἑλλίσποντος λῆγον εἰς ἄβυδον καὶ σηστόν
+							εἶτα ἡ προποντὶς λήγουσα εἰς χαλκηδόνα καὶ βυζάντιον ἔνθα τὰ στενὰ
+							ἀφ᾿ ὧν ὁ πόντος ἄρχεται εἶτα ἡ μαιότις λίμνη πάλιν δὲ ἀπ᾿ ἀρχῆς
+							εὐρώπης καὶ λιβύης ἰβηκὸν τὸ ἀπὸ στηλῶν εἰς πυρίνής τὸ ὄρος λιγυστικῶν
+							δὲ τὸ ἕως τῆς τῶν τυρρινίας περάτων σαρδόνιον δὲ τὸ ὑπὲρ τὴν
+							σαρδονεῦον πρὸ τὴν λιβύην κάτω </p>
+					</div>
+
+					<div type="textpart" subtype="section" n="9a">
+						<p>τυρρικὸν δὲ τὸ μέχρι σικελίας λῆγον ἀρχόμενον ἀπὸ λιγυστικῆς ἄκρων
+							εἶτα λιβυκόν εἶτα κρητικὸν καὶ σικελικὸν καὶ ἰώνιον καὶ ἀδρίον τὸ δὲ
+							ἀνακεχυμένον ἐκ τοῦ σικελικοῦ πελάγους ὃν καλοῦσι κορινθιακὸν κόλπον
+							ἤτοι ἀλκυονίδα θάλασσαν τὸ δὲ σουνίῳ καὶ σκυλαίῳ περιεχόμενον πέλαγος
+							σαρωνικόν εἶτα μυρτῶων καὶ ἱκάριον ἐν ῶ αἰ κυκλάδαις εἶτα καρπάθιον
+							καὶ παμφυλίον καὶ αἰγύπτιον </p>
+					</div>
+
+					<div type="textpart" subtype="section" n="10">
+						<p>ἔστι δὲ ὁ τῆς εὐρώπης παράπλους ἀπὸ τανάιδος ποταμοῦ ἐκβολῶν ἕως
+							ἡρακλείων στηλῶν σταδια μυριάδες ἓξ καὶ ͵θψθ τῆς δὲ λιβύης ἀπὸ τιγὰς
+							ἕως στόματος κανοβικοῦ σταδία μυριάδες β καὶ ͵θ σνβ </p>
+					</div>
+
+					<div type="textpart" subtype="section" n="10a">
+						<p>τῆς δὲ ἀσίας ἀπὸ κανώβου ἕως τανάιδος ποταμοῦ μετὰ τῶν κόλπων στάδια
+							μυριάδες δ καὶ ρια ὁμοῦ παράλιος τῆς καθ᾿ ἡμᾶς οἰκουμένης στάδια
+							μυριάδες ιγ καὶ ͵θοβ</p>
+					</div>
+				</div>
+				<div type="textpart" subtype="chapter" n="7a">
+
+							<p>ἔθνη δὲ οἰκεῖ τὰ περάτα κατὰ
+				ἀπηλιώτην βακτριανοί κατ᾿ εὖρον ἰνδοῖς κατὰ φοίνικα ἐρυθρὰ θάλασσα καὶ
+				αἰθιοπία κατὰ λευκόνοτον οἱ ὑπὲρ σύρτην γαράμαντες κατὰ λίβα αἰθίοπες καὶ
+				δυσμικοὶ ὑπέρμαυροι κατὰ ζέφυρον στήλαι καὶ ἀρχαὶ λε βύης καὶ εὐρώπης κατὰ
+				ἀργέστην ἰβηρία ἡ νῦν ἰσπανία κατὰ θρασκίαν καίτοι καὶ τὰ ὃμορρα κατὰ ἀπαρκτίαν
+				οἱ ὑπὲρ θράκην σκύθαι κατὰ βορᾶν πόντος μαιώτης καὶ σαρμάται κατὰ καικίαν
+				κασπία θάλασσα καὶ θράκες </p>
+	
+			</div>
+			</div>
+
+		</body>
+	</text>
+</TEI>

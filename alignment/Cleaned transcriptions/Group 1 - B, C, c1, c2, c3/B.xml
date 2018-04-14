@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../../Digital/Work%20in%20Progress/Epidoc%20Stylesheets%20-%208.23/start-edition.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vatopedi_gr"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="lat">Geographiae Informatio</title>
+                <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+                    >Agathemerus</author>
+                <author role="transcriptor">Chiara Palladino</author>
+                <sponsor>University of Leipzig</sponsor>
+                <sponsor>Università degli Studi di Bari Aldo Moro</sponsor>
+                <respStmt>
+                    <persName xml:id="CP">Chiara Palladino</persName>
+                    <resp>Editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Pasquale Massimo Pinto</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority>University of Leipzig</authority>
+                <idno type="filename">vatopedi_gr.xml</idno>
+
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2015</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <!-- This section will be revised after all the transcriptions have been completed -->
+                <!-- compare with catalogue descriptions! -->
+                <bibl>
+                    <ref target="http://www.bl.uk/manuscripts/Viewer.aspx?ref=add_ms_19391_f003r"
+                        >British Library</ref>
+                    <ref target="http://gallica.bnf.fr/ark:/12148/btv1b11004972g/f3.item"
+                        >Gallica</ref>
+                </bibl>
+
+                <msDesc>
+                    <msIdentifier>
+                        <!-- to indicate the scattered parts of the ms., we use msFrag: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html#msfg -->
+                        <msName xml:lang="lat" xml:id="B">Codex Vatopedinus 655</msName>
+                        <!-- xml:id will be used for the apparatus/stemma/commentary, instead of the individual id of each msFrag -->
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc material="parch">
+
+
+                                <extent>
+                                    <measure type="composition" unit="leaf" cert="medium"
+                                        >300</measure>
+                                    <dimensions>
+                                        <height unit="cm">35</height>
+                                        <width unit="cm">25</width>
+
+                                    </dimensions>
+                                </extent>
+                                <collation>
+                                    <p/>
+                                </collation>
+                            </supportDesc>
+
+                        </objectDesc>
+
+                        <handDesc hands="1">
+                            <handNote xml:id="M1" scope="major"/>
+                            <handNote xml:id="M2" scope="minor">Marginal notes by Nikolaos
+                                Sophianos</handNote>
+
+                        </handDesc>
+                    </physDesc>
+
+                    <history>
+
+                        <origin>
+                            <origPlace/>
+                            <origDate/>
+                        </origin>
+
+                        <acquisition/>
+
+                    </history>
+                    <msFrag>
+                        <msIdentifier xml:id="Vatopedinus_655">
+                            <settlement>Mount Athos</settlement>
+                            <repository>Monastery Library of Vatopedi</repository>
+                            <idno>Vatop. 655</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <summary>Contains ff. 55r to 69r </summary>
+                        </msContents>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier xml:id="Lond_Add_19391">
+                            <settlement>London</settlement>
+                            <repository>British Library</repository>
+                            <collection>Manuscript Additional</collection>
+                            <idno>MS Add. 19391</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <summary>Contains ff. 1r to 3r; 4v to 13r</summary>
+
+                            <msItem>
+                                <locus>3r l.10 – 4r l.28</locus>
+                                <author>Agathemerus</author>
+                                <title xml:lang="grc">Ἄγαθημέρου τοῦ ὄρθωνος γεωγραφίας
+                                    ὑποτύπωσις</title>
+                            </msItem>
+                        </msContents>
+                    </msFrag>
+
+                    <msFrag>
+                        <msIdentifier xml:id="Paris_Supp_443Α">
+                            <settlement>Paris</settlement>
+                            <repository xml:lang="fr">Bibliothéque Nationale</repository>
+                            <collection xml:lang="fr">Supplément Grec</collection>
+                            <idno>Paris. Gr. Suppl. 443A</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <summary>Contains ff. 4v to 13r</summary>
+                            <msItem>
+                                <locus>2r ll.1-4</locus>
+                                <author>Agathemerus</author>
+                                <title xml:lang="grc">Ἄγαθημέρου τοῦ ὄρθωνος γεωγραφίας
+                                    ὑποτύπωσις</title>
+                            </msItem>
+                        </msContents>
+                    </msFrag>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <xi:include href="file:/Users/Chiara/Dropbox/AGATEMERO/Manuscripts/Glyphs/glyphs.xml"/>
+
+        <encodingDesc>
+            <projectDesc>
+                <ab>
+                    <title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>
+                </ab>
+            </projectDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+
+            <refsDecl n="CTS">
+                <cRefPattern n="section" matchPattern="(.+).(.+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+                    <p>This pointer pattern extracts chapters and sections</p>
+                </cRefPattern>
+                <cRefPattern n="chapter" matchPattern="(.+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                    <p>This pointer pattern extracts chapters</p>
+                </cRefPattern>
+            </refsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="CP" when="2016-08-26">Proofread and inserted the text of the
+                marginalia</change>
+            <change who="CP" when="2016-02-04">Created the XML file</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="edition" subtype="transcription" xml:lang="grc">
+                <!--  there are two different catalog entries for Lond. and Paris. Paris is urnctsgreekLittlg0090.tlg001.opp-grc2, not sure what we should do
+                provisionally, I am indicating the urn for each manuscript in the ref target 
+                -->
+                <head><title>Ἄγαθημέρου τοῦ ὄρθωνος γεωγραφίας ὑποτύπωσις</title></head>
+                <div type="textpart" subtype="chapter" n="1">
+                    <div type="textpart" subtype="section" n="1">
+                        <p>Ἀναξίμανδρος ὁ μιλήσιος ἀκουστὴς θάλεω πρῶτος ἀπετόλμησε τὴν οἰκουμένην
+                            ἐν πίνακι γράψαι μεθ᾿ ὃν ἑκαταῖος μιλήσιος ἀνὴρ πολυπλανὴς διηκρίβωσεν
+                            ὥστε θαυμασθῆναι τὸ πρᾶγμα ἑλλάνικος γὰρ ὁ λέσβιος ἀνὴρ πολυίστωρ
+                            ἀπλάστως παρέδοκε τὴν ἱστορίαν εἶτα δαμάστης ὁ κητιεὺς τὰ πλεῖστα ἐκ τῶν
+                            ἑκαταίου μεταγράψας περίπλουν ἔγραψεν ἑξῆς δῆμόκριτος καὶ εὔδοξος καὶ
+                            ἄλλοι τινὲς γῆς περιόδους καὶ περίπλους ἐπραγματεύσαντο</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="2">
+                        <p>Οἱ μὲν οὖν παλαιοὶ τὴν οἰκουμένην ἔγραφον στρογγύλην μέσης δ᾿ ἡγεῖσθαι
+                            στὴν ἑλλάδα καὶ ταύτης δελφούς τὸν ὀμφαλὸν γὰρ ἔχειν τῆς γῆς πρῶτος δὲ
+                            δημόκριτος πολύπειρος ἀνὴρ συνοῖδεν ὅτι προμήκης ἐστὶν ἡ γῆ ἡμιόλιον τὸ
+                            μῆκος τοῦ πλάτους ἔχουσα συνῄνεσε τούτω καὶ δικαίαρχος ὁ
+                            περιπατητικὸς</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="2a">
+                        <p> εὔδοξος δὲ τὸ μῆκος διπλοῦν τοῦ πλάτους ὁ δὲ ἐρατοσθένης πλεῖον τοῦ
+                            διπλοῦ κράτης δὲ ὡς ἡμικύκλιον ἵππαρχος δὲ τραπεζοειδῆ ἄλλοι οὐροειδῆ
+                            ποσειδώνιος δ᾿ ὁ στωϊκὸς σφενδονοειδῆ καὶ μεσόπλατον ἀπὸ νότου εἰς
+                            βορρᾶν στενὴν πρὸς ἕω καὶ δύσιν τὰ πρὸς εὖρον δ᾿ ὁμοίως πλατύτερα πρὸς
+                            τὴν ἰνδικήν</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="3">
+                        <p>ὅροι ἠπείρων εὐρώπης μὲν καὶ λιβύης αἱ ἡρακλέους στῆλαι λιβύης δὲ καὶ
+                            ἀσίας ὁ νεῖλος οἱ δὲ ἰσθμὸν τὸν ἀπὸ σερβωνίδος λίμνης καὶ ἀραβίου κόλπου
+                            ἀσίας δὲ καὶ εὐρώπης οἱ μὲν ἀρχαῖοι φάσιν ποταμὸν καὶ τὸν ἕως κασπίας
+                            ἰσθμόν οἱ δ᾿ ὕστερον νεώτεροι μαιῶτιν λίμνην καὶ τάναϊν ποταμόν</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="4">
+                        <p>ἐκλήθησαν δ᾿ ἤπειροι ἄπειροί τινες οὖσαι δι᾿ ἄγνοιαν ἀσία δ᾿ ἀπὸ τοῦ
+                            ἆσσον ἰέναι τοῖς ἀπ᾿ εὐρώπης ἀπιοῦσι καὶ πεζῆ καὶ νήσοις στιχηδὸν
+                            κειμέναις εὔβοια ἄντρος τῆνος μύκονος ἰκαρία σάμος μυκάλη ἡ δὲ εὐρώπη
+                            ἀπὸ του εὔρους ὠνομάσθη λιβύη δ᾿ ὑφ᾿ ἑλλήνων ἦν ἄγνωστος πάνυ ἀπὸ δὲ
+                            ἔθνους ἐπισήμου φοίνικες ὠνομάσθησαν πλέοντες ὠκεανὸν δὲ διὰ τὸ ὠκέως
+                            ἀνύειν κύκλω τὴν γῆν</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="5">
+                        <p>δικαίαρχος δ᾿ ὁρίζει τὴν γῆν οὐχ ὕδασιν ἀλλὰ τομῆ εὐθεία εὐκράτω ἀπὸ
+                            στηλῶν διὰ σαρδοῦς σικελίας πελοποννήσου ἰωνίας καρίας λυκίας παμφυλίας
+                            κιλικίας καὶ ταύρου ἑξῆς ἕως ἰμάου ὄρους τῶν τοίνυν τόπων τὸ μὲν βόρειον
+                            τὸ δὲ νότιον ὀνομάζει</p>
+                    </div>
+                </div>
+
+
+                <div type="textpart" subtype="chapter" n="2">
+                    <div type="textpart" subtype="section" n="6">
+                        <p>ἄνεμοι δὲ πνέουσιν ἀπὸ μὲν ἰσημερινῆς ἀνατολῆς ἀπηλιώτης ἀπὸ δὲ
+                            ἰσημερινῆς δύσεως ζέφυρος ἀπὸ δὲ μεσημβρίας νότος ἀπὸ δὲ ἄρκτου
+                            ἀπαρκτίας ἀπὸ δὲ τροπῆς θερινῆς καικίας ἑξῆς δὲ ἀπὸ ἱσημερινῆς ἀνατολῆς
+                            ἀπηλιώτης καὶ ἀπὸ χειμερινῆς εὖρος δυσμικοὶ δὲ ἀπὸ μὲν δύσεως χειμερινῆς
+                            λίψ καὶ ἑξῆς πάλιν ἀπὸ δύσεως ἰσημερινῆς ζέφυρος ἀπὸ δὲ δύσεως θερινῆς
+                            ἀργέστης ἤτοι ὀλυμπίας εἶτα νότος καὶ ἀπαρκτίας ἀντιπνέοντö γίνονται οὖν
+                            ὀκτώ</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="7">
+                        <p>τιμοσθένης δὲ ὁ γράψας τοὺς περίπλους δώδεκά φησι προστιθεὶς μέσον
+                            ἀπαρκτίου καὶ καικίου βορέαν εὔρου δὲ καὶ νότου φοίνικα τὸν καὶ
+                            εὐρόνοτον μέσον δὲ νότου καὶ λιβὸς τὸν λευκόνοτον ἤτοι λιβόνοτον μέσον
+                            δὲ ἀπαρκτίου καὶ ἀργέστου θρασκίαν ἤτοι κίρκιον ὑπὸ τῶν περιοίκων</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="7a">
+                        <p>ἔθνη δὲ οἰκεῖν τὰ πέρατα κατ᾿ ἀπηλιώτην βακτριανούς κατ᾿ εὖρον ἰνδούς
+                            κατὰ φοίνικα ἐρυθρὰν θάλασσαν καὶ αἰθιοπίαν κατὰ νότον τὴν ὑπὲρ αἴγυπτον
+                            αἰθιοπίαν κατατὰ λευκόνοτον τοὺς ὑπὲρ σύρτεις γαράμαντας κατὰ λίβα
+                            αἰθίοπας καὶ δυσμικοὺς ὑπερμαύρους κατὰ ζέφυρον στήλας καὶ ἀρχὰς λιβύης
+                            καὶ εὐρώπης κατὰ ἀργέστην ἰβηρίαν τὴν νῦν ἰσπανίαν κατὰ δὲ θρασκίαν τοὺς
+                            ὑπὲρ θράκην σκύθας κατὰ δὲ βορρᾶν πόντον μαιῶτιν σαρμάτας κατὰ καικίαν
+                            κασπίαν θάλασσαν καὶ σάκας </p>
+                    </div>
+                </div>
+                <div type="textpart" subtype="chapter" n="3">
+                    <div type="textpart" subtype="section" n="8">
+                        <p>ἔστι δὲ ἡ μεγάλη σύρτης σταδίων ͵ε ἡ δὲ μικρὰ σταδίων ͵αχ τὸ δὲ στόμα τοῦ
+                            ἀδρίου ὃ καλοῦσί τινες ἰώνιον πέλαγος ἔχει διάπλουν σταδίων ͵αψ ἀπὸ
+                            ἄκρας ἰαπυγίας ἐπὶ κεραύνια ὄρη τῆς ἠπείρου</p>
+                    </div>
+
+
+                    <div type="textpart" subtype="section" n="9">
+
+                        <p>διαδέχεται τὸ αἰγαῖον ἑλλήσποντος λῆγον εἰς ἄβυδον καὶ σηστόν εἶτα ἡ
+                            προποντὶς λήγει εἰς χαλκηδόνα καὶ βυζάντιον ἔνθα τὰ στενὰ ἀφ᾿ ὧν ὁ
+                            πόντος ἄρχεται εἶτα ἡ μαιῶτις λίμνη πάλιν δὲ ἀπ᾿ ἀρχῆς εὐρώπης καὶ
+                            λιβύης ἰβηρικὸν τὸ ἀπὸ στηλῶν εἰς πυρήνην τὸ ὄρος λιγυστικὸν δὲ τὸ ἕως
+                            τῶν τῆς τυρηνίας περάτων σαρδῶον δὲ τὸ ὑπὲρ σαρδὼ νεῦον πρὸς λιβύην
+                            κάτω</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="9a">
+                        <p>τυρηνικὸν δὲ τὸ μέχρι σικελίας λῆγον ἀρχόμενον ἀπὸ τῶν λιγυστικῆς ἄκρων
+                            εἶτα λιβυκόν εἶτα κρητικὸν καὶ σικελικὸν καὶ ἰώνιον καὶ ἀδρίαν τὸν
+                            ἀνακεχυμένον ἐκ τοῦ σικελικοῦ πελάγους ὃν καλοῦσι κορινθιακὸν κόλπον
+                            ἤτοι ἀλκυονίδα θάλασσαν τὸ δὲ σουνίω καὶ σκυλλαίω περιεχόμενον πέλαγος
+                            σαρωνικόν εἶτα μυρτῶον καὶ ἰκάριον ἐν ὧ αἱ κυκλάδες εἶτα καρπάθιον καὶ
+                            παμφύλιον καὶ αἰγύπτιον ὑπὲρ δὲ τὸ ἰκάριον ἑξῆς ἀνάκειται τὸ αἰγαῖον</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="10">
+                        <p>ἔστι δὲ ὁ τῆς εὐρώπης παράπλους ἀπὸ τανάιδος ποταμοῦ ἐκβολῶν ἕως
+                            ἡρακλείων στηλῶν σταδίων μυριάδων ἓξ καὶ ͵θψθ τῆς δὲ λιβύης ἀπὸ τιγγὸς
+                            ἕως στόμτος κανοβικοῦ σταδίων μυριάδων δύο καὶ ͵θσνβ</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="10a">
+                        <p>τῆς δ᾿ ἀσίας ἀπὸ κανώβου ἕως τανάιδος ποταμοῦ μετὰ τῶν κόλπων ὁ παρὰπλους
+                            σταδίων μυριάδων δ καὶ ρια ὁμοῦ παράλιος σὺν κόλποις τῆς καθ᾿ ἡμᾶς
+                            οἰκουμένης σταδίων μυριάδων ιγ καὶ ͵θοβ συμμετρουμένης τῆς μαιώτιδος
+                            λίμνης ἧς περίμετρος σταδίων ͵θ τὸ δὲ στόμα ὁ κιμμέριος βόσπορος σταδίων
+                            οκ</p>
+                    </div>
+
+
+
+                    <div type="textpart" subtype="section" n="11">
+                        <p>ὁ δὲ πόντος σταδίων ͵γτν ὁ δὲ θράκιος βόσπορος τὰ στενὰ ὅπη δαρεῖος
+                            ἔζευξεν ἐπὶ σκύθας τὴν σχεδίαν σταδίων ἑξακισχιλίων</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="12">
+
+                        <p>ἡ δὲ περσικὴ θάλασσα κυκλοτερὴς οὖσα συνάγουσα τὸ στόμα ἄκρω καρμανίας
+                            καὶ ἀραβίας περίμετρον ἔχει μυριάδων δύο σταδίων ἔστι δὲ τὸ μεταξὺ στόμα
+                            ἀρραβίας καὶ καρμανίας σταδίων υ</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="13">
+                        <p>ἡ δὲ ὑρκανία ἤτοι κασπία θάλασσα μηνοειδὴς οὖσα κατὰ δὲ τινας καὶ
+                            προμήκης ἐστὶ σταδίων δισμυρίων δισχιλίων τοῦ δὲ στόματος ἔχει τὸ δίαρμα
+                            σταδίων ͵δ</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="14">
+                        <p>ὁ δὲ ἀράβιος κόλπος στενὸς ὢν καὶ προμήκης ἄρχεται ἀπὸ ἡρώων ποταμοῦ
+                            μυχοῦ παρὰ τὴν τρωγλοδυτικὴν ἕως τῆς πτολεμαίδος τῆς ἐπὶ θύρας σταδίων
+                            ͵θ τὸ μῆκος τὰ δὲ κατὰ δειρὴν στενὰ σταδίων ξ ἔνθεν ἑξῆς πλοῦς σταδίων φ
+                            τὸ δὲ λοιπὸν οὐ πλεῖται παρὰ τὴν ἐρυθρὰν θάλασσαν ἕως ὠκεανοῦ σταδίων ͵ε
+                            τὸ δὲ παρὰ τὴν ἀραβίαν πλευρὰν ἀπὸ αἰλανίτου μυχοῦ σταδίων μυριάδων ͵δ
+                            αὐτὴ δὲ ἡ ἀραβία εἰς τὴν ἐρυθρὰν καθήκει καὶ μεμήκυται ἐπὶ σταδίων
+                            μυρήων δισχιλίων</p>
+                    </div>
+                </div>
+
+
+                <div type="textpart" subtype="chapter" n="4">
+                    <div type="textpart" subtype="section" n="15">
+                        <p>μῆκος δὲ τῆς οἰκουμένης ἀπὸ γάγγου εἰς τὰ γάδειρα σταδίων μυριάδων ε καὶ
+                            ͵ηφμε οὕτως ἀπο μὲν γάγγου ποταμοῦ ἕως μυριάνδρου τὴς ἐν ἰσσικῶ κόλπω
+                            σταδίων μυριάδων τεσσάρων καὶ χιλίων ψκ ἀπὸ γάγγου ἐπὶ ἐκβολὰς ἰνδοῦ
+                            ποταμοῦ σταδίων δισμυρίων ͵ς ἀπὸ ἰνδοῦ ἕως κασπίων πυλῶν μυρίων
+                            πεντακισχιλίων τριακοσίων ἐπὶ τὸν εὐφράτην σταδίων μυρίων γ εἰς
+                            μυρίανδρον σταδίων τοε</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="16">
+                        <p>ἀπὸ δὲ μυριάνδρου ἐπὶ γάδειρα σταδίων δισμυρίων ͵ςωκ οὕτως ἀπὸ μυριάνδρου
+                            ἐπὶ κλεῖδας κύπρου σταδίων χιλίων τετρακοσίων ἐπὶ ἀκάμαντα τὸ ἀκρωτήριον
+                            στάδιοι ͵γτ ἐπὶ δὲ χελιδονίας διὰ παμφυλίου πελάγους σταδία ͵ατ εἰς
+                            πάταρα στάδια ω ὡς εἰς ῥόδον στάδια ψ εἰς ἀστυπάλαιαν διὰ καρπαθίου
+                            στάδια ρμ</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="16a">
+                        <p>ἐπὶ ταίναρον στάδια ͵αυν ἐπὶ πάχυνον σικελίας στάδια ͵δ ἐπὶ λιλύβαιον διὰ
+                            λιβυκοῦ πελάγους στάδια ͵αφκ ἐπὶ δὲ κάραλιν σαρδοῦς διὰ τυρσηνικοῦ
+                            πελάγους στάδια ͵βω ἐπὶ γάδειρα ὑπερπλεύσαντι γυμνησίας νήσους στάδια
+                            μύρια ἀπὸ γαδείρων δὲ διὰ ἱεροῦ ἀκρωτηρίου καὶ ἀρτάβρων λιμένος στάδιοι
+                            ͵ζτλβ ὁμοῦ γίνονται μυριάδες ἑπτὰ καὶ ͵βυοζ</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="17">
+                        <p>καὶ ἄλλως ἀπὸ γάγγου ἕως εὐφράτου ποταμοῦ μυριάδων τεσσάρων καὶ χιλίων τν
+                            ἀπὸ εὐφράτου εἰς μάζακα καππαδοκῶν στάδια ͵δρν ἀπὸ δὲ μαζάκων διὰ
+                            φρυγίας τῆς παρορίου καὶ μεγάλης καρίας ἕως ἐφέσου στάδιοι ͵γτϟ ὁμοῦ ἀπὸ
+                            γάγγου εἰς ἔφεσον σταδίων μυριάδων τεσσάρων καὶ ͵ζσϟ ἀπὸ δὲ ἐφέσου εἰς
+                            δῆλον διὰ τοῦ αἰγαίου στάδια ͵αχ ἐπὶ ἰσθμόν στάσια ͵αψ</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="17a">
+                        <p>ἀπὸ ἰσθμοῦ διὰ κορινθίου κόλπου εἰς πάτρας στάδια ψκ ἐπὶ λευκάδα στάδια ψ
+                            ἐπὶ κόρκυραν στάδια ψ ἐπ᾿ ἀκροκεραύνια ὄρη στάδια χξ ἐπὶ βρεντέσιον
+                            στάδια ψ ἀπὸ βρεντεσίου πεζῆ ὁδεύοντι ἕως ῥώμης στάδια ͵βωπ ἀπὸ ῥώμης
+                            ἐπὶ τὰς ἄλπεις ἕως τομάρου ὑπὸ ταῖς ἄλπεσιν οὔσης στάδια ͵δρνβ εἶτα διὰ
+                            κελτικῆς ἕως πόλεως ἰλλυγύρεως ἕως γαδείρων στάδια ͵βχνα καὶ ὁ διάπλους
+                            ἐπὶ γάδειρα διὰ τῶν πανδοκίων στάδια ξ ὁμοῦ ἀπὸ γάγγου εἰς γάδειρα
+                            σταδίων μυριάδες ἑπτὰ καὶ ͵αφξ</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="18">
+                        <p>πλάτος δὲ τῆς οἰκουμένης ἀπὸ τῆς αἰθιοπικῆς θαλάσσης ἐπὶ μερόην σταδίων
+                            ͵ε ἀπὸ μερόης εἰς ἀλεξάνδρειαν σταδίων μυρίων ͵α ἀπὸ δὲ ἀλεξανδρείας ἐπὶ
+                            τάναϊν μυρίων ͵ανς τὰ γὰρ ἄνω τῶν ἐκβολῶν τοῦ τανάιδος ἀγνοεῖται εἰς
+                            βορρᾶν οὕτως ἀπὸ ἀλεξανδρείας εἰς λίνδον ῥόδου στάδια ͵δφ ἐπὶ τὸ
+                            θοάντιον δεξιὸν παραπλέοντι ῥόδον στάδια υ</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="18a">
+                        <p>ἐπὶ τῆλον στάδια ρξ ἐπὶ λακτῆρα τῆς κωας στάδια ρκ ἐπὶ δρέπανον κωας
+                            στάδια ρ ἐπὶ ἀρκίτιν νῆσον στάδια σλ ἐπὶ κορσίας ρ ἐπὶ σαμίων ἄμπελον
+                            στάδια λ ἐπὶ τὸ αἰγαῖον ἄργεννον διὰ τοῦ αἰγαίου στάδια φ ἐπὶ τὸ
+                            ἐρυθραῖον κορυναῖον στάδια σο ἐπὶ φλίον ἄκρον χίου στάδια ν ἐπὶ μελανέα
+                            ἄκρον λέσβου στάδια υν ἐπὶ σίγριον λέσβου στάδια φ εἰς τένεδον νῆσον
+                            στάδια υν εἰς σίγιον στάδια ρ ἐπὶ στόμα πόντου στάδια ͵βφ ἐπὶ κάραμβιν
+                            στάδια ͵βω ἐπὶ στόμα μαιώτιδος στάδια ͵βφ ἐπὶ τάναϊν στάδια ͵βσ</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="19">
+                        <p>ἄλλως ἀπὸ πόλεως εἰς πόλιν ἀπὸ ἀλεξανδρείας εἰς ῥόδον στάδια ͵δχο εἰς
+                            κνίδον στάδια ψ εἰς κῶ στάδια σ εἰς σάμον στάδια ω εἰς χίον στάδια ψν
+                            εἰς μιτυλήνην στάδια φκ εἰς τένεδον τν εἰς σίγιον ρ ἐπὶ τὸ στόμα πόντου
+                            ͵βφ εἰς κάραμβιν ͵βω εἰς στόμα μαιώτιδος ͵αφ ἐπὶ τάναϊν ποταμόν ͵βσ ὁμοῦ
+                            ἀπὸ ἀλεξανδρείας ἕως τανάιδος στάδιων μυρίων ͵ηχϟ </p>
+                    </div>
+                </div>
+
+                <div type="textpart" subtype="chapter" n="5">
+                    <div type="textpart" subtype="section" n="20">
+                        <p>λοιπὸν δὲ ἐροῦμεν τῶν καθ᾿ ἡμᾶς νήσων τὰς περιμέτρους λαβόντες παρὰ
+                            ἀρτεμιδώρου καὶ μενίππου καὶ ἑτέρων ἀξιοπίστων γάδειρα μῆκος σταδίων ρκ
+                            πλάτος σταδίων ις ὁ δὲ καθ᾿ ἡρακλείους στήλας πορθμός στενότατός ἐστι
+                            σταδίων π ἐν δὲ τῶ ἰβηρικῶ πελάγει νῆσοι πιτύουσα ἡ μείζων καὶ οἰκουμένη
+                            σταδίων τ μῆκος ἡ δὲ ἐλάττων σταδίων ρ</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="20a">
+                        <p>τῶν δὲ γυμνασίων ἃς καρχηδόνιοι βαλιαρίας καλοῦσιν οἱ γὰρ σφενδονηταὶ
+                            οὕτω καλοῦνται οἵ βαλιαρεῖς ἡ μείζων μῆκος σταδίων ͵ασ πλάτος σταδίων υ
+                            ἡ ἐλάττων σταδίων τ αἱ δὲ στοιχάδες αἱ φερώνυμοι ἑξῆς ἐπ᾿ εὐθείας
+                            κεῖνται πρὸ τῶν μασσαλιακῶν πόλεων αἱ μὲν μείζους τρεῖς δύο δὲ μικραὶ
+                            αὐτῆς ἐγγὺς μασσαλίας ἡ δὲ σαρδὼ ἔχει σχῆμα ὡς πόλος ἰσχνὸς μεσόκοιλος
+                            τὸ μῆκος ͵βσ</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="20b">
+                        <p>κύρνος ἐγγὺς σαρδοῦς πολλῶ δὲ ἀγενεστέρα ἔλαττον ἣ ἡμίσυ τοῦ σαρδοῦς
+                            μήκους ἔχει ἀφετήριον δ᾿ εἰς σαρδὼ καὶ κύρνον ποπουλώνιον τῆς τυρσηνίας
+                            τὸ δὲ δίαρμα σταδίων ͵βσ τῆς σικελίας κατὰ τιμοσθένην περίμετρος σταδίων
+                            ͵αψμ σχῆμα τρίγωνον σκαληνοειδές</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="20c">
+                        <p>δίαρμα δὲ ἔχει ἀπὸ πελώρου ἄκρου εἰς ἰταλία σταδίων ια πορθμῶ πλευρὰ
+                            νήσου ἀπὸ πελώρου εἰς πάχυνον στάδια ͵ατξ ἀπὸ παχύνου εἰς λιλύβαιον
+                            στάδια ͵αχ κατὰ τιμοσθένην ἀπὸ λιλυβαίου εἰς πελωριάδα στάδια ψ ἀπὸ
+                            λιλυβαίου διάπλους εἰς ἀσπίδα τῆς λιβύης ἐγγὺς στάδια ͵αφ</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="21">
+                        <p>κέρκινα νῆσος μῆκος πλάτος στάδια ο ὅπου δὲ στενοτάτη στάδια μ ὑπέρκειται
+                            δὲ πόλεως ἠπειρωτικῆς θεήνης ἣ κεῖται τῆς μικρᾶς σύρτιδος ἐπὶ τῆς ἀρχῆς
+                            τῆ δὲ κερκίνη παράκειται νῆσος καρκινῖτις γέφυρα ζευχθεῖσα στάδια μῆκος
+                            μ πλάτος δὲ στάδια κε</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="22">
+                        <p>ἀπὸ κερκίνης ἐπὶ νῆσον μήνιγγα τὴν λωτοφαγίτιν ὁ διάπλους στάδια χ ὅσον
+                            τῆς μικρᾶς λέγεται σύρτιδος τὸ στόμα ἡ δὲ μῆνιξ μῆκος σταδίων χ σταδίων
+                            π μεγάλαι δ᾿ εἰσὶ περὶ αὐτὴν παλίρροιαι</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="23">
+                        <p>κεφαλληνία νῆσος τετράπολις μῆκος σταδίων υ εἴσι δὲ καὶ ἐν τῶ ἀδρία νῆσοι
+                            παρὰ τὴν ἰλλυρίδα ὧν ἐπισημότεραι ἴσση καὶ ἡ μέλαινα κόρκυρα καὶ φάρος
+                            καὶ μελίτη ὧν ἀγνοῶ τὰς περιμέτρους</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="24">
+                        <p>πελοποννήσου δὲ ὁ περίπλους καὶ τῶν κόλπων συμμετρουμένων στάδια ͵εχκζ
+                            χωρὶς δὲ τοῦ κατακολπίσαι ὁ περίπλους στάδια ͵δ μῆκος δὲ ἀπὸ μαλέας ἕως
+                            αἰγαίου στάδια ͵αν ἔχει δὲ ὅμοιον σχῆμα φύλλω πλατάνου κόλποις μεγάλοις
+                            τεμνομένη συνάγεται μὲν εἰς τὸν κορινθίων ἰσθμόν πλάτος σταδίων μ</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="24a">
+                        <p>ἀπὸ τοῦ κορινθίου κόλπου καὶ σαρωνικοῦ ἐπὶ τὸ σκύλλαιον ἄκρον ἐξ εὐωνύμων
+                            ἔνθα πρόκειται νῆσος καλαυρία ποσειδῶνος ἱερά ἑξῆς δ᾿ ὁ ἀργολικὸς κόλπος
+                            μέχρι μαλέας ἄκρου ὃ πολὺ προπέπτωκεν εἰς πέλαγος εἶτα ὁ ἑρμιονικὸς
+                            κόλπος ἑξῆς δὲ μετὰ μαλέαν λακωνικὸς κόλπος ἕως ταινάρου ἐκδεξιὼν ὃ
+                            περιορίζει ἐξ εὐωνύμων τὸν μεσσηνιακὸν κόλπον οὗ ἐκδεξιὼν ἀκρίτας
+                            ἄκρα</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="24b">
+                        <p>εἶτα προπέπτωκεν ἄκρον ἰχθύς καθ᾿ ὃν κεῖται ζάκυνθος καὶ ἕτερον ὁ
+                            χελωνάτας τελευταῖον δ᾿ ἄκρον ἄρραξος ἀντιπρόσωπον ἀκαρνανία μεθ᾿ ὃν ὁ
+                            κορινθιακὸς ἀναχεῖται κόλπος ζ σταδίων συγκλείομενος στόματι κατὰ τὸ
+                            ῥίον ἄκρον ὅ ἐστι τῆς πελοποννήσου τὸ δ᾿ ἀντίριον λοκρίδος ἀπὸ ταινάρου
+                            ἐπὶ φυκοῦντα λιβύης τὸ δίαρμα στάδια ͵γ</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="25">
+                        <p>αἴγινα νῆσος προμήκης στάδια ρξ ἐξ ἐναντίας κεῖται τῆς ἀττικῆς σαλαμὶς
+                            μῆκος στάδια ο ἡ κεία ρκ τῶν δὲ κυκλάδων κρατίστη ἐστὶν ἡ νάξος διὸ
+                            μικρὰ λέγεται σικελία ἐκδεξιών δ᾿ αἰ σποράδες ἡ δ᾿ εὔβοια γεφύρα πρὸ τὴν
+                            βοιωτίαν ἔζευκται παρατείνει δὲ βοιωτίδα φωκίδα λοκρούς ἐκ δὲ θατέρου
+                            ἐπὶ ποσὸν καὶ τῆ ἀττικῆ ἔστι γὰρ μακρὰ διὸ μάκρις ὠνομάσθη μῆκος σταδίων
+                            ͵αψ</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="26">
+                        <p>ἡ δὲ κρήτη κατὰ μαλέαν πλησιάζει πελοποννήσω περίμετρος δὲ αὐτῆς σταδίων
+                            ͵δρ μῆκος ͵βτ κατὰ πολὺ γὰρ μεμήκυνται κύθηρα μέσον κρήτης καὶ λακωνικῆς
+                            κύπρος βύρση τὸ σχῆμα ὁμοία περίπλους στάδια ͵γυκ μῆκος δὲ ͵ατ ἀπὸ πάφου
+                            εἰς ἀλεξάνδρειαν διάρμα βορέου σταδίων ͵γω ῥόδου περίμετρος στάδια ͵ατ
+                            κῶ περίμετρος στάδια φν σάμος στάδια χλ ἰκαρία δὲ ἐστι μακρὰ τραχεῖα
+                            μῆκος σταδίων τ χίου περίμετρος στάδια χξ λέσβου περίμετρος στάδια
+                            ͵αρ</p>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <fw type="subscription">Ἀγαθημέρου τοῦ ὄρθωνος ὑποτύπωσις γεωγραφίας</fw>
+            </div>
+        </body>
+    </text>
+</TEI>

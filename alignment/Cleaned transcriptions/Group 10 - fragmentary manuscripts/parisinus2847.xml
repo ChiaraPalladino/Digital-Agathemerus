@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="parisinus2847_gr">
+	<!-- id of the manuscript or print edition -->
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="lat">Geographiae Informatio</title>
+				<author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+					>Agathemerus</author>
+				<author role="editor"/>
+				<author role="translator"/>
+				<sponsor>University of Leipzig</sponsor>
+				<sponsor>Università degli Studi di Bari Aldo Moro</sponsor>
+				<respStmt>
+					<persName xml:id="CP">Chiara Palladino</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="MB">Monica Berti</persName>
+					<resp>Supervisor</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="GC">Gregory Crane</persName>
+					<resp>Supervisor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Pasquale Massimo Pinto</persName>
+					<resp>Supervisor</resp>
+				</respStmt>
+			</titleStmt>
+
+			<publicationStmt>
+				<authority/>
+				<idno type="filename">parisinus2847_gr.xml</idno>
+				<!-- has to be the same name declared in the xml:id above -->
+				<authority>University of Leipzig</authority>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+						under a Creative Commons Attribution-ShareAlike International 4.0
+						License</licence>
+				</availability>
+				<date>2017</date>
+				<publisher>University of Leipzig</publisher>
+				<pubPlace>Germany</pubPlace>
+			</publicationStmt>
+
+			<sourceDesc>
+				<listBibl>
+
+					<msDesc>
+						<msIdentifier xml:id="parisinus2847">
+							<settlement>Paris</settlement>
+							<repository>Bibliothèque Nationale</repository>
+							<collection>Grec</collection>
+							<idno>Parisinus Graecus 2847</idno>
+						</msIdentifier>
+						<msContents>
+
+
+							<msItem>
+								<locus>f. 39v</locus>
+
+								<author>Agathemerus</author>
+								<title xml:lang="lat">Excerpta J ex Johanne Damasceno</title>
+								<note>Excerptum J De Maribus</note>
+
+							</msItem>
+						</msContents>
+
+						<physDesc>
+							<objectDesc>
+								<supportDesc material="paper">
+
+
+									<extent>
+										<measure type="composition" unit="leaf">196</measure>
+										<dimensions/>
+									</extent>
+									<collation>
+										<p> quaternion </p>
+									</collation>
+								</supportDesc>
+
+							</objectDesc>
+
+							<handDesc hands="1">
+								<handNote xml:id="M1" scope="major"/>
+
+							</handDesc>
+						</physDesc>
+
+						<history>
+
+							<origin>
+								<origPlace/>
+								<origDate>15th-16th century</origDate>
+							</origin>
+
+							<acquisition/>
+
+						</history>
+
+					</msDesc>
+
+
+
+				</listBibl>
+				<bibl>
+					<ref target="http://gallica.bnf.fr/ark:/12148/btv1b10722331q">Gallica.BnF</ref>
+				</bibl>
+
+
+			</sourceDesc>
+
+		</fileDesc>
+
+		<encodingDesc>
+			<projectDesc>
+				<ab>
+					<title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>
+				</ab>
+			</projectDesc>
+			<p>The following text is encoded in accordance with EpiDoc standards and with the
+				CTS/CITE Architecture.</p>
+			<!--
+				
+			<refsDecl n="CTS">
+				<cRefPattern n="section" matchPattern="(.+).(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+					<p>This pointer pattern extracts chapters and sections</p>
+				</cRefPattern>
+				<cRefPattern n="chapter" matchPattern="(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+					<p>This pointer pattern extracts chapters</p>
+				</cRefPattern>
+			</refsDecl>
+			-->
+		</encodingDesc>
+
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latin</language>
+				<language ident="grc">Greek</language>
+			</langUsage>
+		</profileDesc>
+
+		<revisionDesc>
+			<change who="Chiara Palladino" when="2017-07-21">Created the XML file</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text>
+		<body>
+			<div type="edition" subtype="transcription" xml:lang="grc">
+				<div type="textpart" subtype="chapter" n="2">
+
+
+
+					<div type="textpart" subtype="section" n="9">
+
+						<p> Διαδέχεται τὸ Αἰγαῖον πέλαγος Ἑλλίσποντος λήγων εἰς Ἄβυδον καὶ σηστόν
+							εἶτα ἡ προποντὶς λήγουσα εἶς καρχηδόνα καὶ βυζάντιον ἔνθα τὰ στενὰ ἀφ᾿
+							ὧν ὁ Πόντος ἄρχεται εἶτα ἡ Μαιῶτις λύμνη πάλιν δὲ ἀπ᾿ ἀρχῆς εὐρώπης
+							καὶ λιβύης Ἰβερικὸν τὸ ἀπὸ στηλῶν εἰς πυρίνης τὸ ὄρος Λιγυστικὸν δὲ τὸ
+							ἕως τῆς τῶν Τυρρηνίας περάτων Σαρδόνιον δὲ τὸ ὑπὲρ τὴν σαρδονεῦον πρὸς
+							τὴν λιβύην κάτω </p>
+					</div>
+
+
+
+					<div type="textpart" subtype="section" n="9a">
+
+						<p>Τυρρηνικὸν δὲ τὸ μέχρι Σικελίας λῆγον ἀρχόμενον ἀπὸ λιγυστικῆς ἄκρων
+							εἶτα Λιβυκόν· εἶτα Κρητικὸν καὶ Σικελικὸν καὶ Ἰώνιον καὶ Ἀδριον Τὸ δὲ
+							ἀνακεχυμένον ἐκ τοῦ σικελικοῦ πελάγους ὃν καλοῦσι Κορινθιακὸν κόλπον
+							ἤτοι Ἀλκυονίδα θάλασσαν· τὸ δὲ Σούνιον καὶ Σκυλλιων περιεχόμενον
+							πέλαγος Σαρωνικόν εἶτα Μυρτῶον καὶ Ἰκάριον ἐν ὧ αἰ Κυκλαδες εἶτα
+							Καρπάθιον καὶ παμφύλιον καὶ Αἰγύπτιον </p>
+					</div>
+
+					<div type="textpart" subtype="section" n="10">
+						<p> ἔστι δὲ ὁ τῆς εὐρώπης παράπλους ἀπὸ Ταναίδος ποταμοῦ ἐκβολῶν ἕως
+							ἡρακλέους στηλῶν στάδια μυριάδες ἕξ καὶ θψθ Τῆς δὲ λιβυκῆς ἀπὸ
+							τιγάσεως στόματος κανοβικοῦ στάδια μυριάδες β καὶ θσνβ </p>
+					</div>
+
+					<div type="textpart" subtype="section" n="10a">
+						<p>τῆς δὲ Ἀσίας ἀπὸ Κανώνου ἕως Ταναίδος ποταμοῦ μετὰ τῶν κόλπων στάδια
+							μυριάδες δ καὶ ρια ὁμοῦ παράλιος τῆς καθ' ἡμᾶς οἰκουμένης στάδια
+							μυριάδες ιγ καὶ θοβ</p>
+					</div>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

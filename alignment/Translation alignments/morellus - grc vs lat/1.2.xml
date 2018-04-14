@@ -1,0 +1,870 @@
+<aligned-text>
+	<language lnum="L1" xml:lang="GRC"/>
+	<language lnum="L2" xml:lang="LAT"/>
+	<sentence n="1">
+		<wds lnum="L1">
+			<w n='1-1'>
+				<text>Οἱ</text>
+				<refs nrefs='2-1'></refs>
+			</w>
+			<w n='1-2'>
+				<text>μὲν</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-3'>
+				<text>οὖν</text>
+				<refs nrefs='2-2'></refs>
+			</w>
+			<w n='1-4'>
+				<text>παλαιοὶ</text>
+				<refs nrefs='2-1'></refs>
+			</w>
+			<w n='1-5'>
+				<text>τὴν</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-6'>
+				<text>οἰκουμένην</text>
+				<refs nrefs='2-3'></refs>
+			</w>
+			<w n='1-7'>
+				<text>ἔγραφον</text>
+				<refs nrefs='2-6'></refs>
+			</w>
+			<w n='1-8'>
+				<text>στρογγύλην</text>
+				<refs nrefs='2-4'></refs>
+			</w>
+			<w n='1-9'>
+				<text>μέσην</text>
+				<refs nrefs='2-10 2-9'></refs>
+			</w>
+			<w n='1-10'>
+				<text>δ᾿</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-11'>
+				<text>ἡγεῖσθαι</text>
+				<refs nrefs='2-14'></refs>
+			</w>
+			<w n='1-12'>
+				<text>τὴν</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-13'>
+				<text>Ἑλλάδα</text>
+				<refs nrefs='2-11'></refs>
+			</w>
+			<w n='1-14'>
+				<text>καὶ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-15'>
+				<text>ταύτης</text>
+				<refs nrefs='2-16 2-17'></refs>
+			</w>
+			<w n='1-16'>
+				<text>Δελφούς</text>
+				<refs nrefs='2-22'></refs>
+			</w>
+			<w n='1-17'>
+				<text>τὸν</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-18'>
+				<text>ὄμφαλον</text>
+				<refs nrefs='2-28'></refs>
+			</w>
+			<w n='1-19'>
+				<text>γὰρ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-20'>
+				<text>ἔχειν</text>
+				<refs nrefs='2-30'></refs>
+			</w>
+			<w n='1-21'>
+				<text>τῆς</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-22'>
+				<text>γῆς</text>
+				<refs nrefs='2-27'></refs>
+			</w>
+			<w n='1-23'>
+				<text>πρῶτος</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-24'>
+				<text>δὲ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-25'>
+				<text>Δημόκριτος</text>
+				<refs nrefs='2-35'></refs>
+			</w>
+			<w n='1-26'>
+				<text>πολύπειρος</text>
+				<refs nrefs='2-36 2-38 2-39'></refs>
+			</w>
+			<w n='1-27'>
+				<text>ἀνὴρ</text>
+				<refs nrefs='2-37'></refs>
+			</w>
+			<w n='1-28'>
+				<text>συνεῖδεν</text>
+				<refs nrefs='2-44'></refs>
+			</w>
+			<w n='1-29'>
+				<text>ὅτι</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-30'>
+				<text>προμήκης</text>
+				<refs nrefs='2-41 2-42'></refs>
+			</w>
+			<w n='1-31'>
+				<text>ἐστὶν</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-32'>
+				<text>ἡ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-33'>
+				<text>γῆ</text>
+				<refs nrefs='2-40'></refs>
+			</w>
+			<w n='1-34'>
+				<text>ἡμιόλιος</text>
+				<refs nrefs='2-50'></refs>
+			</w>
+			<w n='1-35'>
+				<text>τὸ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-36'>
+				<text>μῆκος</text>
+				<refs nrefs='2-48'></refs>
+			</w>
+			<w n='1-37'>
+				<text>τοῦ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-38'>
+				<text>πλάτους</text>
+				<refs nrefs='2-49'></refs>
+			</w>
+			<w n='1-39'>
+				<text>ἔχουσα</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-40'>
+				<text>συνάγεται</text>
+				<refs nrefs='2-57'></refs>
+			</w>
+			<w n='1-41'>
+				<text>τούτῳ</text>
+				<refs nrefs='2-53'></refs>
+			</w>
+			<w n='1-42'>
+				<text>καὶ</text>
+				<refs nrefs='2-55'></refs>
+			</w>
+			<w n='1-43'>
+				<text>Δικαίαρχος</text>
+				<refs nrefs='2-54'></refs>
+			</w>
+			<w n='1-44'>
+				<text>ὁ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-45'>
+				<text>περιπατητικός</text>
+				<refs nrefs='2-56'></refs>
+			</w>
+			<w n='1-46'>
+				<text>.</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-47'>
+				<text>Εὔδοξος</text>
+				<refs nrefs='2-59'></refs>
+			</w>
+			<w n='1-48'>
+				<text>δὲ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-49'>
+				<text>τὸ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-50'>
+				<text>μῆκος</text>
+				<refs nrefs='2-60'></refs>
+			</w>
+			<w n='1-51'>
+				<text>διπλοῦν</text>
+				<refs nrefs='2-63'></refs>
+			</w>
+			<w n='1-52'>
+				<text>τοῦ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-53'>
+				<text>πλάτους</text>
+				<refs nrefs='2-61'></refs>
+			</w>
+			<w n='1-54'>
+				<text>ὁ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-55'>
+				<text>δὲ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-56'>
+				<text>Ἐρατοσθένης</text>
+				<refs nrefs='2-65'></refs>
+			</w>
+			<w n='1-57'>
+				<text>πλέον</text>
+				<refs nrefs='2-66'></refs>
+			</w>
+			<w n='1-58'>
+				<text>τοῦ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-59'>
+				<text>διπλοῦ</text>
+				<refs nrefs='2-67 2-68'></refs>
+			</w>
+			<w n='1-60'>
+				<text>Κράτης</text>
+				<refs nrefs='2-72'></refs>
+			</w>
+			<w n='1-61'>
+				<text>δὲ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-62'>
+				<text>ὡς</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-63'>
+				<text>ἡμικύκλου</text>
+				<refs nrefs='2-73'></refs>
+			</w>
+			<w n='1-64'>
+				<text>Ἵππαρχος</text>
+				<refs nrefs='2-75'></refs>
+			</w>
+			<w n='1-65'>
+				<text>δὲ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-66'>
+				<text>τραπεζοειδῆ</text>
+				<refs nrefs='2-76'></refs>
+			</w>
+			<w n='1-67'>
+				<text>ἄλλοι</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-68'>
+				<text>οὐροειδῆ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-69'>
+				<text>Ποσειδώνιος</text>
+				<refs nrefs='2-89'></refs>
+			</w>
+			<w n='1-70'>
+				<text>δ᾿</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-71'>
+				<text>ὁ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-72'>
+				<text>Στωϊκὸς</text>
+				<refs nrefs='2-90'></refs>
+			</w>
+			<w n='1-73'>
+				<text>σφενδονοειδῆ</text>
+				<refs nrefs='2-91 2-92'></refs>
+			</w>
+			<w n='1-74'>
+				<text>καὶ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-75'>
+				<text>μεσόπλατον</text>
+				<refs nrefs='2-98'></refs>
+			</w>
+			<w n='1-76'>
+				<text>ἀπὸ</text>
+				<refs nrefs='2-100'></refs>
+			</w>
+			<w n='1-77'>
+				<text>νότου</text>
+				<refs nrefs='2-101'></refs>
+			</w>
+			<w n='1-78'>
+				<text>εἰς</text>
+				<refs nrefs='2-102'></refs>
+			</w>
+			<w n='1-79'>
+				<text>βορρᾶν</text>
+				<refs nrefs='2-103'></refs>
+			</w>
+			<w n='1-80'>
+				<text>στενὴν</text>
+				<refs nrefs='2-105'></refs>
+			</w>
+			<w n='1-81'>
+				<text>πρὸς</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-82'>
+				<text>ἕω</text>
+				<refs nrefs='2-107'></refs>
+			</w>
+			<w n='1-83'>
+				<text>καὶ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-84'>
+				<text>δύσιν</text>
+				<refs nrefs='2-109'></refs>
+			</w>
+			<w n='1-85'>
+				<text>τὰ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-86'>
+				<text>πρὸς</text>
+				<refs nrefs='2-113'></refs>
+			</w>
+			<w n='1-87'>
+				<text>εὖρον</text>
+				<refs nrefs='2-113'></refs>
+			</w>
+			<w n='1-88'>
+				<text>δὲ</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-89'>
+				<text>πλατύτερα</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-90'>
+				<text>πρὸς</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-91'>
+				<text>τὴν</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='1-92'>
+				<text>Ἰνδικήν</text>
+				<refs nrefs='2-116'></refs>
+			</w>
+		</wds>
+		<wds lnum="L2">
+			<w n='2-1'>
+				<text>Veteres</text>
+				<refs nrefs='1-1 1-4'></refs>
+			</w>
+			<w n='2-2'>
+				<text>itaque</text>
+				<refs nrefs='1-3'></refs>
+			</w>
+			<w n='2-3'>
+				<text>terram</text>
+				<refs nrefs='1-6'></refs>
+			</w>
+			<w n='2-4'>
+				<text>rotundam</text>
+				<refs nrefs='1-8'></refs>
+			</w>
+			<w n='2-5'>
+				<text>esse</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-6'>
+				<text>prodiderunt</text>
+				<refs nrefs='1-7'></refs>
+			</w>
+			<w n='2-7'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-8'>
+				<text>cuius</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-9'>
+				<text>in</text>
+				<refs nrefs='1-9'></refs>
+			</w>
+			<w n='2-10'>
+				<text>meditullio</text>
+				<refs nrefs='1-9'></refs>
+			</w>
+			<w n='2-11'>
+				<text>Graecia</text>
+				<refs nrefs='1-13'></refs>
+			</w>
+			<w n='2-12'>
+				<text>tanquam</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-13'>
+				<text>Regina</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-14'>
+				<text>sedeat</text>
+				<refs nrefs='1-11'></refs>
+			</w>
+			<w n='2-15'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-16'>
+				<text>in</text>
+				<refs nrefs='1-15'></refs>
+			</w>
+			<w n='2-17'>
+				<text>qua</text>
+				<refs nrefs='1-15'></refs>
+			</w>
+			<w n='2-18'>
+				<text>vicissim</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-19'>
+				<text>medium</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-20'>
+				<text>ubi</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-21'>
+				<text>locum</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-22'>
+				<text>Delphi</text>
+				<refs nrefs='1-16'></refs>
+			</w>
+			<w n='2-23'>
+				<text>vendicet</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-24'>
+				<text>.</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-25'>
+				<text>apud</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-26'>
+				<text>quos</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-27'>
+				<text>terrarum</text>
+				<refs nrefs='1-22'></refs>
+			</w>
+			<w n='2-28'>
+				<text>umbilicus</text>
+				<refs nrefs='1-18'></refs>
+			</w>
+			<w n='2-29'>
+				<text>esse</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-30'>
+				<text>feratur</text>
+				<refs nrefs='1-20'></refs>
+			</w>
+			<w n='2-31'>
+				<text>.</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-32'>
+				<text>Porro</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-33'>
+				<text>primus</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-34'>
+				<text>omnium</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-35'>
+				<text>Democritus</text>
+				<refs nrefs='1-25'></refs>
+			</w>
+			<w n='2-36'>
+				<text>varia</text>
+				<refs nrefs='1-26'></refs>
+			</w>
+			<w n='2-37'>
+				<text>vir</text>
+				<refs nrefs='1-27'></refs>
+			</w>
+			<w n='2-38'>
+				<text>experientia</text>
+				<refs nrefs='1-26'></refs>
+			</w>
+			<w n='2-39'>
+				<text>nobilis</text>
+				<refs nrefs='1-26'></refs>
+			</w>
+			<w n='2-40'>
+				<text>terram</text>
+				<refs nrefs='1-33'></refs>
+			</w>
+			<w n='2-41'>
+				<text>in</text>
+				<refs nrefs='1-30'></refs>
+			</w>
+			<w n='2-42'>
+				<text>longum</text>
+				<refs nrefs='1-30'></refs>
+			</w>
+			<w n='2-43'>
+				<text>protendi</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-44'>
+				<text>deprehendit</text>
+				<refs nrefs='1-28'></refs>
+			</w>
+			<w n='2-45'>
+				<text>.</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-46'>
+				<text>cuius</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-47'>
+				<text>nimirum</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-48'>
+				<text>longitudo</text>
+				<refs nrefs='1-36'></refs>
+			</w>
+			<w n='2-49'>
+				<text>latitudinem</text>
+				<refs nrefs='1-38'></refs>
+			</w>
+			<w n='2-50'>
+				<text>hemiolio</text>
+				<refs nrefs='1-34'></refs>
+			</w>
+			<w n='2-51'>
+				<text>superet</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-52'>
+				<text>.</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-53'>
+				<text>Huic</text>
+				<refs nrefs='1-41'></refs>
+			</w>
+			<w n='2-54'>
+				<text>Dicaearchus</text>
+				<refs nrefs='1-43'></refs>
+			</w>
+			<w n='2-55'>
+				<text>quoque</text>
+				<refs nrefs='1-42'></refs>
+			</w>
+			<w n='2-56'>
+				<text>peripateticus</text>
+				<refs nrefs='1-45'></refs>
+			</w>
+			<w n='2-57'>
+				<text>astipulatur</text>
+				<refs nrefs='1-40'></refs>
+			</w>
+			<w n='2-58'>
+				<text>.</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-59'>
+				<text>Eudoxus</text>
+				<refs nrefs='1-47'></refs>
+			</w>
+			<w n='2-60'>
+				<text>longitudinem</text>
+				<refs nrefs='1-50'></refs>
+			</w>
+			<w n='2-61'>
+				<text>latitudine</text>
+				<refs nrefs='1-53'></refs>
+			</w>
+			<w n='2-62'>
+				<text>maiorem</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-63'>
+				<text>duplo</text>
+				<refs nrefs='1-51'></refs>
+			</w>
+			<w n='2-64'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-65'>
+				<text>Eratosthenes</text>
+				<refs nrefs='1-56'></refs>
+			</w>
+			<w n='2-66'>
+				<text>plus</text>
+				<refs nrefs='1-57'></refs>
+			</w>
+			<w n='2-67'>
+				<text>quam</text>
+				<refs nrefs='1-59'></refs>
+			</w>
+			<w n='2-68'>
+				<text>duplo</text>
+				<refs nrefs='1-59'></refs>
+			</w>
+			<w n='2-69'>
+				<text>existimat</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-70'>
+				<text>.</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-71'>
+				<text>terrae</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-72'>
+				<text>Crates</text>
+				<refs nrefs='1-60'></refs>
+			</w>
+			<w n='2-73'>
+				<text>semicirculi</text>
+				<refs nrefs='1-63'></refs>
+			</w>
+			<w n='2-74'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-75'>
+				<text>hipparchus</text>
+				<refs nrefs='1-64'></refs>
+			</w>
+			<w n='2-76'>
+				<text>mensae</text>
+				<refs nrefs='1-66'></refs>
+			</w>
+			<w n='2-77'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-78'>
+				<text>figuram</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-79'>
+				<text>tribuit</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-80'>
+				<text>sunt</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-81'>
+				<text>qui</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-82'>
+				<text>ita</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-83'>
+				<text>navalis</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-84'>
+				<text>instar</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-85'>
+				<text>se</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-86'>
+				<text>habere</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-87'>
+				<text>dixrant</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-88'>
+				<text>.</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-89'>
+				<text>Posidonius</text>
+				<refs nrefs='1-69'></refs>
+			</w>
+			<w n='2-90'>
+				<text>stoicus</text>
+				<refs nrefs='1-72'></refs>
+			</w>
+			<w n='2-91'>
+				<text>fundae</text>
+				<refs nrefs='1-73'></refs>
+			</w>
+			<w n='2-92'>
+				<text>similem</text>
+				<refs nrefs='1-73'></refs>
+			</w>
+			<w n='2-93'>
+				<text>esse</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-94'>
+				<text>scripsit</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-95'>
+				<text>.</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-96'>
+				<text>ita</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-97'>
+				<text>ut</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-98'>
+				<text>latius</text>
+				<refs nrefs='1-75'></refs>
+			</w>
+			<w n='2-99'>
+				<text>se</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-100'>
+				<text>ab</text>
+				<refs nrefs='1-76'></refs>
+			</w>
+			<w n='2-101'>
+				<text>Austro</text>
+				<refs nrefs='1-77'></refs>
+			</w>
+			<w n='2-102'>
+				<text>ad</text>
+				<refs nrefs='1-78'></refs>
+			</w>
+			<w n='2-103'>
+				<text>Aquilonem</text>
+				<refs nrefs='1-79'></refs>
+			</w>
+			<w n='2-104'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-105'>
+				<text>strictius</text>
+				<refs nrefs='1-80'></refs>
+			</w>
+			<w n='2-106'>
+				<text>ab</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-107'>
+				<text>ortu</text>
+				<refs nrefs='1-82'></refs>
+			</w>
+			<w n='2-108'>
+				<text>ad</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-109'>
+				<text>occasum</text>
+				<refs nrefs='1-84'></refs>
+			</w>
+			<w n='2-110'>
+				<text>exerat</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-111'>
+				<text>.</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-112'>
+				<text>quamvis</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-113'>
+				<text>Orientalis</text>
+				<refs nrefs='1-86 1-87'></refs>
+			</w>
+			<w n='2-114'>
+				<text>plaga</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-115'>
+				<text>qua</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-116'>
+				<text>Indiam</text>
+				<refs nrefs='1-92'></refs>
+			</w>
+			<w n='2-117'>
+				<text>spectat</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-118'>
+				<text>,</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-119'>
+				<text>latius</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-120'>
+				<text>paulo</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-121'>
+				<text>extendi</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-122'>
+				<text>videatur</text>
+				<refs nrefs=''></refs>
+			</w>
+			<w n='2-123'>
+				<text>.</text>
+				<refs nrefs=''></refs>
+			</w>
+		</wds>
+	</sentence>
+</aligned-text>

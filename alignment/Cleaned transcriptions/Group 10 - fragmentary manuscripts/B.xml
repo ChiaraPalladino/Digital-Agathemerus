@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../../Digital/Work%20in%20Progress/Epidoc%20Stylesheets%20-%208.23/start-edition.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vatopedi_gr"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="lat">Geographiae Informatio</title>
+                <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+                    >Agathemerus</author>
+                <author role="transcriptor">Chiara Palladino</author>
+                <sponsor>University of Leipzig</sponsor>
+                <sponsor>Università degli Studi di Bari Aldo Moro</sponsor>
+                <respStmt>
+                    <persName xml:id="CP">Chiara Palladino</persName>
+                    <resp>Editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Pasquale Massimo Pinto</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority>University of Leipzig</authority>
+                <idno type="filename">vatopedi_gr.xml</idno>
+
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2015</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <!-- This section will be revised after all the transcriptions have been completed -->
+                <!-- compare with catalogue descriptions! -->
+                <bibl>
+                    <ref target="http://www.bl.uk/manuscripts/Viewer.aspx?ref=add_ms_19391_f003r"
+                        >British Library</ref>
+                    <ref target="http://gallica.bnf.fr/ark:/12148/btv1b11004972g/f3.item"
+                        >Gallica</ref>
+                </bibl>
+
+                <msDesc>
+                    <msIdentifier>
+                        <!-- to indicate the scattered parts of the ms., we use msFrag: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html#msfg -->
+                        <msName xml:lang="lat" xml:id="B">Codex Vatopedinus 655</msName>
+                        <!-- xml:id will be used for the apparatus/stemma/commentary, instead of the individual id of each msFrag -->
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc material="parch">
+
+
+                                <extent>
+                                    <measure type="composition" unit="leaf" cert="medium"
+                                        >300</measure>
+                                    <dimensions>
+                                        <height unit="cm">35</height>
+                                        <width unit="cm">25</width>
+
+                                    </dimensions>
+                                </extent>
+                                <collation>
+                                    <p/>
+                                </collation>
+                            </supportDesc>
+
+                        </objectDesc>
+
+                        <handDesc hands="1">
+                            <handNote xml:id="M1" scope="major"/>
+                            <handNote xml:id="M2" scope="minor">Marginal notes by Nikolaos
+                                Sophianos</handNote>
+
+                        </handDesc>
+                    </physDesc>
+
+                    <history>
+
+                        <origin>
+                            <origPlace/>
+                            <origDate/>
+                        </origin>
+
+                        <acquisition/>
+
+                    </history>
+                    <msFrag>
+                        <msIdentifier xml:id="Vatopedinus_655">
+                            <settlement>Mount Athos</settlement>
+                            <repository>Monastery Library of Vatopedi</repository>
+                            <idno>Vatop. 655</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <summary>Contains ff. 55r to 69r </summary>
+                        </msContents>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier xml:id="Lond_Add_19391">
+                            <settlement>London</settlement>
+                            <repository>British Library</repository>
+                            <collection>Manuscript Additional</collection>
+                            <idno>MS Add. 19391</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <summary>Contains ff. 1r to 3r; 4v to 13r</summary>
+
+                            <msItem>
+                                <locus>3r l.10 – 4r l.28</locus>
+                                <author>Agathemerus</author>
+                                <title xml:lang="grc">Ἄγαθημέρου τοῦ ὄρθωνος γεωγραφίας
+                                    ὑποτύπωσις</title>
+                            </msItem>
+                        </msContents>
+                    </msFrag>
+
+                    <msFrag>
+                        <msIdentifier xml:id="Paris_Supp_443Α">
+                            <settlement>Paris</settlement>
+                            <repository xml:lang="fr">Bibliothéque Nationale</repository>
+                            <collection xml:lang="fr">Supplément Grec</collection>
+                            <idno>Paris. Gr. Suppl. 443A</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <summary>Contains ff. 4v to 13r</summary>
+                            <msItem>
+                                <locus>2r ll.1-4</locus>
+                                <author>Agathemerus</author>
+                                <title xml:lang="grc">Ἄγαθημέρου τοῦ ὄρθωνος γεωγραφίας
+                                    ὑποτύπωσις</title>
+                            </msItem>
+                        </msContents>
+                    </msFrag>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <xi:include href="file:/Users/Chiara/Dropbox/AGATEMERO/Manuscripts/Glyphs/glyphs.xml"/>
+
+        <encodingDesc>
+            <projectDesc>
+                <ab>
+                    <title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>
+                </ab>
+            </projectDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+
+            <refsDecl n="CTS">
+                <cRefPattern n="section" matchPattern="(.+).(.+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+                    <p>This pointer pattern extracts chapters and sections</p>
+                </cRefPattern>
+                <cRefPattern n="chapter" matchPattern="(.+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                    <p>This pointer pattern extracts chapters</p>
+                </cRefPattern>
+            </refsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="CP" when="2016-08-26">Proofread and inserted the text of the
+                marginalia</change>
+            <change who="CP" when="2016-02-04">Created the XML file</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="edition" subtype="transcription" xml:lang="grc">
+                <!--  there are two different catalog entries for Lond. and Paris. Paris is urnctsgreekLittlg0090.tlg001.opp-grc2, not sure what we should do
+                provisionally, I am indicating the urn for each manuscript in the ref target 
+                -->
+  
+
+
+                <div type="textpart" subtype="chapter" n="2">
+
+
+
+                    <div type="textpart" subtype="section" n="9">
+
+                        <p>διαδέχεται τὸ αἰγαῖον ἑλλήσποντος λῆγον εἰς ἄβυδον καὶ σηστόν εἶτα ἡ
+                            προποντὶς λήγει εἰς χαλκηδόνα καὶ βυζάντιον ἔνθα τὰ στενὰ ἀφ᾿ ὧν ὁ
+                            πόντος ἄρχεται εἶτα ἡ μαιῶτις λίμνη πάλιν δὲ ἀπ᾿ ἀρχῆς εὐρώπης καὶ
+                            λιβύης ἰβηρικὸν τὸ ἀπὸ στηλῶν εἰς πυρήνην τὸ ὄρος λιγυστικὸν δὲ τὸ ἕως
+                            τῶν τῆς τυρηνίας περάτων σαρδῶον δὲ τὸ ὑπὲρ σαρδὼ νεῦον πρὸς λιβύην
+                            κάτω</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="9a">
+                        <p>τυρηνικὸν δὲ τὸ μέχρι σικελίας λῆγον ἀρχόμενον ἀπὸ τῶν λιγυστικῆς ἄκρων
+                            εἶτα λιβυκόν εἶτα κρητικὸν καὶ σικελικὸν καὶ ἰώνιον καὶ ἀδρίαν τὸν
+                            ἀνακεχυμένον ἐκ τοῦ σικελικοῦ πελάγους ὃν καλοῦσι κορινθιακὸν κόλπον
+                            ἤτοι ἀλκυονίδα θάλασσαν τὸ δὲ σουνίω καὶ σκυλλαίω περιεχόμενον πέλαγος
+                            σαρωνικόν εἶτα μυρτῶον καὶ ἰκάριον ἐν ὧ αἱ κυκλάδες εἶτα καρπάθιον καὶ
+                            παμφύλιον καὶ αἰγύπτιον ὑπὲρ δὲ τὸ ἰκάριον ἑξῆς ἀνάκειται τὸ αἰγαῖον</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="10">
+                        <p>ἔστι δὲ ὁ τῆς εὐρώπης παράπλους ἀπὸ τανάιδος ποταμοῦ ἐκβολῶν ἕως
+                            ἡρακλείων στηλῶν σταδίων μυριάδων ἓξ καὶ ͵θψθ τῆς δὲ λιβύης ἀπὸ τιγγὸς
+                            ἕως στόμτος κανοβικοῦ σταδίων μυριάδων δύο καὶ ͵θσνβ</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="10a">
+                        <p>τῆς δ᾿ ἀσίας ἀπὸ κανώβου ἕως τανάιδος ποταμοῦ μετὰ τῶν κόλπων ὁ παρὰπλους
+                            σταδίων μυριάδων δ καὶ ρια ὁμοῦ παράλιος σὺν κόλποις τῆς καθ᾿ ἡμᾶς
+                            οἰκουμένης σταδίων μυριάδων ιγ καὶ ͵θοβ συμμετρουμένης τῆς μαιώτιδος
+                            λίμνης ἧς περίμετρος σταδίων ͵θ τὸ δὲ στόμα ὁ κιμμέριος βόσπορος σταδίων
+                            οκ</p>
+                    </div>
+
+
+
+                    </div>
+                <div type="textpart" subtype="section" n="7a"><p>
+                ἔθνη δὲ οἰκεῖν τὰ πέρατα κατ᾿ ἀπηλιώτην βακτριανούς κατ᾿ εὖρον ἰνδούς
+                κατὰ φοίνικα ἐρυθρὰν θάλασσαν καὶ αἰθιοπίαν κατὰ νότον τὴν ὑπὲρ αἴγυπτον
+                αἰθιοπίαν κατατὰ λευκόνοτον τοὺς ὑπὲρ σύρτεις γαράμαντας κατὰ λίβα
+                αἰθίοπας καὶ δυσμικοὺς ὑπερμαύρους κατὰ ζέφυρον στήλας καὶ ἀρχὰς λιβύης
+                καὶ εὐρώπης κατὰ ἀργέστην ἰβηρίαν τὴν νῦν ἰσπανίαν κατὰ δὲ θρασκίαν τοὺς
+                ὑπὲρ θράκην σκύθας κατὰ δὲ βορρᾶν πόντον μαιῶτιν σαρμάτας κατὰ καικίαν
+                κασπίαν θάλασσαν καὶ σάκας
+                </p></div>
+
+                </div>
+
+
+
+
+               
+
+        </body>
+    </text>
+</TEI>
