@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="parisinus2857_gr" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="lat">Geographiae Informatio</title>
+                <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+                    >Agathemerus</author>
+                <author role="editor"/>
+                <author role="translator"/>
+                <sponsor>University of Leipzig</sponsor>
+                <sponsor>Università degli Studi di Bari Aldo Moro</sponsor>
+                <respStmt>
+                    <persName xml:id="CP">Chiara Palladino</persName>
+                    <resp>Editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Pasquale Massimo Pinto</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">parisinus2857_gr.xml</idno>
+                
+                <authority>University of Leipzig</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2017</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl>
+                    
+                    <msDesc>
+                        <msIdentifier xml:id="c12" n="urn:cite:agathemerus:tlg0090.tlg001.msc12">
+                            <settlement>Paris</settlement>
+                            <repository>Bibliothèque Nationale</repository>
+                            <collection>Grec</collection>
+                            <idno>Parisinus Graecus 2857</idno>
+                            
+                            <altIdentifier type="müller">
+                                <idno>G</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            
+                            
+                            <msItem n="1">
+                                <locus>ff. 1-70 v.</locus>
+                                <author>Eusthatius</author>
+                                <title xml:lang="lat">Commentarius in Dionysii Alexandrini orbis descriptionem</title>
+                            </msItem>
+                            <msItem n="2">
+                                <locus>ff. 71rv</locus>
+                                <author>Agathemerus</author>
+                                <title xml:lang="lat">Geographiae Informatio</title>
+                                <note>incomplete, added by second hand</note>
+                            </msItem>
+                            <msItem n="3">
+                                <locusGrp>
+                                    <locus>ff. 73-89</locus>
+                                    <locus>ff. 90-92</locus>
+                                </locusGrp>
+                         <author>Polybius</author>
+                                <title xml:lang="lat">Comparatio Romanorum et Macedonum exercituum, e Polybii lib. XVIII</title>
+                                <note>Excerpta from Polybius, ff. 90-92 added by later hand</note>
+                            </msItem>
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc material="paper">
+                                    
+                                    
+                                    <extent>
+                                        <measure type="composition" unit="leaf">92</measure>
+                                        <dimensions/>
+                                    </extent>
+                                    <collation>
+                                        <p></p>
+                                    </collation>
+                                </supportDesc>
+                                
+                            </objectDesc>
+                            
+                            <handDesc hands="3">
+                                <handNote xml:id="M1" scope="major">Angelus Vergetius</handNote>
+                                <handNote xml:id="M2" scope="minor">Other copyist, mainly correcting the texts and adding Agathemerus</handNote>
+                                <handNote xml:id="M3" scope="minor">Later hand, copied ff. 90-92</handNote>
+                            </handDesc>
+                        </physDesc>
+                        
+                        <history>
+                            
+                            <origin>
+                                <origPlace>Royal Bibliothèque de Fontainebleau</origPlace>
+                                <origDate>16th century</origDate>
+                            </origin>
+                            
+                            <acquisition/>
+                            
+                        </history>
+                        
+                    </msDesc>
+                    
+                    
+                    
+                </listBibl>
+       
+                <bibl>
+                  Bibliothèque Nationale de France
+                </bibl> 
+                
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        <xi:include href="file:/Users/Chiara/Dropbox/AGATEMERO/Manuscripts/Glyphs/glyphs.xml"/> 
+        <encodingDesc>
+            <projectDesc>
+                <ab>
+                    <title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>
+                </ab>
+            </projectDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+
+				
+			<refsDecl n="CTS">
+				<cRefPattern n="section" matchPattern="(.+).(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+					<p>This pointer pattern extracts chapters and sections</p>
+				</cRefPattern>
+				<cRefPattern n="chapter" matchPattern="(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+					<p>This pointer pattern extracts chapters</p>
+				</cRefPattern>
+			</refsDecl>
+		
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="lat">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change who="Chiara Palladino" when="2017-08-15">Created the XML file</change>
+        </revisionDesc>
+    </teiHeader>
+    <!-- 
+    <facsimile xml:id='facs_4'>
+        <surface ulx='0' uly='0' lrx='1023' lry='733'>
+            <graphic url='0004_Par. gr. 2857-4.png' width='1023px' height='733px'/>
+        </surface>
+    </facsimile> -->
+    <facsimile xml:id='facs_5'>
+        <surface ulx='0' uly='0' lrx='1027' lry='731'>
+            <graphic url='0005_Par. gr. 2857-5.png' width='1027px' height='731px'/>
+            <zone points='14,13 721,13 721,1007 14,1007' rendition='TextRegion' xml:id='facs_5_region_1504339142200_1'>
+                <zone points='119,79 442,79 442,34 119,34' rendition='Line' xml:id='facs_5_line_1504339149404_2'/>
+                <zone points='37,111 699,120 699,74 37,65' rendition='Line' xml:id='facs_5_line_1504339154499_3'/>
+                <zone points='37,139 690,139 690,110 37,110' rendition='Line' xml:id='facs_5_line_1504339158303_4'/>
+                <zone points='31,171 708,171 708,136 31,136' rendition='Line' xml:id='facs_5_line_1504339163296_5'/>
+                <zone points='35,201 700,201 700,172 35,172' rendition='Line' xml:id='facs_5_line_1504339167766_6'/>
+                <zone points='29,239 706,239 706,206 29,206' rendition='Line' xml:id='facs_5_line_1504339172192_7'/>
+                <zone points='28,279 701,279 701,247 28,247' rendition='Line' xml:id='facs_5_line_1504339175628_8'/>
+                <zone points='28,313 708,313 708,276 28,276' rendition='Line' xml:id='facs_5_line_1504339180001_9'/>
+                <zone points='32,346 715,346 715,311 32,311' rendition='Line' xml:id='facs_5_line_1504339183737_10'/>
+                <zone points='35,380 713,380 713,345 35,345' rendition='Line' xml:id='facs_5_line_1504339186996_11'/>
+                <zone points='33,414 721,414 721,377 33,377' rendition='Line' xml:id='facs_5_line_1504339190294_12'/>
+                <zone points='36,456 696,456 696,420 36,420' rendition='Line' xml:id='facs_5_line_1504339193498_13'/>
+                <zone points='36,491 691,491 691,448 36,448' rendition='Line' xml:id='facs_5_line_1504339196589_14'/>
+                <zone points='31,521 700,521 700,486 31,486' rendition='Line' xml:id='facs_5_line_1504339199490_15'/>
+                <zone points='39,554 699,560 699,522 39,516' rendition='Line' xml:id='facs_5_line_1504339202800_16'/>
+                <zone points='37,588 708,588 708,552 37,552' rendition='Line' xml:id='facs_5_line_1504339207031_17'/>
+                <zone points='34,621 713,621 713,585 34,585' rendition='Line' xml:id='facs_5_line_1504339210608_18'/>
+                <zone points='39,650 715,650 715,622 39,622' rendition='Line' xml:id='facs_5_line_1504339214308_19'/>
+                <zone points='39,686 722,686 722,655 39,655' rendition='Line' xml:id='facs_5_line_1504339217598_20'/>
+                <zone points='36,722 714,722 714,686 36,686' rendition='Line' xml:id='facs_5_line_1504339221296_21'/>
+                <zone points='35,748 694,748 694,725 35,725' rendition='Line' xml:id='facs_5_line_1504339224620_22'/>
+                <zone points='33,775 721,792 723,759 35,742' rendition='Line' xml:id='facs_5_line_1504339228233_23'/>
+                <zone points='31,806 712,806 712,782 31,782' rendition='Line' xml:id='facs_5_line_1504339232049_24'/>
+                <zone points='29,833 708,833 708,808 29,808' rendition='Line' xml:id='facs_5_line_1504339235223_25'/>
+                <zone points='29,858 724,866 724,840 29,832' rendition='Line' xml:id='facs_5_line_1504339239073_26'/>
+                <zone points='33,890 714,891 711,856 28,854' rendition='Line' xml:id='facs_5_line_1504339242104_27'/>
+                <zone points='30,917 710,917 710,883 30,883' rendition='Line' xml:id='facs_5_line_1504339246089_28'/>
+                <zone points='25,938 727,945 727,915 25,908' rendition='Line' xml:id='facs_5_line_1504339249807_29'/>
+                <zone points='26,964 720,963 720,942 26,943' rendition='Line' xml:id='facs_5_line_1504339253878_30'/>
+                <zone points='26,988 714,997 713,963 26,963' rendition='Line' xml:id='facs_5_line_1504339257963_31'/>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_6'>
+        <surface ulx='0' uly='0' lrx='1023' lry='733'>
+            <graphic url='0006_Par. gr. 2857-6.png' width='1023px' height='733px'/>
+            <zone points='45,20 718,20 718,371 45,371' rendition='TextRegion' xml:id='facs_6_region_1504339286948_32'>
+                <zone points='94,70 720,59 720,20 94,31' rendition='Line' xml:id='facs_6_line_1504339292472_33'/>
+                <zone points='95,91 718,81 715,48 93,55' rendition='Line' xml:id='facs_6_line_1504339296859_34'/>
+                <zone points='92,122 717,108 717,73 92,87' rendition='Line' xml:id='facs_6_line_1504339300351_35'/>
+                <zone points='91,148 721,137 721,98 91,109' rendition='Line' xml:id='facs_6_line_1504339303274_36'/>
+                <zone points='88,175 726,175 726,138 88,138' rendition='Line' xml:id='facs_6_line_1504339306081_37'/>
+                <zone points='90,200 715,200 715,163 90,163' rendition='Line' xml:id='facs_6_line_1504339310180_38'/>
+                <zone points='86,228 723,225 723,193 86,196' rendition='Line' xml:id='facs_6_line_1504339314117_39'/>
+                <zone points='78,264 726,257 726,221 78,228' rendition='Line' xml:id='facs_6_line_1504339317748_40'/>
+                <zone points='82,297 711,285 711,248 82,260' rendition='Line' xml:id='facs_6_line_1504339321039_41'/>
+                <zone points='85,318 700,316 701,275 85,284' rendition='Line' xml:id='facs_6_line_1504339324965_42'/>
+                <zone points='80,336 494,336 494,311 80,311' rendition='Line' xml:id='facs_6_line_1504339328257_43'/>
+            </zone>
+        </surface>
+    </facsimile>
+    <!-- 
+    <facsimile xml:id='facs_7'>
+        <surface ulx='0' uly='0' lrx='1033' lry='726'>
+            <graphic url='0007_Par. gr. 2857-7.png' width='1033px' height='726px'/>
+        </surface>
+    </facsimile> -->
+    <text>
+        <body>
+
+            <pb facs='#facs_5' n='71r'/>
+            <div type="edition" subtype="transcription" xml:lang="grc" n="urn:cts:greekLit:tlg.0090.tlg001.msc12">
+                <head><lb facs='#facs_5_line_1504339149404_2' n='N001'/><expan><abbr>ἀγα<hi rend='supraline'>θη</hi>μέρ</abbr><am><g ref='#abbr6'/></am><ex>ου</ex></expan> τοῦ <expan><abbr>ὄ<hi rend='supraline'>θω</hi>ν</abbr><am><g ref='#abbr22'/></am><ex>ος</ex></expan> <expan><abbr>γεωγραφί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan> ὑποτύπωσις 
+                </head>
+                <div type="textpart" subtype="chapter" n="1">
+                    <div type="textpart" subtype="section" n="1">
+                        
+            <p facs='#facs_5_region_1504339142200_1'>
+                <lb facs='#facs_5_line_1504339154499_3' n='N002'/>ἀναξίμανδρος ὁ μιλήσιος ἀκουστὴς θάλεω <expan><am><g ref='#tach16'/></am><ex>πρῶτος</ex></expan> ἐτόλμησε τὴν <expan><abbr>οἰκουμέν</abbr><am><g ref='#abbr25'/></am><ex>ην</ex></expan> ἐν πίνακι γράψαι. 
+                <lb facs='#facs_5_line_1504339158303_4' n='N003'/>μεθ᾿ ὃν ἑκαταῖ<hi rend='superscript'>ος</hi> ὁ μιλήσιος ἀνὴρ πολυπλανὴς διηκρίβωσεν ὥστε θαυμασθῆν<hi rend='superscript'>αι</hi> τὸ πρᾶγμα.
+                <lb facs='#facs_5_line_1504339163296_5' n='N004'/><expan><am><g ref='#abbr35'/></am><ex>ἑλλ</ex><abbr>άνικ</abbr><am><g ref='#abbr22'/></am><ex>ος</ex></expan> γὰρ ὁ λέσβιος ἀνὴρ πολυίστωρ· <expan><abbr>ἀπλάστ</abbr><am><g ref='#abbr11'/></am><ex>ως</ex></expan> παρέδωκε τὴν ἱστορίαν· εἶτα δ<hi rend='supraline'>αμ</hi>άστης ὁ κητιεὺς 
+                <lb facs='#facs_5_line_1504339167766_6' n='N005'/>τὰ πλεῖστα ἐκ τῶν <expan><abbr>ἑκ<hi rend="supraline">ατ</hi>αί</abbr><am><g ref='#abbr6'/></am><ex>ου</ex></expan> <expan><abbr>μεταγράψ</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan>, περίπλουν ἔγραψεν. ἑξῆς δημό<hi rend='supraline'>κρ</hi>ιτος <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> εὔδοξος 
+                <lb facs='#facs_5_line_1504339172192_7' n='N006'/><expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> ἄλλοί τινες γῆς περιόδους <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> <expan><abbr>περίπλ</abbr><am><g ref='#abbr17'/></am><ex>ους</ex></expan> ἐπραγματεύσαντο. 
+            </p>
+                    </div>
+                    
+                    
+                    <div type="textpart" subtype="section" n="2">
+                
+                        <p facs='#facs_5_region_1504339142200_1'>
+                 <lb facs='#facs_5_line_1504339172192_7' n='N006'/>οἱ <expan><am><g ref='#tach4'/></am><ex>μὲν</ex></expan> οὖν παλαιοὶ, τὴν οἰκουμένην 
+                <lb facs='#facs_5_line_1504339175628_8' n='N007'/>ἔγραφον στρογγύλην, μέσην δ᾿ ἡγεῖσθαι τὴν ἑλλάδα, <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> ταύτης δελφούς. τὸν ὀμφαλὸν <unclear>γὰρ</unclear> ἔχειν 
+                <lb facs='#facs_5_line_1504339180001_9' n='N008'/>τῆς γῆς· πρῶτος δὲ <expan><abbr>δημό<hi rend='supraline'>κρ</hi>ιτ</abbr><am><g ref='#abbr22'/></am><ex>ος</ex></expan> <expan><abbr>πολύπειρ</abbr><am><g ref='#abbr22'/></am><ex>ος</ex></expan> ἀνὴρ <del rend='erasure'/> συνεῖδεν ὅτι προμήκης ἐστὶν ἡ γῆ· <expan><abbr>ἡμιόλι</abbr><am><g ref='#abbr22'/></am><ex>ος</ex></expan> 
+                <lb facs='#facs_5_line_1504339183737_10' n='N009'/>τὸ μῆκος τοῦ <expan><abbr>πλάτ</abbr><am><g ref='#abbr17'/></am><ex>ους</ex></expan> ἔχουσα· συνάγεται τούτῳ <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> <expan><abbr>δι<hi rend='supraline'>καί</hi>αρχ</abbr><am><g ref='#abbr22'/></am><ex>ος</ex></expan> ὁ περιπατητικός. εὔδοξος δὲ τὸ μῆκ<hi rend='supraline'>ος</hi>,
+                <lb facs='#facs_5_line_1504339186996_11' n='N010'/>διπλοῦν τοῦ <expan><abbr>πλάτ</abbr><am><g ref='#abbr17'/></am><ex>ους</ex></expan>. ὁ δὲ ἐρα<hi rend='supraline'>τοσ</hi>θένης <expan><abbr>πλέ</abbr><am><g ref='#abbr12'/></am><ex>ων</ex></expan> τοῦ διπλοῦ· κ<hi rend='supraline'>ρ</hi>άτης δὲ <expan><am><g ref='#abbr11'/></am><ex>ὡς</ex></expan> <expan><abbr>ἡμικύκλ</abbr><ex>ιον</ex></expan>. <expan><abbr>ἵππαρχ</abbr><am><g ref='#abbr22'/></am><ex>ος</ex></expan> δὲ, 
+                <lb facs='#facs_5_line_1504339190294_12' n='N011'/>τραπεζοειδῆ. ἄλλοι οὐροειδῆ. ποσειδώ<hi rend='supraline'>νι</hi>ος δ᾿ ὁ στωϊκὸς, σφενδονοειδῆ, <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> <expan><abbr>μεσόπλατ</abbr><am><g ref='#abbr19'/></am><ex>ον</ex></expan> ἀπὸ <expan><abbr>νότ</abbr><am><g ref='#abbr6'/></am><ex>ου</ex></expan> 
+                <lb facs='#facs_5_line_1504339193498_13' n='N012'/>εἰς βορρᾶν. στενὴν <expan><am><g ref=' #tach3'/></am><ex>πρὸς</ex></expan> ἕω <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> δύσιν. τὰ <expan><am><g ref='#tach3'/></am><ex>πρὸς</ex></expan> εὖρον δὲ πλατύτερα <expan><am><g ref='#tach3'/></am><ex>πρὸς</ex></expan> τὴν ἰνδικήν. 
+                            
+                        </p>
+                    </div>
+                    
+                    
+                    
+                    <div type="textpart" subtype="section" n="3">
+                        <p facs='#facs_5_region_1504339142200_1'>
+                            
+                <lb facs='#facs_5_line_1504339193498_13' n='N012'/>ὅροι 
+                <lb facs='#facs_5_line_1504339196589_14' n='N013'/><expan><abbr>ἠπείρ</abbr><am><g ref='#abbr12'/></am><ex>ων</ex></expan> εὐρώπης <expan><am><g ref='#tach4'/></am><ex>μὲν</ex></expan> <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> λιβύης, αἱ <expan><abbr>ἡρακλέ</abbr><am><g ref='#abbr17'/></am><ex>ους</ex></expan> στῆλαι. λιβύης δὲ καὶ <expan><abbr>ἀσί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan>, ὁ νεῖλος. οἱ δὲ 
+                <lb facs='#facs_5_line_1504339199490_15' n='N014'/>ἰσθμὸν τὸν ἀπὸ σαρβωνίδος λίμνης καὶ <expan><abbr>ἀραβί</abbr><am><g ref='#abbr6'/></am><ex>ου</ex></expan> <expan><abbr>κόλπ</abbr><am><g ref='#abbr6'/></am><ex>ου</ex></expan>· <expan><abbr>ἀσί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan> δὲ <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> εὐρώπης, οἱ μὲν 
+                <lb facs='#facs_5_line_1504339202800_16' n='N015'/>ἀρχαῖ<hi rend='superscript'>οι</hi> φᾶσιν ποταμὸν, <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> τὸν ἕως <expan><abbr>κασπί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan> ἰσθμόν· οἱ δ᾿ ὕστερ<hi rend='superscript'>ον</hi> νεώτεροι, μαιῶτιν λίμνην καὶ 
+                <lb facs='#facs_5_line_1504339207031_17' n='N016'/>τάναϊν <expan><am><g ref='#tach5'/></am><ex>ποταμόν</ex></expan>. 
+                        </p>
+                    </div>
+                    
+                    
+                    
+                    <div type="textpart" subtype="section" n="4">
+                        <p facs='#facs_5_region_1504339142200_1'>
+                 <lb facs='#facs_5_line_1504339207031_17' n='N016'/>ἐκλήθησαν δ᾿ ἤπειροι, ἄπειροί τινες οὖσ<hi rend='superscript'>αι</hi> δι᾿ ἄγνοιαν· ἀσία δὲ ἀπὸ τοῦ ἆσσον ἰέναι 
+                <lb facs='#facs_5_line_1504339210608_18' n='N017'/>τοῖς ἀπ᾿ εὐρώπ<add rend='οverstrike'>η</add>ς ἀπιοῦσι <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> πεζῆ <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> νήσ<hi rend='superscript'>οις</hi> στιχηδὸν <expan><abbr>κειμέν</abbr><am><g ref='#abbr38'/></am><ex>αις</ex></expan> εὔβοια. ἄνδρος. τῆν<hi rend='superscript'>ος</hi>. <expan><abbr>μύκων</abbr><am><g ref='#abbr22'/></am><ex>ος</ex></expan>. ἰκαρί<hi rend='superscript'>α</hi> 
+                <lb facs='#facs_5_line_1504339214308_19' n='N018'/>σάμος· μυκάλη· <space quantity='3' unit="character"/>ἡ δὲ εὐρώπη ἀπὸ τοῦ <expan><abbr>εὔρ</abbr><am><g ref='#abbr6'/></am><ex>ου</ex></expan> ὠνομάσθη. λιβύη δ᾿ ὑπ᾿ <expan><abbr>ἑλλήν</abbr><am><g ref='#abbr12'/></am><ex>ων</ex></expan> ἦν <expan><abbr>ἄγνωστ</abbr><am><g ref='#abbr22'/></am><ex>ος</ex></expan> πάνυ.
+                <lb facs='#facs_5_line_1504339217598_20' n='N019'/>ἀπὸ δὲ <expan><abbr>ἔθν</abbr><am><g ref='#abbr17'/></am><ex>ους</ex></expan> <expan><am><g ref='#tach11'/></am><ex>ἐπι</ex><abbr>σήμ</abbr><am><g ref='#abbr6'/></am><ex>ου</ex></expan> φοίνικες ὠνομάσθησαν, πλέοντες· <expan><abbr>ὠκεαν</abbr><am><g ref='#abbr22'/></am><ex>ὸς</ex></expan> δὲ διὰ τὸ <expan><abbr>ὠκέ</abbr><am><g ref='#abbr11'/></am><ex>ως</ex></expan> ἀνύειν κύκλω 
+                <lb facs='#facs_5_line_1504339221296_21' n='N020'/>τὴν γῆν.
+                        </p>
+                    </div>
+                    
+                    
+                    
+                    <div type="textpart" subtype="section" n="5">
+                        <p facs='#facs_5_region_1504339142200_1'>
+                <lb facs='#facs_5_line_1504339221296_21' n='N020'/><expan><abbr>δικαίαρχ</abbr><am><g ref='#abbr22'/></am><ex>ος</ex></expan> δ᾿ ὁρίζει τὴν γῆν <expan><am><g ref='#abbr6'/></am><ex>οὐ</ex><abbr>χ</abbr></expan> ὕδασιν, ἀλλὰ τομῇ εὐθείᾳ ἀκράτω ἀπὸ στηλῶν διὰ σαρδοῦς· 
+                <lb facs='#facs_5_line_1504339224620_22' n='N021'/><expan><abbr>σικελί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan>· πελοπονήσου· <expan><abbr>καρί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan>· <expan><abbr>λυκί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan>· <expan><abbr>παμφυλί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan>· <expan><abbr>κιλικί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan>· <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> <expan><abbr>ταύρ</abbr><am><g ref='#abbr6'/></am><ex>ου</ex></expan> ἑξῆς ἕω <expan><abbr>ἰμαί</abbr><am><g ref='#abbr6'/></am><ex>ου</ex></expan> <expan><abbr>ὄρ</abbr><am><g ref='#abbr17'/></am><ex>ους</ex></expan>· τῶν 
+                <lb facs='#facs_5_line_1504339228233_23' n='N022'/>τοίνυν <expan><abbr>τόπ</abbr><am><g ref='#abbr12'/></am><ex>ων</ex></expan>, τὸ <expan><am><g ref='#tach4'/></am><ex>μὲν</ex></expan> <expan><abbr>βόρει</abbr><am><g ref='#abbr19'/></am><ex>ον</ex></expan>. τὸ δὲ νότιον ὀνομάζει. 
+                        </p>
+                    </div>
+                </div>
+                
+                
+                <div type="textpart" subtype="chapter" n="2">
+                    <div type="textpart" subtype="section" n="6">          
+                        <p facs='#facs_5_region_1504339142200_1'>
+                            <lb facs='#facs_5_line_1504339228233_23' n='N022'/>ἄνεμοι δὲ π<subst><del rend='underline'>ν</del><add place='above'>λ</add></subst>έουσιν ἀπὸ <expan><am><g ref="#tach4"/></am><ex>μὲν</ex></expan> <del rend='erasure'>μες</del> ἰσημερινῆς ἀνατολῆς 
+                <lb facs='#facs_5_line_1504339232049_24' n='N023'/>ἀπηλιώτης· ἀπὸ δὲ ἰσημερινῆς <expan><abbr>δύσε</abbr><am><g ref='#abbr11'/></am><ex>ως</ex></expan>, <expan><abbr>ζέφυρ</abbr><am><g ref='#abbr22'/></am><ex>ος</ex></expan>· ἀπὸ <expan><am><g ref='#tach2'/></am><ex>δὲ</ex></expan> <expan><abbr>μεσημβρί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan>, νότος. ἀπὸ δὲ ἄρκτου, ἀπαρκτίας· 
+                <lb facs='#facs_5_line_1504339235223_25' n='N024'/>ἀπὸ δὲ τροπῆς θερινῆς, <expan><abbr>καικί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan>· ἑξῆς <expan><am><g ref='#tach2'/></am><ex>δὲ</ex></expan> ἀπὸ ἰσημαρινῆς ἀνατολῆς ἀπηλιώτης· <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> ἀπὸ χειμερινῆς, 
+                <lb facs='#facs_5_line_1504339239073_26' n='N025'/><expan><abbr>εὖρ</abbr><am><g ref='#abbr22'/></am><ex>ος</ex></expan>· <space quantity='3' unit="character"/>δυσμικὸς δὲ ἀπὸ <expan><am><g ref='#tach4'/></am><ex>μὲν</ex></expan> <expan><abbr>δύσε</abbr><am><g ref='#abbr11'/></am><ex>ως</ex></expan> χειμερινῆς, λίψ. <space quantity='3' unit="character"/>   <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> ἑξῆς πάλιν ἀπὸ <expan><abbr>δύσε</abbr><am><g ref='#abbr17'/></am><ex>ως</ex></expan> ἰσημερινῆς, <expan><abbr>ζέφυρ</abbr><am><g ref='#abbr22'/></am><ex>ος</ex></expan> 
+                <lb facs='#facs_5_line_1504339242104_27' n='N026'/>ἀπὸ δὲ <expan><abbr>δύσε</abbr><am><g ref='#abbr17'/></am><ex>ως</ex></expan> θερινῆς ἀργέστης ἤτοι <expan><abbr>ὀλυμπί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan>. εἶτα νότος <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> <expan><abbr>ἀπαρκτί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan> ἀντιπνέοντες. <expan><abbr>γίνον</abbr><am><g ref='#abbr16'/></am><ex>ται</ex></expan> οὖν ὀκτώ.
+                
+                        </p>
+                    </div>
+                    
+                    
+                    
+                    <div type="textpart" subtype="section" n="7">
+                        <p facs='#facs_5_region_1504339142200_1'>  
+                 <lb facs='#facs_5_line_1504339246089_28' n='N027'/>τιμοσθένης δὲ ὁ <expan><abbr>γράψ</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan> τοὺς περίπλους δώδεκα φησὶν προθεὶς μέσον <expan><abbr>ἀπαρκτί</abbr><am><g ref='#abbr6'/></am><ex>ου</ex></expan> <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> <expan><abbr>καικί</abbr><am><g ref='#abbr6'/></am><ex>ου</ex></expan> <expan><abbr>βορέ</abbr><am><g ref='#abbr4'/></am><ex>αν</ex></expan>. 
+                <lb facs='#facs_5_line_1504339249807_29' n='N028'/>εὔρου δὲ <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> νότου, φοίνικα τὸν <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan>εὐρόνοτον· μέσον δὲ νότου <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> λιβὸς, τὸν λευκόνοτον ἤτοι λιβόνοτ<hi rend='superscript'>ον</hi> 
+                <lb facs='#facs_5_line_1504339253878_30' n='N029'/>μέσον δὲ <expan><abbr>ἀπαρκτί</abbr><am><g ref='#abbr6'/></am><ex>ου</ex></expan> <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> <expan><abbr>ἀργέστ</abbr><am><g ref='#abbr6'/></am><ex>ου</ex></expan>, <expan><abbr>θρασκί</abbr><am><g ref='#abbr4'/></am><ex>αν</ex></expan> ἤτοι κίρκιον ὑπὸ τῶν <expan><abbr>περιοίκ</abbr><am><g ref='#abbr12'/></am><ex>ων</ex></expan>· ἔθνη δὲ οἰκεῖν τὰ πέρατα κατ᾿
+                <lb facs='#facs_5_line_1504339257963_31' n='N030'/>ἀπηλιώτην, βακτριανούς· κατ᾿ <expan><abbr>εὖρ</abbr><am><g ref='#abbr19'/></am><ex>ον</ex></expan>, ἰνδούς· κατὰ φοίνικα ἐρυθρὰν θάλασσαν καὶ αἰθιοπίαν. <expan><am><g ref='#tach6'/></am><ex>κατὰ</ex></expan> νότον 
+            </p>
+            <pb facs='#facs_6' n='71v'/>
+            <p facs='#facs_6_region_1504339286948_32'>
+                <lb facs='#facs_6_line_1504339292472_33' n='N001'/>τὴν ὑπὲρ αἴγυπτον <expan><abbr>αἰθιοπί</abbr><am><g ref='#abbr4'/></am><ex>αν</ex></expan>· <expan><am><g ref='#tach6'/></am><ex>κατὰ</ex></expan> λευκόνοτον, τοὺς ὑπὲρ σύρτεις <expan><abbr>γαράματτ</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan>· <expan><am><g ref='#tach6'/></am><ex>κατὰ</ex></expan> λίβα, <expan><abbr>αἰθίοπ</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan> 
+                <lb facs='#facs_6_line_1504339296859_34' n='N002'/><expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> δυσμικοὺς <expan><abbr>ὑπερμαύρ</abbr><am><g ref='#abbr17'/></am><ex>ους</ex></expan>· <expan><am><g ref='#tach6'/></am><ex>κατὰ</ex></expan> <expan><abbr>ζέφυρ</abbr><am><g ref='#abbr19'/></am><ex>ον</ex></expan>, <expan><abbr>στήλ</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan>, <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> ἀρχὰς λιβύης, <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> εὐρώπης· κατ' ἀργέστην ἰβηρίαν 
+                <lb facs='#facs_6_line_1504339300351_35' n='N003'/>τὴν νῦν ἱσπανίαν· <expan><am><g ref='#tach6'/></am><ex>κατὰ</ex></expan> δὲ <expan><abbr>θρασκί</abbr><am><g ref='#abbr4'/></am><ex>αν</ex></expan>, τοὺς ὑπὲρ θράκην <expan><abbr>σκύθ</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan>· <expan><am><g ref='#tach6'/></am><ex>κατὰ</ex></expan> <expan><am><g ref='#tach2'/></am><ex>δὲ</ex></expan> βορρᾶν, πόντον, μαιῶτι<unclear>ν</unclear>
+                <lb facs='#facs_6_line_1504339303274_36' n='N004'/><expan><abbr>σαρμάτ</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan>· <expan><am><g ref='#tach6'/></am><ex>κατὰ</ex></expan> καικίαν, κασπίαν <expan><abbr>θάλασσ</abbr><am><g ref='#abbr4'/></am><ex>αν</ex></expan> <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> σάκας. 
+            </p>
+                    </div>
+                    
+                    
+                </div>
+                <div type="textpart" subtype="chapter" n="3">
+                    <div type="textpart" subtype="section" n="8">
+                        <p facs='#facs_6_region_1504339286948_32'>
+                <lb facs='#facs_6_line_1504339303274_36' n='N004'/>ἔστι <expan><am><g ref='#tach2'/></am><ex>δὲ</ex></expan> ἡ μεγάλη σύρτις, <expan><abbr>σταδί</abbr><am><g ref='#abbr12'/></am><ex>ων</ex></expan> <hi rend="supraline">͵ε</hi>· ἡ δὲ μικρὰ 
+                <lb facs='#facs_6_line_1504339306081_37' n='N005'/><hi rend='supraline'>͵αχ</hi>· τὸ <expan><am><g ref='#tach2'/></am><ex>δὲ</ex></expan> στόμα τοῦ <expan><abbr>ἀδρί</abbr><am><g ref='#abbr6'/></am><ex>ου</ex></expan>, ὃ καλοῦσι τινὲς ἰόνιον <expan><abbr>πέλαγ</abbr><am><g ref='#abbr22'/></am><ex>ος</ex></expan>, ἔχει διάπλουν <expan><abbr>σταδί</abbr><am><g ref='#abbr12'/></am><ex>ων</ex></expan> <hi rend='supraline'>͵αψ</hi> ἀπὸ <expan><abbr>ἄκρ</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan> 
+                <lb facs='#facs_6_line_1504339310180_38' n='N006'/><expan><abbr>ἰαπυγί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan> <expan><am><g ref='#tach11'/></am><ex>ἐπὶ</ex></expan> κεραύνια ὄρη τῆς <expan><abbr>ἠπείρ</abbr><am><g ref='#abbr6'/></am><ex>ου</ex></expan>. 
+                        </p>
+                    </div>
+                    
+                    
+                    
+                    <div type="textpart" subtype="section" n="9">
+                        <p facs='#facs_6_region_1504339286948_32'>
+                 <lb facs='#facs_6_line_1504339310180_38' n='N006'/><expan><abbr>διαδέχε</abbr><am><g ref='#abbr16'/></am><ex>ται</ex></expan> τὸ αἰγαῖ<hi rend='superscript'>ον</hi> <expan><abbr>ἑλλήσποντ</abbr><am><g ref='#abbr22'/></am><ex>ος</ex></expan> λήγ<hi rend='superscript'>ον</hi> εἰς ἄβυδον <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> σηστόν· 
+                <lb facs='#facs_6_line_1504339314117_39' n='N007'/>εἶτα ἡ προποντὶς λήγει εἰς χαλκηδόνα καὶ βυζάντιον ἔνθα τὰ στενὰ, ἀφ᾿ ὧν ὁ πόντος <expan><abbr>ἄρχε</abbr><am><g ref='#abbr16'/></am><ex>ται</ex></expan>· 
+                <lb facs='#facs_6_line_1504339317748_40' n='N008'/>εἶτα ἡ μαιῶτις λίμνη· πάλιν δ' ἀπ᾿ ἀρχῆς εὐρώπης <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> λιβύης, ἰβηρικὸν τὸ ἀπὸ στηλῶν εἰς πυρήνην 
+                <lb facs='#facs_6_line_1504339321039_41' n='N009'/>τὸ ὄρος· λιγυστικὸν δὲ τὸ ἕως τῶν τῆς <expan><abbr>τυρηνί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan> <expan><abbr>περάτ</abbr><am><g ref='#abbr12'/></am><ex>ων</ex></expan>. σαρδῶ<hi rend='superscript'>ον</hi> <expan><am><g ref='#tach2'/></am><ex>δὲ</ex></expan> τὸ ὑπὲρ σαρδὼ νεῦον <expan><am><g ref='#tach3'/></am><ex>πρὸς</ex></expan> 
+                <lb facs='#facs_6_line_1504339324965_42' n='N010'/>λιβύην κάτω· τυρηνικὸν <expan><am><g ref='#tach2'/></am><ex>δὲ</ex></expan> τὸ, τὸ μέχρι <expan><abbr>σικελί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan> <expan><abbr>ἀρχόμεν</abbr><am><g ref='#abbr19'/></am><ex>ον</ex></expan> ἀπὸ <expan><abbr>τ</abbr><am><g ref='#abbr5'/></am><ex>ῶν</ex></expan> λιγυστικῆς <expan><abbr>ἄκρ</abbr><am><g ref='#abbr12'/></am><ex>ων</ex></expan>· εἶτα 
+                <lb facs='#facs_6_line_1504339328257_43' n='N011'/>λιβυκόν· εἶτα κρητικὸν <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> σικελικὸν <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> <expan><abbr>ἰόνι</abbr><am><g ref='#abbr19'/></am><ex>ον</ex></expan> καὶ ἀδρίαν 
+            </p>
+                    </div></div>
+            </div>
+
+        </body>
+    </text>
+</TEI>
+

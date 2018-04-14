@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="royal16_gr" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="lat">Geographiae Informatio</title>
+                <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+                    >Agathemerus</author>
+                <author role="editor"/>
+                <author role="translator"/>
+                <sponsor>University of Leipzig</sponsor>
+                <sponsor>Università degli Studi di Bari Aldo Moro</sponsor>
+                <respStmt>
+                    <persName xml:id="CP">Chiara Palladino</persName>
+                    <resp>Editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Pasquale Massimo Pinto</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">royal16_gr.xml</idno>
+   
+                <authority>University of Leipzig</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2017</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl>
+                    
+                    <msDesc>
+                        <msIdentifier xml:id="c13_gr" n="urn:cite:agathemerus:tlg0090.tlg001.msc13">
+                            <settlement>London</settlement>
+                            <repository>British Library</repository>
+                            <collection>Royal Manuscripts</collection>
+                            <idno>Royal MS 16 C IV Part 2</idno>
+                     
+                        </msIdentifier>
+                        
+                        <msContents xml:lang="eng">
+                            
+                            
+                            <msItem n="1">
+                                
+                                
+                                <locus>ff. 1-88</locus>
+                                <title>Latin verse translation of Tzetzes' Antehomerica, Homerica and Posthomerica and scholia, with verse arguments preceding each work</title>
+               
+                 
+                            </msItem>
+                            
+                            <msItem n="2">
+                                <locus>f. 88v</locus>
+                                <title>An extract from the letter of Jean Perrelle prefixed to his 1535 edition of Theodorus Gaza, De mensibus</title>
+                                
+                            </msItem>
+                            <msItem n="3">
+                                
+                                <locus>ff. 90r-93v</locus>
+                                <title>Geographiae Expositio</title>
+                                <author>Agathemerus</author>
+                              
+                                <note>with a parallel Latin translation by Petrus Morellus and extensive scholia, imperfect, expl. 9.10, καί Ἰόνιον καὶ Ἀδρίαν.</note>
+                                <editor>
+                                    <persName xml:id="PM" xml:lang="lat">Petrus Morellus</persName>
+                                </editor>
+                            </msItem>
+                            
+                            
+                            <msItem n="4">
+                                <locus>ff. 94r</locus>
+                               
+                                <title>Latin notes on ancient geography</title>
+                                
+                            </msItem>
+                            
+                            <msItem n="5">
+                                <locus>ff. 94v-95r</locus>
+                            
+                                <title>Numerical references to epitaphs, 'ex libro iii', cap. 1-33</title>
+                                
+                            </msItem>
+                            
+                            <msItem n="6">
+                                <locus>ff. 96r-97r</locus>
+                                
+                                <title>Verses in Latin (against the Huguenots) and French (an acrostic in Hierome de Marnef, the printer, dated 19 August 1579)</title>
+                       
+                                
+                                
+                            </msItem>
+                            
+                            <msItem n="7">
+                                <locus>f. 97v</locus>
+                                <author>Petrus Morellus</author>
+                                <title>Epigram on Agathemerus, with Latin translation</title>
+                                
+                            </msItem>
+                            
+                            <msItem n="8">
+                                <locus>f. 98r</locus>
+                           
+                                <title>Draft of dedication in elegiac couplets of Morellus' translation of Tzetzes to Frédéric Morel</title>
+               
+                            </msItem>
+                       
+                            
+                            
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc material="paper">
+                                    
+                                    
+                                    
+                                    <extent>
+                                        <measure type="composition" unit="leaf">98</measure>
+                                        <dimensions>
+                                            <height unit="mm">155</height>
+                                            <width unit="mm">115</width>
+                                        </dimensions>
+                                    </extent>
+                                    
+                                    <collation>
+                                        <p></p>
+                                    </collation>
+                                </supportDesc>
+                            
+                            </objectDesc>
+                            
+                            <handDesc hands="1">
+                                <handNote sameAs="#PM" scope="major" xml:lang="lat">
+                                    Petrus Morellus
+                                </handNote>
+                                
+                            </handDesc>
+                            <additions>
+                                <p>The manuscript contains several notes and marginalia. Most of them are illegible, due to the bad state of the ink or the very cursive writing. 
+                                The general purpose of the annotations is not philological but literary and geographical. In what can be read on the pages, the scribe annotates parallels, personal measurements of 
+                                latitude and longitude, other calculations. The final page, f. 94r, contains at least three series of notes of commentary, most of which are illegible. All the notes are in Latin, with occasional
+                                Greek sentences. </p>
+                            </additions>
+                        </physDesc>
+                        
+                        <history>
+                            
+                            <origin>
+                                <origPlace>France</origPlace>
+                                <origDate>1565-1579</origDate>
+                            </origin>
+                            
+                            <acquisition/>
+                            
+                        </history>
+                        
+                    </msDesc>
+                    
+                    <bibl>
+                        
+                        <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Royal_MS_16_C_IV_Part_2">British Library
+                        </ref>
+                    </bibl>
+                    
+                </listBibl>
+                
+                
+                
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        <xi:include href="file:/Users/Chiara/Dropbox/AGATEMERO/Manuscripts/Glyphs/glyphs.xml"/> 
+        <encodingDesc>
+            <projectDesc>
+                <ab>
+                    <title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>
+                </ab>
+            </projectDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+            
+				
+			<refsDecl n="CTS">
+				<cRefPattern n="section" matchPattern="(.+).(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+					<p>This pointer pattern extracts chapters and sections</p>
+				</cRefPattern>
+				<cRefPattern n="chapter" matchPattern="(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+					<p>This pointer pattern extracts chapters</p>
+				</cRefPattern>
+			</refsDecl>
+		
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="lat">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change who="Chiara Palladino" when="2017-09-13">Created the XML file</change>
+        </revisionDesc>
+    </teiHeader>
+        <text>
+        <body>
+            <div type="edition" subtype="transcription"  xml:lang="grc" n="urn:cts:greekLit:tlg.0090.tlg001.msc13-grc">
+                <note resp="#PM" xml:lang="lat">Ex Bibliotheca Regia.</note>
+         
+                <head>
+                    <title type="main">
+                        <pb n="90R" xml:id="F90R"/>
+                        <lb n="1" xml:id="F90R_1a"/>ἈΓΑΘΗΜΈΡΟΥ 
+                        <lb n="2" xml:id="F90R_2a"/>τοῦ Ὄθωνος, Γεωγρα-
+                        <lb n="3" xml:id="F90R_3a" break="no"/>φίας Ὑποτύπωσις.</title>
+                </head>
+
+
+                <div type="textpart" subtype="chapter" n="1">
+                    <div type="textpart" subtype="section" n="1">
+                       
+                        <p> <lb n="4" xml:id="F90R_4a"/>ἈΝΑΞΊΜΑΝΔΡΟΣ
+                            <lb n="5" xml:id="F90R_5a"/>ὁ Μι<subst><del rend="erasure">α</del><add rend="overstrike">λ</add></subst>ήσιος ἀκουστὴς Θά-
+                            <lb n="6" xml:id="F90R_6a" break="no"/><add place="margin"><g ref="#symb5"/>πρῶτος</add> λεω <expan><am><g ref="#tach16"/></am><ex>πρῶτος</ex></expan> <del rend="erasure"><g ref="#symb5"/>ἀστρολόγου</del> ἐτόλμη-
+                            <lb n="7" xml:id="F90R_7a" break="no"/>σε τὴν οἰκουμένην ἐν πί-
+                            <lb n="8" xml:id="F90R_8a" break="no"/>νακι γράψαι. μεθ᾿ ὅν Ἑ-
+                            <lb n="9" xml:id="F90R_9a" break="no"/>καταῖος ὁ Μιλήσιος ἀνὴρ 
+                            <lb n="10" xml:id="F90R_10a"/> πολυπλανὴς διηκρίβωσεν 
+                            <lb n="11" xml:id="F90R_11a"/>ὥστε θαυμασθῆναι τὸ πρᾶγ-
+                            <lb n="12" xml:id="F90R_12a" break="no"/>μα. Ἑλλάνικος γὰρ Λέσβι-
+                            <lb n="13" xml:id="F90R_13a" break="no"/>ος ἀνὴρ πολυίστωρ ἀπλάστως 
+                            <lb n="14" xml:id="F90R_14a"/>π<hi rend="superscript">α</hi>ρέδωκε τὴν ἱστορίαν. 
+                            <lb n="15" xml:id="F90R_15a" break="no"/>εἶτα Δαμάστης ὁ Κητιεὺς 
+                            <lb n="16" xml:id="F90R_16a"/>τὰ πλεῖστα ἐκ τῶν <expan><abbr>Ἑκα-
+                            <lb n="17" xml:id="F90R_17a" break="no"/>ταί</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan> μεταγράψας περί-
+                            <lb n="18" xml:id="F90R_18a" break="no"/>πλουν ἔγραψεν. ἑξῆς 
+                            <lb n="19" xml:id="F90R_19a"/>Δημόκριτος <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> Εὔδοξος 
+                            <lb n="20" xml:id="F90R_20a"/><expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> ἄλλοι τινὲς γῆς <expan><abbr>περι-
+                                <lb n="21" xml:id="F90R_21a" break="no"/>όδ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ς</abbr></expan> <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> περίπλους ἐ–
+                            <lb n="22" xml:id="F90R_22a" break="no"/><hi rend="underline">πραγματεύσαντο.</hi> 
+                        </p>
+                    </div>
+
+
+                    <div type="textpart" subtype="section" n="2">
+                        <p>
+                            <lb n="22" sameAs="#F90R_22a"/>Οἱ <expan><am><g ref="#tach4"/></am><ex>μὲν</ex></expan> 
+                            <pb n="90v" xml:id="F90V"/>
+                            <lb n="1" xml:id="F90V_1a"/><note place="margin">διαφοραὶ περὶ τοῦ τῆς γῆς εἰδους δόξαι</note> οὖν παλαιοὶ, τὴν οἰκου-
+                            <lb n="2" xml:id="F90V_2a" break="no"/>μένην ἔγραφον στρογγύλην, 
+                            <lb n="3" xml:id="F90V_3a"/>μέσην δ᾿ ἡγεῖσθαι τὴν Ἑλ-
+                            <lb n="4" xml:id="F90V_4a" break="no"/>λάδα <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> ταύτης <expan><abbr>Δελφ</abbr><am><g ref="#abbr6"/></am><ex>ού</ex><abbr>ς</abbr></expan>.
+                            <lb n="5" xml:id="F90V_5a"/>τὸν ὄμφαλον γ<hi rend="superscript">ὰ</hi>ρ ἔχειν τῆς 
+                            <lb n="6" xml:id="F90V_6a"/>γῆς. πρῶτος δὲ Δημό-
+                            <lb n="7" xml:id="F90V_7a" break="no"/>κριτος πολύπειρος ἀνὴρ, 
+                            <lb n="8" xml:id="F90V_8a"/>συνεῖδεν ὅτι προμήκης 
+                            <lb n="9" xml:id="F90V_9a"/>ἐστὶν ἡ γῆ, ἡμιό<hi rend="underline">λιος</hi> τὸ
+                            <lb n="10" xml:id="F90V_10a"/>μῆκος τοῦ πλάτους <expan><abbr>ἔχ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>σα</abbr></expan>. 
+                            <lb n="11" xml:id="F90V_11a"/><expan><abbr>συνάγε</abbr><am><g ref="#abbr16"/></am><ex>ται</ex></expan> τούτῳ <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> Δι-
+                            <lb n="12" xml:id="F90V_12a" break="no"/>καίαρχος ὁ περιπατητι-
+                            <lb n="13" xml:id="F90V_13a" break="no"/>κός. Εὔδοξος δὲ τὸ 
+                            <lb n="14" xml:id="F90V_14a"/>μῆκος διπλοῦν τοῦ πλά-
+                            <lb n="15" xml:id="F90V_15a" break="no"/>τους. ὁ δὲ Ἐρατοσθένης
+                            <lb n="16" xml:id="F90V_16a"/>πλέον τοῦ διπλοῦ. Κρά-
+                            <lb n="17" xml:id="F90V_17a" break="no"/>της <add rend="overstrike">δὲ</add> ὡς <expan><abbr>ἡμικύκλ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan>. 
+                            <lb n="18" xml:id="F90V_18a"/>Ἵππαρχος δὲ τραπεζοειδῆ. 
+                            <lb n="19" xml:id="F90V_19a"/>ἄλλοι <expan><am><g ref="#abbr6"/></am><ex>οὐ</ex><abbr>ροειδῆ</abbr></expan>. Ποσει-
+                            <lb n="20" xml:id="F90V_20a" break="no"/>δώνιος δ᾿ ὁ Στωϊκὸς 
+                            <lb n="21" xml:id="F90V_21a"/>σφενδονοειδῆ, <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> μεσό-
+                            <lb n="22" xml:id="F90V_22a" break="no"/>πλατον ἀπὸ νότου εἰς
+                            <pb n="91R" xml:id="F91R"/>
+                            <lb n="1" xml:id="F91R_1a"/>βορρᾶν, στενὴν πρὸς ἕω 
+                            <lb n="2" xml:id="F91R_2a"/>καὶ δύσιν. τὰ πρὸς εὖ-
+                            <lb n="3" xml:id="F91R_3a" break="no"/>ρον δὲ πλατύτερα πρὸς 
+                            <lb n="4" xml:id="F91R_4a"/>τὴν Ἰνδικήν.</p>
+                    </div>
+
+
+
+                    <div type="textpart" subtype="section" n="3">
+                        <p>
+                            <lb n="4" sameAs="#F91R_4a"/> Ὅροι 
+                            <lb n="5" xml:id="F91R_5a"/>ἠπείρων Εὐρώπης μὲν 
+                            <lb n="6" xml:id="F91R_6a"/>καὶ Λιβύης, αἱ <expan><abbr>Ἡρακλέ-
+                            <lb n="7" xml:id="F91R_7a" break="no"/></abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ς</abbr></expan> στῆλαι. Λιβύης δὲ <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan>
+                            <lb n="8" xml:id="F91R_8a"/>Ἀσίας ὁ Νεῖλος. οἱ δὲ 
+                            <lb n="9" xml:id="F91R_9a"/>ἰσθμὸν τὸν <expan><am><g ref="#abbr42"/></am><ex>ἀπὸ</ex></expan> (ἀπὸ) Σαρ-
+                            <lb n="10" xml:id="F91R_10a" break="no"/>βωνίδος λίμνης <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> <expan><abbr>Ἀραβί-</abbr>
+                             <lb n="11" xml:id="F91R_11a" break="no"/><am><g ref="#abbr6"/></am><ex>ου</ex></expan> <expan><abbr>κόλπ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan>. Ἀσίας δὲ <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> 
+                            <lb n="12" xml:id="F91R_12a"/>Εὐρώπης οἱ μὲν ἀρχαῖοι 
+                            <lb n="13" xml:id="F91R_13a"/>Φᾶσιν ποταμὸν, <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> τὸν 
+                            <lb n="14" xml:id="F91R_14a"/>ἕως Κασπίας ἰσθμόν. 
+                            <lb n="15" xml:id="F91R_15a"/>οἱ δ᾿ ὕστερον νεώτεροι 
+                            <lb n="16" xml:id="F91R_16a"/>Μαιῶτιν λίμνην καὶ 
+                            <lb n="17" xml:id="F91R_17a"/>Τάναϊν <expan><am><g ref="#tach5"/></am><ex>ποταμόν</ex></expan> (ποταμόν). </p>
+                    </div>
+
+
+
+                    <div type="textpart" subtype="section" n="4">
+                        <p>
+                            <lb n="18" xml:id="F91R_18a"/>ἐκλήθησαν δ᾿ ἤπειροι 
+                            <lb n="19" xml:id="F91R_19a"/>ἄπειροί τινες οὖσαι δι᾿ 
+                            <lb n="20" xml:id="F91R_20a"/>ἄγνοιαν. Ἀσία δὲ <unclear reason="erasure">ἀπὸ</unclear> 
+                            <lb n="21" xml:id="F91R_21a"/>ἀπὸ τοῦ ἆσσον ἰέναι τοῖς 
+                            <lb n="22" xml:id="F91R_22a"/>Εὐρώπης ἀπιοῦσι <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan>, 
+                            <lb n="23" xml:id="F91R_23a"/>πεζῆ <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> νήσοις στιχηδὸν
+                            <pb n="91V" xml:id="F91V"/>
+                            
+                            <lb n="1" xml:id="F91V_1a"/>κειμέναις. Εὔβοια, Ἄν-
+                            <lb n="2" xml:id="F91V_2a" break="no"/>δρος, Τῆνος, Μύκωνος, 
+                            <lb n="3" xml:id="F91V_3a"/>Ἰκαρία, Σάμος, Μυ-                            
+                            <lb n="4" xml:id="F91V_4a" break="no"/>κάλη· ἡ δὲ Εὐρώπη
+                            <lb n="5" xml:id="F91V_5a"/><expan><am><g ref="#abbr42"/></am><ex>ἀπὸ</ex></expan> τοῦ Εὔρου ὠνομά-
+                            <lb n="6" xml:id="F91V_6a" break="no"/>σθη. Λιβύη δὲ ὑπ᾿ 
+                            <lb n="7" xml:id="F91V_7a"/><expan><abbr>Ἑλλήν</abbr><am><g ref="#abbr12"/></am><ex>ων</ex></expan> ἦν ἄγνωστος 
+                            <lb n="8" xml:id="F91V_8a"/>πάνυ. <space unit="character" quantity="3"/> ἀπὸ δὲ <expan><abbr>ἔθν</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ς</abbr></expan> 
+                            <lb n="9" xml:id="F91V_9a"/><expan><am><g ref="#tach11"/></am><ex>ἐπι</ex><abbr>σήμ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan> Φοίνικες 
+                            <lb n="10" xml:id="F91V_10a"/>ἐπωνομάσθησαν πλέον-
+                            <lb n="11" xml:id="F91V_11a" break="no"/>τες. Ὠκεανὸς δὲ 
+                            <lb n="12" xml:id="F91V_12a"/>διὰ τὸ ὠκέως ἀνύειν 
+                            <lb n="13" xml:id="F91V_13a"/>κύκλῳ τὴν γῆν. </p>
+                    </div>
+
+
+
+                    <div type="textpart" subtype="section" n="5">
+                        <p>
+                            <lb n="13" sameAs="#F91V_13a"/><del rend="erasure" unit="character" quantity="1"/> Δι-
+                            <lb n="14" xml:id="F91V_14a" break="no"/>καίαρχος δ᾿ ὁρίζει τὴν 
+                            <lb n="15" xml:id="F91V_15a"/>γῆν <expan><am><g ref="#abbr6"/></am><ex>οὐ</ex><abbr>χ</abbr></expan> ὕδασιν, ἀλλὰ 
+                            <lb n="16" xml:id="F91V_16a"/>τομῇ εὐθείᾳ ἀκράτῳ 
+                            <lb n="17" xml:id="F91V_17a"/>ἀπὸ Στηλῶν διὰ Σ<hi rend="superscript">α</hi>ρ-
+                            <lb n="18" xml:id="F91V_18a" break="no"/>δοῦς, Σικελίας, Πε-
+                            <lb n="19" xml:id="F91V_19a" break="no"/>λοποννήσου, Καρίας, 
+                            <lb n="20" xml:id="F91V_20a"/>Λυκίας, Παμφυλίας,
+                            <lb n="21" xml:id="F91V_21a"/>Κιλικίας, <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> Ταύ-
+                            <lb n="22" xml:id="F91V_22a" break="no"/>ρου ἑξῆς ἕως <expan><abbr>ἰμαἰ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan>
+                        
+                            
+                            <pb n="92R" xml:id="F92R"/>
+      
+                            <lb n="1" xml:id="F92R_1a"/><expan><abbr>ὄρ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ς</abbr></expan>. τῶν τοίνυν τόπων, τὸ 
+                            <lb n="2" xml:id="F92R_2a"/>μὲν Βόρειον, τὸ δὲ Νότιον 
+                            <lb n="3" xml:id="F92R_3a"/>ὀνομ<hi rend="superscript">ά</hi>ζει.</p>
+                    </div>
+                </div>
+
+
+                <div type="textpart" subtype="chapter" n="2">
+                    <div type="textpart" subtype="section" n="6">
+                        <p><lb n="3" sameAs="#F92R_3a"/>Ἄνεμοι δὲ <expan><abbr>πνέ-</abbr>
+                            <lb n="4" xml:id="F92R_4a" break="no"/><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>σιν</abbr></expan> ἀπὸ μὲν ἰσημερινῆς 
+                            <lb n="5" xml:id="F92R_5a"/>ἀνατολῆς, Ἀπηλιώτης. ἀπὸ δὲ
+                            <lb n="6" xml:id="F92R_6a"/>ἰσημερινῆς δύσεως, ζέφυρ<hi rend="superscript">ος</hi>, 
+                            <lb n="7" xml:id="F92R_7a"/>ἀπὸ δὲ μεσημβρίας νότος, 
+                            <lb n="8" xml:id="F92R_8a"/>ἀπὸ δὲ Ἄρκτου Ἀπαρκτίας. 
+                            <lb n="9" xml:id="F92R_9a"/>ἀπὸ δὲ τροπῆς θερινῆς και-
+                            <lb n="10" xml:id="F92R_10a" break="no"/>κίας. ἑξῆς δὲ ἀπὸ <g type="asterisk"/> ἰση-
+                            <lb n="11" xml:id="F92R_11a" break="no"/><note place="margin"><del rend="erasure"><g type="asterisk"/>θερινῆς</del></note>μερινῆς ἀνατολῆς, ἀπηλι-
+                            <lb n="12" xml:id="F92R_12a" break="no"/>ώτης, <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> ἀπὸ χειμερινῆς 
+                            <lb n="13" xml:id="F92R_13a"/>Εὖρος. δυσμικὸς δὲ ἀπὸ 
+                            <lb n="14" xml:id="F92R_14a"/>μὲν δύσεως χειμερινῆς 
+                            <lb n="15" xml:id="F92R_15a"/>Λίψ. <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> ἑξῆς πάλιν 
+                            <lb n="16" xml:id="F92R_16a"/>ἀπὸ δύσεως ἰσημερινῆς 
+                            <lb n="17" xml:id="F92R_17a"/>ζέφυρος. ἀπὸ δὲ δύσεως
+                            <lb n="18" xml:id="F92R_18a"/>θερινῆς Ἀργέστης ἤτοι Ὀ-
+                            <lb n="19" xml:id="F92R_19a" break="no"/>λυμπίας. εἶτα Νότος 
+                            <lb n="20" xml:id="F92R_20a"/><expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> ἀπ<hi rend="superscript">α</hi>ρκτίας, ἀντιπνέον-
+                            <lb n="21" xml:id="F92R_21a" break="no"/>τες. <expan><abbr>γίνον</abbr><am><g ref="#abbr16"/></am><ex>ται</ex></expan> οὖν ὀκτώ. </p>
+                    </div>
+
+
+
+                    <div type="textpart" subtype="section" n="7">
+                        <p>
+                            <lb n="22" xml:id="F92R_22a"/>Τιμοσθένης δὲ ὁ γράψας
+                            <lb n="23" xml:id="F92R_23a"/>τοὺς <expan><abbr>περίπλ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ς</abbr></expan> δώδεκά φη-
+                            <lb n="24" xml:id="F92R_24a" break="no"/>σὶν προσθεὶς μέσον <expan><abbr>ἀπ<hi rend="superscript">α</hi>ρ-
+                                
+                                <pb n="92V" xml:id="F92V" break="no"/>
+                                <lb n="1" xml:id="F92V_1a" break="no"/>κτί</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan> <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> <expan><abbr>καικί</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan>, βορέαν.
+                            <lb n="2" xml:id="F92V_2a"/>Ε<hi rend="underline">ὔ</hi>ρου δὲ καὶ Νότου, Φοί-
+                            <lb n="3" xml:id="F92V_3a" break="no"/>νικα, τὸν καὶ Εὐρόνοτον.
+                            <lb n="4" xml:id="F92V_4a"/>μέσον δὲ Νότου καὶ Λιβὸς,
+                            <lb n="5" xml:id="F92V_5a"/>τὸν Λευκόνοτον, ἤτοι Λιβό-
+                            <lb n="6" xml:id="F92V_6a" break="no"/>νοτον. μέσον δὲ <expan><abbr>ἀπαρκτί</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan> 
+                            <lb n="7" xml:id="F92V_7a"/><expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> <expan><abbr>Ἀργέστ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan>, Θρασκίαν,
+                            <lb n="8" xml:id="F92V_8a"/>ἤτοι κίρκιον ὑπὸ τῶν πε-
+                            <lb n="9" xml:id="F92V_9a" break="no"/>ριοίκων. <space unit="character" quantity="3"/> ἔθνη δὲ οἰ-
+                            <lb n="10" xml:id="F92V_10a" break="no"/>κεῖν τὰ πέρατα. κατ᾿ ἀ-
+                            <lb n="11" xml:id="F92V_11a" break="no"/>πηλιώτην, Βακτριανούς 
+                            <lb n="12" xml:id="F92V_12a"/>κατ᾿ εὖρον <expan><abbr>ἰνδ</abbr><am><g ref="#abbr6"/></am><ex>ού</ex><abbr>ς</abbr></expan>. κατὰ 
+                            <lb n="13" xml:id="F92V_13a"/>φοίνικα Ἐρυθρὰν θάλασ–
+                            <lb n="14" xml:id="F92V_14a" break="no"/>σαν <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> Αἰθιοπίαν. <g ref="#symb5"/> <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> <add place="margin"><g ref="#symb5"/>κατὰ</add> νό-
+                            <lb n="15" xml:id="F92V_15a" break="no"/>τον τὴν ὑπὲρ Αἴγυπτον 
+                            <lb n="16" xml:id="F92V_16a"/>Αἰθιοπίαν. κατὰ Λευ-
+                            <lb n="17" xml:id="F92V_17a" break="no"/>κόνοτον, τοὺς ὑπὲρ Σύρ-
+                            <lb n="18" xml:id="F92V_18a" break="no"/>τεις Γαράμαντας. κατὰ 
+                            <lb n="19" xml:id="F92V_19a"/>Λίβα, Αἰθίοπας. <expan><hi rend="underline"><am><g ref="#tach1"/></am><ex>καὶ</ex></hi></expan> δυσ-
+                            <lb n="20" xml:id="F92V_20a" break="no"/>μικοὺς <hi rend="underline">ὑπερμαύρους</hi>.
+                            <lb n="21" xml:id="F92V_21a"/><expan><am><g ref="#tach6"/></am><ex>κατὰ</ex></expan> ζέφυρον, στήλας, <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> 
+                            <lb n="22" xml:id="F92V_22a"/>ἀρχὰς Λιβύης καὶ Εὐ-
+                            
+                            <pb n="93R" xml:id="F93R" break="no"/>
+                            <lb n="1" xml:id="F93R_1a" break="no"/>ρώπης. κατ ἀργέστην 
+                            <lb n="2" xml:id="F93R_2a"/>Ἰβηρίαν, τὴν νῦν ἱσπά-
+                            <lb n="3" xml:id="F93R_3a" break="no"/>νιαν. κατὰ δὲ θρασκί-
+                            <lb n="4" xml:id="F93R_4a" break="no"/>αν, τοὺς ὑπὲρ Θράκην 
+                            <lb n="5" xml:id="F93R_5a"/>Σκύθας. κατὰ δὲ Βορ-
+                            <lb n="6" xml:id="F93R_6a" break="no"/>ρᾶν, πόντον. μαιῶτιν 
+                            <lb n="7" xml:id="F93R_7a"/>Σ<hi rend="superscript">α</hi>ρμάτας. κατὰ και-
+                            <lb n="8" xml:id="F93R_8a" break="no"/>κίαν, Κασπίαν θάλα-
+                            <lb n="9" xml:id="F93R_9a" break="no"/>σσαν. <space unit="character" quantity="3"/></p>
+                    </div>
+
+
+                </div>
+                <div type="textpart" subtype="chapter" n="3">
+                    <div type="textpart" subtype="section" n="8">
+                        <p>
+                            <lb n="10" xml:id="F93R_10a"/><del rend="erasure" unit="character" quantity="1"/>ἔστι δὲ ἡ 
+                            <lb n="11" xml:id="F93R_11a"/>μεγάλη Σύρτις σταδίων 
+                            <lb n="12" xml:id="F93R_12a"/><hi rend="supraline">ε</hi>. ἡ δὲ μικρὰ <hi rend="supraline">͵αχ</hi>. 
+                            <lb n="13" xml:id="F93R_13a"/>τὸ δὲ στόμα <subst><del rend="underline">τος<g ref="#symb5"/></del><add place="margin"><g ref="#symb5"/>τοῦ</add></subst> <expan><abbr>Ἀδρί</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan>
+                            <lb n="14" xml:id="F93R_14a"/>ὃ καλοῦσι τινὲς Ἰόνιον 
+                            <lb n="15" xml:id="F93R_15a"/>πέλαγος. ἔχει <expan><abbr>διάπλ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ν</abbr></expan> 
+                            <lb n="16" xml:id="F93R_16a"/>σταδίων <hi rend="supraline">͵αψ</hi>. ἀπὸ ἄ-
+                            <lb n="17" xml:id="F93R_17a" break="no"/>κρας Ἰαπυγίας <expan><am><g ref="#tach11"/></am><ex>ἐπὶ</ex></expan> Κραύ-
+                            <lb n="18" xml:id="F93R_18a" break="no"/>νια ὄρη <expan><abbr>τ</abbr><am><g ref="#abbr8"/></am><ex>ῆς</ex></expan> <expan><abbr>ἠπείρ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan>. 
+                        
+                        </p>      </div>
+
+
+
+                    <div type="textpart" subtype="section" n="9">
+                        <p>
+                          
+                            <lb n="19" xml:id="F93R_19a" break="no"/><expan><abbr>διαδέχε</abbr><am><g ref="#abbr16"/></am><ex>ται</ex></expan> τὸ Αἰγαῖον Ἑλλή-
+                            <lb n="20" xml:id="F93R_20a" break="no"/>σποντος λήγον εἰς Ἄβυ-
+                            <lb n="21" xml:id="F93R_21a" break="no"/>δον <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> Σηστόν. εἶτα ἡ 
+                            <lb n="22" xml:id="F93R_22a"/>Προποντὶς λήγει εἰς Χαλ-
+                            <lb n="23" xml:id="F93R_23a" break="no"/>κηδόνα <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> <expan><abbr>Βυζάντι</abbr><am><g ref="#abbr13"/></am><ex>ον</ex></expan>.
+                            
+                            <pb n="93V" xml:id="F93V"/>
+                            <lb n="1" xml:id="F93V_1a"/>ἔνθα τὰ στενὰ, ἀφ᾿ ὧν ὁ πόν-
+                            <lb n="2" xml:id="F93V_2a" break="no"/>τος <expan><abbr>ἄρχε</abbr><am><g ref="#abbr16"/></am><ex>ται</ex></expan>· εἶτα ἡ Μαιῶ-
+                            <lb n="3" xml:id="F93V_3a" break="no"/>τις λίμνη. πάλιν δὲ ἀπ᾿ 
+                            <lb n="4" xml:id="F93V_4a"/>ἀρχῆς Εὐρώπης <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> Λιβύης
+                            <lb n="5" xml:id="F93V_5a"/>Ἰβηρικὸν τὸ ἀπὸ Στηλῶν εἰς 
+                            <lb n="6" xml:id="F93V_6a"/>Πυρήνην τὸ ὄρος. <expan><abbr>Λιγυστικ</abbr><am><g ref="#abbr13"/></am><ex>ὸν</ex></expan> 
+                            <lb n="7" xml:id="F93V_7a"/>δὲ τὸ ἕως τῶν <expan><abbr>τ</abbr><am><g ref="#abbr18"/></am><ex>ῆς</ex></expan> Τυρηνίας πε-
+                            <lb n="8" xml:id="F93V_8a" break="no"/>ράτων. Σαρδῶον δὲ τὸ ὑπὲρ 
+                            <lb n="9" xml:id="F93V_9a"/>Σαρδὼ νεῦον πρὸς Λιβύην
+                            <lb n="10" xml:id="F93V_10a"/>κάτω. Τυρηνικὸν δὲ τὸ 
+                            <lb n="11" xml:id="F93V_11a"/>μέχρι Σικελίας λῆγον ἀρχόμενον 
+                            <lb n="12" xml:id="F93V_12a"/>ἀπὸ τῶν Λιγυστικῆς ἄκρων.
+                            <lb n="13" xml:id="F93V_13a"/>εἶτα Λιβυκόν, εἶτα κρητι-
+                            <lb n="14" xml:id="F93V_14a" break="no"/>κὸν, <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> Σικελικὸν, <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan>
+                            <lb n="15" xml:id="F93V_15a"/>Ἰόνιον καὶ Ἀδρίαν.</p>
+                          
+                    </div>
+
+                </div>
+
+                <fw type="subscription">ΤΈΛΟΣ</fw>
+                <pb n="F94R"/>
+                
+
+            </div>
+        </body>
+    </text>
+</TEI>

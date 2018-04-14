@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="glyphsstyle.xsl"?>
+
+<encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+    <!--     
+        In order to reference this document and the relative stylesheet table, add 
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="filename" xmlns:xi="http://www.w3.org/2001/XInclude">
+        before the TEI header 
+        -->
+        
+  <!-- 
+        And 
+        </fileDesc>
+                  <xi:include href="glyphs.xml"/> 
+                     <profileDesc>  
+            
+            in the transcription document  -->
+    
+    
+    <charDecl>
+        <glyph xml:id="abbr1">
+            <glyphName>Superscript Double Dash</glyphName>
+            <figure>
+                <graphic url="abbr1.png"/>
+            </figure> 
+            <note>
+                    Generally at the end of the word, formed by one or two separate signs. Often the second sign is the acute accent of the previous vowel.  
+                     <objectType>Abbreviation sign</objectType>
+                       <offset>Superscript</offset>
+                    <expan>
+                        <ex>
+                            ας, ᾶς (rare)
+                        </ex>
+                    </expan>  
+            </note>
+        </glyph>
+       
+        <glyph xml:id="abbr2">
+            <glyphName>Ligature  between the final upper trait of ο and the  upper left of υ</glyphName>
+            <figure>
+                <graphic url="abbr2.png"/>
+            </figure> 
+            <note>
+                Formed by ligature between the two letters. This trait includes the circumflex accent. Same symbol is found, without accent or with separate trait indicating acute accent, in abbr6.
+                    <objectType>Abbreviation by ligature</objectType>
+                <offset>Superscript (rarely inline)</offset>
+                <expan>
+                    <ex>
+                       οῦ
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr3">
+            <glyphName>Quick ligature resembling an upside-down ν</glyphName>
+            <figure>
+                <graphic url="abbr3.png"/>
+            </figure> 
+            <note>
+               Generally at the end of the word. A separate line represents acute accent. The abbreviative sign can be more or less pointed. 
+                <objectType>Abbreviation by truncation</objectType>
+                <offset>Superscript</offset>
+                <expan>
+                    <ex>
+                        ην, ὴν
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr4">
+            <glyphName>Superscript open lock</glyphName>
+            <figure>
+                <graphic url="abbr4.png"/>
+            </figure> 
+            <note>
+                Generally at the end of the word. One separate stroke may include the accent. 
+                <objectType>Abbreviation by truncation</objectType>
+                <offset>Superscript</offset>
+                <expan>
+                    <ex>
+                        αν, άν, ὰν
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr5">
+            <glyphName>Quick ligature resembling an upside-down ω</glyphName>
+            <figure>
+                <graphic url="abbr5.png"/>
+            </figure> 
+            <note>
+                Generally at the end of the word to indicate genitive plural, formed by one sign
+                <objectType>Abbreviation by truncation</objectType>
+                <offset>Superscript</offset>
+                <expan>
+                    <ex>
+                        ῶν
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr6">
+            <glyphName>Ligature between the final upper trait of ο and the  upper left of υ</glyphName>
+            <figure>
+                <graphic url="abbr6.png"/>
+            </figure> 
+            <note>
+                Generally at the end of a word. Same type of ligature as abbr2, does not include accent in this form.
+                <objectType>Abbreviation by ligature</objectType>
+                <offset>Superscript (rarely inline)</offset>
+                <expan>
+                    <ex>
+                        ου
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="tach1">
+        <glyphName>Quick ligature of the characters forming  καί, with tachygraphic function</glyphName>
+        <figure>
+            <graphic url="tach1.png"/>
+        </figure> 
+        <note>
+            Tachygraphic sign, includes accent
+            <objectType>Tachygraphy</objectType>
+            <offset>Inline</offset>
+            <expan>
+                <ex>
+                    καὶ, καί
+                </ex>
+            </expan>  
+        </note>
+        </glyph>
+        
+        <!-- 
+        <glyph xml:id="abbr7">
+            <glyphName>Abbreviation formed by Ligature</glyphName>
+            <figure>
+                <graphic url="abbr7.png"/>
+                <graphic url="abbr7a.png"/>
+            </figure> 
+            <note>
+                Abbreviation formed by ligature, usually in scripts where ε connects to the upper trait of π and tends to be superscript, typically in περι- compounds.   
+                <objectType>Ligature</objectType>
+                <offset>Inline, ρ with hole superscript</offset>
+                <expan>
+                    <ex>
+                        περ 
+                    </ex>
+                </expan>  
+            </note>
+        </glyph> -->
+        
+        <glyph xml:id="abbr8">
+            <glyphName>Superscript hook </glyphName>
+            <figure>
+                <graphic url="abbr8.png"/>
+            </figure> 
+            <note>
+                Typically at the end of the word, connected to the upper trait of the last previous character. 
+                <objectType>Abbreviation by truncation</objectType>
+                <offset>Superscript</offset>
+                <expan>
+                    <ex>
+                      ῆς, ης
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        
+        <glyph xml:id="tach2">
+            <glyphName>Quick curved sign orientated to the right, with two dots above</glyphName>
+            <figure>
+                <graphic url="tach2.png"/>
+            </figure> 
+            <note>
+                Tachygraphic sign, includes accent
+                <objectType>Tachygraphy</objectType>
+                <offset>Inline</offset>
+                <expan>
+                    <ex>
+                        δὲ, δέ
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr10">
+            <glyphName>Short superscript dash</glyphName>
+            <figure>
+                <graphic url="abbr10.png"/>
+            </figure> 
+            <note>
+                Typically at the end of a word to express accusative singular.  
+                <objectType>Abbreviation by truncation</objectType>
+                <offset>Superscript</offset>
+                <expan>
+                    <ex>
+                        ον
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="tach3">
+            <glyphName>Compendium formed by the letters π ρ and ο</glyphName>
+            <figure>
+                <graphic url="tach3.png"/>
+            </figure> 
+            <note>
+                Compendium, formed by truncation of the ending part of the word. Typically for the πρός adposition. 
+                <objectType>Compendium by truncation</objectType>
+                <offset>Inline and superscript</offset>
+                <expan>
+                    <ex>
+                        πρός, πρὸς
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr11">
+            <glyphName>Ligature formed by the last right trait of ω and the first bottom trait of ς</glyphName>
+            <figure>
+                <graphic url="abbr11.png"/>
+            </figure> 
+            <note>
+                Conventional sign for abbreviation, typically at the end of a word. Can include an additional sign for the accent. 
+                <objectType>Abbreviation by ligature</objectType>
+                <offset>Superscript or inline</offset>
+                <expan>
+                    <ex>
+                        ως, εως
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr12">
+            <glyphName>Two letters written with quick ductus and distorted in the shape</glyphName>
+            <figure>
+                <graphic url="abbr12.png"/>
+            </figure> 
+            <note>
+                Typically at the end of a word. May include an additional sign for accent. 
+                <objectType>Abbreviation by ligature</objectType>
+                <offset>Superscript</offset>
+                <expan>
+                    <ex>
+                        ων
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="tach4">
+            <glyphName>Tachygraphic sign, formed by the initial letter and a superscript ligature between ε and ν</glyphName>
+            <figure>
+                <graphic url="tach4.png"/>
+            </figure> 
+            <note>
+                Frequent in quick scripts and marginalia. A separate line indicates the acute accent. 
+                <objectType>Tachygraphy or Compendium</objectType>
+                <offset>Inline and superscript</offset>
+                <expan>
+                    <ex>
+                        μέν, μὲν
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr13">
+            <glyphName>Vertical double dash</glyphName>
+            <figure>
+                <graphic url="abbr13.png"/>
+            </figure> 
+            <note>
+                Abbreviation formed by two parallel, diagonal signs, including the accent. At the end of the word.  
+                <objectType>Abbreviation by truncation</objectType>
+                <offset>Superscript</offset>
+                <expan>
+                    <ex>
+                         ον, ὸν, όν / ειν
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="tach5">
+            <glyphName>Compendium, formed by the first two characters of the word and a set of abbreviation signs</glyphName>
+            <figure>
+                <graphic url="tach5.png"/>
+            </figure> 
+            <note>
+                abbr13 is used at the end of the word.  
+                <objectType>Compendium</objectType>
+                <offset>Inline and superscript</offset>
+                <expan>
+                    <ex>
+                         ποταμόν, ποταμὸν
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        
+        <glyph xml:id="abbr14">
+            <glyphName>Quick curved sign orientated to the right, with two dots above</glyphName>
+            <figure>
+                <graphic url="abbr14.png"/>
+            </figure> 
+            <note>
+                  Same structure as tach2, with no accent. It is found superscript on the last character of the word, not inline. 
+                <objectType>Abbreviation by truncation</objectType>
+                <offset>Superscript</offset>
+                <expan>
+                    <ex>
+                        ες
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        
+        <glyph xml:id="symb1">
+            <glyphName>Upside-down V</glyphName>
+            <figure>
+                <graphic url="symb1.png"/>
+            </figure> 
+            <note>
+                Conventional sign for addition, often underline in correspondence of the space between two words, where the addition should be made. Added characters are often superscript.  
+                <objectType>Symbol</objectType>
+                <offset>Superscript or Subscript</offset>
+                <expan>
+                    <ex>
+                        v
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="symb4">
+            <glyphName>Clover</glyphName>
+            <figure>
+                <graphic url="symb4.png"/>
+            </figure> 
+            <note>
+                Conventional catch-sign for addition, usually with a corresponding symbol in the margin.   
+                <objectType>Symbol</objectType>
+                <offset>Superscript or Subscript</offset>
+                <expan>
+                    <ex>
+                        .˙.
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        
+        <glyph xml:id="abbr15">
+            <glyphName>Ligature between the upper trait of ι and the first upper trait of ν, with two dots above</glyphName>
+            <figure>
+                <graphic url="abbr15.png"/>
+                <!-- need better image here, this one includes the accent of the rest of the word -->
+            </figure> 
+            <note>
+                Typically at the end of a word. 
+                <objectType>Abbreviation by ligature</objectType>
+                <offset>Superscript</offset>
+                <expan>
+                    <ex>
+                        ιν
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr16">
+            <glyphName>Superscript τ with protracted right trait</glyphName>
+            <figure>
+                <graphic url="abbr16.png"/>
+                <!-- need better image here, this one includes a part of the word -->
+            </figure> 
+            <note>
+                The final upper right of the tau condenses the final two characters. Generally at the end of a word. 
+                <objectType>Abbreviation by truncation</objectType>
+                <offset>Supraline and inline</offset>
+                <expan>
+                    <ex>
+                        ται
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr17">
+            <glyphName>Quick ligature between the final upper trait of ο, and the initial upper trait of υ and ν</glyphName>
+            <figure>
+                <graphic url="abbr17.png"/>
+                <!-- need better image here, this one includes a part of the word -->
+            </figure> 
+            <note>
+                Abbreviation by ligature of three characters. Includes accent
+                <objectType>Abbreviation by ligature</objectType>
+                <offset>Superscript and inline</offset>
+                <expan>
+                    <ex>
+                        ους, ούς, οὺς
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="tach6">
+            <glyphName>Contracted word written in quick ductus</glyphName>
+            <figure>
+                <graphic url="tach6.png"/>
+                <!-- need better image here, this one includes a part of the word -->
+            </figure> 
+            <note>
+                Tachygraphy formed by a set of abbreviations and ligatures. Includes accent as a separate sign. 
+                <objectType>Tachygraphy</objectType>
+                <offset>Inline and superscript</offset>
+                <expan>
+                    <ex>
+                        κατὰ, κατά
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr18">
+            <glyphName>Ligature of the upper part of ε and ρ</glyphName>
+            <figure>
+                <graphic url="abbr18.png"/>
+                <!-- need better image here, this one includes a part of the word -->
+            </figure> 
+            <note>
+                Normally inside a word.   
+                <objectType>Abbreviation by ligature</objectType>
+                <offset>Inline</offset>
+                <expan>
+                    <ex>
+                        ερ
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr19">
+            <glyphName>Upside-down hook</glyphName>
+            <figure>
+                <graphic url="abbr19.png"/>
+            </figure> 
+            <note>
+                Abbreviation made of one single sign, often at the end of the word. 
+                <objectType>Abbreviation</objectType>
+                <offset>Inline</offset>
+                <expan>
+                    <ex>
+                         ον
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="tach7">
+            <glyphName>Compendium formed by  contraction and an abbreviative sign</glyphName>
+            <figure>
+                <graphic url="tach7.png"/>
+                <!-- need better image here, this one includes a part of the word -->
+            </figure> 
+            <note>
+                abbr6 is used in this compendium. See also tach5, of which this is the genitive form. 
+                <objectType>Compendium</objectType>
+                <offset>Inline and superscript</offset>
+                <expan>
+                    <ex>
+                        ποταμοῦ
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="tach8">
+            <glyphName>Contracted word with quick ligatures</glyphName>
+            <figure>
+                <graphic url="tach8.png"/>
+            </figure> 
+            <note>
+                Tachygraphy formed by a set of abbreviations and ligatures. Includes accent as a separate sign.  See also tach12. 
+                <objectType>Tachygraphy</objectType>
+                <offset>Inline and superscript</offset>
+                <expan>
+                    <ex>
+                        μετά, μετὰ
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr20">
+            <glyphName>Truncated word</glyphName>
+            <figure>
+                <graphic url="abbr20.png"/>
+            </figure> 
+            <note>
+                Last letter is omitted. Accent is included as a separate sign. 
+                <objectType>Abbreviation by truncation</objectType>
+                <offset>Superscript</offset>
+                <expan>
+                    <ex>
+                        ον, όν, ὸν
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr21">
+            <glyphName>Truncated word with last letter superscript and two dots above</glyphName>
+            <figure>
+                <graphic url="abbr21.png"/>
+            </figure> 
+            <note>
+                This is not strictly an abbreviation, but a convention very often used in manuscripts with geographical content. 
+                <objectType>Abbreviation by truncation</objectType>
+                <offset>Inline and superscript</offset>
+                <expan>
+                    <ex>
+                        στάδια
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="symb2">
+            <glyphName>Symbol resembling a ψ, or cross with curved horizontal trait</glyphName>
+            <figure>
+                <graphic url="symb2.png"/>
+            </figure> 
+            <note>
+                Conventional sign for separation. Equivalent to the ((crux)) often found in inscriptions. 
+                <objectType>Symbol</objectType>
+                <offset>Inline</offset>
+                <expan>
+                    <ex>
+                        +
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr22">
+            <glyphName>Truncated word</glyphName>
+            <figure>
+                <graphic url="abbr22.png"/>
+            </figure> 
+            <note>
+                Truncation is indicated by the superscript last character. Always at the end of a word.   
+                <objectType>Abbreviation by truncation</objectType>
+                <offset>Superscript</offset>
+                <expan>
+                    <ex>
+                        ός, ὸς
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr23">
+            <glyphName>Small superscript v</glyphName>
+            <figure>
+                <graphic url="abbr23.png"/>
+            </figure> 
+            <note>
+                May include acute accent. Generally at the end of a word
+                <objectType>Abbreviation</objectType>
+                <offset>Superscript</offset>
+                <expan>
+                    <ex>
+                        ής, ὴς
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr25">
+            <glyphName>Small superscript sign, resembling a curly bracket</glyphName>
+            <figure>
+                <graphic url="abbr25.png"/>
+            </figure> 
+            <note>
+                May include accent as a separate symbol. Generally at the end of a word. 
+                <objectType>Abbreviation</objectType>
+                <offset>Superscript</offset>
+                <expan>
+                    <ex>
+                        εν
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="tach9">
+            <glyphName>Small superscript v</glyphName>
+            <figure>
+                <graphic url="tach9.png"/>
+            </figure> 
+            <note>
+                Tachygraphic sign, resembling abbr23 very much. Includes grave or acute accent. Mostly inline, sometimes smaller than the other characters. 
+                <objectType>Tachygraphy</objectType>
+                <offset>Inline</offset>
+                <expan>
+                    <ex>
+                         καί, καὶ
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr26">
+            <glyphName>Superscript curved trait</glyphName>
+            <figure>
+                <graphic url="abbr26.png"/>
+            </figure> 
+            <note>
+                May include accent. 
+                <objectType>Abbreviation</objectType>
+                <offset>Superscript</offset>
+                <expan>
+                    <ex>
+                        ῶν, ων
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        
+        <glyph xml:id="abbr27">
+            <glyphName>Quick ligature formed by a simplified version of ο, connected with ι and the first upper trait of ς</glyphName>
+            <figure>
+                <graphic url="abbr27.png"/>
+            </figure> 
+            <note>
+                Often at the end of the word
+                <objectType>Abbreviation</objectType>
+                <offset>Superscript</offset>
+                <expan>
+                    <ex>
+                        οις
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr28">
+            <glyphName>Upside down pointy hook</glyphName>
+            <figure>
+                <graphic url="abbr28.png"/>
+            </figure> 
+            <note>
+                
+                <objectType>Abbreviation</objectType>
+                <offset>Superscript</offset>
+                <expan>
+                    <ex>
+                        αν
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr29">
+            <glyphName>Oblique upper long dash</glyphName>
+            <figure>
+                <graphic url="abbr29.png"/>
+            </figure> 
+            <note>
+                Often at the end of the word. It is particularly difficult to spot due to its ambiguity, needs context to be deciphered. It can be found inline, in the shape of a longer I, and inclined in the opposite direction (abbr10). Often combined with extended sign of circumflex accent.  
+                <objectType>Abbreviation</objectType>
+                <offset>Superscript (rarely inline)</offset>
+                <expan>
+                    <ex>
+                        ον
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr30">
+            <glyphName>First letters of the word with an abbreviation in the end</glyphName>
+            <figure>
+                <graphic url="abbr30.png"/>
+            </figure> 
+            <note>
+                Compendium formed by abbr26 and acute accent. Not strictly an abbreviation, see also abbr21. 
+                <objectType>Compendium by truncation</objectType>
+                <offset>Superscript and inline</offset>
+                <expan>
+                    <ex>
+                        σταδίων
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+      
+     
+        <glyph xml:id="abbr24">
+            <glyphName>Ligature between the last lower trait of ε and the first upper trait of κ</glyphName>
+            <figure>
+                <graphic url="abbr24.png"/>
+            </figure> 
+            <note>
+              Generally includes breathing. 
+                <objectType>Ligature</objectType>
+                <offset>Superscript and inline</offset>
+                <expan>
+                    <ex>
+                        ἐκ, ἑκ
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+
+        
+        <glyph xml:id="symb3">
+            <glyphName>Set of traits resembling a bell</glyphName>
+            <figure>
+                <graphic url="symb3.png"/>
+            </figure> 
+            <note>
+               Graphic symbol placed on the upper side of the letter λ, in the shape of a small bell. Very large intraline and in the margin.  
+                <objectType>Symbol</objectType>
+                <offset>Superscript and intraline</offset>
+                <expan>
+                    <ex>
+                        ιων
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="tach11">
+            <glyphName>Ligature between three different characters, starting from the lower last trait of ε</glyphName>
+            <figure>
+                <graphic url="tach11.png"/>
+                
+            </figure> 
+            <note>
+                Reference: Vatopedi 655, from f. 3v. 
+                <objectType>Tachygraphy</objectType>
+                <offset>Inline</offset>
+                <expan>
+                    <ex>
+                        ἐπὶ, ἐπί
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="tach12">
+            <glyphName>Ligature between the last upper trait of μ and the last two letters</glyphName>
+            <figure>
+                <graphic url="tach12.png"/>
+
+            </figure> 
+            <note>
+                Typically appears with other superscript abbreviations or characters. 
+                <objectType>Abbreviation or tachygraphy</objectType>
+                <offset>Inline</offset>
+                <expan>
+                    <ex>
+                        μεν-, μέν-
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr31">
+            <glyphName>Ligature between the last lower trait of ε and the first upper trait of ρ</glyphName>
+            <figure>
+                <graphic url="abbr31.png"/>
+            </figure> 
+            <note>
+                Generally in περί- compounds. Cf. abbr7, with different palaeographical traits. 
+                <objectType>Abbreviation by ligature</objectType>
+                <offset>Superscript and inline</offset>
+                <expan>
+                    <ex>
+                        ερ, (π)ερ
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        
+        <glyph xml:id="abbr33">
+            <glyphName>Ligature between upper trait of ε and ν</glyphName>
+            <figure>
+                <graphic url="abbr33.png"/>
+            </figure> 
+            <note>
+             
+                <objectType>Ligature</objectType>
+                <offset>Superscript and inline</offset>
+                <expan>
+                    <ex>
+                        ἐν, εν
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr34">
+            <glyphName>Ligature between upper trait of ε and ω</glyphName>
+            <figure>
+                <graphic url="abbr34.png"/>
+            </figure> 
+            <note>
+                Can include accent as a separate sign. 
+                <objectType>Ligature</objectType>
+                <offset>Superscript and inline</offset>
+                <expan>
+                    <ex>
+                        εω
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr35">
+            <glyphName>Ligature between upper trait of ε and two λ</glyphName>
+            <figure>
+                <graphic url="abbr35.png"/>
+            </figure> 
+            <note>
+         
+                <objectType>Abbreviation by ligature</objectType>
+                <offset>Inline</offset>
+                <expan>
+                    <ex>
+                       ελλ, ἑλλ, ἐλλ
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr36">
+            <glyphName>Ligature between upper trait of α and ρ</glyphName>
+            <figure>
+                <graphic url="abbr36.png"/>
+            </figure> 
+            <note>
+             Not strictly an abbreviation, but a peculiar ligature where not all the traits are clearly distinguishable. It tends to occur inside words and to form additional ligatures with the previous character (peculiarly in γάρ).
+                <objectType>Ligature</objectType>
+                <offset>Inline</offset>
+                <expan>
+                    <ex>
+                        άρ, ὰρ
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr37">
+            <glyphName>Truncation of the last character</glyphName>
+            <figure>
+                <graphic url="abbr37.png"/>
+            </figure> 
+            <note>
+                Abbreviation formed by truncation of the last letter of the word. 
+                <objectType>Truncation</objectType>
+                <offset>Inline and superscript</offset>
+                <expan>
+                    <ex>
+                        περί, περὶ
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="tach14">
+            <glyphName>Truncated word with only the first two characters visible, and superscript abbreviation signs</glyphName>
+            <figure>
+                <graphic url="tach14.png"/>
+            </figure> 
+            <note>
+                Compendium formed by truncation and symbol, typical of annotations and scholia.  
+                <objectType>Compendium</objectType>
+                <offset>Inline and superscript</offset>
+                <expan>
+                    <ex>
+                      σημείωσαι
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr38">
+            <glyphName>Superscript double curved dash</glyphName>
+            <figure>
+                <graphic url="abbr38.png"/>
+            </figure> 
+            <note>
+                Οften found in scripts of very quick ductus (notes, marginalia, etc.). Can include accent as a separate sign.  
+                <objectType>Abbreviation by truncation</objectType>
+                <offset>Superscript</offset>
+                <expan>
+                    <ex>
+                        αις
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        
+        <glyph xml:id="abbr39">
+            <glyphName>Symbol resembling an s with superscript curved line</glyphName>
+            <figure>
+                <graphic url="abbr39.png"/>
+            </figure> 
+            <note>
+                At the end of a word, often the genitive feminine article. Includes circumflex accent. 
+                Date: Humanistic age (post XV c.)
+                <objectType>Abbreviation by truncation</objectType>
+                <offset>Superscript</offset>
+                <expan>
+                    <ex>
+                        ης, ῆς
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="tach15">
+            <glyphName>Symbol resembling a tall S</glyphName>
+            <figure>
+                <graphic url="tach15.png"/>
+            </figure> 
+            <note>
+              Includes accent as a separate dash. 
+                <objectType>Tachygraphy</objectType>
+                <offset>Inline</offset>
+                <expan>
+                    <ex>
+                        καί, καὶ
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="tach16">
+            <glyphName>Truncated word formed by the number 1 (α) and the nominative termination -ος</glyphName>
+            <figure>
+                <graphic url="tach16.png"/>
+            </figure> 
+            <note>
+               
+                <objectType>Compendium by contraction</objectType>
+                <offset>Inline</offset>
+                <expan>
+                    <ex>
+                        πρώτος
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="tach17">
+            <glyphName> Tachygraphy formed by the first letter of the word and a very quick, almos undistinguishable, ligature between α and ρ. </glyphName>
+            <figure>
+                <graphic url="tach17.png"/>
+            </figure> 
+            <note>
+               
+                <objectType>Tachygraphy</objectType>
+                <offset>Inline</offset>
+                <expan>
+                    <ex>
+                        γὰρ
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr40">
+            <glyphName>Very quick ligature from the upper trait of τ to the first trait of ο</glyphName>
+            <figure>
+                <graphic url="abbr40.png"/>
+            </figure> 
+            <note>
+               Not strictly an abbreviation. Includes a separate sign for accent. 
+                <objectType>Ligature</objectType>
+                <offset>Inline</offset>
+                <expan>
+                    <ex>
+                    τὸ
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="tach18">
+            <glyphName>Contracted word with a small superscript triangle and the first letter visible</glyphName>
+            <figure>
+                <graphic url="tach18.png"/>
+            </figure> 
+            <note>
+              
+                <objectType>Compendium by contraction</objectType>
+                <offset>Inline and superscript</offset>
+                <expan>
+                    <ex>
+                        ποταμόν
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr41">
+            <glyphName>Two dots</glyphName>
+            <figure>
+                <graphic url="abbr41.png"/>
+            </figure> 
+            <note>
+                Abbreviation formed by the final letter of the word (in this case σ) and two interlinear points. 
+                <objectType>Abbreviation by truncation</objectType>
+                <offset>Inline</offset>
+                <expan>
+                    <ex>
+                        (σ)αι
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="symb5">
+            <glyphName>Double dash</glyphName>
+            <figure>
+                <graphic url="symb5.png"/>
+            </figure> 
+            <note>
+                Conventional sign for correction, where usually the corrected word is found on the margin, with the same symbol as reference. 
+                <offset>Superscript or inline</offset>
+                <objectType>Symbol</objectType>
+                <expan>
+                    <ex>
+                        //
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr42">
+            <glyphName>Quick ligature between the last trait of α, a quickly vergated π and final ο separated from the rest of the word</glyphName>
+            <figure>
+                <graphic url="abbr42.png"/>
+            </figure> 
+            <note>
+                Not strictly an abbreviation. 
+                <objectType>Ligature</objectType>
+                <offset>Inline</offset>
+                <expan>
+                    <ex>
+                        ἀπ(ό)
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="abbr43">
+            <glyphName>Two or more inner volutes created by a decorative ligature</glyphName>
+            <figure>
+                <graphic url="abbr43.png"/>
+            </figure> 
+            <note>
+                
+                <objectType>Abbreviation</objectType>
+                <offset>Inline</offset>
+                <expan>
+                    <ex>
+                        ος
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        <glyph xml:id="tach19">
+            <glyphName>Quick ligature between the upper last trait of γ and the first trait of α</glyphName>
+            <figure>
+                <graphic url="tach19.png"/>
+            </figure> 
+            <note>
+               
+                <objectType>Tachygraphy</objectType>
+                <offset>Inline</offset>
+                <expan>
+                    <ex>
+                        γὰρ
+                    </ex>
+                </expan>  
+            </note>
+        </glyph>
+        
+        
+    </charDecl>
+</encodingDesc>

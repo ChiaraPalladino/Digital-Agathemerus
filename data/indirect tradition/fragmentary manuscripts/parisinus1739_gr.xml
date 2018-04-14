@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="parisinus1739_gr">
+
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="lat">Geographiae Informatio</title>
+				<author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+					>Agathemerus</author>
+				<author role="editor"/>
+				<author role="translator"/>
+				<sponsor>University of Leipzig</sponsor>
+				<sponsor>Università degli Studi di Bari Aldo Moro</sponsor>
+				<respStmt>
+					<persName xml:id="CP">Chiara Palladino</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="MB">Monica Berti</persName>
+					<resp>Supervisor</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="GC">Gregory Crane</persName>
+					<resp>Supervisor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Pasquale Massimo Pinto</persName>
+					<resp>Supervisor</resp>
+				</respStmt>
+			</titleStmt>
+
+			<publicationStmt>
+				<authority/>
+				<idno type="filename">parisinus1739_gr.xml</idno>
+				
+				<authority>University of Leipzig</authority>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+						under a Creative Commons Attribution-ShareAlike International 4.0
+						License</licence>
+				</availability>
+				<date>2017</date>
+				<publisher>University of Leipzig</publisher>
+				<pubPlace>Germany</pubPlace>
+			</publicationStmt>
+
+			<sourceDesc>
+				<listBibl>
+
+					<msDesc>
+						<msIdentifier xml:id="parisinus1739" n="urn:cite:agathemerus:tlg0090.tlg001.parisinus1739">
+							<settlement>Paris</settlement>
+							<repository>Bibliothèque Nationale</repository>
+							<collection>Grec</collection>
+							<idno>Parisinus Graecus 1739</idno>
+						</msIdentifier>
+						<msContents>
+
+
+							<msItem n="urn:cite:excerpta:J:c">
+								<locus>ff. 376rv</locus>
+								
+								<author>Agathemerus</author>
+								<title xml:lang="lat">Excerptum J ex Johanne Damasceno</title>
+								<note xml:lang="lat">Excerptum Jc De Maribus</note>
+
+
+							</msItem>
+						</msContents>
+
+						<physDesc>
+							<objectDesc>
+								<supportDesc material="paper">
+
+
+									<extent>
+										<measure type="composition" unit="leaf">376</measure>
+										<dimensions/>
+									</extent>
+									<collation>
+										<p> quaternion </p>
+									</collation>
+								</supportDesc>
+
+							</objectDesc>
+
+							<handDesc hands="1">
+								<handNote xml:id="M1" scope="major"/>
+
+							</handDesc>
+						</physDesc>
+
+						<history>
+
+							<origin>
+								<origPlace/>
+								<origDate>15th century</origDate>
+							</origin>
+
+							<acquisition/>
+
+						</history>
+
+					</msDesc>
+
+
+
+				</listBibl>
+				<bibl>
+					<ref target="http://gallica.bnf.fr/ark:/12148/btv1b107229060"
+						>Gallica.BnF</ref>
+				</bibl>
+
+
+			</sourceDesc>
+
+		</fileDesc>
+
+		<encodingDesc>
+			<projectDesc>
+				<ab>
+					<title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>
+				</ab>
+			</projectDesc>
+			<p>The following text is encoded in accordance with EpiDoc standards and with the
+				CTS/CITE Architecture.</p>
+			<!--
+				
+			<refsDecl n="CTS">
+				<cRefPattern n="section" matchPattern="(.+).(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+					<p>This pointer pattern extracts chapters and sections</p>
+				</cRefPattern>
+				<cRefPattern n="chapter" matchPattern="(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+					<p>This pointer pattern extracts chapters</p>
+				</cRefPattern>
+			</refsDecl>
+			-->
+		</encodingDesc>
+
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latin</language>
+				<language ident="grc">Greek</language>
+			</langUsage>
+		</profileDesc>
+
+		<revisionDesc>
+			<change who="Chiara Palladino" when="2017-07-21">Created the XML file</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile xml:id="facs_3">
+		<graphic url="Par. gr. 1739, ff. 376rv-3.png"/>
+		<surface ulx="0" uly="0" lrx="3022" lry="4267">
+			<zone points="774,321 2054,321 2054,709 774,709" type="TextRegion"
+				xml:id="facs_3_region_1500652348394_160"> </zone>
+			<zone points="2333,395 3566,395 3566,744 2333,744" type="TextRegion"
+				xml:id="facs_3_region_1500652363622_162"> </zone>
+			<zone points="469,721 2047,721 2047,2480 469,2480" type="TextRegion"
+				xml:id="facs_3_region_1500652356377_161"> </zone>
+			<zone points="2307,876 3637,874 3637,2533 2307,2535" type="TextRegion"
+				xml:id="facs_3_region_1500652368733_163">
+				<zone points="2365,895 3146,895 3146,1018 2365,1018" type="Line"
+					xml:id="facs_3_line_1500652395540_164"/>
+				<zone points="2340,1143 3517,1143 3517,1056 2340,1056" type="Line"
+					xml:id="facs_3_line_1500652403286_165"/>
+				<zone points="2407,1218 3517,1218 3517,1156 2407,1156" type="Line"
+					xml:id="facs_3_line_1500652407324_166"/>
+				<zone points="2367,1310 3540,1310 3540,1227 2367,1227" type="Line"
+					xml:id="facs_3_line_1500652411141_167"/>
+				<zone points="2388,1379 3519,1379 3519,1312 2388,1312" type="Line"
+					xml:id="facs_3_line_1500652415166_168"/>
+				<zone points="2374,1448 3507,1448 3507,1387 2374,1387" type="Line"
+					xml:id="facs_3_line_1500652419211_169"/>
+				<zone points="2382,1514 3517,1514 3517,1458 2382,1458" type="Line"
+					xml:id="facs_3_line_1500652422611_170"/>
+				<zone points="2382,1606 3540,1606 3540,1527 2382,1527" type="Line"
+					xml:id="facs_3_line_1500652427919_171"/>
+				<zone points="2384,1669 3603,1669 3603,1614 2384,1614" type="Line"
+					xml:id="facs_3_line_1500652431551_172"/>
+				<zone points="2373,1752 3545,1752 3545,1694 2373,1694" type="Line"
+					xml:id="facs_3_line_1500652437509_173"/>
+				<zone points="2378,1818 3497,1818 3497,1769 2378,1769" type="Line"
+					xml:id="facs_3_line_1500652446326_174"/>
+				<zone points="2384,1898 3486,1898 3486,1835 2384,1835" type="Line"
+					xml:id="facs_3_line_1500652450488_175"/>
+				<zone points="2398,1978 3484,1977 3484,1906 2398,1907" type="Line"
+					xml:id="facs_3_line_1500652455257_176"/>
+				<zone points="2390,2052 3499,2052 3499,1985 2390,1985" type="Line"
+					xml:id="facs_3_line_1500652468031_178"/>
+				<zone points="2380,2133 3526,2133 3526,2069 2380,2069" type="Line"
+					xml:id="facs_3_line_1500652472553_179"/>
+				<zone points="2380,2213 3496,2223 3486,2152 2380,2152" type="Line"
+					xml:id="facs_3_line_1500652476874_180"/>
+				<zone points="2388,2279 3471,2279 3471,2214 2388,2214" type="Line"
+					xml:id="facs_3_line_1500652480789_181"/>
+				<zone points="2376,2366 3457,2366 3457,2294 2376,2294" type="Line"
+					xml:id="facs_3_line_1500652484949_182"/>
+				<zone points="2369,2442 3503,2457 3503,2377 2369,2377" type="Line"
+					xml:id="facs_3_line_1500652488286_183"/>
+			</zone>
+		</surface>
+	</facsimile>
+	<facsimile xml:id="facs_4">
+		<graphic url="Par. gr. 1739, ff. 376rv-4.png"/>
+		<surface ulx="0" uly="0" lrx="2930" lry="4267">
+			<zone points="737,342 2014,342 2014,923 737,923" type="TextRegion"
+				xml:id="facs_4_region_1500653568020_184">
+				<zone points="861,482 1976,488 1972,367 869,355" type="Line"
+					xml:id="facs_4_line_1500653598508_187"/>
+				<zone points="851,532 1953,571 1953,480 855,486" type="Line"
+					xml:id="facs_4_line_1500653601697_188"/>
+				<zone points="876,617 1930,617 1930,544 876,544" type="Line"
+					xml:id="facs_4_line_1500653604537_189"/>
+				<zone points="875,685 1951,707 1947,632 875,632" type="Line"
+					xml:id="facs_4_line_1500653607797_190"/>
+				<zone points="854,762 1965,762 1963,694 854,691" type="Line"
+					xml:id="facs_4_line_1500653611047_191"/>
+				<zone points="851,838 1892,855 1888,774 851,759" type="Line"
+					xml:id="facs_4_line_1500653613634_192"/>
+				<zone points="869,911 1306,911 1306,839 869,839" type="Line"
+					xml:id="facs_4_line_1500653616273_193"/>
+			</zone>
+			<zone points="531,949 2072,949 2072,2472 531,2472" type="TextRegion"
+				xml:id="facs_4_region_1500653590975_186">
+				<zone points="929,1036 1620,1036 1620,961 929,961" type="Line"
+					xml:id="facs_4_line_1500653620559_194"/>
+			</zone>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div type="edition" subtype="transcription" n="urn:cts:greekLit:tlg2934.tlg004.parisinus1739">
+				<div type="textpart" subtype="excerpt" n="urn:cite:excerpta:J:c">
+			<pb facs="#facs_3" n="3"/>
+			<p facs="#facs_3_region_1500652368733_163"><title>ἐκ τοῦ ἁγί<hi rend="superscript">ου</hi> <expan><abbr>Ἰώ</abbr><ex>αννου</ex></expan> τοῦ δαμασκηνοῦ:~</title>
+				<lb facs="#facs_3_line_1500652395540_164" n="N001"/><expan><abbr>διαδέχε</abbr><ex>ται</ex></expan> τὸ αἰγαῖ<hi rend="superscript">ον</hi> πέλαγος, Ἑλλίσποντος· λῆγον εἰς ἄ
+				<lb facs="#facs_3_line_1500652403286_165" n="N002"/> βυδον καὶ σηστόν. εἶτα ἡ προποντὶς· λήγουσα εἰς καλ
+				<lb facs="#facs_3_line_1500652407324_166" n="N003" break="no" />χηδόνα καὶ βυζάντιον, ἔνθα τὰ στενὰ· ἀφ᾿ ῶν ὁ πόν
+				<lb facs="#facs_3_line_1500652411141_167" n="N004" break="no"/>τος <expan><abbr>ἄρχε</abbr><ex>ται</ex></expan>· εἶτα ἡ μαιῶτις λύμνη. πάλιν δὲ ἀπ᾿ ἀρχῆς 
+				<lb facs="#facs_3_line_1500652415166_168" n="N005"/> εὐρώπης καὶ λιβύης· ἰβερικὸν τὸ ἀπὸ στηλῶν εἰς πυ
+				<lb facs="#facs_3_line_1500652419211_169" n="N006" break="no"/> ρίνης τὸ ὄρος· λυγυστικῶν δὲ, τὸ ἕως τῆς τῶν τυρρι
+				<lb facs="#facs_3_line_1500652422611_170" n="N007" break="no"/> νίας περάτων σαρδόνιον δὲ· τὸ ὑπὲρ τὴν σαρδονεῦον πρὸς
+				<lb facs="#facs_3_line_1500652427919_171" n="N008"/> τὴν λιβύην κάτω· τυρρικὸν δὲ, τὸ μέχρι <expan><abbr>σικηλί</abbr><ex>ας</ex></expan>
+				<lb facs="#facs_3_line_1500652431551_172" n="N009"/> λῆγον· ἀρχόμενον ἀπὸ λιγυστικῆς ἄκρων· εἶτα λι
+				<lb facs="#facs_3_line_1500652437509_173" n="N010" break="no"/> βυκὸν· εἶτα κρητικὸν καὶ σικηλικὸν· καὶ ἰώνιον καὶ ἄ
+				<lb facs="#facs_3_line_1500652446326_174" n="N011" break="no"/>δριον· τὸ τὲ ἀνακεχυμένον ἐκ τοῦ σικελικοῦ πελά
+				<lb facs="#facs_3_line_1500652450488_175" n="N012" break="no"/>γου· ὃν καλοῦσι κορινθιακὸν κόλπον· ἤτοι ἀλ
+				<lb facs="#facs_3_line_1500652455257_176" n="N013" break="no"/> κυονίδα θάλασαν· τὸ δὲ σουνίω καὶ σκυλαίω
+				<lb facs="#facs_3_line_1500652468031_178" n="N014"/>περιεχόμενον πέλαγος· σαρωνικὸν· εἶτα μυρτώ
+				<lb facs="#facs_3_line_1500652472553_179" n="N015" break="no"/>ον καὶ ἱκάριον· ἐν ὧ αἰ κυκάδαις· εἶτα καρπά
+				<lb facs="#facs_3_line_1500652476874_180" n="N016" break="no"/>θιον καὶ παμφύλιον καὶ αἰγίπτιον· ἔστι δὲ ὁ
+				<lb facs="#facs_3_line_1500652480789_181" n="N017"/> τῆς εὐρώπης παράπλους, ἀπὸ ταναίδος ποταμοῦ 
+				<lb facs="#facs_3_line_1500652484949_182" n="N018"/>ἐκβολῶν, ἕως ἡρακλέους στηλῶν, στάδια μυ
+				
+			</p>
+			<pb facs="#facs_4" n="4"/>
+			<p facs="#facs_4_region_1500653568020_184">
+				<lb facs="#facs_3_line_1500652488286_183" n="N001" break="no"/>ριάδες ἕξ καὶ ͵θψθ· τῆς δὲ λιβυκῆς ἀπὸ τι
+				<lb facs="#facs_4_line_1500653598508_187" n="N002" break="no"/>τάσεως στόματος κανοβικοῦ, στάδια μυριάδες β
+				<lb facs="#facs_4_line_1500653601697_188" n="N003"/> καὶ ͵θ σϟβ· τῆς δὲ <expan><abbr>ἀσί</abbr><ex>ας</ex></expan> ἀπὸ κανώβου ἕως
+				<lb facs="#facs_4_line_1500653604537_189" n="N004"/> ταναίδος ποταμοῦ· μετὰ τῶν κόλπον, στάδια μυ
+				<lb facs="#facs_4_line_1500653607797_190" n="N005" break="no"/>ριάδες δ καὶ ρια · ὁμοῦ παράλιος τῆς 
+				<lb facs="#facs_4_line_1500653611047_191" n="N006"/>καθ' ἡμᾶς οἰκουμένης· στάδια μυριάδες ιγ 
+				<lb facs="#facs_4_line_1500653613634_192" n="N007"/> καὶ ͵θοβ :~
+				<lb facs="#facs_4_line_1500653616273_193" n="N008"/>
+			</p>
+				</div>
+				<div type="textpart" subtype="section">
+			<p facs="#facs_4_region_1500653590975_186"> Excerpta varia e Platone
+				<lb facs="#facs_4_line_1500653620559_194" n="N001"/>
+			</p></div></div>
+		</body>
+	</text>
+</TEI>

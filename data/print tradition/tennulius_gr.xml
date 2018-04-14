@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tennulius_gr">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="lat">Geographiae Informatio</title>
+                <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+                    >Agathemerus</author>
+                <author role="editor"/>
+                <author role="translator"/>
+                <sponsor>University of Leipzig</sponsor>
+                <sponsor>Università degli Studi di Bari Aldo Moro</sponsor>
+                <respStmt>
+                    <persName xml:id="CP">Chiara Palladino</persName>
+                    <resp>Editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Pasquale Massimo Pinto</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">tennulius_gr.xml</idno>
+                <authority>University of Leipzig</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2015</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="lat">
+                    <biblStruct>
+                        <monogr>
+                            <title xml:lang="grc">ΑΓΑΘΗΜΕΡΟΥΣ τοῦ Ὄρθωνος Ὑποτυπώσεων Γεωγραφίας ἐν
+                                ἐπιτομῇ ΒΙΒΛίΑ ΔύΟ.</title>
+                            <title xml:lang="lat">AGATHEMERIS Orthonis filii Compendiariæ Geographiæ
+                                expositionum Libri Duo.</title>
+                            <title type="subtitle">Cura et Interpretatione Samuelis Tennulii</title>
+
+                            <editor xml:id="ST" ref="http://viaf.org/viaf/102332296">
+                                <persName>
+                                    <name xml:lang="lat">Samuel Tennulius</name>
+                                    <addName xml:lang="dut">Samuel Ten Nuyl</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+                                >Agathemerus </author>
+
+                            <imprint>
+                                <publisher xml:lang="lat">Apud Joannem Ravesteinium</publisher>
+                                <pubPlace>Amsterdam</pubPlace>
+                                <date>1671</date>
+                            </imprint>
+
+
+
+                        </monogr>
+
+                        <ref
+                            target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb11088603-0"
+                            >BSB</ref>
+
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <ab>
+                    <title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>
+                </ab>
+            </projectDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+
+            <refsDecl n="CTS">
+                <cRefPattern n="section" matchPattern="(.+).(.+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+                    <p>This pointer pattern extracts chapters and sections</p>
+                </cRefPattern>
+                <cRefPattern n="chapter" matchPattern="(.+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                    <p>This pointer pattern extracts chapters</p>
+                </cRefPattern>
+            </refsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="lat">Latin</language>
+                <language ident="grc">Greek</language>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="CP" when="2016-08-28">proofread the file, placed pagebreaks and revised the
+                markup for chapter titles</change>
+
+            <change who="CP" when="2016-08-25">added pagebreaks</change>
+
+            <change who="CP" when="2016-08-20">Proofread the file</change>
+            <change who="CP" when="2016-08-15">Created the XML file</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id='facs_1'>
+        <surface ulx='0' uly='0' lrx='6279' lry='3758' corresp='0001_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-1.png'>
+            <graphic url='0001_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-1.png' width='6279px' height='3758px'/>
+            <zone points='8,98 3745,98 3745,4129 8,4129' rendition='TextRegion' xml:id='facs_1_region_1507484848803_1'>
+            </zone>
+            <zone points='8,4156 1703,4156 1703,6163 8,6163' rendition='TextRegion' xml:id='facs_1_region_1507484858539_2'>
+            </zone>
+            <zone points='1721,4147 3647,4147 3647,6145 1721,6145' rendition='TextRegion' xml:id='facs_1_region_1507484863557_3'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_2'>
+        <surface ulx='0' uly='0' lrx='6279' lry='3758' corresp='0002_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-2.png'>
+            <graphic url='0002_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-2.png' width='6279px' height='3758px'/>
+            <zone points='196,338 1899,338 1899,5583 196,5583' rendition='TextRegion' xml:id='facs_2_region_1507484909838_9'>
+            </zone>
+            <zone points='1926,303 3737,303 3737,5993 1926,5993' rendition='TextRegion' xml:id='facs_2_region_1507484980276_11'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_3'>
+        <surface ulx='0' uly='0' lrx='6279' lry='3758' corresp='0003_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-3.png'>
+            <graphic url='0003_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-3.png' width='6279px' height='3758px'/>
+            <zone points='62,303 1658,303 1658,6038 62,6038' rendition='TextRegion' xml:id='facs_3_region_1507484998116_12'>
+            </zone>
+            <zone points='1667,365 3523,365 3523,6038 1667,6038' rendition='TextRegion' xml:id='facs_3_region_1507485020177_14'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_4'>
+        <surface ulx='0' uly='0' lrx='6279' lry='3758' corresp='0004_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-4.png'>
+            <graphic url='0004_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-4.png' width='6279px' height='3758px'/>
+            <zone points='205,231 1980,230 1855,5904 205,5904' rendition='TextRegion' xml:id='facs_4_region_1507485034380_15'>
+            </zone>
+            <zone points='2015,222 3737,222 3737,5966 1855,5953' rendition='TextRegion' xml:id='facs_4_region_1507485055783_16'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_5'>
+        <surface ulx='0' uly='0' lrx='6279' lry='3758' corresp='0005_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-5.png'>
+            <graphic url='0005_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-5.png' width='6279px' height='3758px'/>
+            <zone points='35,240 1685,240 1685,6029 35,6029' rendition='TextRegion' xml:id='facs_5_region_1507485088288_17'>
+            </zone>
+            <zone points='3549,285 1694,285 1694,5993 3549,5993' rendition='TextRegion' xml:id='facs_5_region_1507485093490_18'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_6'>
+        <surface ulx='0' uly='0' lrx='6279' lry='3758' corresp='0006_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-6.png'>
+            <graphic url='0006_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-6.png' width='6279px' height='3758px'/>
+            <zone points='330,222 1944,222 1944,5931 330,5931' rendition='TextRegion' xml:id='facs_6_region_1507485105921_19'>
+            </zone>
+            <zone points='1971,196 3754,196 3754,5931 1971,5931' rendition='TextRegion' xml:id='facs_6_region_1507485111349_20'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_7'>
+        <surface ulx='0' uly='0' lrx='6279' lry='3758' corresp='0007_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-7.png'>
+            <graphic url='0007_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-7.png' width='6279px' height='3758px'/>
+            <zone points='80,222 1712,222 1712,5895 80,5895' rendition='TextRegion' xml:id='facs_7_region_1507485123009_21'>
+            </zone>
+            <zone points='1721,205 3531,205 3531,5886 1721,5886' rendition='TextRegion' xml:id='facs_7_region_1507485127851_22'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_8'>
+        <surface ulx='0' uly='0' lrx='6279' lry='3758' corresp='0008_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-8.png'>
+            <graphic url='0008_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-8.png' width='6279px' height='3758px'/>
+            <zone points='267,214 1837,214 1837,5922 267,5922' rendition='TextRegion' xml:id='facs_8_region_1507485141415_23'>
+            </zone>
+            <zone points='3719,205 1855,205 1855,5975 3719,5975' rendition='TextRegion' xml:id='facs_8_region_1507485146628_24'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_9'>
+        <surface ulx='0' uly='0' lrx='6279' lry='3758' corresp='0009_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-9.png'>
+            <graphic url='0009_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-9.png' width='6279px' height='3758px'/>
+            <zone points='17,258 1658,258 1658,5235 17,5235' rendition='TextRegion' xml:id='facs_9_region_1507485161370_25'>
+            </zone>
+            <zone points='1650,276 3514,276 3514,5922 1650,5922' rendition='TextRegion' xml:id='facs_9_region_1507485230112_27'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_10'>
+        <surface ulx='0' uly='0' lrx='6279' lry='3758' corresp='0010_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-10.png'>
+            <graphic url='0010_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-10.png' width='6279px' height='3758px'/>
+            <zone points='267,205 1881,205 1881,5957 267,5957' rendition='TextRegion' xml:id='facs_10_region_1507485304829_29'>
+            </zone>
+            <zone points='1926,214 3728,214 3728,5993 1926,5993' rendition='TextRegion' xml:id='facs_10_region_1507485309155_30'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_11'>
+        <surface ulx='0' uly='0' lrx='6279' lry='3758' corresp='0011_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-11.png'>
+            <graphic url='0011_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-11.png' width='6279px' height='3758px'/>
+            <zone points='107,240 1792,240 1792,5565 107,5565' rendition='TextRegion' xml:id='facs_11_region_1507485320091_31'>
+            </zone>
+            <zone points='3540,258 1773,258 1773,5922 3540,5922' rendition='TextRegion' xml:id='facs_11_region_1507485324761_32'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_12'>
+        <surface ulx='0' uly='0' lrx='6279' lry='3758' corresp='0012_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-12.png'>
+            <graphic url='0012_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-12.png' width='6279px' height='3758px'/>
+            <zone points='222,249 1890,249 1890,5957 222,5957' rendition='TextRegion' xml:id='facs_12_region_1507485341757_33'>
+            </zone>
+            <zone points='3745,196 1899,196 1899,6064 3745,6064' rendition='TextRegion' xml:id='facs_12_region_1507485346384_34'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_13'>
+        <surface ulx='0' uly='0' lrx='6279' lry='3758' corresp='0013_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-13.png'>
+            <graphic url='0013_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-13.png' width='6279px' height='3758px'/>
+            <zone points='35,294 1712,294 1712,6073 35,6073' rendition='TextRegion' xml:id='facs_13_region_1507485360646_35'>
+            </zone>
+            <zone points='1730,276 3567,276 3567,6029 1730,6029' rendition='TextRegion' xml:id='facs_13_region_1507485365731_36'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_14'>
+        <surface ulx='0' uly='0' lrx='6279' lry='3758' corresp='0014_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-14.png'>
+            <graphic url='0014_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-14.png' width='6279px' height='3758px'/>
+            <zone points='196,330 1828,330 1828,6047 196,6047' rendition='TextRegion' xml:id='facs_14_region_1507485376445_37'>
+            </zone>
+            <zone points='1917,303 3728,303 3728,6091 1917,6091' rendition='TextRegion' xml:id='facs_14_region_1507485380459_38'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_15'>
+        <surface ulx='0' uly='0' lrx='6279' lry='3758' corresp='0015_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-15.png'>
+            <graphic url='0015_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-15.png' width='6279px' height='3758px'/>
+            <zone points='8,294 1641,294 1641,5957 8,5957' rendition='TextRegion' xml:id='facs_15_region_1507485391935_39'>
+            </zone>
+            <zone points='1658,285 3630,285 3630,6002 1658,6002' rendition='TextRegion' xml:id='facs_15_region_1507485395295_40'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_16'>
+        <surface ulx='0' uly='0' lrx='6279' lry='3758' corresp='0016_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-16.png'>
+            <graphic url='0016_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-16.png' width='6279px' height='3758px'/>
+            <zone points='240,196 1890,196 1890,5886 240,5886' rendition='TextRegion' xml:id='facs_16_region_1507485405152_41'>
+            </zone>
+            <zone points='1917,196 3737,196 3737,5948 1917,5948' rendition='TextRegion' xml:id='facs_16_region_1507485408977_42'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_17'>
+        <surface ulx='0' uly='0' lrx='6279' lry='3758' corresp='0017_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-17.png'>
+            <graphic url='0017_16_TennuliusTennulius, Compendiariae_geographiae_expositiones-17.png' width='6279px' height='3758px'/>
+            <zone points='35,303 1658,303 1658,2131 35,2131' rendition='TextRegion' xml:id='facs_17_region_1507485421680_43'>
+            </zone>
+            <zone points='1694,276 3549,276 3549,2131 1694,2131' rendition='TextRegion' xml:id='facs_17_region_1507485424739_44'>
+            </zone>
+            <zone points='53,2220 1641,2220 1641,3112 53,3112' rendition='TextRegion' xml:id='facs_17_region_1507485428111_45'>
+            </zone>
+            <zone points='1667,2220 3612,2220 3612,3068 1667,3068' rendition='TextRegion' xml:id='facs_17_region_1507485430934_46'>
+            </zone>
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+            <div type="edition" n="urn:cts:greekLit:tlg.0090.tlg001.tennulius-grc" xml:lang="grc">
+                   <pb n="1" facs="#facs_1"/>
+
+
+                <head facs="#facs_1_region_1507484848803_1">
+                    <title type="main" xml:lang="grc"> ΑΓΑΘΗΜΕΡΟΥΣ τοῦ Ὄρθωνος Τῆς Γεωγραφίας
+                        ὑποτυπώσεων ἐν ἐπιτομῇ Πρὸς Φίλωνα </title>
+                    <title type="subtitle" xml:lang="grc">ΒΙΒΛΙΟΝ ΠΡΩΤΟΝ.</title>
+                    <title type="main" xml:lang="lat">AGATHEMERIS Orthonis filii Compendiariarum
+                        Geographiæ expositionum ad Philonem</title>
+                    <title type="subtitle" xml:lang="lat">LIBER PRIMUS.</title>
+                    <title type="subtitle" xml:lang="lat">Cura et interpretatione Samuelis
+                        Tennulii.</title>
+                  
+                </head>
+
+
+
+                <div type="textpart" subtype="chapter" n="1">
+                    <milestone unit="section" n="1"/>
+                    <!-- I am adding numbers to the sections used by Tennulius just to add more clarity -->
+                    <div type="textpart" subtype="section" n="1">
+                        <head facs="#facs_1_region_1507484848803_2">  <title type="subtitle">
+                            <supplied reason="explanation" resp="#ST"> Περὶ τῆς τῶν παλαιῶν Γεωγραφίας.
+                                Κεφ. αʹ. </supplied>
+                        </title></head>
+
+
+                        <p facs="#facs_1_region_1507484848803_2"> Ἀναξίμανδρος ὁ Μιλήσιος, ἀκουστὴς Θάλεω, πρῶτος ἐτόλμησε τὴν οἰκουμένην
+                            ἐν πίνακι γράψαι. Μεθ᾿ ὃν Ἑκαταῖος ὁ Μιλήσιος, ἀνὴρ πολυπλανὴς, <fw type="catchword">διη</fw></p>
+                        <p facs="#facs_2_region_1507484909838_9">
+                            <pb n="2" facs="#facs_2"/> διηκρίβωσεν, ὥστε θαυμασθῆναι τὸ πρᾶγμα. Ἑλλάνικος γὰρ
+                            Λέσβιος ἀνὴρ πολυΐστωρ ἀπλάστως παρέδωκε· τὴν ἱστορίαν. Εἶτα Δαμάστης ὁ
+                            Κιττιεὺς τὰ ἐκ τῶν Ἑκαταίου μεταγράψας περίπλουν ἔγραψεν. Ἑξῆς
+                            Δημόκριτος καὶ Εὔδοξος καὶ ἄλλοι τινὲς τῆς γῆς περιόδους καὶ περίπλους
+                            ἐπραγματεύσαντο. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="2">
+                        <p> Οἱ μὲν οὖν παλαιοὶ τὴν οἰκουμένην ἔγραφον στρογγύλην, μέσην διηγεῖσθαι
+                            τὴν Ἑλλάδα, καὶ ταύτης Δελφοὺς, τὸν ὄμφαλον γὰρ ἔχειν τῆς γῆς. Πρῶτος δὲ
+                            Δημόκριτος πολύπειρος ἀνὴρ συνῇδεν, ὅτι προμήκης ἐστὶν ἡ γῆ, ἡμιόλιος τὸ
+                            μῆκος τοῦ πλάτους ἔχουσα. Συνῄνεσε τούτῳ καὶ Δικαίαρχος ὁ Περιπατητικός.
+                            Εὔδοξος δὲ τὸ μῆκος διπλοῦν τοῦ πλάτους. ὁ δὲ Ἐρατοσθένης πλεῖον τοῦ
+                            διπλοῦ. Κράτης δὲ ὡς ἡμικύκλιον. Ἵππαρχος δὲ τραπεζοειδῆ. Ἄλλοι
+                            οὐροειδῆ. Ποσειδώνιος δὲ ὁ Στωϊκὸς σφενδονοειδῆ καὶ μεσοπλατὸν ἀπὸ Νότου
+                            εἰς Βοῤῥᾶν, στενὴν πρὸς Ἑὼ καὶ Δύσιν, τὰ πρὸς Εὖρον δ᾿ ὁμοίως πλατύτερα
+                            πρὸς τὴν Ἰνδικήν. <fw type="catchword">Ὅροι</fw>
+                            
+                        </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="3">
+                        <pb n="3" facs="#facs_3"/>
+                        <p facs="#facs_3_region_1507484998116_12"> Ὅροι ἠπείρων· Εὐρώπης μὲν καὶ Λιβύης αἱ Ἡρακλέους στῆλαι· Λιβύης δὲ καὶ
+                            Ἀσίας ὁ Νεῖλος, οἱ δὲ Ἰσθμὸν τὸν ἀπὸ Σαρβωνίδος λίμνης καὶ Ἀραβίου
+                            κόλπου. Ἀσίας δὲ καὶ Εὐρώπης οἱ μὲν ἀρχαῖοι <supplied reason="omitted"
+                                >λέγουσι</supplied> Φάσιν ποταμὸν καὶ τὸν ἕως Κασπίας Ἰσθμὸν, τὸν
+                            ἀπὸ Σάρβω. οἱ δὲ ὕστερον νεώτεροι Μαιῶτιν λίμνην καὶ Τάναϊν ποταμόν.
+                        </p>
+                    </div>
+                    <milestone unit="section" n="2"/>
+                    <div type="textpart" subtype="section" n="4">
+
+                        <p> Ἐκλήθησαν δὲ Ἤπειροι ἄπειροί τινες οὖσαι δι᾿ <corr>ἄγνοιαν</corr> .
+                            <!-- typographic mistake corrected, originally ἀγνοιαν   --> Ἀσία δὲ ἀπὸ
+                            τοῦ ἄσσον εἶναι τοῖς ἀπ᾿ Εὐρώπης ἀπιοῦσι καὶ πεζῆ, καὶ νήσοις στιχηδὸν
+                            κειμέναις, ὧν Εὐβοία, Ἄνδρος, Τῆνος, Μύκονος, Ἰκαρία, Σάμος, Μυκάλη. Ἡ
+                            δὲ Εὐρώπη ἀπὸ τοῦ Εὔρου ὠνομάσθη. Λιβύη ὑφ᾿ Ἑλλήνων ἦν ἄγνωστος πάνυ·
+                            ἀπὸ δὲ ἔθνους ἐπισήμου Φοινικῶς ὠνομάσθησαν λέοντες. Ὠκεανὸς δὲ διὰ τὸ
+                            ὠκέως ἀνύειν κύκλῳ τὴν γῆν. </p>
+
+
+                    </div>
+                    <milestone unit="section" n="3"/>
+                    <div type="textpart" subtype="section" n="5">
+                        <p> Δικαίαρχος δἐ ὁρίζει τὴν γῆν οὐχ ὕδασιν, ἀλλὰ τομῇ εὐθείᾳ ἀκράτῳ, ἀπὸ
+                            στηλῶν διὰ Σαρδοῦς, Σικελίας, Πελοποννήσου, Ἰωνίας, Καρίας, Λυκίας,
+                            Παμφυλίας, Κιλικίας καὶ <fw type="catchword">Ταύρου</fw></p>
+                        <p  facs="#facs_4_region_1507485034380_15">
+                            <pb n="4" facs="#facs_4"/> Ταύρου, ἑξῆς ἕως Ἰμάου ὄρους. Τῶν τοίνυν τόπων τὸ μὲν
+                            Βόρειον, τὸ δὲ Νότιον ὀνομάζει. </p>
+                    </div>
+                </div>
+
+
+                <div type="textpart" subtype="chapter" n="2">
+                    <milestone unit="section" n="4"/>
+                    <div type="textpart" subtype="section" n="6">
+                        <head type="title">
+                            <supplied reason="explanation" resp="#ST">Περὶ Ἀνέμων. <expan>
+                                    <abbr>Κεφ</abbr>
+                                    <ex>άλαιον</ex>
+                                </expan> βʹ. </supplied>
+                        </head>
+
+
+                        <p> Ἄνεμοι δὲ πνέουσιν ἀπὸ μὲν Ἰσημερινῆς ἀνατολῆς Ἀπηλιώτης, ἀπὸ δὲ
+                            Ἰσημερινῆς δύσεως Ζέφυρος, ἀπὸ δὲ μεσημβρίας Νότος, ἀπὸ δὲ ἄρκτου
+                            Ἀπαρκτίας. Ἀπὸ δὲ τροπῆς θερινῆς Καικίας. Ἑξῆς δὲ ἀπ᾿ Ἰσημερινῆς
+                            ἀνατολῆς Ἀπηλιώτης, καὶ ἀπὸ χειμερινῆς Εὖρος. Δυσμικοὶ δὲ ἀπὸ μὲν δύσεως
+                            χειμερινῆς Λίψ, καὶ ἑξῆς πάλιν ἀπὸ δύσεως Ἰσημερινῆς Ζέφυρος, ἀπὸ δὲ
+                            δύσεως θερινῆς Ἀργέστης ἤτοι Ὀλυμπίας. εἶτα Νότος καὶ Ἀπαρκτίας
+                            ἀντιπνέοντες· γίνονται οὖν ὀκτώ. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="7">
+                        <!-- this paragraph is not indicated as new paragraph in Tennulius, perhaps we will use <milestones> to indicate
+                        how he differently manages the text. 
+                        NOTE TO SELF: i am not considering newlines as paragraphs. Tennulius adds a blank line for new paragraphs.
+                        -->
+                        <p> Τιμοσθένης δὲ, ὁ γράψας τοὺς περίπλους, δώδεκά φησι, προστιθεὶς μέσον
+                            Ἀπαρκτίου καὶ Καικίου Βορέαν, Εὔρου δὲ καὶ Νότου Φοίνικα τὸν καὶ
+                            Εὐρόνοτον, μέσον δὲ Νότου καὶ Λιβὸς τὸν Λευκόνοτον ἤτοι Λιβόνοτον, μέσον
+                            δὲ Ἀπαρκτίου καὶ Ἀργέστου <fw type="catchword">Θρα</fw></p> 
+                        <pb n="5" facs="#facs_5"/> 
+                        <p facs="#facs_5_region_1507485088288_17">
+                           Θρασκίαν, ἤτοι Κίρκιον ὑπὸ τῶν περιοίκων. Ἔθνη δὲ οἰκεῖν τὰ
+                            πέρατα κατ᾿ Ἀπηλιώτην Βακτριανοὺς, κατ᾿ Εὖρον Ἰνδοὺς, κατὰ Φοίνικα
+                            Ἐρυθρὰν θάλασσαν καὶ Αἰθιοπίαν, κατὰ Νότον τὴν ὑπὲρ Αἴγυπτον Αἰθιοπίαν.
+                                <milestone unit="section" n="5"/>
+                            <!-- this paragraph is indicated as new in Tennulius. I am using milestone and section to
+                            indicate a type of unit different from that of the reference edition (Mueller in our case) -->
+                            Κατὰ Λευκόνοτον τοὺς ὑπὲρ Σύρτεις Γαράμαντας, κατὰ Λίβα Αἰθίοπας καὶ
+                            δυσμικοὺς ὑπὲρ Μαύρους. Κατὰ Ζέφυρον Στήλας καὶ ἀρχὰς Λιβύης καὶ
+                            Εὐρώπης, κατ᾿ Ἀργέστην Ἰβηρίαν τὴν νῦν Ἱσπανίαν. Κατὰ δὲ Θρασκίαν τοὺς
+                            ὑπὲρ Θράκην Σκύθας. Κατὰ δὲ Βοῤῥᾶν Πόντον, Μαιῶτιν, Σαυρόματας. Κατὰ
+                            καικίαν Κασπίαν θάλασσαν καὶ Σάκας. </p>
+                    </div>
+                </div>
+
+
+                <div type="textpart" subtype="chapter" n="3">
+                    <milestone unit="section" n="6"/>
+                    <div type="textpart" subtype="section" n="8">
+                        <head type="title">
+                            <supplied reason="explanation" resp="#ST">Περίπλους θαλασσῶν. <expan>
+                                    <abbr>Κεφ</abbr>
+                                    <ex>άλαιον</ex>
+                                </expan> γʹ. </supplied>
+                        </head>
+                        <p> Ἔστι δὲ ἡ μεγάλη Σύρτις σταδίων ͵εʹ, ἡ δὲ μικρὰ σταδίων ͵αχʹ, τὸ δὲ
+                            στόμα τοῦ Ἀδρίου, ὃ καλοῦσί τινὲς Ἰώνιον πέλαγος, ἔχει διάπλουν σταδίων
+                            ͵αψʹ. ἀπὸ ἄκρας Ἰαπυγίας ἐπὶ Κεραύνια ὄρη τῆς Ἠπείρου. </p>
+
+<fw type="catchword">Δια-</fw>
+
+                    </div>
+
+                    <div type="textpart" subtype="section" n="9">
+<pb n="6" facs="#facs_6"/>
+
+                        <p facs="#facs_6_region_1507485105921_19"> Διαδέχεται τὸ Αἰγαῖον Ἑλλήσποντος, λήγων εἰς Ἄβυδον καὶ Σηστὸν, εἶτα ἡ
+                            Προποντὶς λήγει εἰς Χαλκηδόνα καὶ Βυζάντιον, ἔνθα τὰ στενὰ, ἀφ᾿ ὧν ὁ
+                            Πόντος ἄρχεται· Eἶτα ἡ Μαιῶτις λίμνη. <milestone unit="section" n="7"/>
+                            Πάλιν δ' ἀπ᾿ ἀρχῆς Εὐρώπης καὶ Λιβύης, Ἰβηρικὸν τὸ ἀπὸ Στηλῶν εἰς
+                            Πυρήνην τὸ ὄρος, Λιγυστικὸν δὲ τὸ ἕως τῶν τῆς Τυῤῥηνίας περάτων. Σαρδῶον
+                            δὲ τὸ ὑπὲρ Σαρδὼ, νεῦον πρὸς Λιβύην κάτω. Τυῤῥηνικὸν δὲ τὸ μέχρι
+                            Σικελίας ἀρχόμενον ἀπὸ τῶν Λιγυστικῆς ἄκρων. εἶτα Λιβυκὸν, εἶτα Κρητικὸν
+                            καὶ Σικελικὸν, καὶ Ἰώνιον καὶ Ἀδριατικὸν ἀνακεχυμένον ἐκ τοῦ Σικελικοῦ
+                            πελάγους, ὃν καλοῦσι Κορινθιακὸν κόλπον, ἤτοι Ἀλκυονίδα θάλασσαν.
+                                <milestone unit="section" n="8"/> τὸ Σουνίῳ καὶ Σκυλαίῳ
+                            περιερχόμενον πέλαγος Σαρωνικὸν, εἶτα Μυρτῶον καὶ Ἰκάριον, ἐν ᾧ αἱ
+                            Κυκλάδες, εἶτα Καρπάθιον καὶ Παμφύλιον καὶ Αἰγύπτιον· ὑπὲρ δὲ τὸ Ἰκάριον
+                            ἑξῆς ἀνακεῖται τὸ Αἰγαῖον. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="10">
+
+
+
+                        <p> Ἔστι δὲ ὁ τῆς Εὐρώπης παράπλους, ἀπὸ Τανάϊδος ποταμοῦ ἐκβολῶν ἕως
+                            Ἡρακλείων <fw type="catchword">στηλῶν</fw></p>
+                            <pb n="7" facs="#facs_7"/> 
+                        <p facs="#facs_7_region_1507485123009_21">στηλῶν, σταδίων μυριάδων ἓξ καὶ ͵θψθʹ. τῆς δὲ Λιβύης ἀπὸ
+                            Τίγγιος ἕως στόματος Κανωβικοῦ σταδίων μυριάδων δύο καὶ θ͵σνβʹ. τῆς δὲ
+                            Ἀσίας, ἀπὸ Κανώβου ἕως Τανάϊδος ποταμοῦ μετὰ τῶν κόλπων, ὁ παράπλους
+                            σταδίων μυριάδων δʹ καὶ ριαʹ. ὁμοῦ παράλιος σὺν κόλποις τῆς καθ᾿ ἡμᾶς
+                            οἰκουμένης σταδίων μυριάδων ιγʹ καὶ θ͵οβʹ, συμμετρουμένης τῆς Μαιώτιδος
+                            λίμνης, ἧς περίμετρος σταδίων θ͵. τὸ δὲ στόμα ὁ Κιμμέριος Βόσπορος
+                            σταδίων οηʹ. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="11">
+
+                        <p> ὁ δὲ Πόντος σταδίων δυσμυρίων Γ͵πγʹ, ὁ δὲ Θράκιος Βόσπορος τὰ στενὰ, ὅπη
+                            Δαρεῖος ἔζευξεν ἐπὶ Σκύθας τὴν σχεδίαν, σταδίων ϛʹ. </p>
+                    </div>
+
+
+                    <milestone unit="section" n="9"/>
+                    <div type="textpart" subtype="section" n="12">
+
+                        <p> Ἡ δὲ Περσικὴ Θάλασσα κυκλοτερὴς οὖσα, συνάγουσα τὸ στόμα ἄκρῳ Καρμανίας
+                            καὶ Ἀραβίας, περίμετρον ἔχει μυριάδων δύο σταδίων. Ἔστι δὲ τὸ μεταξὺ
+                            Ἀραβίας καὶ Καρμανίας στόμα σταδίων υʹ. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="13">
+                        <p> Ἡ δὲ Ὑρκανία, ἤτοι Κασπία θάλασσα, μηνοειδὴς οὖσα, κατὰ δέ τινας καὶ
+                            προμήκης, ἐστὶ σταδίων δισμυρίων διχιλίων· τοῦ δὲ στόματος ἔχει τὸ
+                            δίαρμα σταδίους δʹ.    <fw type="catchword">Ὁ δὲ</fw>
+                        </p>
+
+                     
+                    </div>
+
+                    <div type="textpart" subtype="section" n="14">
+                        <pb n="8" facs="#facs_8"/>
+                        <p facs="#facs_8_region_1507485146628_23"> Ὁ δὲ Ἀράβιος κόλπος, στενὸς ὢν καὶ προμήκης, ἄρχεται ἀφ᾽ Ἡρώων πόλεως
+                            παρὰ τὴν Τρωγλοδυτικὴν ἕως τῆς Πτολεμαΐδος, τῆς ἐπὶ θῆρας, σταδίων θʹ͵
+                            τὸ μῆκος. <milestone unit="section" n="10"/> Τὰ δὲ κατὰ Δείρην στενὰ
+                            σταδίων ξʹ, ἔνθεν ἑξῆς πλοῦς σταδίων ϛ͵φʹ, τὸ δὲ λοιπὸν οὐ πλεῖται παρὰ
+                            τὴν Ἐρυθρὰν θάλασσαν ἕως ᾽Ωκεανοῦ σταδίων ͵ηʹ. τὸ δὲ παρὰ τὴν Ἀραβίαν
+                            πλευρὰν ἀπ᾿ Ἐλανίτου μυχοῦ σταδίων μυριάδων Δ͵. αὐτὴ δὲ ἡ Ἀραβία εἰς τὴν
+                            Ἐρυθρὰν καθήκει καὶ μεμήκυται ἐπὶ σταδίων μυρίων δισχιλίων. </p>
+                    </div>
+                </div>
+
+                <div type="textpart" subtype="chapter" n="4">
+                    <milestone unit="section" n="11"/>
+                    <div type="textpart" subtype="section" n="15">
+                        <head type="title">
+                            <supplied reason="explanation" resp="#ST">Περὶ μήκους καὶ πλάτους τῆς
+                                οἰκουμένης. <expan>
+                                    <abbr>Κεφ</abbr>
+                                    <ex>άλαιον</ex>
+                                </expan> δʹ. </supplied>
+                        </head>
+                        <p> Μῆκος δὲ τῆς οἰκουμένης ἀπὸ Γάγγου εἰς τὰ Γάδειρα σταδίων μυριάδων ϛʹ
+                            καὶ ͵ηφμθʹ οὕτως. Ἀπὸ μὲν Γάγγου ποταμοῦ ἕως Μυριάνδρου τῆς ἐν Ἰσσικῷ
+                            κόλπῳ σταδίων μυριάδων δʹ, καὶ ͵αψκεʹ. οὕτως. Ἀπὸ Γάγγου ἐπ' ἐκβολὰς <fw type="catchword">Ἰνδοῦ</fw></p>   
+                        <pb n="9" facs="#facs_9"/>
+                        <p  facs="#facs_9_region_1507485161370_25">
+                          Ἰνδοῦ ποταμοῦ σταδίων μυρίων ͵ϛʹ. Ἀπ' Ἰνδοῦ ἕως Κασπίων
+                            πύλων μυρίων ε͵τʹ, ἐπὶ τὸν Εὐφράτην σταδίων μυρίων νʹ, εἰς Μυρίανδρον
+                            σταδίων τοεʹ. </p>
+                    </div>
+                    <milestone unit="section" n="12"/>
+                    <div type="textpart" subtype="section" n="16">
+                        <p> Ἀπὸ δὲ Μυριάνδρου ἐπὶ Γάδειρα σταδίων δισμυρίων ϛ͵ωκʹ, οὕτως. Ἀπὸ
+                            Μυριάνδρου ἐπὶ Κλείδας Κύπρου στάδια α͵υʹ, ἐπὶ Ἀκάμαντα τὸ ἀκρωτήριον
+                            στάδια γ͵τʹ, ἐπὶ δὲ Χελιδονίας διὰ Παμφυλίου πελάγους στάδια α͵τʹ. εἰς
+                            Πάταρα στάδια ωʹ. ὡς εἰς ῾Ρόδον στάδια ψʹ. εἰς Ἀστυπάλαιαν διὰ Καρπαθίου
+                            στάδια ρμʹ. ἐπὶ Ταίναρον στάδια ͵αυνʹ. ἐπὶ Πάχυνον Σικελίας στάδια Δ͵.
+                            ἐπὶ Λιλύβαιον διὰ Λιβυκοῦ πελάγους στάδια α͵φκʹ. ἐπὶ δὲ Κάραλιν Σαρδοῦς
+                            διὰ Τυρσηνικοῦ πελάγους στάδια β͵ωʹ. ἐπὶ Γάδειρα ὑπερπλεύσαντι Γυμνήσιας
+                            νήσους στάδια μύρια. Ἀπὸ Γαδείρων δὲ, διὰ ἱεροῦ ἀκρωτηρίου καὶ Ἀρτάβρων
+                            λιμένος, στάδιοι γ͵Ϡλβʹ, ὁμοῦ γίγνονται μυριάδες ζʹ καὶ β͵υοζʹ.  <fw type="catchword">Τῶν</fw><pb
+                                n="10" facs="#facs_10"/>
+                           
+                        </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="17">
+
+                        <p facs="#facs_10_region_1507485304829_29"> Καὶ ἄλλως. Ἀπὸ Γάγγου ἕως Εὐφράτου ποταμοῦ μυριάδων δʹ καὶ α͵τνʹ. Ἀπ'
+                            Εὐφράτου εἰς Μάζακα Καππαδόκων στάδια ͵βφνʹ. Ἀπὸ δὲ Μαζάκων διὰ Φρυγίας
+                            τῆς παρορίας καὶ μεγάλης Καρίας ἕως Ἐφέσου στάδιοι ͵γτκʹ. Ὁμοῦ ἀπὸ
+                            Γάγγου εἰς Ἔφεσον σταδίων μυριάδως δʹ καὶ ζσκʹ. Ἀπὸ δὲ Ἐφέσου εἰς Δῆλον
+                            διὰ τοῦ Αἰγαίου στάδια α͵χʹ. ἐπ' Ἰσθμὸν στάδια α͵ψʹ. ἀπ' Ἰσθμοῦ διὰ
+                            Κορινθίου κόλπου εἰς Πάτρας στάδια ψκʹ. ἐπὶ Λευκάδα στάδια ψʹ. ἐπὶ
+                            Κορκύραν στάδια ψʹ. ἐπ' Ἀκροκεραύνια ὄρη στάδια α͵ξʹ. ἐπὶ Βρεντήσιον
+                            στάδια ψʹ. Ἀπὸ Βρεντησίου πεζῆ ὁδεύοντι ἕως Ῥώμης στάδια ͵βωπʹ.
+                                <milestone unit="section" n="13"/> Ἀπὸ Ῥώμης ἐπὶ τὰς Ἄλπεις ἕως
+                            Σκιγγομάγου κώμης ὑπὸ ταῖς Ἄλπεσιν οὔσης στάδια δ͵ρνβʹ. Εἶτα διὰ
+                            Κελτικῆς ἕως πόλεως Ἰλυγύρεως <gap reason="omitted" extent="unknown"
+                                resp="#ST"/>
+                            <!-- lacuna stated by the editor but restored thanks to the indirect tradition. See Mueller and Diller. -->
+                            <milestone unit="section" n="14"/> Διὰ τῶν πανδοκείων ἕως Γαδείρων
+                            στάδια β͵χναʹ, καὶ διάπλους ἐπὶ Γάδειρα στάδια ξʹ. ὁμοῦ ἀπὸ Γάγγου εἰς
+                            Γάδειρα σταδίων μυριάδων ζʹ καὶ α͵φξʹ. <pb n="11" facs="#facs_11"/>
+                            <fw type="catchword">Πλά-</fw>
+                        </p>
+                    </div>
+                    <milestone unit="section" n="15"/>
+                    <div type="textpart" subtype="section" n="18">
+
+                        <p facs="#facs_11_region_1507485320091_31"> Πλάτος δὲ τῆς οἰκουμένης ἀπὸ τῆς Αἰθιοπικῆς θαλάσσης ἐπὶ τὴν <gap
+                                reason="omitted" resp="#ST" extent="unknown"/>
+                            <!-- lacuna stated by this editor but not acknowledged by other editors -->
+                            Μερόην σταδίων ͵ηʹ. Ἀπὸ Μερόης εἰς Ἀλεξάνδρειαν σταδίων μυρίων αʹ. Ἀπὸ
+                            δὲ Ἀλεξανδρείας ἐπὶ Τάναϊν μυρίων η͵νϛʹ· Τὰ γὰρ ἄνω τῶν ἐκβολῶν τοῦ
+                            Τανάϊδος ἀγνοεῖται εἰς Βοῤῥᾶν. Οὕτως. Ἀπ' Ἀλεξανδρείας εἰς Λίνδον Ῥόδου
+                            στάδια δ͵φʹ. Ἐπὶ τὸ Θοάντιον δεξιὸν παραπλέοντι Ῥόδον στάδια υʹ. Ἐπὶ
+                            τῆλον στάδια φξʹ. Ἐπὶ Λακτῆρα τῆς Κώας στάδια τκʹ. Ἐπὶ Δρέπανον Κώας
+                            στάδια ρʹ. <milestone unit="section" n="16"/> Ἐπ' Ἀρκίτην νῆσον στάδια
+                            σλʹ. Ἐπὶ Κορσίας ρʹ. Ἐπὶ Σαμίων Ἄμπελον στάδια λʹ. Ἐπὶ τὸ Αἰγαῖον
+                            Ἄργενον διὰ τοῦ Αἰγαίου στάδια ωʹ. Ἐπὶ τὸ Ἐρυθραῖον Κορυκαῖον στάδια
+                            σοʹ. Ἐπὶ Φλίον, ἄκρον Χίου, στάδια νʹ. Ἐπὶ Μελανέα, ἄκρον Λέσβου, στάδια
+                            υνʹ. Ἐπὶ Σίγριον Λέσβου στάδια φʹ. <fw type="catchword">Εἰς</fw>
+                            <pb n="12" facs="#facs_12"/> 
+                            </p>
+                        <p  facs="#facs_12_region_1507485341757_33">Εἰς Τένεδον νῆσον στάδια υνʹ. Εἰς Σίγειον στάδια ρʹ. Ἐπὶ
+                            στόμα Πόντου στάδια β͵φʹ. Ἐπὶ Κάραμβιν στάδια β͵ωʹ. Ἐπὶ στόμα Μαιώτιδος
+                            στάδια β͵φʹ. Ἐπὶ Τάναϊν στάδια β͵χοʹ. </p>
+                    </div>
+                    <milestone unit="section" n="17"/>
+
+                    <div type="textpart" subtype="section" n="19">
+                        <p>Καὶ ἄλλως ἀπὸ Ῥόδου, εἰς Κνίδον στάδια ψʹ. Εἰς Κῶ στάδια σʹ. Εἰς Σάμον
+                            στάδια ωʹ. Εἰς Χίον στάδια ψνʹ. Εἰς Μιτυλήνην στάδια φκʹ. Εἰς Τένεδον
+                            στάδια τνʹ. Εἰς Σίγειον ρʹ. Ἐπὶ τὸ στόμα Πόντου β͵φʹ. Ἐπὶ Κάραμβιν
+                            στάδια β͵ωʹ. Εἰς στόμα Μαιώτιδος β͵φʹ. Ἐπὶ Τάναϊν ποταμὸν β͵σʹ. Ὁμοῦ ἀπὸ
+                            Ἀλεξανδρείας ἕως Τανάϊδος σταδίων μυρίων η͵χηʹ. </p>
+                    </div>
+                </div>
+
+                <div type="textpart" subtype="chapter" n="5">
+                    <milestone unit="section" n="18"/>
+                    <div type="textpart" subtype="section" n="20">
+                        <head type="title">
+                            <supplied reason="explanation" resp="#ST"> Τῶν Νήσων ἀναμέτρησις. <expan>
+                                    <abbr>Κεφ</abbr>
+                                    <ex>άλαιον</ex>
+                                </expan> εʹ.</supplied>
+                        </head>
+
+
+                        <p>Λοιπὸν δὲ ἐροῦμεν τῶν καθ' ἡμᾶς νήσων τὰς περιμέτρους, λαβόντες παρ'
+                            Ἀρτεμιδώρου καὶ Μενίππου καὶ ἑτέρων ἀξιοπίστων. <milestone
+                                unit="section" n="19"/> Γάδειρα μῆκος σταδίων ρηʹ. πλάτος σταδίων
+                            ιϛʹ. ὁ δὲ <!-- καθ' repeated here --></p>
+                            <pb n="13" facs="#facs_13"/> 
+                        <p  facs="#facs_13_region_1507485360646_35"> καθ' Ἡρακλέους στήλας πορθμὸς στενότατός ἐστι σταδίων πʹ.
+                                <milestone unit="section" n="20"/> Ἐν δὲ τῷ Ἰβηρικῷ πελάγει νῆσοι,
+                            Πιτυοῦσα ἡ μείζων καὶ οἰκουμένη σταδίων τʹ τὸ μῆκος, ἡ δὲ ἐλάττων σταδ.
+                            ρʹ. Τῶν δὲ Γυμνησίων, ἃς Καρχηδόνιοι Βαλιάρεις καλοῦσιν (οἱ γὰρ
+                            σφενδονίται οὕτω καλοῦνται οἱ Βαλιαρεῖς) ἡ μείζων μῆκος ἔχει σταδίων
+                            α͵σʹ, πλάτος σταδίων υʹ. ἡ ἐλάττων σταδίων τʹ. Αἱ δὲ Στοιχάδες, αἱ
+                            φερώνυμοι ἑξῆς ἐπ' εὐθείας, κεῖνται πρὸ τῶν Μασσαλιακῶν πόλεων, αἱ μὲν
+                            μείζους τρεῖς, δύο δὲ μικραὶ αὐτῆς ἐγγὺς Μασσαλίας. Ἡ δὲ Σαρδὼ ἔχει
+                            σχῆμα ὡς πώλου ἴχνος, μεσόκοιλος, τὸ μῆκος Βσʹ. Κύρνος ἐγγὺς Σαρδοῦς,
+                            πολλῷ δὲ ἀγεννεστέρα, ἐλάττων ἢ ἥμισυ τῆς Σαρδοῦς, μῆκος ἔχει. <gap
+                                reason="omitted" resp="#ST" extent="unknown"/>
+                            <!-- lacuna ipotizzata dall'editore ma non accolta dagli altri editori -->
+                            <milestone unit="section" n="21"/> Ἀφετήριον δ᾿ εἰς Σαρδῶ καὶ Κύρνον
+                            Ποπουλώνιον τῆς Τυρσηνίας, τὸ δὲ δίαρμα σταδίων βσʹ. Τῆς Σικελίας κατὰ
+                            Τιμοσθένην περίμετρος σταδίων δψμʹ, σχῆμα τρίγωνον σκαληνοειδές. <fw type="catchword">δίαρμα</fw></p>
+                        <pb n="14" facs="#facs_14"/> 
+                        <p facs="#facs_14_region_1507485376445_37"> δίαρμα δ᾿ ἔχει ἀπὸ Πελώρου ἄκρου εἰς Ἰταλίαν σταδίων ιαʹ
+                            πορθμὸν, πλευρὰ νήσου ἀπὸ πελώρου εἰς Πάχυνον στάδια α͵λζʹ. ἀπὸ Παχύνου
+                            εἰς Λιλύβαιον στάδια α͵χʹ. κατὰ Τιμοσθένην ἀπὸ Λιλυβαίου εἰς Πελωριάδα
+                            στάδια α͵ψʹ. ἀπὸ Λιλυβαίου διάπλους εἰς Ἀσπίδα τῆς Λιβύης ἐγγὺς στάδια
+                            α͵χʹ. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="21">
+                        <p> Κέρκινα νῆσος μῆκος ἔχει στάδια οʹ. πλάτος δ' ὅπου στενοτάτη στάδια μʹ.
+                            ὑπέρκειται δὲ πόλεως ἠπειρωτικῆς Θήνης, ἡ κεῖται τῆς μικρᾶς Σύρτιδος ἐπὶ
+                            τῆς ἀρχῆς. Τῇ δὲ Κερκίνῃ παράκειται νῆσος Κερκινῖτις γεφύρᾳ ζευχθεῖσα,
+                            μῆκος στάδια μʹ. πλάτος δὲ στάδια κεʹ. </p>
+                    </div>
+
+
+                    <milestone unit="section" n="22"/>
+                    <div type="textpart" subtype="section" n="22">
+
+
+
+                        <p> Ἀπὸ Κερκίνης ἐπὶ νῆσον Μήνιγγα τὴν Λωτοφαγιτίδος ὁ διάπλους στάδια χʹ,
+                            ὅσον τῆς μικρᾶς Σύρτιδος λέγεται τὸ στόμα. Ἡ δὲ Μήνιγξ μῆκος σταδίων χʹ,
+                            πλάτος σταδίων ρπʹ. Μεγάλαι δ' εἰσὶν περὶ αὐτὴν παλίῤῥοιαι. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="23">
+                        <p> Κεφαλληνία νῆσος τετράπολις μῆκος σταδ. υʹ. <milestone unit="section"
+                                n="23"/> Εἰσὶ δὲ καὶ ἐν τῷ Ἀδρίᾳ νῆσοι παρὰ τὴν Ἰλλυρίδα, ὧν
+                            ἐπισημέστεραι Ἴσση, καὶ ἡ Μέ <fw type="catchword">λαινα</fw></p>
+                            <pb n="15" break="no" facs="#facs_15"/> 
+                        <p facs="#facs_15_region_1507485391935_39">λαινα Κορκύρα, καὶ Φάρος καὶ Μελίτη, ὧν ἀγνοῶ
+                            τὰς περιμέτρους. </p>
+                    </div>
+                    <milestone unit="section" n="24"/>
+                    <div type="textpart" subtype="section" n="24">
+                        <p> Πελοπονήσου δὲ ὁ περίπλους καὶ τῶν κόλπων συμμετρουμένων στάδια η͵χκζʹ.
+                            χωρὶς δὲ τοῦ κατακολπίσαι ὁ περίπλους στάδια δ͵. Μῆκος δὲ ἀπὸ Μαλέας ἕως
+                            Αἰγαίου στάδια α͵υʹ. Ἔχει δὲ ὅμοιον σχῆμα φύλλῳ πλατάνου, κόλποις
+                            μεγάλοις τεμνομένη. Συνάγεται μὲν εἰς τὸν Κορίνθιον Ἰσθμὸν πλάτος
+                            σταδίων μʹ. <milestone unit="section" n="25"/> Ἀπὸ τοῦ Κορινθίου κόλπου
+                            καὶ Σαρωνικοῦ ἐπὶ τὸ Σκύλλαιον ἄκρον ἐξ εὐωνύμων ἔνθα πρόκειται νῆσος
+                            Καλαυρία Ποσειδῶνος ἱερά. Εἶτα ὁ Ἑρμιονικὸς κόλπος. Ἑξῆς δὲ ὁ Ἀργολικὸς
+                            κόλπος μέχρι Μαλέας ἄκρου, ὅ πολὺ προπέπτωκεν εἰς πέλαγος. Ἑξῆς δὲ μετὰ
+                            Μαλέαν Λακωνικὸς κόλπος ἕως Ταινάρου ἐκ δεξιῶν, ὃς περιορίζει ἐξ
+                            εὐωνύμων τὸν Μεσσενιακὸν κόλπον, οὗ ἐκ δεξιῶν Ἀκρίτας ἄκρα. <milestone
+                                unit="section" n="26"/> Εἶτα προπέπτωκεν ἄκρον Ἰχθὺς, καθ' ὃν κεῖται
+                            Ζάκυνθος, καὶ ἕτερον ὃ χελωνάτας. τελευταῖον δὲ ἄκρον Ἄραξος
+                            ἀντιπρόσωπον Ἀ <fw type="catchword">καρ</fw></p>
+                            <pb n="16" break="no" facs="#facs_16"/> 
+                        <p facs="#facs_16_region_1507485405152_41">καρνανίᾳ. μεθ' ὃν ὁ Κορινθιακὸς ἀναχεῖται κόλπος
+                            ζʹ σταδίων, συγκλειόμενος στόματι κατὰ Τορίασον ἄκρον, ὅ ἐστι τῆς
+                            Πελοποννήσου, τὸ δ' Ἀντίῤῥιον Λοκρίδος. Ἀπὸ Ταινάρου ἐπὶ Φυκοῦντα Λιβύης
+                            τὸ δίαρμα στάδια Γ͵. </p>
+                    </div>
+                    <milestone unit="section" n="27"/>
+                    <div type="textpart" subtype="section" n="25">
+                        <p>Αἴγινα νῆσος προμήκης στάδια ρξʹ ἐξ ἐναντίας κεῖται τῆς Ἀττικῆς. Σαλαμὶς
+                            μῆκος στάδια οʹ. Ἡ Κείος ρκʹ. Τῶν δὲ Κυκλάδων κρατίστη ἐστὶν ἡ Νάξος,
+                            διὸ μικρὰ λέγεται Σικελία. Ἐκ δεξιῶν δὲ αἱ Σποράδες. ἡ δὲ Εὔβοια γεφύρᾳ
+                            πρὸς τὴν Βοιωτίαν ἔζευκται, παρατίνει δὲ Βοιωτίδα, Φωκίδα, Λοκροὺς, ἐκ
+                            δὲ θατέρου ἐπί πόσον καὶ τῇ Ἀττικῇ. Ἔστι γὰρ μακρὰ, διὸ Μάκρις ὠνομάσθη,
+                            μῆκος σταδίων α͵ψʹ. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="26">
+                        <p>Ἡ δὲ Κρήτη κατὰ Μαλέαν πλησιάζει Πελοποννήσῳ· περίμετρος δὲ αὐτῆς σταδίων
+                            δ͵ρʹ. μῆκος β͵τʹ. κατὰ πολὺ γὰρ μεμήκυται. Κύθηρα μέσον Κρήτης καὶ
+                            Λακωνικῆς. <milestone unit="section" n="28"/> Κύπρος Βύρση τὸ σχῆμα
+                            ὁμοῖα, περίπλους στάδια γυκʹ, <fw type="catchword">μῆ</fw></p>
+                            <pb n="17" facs="#facs_17"/> 
+                        <p facs="#facs_17_region_1507485421680_43">μῆκος δὲ α͵τʹ. Ἀπὸ Πάφου εἰς Ἀλεξάνδρειαν δίαρμα Βορέου
+                            σταδίων ͵Γωʹ. <milestone unit="section" n="29"/> Ῥόδου περίμετρος στάδια
+                            α͵τʹ. Κῶ περίμετρος στάδια φνʹ. Σάμος στάδια χλʹ. Ἰκαρία δέ ἐπὶ μακρὰ
+                            τραχεῖα μῆκος σταδίων τʹ. Χίου περίμετρος στάδια χξʹ· Λέσβου περίμετρος
+                            α͵ρʹ.</p>
+                    </div>
+                </div>
+                <div type="edition" facs="#facs_17_region_1507485428111_45">
+    <head>Διάγνωσις ἐν ἐπιτομῇ τῆς ἐν τῇ σφαίρᾳ Γεωγραφίας</head>
+</div>
+
+            </div>
+        </body>
+    </text>
+</TEI>

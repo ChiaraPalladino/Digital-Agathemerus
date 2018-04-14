@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="monacensis287_gr">
+
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="lat">Geographiae Informatio</title>
+				<author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+					>Agathemerus</author>
+				<author role="editor"/>
+				<author role="translator"/>
+				<sponsor>University of Leipzig</sponsor>
+				<sponsor>Università degli Studi di Bari Aldo Moro</sponsor>
+				<respStmt>
+					<persName xml:id="CP">Chiara Palladino</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="MB">Monica Berti</persName>
+					<resp>Supervisor</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="GC">Gregory Crane</persName>
+					<resp>Supervisor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Pasquale Massimo Pinto</persName>
+					<resp>Supervisor</resp>
+				</respStmt>
+			</titleStmt>
+
+			<publicationStmt>
+				<authority/>
+				<idno type="filename">monacensis287_gr.xml</idno>
+				
+				<authority>University of Leipzig</authority>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+						under a Creative Commons Attribution-ShareAlike International 4.0
+						License</licence>
+				</availability>
+				<date>2017</date>
+				<publisher>University of Leipzig</publisher>
+				<pubPlace>Germany</pubPlace>
+			</publicationStmt>
+
+			<sourceDesc>
+				<listBibl>
+
+					<msDesc>
+						<msIdentifier xml:id="monacensis287" n="urn:cite:agathemerus:tlg0090.tlg001.monacensis287">
+							<settlement>Munich</settlement>
+							<repository>Bayerische Staatsbibliothek</repository>
+							<collection>Graeci</collection>
+							<idno>Monac. Gr. 287</idno>
+						</msIdentifier>
+						<msContents>
+
+
+							<msItem n="urn:cite:excerpta:J:c">
+								<locus>f. 76v</locus>
+								
+								<author>Agathemerus</author>
+								<title xml:lang="lat">Excerptum J De Maribus</title>
+
+
+							</msItem>
+						</msContents>
+
+						<physDesc>
+							<objectDesc>
+								<supportDesc material="paper">
+
+
+									<extent>
+										<measure type="composition" unit="leaf">164</measure>
+										<dimensions>
+											<height unit="cm">21</height>
+											<width unit="cm">15</width>
+
+										</dimensions>
+									</extent>
+									<collation>
+										<p>Quaternion </p>
+									</collation>
+								</supportDesc>
+
+							</objectDesc>
+
+							<handDesc hands="1">
+								<handNote xml:id="M1" scope="major"/>
+
+							</handDesc>
+						</physDesc>
+
+						<history>
+
+							<origin>
+								<origPlace/>
+								<origDate>14th century exeunt.</origDate>
+							</origin>
+
+							<acquisition/>
+
+						</history>
+
+					</msDesc>
+
+
+
+				</listBibl>
+				<bibl>
+					<ref target="http://daten.digitale-sammlungen.de/bsb00049971/image_1">Bayerische
+						Staatsbibliothek</ref>
+				</bibl>
+
+
+			</sourceDesc>
+
+		</fileDesc>
+
+		<encodingDesc>
+			<projectDesc>
+				<ab>
+					<title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>
+				</ab>
+			</projectDesc>
+			<p>The following text is encoded in accordance with EpiDoc standards and with the
+				CTS/CITE Architecture.</p>
+			<!--
+
+			<refsDecl n="CTS">
+				<cRefPattern n="section" matchPattern="(.+).(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+					<p>This pointer pattern extracts chapters and sections</p>
+				</cRefPattern>
+				<cRefPattern n="chapter" matchPattern="(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+					<p>This pointer pattern extracts chapters</p>
+				</cRefPattern>
+			</refsDecl>
+			-->
+		</encodingDesc>
+
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latin</language>
+				<language ident="grc">Greek</language>
+			</langUsage>
+		</profileDesc>
+
+		<revisionDesc>
+			<change who="Chiara Palladino" when="2017-07-21">Created the XML file</change>
+		</revisionDesc>
+	</teiHeader>
+
+	
+	<facsimile xml:id="facs_2">
+		<graphic url="Monac. gr. 287 f. 76v-2.png"/>
+		<surface ulx="0" uly="0" lrx="5858" lry="3987">
+			<zone points="1006,141 3912,141 3912,4326 1006,4326" type="TextRegion"
+				xml:id="facs_2_region_1500632497748_70">
+				<zone points="2066,503 2469,637 2469,637 2676,576 2921,503 2921,204 2066,204"
+					type="Line" subtype="header" xml:id="facs_2_line_1500632506757_71"/>
+				<zone points="1269,749 3856,858 3872,659 1282,498" type="Line"
+					xml:id="facs_2_line_1500632514050_72"/>
+				<zone points="1389,946 3900,1007 3867,848 1400,766" type="Line"
+					xml:id="facs_2_line_1500632519143_73"/>
+				<zone points="1415,1101 3887,1203 3865,1001 1415,943" type="Line"
+					xml:id="facs_2_line_1500632522861_74"/>
+				<zone points="1396,1276 3848,1333 3848,1177 1384,1083" type="Line"
+					xml:id="facs_2_line_1500632526722_75"/>
+				<zone points="1359,1439 3846,1498 3850,1339 1388,1269" type="Line"
+					xml:id="facs_2_line_1500632531920_76"/>
+				<zone points="1362,1599 3848,1652 3845,1493 1395,1452" type="Line"
+					xml:id="facs_2_line_1500632536027_77"/>
+				<zone points="1400,1772 3841,1809 3836,1666 1397,1618" type="Line"
+					xml:id="facs_2_line_1500632539511_78"/>
+				<zone points="1410,1940 3829,1980 3828,1819 1410,1784" type="Line"
+					xml:id="facs_2_line_1500632543079_79"/>
+				<zone points="1363,2113 3827,2154 3816,1990 1359,1936" type="Line"
+					xml:id="facs_2_line_1500632546597_80"/>
+				<zone points="1364,2283 3857,2311 3859,2144 1367,2102" type="Line"
+					xml:id="facs_2_line_1500632550328_81"/>
+				<zone points="1372,2420 3815,2491 3818,2331 1383,2285" type="Line"
+					xml:id="facs_2_line_1500632554013_82"/>
+				<zone points="1372,2593 3792,2642 3794,2487 1362,2430" type="Line"
+					xml:id="facs_2_line_1500632556715_83"/>
+				<zone points="1367,2774 3787,2794 3786,2648 1365,2603" type="Line"
+					xml:id="facs_2_line_1500632559380_84"/>
+				<zone points="1363,2905 3789,2954 3785,2805 1360,2755" type="Line"
+					xml:id="facs_2_line_1500632561782_85"/>
+				<zone points="1366,3062 3806,3148 3810,2952 1364,2915" type="Line"
+					xml:id="facs_2_line_1500632564796_86"/>
+				<zone points="1344,3225 3804,3271 3804,3127 1346,3086" type="Line"
+					xml:id="facs_2_line_1500632568234_87"/>
+				<zone points="1344,3408 3833,3455 3827,3271 1339,3227" type="Line"
+					xml:id="facs_2_line_1500632571251_88"/>
+				<zone points="1358,3534 3791,3613 3791,3467 1356,3407" type="Line"
+					xml:id="facs_2_line_1500632573983_89"/>
+				<zone points="1330,3692 3789,3775 3781,3613 1327,3538" type="Line"
+					xml:id="facs_2_line_1500632576772_90"/>
+				<zone points="1327,3849 3785,3949 3786,3749 1321,3721" type="Line"
+					xml:id="facs_2_line_1500632579980_91"/>
+				<zone points="1286,4017 3797,4124 3789,3945 1319,3876" type="Line"
+					xml:id="facs_2_line_1500632582904_92"/>
+				<zone points="1307,4228 2312,4248 2315,4061 1308,3999" type="Line"
+					xml:id="facs_2_line_1500632585388_93"/>
+			</zone>
+			<zone points="2034,4202 2260,4202 2260,4100 2034,4100" type="Separator"
+				xml:id="facs_2_Separator_1500635016466_94"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div type="edition" subtype="transcription" n="urn:cts:greekLit:tlg2934.tlg004.monacensis287">
+				<div type="textpart" subtype="excerpt" n="urn:cite:excerpta:J:c">
+			<pb facs="#facs_1" n="1"/>
+			<pb facs="#facs_2" n="2"/>
+			<p facs="#facs_2_region_1500632497748_70">
+				<title>Περὶ πελαγῶν</title>
+				<lb facs="#facs_2_line_1500632506757_71" n="N001"/> Διαδέχεται δὲ τὸ αἰγαῖον πέλαγος ὁ ἑλλήσποντος· λῆγον εἰς 
+				<lb facs="#facs_2_line_1500632514050_72" n="N002"/> ἄβυδον <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> σηστόν· εἶτα ἡ προποντὶς· λήγουσα εἰς χαλ
+				<lb facs="#facs_2_line_1500632519143_73" n="N003" break="no"/>κιδόνα καὶ βυζάντιον· ἔνθα τὰ στενά· ἀφ᾿ ὧν ὁ πόντος <expan><abbr>ἄρχε</abbr><ex>ται</ex></expan>· 
+				<lb facs="#facs_2_line_1500632522861_74" n="N004"/> εἶτα ἡ μαιώτις λίμνη· πάλιν δ᾿ ἄπαρχῆς εὐρώπης <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan>
+				<lb facs="#facs_2_line_1500632526722_75" n="N005"/> λιβύης ἰβηρικῆς· τὸ ἀπο στηλῶν εἰς πυρήνην τὸ ὄρος·
+				<lb facs="#facs_2_line_1500632531920_76" n="N006"/><expan><abbr>λιγυστικ</abbr><ex>ὸν</ex></expan> δὲ τὸ ἑώς τῶν τῆς τυρρηνίας περάτων· <expan><abbr>σαρδώνι</abbr><ex>ον</ex></expan>
+				<lb facs="#facs_2_line_1500632536027_77" n="N007"/> δὲ τὸ ὑπὲρ τὴν σάρδον νεῦον, πρὸ τῆν λιβύην κάτω· <expan><abbr>τυρρη 
+					<lb facs="#facs_2_line_1500632539511_78" n="N008" break="no"/>νικ</abbr><ex>ὸν</ex></expan> <expan><abbr><am><g/></am></abbr><ex>δὲ</ex></expan> ἐστιν τὸ μέχρι <expan><abbr>σικηλί</abbr><ex>ας</ex></expan> λῆγον· ἀρχόμενον ἀπὸ τῶν τῆς
+					<lb facs="#facs_2_line_1500632543079_79" n="N009"/> λιγυστικῆς ἄκρων· εἶτα <expan><abbr>λιβυκ</abbr><ex>ὸν</ex></expan>· εἶτα <expan><abbr>κρητικ</abbr><ex>ὸν</ex></expan>· <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> <expan><abbr>σικηλικ</abbr><ex>ὸν</ex></expan>· 
+				<lb facs="#facs_2_line_1500632546597_80" n="N010"/> καὶ ἰώνιον· <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> ἀνδρίαν τὸ ἀνακεχυμένον ἐκ τοῦ σικελικοῦ 
+				<lb facs="#facs_2_line_1500632550328_81" n="N011"/> πελάγους, ὃν καλοῦσι <expan><abbr>κορινθιακ</abbr><ex>ὸν</ex></expan> κόλπον, ἥτοι ἀλκυονί 
+				<lb facs="#facs_2_line_1500632554013_82" n="N012" break="no"/>δα θάλατταν· τὸ <expan><abbr><am><g/></am></abbr><ex>δὲ</ex></expan> σουνίω <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> σκύλας περιεχόμενον
+				<lb facs="#facs_2_line_1500632556715_83" n="N013"/> πέλαγος, <expan><abbr>σαρωνικ</abbr><ex>ὸν</ex></expan>· εἶτα μυρτῶον· εἶτα ἱκάριον, ἐν ὧ 
+				<lb facs="#facs_2_line_1500632559380_84" n="N014"/> αἱ κοιλάδες· εἶτα καρπάθιον <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> παμφύλιον <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> αἰγύπτιον· 
+				<lb facs="#facs_2_line_1500632561782_85" n="N015"/> ὑπὲρ δὲ τὸ ἱκαρίον ἐξῆς ἀναχεῖται τὸ αἰγαῖον· <expan><abbr><am><g/></am></abbr><ex>ἔστι</ex></expan> δὲ ὁ
+					<lb facs="#facs_2_line_1500632564796_86" n="N016"/> τῆς εὐρώπης παράπλους, ἀπὸ ταναίδος ποταμοῦ ἐκ
+				<lb facs="#facs_2_line_1500632568234_87" n="N017" break="no"/> βολῶν, ἕως ἡρακλειῶν στηλῶν, στάδια ϛʹ·͵θψθ: τῆς 
+				<lb facs="#facs_2_line_1500632571251_88" n="N018"/> δὲ λιβύης ἀπο τίγρητος ἕως στόματος κανωβικοῦ· 
+				<lb facs="#facs_2_line_1500632573983_89" n="N019"/> στάδια β·σνβ· τῆς δ᾿ ἀσίας ἀπὸ κανώβου ἕως τανά
+				<lb facs="#facs_2_line_1500632576772_90" n="N020" break="no"/> ιδος μετὰ τῶν κόλπων ὁ παράπλους στάδια δ·ριαʹ ὁ 
+				<lb facs="#facs_2_line_1500632579980_91" n="N021" break="no"/>μοῦ παράλιος σὺν κόλποις τῆς καθ᾿ <expan><abbr>ἡμ</abbr><ex>ᾶς</ex></expan> οἰκουμένης 
+				<lb facs="#facs_2_line_1500632582904_92" n="N022"/> στάδιοι · ιγ · ͵θοβ: 
+				<lb facs="#facs_2_line_1500632585388_93" n="N023"/>
+			</p></div></div>
+		</body>
+	</text>
+</TEI>

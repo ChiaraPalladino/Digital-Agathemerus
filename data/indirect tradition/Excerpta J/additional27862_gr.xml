@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="additional27862_gr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="lat">Geographiae Informatio</title>
+                <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+                    >Agathemerus</author>
+                <author role="transcriptor">Chiara Palladino</author>
+                <sponsor>University of Leipzig</sponsor>
+                <sponsor>Università degli Studi di Bari Aldo Moro</sponsor>
+                <respStmt>
+                    <persName xml:id="CP">Chiara Palladino</persName>
+                    <resp>Editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName> Pasquale Massimo Pinto</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority>University of Leipzig</authority>
+                <idno type="filename">additional27862_gr.xml</idno>
+
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2015</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+              
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier xml:lang="eng">
+
+                            <settlement>London</settlement>
+                            <repository>British Library</repository>
+                            <collection>Manuscript Additional</collection>
+                            <idno>MS Add. 27862</idno>
+  </msIdentifier>
+
+                        <msContents>
+                            <msItem n="urn:cts:greekLit:tlg2934.tlg004">
+                                <locus>ff 40v-137v</locus>
+                                <author xml:lang="lat">Johannes Damascenus</author>
+                                <title xml:lang="lat">Expositio Fidei Orthodoxae</title>
+                            </msItem>
+
+                            <msItem n="urn:cite:excerpta:J:a">     
+                     
+                                    <locus>ff. 89v-90r</locus>
+                                    <author>Agathemerus</author>
+                                    <title xml:lang="lat">Excerptum Ja De ventis</title>
+                                     </msItem>
+                            
+                                <msItem n="urn:cite:excerpta:J:c">
+                                <locus>f. 91r</locus>
+                                
+                                <author>Agathemerus</author>
+                                <title xml:lang="lat">Excerptum Jc De Maribus</title>
+                            </msItem>
+                            
+                            
+                            <msItem n="urn:cite:excerpta:J:d">
+                                <locus>ff. 92v-93r</locus>
+                                
+                                <author>Ptolemy, Geography</author>
+                                <title xml:lang="lat">Excerptum Jd</title>
+                            </msItem>
+  
+                            <msItem n="urn:cite:excerpta:J:b">
+                                <locus>ff. 92v-93r</locus>
+                     
+                             <author>Agathemerus</author>
+                             <title xml:lang="lat">Excerptum Jb De Populis</title>
+                         </msItem>
+                     
+                         
+  
+
+                       
+                        </msContents>
+
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc material="parch">
+
+                                    <extent>
+                                        <dimensions>
+                                            <height/>
+                                            <width/>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+
+                            </objectDesc>
+
+                            <handDesc hands="1">
+                                <handNote xml:id="M1" scope="major"/>
+
+                            </handDesc>
+                        </physDesc>
+
+                        <history>
+
+                            <origin>
+                                <origPlace/>
+                                <origDate/>
+                            </origin>
+
+                            <acquisition/>
+
+                        </history>
+                    </msDesc>
+
+
+
+
+                </listBibl>
+
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <ab>
+                    <title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>
+                </ab>
+            </projectDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+  <!--
+            <refsDecl n="CTS">
+               this will need to be refined. 
+
+                <cRefPattern n="section" matchPattern="(.+).(.+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+                    <p>This pointer pattern extracts chapters and sections</p>
+                </cRefPattern>
+                <cRefPattern n="chapter" matchPattern="(.+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                    <p>This pointer pattern extracts chapters</p>
+                </cRefPattern>
+            </refsDecl> -->
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="CP" when="2016-08-29">Created the XML file</change>
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" n="urn:cts:greekLit:tlg2934.tlg004:22b">
+
+
+                <pb n="89v"/>
+                <p>
+              
+                    <hi rend="tall">Περὶ αἔρος <expan><abbr>κ<am><g/></am></abbr><ex>αὶ</ex></expan>ἀνέμων</hi>
+                    <!-- Aristotle, Met. 361a30 --> ἄνεμος ἐστι πλῆθος 
+                    <lb/> θερμῆς c<expan> <abbr>κ<am><g/></am></abbr><ex>αὶ</ex></expan>c<expan><abbr>ξηρ</abbr><ex>ᾶς</ex></expan> ἀναθυμιάσεως· κινούμενον περὶ γῆν· 
+                    <lb/>
+                </p>
+                <div type="textpart" subtype="excerpt" n="urn:cite:excerpta:J:a">
+                    
+  <p>                    ἀνεμοις δὲ πνέουσιν ἀπο ἀνατολῆς θερινῆς· <expan><abbr><am><g/></am></abbr><ex>και</ex></expan><expan><abbr>κί<am><g/></am></abbr><ex>ας</ex></expan> μέσης· 
+                    <lb/> ἀπο ανατολῆς 
+                    <pb n="90r"/>
+                    <lb n="1"/>ἰσημερινῆς· ἀπιλιώτης· ἀπὸ ἀνατολῆς χημερινῆς · 
+                    <lb n="2"/> εὖρος· ἀπὸ δύσεως χειμερινῆς· λείψ · ἀπὸ δύσεως 
+                    <lb n="3"/> ἰσημερινῆς· ζέφυρος· ἀπὸ δύσεως θερινῆς· ἀργέστης 
+                    <lb n="4"/> ἤτοι ὀλυμπίας· ὁ καὶ ἰάπυξ καὶ ἐργάστης· εἶτα 
+                    <lb n="5"/>νότος <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> ἀπαρκτίας· ἀντιπνέοντες ἀλλήλοις. ἔστι δὲ 
+                    <lb n="6"/> μέσος ἀπαρκτίου <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan>κακίου· βορέας· εὔρου δὲ <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> νότου 
+                    <lb n="7"/> μέσος· φοῖνιξ ὁ καλούμενος εὐρόν<add place="above" >ο</add>τος· μέσος δὲ 
+                    <lb n="8"/> νότου <expan><abbr><am><g/></am></abbr><ex>και</ex></expan> λιβὸς· λιβόνοτος ὁ λευκόνοτος· μέσος δὲ
+                    <lb n="9"/><sic>δὲ</sic> ἀπαρκτίου <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> ἀργέστου· <expan><abbr>θρασκί</abbr><ex>ας</ex></expan>· ἤτοι κέρκιος· 
+                    <lb n="10"/> ὑπὸ τῶν περιοίκων ὀνομαζόμενος· εἰσὶν οὖν οἱ 
+                    <lb n="11"/> πάντες <num><hi rend="supraline">ιβ</hi></num>· ὧν ἡ διαγραφὴ ἐστιν αὔτη· 
+                    <lb rend="12"/>
+                    <g type="line"/>
+                    <hi rend="tall"><expan><abbr>Ἀνατ</abbr><ex>ολὴ</ex></expan> θερινή· <expan><abbr>Ἀνατ</abbr><ex>ολὴ</ex></expan> ἰσημερινή· <expan><abbr>Ἀνατ</abbr><ex>ολὴ</ex></expan> χειμερινή· 
+                        <lb rend="12"/> καικίας· ἀπηλιώτης· εὖρος· μέσσης· εὐρόνοτος· 
+                        <lb rend="13"/> βορέας· φοῖνιξ· ἄρκτος ἀπαρκτίας· νότος· μεσιμβρία· 
+                        <lb n="14"/> θ<unclear>ρα</unclear>σκίας· λιβόνοτος· μέσσης· λευκόνοτος· κίρκιος λίψ· 
+                        <lb n="15"/> δύσις θερινή· ἀργέστης· δύσις χειμερινή· 
+                        <lb n="16"/> ἰάπυξ ὀλυμπίας· δύσις θερινή· ἐργάστης· ζέφυρος</hi>
+                    <lb n="17"/><g type="line"/>
+                    <g type="drawing"/>
+  </p>
+                </div>
+                <div type="textpart" subtype="section" n="urn:cts:greekLit:tlg2934.tlg004:23">
+                    <p>
+                    <!-- this is JOHN'S CHAPTER  -->
+                    <g type="decoration"/>
+                    <title type="section">
+                        <hi rend="tall">Περὶ ὑδάτων</hi>
+                    </title>
+                    <lb n="18"/>
+                    <hi rend="tall">Κ</hi>αὶ .... 
+                    <pb n="90v"/>
+                    <pb n="91r"/>
+                    <!-- here john's chapter and the excerpt are placed on the same line --> χάριν τοῦ ἁγίου <expan><abbr><am>πνσ</am></abbr><ex>πνεύματος</ex></expan>
+                    <g type="line"/>
+                    </p>
+                </div>
+                <div type="textpart" subtype="excerpt" n="urn:cite:excerpta:J:c">
+                   <p>
+                    <title type="section"><hi rend="tall">Περὶ Πελαγῶν</hi></title>
+                    <g type="line"/>
+                    <g type="decoration"/>
+                    
+                    
+                    <num><hi rend="supraline underline">ΒΓ</hi></num> <hi rend="tall">Δ</hi>ιαδέχεται τὸ αἰγαῖον πέλαγος ἑλλήσποντος. λήγων 
+                    <lb/> εἰς ἄβυδον <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> σηστόν· εἶτα ἡ προποντὶς λήγουσα 
+                    <lb/> εἰς χαλκηδόνα <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> βυζάντιον· ἔνθα τὰ στενὰ· ἀφ' ὧν 
+                    <lb/> ὁ πόντος ἄρχεται· εἶτα ἡ  μαιότης λίμνη· πάλι<supplied reason="omitted">ν</supplied> δὲ 
+                    <lb/> ἀπ' ἀρχῆς εὐρώπης <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> λιβύης, ἰβηρικὸν τὸ ἀπὸ στηλῶν <lb/> εἰς πυρίνην τὸ ὄρος· λιγυστικὸν δὲ τὸ ἕως τῆς τῶν τυρ
+                    <lb break="no"/>ρηνίας περάτων· σαρδώνιον δὲ τὸ ὑπὲρ τὴν σαρδὼ νεῦον <lb/> πρὸς τὴν λιβύην κάτω· τυρρηνικὸν δὲ, τὸ μέχρι σικηλίας <lb/> λῆγον· ἀρχόμενον ἀπὸ λιγυστικῆς ἄκρων· εἶτα λι
+                    <lb break="no"/>βυκόν· εἶτα κρητικὸν <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> σικηλικὸν <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> ἰώνιον <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> ἀδρίον· <lb/> τὸ δὲ ἀνακεχυμένον ἐκ τοῦ σικηλικοῦ πελάγους ὃν 
+                    <lb/> καλοῦσι κορινθιακὸν κόλπον. ἤτοι ἀλκυωνίδα θάλασσαν· 
+                    <lb/> τῷ δὲ σουνίῳ <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> σκυλλαίῳ περιεχόμενον πέλαγος σαρωνικόν· 
+                    <lb/> εἶτα μυρτῶον <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> <supplied reason="omitted">ἰ</supplied>κάριον· ἐν ᾧ αἱ κυκλάδες· εἶτα καρπά
+                    <lb break="no"/> θίον <expan><abbr><am><g/></am></abbr><ex>καὶ</ex> </expan> παμφύλιον <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> αἰγύπτιον· ὑπὲρ δὲ τὸ ἰκάριον· 
+                    <lb/> ἐξῆς ἀναχεῖται τὸ αἰγαῖον· ἔστι δὲ  ὁ τῆς εὐρώπης παράπλους. 
+                    <lb/> ἀπὸ ταναΐδος ποταμοῦ ἐκβολῶν· ἕως ἡρακλέους 
+                    <lb/> <add place="bottom">στηλῶν</add> · 
+                    <pb n="91v"/>
+                    <lb n="1"/> στάδια ϛ <hi rend="supraline">͵θψθ</hi>· τῆς δὲ λιβύης. ἀπὸ τιγὰς ἕως στόματος κα
+                    <lb n="2" break="no"/>νωβικοῦ· στάδια β <hi rend="supraline">͵θσΝβ</hi>· τῆς δὲ ἀσίας. ἀπὸ κανώβου. 
+                    <lb n="3"/> ἕως ταναΐδος ποταμοῦ· μετὰ τῶν κόλπων ὁ παράπλους· 
+                    <lb n="4"/> στάδια Δ <hi rend="supraline">ρια</hi>· ὁμοῦ παράλλιος σύν κόλποις τῆς καθ' ἡ
+                    <lb n="5" break="no"/>μᾶς οἰκουμένης· στάδια ΙΓ <hi rend="supraline">͵θοβ</hi> <g type="line"/> <num><hi rend="supraline underline">ΒΔ</hi></num>
+                    <title type="section"><hi rend="tall">Περὶ γῆς καὶ τῶν ἐξ αὐτῆς </hi></title>
+                    <g type="line"/>
+                   </p>
+                </div>
+        
+        <div type="textpart" subtype="excerpt" n="urn:cite:excerpta:J:d">
+            <!-- here John's chapter starts -->
+                    <pb n="92r"/>
+                    <!-- john's chapter follows for one page-->
+                    <pb n="92v"/>
+                    <lb n="6"/>
+                
+                <p>
+                    
+                    
+              
+                    <hi rend="tall"> εὐρώπης μὲν· ἐπαρχίαι <num><hi rend="supraline">ΛΔ</hi></num>· πίνακες <num><hi rend="supraline">Ι</hi></num>· <num><hi rend="supraline">α</hi></num> ἰουβερ
+                        <lb n="7" break="no"/>νία νῆσος βριττανική· <num><hi rend="supraline">Β</hi></num> ἀλουΐνος νῆσος βρεττανική 
+                        <lb n="8"/><num><hi rend="supraline">Γ</hi></num> ἰσπανία βετική: <num><hi  rend="supraline">Δ</hi></num> ἰσπανία λουσιτανία: <num><hi  rend="supraline">Ε</hi></num> ἰσπα
+                        <lb n="9" break="no"/> νία ταρακωνησία: <num><hi rend="supraline">Ϛ</hi></num> γαλλία κουιτανία : <num><hi rend="supraline">Ζ</hi></num> γαλλία 
+                        <lb n="10"/> λουγδωνησία: <num><hi rend="supraline">Η</hi></num> γαλλία κελτική: <num><hi rend="supraline">Θ</hi></num> </hi>γαλλία ἀναρ
+                    <lb n="11" break="no"/> βωνησία: <num><hi rend="supraline">Ι</hi></num> γερμανία μεγἀλη: <num><hi rend="supraline">ΙΑ</hi></num> ῥαιτία καὶ οὐενδι
+                    <lb break="no" n="12"/> λικια: <num><hi rend="supraline">ΙΒ</hi></num> νωρικόν: <num><hi rend="supraline">ΙΓ</hi></num> πανωνία ἡ ἄνω: <num><hi rend="supraline">ΙΔ</hi></num> πανω
+                    <lb n="13" break="no"/> νία ἡ κάτω: <num><hi rend="supraline">ΙΕ</hi></num> ἰλλυρίς: <num><hi rend="supraline">ΙϚ</hi></num> δελματία: <num><hi rend="supraline">ΙΖ</hi></num> ἰταλία:
+                        <lb n="14"/><num><hi rend="supraline">ΙΗ</hi></num> κύρνος νῆσος: <num><hi rend="supraline">ΙΘ</hi></num> σαρδὼ νῆσος: <num><hi rend="supraline">Κ</hi></num> σικηλία νῆσος: 
+                    <lb n="15"/><num><hi rend="supraline">ΚΑ</hi></num> σαρματία ἡ ἐν εὐρώπῃ: <num><hi rend="supraline">ΚΒ</hi></num> ταυρικὴ χερσόνησος: 
+                    <lb n="16"/><num><hi rend="supraline">ΚΓ</hi></num> ἰάζυγες μετάνασται: <num><hi rend="supraline">ΚΔ</hi></num> λυκία: <num><hi rend="supraline">ΚΕ</hi></num> μυσία ἡ ἄνω: 
+                    <lb n="17"/><num><hi rend="supraline">ΚϚ</hi></num> μυσία ἡ κάτω: <num><hi rend="supraline">ΚΖ</hi></num> θράκη: <num><hi rend="supraline">ΚΗ</hi></num> χερσόνησος
+                        <lb n="18"/> <num><hi rend="supraline">ΚΘ</hi></num> μακεδωνία: <num><hi rend="supraline">Λ</hi></num> ἤπειρος: <num><hi rend="supraline">ΛΑ</hi></num> ἀχαΐα: <num><hi rend="supraline">ΛΒ</hi></num> εὔβοια νῆσος: 
+                    <lb n="19"/> <num><hi rend="supraline">ΛΓ</hi></num> πελοπόνησος: <num><hi rend="supraline">ΛΔ</hi></num> κρήτη νῆσος: λιβύης ἐπαρχίαι <num><hi rend="supraline">ΙΒ</hi></num>
+                    <lb n="20"/> πίνακες <num><hi rend="supraline">Η</hi></num>
+                    <g type="drawing"/> <num><hi rend="supraline">α</hi></num> μαυριτανία τιγγιτανή: <num><hi rend="supraline">Β</hi></num> μαυ
+                    <lb n="21" break="no"/>ριτανία καισαρινσία : <num><hi rend="supraline">Γ</hi></num> νουμηδία : <num><hi rend="supraline">Δ</hi></num> ἀφρικὴ ὅλη:
+                    <lb n="22"/> <num><hi rend="supraline">Ε</hi></num> κυριναϊκὴ πεντάπολις: <num><hi rend="supraline">Ϛ</hi></num> μαρμαρικὴ: <num><hi rend="supraline">Ζ</hi></num> λιβύη: <num><hi rend="supraline">Η</hi></num> αἴγυπτος ἡ κάτω: <num><hi rend="supraline">Θ</hi></num> αἴγυπτος θηβαΐς: <num><hi rend="supraline">Ι</hi></num> ἡ ἐντὸς
+                    <lb n="23"/>ἀφρικῆς λιβύη: <num><hi rend="supraline">ΙΑ</hi></num> ἡ ἄνω αἰγύπτου αἰθιοπίας·
+                        <lb n="24"/> <num><hi rend="supraline">ΙΒ</hi></num> ἐντὸς τούτων πάντων νωτιωτάτη αἰθιοπία: <g type="line"/>
+                    <lb n="25"/> ἀσίας ἠπείρου μεγάλης ἐπαρχίαι <num><hi rend="supraline">ΜΗ</hi></num> κανόνες <num><hi rend="supraline">ΙΒ</hi></num>: <g type="line"/>
+                    <lb n="26"/><num><hi rend="supraline">α</hi></num> βιθυνία πόντου: <num><hi rend="supraline">β</hi></num> ἀσία <supplied reason="lost" evidence="parallel">ἡ</supplied> ἱδΐως πρὸς τῇ ἐφέσῳ:
+                    <lb n="27"/> <num><hi rend="supraline">Γ</hi></num> φρυγία μεγάλη: <num><hi rend="supraline">Δ</hi></num> λυκία : <num><hi rend="supraline">Ε</hi></num> γαλατία: <num><hi rend="supraline">Ϛ</hi></num> παφλα
+                    <lb n="28" break="no"/>γονία: <num><hi rend="supraline">Ζ</hi></num> παμπυλία: <num><hi rend="supraline">Η</hi></num> καππαδοκία: <num><hi rend="supraline">Θ</hi></num> ἀρμενία 
+                    <lb n="28"/> μικρὰ: <num><hi rend="supraline">Ι</hi></num> κηλικία : <num><hi rend="supraline">Ια</hi></num> σαρματία ἡ ἐντὸς ἀσίᾳ: 
+                    <lb n="29"/> <num><hi rend="supraline">ΙΒ</hi></num> κολχίς: <num><hi rend="supraline">ΙΓ</hi></num> ἰβηρία: <num><hi rend="supraline">ΙΔ</hi></num> ἀλβανία: <num><hi rend="supraline">ΙΕ</hi></num> ἀρμενία μεγάλη: 
+                    <lb n="30"/> <num><hi rend="supraline">ΙϚ</hi></num> κύπρος νῆσος: <num><hi rend="supraline">ΙΖ</hi></num> συρία κοίλη: <num><hi rend="supraline">ΙΗ</hi></num> συρία φοινίκη: 
+                    <lb n="31"/> <num><hi rend="supraline">ΙΘ</hi></num> συρία παλαιστίνη: <num><hi rend="supraline">Κ</hi></num> ἀραβία πετραία: <num><hi rend="supraline">ΚΑ</hi></num>
+                    <lb n="32"/> μεσοποταμία: <num><hi rend="supraline">ΚΒ</hi></num> ἀραβία ἔριμος: <num><hi rend="supraline">ΚΓ</hi></num> βαβυ
+                    <lb n="33" break="no"/>λωνία: <num><hi rend="supraline">ΚΔ</hi></num> ἀσυρία: <num><hi rend="supraline">ΚΕ</hi></num> σουσιανή: <num><hi rend="supraline">ΚϚ</hi></num> μηδεῖα: <num><hi rend="supraline">ΚΖ</hi></num> περσίς:
+                        <lb n="34"/> <num><hi rend="supraline">ΚΗ</hi></num> παρθία: <num><hi rend="supraline">ΚΘ</hi></num> καὶ ἀρμενία ἔρημος: <num><hi rend="supraline">Λ</hi></num> καὶ ἀρμενία ἑτέρα 
+                    <pb n="93r"/>
+                    <lb n="1"/> <num><hi rend="supraline">ΛΑ</hi></num> ἀραβία εὐδαίμων: <num><hi rend="supraline">ΛΒ</hi></num> ὑρκανία: <num><hi rend="supraline">ΛΓ</hi></num> μαργιανή: 
+                    <lb n="2"/> <num><hi rend="supraline">ΛΔ</hi></num> βακτηριανῆ: <num><hi rend="supraline">ΛΕ</hi></num> σογδοανῆ: <del rend="erasure" quantity="1" unit="character"/> <num><hi rend="supraline">ΛϚ</hi></num> σάκκων: 
+                    <lb n="3"/><num><hi rend="supraline">ΛΖ</hi></num> σκυθία ἡ ἐντὸς ἠμάου ὁ ὄρους: <num><hi rend="supraline">ΛΗ</hi></num> σκυθία 
+                    <lb n="4"/> ἡ ἐκτὸς ἠμάου ὄρους: <num><hi rend="supraline">ΛΘ</hi></num> σηρικῆ: <num><hi rend="supraline">Μ</hi></num> ἀρεία: 
+                    <lb n="5"/> <num><hi rend="supraline">ΜΑ</hi></num> παροπανισάδαι: <num><hi rend="supraline">ΜΒ</hi></num> δραγγιανῆ <num><hi rend="supraline">ΜΓ</hi></num> ἀραχωσία: 
+                    <lb n="6"/><num><hi rend="supraline">ΜΔ</hi></num> γερδωσία: <num><hi rend="supraline">ΜΕ</hi></num> ἰνδικὴ ἡ ἐντὸς γάγγου τοῦ ποταμοῦ:
+                    <lb n="7"/><num><hi rend="supraline">ΜϚ</hi></num> ἰνδικὴ ἡ ἐκτὸς γάγγου τοῦ ποταμοῦ: <num><hi rend="supraline">ΜΖ</hi></num> σῖναι:
+                    <lb n="8"/><g type="decoration"/><num><hi rend="supraline">ΜΗ</hi></num> ταπροβάνη νῆσος:
+                        <g type="decoration"/>
+                    <lb n="9"/> <hi rend="tall">Ὁ</hi>μοῦ γίνονται εὐρώπης μὲν πίνακες <num><hi rend="supraline">ι</hi></num> ἐπαρχίαι <num><hi rend="supraline">λδ</hi></num> πόλεις
+                        <lb n="10"/> ἐπίσημοι <g type="dot"/><num><hi rend="supraline">ΡΙΗ</hi></num><g type="dot"/> λιβύης δὲ πίνακες μὲν <num><hi  rend="supraline">η</hi></num><g type="dot"/> χῶραι δὲ <num><hi rend="supraline">ιβ</hi></num><g type="dot"/>
+                    <lb n="11"/> πόλεις ἐπίσημοι <g type="dot"/><num><hi rend="supraline">νβ</hi></num><g type="dot"/> ἀσίας δὲ μεγάλης <g type="dot"/> πίνακες <num><hi rend="supraline">ιβ</hi></num><g type="dot"/>
+                    <lb n="12"/> ἐπαρχίαι δὲ <num><hi rend="supraline">μη</hi></num><g type="dot"/> πόλεις ἐπίσημοι <num><hi rend="supraline">ρω</hi></num><g type="dot"/> αἱ πᾶσαι τῆς 
+                    <lb n="13"/> οἰκουμένης χῶραι <num><hi rend="supraline">ϛδ</hi></num><g type="dot"/> πόλεις <g type="dot"/><num><hi rend="supraline">ΤΝ</hi></num><g type="dot"/>
+                </p></div>
+                <div type="textpart" subtype="excerpt" n="urn:cite:excerpta:J:b">
+                   <p>
+                    
+            
+                    <lb n="14"/>ἔθνη δὲ οἰκεῖ τὰ πέρατα· κατὰ ἀπηλιώτην· βακτριανοί· κατ' εὖρον 
+                    <lb n="15"/> ἰνδοί· κατὰ φοίνικα ἐρυθρὰ θάλασσα <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> αἰθιοπία·
+                        <lb n="16"/> κατὰ λευκόνοτον, οἱ ὑπὲρ σύρτην γερμάντες· κατὰ 
+                    <lb n="17"/>λίβα αἰθίοπες <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> δυσμικοὶ ὑπερμαύροι· κατὰ ζέφυ
+                    <lb n="18" break="no"/>ρον· στῆλαι καὶ ἀρχαὶ λιβύης <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan>. κατὰ ἀρ
+                    <lb  n="19" break="no"/> γέστην· ἰβηρία ἡ νυνὶ· σπανία· κατὰ θρασκεῖαν · 
+                    <lb n="20"/> κέλτοι· <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> τὰ ὅμορρα · κατὰ ἀπαρκτίαν· οἱ ὑπὲρ
+                    <lb n="21"/> θράκην σκύθαι· κατὰ βορρᾶν· πόντος· μαιώτης. 
+                    <lb n="22"/> <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> σαρμάται· κατὰ καικίαν· κασπία θάλασσα <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> σάκες: <g
+                        type="line"/>
+                    <g type="separator"/>
+                   </p></div>
+                <div type="textpart" subtype="section" n="urn:cts:greekLit:tlg2934.tlg004:25">
+                    <p>
+                    <title type="section">
+                        <hi rend="tall">Περὶ Παραδείσου</hi>
+                    </title>
+                    <g type="separator"/>
+                </p>
+                </div>
+
+            </div>
+        </body>
+    </text>
+</TEI>

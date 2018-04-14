@@ -1,0 +1,334 @@
+Event string,Formalized reconstruction,Passage (CTS URN),Locus ,Type,Absolute/Relative
+,,,,,
+κατ’ ἀπηλιώτην Βακτριανούς,ADP + ADV (vb. οἰκεῖν) ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:2.7,2.7,position,absolute
+κατ’ εὖρον Ἰνδούς,ADP + ADV (vb. οἰκεῖν) ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:2.7,2.7,position,absolute
+"κατὰ φοίνικα
+Ἐρυθρὰν θάλασσαν καὶ Αἰθιοπίαν",ADP + ADV (vb. οἰκεῖν) ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:2.7,2.7,position,absolute
+"κατὰ νότον τὴν (ὑπὲρ Αἴγυπτον)
+Αἰθιοπίαν",ADP + ADV (vb. οἰκεῖν) ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:2.7 ,2.7,position,absolute
+κατὰ λευκόνοτον τοὺς (ὑπὲρ Σύρτεις) Γαράμαντας,ADP + ADV (vb. οἰκεῖν) ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:2.7 ,2.7,position,absolute
+"κατὰ
+λίβα Αἰθίοπας",ADP + ADV (vb. οἰκεῖν) ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:2.7 ,2.7,position,absolute
+"κατὰ ζέφυρον Στήλας
+καὶ ἀρχὰς Λιβύης καὶ Εὐρώπης",ADP + ADV (vb. οἰκεῖν) ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:2.7 ,2.7,position,absolute
+"κατὰ ἀργέστην Ἰβηρίαν τὴν νῦν
+Ἱσπανίαν",ADP + ADV (vb. οἰκεῖν) ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:2.7 ,2.7,position,absolute
+κατὰ θρασκίαν Κελτοὺς καὶ τὰ ὅμορα,ADP + ADV (vb. οἰκεῖν) ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:2.7 ,2.7,position,absolute
+κατὰ ἀπαρκτίαν τοὺς (ὑπὲρ Θράκην) Σκύθας,ADP + ADV (vb. οἰκεῖν) ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:2.7 ,2.7,position,absolute
+"κατὰ βορρᾶν Πόντον Μαιῶτιν
+Σαρμάτας",ADP + ADV (vb. οἰκεῖν) ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:2.7 ,2.7,position,absolute
+κατὰ καικίαν Κασπίαν θάλασσαν καὶ Σάκας,ADP + ADV (vb. οἰκεῖν) ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:2.7 ,2.7,position,absolute
+τὰ γὰρ ἄνω τῶν ἐκβολῶν τοῦ Τανάιδος εἰς βορρᾶν,ADP εἰς ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,position,absolute
+"τὸ δὲ
+στόμα τοῦ Ἀδρίου ... ἔχει διάπλουν
+σταδίων ψ ἀπὸ ἄκρας Ἰαπυγίας ἐπὶ Κεραύνια ",ADP ἀπό + ADP ἐπί + VB ἔχειν + OBJ + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.8,3.8,distance,absolute
+"τὰ δὲ (κατὰ
+Δειρὴν) στενὰ σταδίων ξ",[VB εἶναι] + GEN.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.14,3.14,distance,absolute
+ἔνθεν ἑξῆς πλοῦς σταδίων ˏϛφ,[VB εἶναι] + GEN.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.14,3.14,distance,absolute
+"τὸ δὲ λοιπὸν
+(οὐ πλεῖται) (παρὰ τὴν Ἐρυθρὰν θάλασσαν) ἕως ὠκεανοῦ σταδίων ˏε",ADP ἕως + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.14,3.14,distance,absolute
+"τὸ
+δὲ (παρὰ τὴν Ἀραβίαν πλευρὰν) ἀπὸ Αἰλανίτου μυχοῦ  σταδίων μυρίων
+ˏδ",ADP ἀπό + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.14,3.14,distance,absolute
+"ἀπὸ Γάγγου ἐπὶ ἐκβολὰς Ἰνδοῦ ποταμοῦ σταδίων
+μυρίων ˏϛ",ADP ἀπό + ADP ἐπί + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.15,4.15,distance,absolute
+"ἀπὸ Ἰνδοῦ ἕως Κασπίων πυλῶν μυρίων πεντακισχιλίων
+τριακοσίων",ADP ἀπό + ADP ἕως + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.15,4.15,distance,absolute
+ἐπὶ τὸν Εὐφράτην σταδίων μυρίων ν,ADP ἐπί + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.15,4.15,distance,absolute
+"εἰς Μυρίανδρον
+σταδίων τοε",ADP εἰς + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.15,4.15,distance,absolute
+"ἀπὸ Μυριάνδρου ἐπὶ Κλεῖδας Κύπρου σταδίων  χιλίων
+τετρακοσίων",ADP ἀπό + ADP ἐπί + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,distance,absolute
+ἐπὶ Ἀκάμαντα τὸ ἀκρωτήριον στάδιοι ˏατ,ADP ἐπί + SBJ (?) ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,distance,absolute
+"ἐπὶ δὲ
+Χελιδονίας (διὰ Παμφυλίου πελάγους) στάδια ˏα↑",ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,distance,absolute
+"εἰς Πάταρα στάδια
+ω",ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,distance,absolute
+εἰς ῾Ρόδον στάδια ψ,ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,distance,absolute
+"εἰς Ἀστυπάλαιαν (διὰ Καρπαθίου) στάδια
+ρμ",ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,distance,absolute
+ἐπὶ Ταίναρον στάδια ˏα↑ν,ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,distance,absolute
+ἐπὶ Πάχυνον Σικελίας στάδια ˏδ,ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,distance,absolute
+"ἐπὶ
+Λιλύβαιον  (διὰ Λιβυκοῦ πελάγους) στάδια ˏαφκ",ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,distance,absolute
+"ἐπὶ δὲ Κάραλιν
+Σαρδοῦς (διὰ Τυρσηνικοῦ πελάγους) στάδια ˏαω",ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,distance,absolute
+ἐπὶ Γάδειρα (ὑπερπλεύσαντι Γυμνησίας  νήσους) στάδια μύρια,ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,distance,absolute
+"ἀπὸ Γαδείρων δὲ (διὰ Ἱεροῦ
+ἀκρωτηρίου καὶ Ἀρτάβρων λιμένος) στάδιοι ˏζ↑λβ",ADP ἀπό + SBJ (?),urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,distance,absolute
+"ἀπὸ Γάγγου ἕως Εὐφράτου
+ποταμοῦ μυριάδων τεσσάρων καὶ χιλίων τν",ADP ἀπό + ADP ἕως + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,distance,absolute
+"ἀπὸ Εὐφράτου εἰς Μάζακα
+Καππαδοκῶν στάδια ˏα↑ν",ADP ἀπό + ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,distance,absolute
+"ἀπὸ δὲ  Μαζάκων (διὰ Φρυγίας τῆς παρορίου
+καὶ μεγάλης καὶ Καρίας) ἕως Ἐφέσου στάδιοι ˏζ↑ϟ",ADP ἀπό + ADP ἕως + SBJ (?),urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,distance,absolute
+"ἀπὸ Γάγγου
+εἰς Ἔφεσον σταδίων μυριάδων τεσσάρων καὶ ˏζσϟ",ADP ἀπό + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,distance,absolute
+"ἀπὸ δὲ
+Ἐφέσου εἰς Δῆλον (διὰ τοῦ Αἰγαίου) στάδια ˏαχ",ADP ἀπό + ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,distance,absolute
+ἐπὶ Ἰσθμὸν στάδια ˏαψ,ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,distance,absolute
+ἀπὸ Ἰσθμοῦ (διὰ Κορινθίου κόλπου) εἰς Πάτρας στάδια ψκ,ADP ἀπό + ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,distance,absolute
+"ἐπὶ Λευκάδα
+στάδια ψ",ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,distance,absolute
+ἐπὶ Κόρκυραν στάδια ψ,ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,distance,absolute
+"ἐπ’ Ἀκροκεραύνια ὄρη στάδια
+χξ",ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,distance,absolute
+ἐπὶ Βρεντέσιον στάδια ψ,ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,distance,absolute
+"ἀπὸ Βρεντεσίου (πεζῇ ὁδεύοντι) ἕως
+ ῾Ρώμης στάδια ˏβωπ",ADP ἀπό + ADP ἕως + ACC.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,distance,absolute
+"ἀπὸ Ῥώμης (ἐπὶ τὰς ῎Αλπεις) ἕως Σκιγγομάγου
+κώμης (ὑπὸ ταῖς Ἄλπεσιν οὔσης) στάδια ˏδρνβ",ADP ἀπό + ADP ἕως + ACC.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,distance,absolute
+ἕως πόλεως ’Ιλλυγύρεως (ὑπό τῇ Πυρήνῃ οὔσης) στάδια ˏγψμδ,ADP ἕως + ACC.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,distance,absolute
+(διὰ Ἰβηρίας) ἕως Γαδείρων στάδια ˏϛχνδ,ADP ἕως + ACC.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,distance,absolute
+ἀπὸ Μερόης εἰς Ἀλεξάνδρειαν  σταδίων μυρίων,ADP ἀπό + ADP εἰς + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+"ἀπὸ δὲ Ἀλεξανδρείας ἐπὶ Τάναϊν
+μυρίων ˏα νϛ",ADP ἀπό + ADP ἐπί + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+ἀπὸ Ἀλεξανδρείας  εἰς Λίνδον Ῥόδου στάδια ˏδφ,ADP ἀπό + ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+ἐπὶ τὸ Θοάντιον (δεξιὸν παραπλέοντι ῾Ρόδον) στάδια υ,ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+"ἐπὶ Τῆλον
+στάδια ρξ",ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+ἐπὶ Λακτῆρα τῆς Κῴας στάδια ρκ,ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+"ἐπὶ Δρέπανον Κῴας
+στάδια ρ",ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+ἐπὶ Ἀρκίτιν νῆσον στάδια σλ,ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+ἐπὶ Κορσίας ρ,ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+"ἐπὶ Σαμίων
+Ἄμπελον στάδια λ",ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+"ἐπὶ τὸ Αἰγαῖον Ἄργεννον (διὰ τοῦ Αἰγαίου)
+στάδια φ",ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+ἐπὶ τὸ Ἐρυθραῖον Κορυναῖον στάδια σο,ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+"ἐπὶ Φλίον ἄκρον
+Χίου στάδια ν",ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+ἐπὶ Μελανέα ἄκρον Λέσβου στάδια υν,ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+"ἐπὶ Σίγριον
+Λέσβου στάδια φ",ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+εἰς Τένεδον νῆσον στάδια υν,ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+εἰς Σίγειον στάδια ρ,ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+ἐπὶ στόμα Πόντου στάδια ˏβφ,ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+ἐπὶ Κάραμβιν στάδια ˏβω,ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+"ἐπὶ στόμα
+Μαιώτιδος στάδια ˏβφ",ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+ἐπὶ Τάναϊν στάδια ˏβσ,ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,distance,absolute
+ἀπὸ Ἀλεξανδρείας εἰς Ῥόδον στάδια ˏδχο,ADP ἀπό + ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.19,4.19,distance,absolute
+"εἰς Κνίδον
+στάδια ψ",ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.19,4.19,distance,absolute
+εἰς Κῶ στάδια σ,ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.19,4.19,distance,absolute
+εἰς Σάμον στάδια ω,ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.19,4.19,distance,absolute
+εἰς Χίον στάδια ψν,ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.19,4.19,distance,absolute
+"εἰς
+Μιτυλήνην στάδια φκ",ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.19,4.19,distance,absolute
+εἰς Τένεδον  ↑ν,ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.19,4.19,distance,absolute
+εἰς Σίγειον ρ,ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.19,4.19,distance,absolute
+"ἐπὶ τὸ στόμα
+Πόντου ˏβφ",ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.19,4.19,distance,absolute
+εἰς Κάραμβιν ˏβω,ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.19,4.19,distance,absolute
+εἰς στόμα Μαιώτιδος ˏβφ,ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.19,4.19,distance,absolute
+"ἐπὶ Τάναϊν
+ποταμὸν ˏβσ",ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.19,4.19,distance,absolute
+"εἰς Σαρδὼ καὶ Κύρνον Ποπουλώνιον τῆς Τυρσηνίας, τὸ δὲ δίαρμα σταδίων ˏασ",ADP εἰς + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,distance,absolute
+δίαρμα δ’ ἔχει ἀπὸ Πελώρου ἄκρου εἰς Ἰταλίαν σταδίων ιβ πορθμῷ,VB ἔχειν + ADP ἀπό + ADP εἰς + GEN.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,distance,absolute
+πλευρὰ νήσου ἀπὸ Πελώρου εἰς Πάχυνον στάδια ˏατξ,ADP ἀπό + ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,distance,absolute
+"ἀπὸ Παχύνου
+εἰς Λιλύβαιον στάδια ˏαχ",ADP ἀπό + ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,distance,absolute
+ἀπὸ Λιλυβαίου εἰς Πελωριάδα στάδια ˏαφ,ADP ἀπό + ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,distance,absolute
+"ἀπὸ Λιλυβαίου διάπλους εἰς Ἀσπίδα τῆς Λιβύης
+ἐγγὺς στάδια ˏαφ",ADP ἀπό + ADP εἰς + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,distance,absolute
+"ἀπὸ Κερκίνης ἐπὶ νῆσον Μήνιγγα τὴν Λωτοφαγῖτιν ὁ
+διάπλους στάδια χ",ADP ἀπό + ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.22,5.22,distance,absolute
+μῆκος δὲ ἀπὸ Μαλέας ἕως Αἰγίου στάδια ˏαυ,ADP ἀπό + ADP ἕως + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.24,5.24,distance,absolute
+ἀπὸ  Ταινάρου ἐπὶ Φυκοῦντα Λιβύης τὸ δίαρμα στάδια ˏγ,ADP ἀπό + ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.24,5.24,distance,absolute
+"ἀπὸ
+Πάφου εἰς Ἀλεξάνδρειαν δίαρμα (βορέου) σταδίων ˏγω",ADP ἀπό + ADP εἰς + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.26,5.26,distance,absolute
+ἔστι δὲ ἡ μεγάλη Σύρτις σταδίων ˏε,VB εἶναι + GEN.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.8,3.8,extent,absolute
+ἡ δὲ μικρὰ σταδίων ˏαχ,[VB εἶναι] + GEN.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.8,3.8,extent,absolute
+"ὁ τῆς Εὐρώπης παράπλους ἀπὸ Τανάιδος ποταμοῦ
+ἐκβολῶν ἕως Ἡρακλείων στηλῶν σταδίων μυριάδων ἓξ καὶ ˏθψθ",ADP ἀπό + SBJ + ADP ἕως + GEN.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.10,3.10,extent,absolute
+"τῆς δὲ Λιβύης ἀπὸ Τιγγὸς ἕως στόματος Κανωβικοῦ σταδίων μυριάδων
+δύο καὶ ˏθσνβ",ADP ἀπό + SBJ + ADP ἕως + GEN.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.10,3.10,extent,absolute
+"τῆς δ’ Ἀσίας ἀπὸ Κανώβου ἕως Τανάιδος ποταμοῦ (μετά
+τῶν κόλπων) ὁ παράπλους σταδίων μυριάδων δ καὶ ρια",ADP ἀπό + SBJ + ADP ἕως + GEN.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.10,3.10,extent,absolute
+"παράλιος
+(σῦν κόλποις) τῆς καθ’ ἡμᾶς οἰκουμένης σταδίων μυριάδων ιγ καὶ, ˏθοβ",[VB εἶναι] + GEN.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.10,3.10,extent,absolute
+"τῆς Μαιώτιδος λίμνης, ἧς περίμετρος  σταδίων ˏθ",[VB εἶναι] + GEN.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.10,3.10,extent,absolute
+τὸ δὲ στόμα ὁ Κιμμέριος Βόσπορος σταδίων κ,[VB εἶναι] + GEN.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.10,3.10,extent,absolute
+"ὁ δὲ Πόντος
+σταδίων ˏγτν",[VB εἶναι] + GEN.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.11,3.11,extent,absolute
+"ὁ δὲ Θράκιος Βόσπορος τὰ στενὰ (ὅπῃ Δαρεῖος ἔζευξεν
+ἐπὶ Σκύθας τὴν σχεδίαν) σταδίων ἕξ",[VB εἶναι] + GEN.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.11,3.11,extent,absolute
+"Ἡ δὲ Περσικὴ θάλασσα
+(κυκλοτερὴς οὖσα συνάγουσα τὸ στόμα ἄκρῳ Καρμανίας καὶ Ἀραβίας)
+περίμετρον ἔχει μυριάδων δύο σταδίων",VB ἔχειν + ACC.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.12,3.12,extent,absolute
+"ἔστι δὲ τὸ (μεταξὺ στόμα
+Ἀραβίας καὶ Καρμανίας) σταδίων υ. 
+",VB εἶναι + GEN.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.12,3.12,extent,absolute
+"Ἡ δὲ Ὑρκανία (ἤτοι
+Κασπία θάλασσα μηνοειδὴς οὖσα, κατὰ δέ τινας καὶ προμήκης,) ἐστὶ
+σταδίων δισμυρίων",VB εἶναι + GEN.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.13,3.13,extent,absolute
+"τοῦ δὲ στόματος ἔχει τὸ δίαρμα
+σταδίους  ˏα.",VB ἔχειν + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.13,3.13,extent,absolute
+"Ὁ δὲ Ἀράβιος κόλπος (στενὸς ὢν καὶ προμήκης)
+ἄρχεται ἀπὸ Ἡρώων πολίτου μυχοῦ (παρὰ τὴν Τρωγλοδυτικὴν) ἕως τῆς
+Πτολεμαΐδος τῆς ἐπὶ θήρας σταδίων ˏθ τὸ μῆκος",VB ἄρχειν + ADP ἀπό + ADP ἕως + GEN.mes. + ACC.resp.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.14,3.14,extent,absolute
+"μεμήκυται ἐπὶ
+σταδίων μυρίων δισχιλίων",VB + GEN.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.14,3.14,extent,absolute
+"Μῆκος δὲ τῆς οἰκουμένης ἀπὸ Γάγγου εἰς τὰ Γάδειρα σταδίων
+ μυριάδων ϛ καὶ ˏηφμε",[VB εἶναι] + ADP ἀπό + ADP εἰς + GEN.mes. + ACC.resp.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.15,4.15,extent,absolute
+"ἀπὸ μὲν Γάγγου ποταμοῦ ἕως
+Μυριάνδρου (τῆς ἐν Ἰσσικῷ κόλπῳ) σταδίων μυριάδων τεσσάρων καὶ
+v χιλίων ψκε",[VB εἶναι] + ADP ἀπό + ADP ἕως + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.15,4.15,extent,absolute
+"ἀπὸ δὲ Μυριάνδρου ἐπὶ Γάδειρα σταδίων δισμυρίων
+ˏϛωκ",[VB εἶναι] + ADP ἀπό + ADP ἐπί + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,extent,absolute
+"ὁ διάπλους ἐπὶ Γάδειρα
+(διὰ τῶν πανδοκίων) στάδια ξ",[VB εἶναι] + ADP ἐπί + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,extent,absolute
+"ἀπὸ Γάγγου εἰς Γάδειρα  σταδίων
+μυριάδες ἑπτὰ καὶ ˏαφξ",[VB εἶναι] + ADP ἀπό + ADP εἰς + ACC.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,extent,absolute
+"Πλάτος δὲ τῆς οἰκουμένης ἀπὸ τῆς
+Αἰθιοπικῆς θαλάσσης ἐπὶ Μερόην σταδίων ˏε",[VB εἶναι] + ADP ἀπό + ADP ἐπί + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,extent,absolute
+"ἀπὸ  Ἀλεξανδρείας ἕως Τανάιδος σταδίων μυρίων
+ˏηχϟ",[VB εἶναι] + ADP ἀπό + ADP ἕως + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,extent,absolute
+"Γάδειρα μῆκος σταδίων ρκ, πλάτος σταδίων ιϛ",[VB εἶναι] + ACC.resp. + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,extent,absolute
+"ὁ δὲ (καθ’ ῾Ηρακλείους
+στήλας) πορθμὸς στενότατός ἐστι σταδίων  π",VB εἶναι + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,extent,absolute
+ἡ μείζων καὶ οἰκουμένη σταδίων τ μῆκος,[VB εἶναι] + GEN.mes. + ACC.resp.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,extent,absolute
+ἡ δὲ ἐλάττων σταδίων ρ,[VB εἶναι] + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,extent,absolute
+"ἡ μείζων
+μῆκος σταδίων ˏασ, πλάτος σταδίων υ",[VB εἶναι] + GEN.mes. + ACC.resp.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,extent,absolute
+ἡ ἐλάττων σταδίων  τ,[VB εἶναι] + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,extent,absolute
+ἡ δὲ Σαρδὼ ἔχει ...τὸ μῆκος ˏβσ,VB ἔχειν + GEN.mes. + ACC.resp.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,extent,absolute
+τῆς Σιλεκίας ... περίμετρος σταδίων ˏδψμ,[VB εἶναι] + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,extent,absolute
+Κέρκινα νῆσος μῆκος σ πλάτος στάδια ο,[VB εἶναι] + GEN.mes. + ACC.resp.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.21,5.21,extent,absolute
+"(ὅπου
+δὲ στενοτάτη) στάδια μ",[VB εἶναι] + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.21,5.21,extent,absolute
+"νῆσος Καρκινῖτις (γεφύρᾳ ζευχθεῖσα) στάδια μῆκος μ,  πλάτος δὲ
+στάδια κε",[VB εἶναι] + ACC.resp. + ACC.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.21,5.21,extent,absolute
+"ἡ δὲ
+ Μῆνιγξ μῆκος σταδίων χ  πλάτος σταδίων ρπ",[VB εἶναι] + GEN.mes. + ACC.resp.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.22,5.22,extent,absolute
+Κεφαλληνία νῆσος τετράπολις μῆκος σταδίων υ,[VB εἶναι] + GEN.mes. + ACC.resp.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.23,5.23,extent,absolute
+"Πελοποννήσου δὲ ὁ περίπλους καὶ τῶν κόλπων
+συμμετρουμένων στάδια ˏεχκζ",[VB εἶναι] + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.24,5.24,extent,absolute
+"(χωρὶς δὲ τοῦ κατακολπίσαι) ὁ περίπλους
+στάδια ˏδ",[VB εἶναι] + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.24,5.24,extent,absolute
+"εἰς  τὸν Κορινθίων ἰσθμὸν πλάτος σταδίων μ ἀπὸ τοῦ Κορινθίου
+κόλπου καὶ Σαρωνικοῦ",ADP ἀπό + ADP εἰς + GEN.mes. + ACC.resp.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.24,5.24,extent,absolute
+"ὁ Κορινθιακὸς
+ἀναχεῖται κόλπος ζ σταδίων",VB ἀναχεῖσθαι + GEN.mes.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.24,5.24,extent,absolute
+"Αἴγινα νῆσος
+προμήκης στάδια ρξ",[VB εἶναι] + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.25,5.25,extent,absolute
+"Σαλαμὶς  μῆκος
+σταδ ο",[VB εἶναι] + ACC.resp. + GEN.mes.(?),urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.25,5.25,extent,absolute
+ἡ Κεία ρκ,[VB εἶναι] + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.25,5.25,extent,absolute
+"(διὸ Μάκρις
+ὠνομάσθη,) μῆκος σταδίων ˏαψ",[VB εἶναι] + ACC.resp. + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.25,5.25,extent,absolute
+περίμετρος δὲ αὐτῆς σταδίων ˏδρ μῆκος ˏβτ,[VB εἶναι] + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.26,5.26,extent,absolute
+"Κύπρος
+...περίπλους στάδια ˏγ(υκ),  μῆκος δὲ ˏατ",[VB εἶναι] + ACC.resp. + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.26,5.26,extent,absolute
+Ῥόδου περίμετρος στάδια ˏατ,[VB εἶναι] + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.26,5.26,extent,absolute
+Κῶ περίμετρος στάδια φν,[VB εἶναι] + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.26,5.26,extent,absolute
+Σάμος στάδια χλ,[VB εἶναι] + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.26,5.26,extent,absolute
+"Ἰκαρία δέ ἐστι μακρὰ τραχεῖα, μῆκος σταδίων τ",VB εἶναι + ACC.resp. + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.26,5.26,extent,absolute
+"Χίου περίμετρος
+στάδια χξ",[VB εἶναι] + ACC.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.26,5.26,extent,absolute
+Λέσβου περίμετρος στάδ ˏαρ,[VB εἶναι] + ACC.mes.(?),urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.26,5.26,extent,absolute
+"ἀπὸ
+Πάφου εἰς Ἀλεξάνδρειαν δίαρμα (βορέου) σταδίων ˏγω",ADP ἀπό + ADP εἰς + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.26,5.26,direction,absolute
+"τὸν
+ἕως Κασπίας ἰσθμόν",ADP ἕως + ATR,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:1.3,1.3,extent,relative
+διαδέχεται τὸ Αἰγαῖον πέλαγος Ἑλλήσποντος,VB διαδέχεσθαι + OBJ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.9,3.9,extent,relative
+"Ἑλλήσποντος λήγων εἰς Ἄβυδον
+καὶ Σηστόν",VB λῆγειν + ADP εἰς + ADV,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.9,3.9,extent,relative
+ἡ Προποντὶς λήγουσα εἰς Χαλκηδόνα καὶ Βυζάντιον,VB λῆγειν + ADP εἰς + ADV,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.9,3.9,extent,relative
+ἔνθα τὰ στενὰ ἀφ’ ὧν ὁ Πόντος ἄρχεται,VB ἄρχειν + ADP ἀπό + ADV,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.9,3.9,extent,relative
+ἀπ’ ἀρχῆς Εὐρώπης καὶ Λιβύης Ἰβηρικὸν,[VB ἄρχειν] + ADP ἀπό + ADV,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.9,3.9,extent,relative
+"Ἰβηρικὸν τὸ ἀπὸ Στηλῶν
+εἰς Πυρήνην τὸ ὄρος",ADP ἀπό + ATR + ADP εἰς + ATR,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.9,3.9,extent,relative
+"Λιγυστικὸν δὲ τὸ ἕως τῶν τῆς Τυρρηνίας
+περάτων",ADP ἕως + ATR,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.9,3.9,extent,relative
+Τυρρηνικὸν δὲ τὸ μέχρι Σικελίας λῆγον,VB λῆγειν + ADP μέχρι + ADV,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.9,3.9,extent,relative
+"ἀρχόμενον ἀπὸ τῶν Λιγυστικῆς
+ἄκρων",VB ἄρχειν + ADP ἀπό + ADV,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.9,3.9,extent,relative
+Ἀδρίαν καὶ τὸν ἀνακεχυμένον ἐκ τοῦ Σικελικοῦ πελάγους,VB ἀναχεύειν + ADP ἐκ + ADV,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.9,3.9,extent,relative
+"τὸ δὲ
+Σουνίῳ καὶ Σκυλλαίῳ περιεχόμενον πέλαγος Σαρωνικόν",VB περιέχεσθαι + OBJ (dat.loc.),urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.9,3.9,extent,relative
+"ἄρχεται ἀπὸ Ἡρώων πολίτου μυχοῦ...ἕως τῆς
+Πτολεμαΐδος ",VB ἄρχειν + ADP ἀπό + ADV + ADP ἕως + ADV,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.14,3.14,extent,relative
+αὐτὴ δὲ ἡ Ἀραβία εἰς τὴν Ἐρυθρὰν καθήκει,VB καθῆκειν + ADP εἰς + ADV,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.14,3.14,extent,relative
+"ἥμισυ τοῦ
+Σαρδοῦς μήκους ἔχει",VB ἔχειν + ACC.resp. + GEN.,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,extent,relative
+"ὁ Ἀργολικὸς
+κόλπος μέχρι Μαλέας ἄκρου",[VB εἶναι] + ADP μέχρι + ADV,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.24,5.24,extent,relative
+"Λακωνικὸς κόλπος ἕως
+Ταινάρου",[VB εἶναι] + ADP ἕως + ADV,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.24,5.24,extent,relative
+"περιορίζει ἐξ εὐωνύμων τὸν Μεσσηνιακόν
+κόλπον",VB περιορίζειν + OBJ (acc.) + ADP ἐξ + ADV (direction),urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.24,5.24,extent,relative
+παρατείνει δὲ Βοιωτίδα Φωκίδα Λοκρούς,VB παρατείνειν + OBJ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.25,5.25,extent,relative
+ἐκ δὲ θατέρου (ἐπί ποσον) καὶ τῇ Ἀττικῇ,[VB παρατείνειν] + OBJ (dat.loc.) + ADP ἐξ + ADV (direction),urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.25,5.25,extent,relative
+"κατὰ
+Πολὺ γὰρ μεμήκυται",VB + ADV,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.26,5.26,extent,relative
+Κύθηρα μέσον Κρήτης καὶ Λακωνικῆς.,[VB εἶναι] + PNOM,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.26,5.26,extent,relative
+τοῖς ἀπ’ Εὐρώπης ἀπιοῦσι,VB + ADP ἀπό,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:1.4,1.4,direction,relative
+πρὸς Λιβύην κάτω,ADP πρός + ADV,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.9,3.9,direction,relative
+παρὰ τὴν Ἀραβίαν πλευρὰν,ADP παρά,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.14,3.14,direction,relative
+διὰ Παμφυλίου πελάγους,ADP δία,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,direction,relative
+διὰ Καρπαθίου,ADP δία,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,direction,relative
+διὰ Λιβυκοῦ πελάγους,ADP δία,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,direction,relative
+διὰ Τυρσηνικοῦ πελάγους,ADP δία,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,direction,relative
+ὑπερπλεύσαντι Γυμνησίας  νήσους,VB + OBJ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,direction,relative
+"διὰ Ἱεροῦ
+ἀκρωτηρίου καὶ Ἀρτάβρων λιμένος",ADP δία,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.16,4.16,direction,relative
+"διὰ Φρυγίας τῆς παρορίου
+καὶ μεγάλης καὶ Καρίας",ADP δία,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,direction,relative
+διὰ τοῦ Αἰγαίου,ADP δία,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,direction,relative
+διὰ Κορινθίου κόλπου,ADP δία,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,direction,relative
+διὰ Κελτικῆς,ADP δία,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,direction,relative
+διὰ Ἰβηρίας,ADP δία,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,direction,relative
+διὰ τῶν πανδοκίων,ADP δία,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,direction,relative
+δεξιὸν παραπλέοντι,VB + ADV,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,direction,relative
+διὰ τοῦ Αἰγαίου,ADP δία,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,direction,relative
+"τὸ δὲ λοιπὸν
+(οὐ πλεῖται) (παρὰ τὴν Ἐρυθρὰν θάλασσαν) ἕως ὠκεανοῦ σταδίων ˏε",ADP ἕως + GEN.mes. ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.14,3.14,direction,relative
+ἰσθμὸν τὸν ἀπὸ Σερβωνίδος λίμνης,ADP ἀπό + ATR ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:1.3,1.3,position,relative
+"τὴν ὑπὲρ Αἴγυπτον
+Αἰθιοπίαν",ADP ὑπέρ + ATR,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:2.7,2.7,position,relative
+τοὺς ὑπὲρ Σύρτεις Γαράμαντας,ADP ὑπέρ + ATR,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:2.7,2.7,position,relative
+Αἰθίοπας δυσμικοὺς ὑπὲρ Μαύρους,ADP ὑπέρ + ATR,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:2.7,2.7,position,relative
+τοὺς ὑπὲρ Θράκην Σκύθας,ADP ὑπέρ + ATR,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:2.7,2.7,position,relative
+εἶτα ἡ Μαιῶτις λίμνη,ADV + VB λῆγειν ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.9,3.9,position,relative
+Σαρδῶον δὲ τὸ ὑπὲρ Σαρδὼ νεῦον,ADP ὑπέρ + ATR,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.9,3.9,position,relative
+ὑπὲρ δὲ τὸ Ἰκάριον ἑξῆς ἀναχεῖται τὸ Αἰγαῖον,ADP ὑπέρ + ADV + VB ἀναχεῖσθαι,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.9,3.9,position,relative
+τὸ μεταξὺ στόμα Ἀραβίας καὶ Καρμανίας,ADP μεταξύ + ATR,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.12,3.12,position,relative
+παρὰ τὴν Τρωγλοδυτικὴν,ADP παρά + ATR ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:3.14,3.14,position,relative
+Μυριάνδρου τῆς ἐν Ἰσσικῷ κόλπῳ,ADP ἐν + ATR,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.15,4.15,position,relative
+"Σκιγγομάγου
+κώμης ὑπὸ ταῖς Ἄλπεσιν οὔσης",ΑDP ὑπό + ATR + VB εἶναι,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,position,relative
+Ιλλυγύρεως ὑπό τῇ Πυρήνῃ οὔσης,ΑDP ὑπό + ATR + VB εἶναι,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.17,4.17,position,relative
+τὰ γὰρ ἄνω τῶν ἐκβολῶν τοῦ Τανάιδος εἰς βορρᾶν,ATR (ἄνω) ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:4.18,4.18,position,relative
+τῶν καθ’ ἡμᾶς νήσων,ADP κατά + ATR,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,position,relative
+"ὁ δὲ καθ’ ῾Ηρακλείους
+στήλας πορθμὸς",ADP κατά + ATR,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,position,relative
+"ἐν δὲ τῷ Ἰβηρικῷ
+πελάγει νῆσοι Πιτυοῦσσαι",ΑDP ἐν + ATR,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,position,relative
+"αἱ δὲ Στοιχάδες αἱ φερώνυμοι ἑξῆς ἐπ’ εὐθείας κεῖνται πρὸ τῶν Μασσαλιακῶν
+πόλεων",ADP ἐπί + ADV; VB κεῖσθαι + ADP πρό + OBJ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,position,relative
+δύο δὲ μικραὶ αὐτῆς ἐγγὺς  Μασσαλίας,ADV ἐγγύς + ATR (vb εἶναι),urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,position,relative
+Κύρνος ἐγγὺς Σαρδοῦς,ADV ἐγγύς + ATR (vb εἶναι),urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,position,relative
+"Ἀσπίδα τῆς Λιβύης
+ἐγγὺς",ADV ἐγγύς + ATR (vb εἶναι),urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.20,5.20,position,relative
+κεῖται τῆς μικρᾶς Σύρτιδος ἐπὶ τῆς ἀρχῆς,VB κεῖσθαι + ADP ἐπί + OBJ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.21,5.21,position,relative
+"τῇ δὲ Κερκίνῃ παράκειται
+νῆσος Καρκινῖτις (γεφύρᾳ ζευχθεῖσα)",VB κεῖσθαι + OBJ (dative locative),urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.21,5.21,position,relative
+ἐν τῷ Ἀδρίᾳ νῆσοι παρὰ τὴν Ἰλλυρίδα,"ADP ἐν + ADV, ADP παρά + ADV + VB εἶναι",urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.23,5.23,position,relative
+"ἔνθα ἐξ εὐωνύμων
+πρόκειται νῆσος  Καλαυρία",ADV + ADP ἐξ + ADV + VB κεῖσθαι,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.24,5.24,position,relative
+πολὺ προπέπτωκεν εἰς πέλαγος,VB προπίπτω + ADP εἰς + ADV,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.24,5.24,position,relative
+ἑξῆς δὲ μετὰ Μαλέαν Λακωνικὸς κόλπος,ADP μετά + ADV,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.24,5.24,position,relative
+ἐκ δεξιῶν Ἀκρίτας ἄκρα,ADP ἐκ + ADV,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.24,5.24,position,relative
+καθ’ ὃν κεῖται Ζάκυνθος,ADP κατά + ADV + vb κεῖσθαι,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.24,5.24,position,relative
+ἄκρον Ἄραξος ἀντιπρόσωπον Ἀκαρνανίᾳ,APOS/ATR + ATR,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.24,5.24,position,relative
+"στόματι κατὰ τὸ ῾Ρίον
+ἄκρον",ADP κατά + ADV + vb συνκλέιω,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.24,5.24,position,relative
+ἐξ ἐναντίας κεῖται τῆς Ἀττικῆς,VB κεῖσθαι + ADP εἰς + OBJ,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.25,5.25,position,relative
+ἐκ δεξιῶν δ’ αἱ Σποράδες,ADP ἐκ + ADV,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.25,5.25,position,relative
+"ἡ δ’ Εὔβοια  (γεφύρᾳ)
+πρὸς τὴν Βοιωτίαν ἔζευκται",ADP πρός + ADV + VB ζεύγνυμι,urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.25,5.25,position,relative
+"ἡ δὲ Κρήτη κατὰ Μαλέαν πλησιάζει
+Πελοποννήσῳ",ADP κατά + ADV + VB πλησιάζει + OBJ (dative locative),urn:cts:greekLit:tlg0090.tlg001.opp-grc6:5.26,5.26,position,relative

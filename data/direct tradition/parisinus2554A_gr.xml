@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  xml:id="parisinus2554A_gr" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+	
+			<titleStmt>
+				<title xml:lang="lat">Geographiae Informatio</title>
+				<author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+					>Agathemerus</author>
+				<author role="transcriptor">Chiara Palladino</author>
+				<sponsor>University of Leipzig</sponsor>
+				<sponsor>Università degli Studi di Bari Aldo Moro</sponsor>
+				<respStmt>
+					<persName xml:id="CP">Chiara Palladino</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="MB">Monica Berti</persName>
+					<resp>Supervisor</resp>
+				</respStmt>
+				<respStmt>
+					<persName xml:id="GC">Gregory Crane</persName>
+					<resp>Supervisor</resp>
+				</respStmt>
+				<respStmt>
+					<persName> Pasquale Massimo Pinto</persName>
+					<resp>Supervisor</resp>
+				</respStmt>
+			</titleStmt>
+	
+			<publicationStmt>
+				<authority>University of Leipzig</authority>
+				<idno type="filename">parisinus2554A_gr.xml</idno>
+				<publisher>tranScriptorium</publisher>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+						under a Creative Commons Attribution-ShareAlike International 4.0
+						License</licence>
+				</availability>
+				<date>2017</date>
+				<publisher>University of Leipzig</publisher>
+				<pubPlace>Germany</pubPlace>
+			</publicationStmt>
+	
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: chiarapalladino1@gmail.com</publisher></bibl>
+				<msDesc>
+			
+					<msIdentifier xml:id="c1" n="urn:cite:agathemerus:tlg0090.tlg001.msc1">
+						<settlement>Paris</settlement>
+						<repository xml:lang="fr">Bibliothèque Nationale</repository>
+						<collection xml:lang="fr">Grec</collection>
+						<idno>Paris. Gr. 2554</idno>
+						<altIdentifier type="müller">
+							<idno>C</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary>Miscellany composed from various antigraphs</summary>
+						<msItem n="1">
+							<locus>ff. 109r-114r</locus>
+							<title xml:lang="grc">Ἀγαθημέρου τοῦ ὄρθωνος ὑποτύπωσις φεωγραφίας</title>
+							<author>Agathemerus</author>
+						</msItem>
+						<msItem n="2">
+							<locus>ff. 114v-118v</locus>
+							<title>Diagnosis de Sphaera intelligenda in Globo</title>
+						</msItem>
+						<msItem n="3">
+							<locus>ff. 118v-130r</locus>
+							<title>Hypotyposis Geographiae</title>
+						</msItem>
+						<msItem n="4">
+							<locus>f. 130</locus>
+							<author>Dionysius Byzantius</author>
+							<title>Anaplous Bospori</title>
+						</msItem>
+				
+					</msContents>
+			
+					<physDesc>
+						<objectDesc>
+							<supportDesc material="parch">
+						
+						
+								<extent>
+									<measure type="composition" unit="leaf" cert="medium">265</measure>
+									<dimensions>
+										<height unit="cm">22,7</height>
+										<width unit="cm">16,5</width>
+								
+									</dimensions>
+							
+								</extent>
+								<collation>
+									<p>
+										Quaternion
+									</p>
+							
+								</collation>
+							</supportDesc>
+					
+						</objectDesc>
+				
+						<handDesc hands="1">
+							<handNote xml:id="Hand_II" scope="major">Section copied by Hand II, <locus>ff. 109r-130v</locus>
+							</handNote>
+					
+						</handDesc>
+					</physDesc>
+			
+					<history>
+				
+						<origin>
+							<origPlace>Venice</origPlace>
+							<origDate>1540 ca.</origDate>
+						</origin>
+				
+						<acquisition/>
+				
+					</history>
+			
+			
+				</msDesc>
+		
+			</sourceDesc>
+		</fileDesc>
+		<xi:include href="file:/Users/Chiara/Dropbox/AGATEMERO/Manuscripts/Glyphs/glyphs.xml"/> 
+		<encodingDesc>
+			<projectDesc>
+				<ab>
+					<title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>
+				</ab>
+			</projectDesc>
+		
+			<p>The following text is encoded in accordance with EpiDoc standards and with the
+				CTS/CITE Architecture.</p>
+	
+			<refsDecl n="CTS">
+				<cRefPattern n="section" matchPattern="(.+).(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+					<p>This pointer pattern extracts chapters and sections</p>
+				</cRefPattern>
+				<cRefPattern n="chapter" matchPattern="(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+					<p>This pointer pattern extracts chapters</p>
+				</cRefPattern>
+			</refsDecl>
+	
+		</encodingDesc>
+
+		<profileDesc>
+			<langUsage>
+				<language ident="grc">Greek</language>
+			</langUsage>
+		</profileDesc>
+
+		<revisionDesc>
+			<change who="CP" when="2017-07-14">Created the XML file</change>
+		</revisionDesc>
+
+	</teiHeader>
+	<facsimile xml:id='facs_3'>
+		<surface ulx='0' uly='0' lrx='3004' lry='4267'>
+			<graphic url='0003_Par. gr. 2554, ff. 109r-159v-3.png' width='3004px' height='4267px'/>
+			<zone points='2294,437 3601,437 3601,2449 2294,2449' rendition='TextRegion' xml:id='facs_3_region_1503739029996_3'>
+				<zone points='2294,753 3509,753 3509,660 2294,660' rendition='Line' xml:id='facs_3_line_1503739109179_8'/>
+				<zone points='2297,851 3543,851 3543,760 2297,760' rendition='Line' xml:id='facs_3_line_1503739116779_9'/>
+				<zone points='2294,922 3543,922 3543,837 2294,837' rendition='Line' xml:id='facs_3_line_1503739125556_10'/>
+				<zone points='2304,1011 3548,1011 3548,907 2304,907' rendition='Line' xml:id='facs_3_line_1503739132668_11'/>
+				<zone points='2336,1084 3536,1084 3536,1003 2336,1003' rendition='Line' xml:id='facs_3_line_1503739139269_12'/>
+				<zone points='2341,1165 3512,1165 3512,1082 2341,1082' rendition='Line' xml:id='facs_3_line_1503739147172_13'/>
+				<zone points='2336,1246 3566,1246 3564,1164 2334,1164' rendition='Line' xml:id='facs_3_line_1503739153061_14'/>
+				<zone points='2341,1327 3489,1327 3489,1238 2341,1238' rendition='Line' xml:id='facs_3_line_1503739160797_15'/>
+				<zone points='2343,1401 3492,1401 3492,1330 2343,1330' rendition='Line' xml:id='facs_3_line_1503739165845_16'/>
+				<zone points='2336,1492 3509,1492 3509,1398 2336,1398' rendition='Line' xml:id='facs_3_line_1503739170266_17'/>
+				<zone points='2321,1560 3521,1560 3521,1472 2321,1472' rendition='Line' xml:id='facs_3_line_1503739176149_18'/>
+				<zone points='2341,1639 3516,1639 3516,1555 2341,1555' rendition='Line' xml:id='facs_3_line_1503739180984_19'/>
+				<zone points='2336,1717 3509,1717 3509,1639 2336,1639' rendition='Line' xml:id='facs_3_line_1503739187241_20'/>
+				<zone points='2333,1796 3531,1796 3531,1715 2333,1715' rendition='Line' xml:id='facs_3_line_1503739193029_21'/>
+				<zone points='2341,1865 3539,1865 3539,1801 2341,1801' rendition='Line' xml:id='facs_3_line_1503739198591_22'/>
+				<zone points='2341,1943 3553,1943 3553,1857 2341,1857' rendition='Line' xml:id='facs_3_line_1503739204005_23'/>
+				<zone points='2329,2029 3561,2029 3561,1942 2329,1942' rendition='Line' xml:id='facs_3_line_1503739208591_24'/>
+				<zone points='2333,2118 3521,2118 3521,2037 2333,2037' rendition='Line' xml:id='facs_3_line_1503739213334_25'/>
+				<zone points='2336,2186 3524,2186 3524,2100 2336,2100' rendition='Line' xml:id='facs_3_line_1503739217943_26'/>
+				<zone points='2321,2395 3568,2395 3568,2196 2321,2196' rendition='Line' xml:id='facs_3_line_1503739226645_27'/>
+			</zone>
+			<zone points='2298,2654 2298,2826 3224,2826 3224,2654' rendition='TextRegion' xml:id='facs_3_region_1503739053368_4'>
+				<zone points='2298,2654 3224,2654 3224,2826 2298,2826' rendition='Line' xml:id='facs_3_line_1503739053841_5'/>
+			</zone>
+			<zone points='2277,1212 2351,1212 2351,647 2277,647' rendition='Graphic' xml:id='facs_3_Graphic_1503739082955_6'/>
+			<zone points='2306,490 3570,490 3570,662 2306,662' rendition='Graphic' xml:id='facs_3_Graphic_1503739094788_7'/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_4'>
+		<surface ulx='0' uly='0' lrx='2932' lry='4267'>
+			<graphic url='0004_Par. gr. 2554, ff. 109r-159v-4.png' width='2932px' height='4267px'/>
+			<zone points='1051,418 2280,418 2280,2342 1051,2342' rendition='TextRegion' xml:id='facs_4_region_1503739808675_28'>
+				<zone points='1123,553 2285,578 2285,501 1123,476' rendition='Line' xml:id='facs_4_line_1503739818091_29'/>
+				<zone points='1126,639 2267,669 2261,583 1128,558' rendition='Line' xml:id='facs_4_line_1503739822245_30'/>
+				<zone points='1120,710 2280,747 2280,675 1120,638' rendition='Line' xml:id='facs_4_line_1503739825494_31'/>
+				<zone points='1120,793 2265,830 2265,749 1120,712' rendition='Line' xml:id='facs_4_line_1503739829036_32'/>
+				<zone points='1105,893 2282,922 2280,854 1100,800' rendition='Line' xml:id='facs_4_line_1503739831916_33'/>
+				<zone points='1119,963 2275,996 2270,921 1122,893' rendition='Line' xml:id='facs_4_line_1503739835084_34'/>
+				<zone points='1119,1053 2266,1074 2266,995 1119,974' rendition='Line' xml:id='facs_4_line_1503739838949_35'/>
+				<zone points='1116,1147 2267,1147 2268,1065 1117,1065' rendition='Line' xml:id='facs_4_line_1503739841886_36'/>
+				<zone points='1107,1216 2257,1218 2257,1151 1107,1149' rendition='Line' xml:id='facs_4_line_1503739844340_37'/>
+				<zone points='1116,1288 2265,1314 2276,1220 1105,1211' rendition='Line' xml:id='facs_4_line_1503739848009_38'/>
+				<zone points='1100,1371 2256,1403 2256,1312 1105,1293' rendition='Line' xml:id='facs_4_line_1503739851619_39'/>
+				<zone points='1116,1456 2256,1472 2261,1372 1116,1372' rendition='Line' xml:id='facs_4_line_1503739855084_40'/>
+				<zone points='1097,1525 2249,1545 2249,1470 1097,1450' rendition='Line' xml:id='facs_4_line_1503739858416_41'/>
+				<zone points='1102,1603 2251,1632 2262,1520 1102,1528' rendition='Line' xml:id='facs_4_line_1503739861576_42'/>
+				<zone points='1087,1691 2267,1712 2254,1614 1087,1614' rendition='Line' xml:id='facs_4_line_1503739865285_43'/>
+				<zone points='1100,1763 2263,1786 2266,1700 1094,1681' rendition='Line' xml:id='facs_4_line_1503739868936_44'/>
+				<zone points='1102,1840 2238,1840 2238,1770 1102,1770' rendition='Line' xml:id='facs_4_line_1503739871576_45'/>
+				<zone points='1086,1924 2252,1924 2252,1838 1086,1838' rendition='Line' xml:id='facs_4_line_1503739874543_46'/>
+				<zone points='1088,1991 2225,2010 2224,1914 1086,1914' rendition='Line' xml:id='facs_4_line_1503739878548_47'/>
+				<zone points='1074,2071 2227,2093 2226,2010 1074,2004' rendition='Line' xml:id='facs_4_line_1503739881561_48'/>
+				<zone points='1081,2159 2240,2175 2242,2094 1083,2078' rendition='Line' xml:id='facs_4_line_1503739884245_49'/>
+				<zone points='1074,2252 2261,2252 2261,2173 1074,2173' rendition='Line' xml:id='facs_4_line_1503739888307_50'/>
+			</zone>
+			<zone points='2312,425 3620,425 3620,2452 2312,2452' rendition='TextRegion' xml:id='facs_4_region_1503739896996_51'>
+				<zone points='2373,600 3610,600 3610,525 2373,525' rendition='Line' xml:id='facs_4_line_1503739902808_52'/>
+				<zone points='2377,693 3555,693 3555,609 2377,609' rendition='Line' xml:id='facs_4_line_1503739907264_53'/>
+				<zone points='2361,772 3541,772 3541,676 2361,676' rendition='Line' xml:id='facs_4_line_1503739910184_54'/>
+				<zone points='2366,849 3517,849 3517,762 2366,762' rendition='Line' xml:id='facs_4_line_1503739914082_55'/>
+				<zone points='2368,930 3524,930 3524,837 2368,837' rendition='Line' xml:id='facs_4_line_1503739916790_56'/>
+				<zone points='2364,998 3546,1009 3541,937 2364,937' rendition='Line' xml:id='facs_4_line_1503739919915_57'/>
+				<zone points='2361,1088 3543,1088 3543,1002 2361,1002' rendition='Line' xml:id='facs_4_line_1503739923413_58'/>
+				<zone points='2368,1177 3599,1177 3599,1102 2360,1065' rendition='Line' xml:id='facs_4_line_1503739927575_59'/>
+				<zone points='2384,1256 3589,1256 3589,1156 2384,1156' rendition='Line' xml:id='facs_4_line_1503739931205_60'/>
+				<zone points='2360,1327 3582,1328 3587,1253 2366,1247' rendition='Line' xml:id='facs_4_line_1503739934235_61'/>
+				<zone points='2371,1404 3546,1404 3546,1323 2371,1323' rendition='Line' xml:id='facs_4_line_1503739939686_62'/>
+				<zone points='2366,1489 3555,1489 3555,1409 2366,1409' rendition='Line' xml:id='facs_4_line_1503739943858_63'/>
+				<zone points='2363,1558 3534,1558 3534,1480 2363,1480' rendition='Line' xml:id='facs_4_line_1503739946762_64'/>
+				<zone points='2363,1644 3545,1644 3545,1568 2363,1568' rendition='Line' xml:id='facs_4_line_1503739951391_65'/>
+				<zone points='2370,1724 3571,1724 3571,1644 2357,1638' rendition='Line' xml:id='facs_4_line_1503739955818_66'/>
+				<zone points='2366,1798 3531,1798 3531,1721 2366,1721' rendition='Line' xml:id='facs_4_line_1503739958950_67'/>
+				<zone points='2366,1868 3529,1868 3529,1789 2366,1789' rendition='Line' xml:id='facs_4_line_1503739962783_68'/>
+				<zone points='2368,1963 3534,1963 3534,1879 2368,1879' rendition='Line' xml:id='facs_4_line_1503739968484_69'/>
+				<zone points='2363,2028 3592,2028 3592,1961 2363,1961' rendition='Line' xml:id='facs_4_line_1503739972009_70'/>
+				<zone points='2373,2112 3566,2128 3564,2047 2371,2037' rendition='Line' xml:id='facs_4_line_1503739975590_71'/>
+				<zone points='2338,2207 3501,2207 3501,2121 2338,2121' rendition='Line' xml:id='facs_4_line_1503739979360_72'/>
+				<zone points='2359,2356 3548,2356 3546,2196 2357,2196' rendition='Line' xml:id='facs_4_line_1503739983409_73'/>
+			</zone>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_5'>
+		<surface ulx='0' uly='0' lrx='2926' lry='4267'>
+			<graphic url='0005_Par. gr. 2554, ff. 109r-159v-5.png' width='2926px' height='4267px'/>
+			<zone points='1100,407 2305,407 2249,2342 1044,2342' rendition='TextRegion' xml:id='facs_5_region_1503740945757_74'>
+				<zone points='1114,564 2286,580 2275,462 1112,462' rendition='Line' xml:id='facs_5_line_1503740980417_76'/>
+				<zone points='1119,639 2277,639 2277,572 1119,572' rendition='Line' xml:id='facs_5_line_1503740983891_77'/>
+				<zone points='1119,721 2272,754 2273,672 1119,643' rendition='Line' xml:id='facs_5_line_1503740986824_78'/>
+				<zone points='1112,805 2279,833 2279,760 1112,732' rendition='Line' xml:id='facs_5_line_1503740989277_79'/>
+				<zone points='1095,898 2275,898 2275,825 1095,825' rendition='Line' xml:id='facs_5_line_1503740992276_80'/>
+				<zone points='1098,967 2268,967 2268,909 1098,909' rendition='Line' xml:id='facs_5_line_1503740994959_81'/>
+				<zone points='1112,1053 2254,1053 2254,979 1112,979' rendition='Line' xml:id='facs_5_line_1503740997846_82'/>
+				<zone points='1121,1133 2261,1133 2261,1070 1121,1070' rendition='Line' xml:id='facs_5_line_1503741001261_83'/>
+				<zone points='1105,1216 2259,1216 2259,1147 1105,1147' rendition='Line' xml:id='facs_5_line_1503741004313_84'/>
+				<zone points='1093,1302 2261,1316 2261,1227 1093,1213' rendition='Line' xml:id='facs_5_line_1503741007345_85'/>
+				<zone points='1100,1393 2256,1393 2256,1307 1100,1307' rendition='Line' xml:id='facs_5_line_1503741010895_86'/>
+				<zone points='1100,1456 2261,1456 2261,1372 1100,1372' rendition='Line' xml:id='facs_5_line_1503741014620_87'/>
+				<zone points='1091,1530 2266,1530 2266,1456 1091,1456' rendition='Line' xml:id='facs_5_line_1503741016816_88'/>
+				<zone points='1091,1605 2249,1618 2252,1540 1091,1528' rendition='Line' xml:id='facs_5_line_1503741020247_89'/>
+				<zone points='1072,1693 2254,1693 2254,1619 1072,1619' rendition='Line' xml:id='facs_5_line_1503741023184_90'/>
+				<zone points='1084,1765 2251,1788 2252,1694 1076,1672' rendition='Line' xml:id='facs_5_line_1503741025698_91'/>
+				<zone points='1086,1838 2256,1849 2252,1764 1086,1764' rendition='Line' xml:id='facs_5_line_1503741028925_92'/>
+				<zone points='1077,1921 2259,1921 2259,1845 1077,1845' rendition='Line' xml:id='facs_5_line_1503741031216_93'/>
+				<zone points='1070,1993 2252,1993 2252,1917 1070,1917' rendition='Line' xml:id='facs_5_line_1503741035776_94'/>
+				<zone points='1074,2088 2240,2088 2240,1980 1074,1980' rendition='Line' xml:id='facs_5_line_1503741038296_95'/>
+				<zone points='1067,2156 2221,2156 2221,2093 1067,2093' rendition='Line' xml:id='facs_5_line_1503741041390_96'/>
+				<zone points='1065,2259 2217,2259 2217,2166 1065,2166' rendition='Line' xml:id='facs_5_line_1503741043811_97'/>
+			</zone>
+			<zone points='2328,418 3678,418 3678,2396 2294,2410' rendition='TextRegion' xml:id='facs_5_region_1503740965817_75'>
+				<zone points='2338,597 3664,597 3664,504 2338,504' rendition='Line' xml:id='facs_5_line_1503741052127_98'/>
+				<zone points='2340,679 3513,679 3513,587 2340,587' rendition='Line' xml:id='facs_5_line_1503741054344_99'/>
+				<zone points='2345,767 3555,767 3555,691 2345,691' rendition='Line' xml:id='facs_5_line_1503741057228_100'/>
+				<zone points='2333,849 3527,849 3527,756 2333,756' rendition='Line' xml:id='facs_5_line_1503741061370_101'/>
+				<zone points='2340,928 3492,928 3492,853 2340,853' rendition='Line' xml:id='facs_5_line_1503741063968_102'/>
+				<zone points='2338,1014 3503,1014 3503,937 2338,937' rendition='Line' xml:id='facs_5_line_1503741066822_103'/>
+				<zone points='2333,1081 3543,1081 3543,991 2333,991' rendition='Line' xml:id='facs_5_line_1503741068996_104'/>
+				<zone points='2352,1151 3550,1151 3550,1072 2352,1072' rendition='Line' xml:id='facs_5_line_1503741071969_105'/>
+				<zone points='2338,1258 3508,1258 3508,1152 2338,1152' rendition='Line' xml:id='facs_5_line_1503741074743_106'/>
+				<zone points='2331,1337 3536,1337 3532,1246 2327,1246' rendition='Line' xml:id='facs_5_line_1503741078594_107'/>
+				<zone points='2352,1411 3518,1411 3518,1319 2352,1319' rendition='Line' xml:id='facs_5_line_1503741080444_108'/>
+				<zone points='2331,1493 3510,1493 3510,1419 2331,1419' rendition='Line' xml:id='facs_5_line_1503741083070_109'/>
+				<zone points='2335,1565 3527,1565 3527,1484 2335,1484' rendition='Line' xml:id='facs_5_line_1503741085644_110'/>
+				<zone points='2342,1633 3545,1633 3547,1557 2333,1553' rendition='Line' xml:id='facs_5_line_1503741088282_111'/>
+				<zone points='2335,1717 3564,1717 3564,1635 2335,1635' rendition='Line' xml:id='facs_5_line_1503741091270_112'/>
+				<zone points='2335,1784 3538,1784 3538,1714 2335,1714' rendition='Line' xml:id='facs_5_line_1503741093953_113'/>
+				<zone points='2338,1861 3529,1861 3529,1776 2338,1776' rendition='Line' xml:id='facs_5_line_1503741096002_114'/>
+				<zone points='2319,1938 3499,1938 3499,1849 2319,1849' rendition='Line' xml:id='facs_5_line_1503741099194_115'/>
+				<zone points='2326,2019 3545,2019 3545,1931 2326,1931' rendition='Line' xml:id='facs_5_line_1503741102025_116'/>
+				<zone points='2324,2107 3506,2107 3506,2017 2324,2017' rendition='Line' xml:id='facs_5_line_1503741105620_117'/>
+				<zone points='2323,2184 3531,2184 3531,2096 2323,2096' rendition='Line' xml:id='facs_5_line_1503741108493_118'/>
+				<zone points='2324,2270 3499,2270 3499,2171 2324,2171' rendition='Line' xml:id='facs_5_line_1503741111831_119'/>
+			</zone>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_6'>
+		<surface ulx='0' uly='0' lrx='2919' lry='4267'>
+			<graphic url='0006_Par. gr. 2554, ff. 109r-159v-6.png' width='2919px' height='4267px'/>
+			<zone points='655,377 2307,377 2256,2331 604,2331' rendition='TextRegion' xml:id='facs_6_region_1503741619811_121'>
+				<zone points='1102,563 2280,563 2280,458 1102,458' rendition='Line' xml:id='facs_6_line_1503741648087_123'/>
+				<zone points='1121,659 2284,659 2284,575 1121,575' rendition='Line' xml:id='facs_6_line_1503741650513_124'/>
+				<zone points='1109,731 2280,740 2280,658 1107,640' rendition='Line' xml:id='facs_6_line_1503741654695_125'/>
+				<zone points='1102,821 2278,829 2278,755 1102,747' rendition='Line' xml:id='facs_6_line_1503741659465_126'/>
+				<zone points='1100,901 2261,901 2261,824 1100,824' rendition='Line' xml:id='facs_6_line_1503741662615_127'/>
+				<zone points='1102,987 2258,996 2254,924 1095,892' rendition='Line' xml:id='facs_6_line_1503741664980_128'/>
+				<zone points='1094,1061 2253,1065 2251,985 1092,981' rendition='Line' xml:id='facs_6_line_1503741666942_129'/>
+				<zone points='665,1215 900,1215 900,1077 665,1077' rendition='Line' xml:id='facs_6_line_1503741644052_122'/>
+				<zone points='1089,1133 2262,1150 2256,1080 1090,1058' rendition='Line' xml:id='facs_6_line_1503741670135_130'/>
+				<zone points='1078,1209 2265,1233 2265,1144 1078,1120' rendition='Line' xml:id='facs_6_line_1503741674538_131'/>
+				<zone points='1090,1298 2257,1334 2257,1239 1090,1203' rendition='Line' xml:id='facs_6_line_1503741676987_132'/>
+				<zone points='1091,1387 2249,1387 2249,1317 1091,1317' rendition='Line' xml:id='facs_6_line_1503741684638_133'/>
+				<zone points='1069,1464 2245,1466 2243,1382 1067,1380' rendition='Line' xml:id='facs_6_line_1503741688333_134'/>
+				<zone points='1086,1540 2263,1570 2264,1457 1086,1449' rendition='Line' xml:id='facs_6_line_1503741693216_135'/>
+				<zone points='1078,1610 2222,1622 2220,1540 1076,1528' rendition='Line' xml:id='facs_6_line_1503741696597_136'/>
+				<zone points='1070,1678 2264,1690 2264,1634 1081,1593' rendition='Line' xml:id='facs_6_line_1503741699865_137'/>
+				<zone points='1086,1764 2242,1764 2242,1694 1086,1694' rendition='Line' xml:id='facs_6_line_1503741702898_138'/>
+				<zone points='1086,1838 2242,1838 2242,1761 1086,1761' rendition='Line' xml:id='facs_6_line_1503741706161_139'/>
+				<zone points='1086,1924 2233,1924 2233,1836 1086,1836' rendition='Line' xml:id='facs_6_line_1503741711035_140'/>
+				<zone points='1086,1994 2219,1994 2219,1914 1086,1914' rendition='Line' xml:id='facs_6_line_1503741714912_141'/>
+				<zone points='1088,2085 2249,2085 2249,2003 1086,1990' rendition='Line' xml:id='facs_6_line_1503741718514_142'/>
+				<zone points='1079,2155 2228,2175 2231,2085 1079,2085' rendition='Line' xml:id='facs_6_line_1503741720914_143'/>
+				<zone points='1077,2248 2221,2248 2221,2159 1077,2159' rendition='Line' xml:id='facs_6_line_1503741723437_144'/>
+			</zone>
+			<zone points='2307,379 3608,379 3608,2348 2307,2348' rendition='TextRegion' xml:id='facs_6_region_1503742221857_145'>
+				<zone points='2352,607 3534,607 3534,484 2352,484' rendition='Line' xml:id='facs_6_line_1503742228878_146'/>
+				<zone points='2356,689 3562,689 3558,594 2352,594' rendition='Line' xml:id='facs_6_line_1503742231787_147'/>
+				<zone points='2350,768 3529,770 3529,686 2350,684' rendition='Line' xml:id='facs_6_line_1503742235150_148'/>
+				<zone points='2349,847 3531,847 3531,766 2349,766' rendition='Line' xml:id='facs_6_line_1503742238267_149'/>
+				<zone points='2352,926 3510,926 3510,842 2352,842' rendition='Line' xml:id='facs_6_line_1503742243081_150'/>
+				<zone points='2347,1008 3508,1008 3508,947 2347,947' rendition='Line' xml:id='facs_6_line_1503742246588_151'/>
+				<zone points='2349,1094 3496,1094 3496,1010 2349,1010' rendition='Line' xml:id='facs_6_line_1503742250130_152'/>
+				<zone points='2356,1173 3541,1173 3541,1075 2356,1075' rendition='Line' xml:id='facs_6_line_1503742253655_153'/>
+				<zone points='2356,1252 3550,1252 3550,1166 2356,1166' rendition='Line' xml:id='facs_6_line_1503742256159_154'/>
+				<zone points='2352,1338 3531,1338 3531,1257 2352,1257' rendition='Line' xml:id='facs_6_line_1503742258791_155'/>
+				<zone points='2359,1415 3557,1415 3557,1343 2359,1343' rendition='Line' xml:id='facs_6_line_1503742260803_156'/>
+				<zone points='2342,1492 3550,1492 3550,1424 2342,1424' rendition='Line' xml:id='facs_6_line_1503742264794_157'/>
+				<zone points='2349,1564 3582,1564 3582,1501 2349,1501' rendition='Line' xml:id='facs_6_line_1503742268161_158'/>
+				<zone points='2342,1645 3499,1645 3499,1575 2342,1575' rendition='Line' xml:id='facs_6_line_1503742270948_159'/>
+				<zone points='2335,1720 3506,1720 3506,1650 2335,1650' rendition='Line' xml:id='facs_6_line_1503742275374_160'/>
+				<zone points='2338,1789 3571,1789 3571,1724 2338,1724' rendition='Line' xml:id='facs_6_line_1503742279884_161'/>
+				<zone points='2349,1861 3534,1878 3530,1780 2345,1780' rendition='Line' xml:id='facs_6_line_1503742282377_162'/>
+				<zone points='2331,1945 3566,1945 3566,1866 2331,1866' rendition='Line' xml:id='facs_6_line_1503742286013_163'/>
+				<zone points='2342,2024 3534,2024 3534,1955 2342,1955' rendition='Line' xml:id='facs_6_line_1503742288902_164'/>
+				<zone points='2347,2113 3545,2113 3545,2041 2347,2041' rendition='Line' xml:id='facs_6_line_1503742291680_165'/>
+				<zone points='2345,2178 3553,2196 3552,2117 2345,2117' rendition='Line' xml:id='facs_6_line_1503742296131_166'/>
+				<zone points='2331,2287 3513,2287 3513,2210 2331,2210' rendition='Line' xml:id='facs_6_line_1503742300708_167'/>
+			</zone>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_7'>
+		<surface ulx='0' uly='0' lrx='2924' lry='4267'>
+			<graphic url='0007_Par. gr. 2554, ff. 109r-159v-7.png' width='2924px' height='4267px'/>
+			<zone points='953,410 2238,410 2238,2343 953,2343' rendition='TextRegion' xml:id='facs_7_region_1503742841051_170'>
+				<zone points='1028,577 2230,608 2224,489 1028,489' rendition='Line' xml:id='facs_7_line_1503742847057_171'/>
+				<zone points='1049,654 2232,674 2228,601 1045,581' rendition='Line' xml:id='facs_7_line_1503742850217_172'/>
+				<zone points='1063,731 2252,768 2252,686 1063,649' rendition='Line' xml:id='facs_7_line_1503742853400_173'/>
+				<zone points='1053,812 2226,831 2226,778 1053,759' rendition='Line' xml:id='facs_7_line_1503742856021_174'/>
+				<zone points='1060,901 2212,901 2212,842 1060,842' rendition='Line' xml:id='facs_7_line_1503742859089_175'/>
+				<zone points='1053,991 2217,1007 2217,925 1053,909' rendition='Line' xml:id='facs_7_line_1503742862453_176'/>
+				<zone points='1053,1075 2201,1083 2199,1003 1051,995' rendition='Line' xml:id='facs_7_line_1503742865947_177'/>
+				<zone points='1046,1131 2212,1151 2212,1085 1046,1065' rendition='Line' xml:id='facs_7_line_1503742867853_178'/>
+				<zone points='1037,1224 2208,1238 2206,1161 1035,1147' rendition='Line' xml:id='facs_7_line_1503742870810_179'/>
+				<zone points='1037,1303 2209,1327 2212,1236 1037,1236' rendition='Line' xml:id='facs_7_line_1503742873078_180'/>
+				<zone points='1030,1387 2174,1415 2174,1334 1030,1306' rendition='Line' xml:id='facs_7_line_1503742876220_181'/>
+				<zone points='1042,1464 2217,1488 2215,1414 1040,1390' rendition='Line' xml:id='facs_7_line_1503742879802_182'/>
+				<zone points='1042,1543 2184,1568 2186,1494 1044,1469' rendition='Line' xml:id='facs_7_line_1503742881781_183'/>
+				<zone points='1035,1617 2193,1635 2193,1572 1035,1539' rendition='Line' xml:id='facs_7_line_1503742884189_184'/>
+				<zone points='1032,1699 2219,1719 2219,1635 1032,1615' rendition='Line' xml:id='facs_7_line_1503742886083_185'/>
+				<zone points='1021,1787 2217,1787 2215,1719 1017,1695' rendition='Line' xml:id='facs_7_line_1503742889608_186'/>
+				<zone points='1023,1854 2219,1867 2219,1798 1023,1785' rendition='Line' xml:id='facs_7_line_1503742891597_187'/>
+				<zone points='1014,1941 2212,1941 2212,1868 1012,1841' rendition='Line' xml:id='facs_7_line_1503742894957_188'/>
+				<zone points='1026,2010 2184,2018 2182,1948 1023,1927' rendition='Line' xml:id='facs_7_line_1503742896637_189'/>
+				<zone points='1033,2085 2194,2099 2189,2017 1033,2017' rendition='Line' xml:id='facs_7_line_1503742898835_190'/>
+				<zone points='1007,2168 2198,2184 2198,2108 1007,2096' rendition='Line' xml:id='facs_7_line_1503742900426_191'/>
+				<zone points='1012,2259 2192,2272 2190,2177 1012,2192' rendition='Line' xml:id='facs_7_line_1503742902284_192'/>
+			</zone>
+			<zone points='2287,421 3983,421 3983,2376 2287,2376' rendition='TextRegion' xml:id='facs_7_region_1503742932947_193'>
+				<zone points='2326,593 3569,593 3569,468 2326,468' rendition='Line' xml:id='facs_7_line_1503742938296_194'/>
+				<zone points='2331,684 3522,652 3522,578 2331,610' rendition='Line' xml:id='facs_7_line_1503742944670_195'/>
+				<zone points='2342,768 3520,749 3520,644 2342,663' rendition='Line' xml:id='facs_7_line_1503742946663_196'/>
+				<zone points='2326,849 3550,849 3550,738 2326,738' rendition='Line' xml:id='facs_7_line_1503742949948_197'/>
+				<zone points='2333,926 3522,926 3522,831 2333,831' rendition='Line' xml:id='facs_7_line_1503742953392_198'/>
+				<zone points='2340,1005 3555,1005 3555,919 2340,919' rendition='Line' xml:id='facs_7_line_1503742956292_199'/>
+				<zone points='2342,1089 3513,1089 3513,1005 2342,1005' rendition='Line' xml:id='facs_7_line_1503742959649_200'/>
+				<zone points='2340,1163 3524,1163 3524,1096 2340,1096' rendition='Line' xml:id='facs_7_line_1503742961577_201'/>
+				<zone points='2340,1243 3548,1243 3548,1177 2340,1177' rendition='Line' xml:id='facs_7_line_1503742964890_202'/>
+				<zone points='2335,1333 3468,1333 3468,1247 2335,1247' rendition='Line' xml:id='facs_7_line_1503742967991_203'/>
+				<zone points='2342,1405 3513,1405 3513,1324 2342,1324' rendition='Line' xml:id='facs_7_line_1503742969978_204'/>
+				<zone points='2333,1489 3520,1489 3520,1394 2333,1394' rendition='Line' xml:id='facs_7_line_1503742973041_205'/>
+				<zone points='2338,1559 3480,1559 3480,1471 2338,1471' rendition='Line' xml:id='facs_7_line_1503742974440_206'/>
+				<zone points='2340,1650 3571,1650 3571,1561 2340,1561' rendition='Line' xml:id='facs_7_line_1503742976317_207'/>
+				<zone points='2333,1717 3552,1717 3552,1629 2333,1629' rendition='Line' xml:id='facs_7_line_1503742977898_208'/>
+				<zone points='2338,1789 3531,1789 3529,1702 2336,1702' rendition='Line' xml:id='facs_7_line_1503742985772_209'/>
+				<zone points='2333,1866 3550,1866 3550,1785 2333,1785' rendition='Line' xml:id='facs_7_line_1503742989512_210'/>
+				<zone points='2333,1934 3520,1934 3520,1871 2333,1871' rendition='Line' xml:id='facs_7_line_1503742994175_211'/>
+				<zone points='2328,2013 3543,2013 3543,1945 2328,1945' rendition='Line' xml:id='facs_7_line_1503742998476_212'/>
+				<zone points='2333,2101 3548,2101 3548,2038 2333,2038' rendition='Line' xml:id='facs_7_line_1503743001276_213'/>
+				<zone points='2333,2180 3495,2184 3492,2090 2333,2090' rendition='Line' xml:id='facs_7_line_1503743002621_214'/>
+				<zone points='2296,2334 3557,2334 3557,2199 2296,2199' rendition='Line' xml:id='facs_7_line_1503743005396_215'/>
+			</zone>
+			<zone points='3676,1922 3850,1922 3850,2050 3676,2050' rendition='Separator' xml:id='facs_7_Separator_1503743020018_216'/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_8'>
+		<surface ulx='0' uly='0' lrx='2919' lry='4267'>
+			<graphic url='0008_Par. gr. 2554, ff. 109r-159v-8.png' width='2919px' height='4267px'/>
+			<zone points='935,417 2242,417 2242,2301 935,2301' rendition='TextRegion' xml:id='facs_8_region_1503744128943_217'>
+				<zone points='991,526 2145,548 2147,456 991,456' rendition='Line' xml:id='facs_8_line_1503744134702_218'/>
+				<zone points='991,624 2228,650 2235,579 986,533' rendition='Line' xml:id='facs_8_line_1503744137985_219'/>
+				<zone points='984,705 2224,741 2228,663 979,622' rendition='Line' xml:id='facs_8_line_1503744142304_220'/>
+				<zone points='986,805 2212,822 2212,757 978,704' rendition='Line' xml:id='facs_8_line_1503744145907_221'/>
+				<zone points='978,873 2210,892 2212,813 973,788' rendition='Line' xml:id='facs_8_line_1503744149362_222'/>
+				<zone points='988,963 2212,988 2208,914 984,876' rendition='Line' xml:id='facs_8_line_1503744152632_223'/>
+				<zone points='984,1049 2221,1069 2221,1012 986,971' rendition='Line' xml:id='facs_8_line_1503744155599_224'/>
+				<zone points='984,1133 2226,1153 2224,1073 984,1073' rendition='Line' xml:id='facs_8_line_1503744158229_225'/>
+				<zone points='977,1212 2217,1226 2217,1149 977,1135' rendition='Line' xml:id='facs_8_line_1503744161726_226'/>
+				<zone points='970,1282 2219,1308 2221,1242 967,1211' rendition='Line' xml:id='facs_8_line_1503744164482_227'/>
+				<zone points='963,1361 2212,1376 2214,1310 960,1287' rendition='Line' xml:id='facs_8_line_1503744167483_228'/>
+				<zone points='953,1445 2214,1471 2219,1401 951,1373' rendition='Line' xml:id='facs_8_line_1503744169964_229'/>
+				<zone points='967,1517 2189,1543 2191,1478 958,1446' rendition='Line' xml:id='facs_8_line_1503744172334_230'/>
+				<zone points='967,1601 2207,1618 2203,1552 963,1525' rendition='Line' xml:id='facs_8_line_1503744178574_231'/>
+				<zone points='970,1675 2206,1689 2203,1619 958,1597' rendition='Line' xml:id='facs_8_line_1503744180804_232'/>
+				<zone points='942,1733 2235,1764 2237,1684 942,1668' rendition='Line' xml:id='facs_8_line_1503744183857_233'/>
+				<zone points='956,1829 2191,1829 2191,1745 956,1745' rendition='Line' xml:id='facs_8_line_1503744186871_234'/>
+				<zone points='960,1903 2189,1918 2189,1830 960,1830' rendition='Line' xml:id='facs_8_line_1503744190107_235'/>
+				<zone points='956,1978 2187,1978 2187,1907 956,1907' rendition='Line' xml:id='facs_8_line_1503744194158_236'/>
+				<zone points='944,2066 2221,2074 2221,1996 944,1988' rendition='Line' xml:id='facs_8_line_1503744198612_237'/>
+				<zone points='939,2150 2191,2150 2191,2085 934,2074' rendition='Line' xml:id='facs_8_line_1503744200815_238'/>
+				<zone points='949,2238 2212,2250 2208,2173 945,2161' rendition='Line' xml:id='facs_8_line_1503744202834_239'/>
+			</zone>
+			<zone points='2264,440 3648,440 3648,1557 2264,1557' rendition='TextRegion' xml:id='facs_8_region_1503744444878_240'>
+				<zone points='2340,654 3517,654 3517,557 2340,557' rendition='Line' xml:id='facs_8_line_1503744473960_242'/>
+				<zone points='2335,741 3510,741 3510,668 2335,668' rendition='Line' xml:id='facs_8_line_1503744477952_243'/>
+				<zone points='2340,824 3496,824 3496,743 2340,743' rendition='Line' xml:id='facs_8_line_1503744481378_244'/>
+				<zone points='2347,903 3534,903 3534,824 2347,824' rendition='Line' xml:id='facs_8_line_1503744484528_245'/>
+				<zone points='2331,990 3506,990 3506,906 2331,906' rendition='Line' xml:id='facs_8_line_1503744487328_246'/>
+				<zone points='2338,1063 3513,1063 3513,992 2338,992' rendition='Line' xml:id='facs_8_line_1503744490668_247'/>
+				<zone points='2347,1143 3509,1160 3501,1080 2347,1080' rendition='Line' xml:id='facs_8_line_1503744492830_248'/>
+				<zone points='2342,1238 3527,1238 3527,1155 2342,1155' rendition='Line' xml:id='facs_8_line_1503744495710_249'/>
+				<zone points='2331,1308 3531,1308 3531,1236 2331,1236' rendition='Line' xml:id='facs_8_line_1503744498041_250'/>
+				<zone points='2335,1383 3534,1383 3534,1301 2335,1301' rendition='Line' xml:id='facs_8_line_1503744500274_251'/>
+				<zone points='2333,1457 3541,1457 3541,1370 2333,1370' rendition='Line' xml:id='facs_8_line_1503744504354_252'/>
+				<zone points='2391,1539 2905,1539 2905,1471 2391,1471' rendition='Line' xml:id='facs_8_line_1503744508450_253'/>
+			</zone>
+		</surface>
+	</facsimile><!-- 
+	<facsimile xml:id='facs_9'>
+		<surface ulx='0' uly='0' lrx='2924' lry='4267'>
+			<graphic url='0009_Par. gr. 2554, ff. 109r-159v-9.png' width='2924px' height='4267px'/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_10'>
+		<surface ulx='0' uly='0' lrx='2917' lry='4267'>
+			<graphic url='0010_Par. gr. 2554, ff. 109r-159v-10.png' width='2917px' height='4267px'/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_11'>
+		<surface ulx='0' uly='0' lrx='2917' lry='4267'>
+			<graphic url='0011_Par. gr. 2554, ff. 109r-159v-11.png' width='2917px' height='4267px'/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_12'>
+		<surface ulx='0' uly='0' lrx='2924' lry='4267'>
+			<graphic url='0012_Par. gr. 2554, ff. 109r-159v-12.png' width='2924px' height='4267px'/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_13'>
+		<surface ulx='0' uly='0' lrx='2919' lry='4267'>
+			<graphic url='0013_Par. gr. 2554, ff. 109r-159v-13.png' width='2919px' height='4267px'/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_14'>
+		<surface ulx='0' uly='0' lrx='2919' lry='4267'>
+			<graphic url='0014_Par. gr. 2554, ff. 109r-159v-14.png' width='2919px' height='4267px'/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_15'>
+		<surface ulx='0' uly='0' lrx='2924' lry='4267'>
+			<graphic url='0015_Par. gr. 2554, ff. 109r-159v-15.png' width='2924px' height='4267px'/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_16'>
+		<surface ulx='0' uly='0' lrx='2919' lry='4267'>
+			<graphic url='0016_Par. gr. 2554, ff. 109r-159v-16.png' width='2919px' height='4267px'/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_17'>
+		<surface ulx='0' uly='0' lrx='2924' lry='4267'>
+			<graphic url='0017_Par. gr. 2554, ff. 109r-159v-17.png' width='2924px' height='4267px'/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_18'>
+		<surface ulx='0' uly='0' lrx='2930' lry='4267'>
+			<graphic url='0018_Par. gr. 2554, ff. 109r-159v-18.png' width='2930px' height='4267px'/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_19'>
+		<surface ulx='0' uly='0' lrx='2917' lry='4267'>
+			<graphic url='0019_Par. gr. 2554, ff. 109r-159v-19.png' width='2917px' height='4267px'/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_20'>
+		<surface ulx='0' uly='0' lrx='2924' lry='4267'>
+			<graphic url='0020_Par. gr. 2554, ff. 109r-159v-20.png' width='2924px' height='4267px'/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_21'>
+		<surface ulx='0' uly='0' lrx='2924' lry='4267'>
+			<graphic url='0021_Par. gr. 2554, ff. 109r-159v-21.png' width='2924px' height='4267px'/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_22'>
+		<surface ulx='0' uly='0' lrx='2919' lry='4267'>
+			<graphic url='0022_Par. gr. 2554, ff. 109r-159v-22.png' width='2919px' height='4267px'/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_23'>
+		<surface ulx='0' uly='0' lrx='2924' lry='4267'>
+			<graphic url='0023_Par. gr. 2554, ff. 109r-159v-23.png' width='2924px' height='4267px'/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_24'>
+		<surface ulx='0' uly='0' lrx='2926' lry='4267'>
+			<graphic url='0024_Par. gr. 2554, ff. 109r-159v-24.png' width='2926px' height='4267px'/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_25'>
+		<surface ulx='0' uly='0' lrx='2917' lry='4267'>
+			<graphic url='0025_Par. gr. 2554, ff. 109r-159v-25.png' width='2917px' height='4267px'/>
+		</surface>
+	</facsimile> -->
+	<text>
+		<body>
+
+			<div type="edition" subtype="transcription" xml:lang="grc" n="urn:cts:greekLit:tlg.0090.tlg001.msc1">
+		    	<pb facs='#facs_3' n='109r'/>
+		    	<head><handShift resp="#Hand_II"/>
+		    		<lb facs='#facs_3_line_1503739109179_8' n='N001'/><expan><abbr>Ἀγαθημ</abbr><am><g ref='#abbr18'/></am><ex>ερ</ex><abbr>ου</abbr></expan> τοῦ ὄρθωνος <expan><abbr>γ</abbr><am><g ref='#abbr34'/></am><ex>εω</ex><abbr>γραφί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan> ὑποτύπωσις :-
+		    	</head>
+		    	<fw type="subscription" facs="#facs_3_line_1503739053841_5">
+		    		a me <expan><abbr>Io</abbr><ex>anne</ex></expan> Francisco Asulano.
+		    	</fw>
+		        <div type="textpart" subtype="chapter" n="1">
+		            <div type="textpart" subtype="section" n="1">
+
+			<p facs='#facs_3_region_1503739029996_3'>
+			    	<lb facs='#facs_3_line_1503739116779_9' n='N002'/>Ἀναξίμανδρος ὁ μιλήσιος ἀκουστὴς θάλεω, πρῶτος ἐτόλμη-
+				<lb facs='#facs_3_line_1503739125556_10' n='N003' break="no"/>σε τὴν οἰκουμένην ἐν πίνακι γράψαι μεθ᾿ ὅν ἑκαταῖος ὁ μιλή-
+				<lb facs='#facs_3_line_1503739132668_11' n='N004' break="no"/>σιος ἀνὴρ πολυπλανὴς διηκρίβωσεν, ὥστε θαυμα<add place='above'>σ</add>θῆναι τὸ
+				<lb facs='#facs_3_line_1503739139269_12' n='N005'/>πρᾶγμα ἑλλάνικος γὰρ ὁ λέσβιον, ἀνὴρ πολυίστωρ, ἀπλάστ<hi rend='superscript'>ως</hi>
+				<lb facs='#facs_3_line_1503739147172_13' n='N006'/>παρέδωκε τὴν ἱστορίαν εἶτ<hi rend='superscript'>α</hi> δαμάστης ὁ κητιὲς τὰ ἐκ τῶν ἑ
+				<lb facs='#facs_3_line_1503739153061_14' n='N007' break="no"/>καταίου μεταγράψας, περίπλοεν ἔγραψεν· <space quantity='2' unit="character"/> ἑξῆς δημόκρι-
+				<lb facs='#facs_3_line_1503739160797_15' n='N008' break="no"/>τος καὶ εὔδοξος καὶ ἄλλοι τινες γῆς περιόδους καὶ περίπλους
+			    <lb facs='#facs_3_line_1503739165845_16' n='N009'/>ἐπραγματεύσα<add place='above'>ν</add>το. <space quantity='4' unit="character"/>
+			</p>
+		            </div>
+		            <div type="textpart" subtype="section" n="2">
+		                <p facs='#facs_3_region_1503739029996_3'>
+		                                <lb facs='#facs_3_line_1503739165845_16' n='N009'/>οἱ μὲν οὖν παλαιοὶ τὴν οἰκουμένην
+				<lb facs='#facs_3_line_1503739170266_17' n='N010'/>ἔγραφον στρογγύλην· μέσην δ᾿ ἡγεῖσθαι τὴν ἑλλάδα καὶ ταύτ<hi rend='superscript'>ης</hi>
+				<lb facs='#facs_3_line_1503739176149_18' n='N011'/>δελφοὺς τὸν ὀμφαλὸν γὰρ ἔχειν, τοῦ γὰρ, πρῶτος δὲ δημόκρι-
+				<lb facs='#facs_3_line_1503739180984_19' n='N012' break="no"/>τος πολύπειρος ἀνὴρ, συνεῖδεν ὅτι προμήκης ἐστὶν ἡ γῆ, ἡ-
+				<lb facs='#facs_3_line_1503739187241_20' n='N013' break="no"/>μιόλιος τὸ μῆκος τοῦ πλάτους ἔχουσ<add place='above'>α</add>. συνῄνεσ<add place='above'>ε</add> τούτω
+				<lb facs='#facs_3_line_1503739193029_21' n='N014'/>καὶ δικαίαρχος ὁ περιπατητικὸς εὔδοξος δὲ τὸ μῆκος διπλ<hi rend='superscript'>οῦν</hi>
+				<lb facs='#facs_3_line_1503739198591_22' n='N015'/>τοῦ πλάτους, ὁ δὲ ἐρατοσθένης πλεῖον τοῦ διπλοῦ· κρά-
+			    <lb facs='#facs_3_line_1503739204005_23' n='N016' break="no"/>της δὲ ὡς ἡμικύ<hi rend='superscript'>κλ</hi>ιον. <space quantity='3' unit="character"/> ἵππαρχος δὲ τοῦ πεζοειδῆ <space quantity='3' unit="character"/> ἄλλοι <expan><am><g ref='#abbr6'/></am><ex>οὐ</ex></expan>-
+				<lb facs='#facs_3_line_1503739208591_24' n='N017' break="no"/>ροειδῆ, ποσειδώνιος δ᾿ ὁ στωϊκὸς σφενδονοειδῆ καὶ μεσόπλα-
+			    <lb facs='#facs_3_line_1503739213334_25' n='N018' break="no"/>τον ἀπὸ νότου εἰς βορρᾶν· <space quantity='3' unit="character"/> στενὴν πρὸς ἕω καὶ δύσιν. τὰ
+			    <lb facs='#facs_3_line_1503739217943_26' n='N019'/>πρὸς εὖρον δ᾿ ὁμοίως <expan><abbr>πλατύτ</abbr><am><g ref='#abbr18'/></am><ex>ερ</ex><abbr>α</abbr></expan> πρὸς τὴν ἰνδικήν·
+		                </p>
+		            </div>
+		      
+		                <div type="textpart" subtype="section" n="3">        <p facs='#facs_3_region_1503739029996_3'>
+		                  
+		                    <lb facs='#facs_3_line_1503739217943_26' n='N019'/>ὄροι
+				<lb facs='#facs_3_line_1503739226645_27' n='N020'/>ἠπείρων, εὐρώπης μὲν <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> λιβύης αἱ ἡρακλέους στῆλαι λι-
+			</p>
+			
+			<pb facs='#facs_4' n='109v' break="no"/>
+			<p facs='#facs_4_region_1503739808675_28'>
+			    <lb facs='#facs_4_line_1503739818091_29' n='N001' break="no"/>βύης δὲ καὶ ἀσίας ὁ νεῖλος· <space quantity='4' unit="character"/> οἱ δὲ ἰσθμὸν τὸν ἀπὸ σαρβω-
+				<lb facs='#facs_4_line_1503739822245_30' n='N002' break="no"/>νίδος τίμνης καὶ ἀραβίου κόλπου ἀσίας δὲ καὶ ἐὐρώπης
+				<lb facs='#facs_4_line_1503739825494_31' n='N003'/>οἱ μὲν ἀρχαῖοι, φᾶσιν ποταμὸν, καὶ τὸν ἕως κασπίας ἰσθμόν
+			    <lb facs='#facs_4_line_1503739829036_32' n='N004'/>οἱ δ᾿ ὕστερον νεώτεροι, μαιῶτιν λίμνην καὶ τάναϊν <expan><am><g ref='#tach5'/></am><ex>ποταμόν</ex></expan>,
+			</p></div>
+		    
+		            <div type="textpart" subtype="section" n="4">
+		                <p facs='#facs_4_region_1503739808675_28'>
+		                <lb facs='#facs_4_line_1503739829036_32' n='N004'/>ἐκ-
+			    <lb facs='#facs_4_line_1503739831916_33' n='N005' break="no"/>λήθησαν δ᾿ ἤπειροι τινες οὖσ<hi rend='superscript'>αι</hi> δι᾿ ἄγνοιαν· <space quantity='4' unit="character"/> ἀσία δ᾿ ἀπὸ <expan><abbr>τ</abbr><am><g ref='#abbr2'/></am><ex>οῦ</ex></expan>
+				<lb facs='#facs_4_line_1503739835084_34' n='N006'/>ἆσσον ἰέναι τοῖς ἀπ᾿ εὐρώπης ἀπιοῦσι καὶ πεζῆ καὶ νήσ<hi rend='superscript'>οις</hi>
+				<lb facs='#facs_4_line_1503739838949_35' n='N007'/>στιχηδὸν κειμέναις, εὔβοια ἄντρος τῆνος μύκονος ἰκαρί<hi rend='superscript'>α</hi>
+				<lb facs='#facs_4_line_1503739841886_36' n='N008'/>σάμος μυκάλη ἡ δὲ εὐρώπη, ἀπὸ τοῦ εὔρου ὠνομάσθη,
+			    <lb facs='#facs_4_line_1503739844340_37' n='N009'/>λιβύη δ᾿ ὑφ᾿ ἑλλήνων ἦν ἄγνωστος πάνυ <space quantity='2' unit="character"/> ἀπὸ δὲ ἔθνους
+				<lb facs='#facs_4_line_1503739848009_38' n='N010'/>ἐπισήμου φοίνικες ὠνομάσθησαν πλέοντες, ὠκεανὸν
+			    <lb facs='#facs_4_line_1503739851619_39' n='N011'/>δὲ διὰ τὸ ὠκέως ἀνύειν κύκλω τὴν γῆν· <space quantity='3' unit="character"/>
+		            </p></div>
+		          
+		            <div type="textpart" subtype="section" n="5">
+		                <p facs='#facs_4_region_1503739808675_28'>
+		              
+		                    <lb facs='#facs_4_line_1503739851619_39' n='N011'/>δικαίαρχος δ᾿ ὁ
+				<lb facs='#facs_4_line_1503739855084_40' n='N012' break="no"/>ρίζει τὴν γῆν, οὐχ ὕδασιν, ἀλλὰ τομῆ εὐθεί<hi rend='superscript'>α</hi> ἀκράτω
+				<lb facs='#facs_4_line_1503739858416_41' n='N013'/>ἀπὸ στηλῶν, διὰ σαρδοῦς, σικελίας πελοποννήσου, ἰω-
+			    <lb facs='#facs_4_line_1503739861576_42' n='N014' break="no"/>νίας, καρίας λυκίας, παμφυλίας· <space quantity='4' unit="character"/> κιλικίας, καὶ <expan><abbr>ταύρ</abbr><am><g ref='#abbr12'/></am><ex>ων</ex></expan>
+				<lb facs='#facs_4_line_1503739865285_43' n='N015'/>ἑξῆς ἕως ἰμάου ὄρους, τῶν τοίνυν τόπων, τὸ μὲν βόρειον,
+				<lb facs='#facs_4_line_1503739868936_44' n='N016'/>τὸ δὲ νότιον ὀνομάζει·
+		                </p></div></div>
+		        <div type="textpart" subtype="chapter" n="2">
+		            <div type="textpart" subtype="section" n="6">
+		                <p facs='#facs_4_region_1503739808675_28'>
+		                  
+		                  
+		                    <lb facs='#facs_4_line_1503739868936_44' n='N016'/> ἄνεμοι δὲ πλέουσιν ἀπὸ μὲν ἰση-
+			    <lb facs='#facs_4_line_1503739871576_45' n='N017' break="no"/>μερινῆς ἀνατολῆς, ἀπηλιώτης. <space quantity='4' unit="character"/> ἀπὸ δὲ ἰσημερινῆς
+				<lb facs='#facs_4_line_1503739874543_46' n='N018'/>δύσεως· ζέφυρος· ἀπό δὲ μεσημβρίας νότος, ἀπὸ δὲ
+				<lb facs='#facs_4_line_1503739878548_47' n='N019'/>ἄρκτου ἀπαρκτίας ἀπὸ δὲ τροπῆς θερινῆς, καικίας
+				<lb facs='#facs_4_line_1503739881561_48' n='N020'/>ἑξῆς δὲ ἀπὸ ἰσημερινῆς ἀνατολῆς, ἀπηλιώτης καὶ
+				<lb facs='#facs_4_line_1503739884245_49' n='N021'/>ἀπὸ χειμερινῆς εὖρος δυσμικοὶ δὲ ἀπὸ μὲν δύσεως χει-
+			    <lb facs='#facs_4_line_1503739888307_50' n='N022' break="no"/>μερινῆς λίψ· <space quantity='3' unit="character"/> καὶ ἑξῆς πάλιν ἀπὸ δύσεως ἰσημερι-
+			</p>
+		            	<pb facs='#facs_4' n='110r' break="no"/>
+			<p facs='#facs_4_region_1503739896996_51'>
+			    <lb facs='#facs_4_line_1503739902808_52' n='N001' break="no"/>νῆς, ζέφυρος· <space quantity='3' unit="character"/> ἀπὸ δὲ δύσεως θερινῆς ἀργέστης ἤτοι ὀλυμ-
+			        <lb facs='#facs_4_line_1503739907264_53' n='N002' break="no"/>πίας εἶτ<hi rend='superscript'>α</hi> νότος καὶ ἀπαρκτίας ἀντιπρέοντες <space quantity='4' unit="character"/> γίνονται οὖν
+			        <lb facs='#facs_4_line_1503739910184_54' n='N003'/>ὀκτώ·
+			</p></div>
+		          
+		            <div type="textpart" subtype="section" n="7">
+		                <p facs='#facs_4_region_1503739896996_51'>
+			    <space quantity='3' unit="character"/> τιμοσθένης δὲ ὁ γράψας τοὺς περίπλους, δώδεκα
+				<lb facs='#facs_4_line_1503739914082_55' n='N004'/>φησι προστιθεὶς μέσ<hi rend='superscript'>ον</hi> ἀπαρκτίου καὶ καικίου βορέαν·
+			        <lb facs='#facs_4_line_1503739916790_56' n='N005'/>εὔρου δὲ καὶ νότου φοίνικα τὸν καὶ εὐρώνοτον·<space quantity='3' unit="character"/> μέσον δὲ
+				<lb facs='#facs_4_line_1503739919915_57' n='N006'/>νότου καὶ λιβὸς, τὸν λευκόνοτον ἤτοι λιβόνοτον, μέσον δὲ
+				<lb facs='#facs_4_line_1503739923413_58' n='N007'/>οὐπαρκτίου καὶ ἀργέστου θρασκίαν· ἤτοι κίρκιον ὑπὸ τῶν
+			    <lb facs='#facs_4_line_1503739927575_59' n='N008'/><expan><abbr>π</abbr><am><g ref='#abbr18'/></am><ex>ερ</ex><abbr>ιοίκων</abbr></expan> ἔθνη δὲ οἰκεῖν τ<hi rend='superscript'>ὰ</hi> πέρατ<hi rend='superscript'>α</hi>, κατ᾿ ἀπηλιώτην βακ-
+				<lb facs='#facs_4_line_1503739931205_60' n='N009' break="no"/>τριανούς, κατ᾿ εὖρον ἰνδούς, κατὰ φοίνικα ἐρυθρὰν θάλα-
+				<lb facs='#facs_4_line_1503739934235_61' n='N010' break="no"/>σσαν καὶ αἰθιοπίαν, κατὰ νότου, τὴν ὑπὲρ αἴγυπτον αἰθιο-
+				<lb facs='#facs_4_line_1503739939686_62' n='N011' break="no"/>πίαν, κατὰ λευκόνοτον, τοὺς ὑπὲρ σύρτεις γαράμαντας
+				<lb facs='#facs_4_line_1503739943858_63' n='N012'/>κατὰ λίβα αἰθίοπας καὶ δυσμικοὺς ὑπερμαύρους, κατὰ
+				<lb facs='#facs_4_line_1503739946762_64' n='N013'/>ζέφυρον, στήλας, καὶ ἀρχὰς λιβύης καὶ εὐρώπης, κατὰ
+			        <lb facs='#facs_4_line_1503739951391_65' n='N014'/>ἀργέστην ἰβηρίαν τὴν νῦν ἰσπανίαν· <space quantity='3' unit="character"/> κατὰ δὲ θρασκίαν τοὺς
+				<lb facs='#facs_4_line_1503739955818_66' n='N015'/>ὑπὲρ θράκην σκύθας κατὰ βορρᾶν, πόντον μαιῶ-
+				<lb facs='#facs_4_line_1503739958950_67' n='N016' break="no"/>τιν σαρμάτας, κατὰ καικίαν, κασπίαν θάλασσαν, καὶ
+				<lb facs='#facs_4_line_1503739962783_68' n='N017'/>σάκας,
+		                </p></div></div>
+		        <div type="textpart" subtype="chapter" n="3">
+		            <div type="textpart" subtype="section" n="8">
+		                <p facs='#facs_4_region_1503739896996_51'>
+		                  
+		                  
+		                    <lb facs='#facs_4_line_1503739962783_68' n='N017'/>ἔστι δὲ ἡ μεγάλη σύρτις σταδίων <hi rend='supraline'>͵ε</hi>, ἡ δὲ μικρὰ
+			    <lb facs='#facs_4_line_1503739968484_69' n='N018'/>σταδίων <hi rend='supraline'>͵αχ</hi> τὸ δὲ στόμα τοῦ ἀδρίου ὃ καλοῦσί τινὲς <expan><abbr>ἰόνι</abbr><am><g ref='#abbr19'/></am><ex>ον</ex></expan>
+			    <lb facs='#facs_4_line_1503739972009_70' n='N019'/>πέλαγος, ἔχει διάπλουν σταδίων <hi rend='supraline'>͵αψ</hi> ἀπὸ ἄκρας <expan><abbr>ἰαπυγί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan>
+				<lb facs='#facs_4_line_1503739975590_71' n='N020'/>ἐπὶ κεραύνια ὄρη τοῦ ἠπείρου·
+		                </p></div>
+		            <div type="textpart" subtype="section" n="9">
+		                <p facs='#facs_4_region_1503739896996_51'>
+		                  
+		                    <lb facs='#facs_4_line_1503739975590_71' n='N020'/>διαδέχεται τὸ αἰγαῖον ἑλ-
+				<lb facs='#facs_4_line_1503739979360_72' n='N021' break="no"/>λήσποντος πῆγον εἰς ἄβυδον καὶ σηστόν, εἶτ<hi rend='supraline'>α</hi> ἡ προπον
+			    <lb facs='#facs_4_line_1503739983409_73' n='N022'/>τὶς λήγει εἰς χαλκηδόνα <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> βυζάντιον, ἔνθα τ<hi rend='superscript'>ὰ</hi> στενὰ ἀφ᾿ ὧν
+			</p>
+			<pb facs='#facs_5' n='110v'/>
+			<p facs='#facs_5_region_1503740945757_74'>
+				<lb facs='#facs_5_line_1503740980417_76' n='N001'/>ὁ πόντος ἄρχεται εἶτ<hi rend='superscript'>α</hi> ἡ μαιῶτις λίμνη· πάλιν δὲ ἀπ᾿ <hi rend='superscript'>ἀ</hi>ρ
+				<lb facs='#facs_5_line_1503740983891_77' n='N002' break="no"/>χῆς εὐρώπης καὶ λιβύης, ἰβηρικὸν τὸ ἀπὸ στηλῶν εἰς
+				<lb facs='#facs_5_line_1503740986824_78' n='N003'/>πυρήνην τὸ ὄρος, λιγυστικὸν δὲ τὸ ἕως τῶν τοῦ τυρρη-
+				<lb facs='#facs_5_line_1503740989277_79' n='N004' break="no"/>νίας περάτων, σαρδῶον δὲ, τὸ ὑπὲρ σαρδῶν νεῦον πρὸς
+				<lb facs='#facs_5_line_1503740992276_80' n='N005'/>λιβύην κάτω τυρηνικόν, δὲ τὸ μέχρι σικελίας ἀρχό-
+				<lb facs='#facs_5_line_1503740994959_81' n='N006' break="no"/>μενον ἀπὸ τῶν λιγυστικῆς ἄκρων εἶτα λιβυκὸν, εἶ
+				<lb facs='#facs_5_line_1503740997846_82' n='N007' break="no"/>τα κρητικὸν καὶ σικελικὸν καὶ ἰόνιον καὶ ἀδρίαν
+				<lb facs='#facs_5_line_1503741001261_83' n='N008'/>τὸν ἀνακεχυμένον ἐκ τοῦ σικελικοῦ πελάγους ὃν
+				<lb facs='#facs_5_line_1503741004313_84' n='N009'/>καλοῦσι κορινθιακὸν κόλπον, ἤτοι ἀλκυονίδα θά-
+				<lb facs='#facs_5_line_1503741007345_85' n='N010' break="no"/>λασσαν, τὸ σουνίω καὶ σκυλλαίω περιεχόμενον πέ-
+			    <lb facs='#facs_5_line_1503741010895_86' n='N011' break="no"/>λαγος, σαρωνικὸν, εἶτ<hi rend='supraline'>α</hi> μυρτῶον καὶ ἰκάριον· <space quantity='3' unit="character"/> ἐν ὧ
+				<lb facs='#facs_5_line_1503741014620_87' n='N012'/>αἱ κυκλάδες, εἶτ<hi rend="superscript">α</hi> καρπάθιον καὶ παμφύλιον, καὶ αἰ-
+				<lb facs='#facs_5_line_1503741016816_88' n='N013' break="no"/>γύπτιον ὑπὲρ δὲ τὸ ἰκάριον ἑξῆς ἀναχεῖται τὸ αἰγαῖ-
+				<lb facs='#facs_5_line_1503741020247_89' n='N014' break="no"/>ον.
+			</p></div>
+		            <div type="textpart" subtype="section" n="10">
+		            <p facs='#facs_5_region_1503740945757_74'>
+			  
+		                <lb facs='#facs_5_line_1503741020247_89' n='N014'/>ἔστι δὲ ὁ τῆς εὐρώπης παράπλους, ἀπὸ τανάιδος
+			    <lb facs='#facs_5_line_1503741023184_90' n='N015'/><expan><am><g ref='#tach7'/></am><ex>ποταμοῦ</ex></expan> ἐκβολῶν, ἕως ἡρακλείων στηλῶν σταδίων μυριάδων
+			    <lb facs='#facs_5_line_1503741025698_91' n='N016'/>ἓξ καὶ ͵<hi rend='supraline'>θψθ</hi>· <space quantity='3' unit="character"/> τῆς δὲ λιβύης ἀπὸ τιγγὸς ἕως <expan><abbr>στόμα<hi rend='superscript'>τ</hi></abbr><am><g ref='#abbr22'/></am><ex>ος</ex></expan>
+				<lb facs='#facs_5_line_1503741028925_92' n='N017'/>κανωβικοῦ, σταδίων μυριάδων δύο καὶ ͵θ<hi rend='supraline'>σνβ</hi>· τῆς
+			    <lb facs='#facs_5_line_1503741031216_93' n='N018'/>δ᾿ ἀσίας ἀπὸ κανώβου ἕως τανάιδος <expan><am><g ref='#tach7'/></am><ex>ποταμοῦ</ex></expan> μετά τῶν κόλ-
+			    <lb facs='#facs_5_line_1503741035776_94' n='N019' break="no"/>πων ὁ παράπλους σταδίων μυριάδων <hi rend='supraline'>δ</hi> καὶ <hi rend="supraline">ρια</hi>· <expan><abbr>ὁμ</abbr><am><g ref='#abbr2'/></am><ex>οῦ</ex></expan>
+				<lb facs='#facs_5_line_1503741038296_95' n='N020'/>παράλιος σῦν κόλποις τ<hi rend='underline'>ῶν</hi><add place='above'>ῆς</add> καθ᾿ ἡμᾶς οἰκουμένης στα-
+				<lb facs='#facs_5_line_1503741041390_96' n='N021' break="no"/>δίων μυριάδων <hi rend='supraline'>ιγ</hi> καὶ, <hi rend='supraline'>͵θοβ</hi> συμμετρουμένης τῆς
+			    <lb facs='#facs_5_line_1503741043811_97' n='N022'/>μαιώτιδος λίμνης <space quantity='4' unit="character"/> ἧς περίμετρος σταδίων <hi rend='supraline'>͵θ</hi>,
+			</p>
+		            	<pb facs='#facs_5' n='111r'/>
+			<p facs='#facs_5_region_1503740965817_75'>
+				<lb facs='#facs_5_line_1503741052127_98' n='N001'/>τὸ δὲ στόμα ἱκιμέριος βόσπορος ο<hi rend='supraline'>κ</hi>·
+			</p></div>
+		          
+		            <div type="textpart" subtype="section" n="11">
+		            <p facs='#facs_5_region_1503740965817_75'>
+		                <lb facs='#facs_5_line_1503741052127_98' n='N001'/>ὁ δὲ πόν-
+				<lb facs='#facs_5_line_1503741054344_99' n='N002' break="no"/>τος σταδίων <hi rend='supraline'>͵γπν</hi> ὁ δὲ θράκιος βόσπορος τὰ στενὰ, ὅπη
+			    <lb facs='#facs_5_line_1503741057228_100' n='N003'/>δαρεῖος ἔζευξεν ἐπὶ σκύθας τὴν σχεδίαν· <space quantity='3' unit="character"/> σταδὶν <hi rend='supraline'>͵ϛ</hi>·
+		            </p></div>
+		            <div type="textpart" subtype="section" n="12">
+		                <p facs='#facs_5_region_1503740965817_75'>
+		              
+		                    <lb facs='#facs_5_line_1503741057228_100' n='N003'/>ἡ-
+			    <lb facs='#facs_5_line_1503741061370_101' n='N004'/>δὲ <expan><abbr>π</abbr><am><g ref='#abbr18'/></am><ex>ερ</ex><abbr>σικὴ</abbr></expan> θάλασσα κυκλοτερὴς οὖσ<hi rend='superscript'>α</hi>. συνάγουσ<hi rend='superscript'>α</hi>, τὸ
+				<lb facs='#facs_5_line_1503741063968_102' n='N005'/>στόμα ἄκρω καρμανίας καὶ ἀραβίας περίμετρον ἔχει
+				<lb facs='#facs_5_line_1503741066822_103' n='N006'/>μυριάδων δύο σταδίων· ἔστι δὲ τὸ μεταξὺ στόμα ἀρα-
+				<lb facs='#facs_5_line_1503741068996_104' n='N007' break="no"/>βίας καὶ καρμανίας, σταδίων <hi rend='supraline'>υ</hi>
+		                  
+		                </p></div>
+		            <div type="textpart" subtype="section" n="13">
+		                <p facs='#facs_5_region_1503740965817_75'>
+		                  
+		                    <lb facs='#facs_5_line_1503741068996_104' n='N007'/>ἡ δὲ ὑρκανί<hi rend='superscript'>α</hi> ἤτοι κα-
+				<lb facs='#facs_5_line_1503741071969_105' n='N008' break="no"/>σπί<hi rend='superscript'>α</hi> θάλασσα, μηνοειδὴς οὖσ<hi rend='superscript'>α</hi> κατὰ δέ τινας καὶ προμή-
+				<lb facs='#facs_5_line_1503741074743_106' n='N009' break="no"/>κης, ἐστὶ σταδίων δισμυρίων δισχιλίων· τοῦ δὲ στόματος
+				<lb facs='#facs_5_line_1503741078594_107' n='N010'/>ἔχει τὸ δίαρμα σταδίους ͵δ.·
+		                </p></div>
+		          
+		            <div type="textpart" subtype="section" n="14">
+		                <p facs='#facs_5_region_1503740965817_75'>
+		                  
+		            <lb facs='#facs_5_line_1503741078594_107' n='N010'/>ὁ δὲ ἀράβιος κόλπος στενὸς
+			    <lb facs='#facs_5_line_1503741080444_108' n='N011'/>ὢν καὶ προμήκης, ἄρχεται ἀπὸ ἡρώων <expan><am><g ref='#tach7'/></am><ex>ποταμοῦ</ex></expan> παρὰ τὴν
+				<lb facs='#facs_5_line_1503741083070_109' n='N012'/>τρωγλοδυτικὴν ἕως τῆς πτολεμαΐδος τῆς ἐπὶ θύρας
+				<lb facs='#facs_5_line_1503741085644_110' n='N013'/>σταδίων <hi rend='supraline'>͵θ</hi> τὸ μῆκος· τὰ δὲ κατὰ διρὴν στενὰ, σταδίων <hi rend='supraline'>ξ</hi>
+			    <lb facs='#facs_5_line_1503741088282_111' n='N014'/>ἔνθεν ἑξῆς πλοῦς σταδίων <space quantity='2' unit="character"/>·<space quantity='2' unit="character"/><hi rend='supraline'>͵ϛ</hi>φ, τὸ δὲ λοιπὸν οὐ πλεῖ-
+				<lb facs='#facs_5_line_1503741091270_112' n='N015' break="no"/>ται παρὰ τὴν ἐρυθρὰν θάλασσαν ἕως ὠκεανοῦ σταδίων <hi rend='supraline'>͵ϛ</hi>.
+				<lb facs='#facs_5_line_1503741093953_113' n='N016'/>τὸ δὲ παρὰ τὴν ἀραβίαν πλευρὰν ἀπὸ αἰλανίτου μυχοῦ
+				<lb facs='#facs_5_line_1503741096002_114' n='N017'/>σταδίων μυρίων <hi rend='supraline'>͵δ</hi>. αὐτὴ δὲ ἡ ἀραβί<hi rend='superscript'>α</hi> εἰς τὴν ἐρυθρὰν
+				<lb facs='#facs_5_line_1503741099194_115' n='N018'/>καθήκει καὶ μεμήκυται ἐπὶ σταδίων μυρίων δισχιλίον
+		                </p></div></div>
+		            <div type="textpart" subtype="chapter" n="4">
+		            <div type="textpart" subtype="section" n="15">
+		                <p facs='#facs_5_region_1503740965817_75'>
+
+			    <lb facs='#facs_5_line_1503741102025_116' n='N019'/>μῆκος δὲ τῆς οἰκουμένης ἀπὸ γάγγου εἰς τὰ γάδειρα <expan><abbr>σταδί</abbr><am><g ref='#abbr12'/></am><ex>ων</ex></expan>
+			    <lb facs='#facs_5_line_1503741105620_117' n='N020'/>μυριάδων <hi rend='supraline'>ϛ</hi> καὶ <hi rend='supraline'>͵ηφμθ</hi> οὕτως ἀπὸ μὲν γάγγου <expan><am><g ref='#tach7'/></am><ex>ποταμοῦ</ex></expan>
+				<lb facs='#facs_5_line_1503741108493_118' n='N021'/>ἕως μυριάνδρου τῆς ἐν ἰσσικῶ κόλω σταδίων μυριά-
+				<lb facs='#facs_5_line_1503741111831_119' n='N022' break="no"/>δων <hi rend='supraline'>δ</hi> καὶ <hi rend='supraline'>͵αψκε</hi> οὕτως ἀπὸ γάγγου, ἐπὶ ἐκβολὰς
+			</p>
+			<pb facs='#facs_6' n='111v'/>
+			<p facs='#facs_6_region_1503741619811_121'>
+			    <lb facs='#facs_6_line_1503741648087_123' n='N001'/>ἰνδοῦ <expan><am><g ref='#tach7'/></am><ex>ποταμοῦ</ex></expan> σταδίων δισμυρίων <hi rend='supraline'>͵ϛ</hi>· <space quantity='3' unit="character"/>ἀπὸ ἰνδοῦ ἕως <expan><abbr>κασπί</abbr><am><g ref='#abbr12'/></am><ex>ων</ex></expan> 
+				<lb facs='#facs_6_line_1503741650513_124' n='N002'/>πυλῶν μυρίων <hi rend='supraline'>͵ετ</hi>. ἐπὶ τὸν εὐφράτην σταδίων μυρίων ρ,
+				<lb facs='#facs_6_line_1503741654695_125' n='N003'/>εἰς μυρίανδρον σταδίων το<hi rend='supraline'>ε</hi>,
+			</p></div>
+		              
+		              
+		                <div type="textpart" subtype="section" n="16">
+		                <p facs='#facs_6_region_1503741619811_121'>
+		                    <lb facs='#facs_6_line_1503741654695_125' n='N003'/>ἀπὸ δὲ μυριάνδρων ἐπὶ γά-
+				<lb facs='#facs_6_line_1503741659465_126' n='N004' break="no"/>δειρα, σταδίων δισμυρίων <hi rend='supraline'>͵ϛωκ</hi>, οὕτως ἀπὸ μυριάνδρου
+				<lb facs='#facs_6_line_1503741662615_127' n='N005'/>ἐπὶ κλεῖδας κύπρου, σταδίων <hi rend='supraline'>͵αυ</hi>, ἐπὶ ἀκάμαντα τὸ
+				<lb facs='#facs_6_line_1503741664980_128' n='N006'/>ἀκρωτήριον, στάδια <hi rend='supraline'>͵γτ</hi>· ἐπὶ δὲ χελιδονίας διὰ παμφυ-
+				<lb facs='#facs_6_line_1503741666942_129' n='N007' break="no"/>λίου πελάγους στάδια <hi rend='supraline'>͵ατ</hi>, εἰς πάταρα στάδια <hi rend='supraline'>ω</hi>· ὡς
+				<lb facs='#facs_6_line_1503741670135_130' n='N009'/>εἰς ῥόδον, στάδια <hi rend='supraline'>ψ</hi>· εἰς ἀστυπάλαιαν διὰ καρπαθίου, στά-
+		                	<lb facs='#facs_6_line_1503741674538_131' n='N010' break="no"/>δια <hi rend='supraline'>ρμ</hi>·<space quantity='3' unit="character"/>ἐπὶ <subst><del rend="underline">ταίρανον</del><add place="margin" facs="#facs_6_line_1503741644052_122">ταίναρον</add></subst> στάδια <hi rend='supraline'>͵αυν</hi>· ἐπὶ πάχυνον σι-
+			    <lb facs='#facs_6_line_1503741676987_132' n='N011' break="no"/>κελίας <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> ͵δ· ἐπὶ λιλύβαιον διὰ λιβυκοῦ πελάγους
+			    <lb facs='#facs_6_line_1503741684638_133' n='N012'/><expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>͵αφκ</hi>· ἐπὶ δὲ κάραλιν σαρδοῦς διὰ τυρσηνικοῦ πε-
+			    <lb facs='#facs_6_line_1503741688333_134' n='N013' break="no"/>λάγους στάδια <hi rend='supraline'>͵βω</hi>· <space quantity='3' unit="character"/>ἐπὶ γάδειρα ὑπερπλεύσαντι γυ-
+			    <lb facs='#facs_6_line_1503741693216_135' n='N014' break="no"/>μν<hi rend='underline'>α</hi><add place='above'>η</add>σίας νήσους <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> μύρια ἀπὸ γαδείρων δὲ διὰ ἱεροῦ
+				<lb facs='#facs_6_line_1503741696597_136' n='N015'/>ἀκρωτηρίου καὶ ἀρτάβρων λιμένος στάδιοι <hi rend='supraline'>͵ζτλβ</hi>
+				<lb facs='#facs_6_line_1503741699865_137' n='N016'/>ὁμοῦ γίνονται μυριάδες <hi rend='supraline'>ζ</hi> καὶ <hi rend='supraline'>͵βυοζ</hi>
+		                  
+		                </p></div>
+		              
+		                <div type="textpart" subtype="section" n="17">
+		                    <p facs='#facs_6_region_1503741619811_121'>
+		                  
+		             
+		                        <lb facs='#facs_6_line_1503741699865_137' n='N016'/>καὶ ἄλλως· ἀπὸ γάγ-
+				<lb facs='#facs_6_line_1503741702898_138' n='N017' break="no"/>γου ἕως εὐφρὰτοῦ ποταμοῦ μυριάδων <hi rend='supraline'>δ</hi> καὶ ͵α<hi rend='supraline'>τν</hi> ἀ-
+				<lb facs='#facs_6_line_1503741706161_139' n='N018' break="no"/>πὸ εὐφράτου εἰς μάζακα καππαδοκῶν σταδίων <hi rend='supraline'>δρν</hi>, ἀ
+				<lb facs='#facs_6_line_1503741711035_140' n='N019' break="no"/>πὸ δὲ μαζάκων διὰ φρυγίας τῆς παρορίας καὶ μεγάλης
+			    <lb facs='#facs_6_line_1503741714912_141' n='N020'/>καρίας, ἕως <expan><abbr>ἐφέσ</abbr><am><g ref='#abbr6'/></am><ex>ου</ex></expan>, στάδιοι <hi rend='supraline'>͵γτϟ</hi>· <space quantity='3' unit="character"/>ὁμοῦ ἀπὸ γάγγο
+				<lb facs='#facs_6_line_1503741718514_142' n='N021'/>εἰς ἔφεσ<hi rend='superscript'>ον</hi> σταδίων μυριάδων <hi rend='supraline'>δ</hi> καὶ <hi rend='supraline'>͵ζσϟ</hi> ἀπὸ δὲ ἐφέ-
+			        <lb facs='#facs_6_line_1503741720914_143' n='N022' break="no"/>σου εἰς δῆλον διὰ τοῦ αἰγαίου, <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>͵αχ</hi>· ἐπὶ ἰσθμὸν
+			    <lb facs='#facs_6_line_1503741723437_144' n='N023'/>στάδια <hi rend='supraline'>͵αψ</hi>·<space quantity="3" unit="character"/>ἀπὸ ἰσθμοῦ διὰ κορινθίου κόλπου εἰς
+		                    </p>
+		                	<pb facs='#facs_6' n='112r'/>
+			<p facs='#facs_6_region_1503742221857_145'>
+				<lb facs='#facs_6_line_1503742228878_146' n='N001'/>πάτρας, σταδίων <hi rend='supraline'>ψη</hi>,καὶ ἐπὶ λευκά<hi rend='superscript'>δα</hi> <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>ψ</hi>· ἐπὶ κόρ
+				<lb facs='#facs_6_line_1503742231787_147' n='N002' break="no"/>κυραν <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>ψ</hi>· ἐπ᾿ ἀκροκεραύνια ὄρη <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>χξ</hi>· ἐπὶ βρε-
+				<lb facs='#facs_6_line_1503742235150_148' n='N003' break="no"/>τήσιον, στάδια <hi rend='supraline'>ψ</hi>· ἀπὸ βρεντεσίου πεζῆ ὁδεύοντι ἕως
+				<lb facs='#facs_6_line_1503742238267_149' n='N004'/>ῥώμης, στάδια <hi rend='supraline'>͵βωπ</hi> ἀπὸ ῥώμης ἐπὶ τὰς ἄλπεις ἕως
+				<lb facs='#facs_6_line_1503742243081_150' n='N005'/>τὸν μαύρον ὑπὸ ταῖς ἄλπεσιν οὔσης, στάδια <hi rend='supraline'>͵δρνβ</hi>
+				<lb facs='#facs_6_line_1503742246588_151' n='N006'/>εἶτ<hi rend='superscript'>α</hi> διὰ κελτικῆς ἕως <expan><abbr>πό<hi rend='superscript'>λ</hi></abbr><am><g ref='#abbr11'/></am><ex>εως</ex></expan> ἱλλυγύρεως, ἕως γαδείρων
+				<lb facs='#facs_6_line_1503742250130_152' n='N007'/>στάδια <hi rend='supraline'>͵βχνα</hi> καὶ ὁ διάπλους ἐπὶ γάδειρα διὰ τῶν
+				<lb facs='#facs_6_line_1503742253655_153' n='N008'/>πανδόκων, <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>ξ</hi> · ὁμοῦ ἀπὸ γάγγου εἰς γάδειρα σταδίων
+				<lb facs='#facs_6_line_1503742256159_154' n='N009'/>μυριάδων <hi rend='supraline'>ζ</hi> καὶ <hi rend='supraline'>͵αφξ</hi>·
+			</p></div>
+		              
+		                <div type="textpart" subtype="section" n="18">
+		              
+		                    <p facs='#facs_6_region_1503742221857_145'>
+		                        <lb facs='#facs_6_line_1503742256159_154' n='N009'/>πλάτος δὲ τῆς οἰκουμένης ἀπὸ
+				<lb facs='#facs_6_line_1503742258791_155' n='N010'/>τῆς αἰθιοπικῆς θαλάσσης ἐπὶ τὴν μερόην σταδίων <hi rend='supraline'>͵ε</hi>
+				<lb facs='#facs_6_line_1503742260803_156' n='N011'/>ἀπὸ μερόης εἰς <expan><abbr>ἀλεξάν<hi rend='superscript'>δρ</hi></abbr><ex>ειαν</ex></expan> σταδίων μυρίων <hi rend='supraline'>͵α</hi> ἀπὸ δὲ ἀλε-
+			    <lb facs='#facs_6_line_1503742264794_157' n='N012' break="no"/>ξανδρείας ἐπὶ τάναϊν μυρίων· <hi rend='supraline'>͵ανϛ</hi> τὰ γὰρ ἄνω <expan><abbr>τ</abbr><am><g ref='#abbr5'/></am><ex>ῶν</ex></expan>
+				<lb facs='#facs_6_line_1503742268161_158' n='N013'/>ἐκβολῶν τοῦ τανάιδος ἀγνοεῖται εἰς βορρᾶν οὕτως· ἀπὸ -
+				<lb facs='#facs_6_line_1503742270948_159' n='N014'/>ἀλεξανδρείας εἰς λίνδον ῥόδου στάδια <hi rend='supraline'>͵δφ</hi> ἐπὶ τὸ
+				<lb facs='#facs_6_line_1503742275374_160' n='N015'/>θοάντιον δεξιὸν παραπλέοντι ῥόδον <del rend='overstrike'>ῥόδου</del> <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>υ</hi>·
+				<lb facs='#facs_6_line_1503742279884_161' n='N016'/>ἐπὶ τῆλον <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>ρξ</hi>· ἐπὶ <del rend='overstrike'>το</del> λακτῆρα τῆς κώας, <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>ρη</hi> ἐ-
+				<lb facs='#facs_6_line_1503742282377_162' n='N017' break="no"/>πὶ δρέπανον κώας στάδια <hi rend='supraline'>ρ</hi>· ἐπὶ ἀρκίτιν νῆσον <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> σ<hi rend='supraline'>λ</hi>
+				<lb facs='#facs_6_line_1503742286013_163' n='N018'/>ἐπὶ κορσίας <hi rend='supraline'>ρ</hi>· ἐπὶ σαμίων ἄμπελον <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>λ</hi>· ἐπὶ τὸ αἰ-
+				<lb facs='#facs_6_line_1503742288902_164' n='N019' break="no"/>γαῖον ἄργεννον διὰ τοῦ αἰγαίου <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>φ</hi>· ἐπὶ τὸ ἐρυθραῖ<hi rend='superscript'>ον</hi>
+				<lb facs='#facs_6_line_1503742291680_165' n='N020'/>κορυναῖον, <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>σο</hi>, ἐπὶ φλίον ἄκρον χίου <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>ν</hi>, ἐ-
+				<lb facs='#facs_6_line_1503742296131_166' n='N021' break="no"/>πὶ μελανέ<hi rend='superscript'>α</hi> ἄκρον λέσβου <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>υν</hi>, ἐπὶ σίγριον λέσ-
+				<lb facs='#facs_6_line_1503742300708_167' n='N022'/>βου <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>φ</hi> εἰς τένεδον νῆσον, <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>υ<add place='overstrike'>ν</add></hi>, εἰς σίγιον <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>ρ</hi>,
+			</p>
+			<pb facs='#facs_7' n='112v'/>
+			<p facs='#facs_7_region_1503742841051_170'>
+				<lb facs='#facs_7_line_1503742847057_171' n='N001'/>ἐπὶ στόμα πόντου, <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>͵βρ</hi>· ἐπὶ κάραμβιν <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>͵βω</hi>· ἐπὶ
+				<lb facs='#facs_7_line_1503742850217_172' n='N002'/>στόμα μαιώτιδος <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>͵βφ</hi>· ἐπὶ τάναϊν <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> ͵β<hi rend='supraline'>σ</hi>·
+			</p></div>
+		                <div type="textpart" subtype="section" n="19">
+		                <p facs='#facs_7_region_1503742841051_170'>
+			  
+		                    <lb facs='#facs_7_line_1503742850217_172' n='N002'/>ἄλλως ἀπὸ
+		                	<lb facs='#facs_7_line_1503742853400_173' n='N003'/><expan><abbr>πό<hi rend='superscript'>λ</hi></abbr><am><g ref='#abbr11'/></am><ex>εως</ex></expan> εἰς πόλιν ἀπὸ <expan><abbr>ἀλεξανδρεί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan> εἰς ῥόδον <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>͵δχο</hi> εἰς κε-
+				<lb facs='#facs_7_line_1503742856021_174' n='N004' break="no"/>νίδον <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>ψ</hi>, εἰς κῶ <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>σ</hi>, εἰς σάμον <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>ω</hi>, εἰς χίον
+				<lb facs='#facs_7_line_1503742859089_175' n='N005'/><expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>ψν</hi>, εἰς μιτυλήνην <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>φκ</hi>· εἰς τένεδον, τ<hi rend='supraline'>ν</hi>, εἰς
+				<lb facs='#facs_7_line_1503742862453_176' n='N006'/>σίγειον <hi rend='supraline'>ρ</hi>· ἐπὶ τὸ στόμα πόντου <hi rend='supraline'>͵βφ</hi>· εἰς κάραμβιν ͵β<hi rend='supraline'>ω</hi>
+			    <lb facs='#facs_7_line_1503742865947_177' n='N007'/>εἰς στόμα μαιώτιδος <hi rend='supraline'>͵αφ</hi> ἐπὶ τάναϊν <expan><am><g ref='#tach5'/></am><ex>ποταμὸν</ex></expan> ͵β<hi rend='supraline'>σ</hi>· ὁμοῦ
+				<lb facs='#facs_7_line_1503742867853_178' n='N008'/>ἀπὸ ἀλεξανδρείας ἕως τανάιδος, σταδίων μυρίων
+				<lb facs='#facs_7_line_1503742870810_179' n='N009'/><hi rend='supraline'>͵ηχϟ</hi>·
+		                </p>
+		                </div>
+		              
+		            </div>
+		        <div type="textpart" subtype="chapter" n="5">
+		            <div type="textpart" subtype="section" n="20">
+		                <p facs='#facs_7_region_1503742841051_170'>
+		                  
+		                    <lb facs='#facs_7_line_1503742870810_179' n='N009'/>λοιπὸν δὲ ἐροῦμεν τῶν καθ᾿ ἡμᾶς νήσων, τὰς πε-
+			    <lb facs='#facs_7_line_1503742873078_180' n='N010' break="no"/>ριμέτρους λαβόντες παρὰ ἀρτεμιδώρου καὶ <expan><abbr>μενίππ</abbr><am><g ref='#abbr6'/></am><ex>ου</ex></expan>
+				<lb facs='#facs_7_line_1503742876220_181' n='N011'/>καὶ ἑτέρων ἀξιοπίστων· γάδειρα μῆκος σταδίων <hi rend='supraline'>ρη</hi>,
+				<lb facs='#facs_7_line_1503742879802_182' n='N012'/>πλάτος σταδίων <hi rend='supraline'>ιϛ</hi>· ὁ δὲ καθ᾿ ἡρακλείους στήλας πορθμὸς
+				<lb facs='#facs_7_line_1503742881781_183' n='N013'/>στενότατος ἐστὶ σταδίων <hi rend='supraline'>π</hi>· ἐν δὲ τῶ ἰβηρικῶ πελάγει
+				<lb facs='#facs_7_line_1503742884189_184' n='N014'/>νῆσ<hi rend='superscript'>οι</hi> πιτυοῦσ<hi rend='superscript'>α</hi> ἡ μείζων καὶ οἰκουμένη, σταδίων τῶ
+			    <lb facs='#facs_7_line_1503742886083_185' n='N015'/>μῆκος· ἡ δὲ ἐλάττων, <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>ρ</hi>· τῶν δὲ γυμνασίων ἃς καρ-
+				<lb facs='#facs_7_line_1503742889608_186' n='N016'/>χηδόνιοι βαλιαρίας καλοῦσιν οἱ γὰρ σβενδονηταὶ οὕ-
+				<lb facs='#facs_7_line_1503742891597_187' n='N017' break="no"/>τω καλοῦνται οἱ βαλιαρεῖς ἡ μείζων μῆκος σταδίων-
+			    <lb facs='#facs_7_line_1503742894957_188' n='N018'/><hi rend='supraline'>͵ασ</hi> πλάτος σταδίων <hi rend='supraline'>υ</hi>· ἡ ἐλάττων <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>τ</hi>· αἱ δὲ
+				<lb facs='#facs_7_line_1503742896637_189' n='N019'/>στοιχάδες αἱ φερώνυμοι ἑξῆς ἐπ᾿ εὐθείας κεῖνται πρὸ
+				<lb facs='#facs_7_line_1503742898835_190' n='N020'/>τῶν μασκαλιακῶν πόλεων αἱ μὲν μείζους τρεῖς δύο
+			    <lb facs='#facs_7_line_1503742900426_191' n='N021'/>δὲ μικραὶ αὐτῆς ἐγγὺς μασσαλίας·<space quantity='3' unit="character"/> ἡ δὲ σαρδῶ ἔχει
+				<lb facs='#facs_7_line_1503742902284_192' n='N022'/>σχῆμα, ὡς πόλος ἰσχνὸος μεσόκοιλος τὸ μῆκος ͵<hi rend='supraline'>β</hi>,
+			</p>
+		            	<pb facs='#facs_7' n='113r'/>
+			<p facs='#facs_7_region_1503742932947_193'>
+				<lb facs='#facs_7_line_1503742938296_194' n='N001'/>κύρνος ἐγγὺς σαρδοῦς, πολλῶ δὲ ἀγε<add place='above'>ν</add>εστέρα ἔλαττον ἢ ἥ-
+			    <lb facs='#facs_7_line_1503742944670_195' n='N002' break="no"/>μισυ τοῦ σαρδοῦς μήκους ἔχει· ἀφετήριον δ᾿ εἰς σαρδὼ <expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan>
+				<lb facs='#facs_7_line_1503742946663_196' n='N003'/>κύρνον ποτουπώνιον τῆς τυρσηνίας τὸ δὲ δίαρμα <expan><abbr>σταδί</abbr><am><g ref='#abbr12'/></am><ex>ων</ex></expan>-
+			    <lb facs='#facs_7_line_1503742949948_197' n='N004'/><hi rend='supraline'>͵βσ</hi>· τῆς σιλεκίας κατὰ τιμοσθένην περίμετρος <expan><abbr>σταδί</abbr><am><g ref='#abbr12'/></am><ex>ων</ex></expan>
+				<lb facs='#facs_7_line_1503742953392_198' n='N005'/><hi rend='supraline'>͵ψμ</hi> σχῆμα τρίγωνον σκαληνοειδές δίαρμα δ᾿ ἔχει ἀ
+				<lb facs='#facs_7_line_1503742956292_199' n='N006' break="no"/>πὸ πελώρου ἄκρου εἰς ἰταλίαν σταδίων <hi rend='supraline'>ια</hi> πορθμῶν πλε-
+				<lb facs='#facs_7_line_1503742959649_200' n='N007' break="no"/>υρὰ νήσου ἀπὸ πελώρου εἰς πάχυνον <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>͵ατξ</hi>· ἀπὸ
+				<lb facs='#facs_7_line_1503742961577_201' n='N008'/>παχύνου εἰς λιλύβαιον <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>͵αχ</hi>, κατὰ τιμοσθένην ἀ
+				<lb facs='#facs_7_line_1503742964890_202' n='N009' break="no"/>πὸ λιλυβαίου εἰς πελωριάδα, <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>͵αφ</hi>· ἀπὸ λιλυ-
+				<lb facs='#facs_7_line_1503742967991_203' n='N010' break="no"/>βαίου διάπλους εἰς ἀσπίδα τῆς λιβύης ἐγγὺς <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>͵αχ</hi>·
+			  
+			</p>
+		            </div>
+		          
+		          
+		            <div type="textpart" subtype="section" n="21">
+			  
+		                <p facs='#facs_7_region_1503742932947_193'>
+				<lb facs='#facs_7_line_1503742969978_204' n='N011'/>κέρκινα νῆσος μῆκος πλάτος <hi rend='supraline'>ο</hi> ὅπου δὲ στενοτάτη
+				<lb facs='#facs_7_line_1503742973041_205' n='N012'/>στάδια <hi rend='supraline'>μ</hi> ὑπέρκειται δὲ πόλεως ἠπειρωτικῆς ἐθρήνης
+			    <lb facs='#facs_7_line_1503742974440_206' n='N013'/>ἣ κεῖται τῆς μικρου σύρτιδος ἐπὶ τῆς ἀρχῆς <space quantity='3' unit="character"/>· τῆ δὲ
+				<lb facs='#facs_7_line_1503742976317_207' n='N014'/>κερκίνη παράκειται νῆσος καρκινῖτις γεφύρα ζευχθεῖ-
+			    <lb facs='#facs_7_line_1503742977898_208' n='N015'/>σ<hi rend='superscript'>α</hi> στάδια μῆκος <hi rend='supraline'>μ</hi>· <space quantity='3' unit="character"/> πλάτος δὲ στάδια <hi rend='supraline'>ε</hi>
+		                </p> </div>
+		          
+		            <div type="textpart" subtype="section" n="22">
+		                  
+		                <p facs='#facs_7_region_1503742932947_193'>
+		                    <lb facs='#facs_7_line_1503742977898_208' n='N015'/>ἀπὸ κερκί-
+				<lb facs='#facs_7_line_1503742985772_209' n='N016' break="no"/>νης ἐπὶ νῆσον μήνιγγα τὴν λωτοφαγῖτιν ὁ διάπλους <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>χ</hi>
+				<lb facs='#facs_7_line_1503742989512_210' n='N017'/>ὅσ<hi rend='superscript'>ον</hi> τῆς μικρου σύρτιδος λέγεται τὸ στόμα· ἡ δὲ μῆνιγξ μῆ-
+				<lb facs='#facs_7_line_1503742994175_211' n='N018' break="no"/>κος, σταδίων <hi rend='supraline'>χ</hi>, πλάτος σταδίων ρ<hi rend='supraline'>π</hi> μεγάλαι δὲ εἰσὶ περὶ
+			    <lb facs='#facs_7_line_1503742998476_212' n='N019'/>αὐτὴν παλίρροιαι: <space quantity='5' unit="character"/>
+		                </p>
+		            </div>
+		            <div type="textpart" subtype="section" n="23">
+		                <p facs='#facs_7_region_1503742932947_193'>
+		                  
+		                    <lb facs='#facs_7_line_1503742998476_212' n='N019'/><note place="margin"><expan><am><g ref="#tach14"/></am><ex>σημείωσαι</ex></expan></note> κεφαλληνι<hi rend='superscript'>α</hi> νῆσος τετράπολις μῆ-
+				<lb facs='#facs_7_line_1503743001276_213' n='N020' break="no"/>κος σταδίων <hi rend='supraline'>α</hi>· εἰσὶ δὲ καὶ ἐν <hi rend='superscript'>τ</hi>ῶ ἀδρία νῆσ<hi rend='superscript'>οι</hi> παρὰ τὴν ἰλ-
+				<lb facs='#facs_7_line_1503743002621_214' n='N021' break="no"/>λυρίδα ὧν ἐπισημότερ<hi rend='superscript'>αι</hi> ἰσση· καὶ ἡ μέλ<add place='above'>αι</add>ενα κόρκυρα
+			    <lb facs='#facs_7_line_1503743005396_215' n='N022'/><expan><am><g ref='#tach1'/></am><ex>καὶ</ex></expan> φάρος καὶ μελίτη ὧν ἀγνοῶ τὰς <expan><abbr>π</abbr><am><g ref='#abbr18'/></am><ex>ερ</ex><abbr>ιμέτρους</abbr></expan>
+		                </p>   </div>
+		          
+		          
+		          
+		            <div type="textpart" subtype="section" n="24">
+		                <p facs='#facs_7_region_1503742932947_193'>
+		                  
+		                  
+		                    <lb facs='#facs_7_line_1503743005396_215' n='N022'/>πελο-
+			</p>
+			<pb facs='#facs_8' n='113v' break="no"/>
+			<p facs='#facs_8_region_1503744128943_217'>
+				<lb facs='#facs_8_line_1503744134702_218' n='N001' break="no"/>ποννήσου δὲ ὁ περίπλους καὶ τῶν κόλπων συμμετρ<hi rend='#abbr6'>ου</hi>–
+				<lb facs='#facs_8_line_1503744137985_219' n='N002' break="no"/>μένων στάδια <hi rend='supraline'>͵εχκζ</hi>· χωρὶς δὲ τοῦ κατακολπίσαι ὁ περίπλ<hi rend='superscript'>ους</hi>
+			    <lb facs='#facs_8_line_1503744142304_220' n='N003'/><expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>͵δ</hi>· <space quantity='3' unit="character"/>μῆκος δὲ ἀπὸ μαλέας ἕως αἰγαίου, <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>͵αν</hi>· ἔχει δὲ
+			    <lb facs='#facs_8_line_1503744145907_221' n='N004'/>ὅμοιον σχῆμα φύλλω πλατάνου κόλποις μεγάλοις <expan><abbr>τεμνο</abbr><am><g ref='#tach12'/></am><ex>μέν</ex><abbr><hi rend='superscript'>η</hi></abbr></expan>
+			    <lb facs='#facs_8_line_1503744149362_222' n='N005'/>συνάγεται μὲν εἰς <expan><abbr>τ</abbr><am><g ref='#abbr13'/></am><ex>ὸν</ex></expan> κορινθίων ἰσθμὸν, πλάτος σταδίων <hi rend='supraline'>μ</hi> ἀ
+				<lb facs='#facs_8_line_1503744152632_223' n='N006' break="no"/>πὸ τοῦ κορινθίου κόλπου καὶ σαρωνικοῦ ἐπὶ τὸ σκύλλαιον ἄ-
+				<lb facs='#facs_8_line_1503744155599_224' n='N007' break="no"/>κρον ἐξ εὐωνύμων ἔνθα πρόκειται νῆσος καρία ποσειδῶνος
+				<lb facs='#facs_8_line_1503744158229_225' n='N008'/>ἱερά· ἑξῆς δ᾿ ὁ ἀργολικὸς κόλπος μέχρι μαλέας ἄκρου ὃ πολὺ
+				<lb facs='#facs_8_line_1503744161726_226' n='N009'/>προπέπτωκεν εἰς πέλαγος· εἶτ<hi rend='superscript'>α</hi> ὁ ἑρμιονικὸς κόλπος ἑξῆς
+				<lb facs='#facs_8_line_1503744164482_227' n='N010'/>δὲ μετὰ μαλέαν λακωνικὸς κόλπος ἕως ταινάρου ἐκ δεξιὼν,
+			    <lb facs='#facs_8_line_1503744167483_228' n='N011'/>ὃ <expan><abbr>π</abbr><am><g ref='#abbr18'/></am><ex>ερ</ex><abbr>ιορίζει</abbr></expan> ἐξ ἐυωνύμων, τὸν μεσηνιακὸν κόλπον, οὗ ἐκ δε-
+				<lb facs='#facs_8_line_1503744169964_229' n='N012' break="no"/>ξιῶν, ἀκρίτας ἄκρα· εἶτα προπέπτωκεν ἄκρον ἰχθὺς καθ᾿ ὃν
+				<lb facs='#facs_8_line_1503744172334_230' n='N013'/>κεῖται ζάκυνθος, καὶ ἕτερον ὁ χελωνάτας τελευταῖον δ᾿ ἄ-
+				<lb facs='#facs_8_line_1503744178574_231' n='N014' break="no"/>κρον ἄρραξος, ἀντιπρόσωπον ἀκαρνανί<hi rend='superscript'>α</hi>· μεθ᾿ ὃν ὁ κοριν-
+				<lb facs='#facs_8_line_1503744180804_232' n='N015' break="no"/>θιακὸς ἀναχεῖται κόλπος <hi rend='supraline'>ζ</hi> σταδίων συγκλειόμενος στόματι
+			    <lb facs='#facs_8_line_1503744183857_233' n='N016'/><expan><am><g ref='#tach6'/></am><ex>κατὰ</ex></expan> τὸ ῥίον ἄκρον ὅ ἐστι τῆς πελοποννήσου τὸ δ᾿ <expan><abbr>ἀντίρρι</abbr><am><g ref='#abbr19'/></am><ex>ον</ex></expan>
+				<lb facs='#facs_8_line_1503744186871_234' n='N017'/>λοκρίδος ἀπὸ ταινάρου ἐπὶ φυκοῦντ<hi rend='superscript'>α</hi> λιβύης, τὸ δίαρμα
+				<lb facs='#facs_8_line_1503744190107_235' n='N018'/>στάδια ͵γ·
+			</p></div>
+		            <div type="textpart" subtype="section" n="25">
+		          
+		                <p facs='#facs_8_region_1503744128943_217'>
+		                	<lb facs='#facs_8_line_1503744190107_235' n='N018'/>αἴγινα νῆσος προμήκης <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>ρξ</hi>, ἐξ <expan><abbr>ἐναντί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan>
+			    <lb facs='#facs_8_line_1503744194158_236' n='N019'/>κεῖται τῆς ἀττικῆς· σαλαμὶς μῆκος <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>ο</hi> ἡ κεία, <hi rend='supraline'>ρκ</hi>. τῶν
+				<lb facs='#facs_8_line_1503744198612_237' n='N020'/>δὲ κυκλάδων, κρατίστη ἐστὶν ἡ νάξος· διὸ μικρὰ λέγεται σικε-
+				<lb facs='#facs_8_line_1503744200815_238' n='N021'/>λί<hi rend='superscript'>α</hi>· ἐκ δεξιῶν δ᾿ αἱ σποράδες. ἡ δ᾿ εὔβοια γεφύρα πρὸς τὴν
+				<lb facs='#facs_8_line_1503744202834_239' n='N022'/>βοιωτίαν ἔζευκται παρατείνει δὲ βοιωτίδα· φωκίδα λο-
+			</p>
+		            	<pb facs='#facs_8' n='114r'/>
+			<p facs='#facs_8_region_1503744444878_240'>
+				<lb facs='#facs_8_line_1503744473960_242' n='N001' break="no"/>κρούς, ἐκ δὲ θατέρου <add place='above'>ἐ</add>πί ποσὶν καὶ τῇ ἀττικῆ, ἔστι γὰρ μακρά
+			    <lb facs='#facs_8_line_1503744477952_243' n='N002'/>διὸ μάκρις ὠνομάσθη, μῆκος σταδίων <hi rend='supraline'>͵αψ</hi>·
+			  
+			</p>
+		            </div>
+		          
+		          
+		          
+		            <div type="textpart" subtype="section" n="26">
+		                <p facs='#facs_8_region_1503744444878_240'>
+			  
+		                    <lb facs='#facs_8_line_1503744477952_243' n='N002'/>ἡ δὲ κρήτη <expan><am><g ref='#tach6'/></am><ex>κατὰ</ex></expan>
+			    <lb facs='#facs_8_line_1503744481378_244' n='N003'/>μαλέαν πλησιάζει πελοποννήσω <space quantity='3' unit="character"/>περίμετρον δὲ αὐτῆς
+				<lb facs='#facs_8_line_1503744484528_245' n='N004'/>σταδίων <hi rend='supraline'>͵δρ</hi> μῆκος <hi rend='supraline'>͵βτ</hi>, κατ<hi rend='superscript'>ὰ</hi> πολὺ γὰρ μεμήκενται. κύ-
+				<lb facs='#facs_8_line_1503744487328_246' n='N005' break="no"/>θηρα, μέσ<hi rend='superscript'>ον</hi> κρήτας καὶ λακωνικῆς. κύπρος, βύρση τὸ
+				<lb facs='#facs_8_line_1503744490668_247' n='N006'/>σχῆμα ὁμοί<hi rend='superscript'>α</hi>· περίπλους <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>͵γυκ</hi>, μῆκος δὲ <hi rend='supraline'>͵ατ</hi>, ἀ
+				<lb facs='#facs_8_line_1503744492830_248' n='N007' break="no"/>πὸ πάφου εἰς ἀλεξάνδρειαν δίαρμα βορέου σταδίων <hi rend='supraline'>͵γω</hi>,
+				<lb facs='#facs_8_line_1503744495710_249' n='N008'/>ῥόδου περίμετρος <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>͵ατ</hi>, κῶ περίμετρος, στάδια <hi rend='supraline'>φν</hi>·
+				<lb facs='#facs_8_line_1503744498041_250' n='N009'/>σάμος, <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> χ<hi rend='supraline'>λ</hi> ἰκαρί<hi rend='superscript'>α</hi> δέ ἐστι, μακρὰ τραχεῖα· μῆκος στα-
+				<lb facs='#facs_8_line_1503744500274_251' n='N010' break="no"/>δίων <hi rend='supraline'>τ</hi>· χίου περίμετρος <expan><am><g ref='#abbr21'/></am><ex>στάδια</ex></expan> <hi rend='supraline'>χξ</hi>· λέσβου <del rend='overstrike'>με</del>περί-
+			    <lb facs='#facs_8_line_1503744504354_252' n='N011' break="no"/>μετρος <hi rend='supraline'>͵αρ</hi>:-<space quantity='6' unit="character"/>
+		                </p></div></div>
+		        <div type="textpart" subtype="work">
+		            <head>
+                                        		                    διάγνωσις ἐπιτομῆ τῆς ἐν τῆς σφ<hi rend='superscript'>αι</hi>-
+				<lb facs='#facs_8_line_1503744508450_253' n='N012'/>ρα γεωγραφίας:-
+			</head>
+		        </div>
+				</div>
+			
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="coislinianus_gr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="lat">Geographiae Informatio</title>
+                <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+                    >Agathemerus</author>
+                <author role="transcriptor">Chiara Palladino</author>
+                <sponsor>University of Leipzig</sponsor>
+                <sponsor>Università degli Studi di Bari Aldo Moro</sponsor>
+                <respStmt>
+                    <persName xml:id="CP">Chiara Palladino</persName>
+                    <resp>Editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName> Pasquale Massimo Pinto</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority>University of Leipzig</authority>
+                <idno type="filename">coislinianus_gr.xml</idno>
+
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2015</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+              
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier xml:lang="fr">
+
+                            <settlement>Paris</settlement>
+                            <repository>Bibliothéque Nationale</repository>
+                            <collection>Coislin</collection>
+                            <idno>Par. Coisl. 374</idno>
+
+
+
+
+                        </msIdentifier>
+
+                        <msContents>
+
+
+                            <msItem n="urn:cite:excerpta:J:b">
+                                <locus>f. 307r </locus>
+                                <author>Agathemerus</author>
+                                <title xml:lang="lat">Excerptum Jb De Maribus</title>
+                                <author role="editor">Bernard de
+                                    Montfaucon</author>
+                          
+                                
+                            </msItem>
+                            <msItem n="urn:cite:excerpta:J:d">
+                                <locus>f. 307r </locus>
+                                <author>Ptolemy, Geography</author>
+                                <title xml:lang="lat">Excerptum Jd</title>
+                                <author role="editor">Bernard de
+                                    Montfaucon</author>
+                                
+                                
+                            </msItem>
+                            <msItem n="urn:cts:greekLit:tlg2934.tlg004.kotter:23b">
+                                <locus></locus> 
+                                <author>John of Damascus</author>
+                                <title xml:lang="lat">Expositio fidei orthodoxae</title>
+                                <author role="editor">Bernard de
+                                    Montfaucon</author>
+                           
+                         
+                            </msItem>
+           
+
+
+                        </msContents>
+
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc material="parch">
+
+                                    <extent>
+                                        <dimensions>
+                                            <height/>
+                                            <width/>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+
+                            </objectDesc>
+
+                            <handDesc hands="1">
+                                <handNote xml:id="M1" scope="major"/>
+
+                            </handDesc>
+                        </physDesc>
+
+                        <history>
+
+                            <origin>
+                                <origPlace/>
+                                <origDate/>
+                            </origin>
+
+                            <acquisition/>
+
+                        </history>
+                    </msDesc>
+
+
+
+
+                </listBibl>
+
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <ab>
+                    <title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>
+                </ab>
+            </projectDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+
+             <!--  <refsDecl n="CTS">
+              this will need to be refined. 
+
+                <cRefPattern n="section" matchPattern="(.+).(.+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+                    <p>This pointer pattern extracts chapters and sections</p>
+                </cRefPattern>
+                <cRefPattern n="chapter" matchPattern="(.+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                    <p>This pointer pattern extracts chapters</p>
+                </cRefPattern>
+            </refsDecl> -->
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="CP" when="2016-09-01">Created the XML file</change>
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic"  xml:lang="grc">
+       
+                <div type="textpart" subtype="excerpt" n="urn:cite:excerpta:J:b">
+                    <p>διαδέχεται τὸ Αἰγαῖον πέλαγος Ἑλλήσποντος λήγων εἰς Ἄβυδον καὶ Σηστόν. Εἶτα ἡ
+                        Προποντὶς λήγουσα εἰς Χαλκηδόνα καὶ Βυζάντιον, ἔνθα τὰ στενὰ, ἀφ’ ὧν ὁ
+                        Πόντος ἄρχεται. Εἶτα ἡ Μαιῶτις λίμνη. πάλιν δὲ ἀπ’ ἀρχῆς Εὐρώπης καὶ Λιβύης
+                        Ἰβηρικὸν τὸ ἀπὸ Στηλῶν εἰς Πυρίνον τὸ ὄρος. Λιγυστικὸν δὲ τὸ ἕως τῶν τῆς
+                        Τυρρηνίας περάτων. Σαρδώνιον δὲ τὸ ὑπὲρ τὸν Σαρδὼ νεῦον πρὸς τὴν Λιβύην
+                        κάτω. Τυρρηνικὸν δὲ τὸ μετὰ Σικελίας λῆγον, ἀρχόμενον ἀπὸ Λιγυστικῆς ἄκρων.
+                        Εἶτα Λιβυκόν· Εἶτα Κρητικὸν καὶ Σικελικὸν, καὶ Ἰόνιον, καὶ Ἀδριον. Τὸ δὲ
+                        ἀνακεχυμένον ἐκ τοῦ σικελικοῦ πελάγους ὃν καλοῦσι Κορινθιακὸν κόλπον, ἤτοι
+                        Ἀλκυονικὴν θάλασσαν· τὸ δὲ Σουνίῳ καὶ Σκυλλαίῳ περιεχόμενον πέλαγος
+                        Σαρωνικόν. Εἶτα Μυρτῶον <expan><abbr><am><g/></am></abbr><ex>καὶ</ex></expan> Ἰκάριον, ἐν ᾧ αἱ
+                        Κυκλάδες. Εἶτα Καρπάθιον καὶ Παμφύλιον καὶ Αἰγύπτιον. ὑπὲρ δὲ τὸ Ἰκάριον
+                        ἑξῆς ἀναχεῖται τὸ Αἰγαῖον. ἔστι δὲ ὁ τῆς Εὐρώπης παράπλους ἀπὸ Ταναΐδος τοῦ
+                        ποταμοῦ ἕως Ἡρακλέους στηλῶν στάδια <gap reason="omitted" resp="#BdM"/>
+                        ͵θψθ. τῆς δὲ Λιβύης ἀπὸ Τιθάσσεως στόματος ἕως στόματος Κανωβικοῦ σταδίων
+                        μυριάδων δύο καὶ ͵θσνβ, τῆς δ’ Ἀσίας ἀπὸ Κανοβικοῦ ἕως Ταναΐδος τοῦ ποταμοῦ
+                        μετὰ τῶν κόλπων ὁ παράπλους στάδια δριαʹ. ὁμοῦ παράπλους σὺν κόλποις τῆς
+                        καθ’ ἡμᾶς οἰκουμένης στάδια <gap reason="omitted" resp="#BdM"/>.</p>
+
+                </div>
+                <div type="textpart" subtype="excerpt" n="urn:cite:excerpta:J:d">
+                    <p> Εἰσὶ δὲ αἱ γνωσθεῖσαι ἐπαρχίαι τῆς γῆς, ἤτοι σατραπίαι αὗται. Εὐρώπης μὲν
+                        ἐπαρχίαι λδ’. πίνακες ι’. α’. Ἰουβερνία, νῆσος Βρετανικῆς. β’. Ἀλοβίωνος
+                        νῆσου Βρετανικῆς. γ’. Ἱσπανία Βαιτική. δ’. Ἱσπανία Λουσιτανία. ε’. Ἱσπανία
+                        Ταῤῥακωνησία. ς’. Γαλλία Ἀκουητανία. ζ’. Γαλλία Λουγδωνησία. η’. Γαλλία
+                        Βελγική. θ’. Γαλλία Ναρβωνησία. ι’. Γερμανία μεγάλη. ια’. Ῥαιτία καὶ
+                        Οὐιενδελκία. ιβ’. Νωρικόν. ιγ’. Πανωνία ἡ ἄνω. ιδ’. Πανωνία ἡ κάτω. ιε’.
+                        Ἰλλυρίς. ις’. Δελματία. ιζ’. Ἰταλία. ιη’. Κύρνος νῆσος. ιθ’. Σαρδὼ νῆσος.
+                        κ’. Σικελία νῆσος. κα’. Σαρματία ἡ ἐν Εὐρώπῃ. κβ’. Ταυρική χερσόνησος. κγ’.
+                        Ἰαζύγων μεταναστῶν. κδ’. Δακία. κε’. Μυσία ἡ ἄνω. κς’. Μυσία ἡ κάτω. κζ’.
+                        Θρᾴκη. κη’. Χερσόνησος. κθ’. Μακεδονία. λ’. Ἤπειρος. λα’. Ἀχαΐα. λβ’. Εὔβοια
+                        νῆσος. λγ’. Πελοπόννησος. λδ’. Κρήτη νῆσος. Λιβύης ἐπαρχίαι ιβ’. πίνακες δ’.
+                        α’. Μαυριτανία Τινγιτανή. β’. Μαυριτανία Καισαρινσία. γ’. Νουμηδία. δ’.
+                        Ἀφρίκη ὅλη. ε’. Κυριναικὴ ἡ λεγομένη Πεντάπολις. ς’. Μαρμαρική. ζ’. Λιβύη.
+                        η’. Αἴγυπτος ἡ κάτω. θ’. Αἴγυπτος Θηβαΐς. ι’. Ἡ ἐντὸς Ἀφρίκης Λιβύη. ια’. Ἡ
+                        ἄνω Αἰγύπτου Αἰθιοπία. ιβ’. Ἡ ἐντὸς τούτων ἁπάντων νοτιωτάτη Αἰθιοπία. Ἀσίας
+                        ἠπείρου μεγάλης ἐπαρχίαι μη’. κανόνες δώδεκα. α’. Βηθυνία πόντος. β’. Ἀσία ἡ
+                        ἰδίως. γ’. Φρυγία μεγάλη. δ’. Λυκία. ε’. Γαλατία. ς’. Παφλαγονία. ζ’.
+                        Παμφυλία. η’. Καππαδοκία. θ’. Ἀρμενία μικρά. ι’. Κιλικία. ια’. Σαρματία
+                        ἐντὸς Ἀσίας. ιβ’. Κολχίς. ιγ’. Ἰβηρία. ιδ’. Ἀλβανία. ιε’. Ἀρμενία μεγάλη.
+                        ις’. Κύπρος νῆσος. ιζ’. Συρία κοίλη. ιη’. Συρία Φοινίκη. ιθ’. Συρία
+                        Παλαιστίνη. κ’. Ἀραβία Πετραία. κα’. Μεσοποταμία. κβ’. Ἀραβία ἔρημος. κγ’.
+                        Βαβυλωνία. κδ’. Ἀσυρία. κε’. Σουσιανή. κς’. Μήδεια. κζ’. Περσίς. κη’.
+                        Παρθία. κθ’. Καρμανία ἔρημος. λ’. Καρμανία ἑτέρα. λα’. Αραβία εὐδαίμων. λβ’.
+                        Ὑρκανία. λγ’. Μαργιανή. λδ’. Βακτριανή. λε’. Σογδιανή. λς’. Σάκων. λζ’.
+                        Σκυθία ἡ ἐκτὸς Ἰμάου ὄρους. λη’. Σκυθία ἡ ἐντὸς Ἰμάου ὄρους. λθ’ Σαρματία ἡ
+                        ἐν Ασίᾳ. μ’. Ἀρεία. μα’. Παροπανισάδων. μβ’. Δραγγιανή. μγ’. Ἀραχωσία. μδ’.
+                        Γεδροσία. με’. Ἰνδικὴ ἡ ἐκτὸς Γάγγου ποταμοῦ. μς’. Ἰνδικὴ ἡ ἐντὸς Γάγγου
+                        ποταμοῦ. μζ’. Σῖνων. μη’. Ταπροβάνη νῆσος. <note resp="editor">Quaedam alia
+                            sequuntur usque adeo abrasa et deleta, ut legi nequeant</note> </p>
+                </div>
+
+            </div>
+          
+        </body>
+    </text>
+</TEI>

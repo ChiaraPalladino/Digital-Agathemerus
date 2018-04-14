@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="allacci36a_lat" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="lat">Geographiae Informatio</title>
+                <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+                    >Agathemerus</author>
+                <author role="editor"/>
+                <author role="translator"/>
+                <sponsor>University of Leipzig</sponsor>
+                <sponsor>Università degli Studi di Bari Aldo Moro</sponsor>
+                <respStmt>
+                    <persName xml:id="CP">Chiara Palladino</persName>
+                    <resp>Editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Pasquale Massimo Pinto</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">allacci36a_lat.xml</idno>
+
+                <authority>University of Leipzig</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2017</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl>
+                    
+                    <msDesc>
+                        <msIdentifier xml:id="allacci" n="urn:cite:agathemerus:tlg0090.tlg001.allacci">
+                            <settlement>Rome</settlement>
+                            <repository>Biblioteca Vallicelliana</repository>
+                            <collection>Fondo Allacci</collection>
+                            <idno>Carte Allacci CXVI 36a</idno>
+                         
+                            
+                        </msIdentifier>
+                        
+                        <msContents xml:lang="lat">
+                            
+                            
+                     
+                            <msItem>
+                                <locus>ff. 402-404
+                                </locus>
+                                <author>Agathemerus</author>
+                                <title>Versio Latina</title>
+                                <note>Latin translation of Agathemerus, presumably from the hand of Leo Allacci</note>
+                                <editor xml:id="LA">
+                                    <persName xml:lang="ita">
+                                        Leone Allacci 
+                                    </persName>
+                                </editor>
+                            </msItem>
+                            
+                            
+                            
+                            
+                            
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc material="paper">
+                                    
+                                    
+                                    
+                                    <extent>
+                                        <measure type="composition" unit="leaf">Various formats.</measure>
+                                        <dimensions/>
+                                    </extent>
+                                    <collation>
+                                        <p></p>
+                                    </collation>
+                                </supportDesc>
+                                
+                            </objectDesc>
+                            
+                            <handDesc hands="1">
+                                <handNote sameAs="#LA">Leone Allacci
+                                    <locus>ff. 402-404
+                                    </locus>
+                                </handNote>
+                           
+                            </handDesc>
+                        </physDesc>
+                        
+                        <history>
+                            
+                            <origin>
+                                <origPlace>Italy</origPlace>
+                                <origDate>17th century</origDate>
+                            </origin>
+                            
+                            <acquisition/>
+                            
+                        </history>
+                        
+                    </msDesc>
+                    
+              
+                    
+                </listBibl>
+                
+                
+                
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        <xi:include href="file:/Users/Chiara/Dropbox/AGATEMERO/Manuscripts/Glyphs/glyphs.xml"/> 
+        <encodingDesc>
+            <projectDesc>
+                <ab>
+                    <title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>
+                </ab>
+            </projectDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        
+				
+			<refsDecl n="CTS">
+				<cRefPattern n="section" matchPattern="(.+).(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+					<p>This pointer pattern extracts chapters and sections</p>
+				</cRefPattern>
+				<cRefPattern n="chapter" matchPattern="(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+					<p>This pointer pattern extracts chapters</p>
+				</cRefPattern>
+			</refsDecl>
+		
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="lat">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change who="Chiara Palladino" when="2017-09-18">Created the XML file</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id='facs_2'>
+        <surface ulx='0' uly='0' lrx='3508' lry='2479' corresp='0002_Allacci CXVI 36A-2.png'>
+            <graphic url='0002_Allacci CXVI 36A-2.png' width='3508px' height='2479px'/>
+            <zone points='66,446 2465,446 2465,3369 66,3369' rendition='TextRegion' xml:id='facs_2_region_1506274057041_2'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_3'>
+        <surface ulx='0' uly='0' lrx='3508' lry='2479' corresp='0003_Allacci CXVI 36A-3.png'>
+            <graphic url='0003_Allacci CXVI 36A-3.png' width='3508px' height='2479px'/>
+            <zone points='132,24 2362,24 2362,3429 132,3429' rendition='TextRegion' xml:id='facs_3_region_1506274069178_3'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_4'>
+        <surface ulx='0' uly='0' lrx='3508' lry='2479' corresp='0004_Allacci CXVI 36A-4.png'>
+            <graphic url='0004_Allacci CXVI 36A-4.png' width='3508px' height='2479px'/>
+            <zone points='259,54 2410,54 2410,3405 259,3405' rendition='TextRegion' xml:id='facs_4_region_1506274082744_4'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_5'>
+        <surface ulx='0' uly='0' lrx='3508' lry='2479' corresp='0005_Allacci CXVI 36A-5.png'>
+            <graphic url='0005_Allacci CXVI 36A-5.png' width='3508px' height='2479px'/>
+            <zone points='84,48 2410,48 2410,3321 84,3321' rendition='TextRegion' xml:id='facs_5_region_1506274094420_5'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_6'>
+        <surface ulx='0' uly='0' lrx='3508' lry='2479' corresp='0006_Allacci CXVI 36A-6.png'>
+            <graphic url='0006_Allacci CXVI 36A-6.png' width='3508px' height='2479px'/>
+            <zone points='126,84 2344,84 2344,3363 126,3363' rendition='TextRegion' xml:id='facs_6_region_1506274106584_6'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_7'>
+        <surface ulx='0' uly='0' lrx='3508' lry='2479' corresp='0007_Allacci CXVI 36A-7.png'>
+            <graphic url='0007_Allacci CXVI 36A-7.png' width='3508px' height='2479px'/>
+            <zone points='12,54 2368,54 2368,3309 12,3309' rendition='TextRegion' xml:id='facs_7_region_1506274116980_7'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_8'>
+        <surface ulx='0' uly='0' lrx='3508' lry='2479' corresp='0008_Allacci CXVI 36A-8.png'>
+            <graphic url='0008_Allacci CXVI 36A-8.png' width='3508px' height='2479px'/>
+            <zone points='48,102 2212,102 2212,3369 48,3369' rendition='TextRegion' xml:id='facs_8_region_1506274129148_8'>
+            </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id='facs_9'>
+        <surface ulx='0' uly='0' lrx='3508' lry='2479' corresp='0009_Allacci CXVI 36A-9.png'>
+            <graphic url='0009_Allacci CXVI 36A-9.png' width='3508px' height='2479px'/>
+            <zone points='313,42 2465,42 2465,1717 313,1717' rendition='TextRegion' xml:id='facs_9_region_1506274143379_9'>
+            </zone>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="translation" xml:lang="lat" n="urn:cts:greekLit:tlg.0090.tlg001.allacci-lat1">
+                <div type="textpart" subtype="chapter" n="1">
+                    <div type="textpart" subtype="section" n="1">
+                        <p>
+                            
+             
+              <pb n="402r" facs="#facs_2"/>
+                  <lb n="1"/>Anaximander Milesius Auditor Thaletis primus omnium, quos
+                  <lb n="2"/>nos scimus, orbem <sic>intabella</sic> exprimere ausus est: post-
+                  <lb n="3" break="no"/>quem Hecataeus Milesius vir multivagus exactiori diligentia
+                  <lb n="4"/>discussit, et ita executus est, ut premissum omnibus acciderit. 
+                  <lb n="5"/>verum Hellanicus Lesbius multarum rerum intelligentia prae=
+                  <lb n="6" break="no"/>stans apertissime historiam tradidit. <subst><del rend="erasure"/><add place="above">Deinceps</add></subst> Dama=
+                  <lb n="7" break="no"/>stes Cytiensis ex Hecataeo descriptorum Periplum edidit. Postmo=
+                  <lb n="8" break="no"/>dum Democritus, Eudoxus, et alij nonnulli terrae circum=
+                            <lb n="9" break="no"/>scriptiones et Periplos commentati sunt.    </p></div>
+                                <div type="textpart" subtype="section" n="2">
+                                    <p>
+                                        <lb n="9" break="no"/>Veteres itaque ter=
+                  <lb n="10" break="no"/>rarum orbem rotundum depingebant, cujus in medio Graeciae
+                  <lb n="11"/>collocabant, illiusque Delphos: universi umbilicum tenet. Primus 
+                  <lb n="12"/>porro Democritus multarum rerum peritia clarius apprehendit, 
+                  <lb n="13"/>terram esse in longitudinem porrectam, longitudine latitudi=
+                  <lb n="14" break="no"/>nis sesquilateram. In ejus sententiam Dicaearchus Peripateti=
+                  <lb n="15" break="no"/>cus. Eudoxus duplo majorem longitudinem stabuit, Eratostenes 
+                  <lb n="16"/>duplo hocce majorem, Crates ubi semirotundam, Hipparchus 
+                  <lb n="17"/>peditum absimilem, Pezoidem, alij uroidem, seu Poseido=
+                  <lb n="18" break="no"/>nius Stoicus fundae similem; in medio lata fusam ab noto
+                  <lb n="19"/>in Boream, arctabam in ortu atque occasum, qua vero Eu=
+                  <lb n="20" break="no"/>rum respicit versus Indiam latior.</p>
+                                </div>
+                    
+                    <div type="textpart" subtype="section" n="3">
+                        <p> <lb n="20" break="no"/>Continentium termini Eu=
+                  <lb n="21" break="no"/>ropae, et Lybiae, Columnae Herculis, Lybiae et Asiae Nilus. Alij <unclear reason="erasure">Isth=</unclear>
+                  <lb n="22" break="no"/>mum constituunt à lacu Sarbonidis, et Sinu Arabico. <subst><del>A</del><add place="overstrike">E</add></subst>uropae
+                  <lb n="23"/>et Asiae veteres Phasim fluvium, et Isthmum ad mare Cas=
+                  <pb n="402v" facs="#facs_3" break="no"/>
+                  <lb n="1" break="no"/>pium percurrentes: Posteriores <add place="overstrike">lacum</add> Maeotidem et Tanaim fluvi=
+                  <lb n="2" break="no"/>um
+                        </p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section" n="4">
+                        <p> 
+                            <lb n="2" break="no"/>ignoratione vero continentes sic vocatae sunt. asia dicta
+                  <lb n="3"/>est, <foreign xml:lang="grc">ἀπὸ τοῦ ἆσσον ἰέναι</foreign>, quod prope vadit ad eos, qui ab Euro=
+                  <lb n="4" break="no"/>pa pergunt pedestri itinere, et per insulas ordinatim adia=
+                  <lb n="5" break="no"/>centes, Euboeam, Andron, Taenon, Myconon, Icariam, Samum, 
+                  <lb n="6"/>Mycalem. Europa ab Euro nomen sortita est. Lybia sub
+                  <lb n="7"/>Graecis erat inexplorata, sed à gente nobili Phoenices appel=
+                  <lb n="8" break="no"/>lati sunt navigantes. Oceanus autem dicitur quod <foreign xml:lang="grc">ὠκέως
+                      <lb n="9"/>ἀνύει κύκλω τὴν γῆν</foreign>, <hi rend="underline">cito circumtranseat terram.</hi> </p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section" n="5">
+                        <p>   <lb n="9"/>Dicaear=
+                  <lb n="10" break="no"/>chus circumscribit non aquis sed linea recta et impermixta à
+                  <lb n="11"/>columnis per Sardiniam, Peloponnesum, Joniam, Cariam, 
+                  <lb n="12"/>Lyciam, Pamphiliam, Ciliciam, et Tauros ordine recto
+                  <lb n="13"/>usque ad Imaum Montem, et sic locorum haec quidem borea=
+                            <lb n="14"/>alia, alia australia nominantur. </p>
+                    </div>
+                </div>
+                
+                
+                <div type="textpart" subtype="chapter" n="2">
+                    <div type="textpart" subtype="section" n="6">
+                        <p> 
+                            <lb n="4"/>Venti vero profluunt à
+                  <lb n="15"/>meridiano ortu Subsolanus, à Meridiano occasu Zephyrus
+                  <lb n="16"/>à Meridie Notus, à Septentrione Harpactias, ab aestivo Tro=
+                  <lb n="17" break="no"/>pico Caecias, et consequenter à meridiano exortu subsolano
+                  <lb n="18"/>et ab Hyemali Eurus. Occidentales vero ab hyemali occasu A=
+                  <lb n="19" break="no"/>fricus, et suo ordine rursus ab aequinoctiali occasu Zephyrus, 
+                  <lb n="20"/>ab occasu aestivo Argestes, sive Olympias, tum praeterea
+                  <lb n="21"/>Notus et Harpactias adversis inter se <subst><del rend="erasure">fluentibus</del><add place="overstrike">flatibus</add></subst> spirant
+                            <lb n="22"/>Recensentur itaque octo.  </p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section" n="7">
+                        <p>
+                            <lb n="22"/>Timosthenes Periplorum scriptor
+                  <lb n="23"/>duodecim numerat. inter Harpactiam et Cariam addens Bo=
+                  <lb n="24" break="no"/>ream, inter Eurum et Notum Phoenicem, seu Euronotum
+                  <lb n="25"/>inter Notum et Africum Lecuonotum, sive Libonotum, in=
+                  <lb n="26" break="no"/>ter Harpactiam et Agrestem Thrasciam, sive Circium
+                  <lb n="27"/>ut à vicinis noncupatur: agitareque in extremis locis ad
+                  <lb n="28"/>subsolanum Bactrianos, ad Eurum Indos, ad Phoenicem 
+                  <lb n="29"/>mare Rubrum, et Aethiopiam, ad Notum Aethiopiam 
+                  <lb n="30"/>quae supra Aegyptum est, ad Leuconotum, qui ultra Syrtes <fw type="catchword">sunt</fw>
+                  <pb n="403r" facs="#facs_4"/>
+                  <lb n="1"/>sunt Garamantas, ad Africum Aethiop<unclear reason="erasure">as</unclear> et occidentales
+                  <lb n="2"/>Hypermauros, ad Zephyrum columnas, et initia Lybiae atque,
+                  <lb n="3"/>Europae, ad Argestem Iberiam, quae nunc Hispania est, ad
+                  <lb n="4"/>Thraciam Schythas, qui supra Thraciam inhabitant, ad Bo=
+                  <lb n="5" break="no"/>ream Pontum, Maeotidem, Sarmatas, ad Caecium Caspium
+                            <lb n="6"/>mare et Sacas. </p>
+                    </div>
+                </div>
+                
+                
+                <div type="textpart" subtype="chapter" n="3">
+                    <div type="textpart" subtype="section" n="8">
+                        <p> 
+                            <lb n="6"/>Est porro magna Syrtis stadiorum quin=
+                  <lb n="7" break="no"/>que millium, parva mille sexcentorum oris Adriatici maris, 
+                  <lb n="8"/>quod à nonnullis appellatur Ionium Pelagus, p<subst><del>ali</del><add place="overstrike">eri</add></subst>plus est stadia-
+                  <lb n="9" break="no"/>rum CIƆDCC. à promontorio Iapygiae ad Montes Epiri Cerau=
+                            <lb n="10" break="no"/>nios. </p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section" n="9">
+                        <p> 
+                            <lb n="10" break="no"/>Eccipit Aegaeum Hellespontus ad Abydum et Sestum 
+                  <lb n="11"/>Sequitur Propontis in Chalcedonem finiens, et Byzan=
+                  <lb n="12" break="no"/>tium, ubi fretum maris angustijs coarctatur, et inquibus 
+                  <lb n="13"/>Pontus ponit initia. Tum Maeotis Palus, rursumque à prin=
+                  <lb n="14" break="no"/>cipio Europae et Lybiae mare Ibericum, quod in Pyrene mon=
+                  <lb n="15" break="no"/>te desinit. Ligusticum vero ad extrema usque Tyrrheniae exten=
+                  <lb n="16" break="no"/>ditur. Tum Sardoum per Sardiniam versus <add place="overstrike">Lybyam</add> infra decli=
+                  <lb n="17" break="no"/>nans, deinceps Tyrrhenicum ad Siciliam usque à summitati=
+                  <lb n="18" break="no"/>bus Lygusticis ordiens. Postmodum Lybycum, deinceps Creticum, et 
+                  <lb n="19"/>Siculum, et Ionium, et Adriaticum ex Siculo mari effusum, 
+                  <lb n="20"/>quem vocant Corinthiacum sinum, sive mare Alcyonium, Su=
+                  <lb n="21" break="no"/>nio et Scyllaeo comprehensum Saronicum pelagus. Subsequitur 
+                  <lb n="22"/>Myrtoum, et Icarium, in quo sitae sunt Cyclades. Tum Car=
+                  <lb n="23" break="no"/>pathium, et Pamphylium, et Aegyptium. Super Icariam 
+                            <lb n="24"/>convolvitur Aegaeum. </p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section" n="10">
+                        <p> 
+                            <lb n="24"/>Est Europae Periplus à Tanaidis flu=
+                  <lb n="25" break="no"/>minis in mare ingressu ad columnas Herculis stadiorum 
+                  <lb n="26"/>Myriadum sex et IXCIƆIƆCCVIIII. Libyae vero à Tinge 
+                  <lb n="27"/>ad usque ostium Canobicum stadiorum Myriadum II. et CC
+                  <lb n="28"/>LII. Asiae et Canobo usque ad Tanaim Fluvium una cum 
+                  <lb n="29"/>sinibus periplus stadiorum Myriadum IIII et CXI. simul 
+                  <lb n="30"/>paraplus cum sinibus terrae à nobis habitatae, stadiorum 
+                  <pb n="403v" facs="#facs_5"/>
+                  <lb n="1"/>Myriadum XIII. et IXCIƆLXXII. si una cum his admetitus fueris
+                  <lb n="2"/>Paludem Maeotidae, cujus ambitus est stadiorum <del rend="erasure" quantity="2" unit="character"/> IXCIƆ.
+                            <lb n="3"/>Cimmerius Bosphorus stadiorum CCCCXX. </p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section" n="11">
+                        <p> 
+                            <lb n="3"/>Pontus stadiorum 
+                  <lb n="4"/>IIICIƆLXXXIII. Thracij Bosphori angusta in quibus Darius
+                  <lb n="5"/>dum expeditionem molitur in Scythas tumultuario opere
+                            <lb n="6"/>rates compinxit stadiorum VICIƆ. </p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section" n="12">
+                        <p>  <lb n="6"/>Verum Persicum mare
+                  <lb n="7"/>orbiculatum cum sit expremitate Carmaniae et Arabiae osti=
+                  <lb n="8" break="no"/>um concludens ambitum habet stadiorum myriadum II.
+                  <lb n="9"/>Est porro os medium inter Carmaniam et Arabiam stadi=
+                            <lb n="10" break="no"/>orum CCCC. </p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section" n="13">
+                        <p> <lb n="10" break="no"/>Hyrcanum sive mare Caspium lunae non 
+                  <lb n="11"/>absimile, et secundum alios oblongum est, stadiorum my=
+                  <lb n="12" break="no"/>riadum II. et IICIƆ. Oris vero illius traiectus est, stadiorum
+                            <lb n="13"/>IIIICIƆ.  </p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section" n="14">
+                        <p> <lb n="13"/>Arabicus sinus angustus cum sit et oblongus incipiens
+                  <lb n="14"/>ab Heroo flumine in Troglodytica, usque ad Ptolemaida,
+                  <lb n="15"/>quae apud Theras longitudine est stadiorum VIIIICIƆ. Angusta
+                  <lb n="16"/>in cornice stadiorum LV. Inde et deinceps navigatio stadiorum 
+                  <lb n="17"/>VICIƆ et IƆ. <unclear>N</unclear>amque in eo quod reliquum est, naves non ve=
+                  <lb n="18" break="no"/>huntur prope mare rubrum usque ad Oceanum stadiorum 
+                  <lb n="19"/>VICIƆ. Quod vero in Arabiae latere ab A<del unit="character" quantity="1"/>lan<add place="above">i</add>tico <unclear reason="correction">pelago</unclear> sta=
+                  <lb n="20" break="no"/>diorum myriadum IV. Haec Arabia ad mare Rubrum pertia=
+                  <lb n="21" break="no"/>git, extendit usque ad stadiorum Myriadas VI et VIIICIƆ et
+                            <lb n="22"/>XLVIIII.     </p>
+                    </div>
+                </div>
+                
+                
+                <div type="textpart" subtype="chapter" n="4">
+                    <div type="textpart" subtype="section" n="15">
+                        <p> 
+                            <lb n="22"/>Pari pacto à Gange fluvio ad Myriandum, quae in 
+                  <lb n="23"/>Issico sinu jacet stadiorum Myriades IIII. et CIƆIƆCCXVI<unclear>I</unclear>
+                  <lb n="24"/>Similiter à Gange ad Indi fluminis in mare influxum 
+                  <lb n="25"/>stadiorum Myriades XX. et VICIƆ. Ab Indo ad portas Cas-
+                  <lb n="26" break="no"/>pias stadiorum Myriades X. et VCIƆ et CCC. ad 
+                            <lb n="27"/><note place="margin">in Graeco MS.</note><subst><del rend="underline">Europam</del><add place="margin"><hi rend="underline">Euphratem</hi></add></subst> <del rend="erasure" unit="character" quantity="8"/> stadia XCIƆ. et L. ad Myriandrum stadia CCCLXXV.
+                        </p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section" n="16">
+                        <p> 
+                            <lb n="28"/>à Myriandro ad Gadira stadiorum Myriades II et VICIƆIƆCCC
+                  <lb n="29"/>XX. A Myriandro ad Clidas Cypri stadia CIƆCCCC. ad Acaman-
+                  <lb n="30" break="no"/>ta Promontorium stadia IIICIƆCCC. ad Celidonias per ma=
+                  <lb n="31" break="no"/><fw type="catchword">re</fw>
+                  <pb n="404r" facs="#facs_6"/>
+                  <lb n="1"/>re Pamphylium stadia CIƆCCC, ad Patara stadia IƆCCC. Ad
+                  <lb n="2"/>Rhodum stadia IƆCC. Ad Astipalaeam per Carpathium stadia CXL. 
+                  <lb n="3"/>ad Tenarum stadia CIƆCCCCL. ad Pachynum Siciliae stadia IIIICIƆ. ad
+                  <lb n="4"/>Lilybaeum per mare Libycum stadia CIƆIƆXX. ad Calarim Sardiniae per 
+                  <lb n="5"/>mare Tyrrhenum stadia ICIƆIƆCCC. Ad Gadira si supernavigaveris 
+                  <lb n="6"/>Gymnasiam insulam stadia XCIƆ. A Gadira per Sacrum Promonto=
+                  <lb n="7" break="no"/>rium, et portu Artabrorum stadia IIICIƆCCCXXXII. simul una nu=
+                            <lb n="8" break="no"/>merant stadiorum Myriades VII. et IICIƆCCC<subst><del rend="erasure">XXX</del><add place="above">C</add></subst>LXXVII.    </p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section" n="17">
+                        <p>       <lb n="8" break="no"/>Et alia eti=
+                  <lb n="9" break="no"/>am ratione, à Gange ad Euphratem Fluvium stadiorum Myriades
+                  <lb n="10"/>IIII. et CIƆCCCL ab Euphrate in Mazaca Cappadocum stadia IIIICIƆ
+                  <lb n="11"/>CL. à Mazaca per Phrygiam Montanam, et Magnam Cariam ad
+                  <lb n="12"/>Ephesum stadia IIICIƆCCCCLXXXX. Ab Epheso ad Delum 
+                  <lb n="13"/>per Aegaeum stadia CIƆIƆC. ad Patras stadia IƆCCVIII. ad Leucadem IƆCC. 
+                  <lb n="14"/>ad Corcyram stadia DCC. Ad Montes Acroceraunicos stadia VICIƆLX. 
+                  <lb n="15"/>ad Brendesium stadia DCC. A Brendesio pedestri itinere ad Ro=
+                  <lb n="16" break="no"/>mam stadia IICIƆ IƆCCCLXXX. à Roma ad Maurum s<add place="overstrike">u</add>b Alpibus
+                  <lb n="17"/>stadia IIIICLII. Tum per Celticem ad Urbem Illygerim ad Gadi=
+                  <lb n="18" break="no"/>ra usque stadia IICIƆIƆCI. et transmissis ad Gadira per Pandocos 
+                  <lb n="19"/>stadia LX. simul à Gange ad Gadira stadiorum Myriades VII et
+                            <lb n="20"/>CIƆIƆLX. </p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section" n="18">
+                        <p> <lb n="20"/>Latitudo orbis terrarum à mare Aethiopico ad Me=
+                  <lb n="21" break="no"/>roem stadiorum VCIƆ. à Meroe ad Alexandriam stadiorum Myrias
+                  <lb n="22"/>I. ab Alexandria ad <sic>Naim</sic> Myrias et CIƆLV. Superiora namque
+                  <lb n="23"/>Tainidis fluminis, quae ad Boream vergunt inexplorata latent. 
+                  <lb n="24"/>sic ab Alexandria in Lindum. Rhodi stadia IIIICIƆIƆ. Ad Thean=
+                  <lb n="25" break="no"/>tium si dextra Rhodum praeternavigaveris stadia CCCC. Ad Telum
+                  <lb n="26"/>stadi CLX. Ad Lactarem Coae stadia CVIIII. Ad Drepanum ejus=
+                  <lb n="27" break="no"/>dem stadia C. Ad Arcitim insulam stadia CCXXX. Ad Corsiam 
+                  <lb n="28"/>C. Ad Samiorum Ampelum stadia XXX. Ad Aegaeum Argen=
+                  
+                  <pb n="404v" facs="#facs_7"/>
+                  <lb n="1" break="no"/>num per <unclear reason="erasure">Ae</unclear>gaeum stadia IƆ. Ad Erythraeum Corynaeum stadia CCLXX. 
+                  <lb n="2"/>Ad Phlium Chij promontorium stadia L. Ad Melanea promontori=
+                  <lb n="3" break="no"/>um Lesbi stadia CCCCL. Ad Sigrium Lesbi stadia IƆ. Ad Tenedum
+                  <lb n="4"/>insulam stadia CCCCL. Ad Sigium stadia C. Ad os Ponti stadia IICIƆ 
+                  <lb n="5"/>C. Ad Carambim stadia IICIƆIƆCCC. Ad os Maeotidis IICIƆIƆ. 
+                            <lb n="6"/>Ad Tanaim stadia IICIƆCC.  </p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section" n="19">
+                        <p> <lb n="6"/>Alio tenore à civitate ad civitatem 
+                  <lb n="7"/>ab Alexandria ad Rhodum stadia IIIICIƆIƆLXX. Ad Cnidum sta=
+                  <lb n="8" break="no"/>dia IƆCC. ad Urbem Coem stadia CC. ad Samum stadia IƆCCC. Ad
+                  <lb n="9"/>Chium stadia IƆCCL. Ad Mytilenem stadia IƆXXXX. Ad Tene=
+                  <lb n="10" break="no"/>dum stadia CCCL. Ad Sigium C. Ad os Ponti IICIƆIƆ. Ad Caram=
+                  <lb n="11" break="no"/>bim IICIƆIƆCCC. <subst><del rend="erasure"/><add place="above">In</add></subst> os Maeotidis CIƆIƆ. Ad Tanaim fluvium 
+                            <lb n="12" break="no"/>ades VIII et IƆCLXXXX. </p>
+                    </div>
+                </div>
+                
+                <div type="textpart" subtype="chapter" n="5">
+                    <div type="textpart" subtype="section" n="20">
+                        <p> <lb n="12" break="no"/>Reliquum est, ut de nostrarum Insula-
+                  <lb n="13" break="no"/>rum ambitu ex Artemidoro, Menippo, aljisque fide dignis scri=
+                  <lb n="14" break="no"/>ptoribus dicamus. Gadira longitudine sunt stadiorum CVIII. 
+                  <lb n="15"/>latitudine stadiorum XVI. At in Herculeis columnis fretum an=
+                  <lb n="16" break="no"/>gustissimus est stadiorum LXXX. In Iberico mari insulae Pitnusa
+                  <lb n="17"/>major et habitata longitudine est stadiorum <space unit="character" quantity="3"/>. minor stadi=
+                  <lb n="18" break="no"/>orum C. Gymnasiarum, quas Carchedonij Baliares vocant, 
+                  <lb n="19"/>namque funditores Baliares vocantur. Major longitudine est sta=
+                  <lb n="20" break="no"/>diorum CIƆCC, Latitudine est stadiorum CCCC. Minor stadiorum 
+                  <lb n="21"/>CCC. subsequuntur stoechades dictae, recta Massaliensibus Urbibus a-
+                  <lb n="22" break="no"/>diacentes. Majores tres, minores duae prope Marsaliam, uti <unclear>pullus</unclear>
+                  <lb n="23"/>macie torridus in medio cava longitudine stadiorum IICIƆCC. Cyr=
+                  <lb n="24" break="no"/>nus prope Sardiniam longitudine est, habet emissarium ad Sardiniam 
+                  <lb n="25"/><note place="margin">MS. Grae.: <hi rend="underline">Tyrhenicae</hi></note> et Cyrni Potuponium Tyrresicae. Trajectus est stadiorum IICIƆCC. Siciliae 
+                  <lb n="26"/>ambitus autore Timosthene est stadiorum IƆCCXL. Figura trian=
+                  <lb n="27" break="no"/>gulari sed scalena. Trajectus illius à Peloro in Italiam stadiorum 
+                  <lb n="28"/>XI. Latera sinuum insulae à Peloro ad Pachynum stadiorum sta-
+                  <lb n="29" break="no"/>diorum CIƆCCCLX. scriptore Timosthene à Lilybaeo in Peloriadam
+                  <lb n="30"/>stadia CIƆIƆCC. à Lilybaeo transmissio in Aspidem Libiae  
+                            <lb n="31"/><fw type="catchword">fere sta-</fw>
+             
+                  <pb n="405r" facs="#facs_8"/>
+                            <lb n="1"/>fere stadiorum CIƆIƆC. </p>
+                        
+                    </div>
+                    
+                    <div type="textpart" subtype="section" n="21">
+                        <p>
+                            <lb n="1"/>Cercinae insulae longitudo latitudo LXX. 
+                  <lb n="2"/>Angustissima ejus pars est stadiorum LX. Superjacet Urbi Epiroti=
+                  <lb n="3" break="no"/>cae Threnae, quae jacet in principio minoris Syrtidis. Cercinae adja=
+                  <lb n="4" break="no"/>cet insula Carcinitis ponte juncta stadiorum longitudine XL. <unclear reason="ink_stain">L</unclear>a=
+                            <lb n="5" break="no"/>titudine stadiorum XXV.  </p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section" n="22">
+                        <p> <lb n="5" break="no"/>A Cercine ad insulam meninga Lotophagi=
+                  <lb n="6" break="no"/>tem transmissio stadiorum IƆC. quantum minoris Syrtidis os hiat. 
+                  <lb n="7"/>Meninx autem est longitudine stadiorum IƆC. Latitudine stadiorum CLXXX. 
+                            <lb n="8"/>Circa eam per quam maxime fluxus refluxusque maris insolescunt. </p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section" n="23">
+                        <p>   <lb n="8"/>Cepha=
+                  <lb n="9" break="no"/>lonia Insula quatuor civitatibus clara est longitudine stadiorum CCCC. 
+                  <lb n="10"/>sunt praeterea in adriatico Insulae in propinquo Illyridis quarum 
+                  <lb n="11"/>illustriores sunt Issa, Malaena Corcyra, Pharus, Melite, quarum ambi=
+                            <lb n="12" break="no"/>tus mihi incompertus est    </p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section" n="24">
+                        <p><lb n="12" break="no"/>Peloponesi circumnavigatio, si sinus com=
+                  <lb n="13" break="no"/>mensuraveris, est stadiorum VCIƆIƆXXVII. Si sinus non fueris deme=
+                  <lb n="14" break="no"/>ritus, circuitus erit stadiorum IIIICIƆ. Longitudo à Malea ad Aegaeum 
+                  <lb n="15"/>sunt stadia CIƆL. est folio Platani consimilis sin<unclear reason="erasure">u</unclear>bus permagnis
+                  <lb n="16"/>adaperta, coarctatur in Isthmum Corinthium latitudine stadiorum
+                  <lb n="17"/>LX. A sinu Corinthio itemque Saronico ad Scyllaeum promontorium
+                  <lb n="18"/>à sinistra ubi adjacet insula Caria Neptuno sacra, subsequiturque
+                  <lb n="19"/>sinus Argolicus ad promontorium Maleae, quod sese plurimum effun=
+                  <lb n="20" break="no"/>dit in mare. Tum Hermionicus sinus dextera ad Taenarum promon=
+                  <lb n="21" break="no"/>torium, quod desinit ex laeva Messeniacum sinum, cujus à dexteris
+                  <lb n="22"/>eminet Acrites cacumen, et deinceps procedit vorte Ichthys, adver=
+                  <lb n="23" break="no"/>saturque illi Zacynthus, et ex alia parte Chelonatas, postremumque 
+                  <lb n="24"/>promontorium Arraxus Acarn<unclear reason="ink_stain">a</unclear>niae oppositu<subst><del>s</del><add place="overstrike">m</add></subst>. potsquam Corin=
+                  <lb n="25" break="no"/>thiacus effunditus sinus stadijs VII. conclusus ore. ex adverso Rhio
+                  <lb n="26"/>Promontorio Peloponesi. Antirrhium vero Locridis à Taenaro ad Phy=
+                            <lb n="27" break="no"/>cunta Libyae trajectus est stadiorum quinquaginta millium </p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section" n="25">
+                        <p><lb n="27" break="no"/>Aegi=
+                  <lb n="28" break="no"/>na insula praelonga est stadiorum CLX. ex adverso Atticae jacet. 
+                  <lb n="29"/>Salamis longitudine stadiorum LXX. Cia CXX. In Cycladibus 
+                  <lb n="30"/>vero excellit Naxus, proptereaque parva Sicilia compellatur. 
+                  <lb n="31"/>A dextris Sporades sparsae sunt. Eubaea ponte Boeotiae iungitur
+                  <pb n="405v" facs="#facs_9"/>
+                  <lb n="1"/>ex latius se exporrigit ipsa Boeotia, Phocyda, et Locryda, et ex alia
+                  <lb n="2"/>sui parte aliquantulum ipsa Attica: namque praelonga est, ideo=
+                            <lb n="3" break="no"/>que Macris appellata est. longitudine stadiorum CIƆIƆCC. </p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section" n="26">
+                        <p><lb n="3" break="no"/>Cre=
+                  <lb n="4" break="no"/>ta versus Maleam proxime accedit Peloponeso. Ambitus ipsius est
+                  <lb n="5"/>stadiorum IIIICDC. latitudo IICIƆCCC. quamplurimum enim a
+                  <lb n="6"/>se expandit. Cythera inter Cretam est Laconicam media est. Cyprij
+                  <lb n="7"/>figurae pellis simillima est, ambitu stadiorum IIICIƆCCCCXL. lon-
+                  <lb n="8" break="no"/>gitudine CIƆCCC. A Papho in Alexandri<unclear reason="erasure">am</unclear> trajectus Boreae sta=
+                  <lb n="9" break="no"/>diorum IIICIƆIƆCCC. Rhodi ambitus stadiorum CIƆCCC. Co am=
+                  <lb n="10" break="no"/>bitus stadiorum IƆL. Sami stadiorum IƆCXXX. Icaria praelonga 
+                  <lb n="11"/>est et aspera, longitudine stadiorum CCC. Chij ambitus stadio=
+                  <lb n="12" break="no"/>rum IƆCLX. Lesbi ambitus CIƆC. 
+                  
+                  
+                 
+              </p></div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+                        
+    

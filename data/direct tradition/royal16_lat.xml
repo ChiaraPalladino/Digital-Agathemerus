@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="royal16_lat" xmlns:xi="http://www.w3.org/2001/XInclude">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="lat">Geographiae Informatio</title>
+                <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+                    >Agathemerus</author>
+                <author role="editor"/>
+                <author role="translator"/>
+                <sponsor>University of Leipzig</sponsor>
+                <sponsor>Università degli Studi di Bari Aldo Moro</sponsor>
+                <respStmt>
+                    <persName xml:id="CP">Chiara Palladino</persName>
+                    <resp>Editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Pasquale Massimo Pinto</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">royal16_lat.xml</idno>
+                
+                <authority>University of Leipzig</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2017</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl>
+                    
+                    <msDesc>
+                        <msIdentifier xml:id="c13_lat" n="urn:cite:agathemerus:tlg0090.tlg001.msc13">
+                            <settlement>London</settlement>
+                            <repository>British Library</repository>
+                            <collection>Royal Manuscripts</collection>
+                            <idno>Royal MS 16 C IV Part 2</idno>
+                            
+                            
+                        </msIdentifier>
+                        
+                        <msContents xml:lang="eng">
+                            
+                            
+                            <msItem n="1">
+                                
+                                
+                                <locus>ff. 1-88</locus>
+                                <title>Latin verse translation of Tzetzes' Antehomerica, Homerica and Posthomerica and scholia, with verse arguments preceding each work</title>
+                                
+                                
+                            </msItem>
+                            
+                            <msItem n="2">
+                                <locus>f. 88v</locus>
+                                <title>An extract from the letter of Jean Perrelle prefixed to his 1535 edition of Theodorus Gaza, De mensibus</title>
+                                
+                            </msItem>
+                            <msItem n="3">
+                                
+                                <locus>ff. 90r-93v</locus>
+                                <title>Geographiae Expositio</title>
+                                <author>Agathemerus</author>
+                                
+                                <note>with a parallel Latin translation by Petrus Morellus and extensive scholia, imperfect, expl. 9.10, καί Ἰόνιον καὶ Ἀδρίαν.</note>
+                                <editor>
+                                    <persName xml:id="PM" xml:lang="lat">Petrus Morellus</persName>
+                                </editor>
+                            </msItem>
+                            
+                            
+                            <msItem n="4">
+                                <locus>ff. 94r</locus>
+                                
+                                <title>Latin notes on ancient geography</title>
+                                
+                            </msItem>
+                            
+                            <msItem n="5">
+                                <locus>ff. 94v-95r</locus>
+                                
+                                <title>Numerical references to epitaphs, 'ex libro iii', cap. 1-33</title>
+                                
+                            </msItem>
+                            
+                            <msItem n="6">
+                                <locus>ff. 96r-97r</locus>
+                                
+                                <title>Verses in Latin (against the Huguenots) and French (an acrostic in Hierome de Marnef, the printer, dated 19 August 1579)</title>
+                                
+                                
+                                
+                            </msItem>
+                            
+                            <msItem n="7">
+                                <locus>f. 97v</locus>
+                                <author>Petrus Morellus</author>
+                                <title>Epigram on Agathemerus, with Latin translation</title>
+                                
+                            </msItem>
+                            
+                            <msItem n="8">
+                                <locus>f. 98r</locus>
+                                
+                                <title>Draft of dedication in elegiac couplets of Morellus' translation of Tzetzes to Frédéric Morel</title>
+                                
+                            </msItem>
+                            
+                            
+                            
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc material="paper">
+                                    
+                                    
+                                    
+                                    <extent>
+                                        <measure type="composition" unit="leaf">98</measure>
+                                        <dimensions>
+                                            <height unit="mm">155</height>
+                                            <width unit="mm">115</width>
+                                        </dimensions>
+                                    </extent>
+                                    
+                                    <collation>
+                                        <p></p>
+                                    </collation>
+                                </supportDesc>
+                                
+                            </objectDesc>
+                            
+                            <handDesc hands="1">
+                                <handNote sameAs="#PM" scope="major" xml:lang="lat">
+                                    Petrus Morellus
+                                </handNote>
+                                
+                            </handDesc>
+                        </physDesc>
+                        
+                        <history>
+                            
+                            <origin>
+                                <origPlace>France</origPlace>
+                                <origDate>1565-1579</origDate>
+                            </origin>
+                            
+                            <acquisition/>
+                            
+                        </history>
+                        
+                    </msDesc>
+                    
+                    <bibl>
+                        
+                        <ref target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Royal_MS_16_C_IV_Part_2">British Library
+                        </ref>
+                    </bibl>
+                    
+                </listBibl>
+                
+                
+                
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        <xi:include href="file:/Users/Chiara/Dropbox/AGATEMERO/Manuscripts/Glyphs/glyphs.xml"/> 
+        <encodingDesc>
+            <projectDesc>
+                <ab>
+                    <title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>
+                </ab>
+            </projectDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+         		
+			<refsDecl n="CTS">
+				<cRefPattern n="section" matchPattern="(.+).(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+					<p>This pointer pattern extracts chapters and sections</p>
+				</cRefPattern>
+				<cRefPattern n="chapter" matchPattern="(.+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+					<p>This pointer pattern extracts chapters</p>
+				</cRefPattern>
+			</refsDecl>
+		
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="lat">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change who="Chiara Palladino" when="2017-09-17">Created the XML file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" subtype="translation"  xml:lang="lat" n="urn:cts:greekLit:tlg.0090.tlg001.msc13-lat">
+                
+                 <head><title type="main">
+                     <pb n="90R" xml:id="F90R"/>
+                     <lb n="1" xml:id="F90R_1b"/>
+                     AGATHEMERI Otho-
+                     <lb n="2" xml:id="F90R_2b" break="no"/>nis Geographiae Dispo-
+                     <lb n="3" xml:id="F90R_3b" break="no"/>sitio. P. Morello interprete. 
+                 
+                 </title></head>
+
+      
+
+                <div type="textpart" subtype="chapter" n="1">
+                    <div type="textpart" subtype="section" n="1">
+                        <p> 
+                            <lb n="4" xml:id="F90R_4b"/>ANAXIMANDER 
+                            <lb n="5" xml:id="F90R_5b"/>Milesius Thaletis auditor 
+                            <lb n="6" xml:id="F90R_6b"/>primus orbem terrarum tabu-
+                            <lb n="7" xml:id="F90R_7b" break="no"/>la exprimere aggressus est. 
+                            <lb n="8" xml:id="F90R_8b"/>quem subsecutus <hi rend="underline">Hecataeus</hi> 
+                            <lb n="9" xml:id="F90R_9b"/>Milesius vir peragratis
+                            <lb n="10" xml:id="F90R_10b"/>multis locis clarus rem 
+                            <lb n="11" xml:id="F90R_11b"/>exactius tractavit, ut
+                            <lb n="12" xml:id="F90R_12b"/>iam admirationi esset. Hel-
+                            <lb n="13" xml:id="F90R_13b" break="no"/>lanicus autem Lesbius multiu-
+                            <lb n="14" xml:id="F90R_14b" break="no"/>g<subst><del rend="erasure">a</del><add rend="overstrike">i</add></subst> rerum cognitione celebris, 
+                            <lb n="15" xml:id="F90R_15b"/>ci<add rend="overstrike">t</add>ra fucum bellum aut ﬁgmen-
+                            <lb n="16" xml:id="F90R_16b" break="no"/>tum  historiam locorum iam contexu-
+                            <lb n="17" xml:id="F90R_17b" break="no"/>erat hominibusque legendam <subst><add place="margin"><sic>axposuerat</sic></add> <del rend="erasure">tra-
+                            <lb n="18" xml:id="F90R_18b"/>diderat.</del></subst> Successit Damastes Cyt
+                            <lb n="19" xml:id="F90R_19b" break="no"/>tieus qui maiore <subst><del rend="erasure">scriptorum</del><add place="above" rend="red_ink">commentariorum</add></subst> parte
+                            <lb n="20" xml:id="F90R_20b"/>ex hecataei sortibus hausta, de
+                            <lb n="21" xml:id="F90R_21b"/>navigatione ita ut per circuitum
+                            <lb n="22" xml:id="F90R_22b"/>absolvitur, libros <unclear reason="erasure">edidit</unclear>, <del rend="erasure">tuum</del>
+                            <lb n="23" xml:id="F90R_23b"/>Democritus Eudoxu aliquotque
+                            <lb n="24" xml:id="F90R_24b"/>alij subsecuti viarum navigatio-
+                            <lb n="25" xml:id="F90R_25b" break="no"/>numque <unclear>aftractis</unclear> scriptis designa-
+                            <lb n="26" xml:id="F90R_26b" break="no"/>verunt. 
+                        </p>
+                    </div>
+               
+                    <div type="textpart" subtype="section" n="2">
+                        <p><lb n="26" sameAs="#F90R_26b"/>Veteres itaque 
+                            <pb n="90V" xml:id="F90V"/>
+                            <lb n="1" xml:id="F90V_1b"/>terram rotundam esse <g ref="#symb1"/> <add place="above"><g ref="#symb1"/>prodiderunt</add>, cuius in 
+                            <lb n="2" xml:id="F90V_2b"/>meditullio Graecia tanquam Regi-
+                            <lb n="3" xml:id="F90V_3b"/>na sedeat, in qua vicissim me
+                            <lb n="4" xml:id="F90V_4b" break="no"/>dium ubi locum Delphi vendicet.
+                            <lb n="5" xml:id="F90V_5b"/>apud quos terrarum umbilicus
+                            <lb n="6" xml:id="F90V_6b"/>esse feratur. <del rend="erasure" unit="character" quantity="1"/> Porro primus 
+                            <lb n="7" xml:id="F90V_7b"/>omnium Democritus varia vir
+                            <lb n="8" xml:id="F90V_8b"/>experientia nobilis terram in longum
+                            <lb n="9" xml:id="F90V_9b"/>protendi deprehendit. cuius nimirum
+                            <lb n="10" xml:id="F90V_10b"/>longitudo latitudinem hemiolio
+                            <lb n="11" xml:id="F90V_11b"/>superet. <unclear reason="erasure">Huic</unclear> Dicaearchus quoque peripateticus
+                            <lb n="12" xml:id="F90V_12b"/>astipulatur. Eudoxus
+                            <lb n="13" xml:id="F90V_13b"/>longitudinem latitudine
+                            <lb n="14" xml:id="F90V_14b"/>maiorem duplo, Era<subst><del rend="erasure">st</del><add rend="overstrike">t</add></subst>osthe-
+                            <lb n="15" xml:id="F90V_15b" break="no"/>nes plus quam duplo existimat. 
+                            <lb n="16" xml:id="F90V_16b"/>terrae <del rend="erasure">figuram</del> Cra-
+                            <lb n="17" xml:id="F90V_17b" break="no"/>tes semicirculi, hippar-
+                            <lb n="18" xml:id="F90V_18b" break="no"/>chus mensae, <g ref="#symb1"/> <add place="above"><g ref="#symb1"/> figuram tribuit</add> sunt qui ita
+                            <lb n="19" xml:id="F90V_19b"/>navalis instar se habere 
+                            <lb n="20" xml:id="F90V_20b"/><unclear reason="erasure">dix</unclear>rant. <space unit="character" quantity="3"/> Posidonius
+                            <lb n="21" xml:id="F90V_21b"/>stoicus fundae similem 
+                            <lb n="22" xml:id="F90V_22b"/>esse scripsit. ita ut la-
+                            <lb n="23" xml:id="F90V_23b" break="no"/>tius se ab Austro ad
+                            
+                            <pb n="91R" xml:id="F91R"/>
+                            <lb n="1" xml:id="F91R_1b"/>Aquilonem, strictius ab ortu ad
+                            <lb n="2" xml:id="F91R_2b"/>occasum exerat. quamvis Ori-
+                            <lb n="3" xml:id="F91R_3b" break="no"/>entalis plaga qua Indiam spe-
+                            <lb n="4" xml:id="F91R_4b" break="no"/>ctat, latius paulo extendi vi-
+                            <lb n="5" xml:id="F91R_5b" break="no"/>deatur. <del rend="erasure" unit="character" quantity="1"/>  
+                              </p>
+                    </div>
+              
+                    <div type="textpart" subtype="section" n="3">
+                        <p>
+                            <lb n="5" sameAs="#F91R_1b"/>Terrarum continen-
+                            <lb n="6" xml:id="F91R_6b" break="no"/>tium termini sunt, Europae qui-
+                            <lb n="7" xml:id="F91R_7b" break="no"/>dem et Africae, Herculis columnae.
+                            <lb n="8" xml:id="F91R_8b"/>Africae vero et Asiae, Nilus. 
+                            <lb n="9" xml:id="F91R_9b"/>velut alij volunt, Isthmus 
+                            <lb n="10" xml:id="F91R_10b"/>ille qui Sarbonidi paludi Ara-
+                            <lb n="11" xml:id="F91R_11b" break="no"/>bicoque sinui medius interiacet. 
+                            <lb n="12" xml:id="F91R_12b"/>Asiae autem et Europae terminos 
+                            <lb n="13" xml:id="F91R_13b"/>antiqui <del rend="erasure" unit="character" quantity="1"/> Phasin f<add place="above">luvium</add>, alij Isth-
+                            <lb n="14" xml:id="F91R_14b" break="no"/>mum, qui ad Caspium mare proten-
+                        <lb n="15" xml:id="F91R_15b" break="no"/>ditur: recentiores vero Mae-
+                            <lb n="16" xml:id="F91R_16b" break="no"/>otidem paludem, ﬂuvium-
+                                <lb n="17" xml:id="F91R_17b" break="no"/>que Tanain esse dixerunt. </p>
+                    </div>
+              
+                    <div type="textpart" subtype="section" n="4">
+                        <p> 
+                            <lb n="18" xml:id="F91R_18b"/><del rend="erasure" quantity="1" unit="character"/> Porro continentes terrae
+                            <lb n="19" xml:id="F91R_19b"/>a Graecis  <foreign xml:lang="grc">ἤπειροι</foreign> quasi 
+                            <lb n="20" xml:id="F91R_20b"/><foreign xml:lang="grc">ἄπειροι</foreign>, <subst><del rend="erasure">hoc est in</del> <add place="above">denominati sunt quod</add></subst> infi-
+                            <lb n="21" xml:id="F91R_21b" break="no"/>nitis <add place="above">spacijs</add> excurrentes <subst><del rend="erasure" quantity="7" unit="character"/>                        
+                            <lb n="22" xml:id="F91R_22b"/><del rend="erasure">itaque propter</del> <add place="above">ab hominibus fere</add></subst> <del rend="erasure">ut facile</del> igno-
+                            <lb n="23" xml:id="F91R_23b" break="no"/>rentur <del rend="erasure">denominatae sunt</del>. Asia
+                            <lb n="24" xml:id="F91R_24b"/>vero <g ref="#symb1"/><add place="below">dicitur</add> <foreign xml:lang="grc">ἀπὸ τοῦ ἆσσον ἰέναι</foreign> ab eo 
+                            <pb n="91V" xml:id="F91V"/>
+                            
+                            <lb n="1" xml:id="F91V_1b"/><subst><del rend="erasure">Insulae</del> <add place="above" rend="red_ink">Cuiusmodi</add></subst> sunt Euboea, Andros, Te-
+                            <lb n="2" xml:id="F91V_2b" break="no"/>nos, Myconos, Icaria, Samos, My-
+                            <lb n="3" xml:id="F91V_3b" break="no"/>cale. Caeterum Europa ab Euro
+                            <lb n="4" xml:id="F91V_4b"/>vento <g ref="#symb1"/> <add place="above">id</add> nominis sortita est. Li-
+                            <lb n="5" xml:id="F91V_5b" break="no"/>byae <g ref="#symb1"/> <add place="below">etymon</add> Graeci<del rend="erasure">s</del> prorsus ignorant.
+                            <lb n="6" xml:id="F91V_6b"/>Porro qui<add place="above">a</add> nauti-
+                            <lb n="7" xml:id="F91V_7b" break="no"/>cam exercent Phoenicum <g ref="#symb1"/> no-
+                            <lb n="8" xml:id="F91V_8b" break="no"/>men a percelebri nimirum
+                            <lb n="9" xml:id="F91V_9b"/>gente adepti sunt. Ocea-
+                            <lb n="10" xml:id="F91V_10b" break="no"/>nus dicitur quod celeri flu-
+                            <lb n="11" xml:id="F91V_11b" break="no"/>xu terram ambiat. 
+                                    
+                      </p>
+                    </div>
+                
+                    <div type="textpart" subtype="section" n="5">
+                        <p>
+                            <lb n="12" xml:id="F91V_12b" break="no"/>Dicaearchus terrae<del rend="erasure">m</del> ter-
+                            <lb n="13" xml:id="F91V_13b" break="no"/>minos non aquis adscri-
+                            <lb n="14" xml:id="F91V_14b" break="no"/>bit, sed lineae seu sectio-
+                            <lb n="15" xml:id="F91V_15b" break="no"/>ni <del rend="erasure">recta qu</del> quam nihil
+                            <lb n="16" xml:id="F91V_16b"/>intersecet, verum quae re-
+                            <lb n="17" xml:id="F91V_17b" break="no"/>cta ab Herculis columnis 
+                            <lb n="18" xml:id="F91V_18b"/>per Sardiniam, Siciliam, pe-
+                            <lb n="19" xml:id="F91V_19b" break="no"/>loponesum, Cariam, Lyciam,
+                            <lb n="20" xml:id="F91V_20b"/>pamphiliam, Ciliciam,
+                            <lb n="21" xml:id="F91V_21b"/>et Taurum ad usque mon-
+                            <lb n="22" xml:id="F91V_22b" break="no"/>tem Imaium pene-
+                            <lb n="23" xml:id="F91V_23b" break="no"/>tret. ita ut
+                            
+                            <pb n="92R" xml:id="F92R"/>
+                            <lb n="1" xml:id="F92R_1b"/>Regionum alia <note place="above">Aquilonaris</note> <add rend="overstrike">S</add>eptentriona-
+                            <lb n="2" xml:id="F92R_2b" break="no"/>lis alia Australis dicatur. </p>
+                    </div>
+                </div>
+
+
+                <div type="textpart" subtype="chapter" n="2">
+                    <div type="textpart" subtype="section" n="6">
+                        <p> 
+                            <lb n="3" xml:id="F92R_3b"/>Quod ad ventos attinet <g ref="#symb1"/> <del rend="erasure"><hi rend="superscript">spirat</hi></del> ab
+                            <lb n="4" xml:id="F92R_4b"/>or<del quantity="2" unit="character" rend="erasure"/>tu aequinoctiali subsola-
+                            <lb n="5" xml:id="F92R_5b" break="no"/>nus, ab aequinoctiali occasu
+                            <lb n="6" xml:id="F92R_6b"/>Zephyrus. a meridie Auster. 
+                            <lb n="7" xml:id="F92R_7b"/>A septentrione Aquilo spirat. 
+                            <lb n="8" xml:id="F92R_8b"/>Ab aestivo autem s<unclear reason="erasure">ol</unclear>stitio cae-
+                            <lb n="9" xml:id="F92R_9b" break="no"/>cias. atque adeo ab ortu
+                            <lb n="10" xml:id="F92R_10b"/>aequinoctiali subsolanus, ab
+                            <lb n="11" xml:id="F92R_11b"/>hyberno Eurus. Occiden-
+                                <lb n="12" xml:id="F92R_12b" break="no"/>talis porro ventus est <del rend="erasure">libs</del>
+                            <lb n="13" xml:id="F92R_13b"/>Africus ab occasu hyberno
+                            <lb n="14" xml:id="F92R_14b"/>flans. atque ita denuo ab ae-
+                            <lb n="15" xml:id="F92R_15b" break="no"/>quinoctiali occasu Zephy-
+                            <lb n="16" xml:id="F92R_16b" break="no"/>rus. ab aestivo occasu,
+                            <lb n="17" xml:id="F92R_17b"/>Argestes sive Caurus, 
+                            <lb n="18" xml:id="F92R_18b"/>qui et Olympias dicitur.
+                            <lb n="19" xml:id="F92R_19b"/>Postremo Auster et Aqui-
+                            <lb n="20" xml:id="F92R_20b" break="no"/>lo <del rend="erasure">cont</del> adversis ex Di-
+                            <lb n="21" xml:id="F92R_21b" break="no"/>ametro spiritibus se im-
+                            <lb n="22" xml:id="F92R_22b" break="no"/>petunt. Inde perspicuum est
+                            <lb n="23" xml:id="F92R_23b"/>octo esse ventos. 
+                            </p>
+                    </div>
+               
+                    <div type="textpart" subtype="section" n="7">
+                        <p>
+                            <lb n="23" sameAs="#F92R_23b"/>Timosthe-
+                            <lb n="24" xml:id="F92R_24b" break="no"/>nes autem qui de navigatio-
+                            <lb n="25" xml:id="F92R_25b" break="no"/>nibus scripsit, duodecim ven-
+                                <lb n="26" xml:id="F92R_26b" break="no"/>tos esse confirmat Boreae
+                            <pb n="92V" xml:id="F92V"/>
+                            
+                            <lb n="1" xml:id="F92V_1b"/>inter <del rend="erasure">Aqui</del> Septentrionem et caeciam
+                            <lb n="2" xml:id="F92V_2b"/>phoenici <g ref="#symb1"/> <add place="below"><g ref="#symb1"/>qui et Euronotus</add> inter Eurum et Austrum
+                            <lb n="3" xml:id="F92V_3b"/>Leuconoto
+                            <lb n="4" xml:id="F92V_4b"/>seu Libonoto inter Austrum
+                            <lb n="5" xml:id="F92V_5b"/>et Africum. Denique Thraciae
+                            <lb n="6" xml:id="F92V_6b"/>seu Circio inter Septentrio-
+                            <lb n="7" xml:id="F92V_7b" break="no"/>nem et Caurum mediam sedem ita
+                            <lb n="8" xml:id="F92V_8b"/>tribuens, ut <del rend="erasure">quisque</del><unclear unit="character" quantity="5" reason="erasure"/> <add place="above">insuli</add>
+                            <lb n="9" xml:id="F92V_9b"/>proximis quibusque subia-
+                            <lb n="10" xml:id="F92V_10b" break="no"/>ceant. <del rend="erasure" quantity="1" unit="character"/> De gentibus aut
+                            <lb n="11" xml:id="F92V_11b"/><del rend="erasure">Batrianos in</del> extremas <add place="margin">orbis oras incolens</add>
+                            <lb n="12" xml:id="F92V_12b"/>subsolanum Bactrianos <unclear reason='erasure'/> Eu-
+                            <lb n="13" xml:id="F92V_13b" break="no"/>ro<unclear reason="erasure"/> Indos. Phoenici ma-
+                            <lb n="14" xml:id="F92V_14b" break="no"/>re rubrum cum Aethiopia. Austro
+                            <lb n="15" xml:id="F92V_15b"/>eam Aetiopiae partem quae ul-
+                            <lb n="16" xml:id="F92V_16b" break="no"/>tra Aegyptum diffunditur. 
+                            <lb n="17" xml:id="F92V_17b"/>Leuconoto Garamantas qui
+                            <lb n="18" xml:id="F92V_18b"/>trans <g ref="#symb1"/> <add place="interlinear"><g ref="#symb1"/>utraque</add> Syrtin habitat, Africo
+                            <lb n="19" xml:id="F92V_19b"/>Aethiopas et 
+                            <lb n="20" xml:id="F92V_20b"/>occidentales hypermauros. 
+                            <lb n="21" xml:id="F92V_21b"/>Zephyro columnas herculis
+                            <lb n="22" xml:id="F92V_22b"/>cum <del rend="erasure">Europae</del> Africae et
+                            <lb n="23" xml:id="F92V_23b"/>Europae initiis 
+                            <pb n="93R" xml:id="F93R"/>
+                            
+                            <lb n="1" xml:id="F93R_1b"/>Argestae seu Cauro Iberiam
+                            <lb n="2" xml:id="F93R_2b"/>quae nunc hispania dicitur
+                            <lb n="3" xml:id="F93R_3b"/>Thrasciae Scythas illos
+                            <lb n="4" xml:id="F93R_4b"/>qui ultra Thraciam inco
+                            <lb n="5" xml:id="F93R_5b" break="no"/>lunt. Aquiloni portum Maeoti-
+                            <lb n="6" xml:id="F93R_6b" break="no"/>dem paludem et Sarmatas. 
+                            <lb n="7" xml:id="F93R_7b"/>Caeciae denique Caspium mare 
+                            <lb n="8" xml:id="F93R_8b"/>idem autor assignat.
+                            
+                             </p>
+                    </div>
+                </div>
+
+
+                <div type="textpart" subtype="chapter" n="3">
+                    <div type="textpart" subtype="section" n="8">
+                        <p>
+                            <lb n="9" xml:id="F93R_9b"/><subst><del rend="erasure">Ad Lybiae</del><add place="below">Praeterea</add></subst> Syrtis maior ad 
+                            <lb n="10" xml:id="F93R_10b"/>5000 stadia, 
+                            <lb n="11" xml:id="F93R_11b"/>minor ad 1500 protenditur.
+                            <lb n="12" xml:id="F93R_12b"/>Fauces Adriatici maris <g ref="#symb1"/><add place="below"><g ref="#symb1"/>quas</add> Jo-
+                            <lb n="13" xml:id="F93R_13b" break="no"/>nium mare nonnulli 
+                            <lb n="14" xml:id="F93R_14b"/>vocant navigationi ad stadia
+                            <lb n="15" xml:id="F93R_15b"/>1700 <del rend="erasure">patent</del> nimirum ab Apu-
+                            <lb n="16" xml:id="F93R_16b" break="no"/>liae promontorio ad Epiri
+                            <lb n="17" xml:id="F93R_17b"/>montes Acroceraunia pa-
+                            <lb n="18" xml:id="F93R_18b" break="no"/>tent.
+                           </p>
+                    </div>
+               
+                    <div type="textpart" subtype="section" n="9">
+                        <p> 
+                            <lb n="18" sameAs="F93R_18b"/>Aegaeum excipit helles-
+                            <lb n="19" xml:id="F93R_19b" break="no"/>pontus quod quidem <del rend="erasure">apud</del> ad
+                            <lb n="20" xml:id="F93R_20b"/>Abydum et Sestum desinit:
+                            <lb n="21" xml:id="F93R_21b"/>propontis <subst><del rend="erasure">sequitur</del><add place="above">succedit</add></subst> quae
+                            <lb n="22" xml:id="F93R_22b"/>Chalcedone et Byzantio
+                            <lb n="23" xml:id="F93R_23b"/>concluditur. 
+                           
+                            <pb n="93V" xml:id="F93V"/>
+                            <lb n="1" xml:id="F93V_1b"/>iam sunt <subst><del rend="erasure">fauces</del><add place="inline">angu-
+                                <lb n="2" xml:id="F93V_2b" break="no"/>stiae</add></subst> a quibus initium pon-
+                            <lb n="3" xml:id="F93V_3b" break="no"/>tus habet. postremum sibi locum
+                            <lb n="4" xml:id="F93V_4b"/>palus Maeotis <g ref="#symb1"/><add place="above">vendicat</add> Atque ut
+                            <lb n="5" xml:id="F93V_5b"/>hinc ad initium Europae
+                            <lb n="6" xml:id="F93V_6b"/>et Africae revertantur, Ibe-
+                            <lb n="7" xml:id="F93V_7b" break="no"/>ricum mare a columnis herculis
+                            <lb n="8" xml:id="F93V_8b"/>ad Pyrenem montem excurrit Li-
+                            <lb n="9" xml:id="F93V_9b" break="no"/>gusticum inde ad Tusciae finis. 
+                            <lb n="10" xml:id="F93V_10b"/>Sardoum quod <del rend="erasure">supra</del> Sardiniam 
+                            <lb n="11" xml:id="F93V_11b"/>vergit in Africam. Tyrrenum
+                            <lb n="12" xml:id="F93V_12b"/>quod a Ligurum promontoriis
+                            <lb n="13" xml:id="F93V_13b"/>ad Siciliam usque patet.
+                            <lb n="14" xml:id="F93V_14b"/>Deinde Libycum, Creticum, 
+                            <lb n="15" xml:id="F93V_15b"/>Siculum, Ionium et Adriaticum </p>
+                           
+                    
+
+    </div>
+</div>
+
+            <fw type="subscription">FINIS</fw>
+            
+            <pb n="94R"/>
+            </div>
+
+        </body>
+    </text>
+</TEI>

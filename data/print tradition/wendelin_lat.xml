@@ -1,0 +1,1969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wendelin_lat" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="lat">Geographiae Informatio</title>
+                <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+                    >Agathemerus</author>
+                <author role="editor"/>
+                <author role="translator"/>
+                <sponsor>University of Leipzig</sponsor>
+                <sponsor>Università degli Studi di Bari Aldo Moro</sponsor>
+                <respStmt>
+                    <persName xml:id="CP">Chiara Palladino</persName>
+                    <resp>Editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Pasquale Massimo Pinto</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">wendelin_lat.xml</idno>
+                
+                <authority>University of Leipzig</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2017</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    
+                	<msDesc xml:id="wendelin" n="urn:cite:agathemerus:tlg.0090.tlg001.wendelin">
+                        
+                        <msIdentifier>
+                            <settlement>Göttingen</settlement>
+                            <repository>Niedersächsische Staats- und
+                                Universitätsbibliothek</repository>
+                            <collection>Ms. philol.</collection>
+                            <idno>8 Cod. Ms. philol. 75</idno>
+                            
+                        </msIdentifier>
+                        
+                        <msContents>
+                            
+                            <msItem>
+                                
+                                <locus>fols. 1-27</locus>
+                                
+                                
+                                <author>Agathemerus</author>
+                                
+                                <title xml:lang="lat">Agathemeris Orthonis f. Geographiae
+                                    Repraesentatio Compendiaria. Ex bibl. Jo. Jac. Chifletii
+                                    depromebat vertebatque Godefr. Wendelinus. <title
+                                        ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg0090.tlg001"
+                                    />
+                                </title>
+                                <editor xml:id="GW" ref="https://viaf.org/viaf/37002606/">
+                                    <persName>
+                                        <name xml:lang="deu">Gottfried Wendelin</name>
+                                        <addName xml:lang="lat">Godefridus Wendelinus</addName>
+                                    </persName>
+                                </editor>
+                                <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+                                    >Agathemerus </author>
+                                
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <handDesc hands="1">
+                                <handNote sameAs="#GW" scope="major">
+                                    Gottfried Wendelin</handNote>
+                            </handDesc>
+                        </physDesc>
+                    </msDesc>
+                    
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        
+    	<xi:include href="file:/Users/Chiara/Dropbox/AGATEMERO/Manuscripts/Glyphs/glyphs.xml"/>
+    	
+        <encodingDesc>
+            <projectDesc>
+                <ab>
+                    <title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>
+                </ab>
+            </projectDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+            
+            <refsDecl n="CTS">
+                <cRefPattern n="section" matchPattern="(.+).(.+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+                    <p>This pointer pattern extracts chapters and sections</p>
+                </cRefPattern>
+                <cRefPattern n="chapter" matchPattern="(.+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                    <p>This pointer pattern extracts chapters</p>
+                </cRefPattern>
+            </refsDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="lat">Latin</language>
+                <language ident="grc">Greek</language>
+                <language ident="deu">German</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change who="CP" when="2017-10-08">Created the XML file</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id='facs_1'>
+		<surface ulx='0' uly='0' lrx='3315' lry='2477' corresp='0001_Wendelin-Agathemerus-1.png'>
+			<graphic url='0001_Wendelin-Agathemerus-1.png' width='3315px' height='2477px'/>
+			<zone points='146,75 2348,75 2348,3225 146,3225' rendition='TextRegion' xml:id='facs_1_region_1507487254270_47'>
+				<zone points='400,381 1650,381 1650,278 400,278' rendition='Line' xml:id='facs_1_line_1507487257783_48'/>
+				<zone points='570,504 1504,504 1504,414 570,414' rendition='Line' xml:id='facs_1_line_1507487259778_49'/>
+				<zone points='339,811 2131,811 2131,523 339,523' rendition='Line' xml:id='facs_1_line_1507487262087_50'/>
+				<zone points='688,994 1862,994 1862,829 688,829' rendition='Line' xml:id='facs_1_line_1507487264218_51'/>
+				<zone points='759,1127 1834,1127 1834,1004 759,1004' rendition='Line' xml:id='facs_1_line_1507487266043_52'/>
+				<zone points='839,1301 1556,1301 1556,1141 839,1141' rendition='Line' xml:id='facs_1_line_1507487267670_53'/>
+				<zone points='353,1532 1683,1532 1683,1353 353,1353' rendition='Line' xml:id='facs_1_line_1507487269768_54'/>
+				<zone points='570,1683 1310,1683 1310,1551 570,1551' rendition='Line' xml:id='facs_1_line_1507487271430_55'/>
+				<zone points='330,1834 1348,1834 1348,1721 330,1721' rendition='Line' xml:id='facs_1_line_1507487273700_56'/>
+				<zone points='462,1989 2046,1989 2046,1862 462,1862' rendition='Line' xml:id='facs_1_line_1507487276119_57'/>
+				<zone points='504,2121 1277,2121 1277,1994 504,1994' rendition='Line' xml:id='facs_1_line_1507487278120_58'/>
+				<zone points='509,2258 1211,2258 1211,2145 509,2145' rendition='Line' xml:id='facs_1_line_1507487279926_59'/>
+				<zone points='273,2414 2041,2414 2041,2258 273,2258' rendition='Line' xml:id='facs_1_line_1507487282413_60'/>
+				<zone points='405,2527 1433,2527 1433,2437 405,2437' rendition='Line' xml:id='facs_1_line_1507487284943_61'/>
+				<zone points='400,2716 1504,2716 1504,2569 400,2569' rendition='Line' xml:id='facs_1_line_1507487288256_62'/>
+			</zone>
+		</surface>
+	</facsimile> <!--
+	<facsimile xml:id='facs_2'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0002_Wendelin-Agathemerus-2.png'>
+			<graphic url='0002_Wendelin-Agathemerus-2.png' width='3319px' height='2473px'/>
+			<zone points='74,91 2415,91 2415,1780 74,1780' rendition='TextRegion' xml:id='facs_2_region_1507487462668_63'>
+				<zone points='744,263 1831,263 1831,125 744,125' rendition='Line' xml:id='facs_2_line_1507487472760_65'/>
+				<zone points='223,400 2260,452 2260,355 223,303' rendition='Line' xml:id='facs_2_line_1507487475244_66'/>
+				<zone points='389,498 2123,532 2123,474 389,440' rendition='Line' xml:id='facs_2_line_1507487483348_67'/>
+				<zone points='498,589 2319,637 2326,548 505,500' rendition='Line' xml:id='facs_2_line_1507487491043_68'/>
+				<zone points='522,666 2289,737 2289,674 522,603' rendition='Line' xml:id='facs_2_line_1507487493479_69'/>
+				<zone points='521,756 2309,822 2312,738 524,672' rendition='Line' xml:id='facs_2_line_1507487495457_70'/>
+				<zone points='528,842 2288,907 2292,829 532,764' rendition='Line' xml:id='facs_2_line_1507487497419_71'/>
+				<zone points='515,955 1957,955 1957,887 515,887' rendition='Line' xml:id='facs_2_line_1507487499556_72'/>
+				<zone points='171,1059 2375,1059 2375,973 171,973' rendition='Line' xml:id='facs_2_line_1507487502291_73'/>
+				<zone points='177,1127 2244,1127 2244,1047 177,1047' rendition='Line' xml:id='facs_2_line_1507487504614_74'/>
+				<zone points='166,1196 2347,1229 2341,1133 166,1133' rendition='Line' xml:id='facs_2_line_1507487512950_75'/>
+				<zone points='171,1305 2306,1305 2306,1213 172,1171' rendition='Line' xml:id='facs_2_line_1507487515757_76'/>
+				<zone points='194,1362 2312,1362 2312,1305 194,1305' rendition='Line' xml:id='facs_2_line_1507487518383_77'/>
+				<zone points='177,1471 2318,1471 2318,1362 177,1362' rendition='Line' xml:id='facs_2_line_1507487520688_78'/>
+				<zone points='194,1557 2335,1557 2335,1476 194,1476' rendition='Line' xml:id='facs_2_line_1507487522868_79'/>
+				<zone points='137,1648 2261,1648 2261,1545 137,1545' rendition='Line' xml:id='facs_2_line_1507487524814_80'/>
+				<zone points='274,1757 1482,1757 1482,1648 274,1648' rendition='Line' xml:id='facs_2_line_1507487526672_81'/>
+			</zone>
+			<zone points='80,400 469,400 469,893 80,893' rendition='Graphic' xml:id='facs_2_Graphic_1507487469866_64'/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_3'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0003_Wendelin-Agathemerus-3.png'>
+			<graphic url='0003_Wendelin-Agathemerus-3.png' width='3319px' height='2473px'/>
+			<zone points='57,103 2232,103 2232,3142 57,3142' rendition='TextRegion' xml:id='facs_3_region_1507487544887_82'>
+				<zone points='515,343 1557,343 1557,194 515,194' rendition='Line' xml:id='facs_3_line_1507487548615_83'/>
+				<zone points='686,457 1471,457 1471,343 686,343' rendition='Line' xml:id='facs_3_line_1507487550425_84'/>
+				<zone points='188,646 2043,646 2043,520 188,520' rendition='Line' xml:id='facs_3_line_1507487552756_85'/>
+				<zone points='223,727 1997,727 1997,641 223,641' rendition='Line' xml:id='facs_3_line_1507487555222_86'/>
+				<zone points='200,830 1974,830 1974,721 200,721' rendition='Line' xml:id='facs_3_line_1507487557380_87'/>
+				<zone points='223,904 2049,904 2049,807 223,807' rendition='Line' xml:id='facs_3_line_1507487559991_88'/>
+				<zone points='211,996 2106,996 2106,910 211,910' rendition='Line' xml:id='facs_3_line_1507487562315_89'/>
+				<zone points='251,1081 2083,1081 2083,984 251,984' rendition='Line' xml:id='facs_3_line_1507487564405_90'/>
+				<zone points='251,1184 2037,1184 2037,1064 251,1064' rendition='Line' xml:id='facs_3_line_1507487566623_91'/>
+				<zone points='228,1253 2049,1253 2049,1162 228,1162' rendition='Line' xml:id='facs_3_line_1507487568770_92'/>
+				<zone points='223,1356 1494,1356 1494,1242 223,1242' rendition='Line' xml:id='facs_3_line_1507487570932_93'/>
+				<zone points='228,1597 2078,1597 2078,1499 228,1499' rendition='Line' xml:id='facs_3_line_1507487573559_94'/>
+				<zone points='206,1705 2026,1705 2026,1608 206,1608' rendition='Line' xml:id='facs_3_line_1507487575705_95'/>
+				<zone points='228,1797 2089,1797 2089,1705 228,1705' rendition='Line' xml:id='facs_3_line_1507487577652_96'/>
+				<zone points='137,1906 2049,1906 2049,1808 137,1808' rendition='Line' xml:id='facs_3_line_1507487580811_97'/>
+				<zone points='246,1980 2026,1980 2026,1889 246,1889' rendition='Line' xml:id='facs_3_line_1507487583342_98'/>
+				<zone points='211,2078 2072,2078 2072,2003 211,2003' rendition='Line' xml:id='facs_3_line_1507487585425_99'/>
+				<zone points='274,2175 2060,2175 2060,2089 274,2089' rendition='Line' xml:id='facs_3_line_1507487587612_100'/>
+				<zone points='223,2249 2095,2249 2095,2181 223,2181' rendition='Line' xml:id='facs_3_line_1507487590189_101'/>
+				<zone points='240,2306 2049,2306 2049,2255 240,2255' rendition='Line' xml:id='facs_3_line_1507487592905_102'/>
+				<zone points='228,2415 2083,2415 2083,2341 228,2341' rendition='Line' xml:id='facs_3_line_1507487595784_103'/>
+				<zone points='234,2501 2112,2501 2112,2432 234,2432' rendition='Line' xml:id='facs_3_line_1507487597850_104'/>
+				<zone points='257,2576 2089,2576 2089,2501 257,2501' rendition='Line' xml:id='facs_3_line_1507487600277_105'/>
+				<zone points='234,2679 2089,2679 2089,2587 234,2587' rendition='Line' xml:id='facs_3_line_1507487602119_106'/>
+				<zone points='263,2770 2055,2770 2055,2661 263,2661' rendition='Line' xml:id='facs_3_line_1507487606527_107'/>
+				<zone points='246,2833 2055,2833 2055,2759 246,2759' rendition='Line' xml:id='facs_3_line_1507487608890_108'/>
+				<zone points='257,2913 1299,2913 1299,2827 257,2827' rendition='Line' xml:id='facs_3_line_1507487610660_109'/>
+			</zone>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_4'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0004_Wendelin-Agathemerus-4.png'>
+			<graphic url='0004_Wendelin-Agathemerus-4.png' width='3319px' height='2473px'/>
+			<zone points='85,74 475,74 475,2072 85,2072' rendition='TextRegion' xml:id='facs_4_region_1507487627452_110'>
+				<zone points='212,62 281,62 159,1943 90,1943' rendition='Line' xml:id='facs_4_line_1507487633672_111'/>
+				<zone points='260,67 323,67 226,1968 163,1968' rendition='Line' xml:id='facs_4_line_1507487636903_112'/>
+				<zone points='320,91 391,93 314,1916 243,1914' rendition='Line' xml:id='facs_4_line_1507487640086_113'/>
+				<zone points='384,136 451,166 398,1965 331,1935' rendition='Line' xml:id='facs_4_line_1507487643619_114'/>
+			</zone>
+			<zone points='469,194 2415,194 2415,3240 469,3240' rendition='TextRegion' xml:id='facs_4_region_1507487650393_115'>
+				<zone points='526,332 2341,332 2341,240 526,240' rendition='Line' xml:id='facs_4_line_1507487655875_116'/>
+				<zone points='492,429 2352,429 2352,343 492,343' rendition='Line' xml:id='facs_4_line_1507487658433_117'/>
+				<zone points='509,515 2358,515 2358,429 509,429' rendition='Line' xml:id='facs_4_line_1507487660596_118'/>
+				<zone points='486,595 2335,595 2335,509 486,509' rendition='Line' xml:id='facs_4_line_1507487662847_119'/>
+				<zone points='532,692 2324,692 2324,589 532,589' rendition='Line' xml:id='facs_4_line_1507487664912_120'/>
+				<zone points='480,767 2329,767 2329,669 480,669' rendition='Line' xml:id='facs_4_line_1507487667404_121'/>
+				<zone points='492,841 2318,841 2318,749 492,749' rendition='Line' xml:id='facs_4_line_1507487669511_122'/>
+				<zone points='498,933 2364,933 2364,835 498,835' rendition='Line' xml:id='facs_4_line_1507487671680_123'/>
+				<zone points='498,996 2387,996 2387,910 498,910' rendition='Line' xml:id='facs_4_line_1507487674203_124'/>
+				<zone points='492,1076 2335,1076 2335,990 492,990' rendition='Line' xml:id='facs_4_line_1507487676670_125'/>
+				<zone points='486,1167 2375,1167 2375,1076 486,1076' rendition='Line' xml:id='facs_4_line_1507487679452_126'/>
+				<zone points='480,1253 2364,1253 2364,1184 480,1184' rendition='Line' xml:id='facs_4_line_1507487681599_127'/>
+				<zone points='515,1345 2244,1345 2244,1242 515,1242' rendition='Line' xml:id='facs_4_line_1507487684042_128'/>
+				<zone points='475,1425 2375,1425 2375,1350 475,1350' rendition='Line' xml:id='facs_4_line_1507487686717_129'/>
+				<zone points='486,1511 2352,1511 2352,1431 486,1431' rendition='Line' xml:id='facs_4_line_1507487689376_130'/>
+				<zone points='498,1597 2312,1597 2312,1499 498,1499' rendition='Line' xml:id='facs_4_line_1507487691843_131'/>
+				<zone points='475,1683 2324,1683 2324,1602 475,1602' rendition='Line' xml:id='facs_4_line_1507487694278_132'/>
+				<zone points='480,1774 2329,1774 2329,1665 480,1665' rendition='Line' xml:id='facs_4_line_1507487696696_133'/>
+				<zone points='503,1849 2329,1849 2329,1745 503,1745' rendition='Line' xml:id='facs_4_line_1507487699027_134'/>
+				<zone points='509,1940 2318,1940 2318,1831 509,1831' rendition='Line' xml:id='facs_4_line_1507487701302_135'/>
+				<zone points='515,2026 2335,2026 2335,1917 515,1917' rendition='Line' xml:id='facs_4_line_1507487703678_136'/>
+				<zone points='492,2089 2329,2089 2329,1992 492,1992' rendition='Line' xml:id='facs_4_line_1507487705594_137'/>
+				<zone points='492,2198 2329,2198 2329,2089 492,2089' rendition='Line' xml:id='facs_4_line_1507487707804_138'/>
+				<zone points='515,2266 2312,2266 2312,2192 515,2192' rendition='Line' xml:id='facs_4_line_1507487710507_139'/>
+				<zone points='457,2369 1992,2369 1992,2278 457,2278' rendition='Line' xml:id='facs_4_line_1507487713158_140'/>
+				<zone points='555,2450 2358,2450 2358,2347 555,2347' rendition='Line' xml:id='facs_4_line_1507487715769_141'/>
+				<zone points='480,2535 2306,2535 2306,2461 480,2461' rendition='Line' xml:id='facs_4_line_1507487718760_142'/>
+				<zone points='480,2633 2369,2633 2369,2541 480,2541' rendition='Line' xml:id='facs_4_line_1507487721267_143'/>
+				<zone points='480,2719 2387,2719 2387,2621 480,2621' rendition='Line' xml:id='facs_4_line_1507487724171_144'/>
+				<zone points='486,2787 2272,2787 2272,2707 486,2707' rendition='Line' xml:id='facs_4_line_1507487726461_145'/>
+				<zone points='475,2885 2335,2885 2335,2805 475,2805' rendition='Line' xml:id='facs_4_line_1507487729080_146'/>
+				<zone points='480,2965 2318,2965 2318,2885 480,2885' rendition='Line' xml:id='facs_4_line_1507487731082_147'/>
+			</zone>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_5'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0005_Wendelin-Agathemerus-5.png'>
+			<graphic url='0005_Wendelin-Agathemerus-5.png' width='3319px' height='2473px'/>
+			<zone points='155,79 1861,79 1861,194 155,194' rendition='TextRegion' xml:id='facs_5_region_1507487839597_152'>
+				<zone points='234,168 1737,168 1737,94 234,94' rendition='Line' xml:id='facs_5_line_1507564076382_44'/>
+			</zone>
+			<zone points='132,228 2267,228 2267,3033 132,3033' rendition='TextRegion' xml:id='facs_5_region_1507487843156_153'>
+				<zone points='195,326 2067,326 2067,257 195,257' rendition='Line' xml:id='facs_5_line_1507487851434_156'/>
+				<zone points='229,417 2112,417 2112,337 229,337' rendition='Line' xml:id='facs_5_line_1507487853597_157'/>
+				<zone points='223,526 2067,526 2067,446 223,446' rendition='Line' xml:id='facs_5_line_1507487855454_158'/>
+				<zone points='212,612 2072,612 2072,532 212,532' rendition='Line' xml:id='facs_5_line_1507487857729_159'/>
+				<zone points='218,703 2072,703 2072,600 218,600' rendition='Line' xml:id='facs_5_line_1507487859722_160'/>
+				<zone points='212,789 2072,789 2072,709 212,709' rendition='Line' xml:id='facs_5_line_1507487862022_161'/>
+				<zone points='218,875 2038,875 2038,783 218,783' rendition='Line' xml:id='facs_5_line_1507487863876_162'/>
+				<zone points='212,967 2095,967 2095,875 212,875' rendition='Line' xml:id='facs_5_line_1507487865777_163'/>
+				<zone points='235,1035 2072,1035 2072,972 235,972' rendition='Line' xml:id='facs_5_line_1507487867871_164'/>
+				<zone points='212,1133 2067,1133 2067,1041 212,1041' rendition='Line' xml:id='facs_5_line_1507487870090_165'/>
+				<zone points='218,1219 2009,1219 2009,1133 218,1133' rendition='Line' xml:id='facs_5_line_1507487872300_166'/>
+				<zone points='206,1316 2032,1316 2032,1224 206,1224' rendition='Line' xml:id='facs_5_line_1507487874431_167'/>
+				<zone points='332,1407 2095,1407 2095,1344 332,1344' rendition='Line' xml:id='facs_5_line_1507487884641_168'/>
+				<zone points='200,1482 2038,1482 2038,1407 200,1407' rendition='Line' xml:id='facs_5_line_1507487887057_169'/>
+				<zone points='218,1585 2078,1585 2078,1493 218,1493' rendition='Line' xml:id='facs_5_line_1507487889225_170'/>
+				<zone points='223,1671 1975,1671 1975,1573 223,1573' rendition='Line' xml:id='facs_5_line_1507487891245_171'/>
+				<zone points='200,1762 2044,1762 2044,1665 200,1665' rendition='Line' xml:id='facs_5_line_1507487893184_172'/>
+				<zone points='195,1848 2067,1848 2067,1757 195,1757' rendition='Line' xml:id='facs_5_line_1507487909873_173'/>
+				<zone points='212,1923 2101,1923 2101,1860 212,1860' rendition='Line' xml:id='facs_5_line_1507487912159_174'/>
+				<zone points='212,2020 2124,2020 2124,1917 212,1917' rendition='Line' xml:id='facs_5_line_1507487914154_175'/>
+				<zone points='206,2112 2015,2112 2015,2003 206,2003' rendition='Line' xml:id='facs_5_line_1507487916126_176'/>
+				<zone points='240,2197 1906,2197 1906,2094 240,2094' rendition='Line' xml:id='facs_5_line_1507487918013_177'/>
+				<zone points='298,2272 2061,2272 2061,2175 298,2175' rendition='Line' xml:id='facs_5_line_1507487919896_178'/>
+				<zone points='212,2369 2147,2369 2147,2232 212,2232' rendition='Line' xml:id='facs_5_line_1507487928711_179'/>
+				<zone points='240,2455 2307,2455 2307,2358 240,2358' rendition='Line' xml:id='facs_5_line_1507487931243_180'/>
+				<zone points='212,2547 1300,2547 1300,2444 212,2444' rendition='Line' xml:id='facs_5_line_1507487933309_181'/>
+				<zone points='326,2633 2049,2633 2049,2518 326,2518' rendition='Line' xml:id='facs_5_line_1507487935487_182'/>
+				<zone points='212,2718 2084,2718 2084,2633 212,2633' rendition='Line' xml:id='facs_5_line_1507487937801_183'/>
+				<zone points='223,2804 2055,2804 2055,2707 223,2707' rendition='Line' xml:id='facs_5_line_1507487940625_184'/>
+				<zone points='218,2867 2078,2867 2078,2770 218,2770' rendition='Line' xml:id='facs_5_line_1507487943116_185'/>
+				<zone points='195,2965 1872,2965 1872,2890 195,2890' rendition='Line' xml:id='facs_5_line_1507487945126_186'/>
+			</zone>
+			<zone points='2376,1465 2101,1465 2101,726 2376,726' rendition='TextRegion' xml:id='facs_5_region_1507487847365_155'>
+				<zone points='2089,729 2410,729 2410,1387 2089,1387' rendition='Line' xml:id='facs_5_line_1507564829575_47'/>
+			</zone>
+			<zone points='172,3068 801,3068 801,3216 172,3216' rendition='TextRegion' xml:id='facs_5_region_1507487844918_154'>
+				<zone points='255,3072 706,3072 706,3199 255,3199' rendition='Line' xml:id='facs_5_line_1507564809993_46'/>
+			</zone>
+		</surface>
+	</facsimile>
+	<facsimile xml:id='facs_6'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0006_Wendelin-Agathemerus-6.png'>
+			<graphic url='0006_Wendelin-Agathemerus-6.png' width='3319px' height='2473px'/>
+			<zone points='86,171 2416,171 2416,3188 86,3188' rendition='TextRegion' xml:id='facs_6_region_1507487960328_187'>
+				<zone points='836,371 1763,371 1763,222 836,222' rendition='Line' xml:id='facs_6_line_1507487977465_188'/>
+				<zone points='967,497 1660,497 1660,348 967,348' rendition='Line' xml:id='facs_6_line_1507487979171_189'/>
+				<zone points='698,612 1992,612 1992,463 698,463' rendition='Line' xml:id='facs_6_line_1507487980933_190'/>
+				<zone points='990,703 1500,703 1500,600 990,600' rendition='Line' xml:id='facs_6_line_1507487982325_191'/>
+				<zone points='933,864 1626,864 1626,675 933,675' rendition='Line' xml:id='facs_6_line_1507487983919_192'/>
+				<zone points='779,1012 2318,1012 2318,869 779,869' rendition='Line' xml:id='facs_6_line_1507487986250_193'/>
+				<zone points='647,1133 2238,1133 2238,984 647,984' rendition='Line' xml:id='facs_6_line_1507487988356_194'/>
+				<zone points='790,1299 2210,1299 2210,1127 790,1127' rendition='Line' xml:id='facs_6_line_1507487990279_195'/>
+				<zone points='1030,1419 1597,1419 1597,1299 1030,1299' rendition='Line' xml:id='facs_6_line_1507487992025_196'/>
+				<zone points='475,1619 2364,1619 2364,1465 475,1465' rendition='Line' xml:id='facs_6_line_1507487995224_197'/>
+				<zone points='481,1682 2359,1682 2359,1596 481,1596' rendition='Line' xml:id='facs_6_line_1507487997907_198'/>
+				<zone points='487,1785 2347,1785 2347,1682 487,1682' rendition='Line' xml:id='facs_6_line_1507488000917_199'/>
+				<zone points='492,1888 2364,1888 2364,1791 492,1791' rendition='Line' xml:id='facs_6_line_1507488003332_200'/>
+				<zone points='481,1997 2238,1997 2238,1883 481,1883' rendition='Line' xml:id='facs_6_line_1507488005566_201'/>
+				<zone points='143,2123 498,2123 498,2003 143,2003' rendition='Line' xml:id='facs_6_line_1507488010243_202'/>
+				<zone points='521,2106 2416,2106 2416,2009 521,2009' rendition='Line' xml:id='facs_6_line_1507488013338_203'/>
+				<zone points='498,2203 2387,2203 2387,2100 498,2100' rendition='Line' xml:id='facs_6_line_1507488015773_204'/>
+				<zone points='510,2329 2359,2329 2359,2192 510,2192' rendition='Line' xml:id='facs_6_line_1507488017695_205'/>
+				<zone points='510,2415 1666,2415 1666,2318 510,2318' rendition='Line' xml:id='facs_6_line_1507488019778_206'/>
+				<zone points='635,2529 2370,2529 2370,2432 635,2432' rendition='Line' xml:id='facs_6_line_1507488021578_207'/>
+				<zone points='501,2601 2374,2631 2374,2550 501,2520' rendition='Line' xml:id='facs_6_line_1507488024166_208'/>
+				<zone points='182,2527 485,2527 485,2654 182,2654' rendition='Line' xml:id='facs_6_line_1507539675850_1'/>
+				<zone points='487,2718 2347,2718 2347,2615 487,2615' rendition='Line' xml:id='facs_6_line_1507488026227_209'/>
+				<zone points='481,2821 2341,2821 2341,2736 481,2736' rendition='Line' xml:id='facs_6_line_1507488028410_210'/>
+				<zone points='489,2896 2345,2921 2345,2844 489,2819' rendition='Line' xml:id='facs_6_line_1507488030722_211'/>
+				<zone points='487,2999 2250,2999 2250,2907 487,2907' rendition='Line' xml:id='facs_6_line_1507488032899_212'/>
+			</zone>
+		</surface>
+	</facsimile> -->
+	<facsimile xml:id='facs_7'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0007_Wendelin-Agathemerus-7.png'>
+			<graphic url='0007_Wendelin-Agathemerus-7.png' width='3319px' height='2473px'/>
+			<zone points='74,171 2324,171 2324,3142 74,3142' rendition='TextRegion' xml:id='facs_7_region_1507488276778_213'>
+				<zone points='601,371 1529,371 1529,268 601,268' rendition='Line' xml:id='facs_7_line_1507488280467_214'/>
+				<zone points='710,480 1488,480 1488,371 710,371' rendition='Line' xml:id='facs_7_line_1507488282061_215'/>
+				<zone points='538,640 1666,640 1666,497 538,497' rendition='Line' xml:id='facs_7_line_1507488283703_216'/>
+				<zone points='779,755 1397,755 1397,663 779,663' rendition='Line' xml:id='facs_7_line_1507488285417_217'/>
+				<zone points='710,892 1534,892 1534,789 710,789' rendition='Line' xml:id='facs_7_line_1507488287010_218'/>
+				<zone points='567,1041 1998,1041 1998,898 567,898' rendition='Line' xml:id='facs_7_line_1507488289292_219'/>
+				<zone points='229,1178 1820,1178 1820,1018 229,1018' rendition='Line' xml:id='facs_7_line_1507488291452_220'/>
+				<zone points='349,1362 1654,1362 1654,1219 349,1219' rendition='Line' xml:id='facs_7_line_1507488293454_221'/>
+				<zone points='693,1465 1431,1465 1431,1327 693,1327' rendition='Line' xml:id='facs_7_line_1507488295087_222'/>
+				<zone points='229,1648 2061,1648 2061,1533 229,1533' rendition='Line' xml:id='facs_7_line_1507488297291_223'/>
+				<zone points='166,1722 2038,1722 2038,1648 166,1648' rendition='Line' xml:id='facs_7_line_1507488299670_224'/>
+				<zone points='212,1825 2061,1825 2061,1762 212,1762' rendition='Line' xml:id='facs_7_line_1507488301736_225'/>
+				<zone points='223,1923 2021,1923 2021,1843 223,1843' rendition='Line' xml:id='facs_7_line_1507488304255_226'/>
+				<zone points='218,2014 2021,2014 2021,1928 218,1928' rendition='Line' xml:id='facs_7_line_1507488306619_227'/>
+				<zone points='200,2106 2004,2106 2004,2009 200,2009' rendition='Line' xml:id='facs_7_line_1507488308403_228'/>
+				<zone points='166,2192 1992,2192 1992,2089 166,2089' rendition='Line' xml:id='facs_7_line_1507488310398_229'/>
+				<zone points='200,2283 1981,2283 1981,2197 200,2197' rendition='Line' xml:id='facs_7_line_1507488312505_230'/>
+				<zone points='172,2363 1980,2384 1980,2316 172,2295' rendition='Line' xml:id='facs_7_line_1507488314739_231'/>
+				<zone points='155,2444 1076,2444 1076,2363 155,2363' rendition='Line' xml:id='facs_7_line_1507488316534_232'/>
+				<zone points='286,2547 2049,2547 2049,2449 286,2449' rendition='Line' xml:id='facs_7_line_1507488318989_233'/>
+				<zone points='195,2638 2175,2638 2175,2541 195,2541' rendition='Line' xml:id='facs_7_line_1507488321143_234'/>
+				<zone points='183,2730 2004,2730 2014,2615 193,2615' rendition='Line' xml:id='facs_7_line_1507488323242_235'/>
+				<zone points='183,2821 2233,2821 2233,2730 183,2730' rendition='Line' xml:id='facs_7_line_1507488325589_236'/>
+				<zone points='160,2890 2152,2890 2152,2827 160,2827' rendition='Line' xml:id='facs_7_line_1507488327735_237'/>
+				<zone points='206,2987 2147,2987 2147,2884 206,2884' rendition='Line' xml:id='facs_7_line_1507488330161_238'/>
+			</zone>
+		</surface>
+	</facsimile> <!--
+	<facsimile xml:id='facs_8'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0008_Wendelin-Agathemerus-8.png'>
+			<graphic url='0008_Wendelin-Agathemerus-8.png' width='3319px' height='2473px'/>
+			<zone points='103,142 2450,142 2450,3319 103,3319' rendition='TextRegion' xml:id='facs_8_region_1507488387838_239'>
+				<zone points='469,354 2290,354 2290,211 469,211' rendition='Line' xml:id='facs_8_line_1507488391852_240'/>
+				<zone points='487,480 2238,480 2238,326 487,326' rendition='Line' xml:id='facs_8_line_1507488394071_241'/>
+				<zone points='492,572 2341,572 2341,429 492,429' rendition='Line' xml:id='facs_8_line_1507488397726_242'/>
+				<zone points='498,663 2336,663 2336,520 498,520' rendition='Line' xml:id='facs_8_line_1507488400386_243'/>
+				<zone points='492,761 2370,761 2370,617 492,617' rendition='Line' xml:id='facs_8_line_1507488402692_244'/>
+				<zone points='492,881 2387,881 2387,726 492,726' rendition='Line' xml:id='facs_8_line_1507488405243_245'/>
+				<zone points='46,772 538,772 538,1178 46,1178' rendition='Line' xml:id='facs_8_line_1507488410902_247'/>
+				<zone points='584,995 2284,995 2284,852 584,852' rendition='Line' xml:id='facs_8_line_1507488407719_246'/>
+				<zone points='544,1104 2344,1082 2344,922 544,944' rendition='Line' xml:id='facs_8_line_1507488413193_248'/>
+				<zone points='510,1190 2404,1190 2404,1070 510,1070' rendition='Line' xml:id='facs_8_line_1507488416105_249'/>
+				<zone points='492,1264 2353,1264 2353,1161 492,1161' rendition='Line' xml:id='facs_8_line_1507488418564_250'/>
+				<zone points='498,1385 2296,1385 2296,1270 498,1270' rendition='Line' xml:id='facs_8_line_1507488420668_251'/>
+				<zone points='538,1459 2381,1459 2381,1379 538,1379' rendition='Line' xml:id='facs_8_line_1507488422788_252'/>
+				<zone points='504,1562 2061,1562 2061,1470 504,1470' rendition='Line' xml:id='facs_8_line_1507488424659_253'/>
+				<zone points='229,1682 567,1682 567,1573 229,1573' rendition='Line' xml:id='facs_8_line_1507488429661_255'/>
+				<zone points='670,1699 2370,1699 2370,1573 670,1573' rendition='Line' xml:id='facs_8_line_1507488427899_254'/>
+				<zone points='63,1820 286,1820 286,1682 63,1682' rendition='Line' xml:id='facs_8_line_1507488434640_257'/>
+				<zone points='521,1797 2393,1797 2393,1688 521,1688' rendition='Line' xml:id='facs_8_line_1507488432500_256'/>
+				<zone points='498,1888 2318,1888 2318,1785 498,1785' rendition='Line' xml:id='facs_8_line_1507488436725_258'/>
+				<zone points='498,2009 2370,2009 2370,1871 498,1871' rendition='Line' xml:id='facs_8_line_1507488439203_259'/>
+				<zone points='510,2100 2381,2100 2381,1980 510,1980' rendition='Line' xml:id='facs_8_line_1507488441355_260'/>
+				<zone points='481,2203 2410,2203 2410,2112 481,2112' rendition='Line' xml:id='facs_8_line_1507488443535_261'/>
+				<zone points='510,2341 2450,2341 2450,2197 510,2197' rendition='Line' xml:id='facs_8_line_1507488445360_262'/>
+				<zone points='103,2461 452,2461 452,2300 103,2300' rendition='Line' xml:id='facs_8_line_1507488452308_264'/>
+				<zone points='464,2432 2290,2417 2290,2311 464,2326' rendition='Line' xml:id='facs_8_line_1507488449962_263'/>
+				<zone points='664,2529 2422,2529 2422,2433 664,2433' rendition='Line' xml:id='facs_8_line_1507488454331_265'/>
+				<zone points='492,2633 2410,2633 2410,2524 492,2524' rendition='Line' xml:id='facs_8_line_1507488467525_266'/>
+				<zone points='504,2747 2439,2747 2439,2638 504,2638' rendition='Line' xml:id='facs_8_line_1507488470181_267'/>
+				<zone points='521,2839 2416,2839 2416,2741 521,2741' rendition='Line' xml:id='facs_8_line_1507488472749_268'/>
+				<zone points='510,2924 2364,2924 2364,2816 510,2816' rendition='Line' xml:id='facs_8_line_1507488475194_269'/>
+				<zone points='475,3050 1237,3050 1237,2947 475,2947' rendition='Line' xml:id='facs_8_line_1507488477121_270'/>
+			</zone>
+		</surface>
+	</facsimile> -->
+	<facsimile xml:id='facs_9'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0009_Wendelin-Agathemerus-9.png'>
+			<graphic url='0009_Wendelin-Agathemerus-9.png' width='3319px' height='2473px'/>
+			<zone points='80,154 2387,154 2387,3102 80,3102' rendition='TextRegion' xml:id='facs_9_region_1507488895063_271'>
+				<zone points='166,314 2124,314 2124,205 166,205' rendition='Line' xml:id='facs_9_line_1507488899136_272'/>
+				<zone points='183,388 2152,388 2152,297 183,297' rendition='Line' xml:id='facs_9_line_1507488901293_273'/>
+				<zone points='206,509 2107,509 2107,394 206,394' rendition='Line' xml:id='facs_9_line_1507488903656_274'/>
+				<zone points='200,589 2147,589 2147,474 200,474' rendition='Line' xml:id='facs_9_line_1507488905498_275'/>
+				<zone points='195,675 2130,675 2130,577 195,577' rendition='Line' xml:id='facs_9_line_1507488907733_276'/>
+				<zone points='199,757 2058,722 2059,646 200,681' rendition='Line' xml:id='facs_9_line_1507488910279_277'/>
+				<zone points='206,841 2238,841 2238,726 206,726' rendition='Line' xml:id='facs_9_line_1507488912593_278'/>
+				<zone points='224,945 2142,945 2141,824 223,824' rendition='Line' xml:id='facs_9_line_1507488915259_279'/>
+				<zone points='195,1041 2038,1041 2038,949 195,949' rendition='Line' xml:id='facs_9_line_1507488918134_280'/>
+				<zone points='160,1144 2112,1144 2112,1047 160,1047' rendition='Line' xml:id='facs_9_line_1507488920265_281'/>
+				<zone points='172,1219 2072,1219 2072,1121 172,1121' rendition='Line' xml:id='facs_9_line_1507488922683_282'/>
+				<zone points='2410,1282 1786,1282 1786,1167 2410,1167' rendition='Line' xml:id='facs_9_line_1507488930671_284'/>
+				<zone points='189,1316 2004,1316 2005,1224 190,1224' rendition='Line' xml:id='facs_9_line_1507488924825_283'/>
+				<zone points='206,1407 2118,1407 2118,1299 206,1299' rendition='Line' xml:id='facs_9_line_1507488934054_285'/>
+				<zone points='189,1493 2112,1493 2112,1407 189,1407' rendition='Line' xml:id='facs_9_line_1507488936081_286'/>
+				<zone points='206,1591 1391,1591 1391,1482 206,1482' rendition='Line' xml:id='facs_9_line_1507488937986_287'/>
+				<zone points='303,1659 2067,1659 2067,1556 303,1556' rendition='Line' xml:id='facs_9_line_1507488940057_288'/>
+				<zone points='109,1739 2027,1739 2027,1654 109,1654' rendition='Line' xml:id='facs_9_line_1507488942372_289'/>
+				<zone points='2084,1791 2422,1791 2422,1717 2084,1717' rendition='Line' xml:id='facs_9_line_1507488948922_292'/>
+				<zone points='160,1820 2009,1820 2009,1734 160,1734' rendition='Line' xml:id='facs_9_line_1507488945025_290'/>
+				<zone points='166,1900 2049,1900 2049,1814 166,1814' rendition='Line' xml:id='facs_9_line_1507488947016_291'/>
+				<zone points='178,1980 2032,1980 2032,1894 178,1894' rendition='Line' xml:id='facs_9_line_1507488952740_293'/>
+				<zone points='195,2066 2055,2066 2055,1974 195,1974' rendition='Line' xml:id='facs_9_line_1507488954942_294'/>
+				<zone points='172,2163 2061,2163 2061,2054 172,2054' rendition='Line' xml:id='facs_9_line_1507488957349_295'/>
+				<zone points='183,2255 2204,2255 2204,2146 183,2146' rendition='Line' xml:id='facs_9_line_1507488959279_296'/>
+				<zone points='183,2341 2055,2341 2055,2255 183,2255' rendition='Line' xml:id='facs_9_line_1507488961418_297'/>
+				<zone points='183,2438 939,2438 939,2335 183,2335' rendition='Line' xml:id='facs_9_line_1507488963255_298'/>
+				<zone points='349,2507 2090,2507 2090,2369 349,2369' rendition='Line' xml:id='facs_9_line_1507488965105_299'/>
+				<zone points='181,2578 1995,2573 1998,2481 184,2486' rendition='Line' xml:id='facs_9_line_1507488967195_300'/>
+				<zone points='195,2684 2018,2662 2018,2558 198,2582' rendition='Line' xml:id='facs_9_line_1507488969589_301'/>
+				<zone points='178,2753 2032,2753 2032,2658 178,2658' rendition='Line' xml:id='facs_9_line_1507488971728_302'/>
+				<zone points='200,2844 2044,2844 2040,2745 196,2745' rendition='Line' xml:id='facs_9_line_1507488974044_303'/>
+				<zone points='200,2907 1992,2907 1992,2835 200,2835' rendition='Line' xml:id='facs_9_line_1507488976234_304'/>
+				<zone points='172,3022 1837,3007 1842,2906 177,2921' rendition='Line' xml:id='facs_9_line_1507488978146_305'/>
+			</zone>
+		</surface>
+	</facsimile> <!--
+	<facsimile xml:id='facs_10'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0010_Wendelin-Agathemerus-10.png'>
+			<graphic url='0010_Wendelin-Agathemerus-10.png' width='3319px' height='2473px'/>
+			<zone points='235,108 2422,108 2422,3216 235,3216' rendition='TextRegion' xml:id='facs_10_region_1507488997555_306'>
+				<zone points='876,308 2072,308 2072,200 876,200' rendition='Line' xml:id='facs_10_line_1507489001712_307'/>
+				<zone points='458,423 2387,463 2387,388 458,348' rendition='Line' xml:id='facs_10_line_1507489003923_308'/>
+				<zone points='498,509 2386,566 2386,472 498,415' rendition='Line' xml:id='facs_10_line_1507489006421_309'/>
+				<zone points='498,629 2370,665 2376,562 504,526' rendition='Line' xml:id='facs_10_line_1507489008587_310'/>
+				<zone points='510,703 2404,780 2404,706 510,629' rendition='Line' xml:id='facs_10_line_1507489011250_311'/>
+				<zone points='527,824 2341,887 2347,789 533,726' rendition='Line' xml:id='facs_10_line_1507489021634_312'/>
+				<zone points='492,921 2347,995 2353,902 498,828' rendition='Line' xml:id='facs_10_line_1507489024407_313'/>
+				<zone points='521,1020 2324,1119 2324,1015 521,916' rendition='Line' xml:id='facs_10_line_1507489052485_314'/>
+				<zone points='510,1123 2392,1215 2392,1112 510,1020' rendition='Line' xml:id='facs_10_line_1507489065164_315'/>
+				<zone points='504,1249 2391,1330 2397,1196 510,1115' rendition='Line' xml:id='facs_10_line_1507489079349_316'/>
+				<zone points='492,1335 1305,1335 1305,1261 492,1261' rendition='Line' xml:id='facs_10_line_1507489090364_317'/>
+				<zone points='721,1444 2404,1496 2404,1381 721,1329' rendition='Line' xml:id='facs_10_line_1507489093611_318'/>
+				<zone points='452,1564 2392,1593 2392,1496 452,1467' rendition='Line' xml:id='facs_10_line_1507489096350_319'/>
+				<zone points='464,1673 2359,1696 2359,1598 464,1575' rendition='Line' xml:id='facs_10_line_1507489098924_320'/>
+				<zone points='475,1764 2387,1810 2387,1723 475,1677' rendition='Line' xml:id='facs_10_line_1507489101534_321'/>
+				<zone points='504,1855 2355,1911 2355,1813 504,1757' rendition='Line' xml:id='facs_10_line_1507489103898_322'/>
+				<zone points='456,1993 2397,2033 2405,1902 464,1862' rendition='Line' xml:id='facs_10_line_1507489106620_323'/>
+				<zone points='641,2096 2392,2096 2392,1993 641,1993' rendition='Line' xml:id='facs_10_line_1507489108965_324'/>
+				<zone points='464,2205 2341,2205 2341,2108 464,2108' rendition='Line' xml:id='facs_10_line_1507489111304_325'/>
+				<zone points='435,2302 2318,2302 2318,2205 435,2205' rendition='Line' xml:id='facs_10_line_1507489113593_326'/>
+				<zone points='481,2405 2348,2457 2348,2354 481,2302' rendition='Line' xml:id='facs_10_line_1507489115764_327'/>
+				<zone points='481,2503 2400,2543 2400,2442 481,2402' rendition='Line' xml:id='facs_10_line_1507489118459_328'/>
+				<zone points='498,2617 2326,2675 2330,2544 502,2486' rendition='Line' xml:id='facs_10_line_1507489120834_329'/>
+				<zone points='458,2709 2332,2770 2332,2657 458,2596' rendition='Line' xml:id='facs_10_line_1507489122864_330'/>
+				<zone points='469,2852 2330,2852 2330,2726 469,2726' rendition='Line' xml:id='facs_10_line_1507489124946_331'/>
+				<zone points='424,2944 2341,2988 2341,2865 424,2821' rendition='Line' xml:id='facs_10_line_1507489127220_332'/>
+				<zone points='447,3064 1116,3064 1116,2944 447,2944' rendition='Line' xml:id='facs_10_line_1507489129317_333'/>
+			</zone>
+		</surface>
+	</facsimile> -->
+	<facsimile xml:id='facs_11'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0011_Wendelin-Agathemerus-11.png'>
+			<graphic url='0011_Wendelin-Agathemerus-11.png' width='3319px' height='2473px'/>
+			<zone points='73,146 2192,146 2192,3200 73,3200' rendition='TextRegion' xml:id='facs_11_region_1507489633530_334'>
+				<zone points='608,321 1572,321 1572,185 608,185' rendition='Line' xml:id='facs_11_line_1507489637598_335'/>
+				<zone points='146,450 1977,450 1977,326 146,326' rendition='Line' xml:id='facs_11_line_1507489640024_336'/>
+				<zone points='174,540 2022,540 2022,439 174,439' rendition='Line' xml:id='facs_11_line_1507489642252_337'/>
+				<zone points='169,619 2068,619 2068,501 169,501' rendition='Line' xml:id='facs_11_line_1507489644366_338'/>
+				<zone points='174,693 2006,693 2006,602 174,602' rendition='Line' xml:id='facs_11_line_1507489646760_339'/>
+				<zone points='169,788 2011,788 2011,676 169,676' rendition='Line' xml:id='facs_11_line_1507489649091_340'/>
+				<zone points='152,873 2028,873 2028,794 152,794' rendition='Line' xml:id='facs_11_line_1507489651633_341'/>
+				<zone points='135,957 2056,957 2056,862 135,862' rendition='Line' xml:id='facs_11_line_1507489653796_342'/>
+				<zone points='169,1042 2073,1042 2073,941 169,941' rendition='Line' xml:id='facs_11_line_1507489656222_343'/>
+				<zone points='169,1115 2039,1115 2039,1036 169,1036' rendition='Line' xml:id='facs_11_line_1507489658601_344'/>
+				<zone points='174,1188 2045,1188 2045,1121 174,1121' rendition='Line' xml:id='facs_11_line_1507489660964_345'/>
+				<zone points='174,1273 1408,1273 1408,1188 174,1188' rendition='Line' xml:id='facs_11_line_1507489663238_346'/>
+				<zone points='309,1358 2045,1358 2045,1279 309,1279' rendition='Line' xml:id='facs_11_line_1507489665493_347'/>
+				<zone points='185,1459 2068,1459 2066,1371 183,1371' rendition='Line' xml:id='facs_11_line_1507489667703_348'/>
+				<zone points='197,1549 2028,1549 2028,1470 197,1470' rendition='Line' xml:id='facs_11_line_1507489670041_349'/>
+				<zone points='191,1622 1977,1622 1977,1543 191,1543' rendition='Line' xml:id='facs_11_line_1507489672204_350'/>
+				<zone points='180,1713 2068,1713 2068,1611 180,1611' rendition='Line' xml:id='facs_11_line_1507489674422_351'/>
+				<zone points='206,1807 1998,1807 1999,1708 207,1708' rendition='Line' xml:id='facs_11_line_1507489676897_352'/>
+				<zone points='163,1904 2079,1904 2079,1808 163,1808' rendition='Line' xml:id='facs_11_line_1507489679576_353'/>
+				<zone points='167,1986 1181,1986 1183,1898 169,1898' rendition='Line' xml:id='facs_11_line_1507489682028_354'/>
+				<zone points='236,2073 2034,2073 2034,1960 236,1960' rendition='Line' xml:id='facs_11_line_1507489684391_355'/>
+				<zone points='163,2175 2039,2175 2039,2068 163,2068' rendition='Line' xml:id='facs_11_line_1507489687502_356'/>
+				<zone points='191,2262 2077,2262 2077,2163 191,2163' rendition='Line' xml:id='facs_11_line_1507489689575_357'/>
+				<zone points='180,2349 2056,2349 2056,2265 180,2265' rendition='Line' xml:id='facs_11_line_1507489691778_358'/>
+				<zone points='180,2428 2022,2428 2022,2349 180,2349' rendition='Line' xml:id='facs_11_line_1507489694172_359'/>
+				<zone points='185,2524 2000,2524 2000,2445 185,2445' rendition='Line' xml:id='facs_11_line_1507489696728_360'/>
+				<zone points='174,2625 2000,2625 2000,2518 174,2518' rendition='Line' xml:id='facs_11_line_1507489699082_361'/>
+				<zone points='157,2727 2039,2727 2039,2642 157,2642' rendition='Line' xml:id='facs_11_line_1507489701371_362'/>
+				<zone points='174,2811 2017,2811 2017,2727 174,2727' rendition='Line' xml:id='facs_11_line_1507489703598_363'/>
+				<zone points='146,2896 2062,2896 2062,2817 146,2817' rendition='Line' xml:id='facs_11_line_1507489705944_364'/>
+				<zone points='152,3014 563,3014 563,2907 152,2907' rendition='Line' xml:id='facs_11_line_1507489707531_365'/>
+			</zone>
+		</surface>
+	</facsimile> <!--
+	<facsimile xml:id='facs_12'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0012_Wendelin-Agathemerus-12.png'>
+			<graphic url='0012_Wendelin-Agathemerus-12.png' width='3319px' height='2473px'/>
+			<zone points='298,118 2406,118 2406,3121 298,3121' rendition='TextRegion' xml:id='facs_12_region_1507489719704_366'>
+				<zone points='462,321 2377,321 2377,214 462,214' rendition='Line' xml:id='facs_12_line_1507489723438_367'/>
+				<zone points='490,462 2237,462 2237,332 490,332' rendition='Line' xml:id='facs_12_line_1507489725762_368'/>
+				<zone points='788,619 2197,619 2197,467 788,467' rendition='Line' xml:id='facs_12_line_1507489727628_369'/>
+				<zone points='501,760 2445,760 2445,659 501,659' rendition='Line' xml:id='facs_12_line_1507489729718_370'/>
+				<zone points='490,867 2410,926 2410,825 490,766' rendition='Line' xml:id='facs_12_line_1507489732361_371'/>
+				<zone points='490,974 2404,1039 2404,927 490,862' rendition='Line' xml:id='facs_12_line_1507489735568_372'/>
+				<zone points='490,1048 2300,1123 2315,1007 505,932' rendition='Line' xml:id='facs_12_line_1507489753075_373'/>
+				<zone points='489,1155 890,1155 890,1052 489,1052' rendition='Line' xml:id='facs_12_line_1507489780449_374'/>
+				<zone points='464,1251 2404,1294 2404,1176 464,1133' rendition='Line' xml:id='facs_12_line_1507489783937_375'/>
+				<zone points='484,1355 2388,1415 2388,1308 484,1248' rendition='Line' xml:id='facs_12_line_1507489787107_376'/>
+				<zone points='494,1457 2368,1512 2368,1430 494,1375' rendition='Line' xml:id='facs_12_line_1507489803088_377'/>
+				<zone points='484,1600 2378,1628 2378,1497 484,1469' rendition='Line' xml:id='facs_12_line_1507489805716_378'/>
+				<zone points='618,1728 2301,1728 2301,1605 618,1605' rendition='Line' xml:id='facs_12_line_1507489808163_379'/>
+				<zone points='479,1831 2363,1831 2363,1723 479,1723' rendition='Line' xml:id='facs_12_line_1507489810796_380'/>
+				<zone points='469,1933 2388,1968 2388,1881 469,1846' rendition='Line' xml:id='facs_12_line_1507489813424_381'/>
+				<zone points='474,2026 2378,2086 2378,1984 474,1924' rendition='Line' xml:id='facs_12_line_1507489816006_382'/>
+				<zone points='479,2134 2388,2184 2388,2087 479,2037' rendition='Line' xml:id='facs_12_line_1507489818749_383'/>
+				<zone points='458,2272 2374,2317 2374,2204 458,2159' rendition='Line' xml:id='facs_12_line_1507489821045_384'/>
+				<zone points='453,2343 2362,2410 2362,2302 453,2235' rendition='Line' xml:id='facs_12_line_1507489823439_385'/>
+				<zone points='463,2460 2368,2523 2368,2425 463,2362' rendition='Line' xml:id='facs_12_line_1507489825970_386'/>
+				<zone points='447,2578 2352,2616 2352,2513 447,2475' rendition='Line' xml:id='facs_12_line_1507489829033_387'/>
+				<zone points='433,2698 2321,2728 2321,2626 433,2596' rendition='Line' xml:id='facs_12_line_1507489831625_388'/>
+				<zone points='428,2764 2373,2831 2373,2733 428,2666' rendition='Line' xml:id='facs_12_line_1507489833886_389'/>
+				<zone points='443,2894 2369,2979 2369,2856 443,2771' rendition='Line' xml:id='facs_12_line_1507489836337_390'/>
+			</zone>
+		</surface>
+	</facsimile> -->
+	<facsimile xml:id='facs_13'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0013_Wendelin-Agathemerus-13.png'>
+			<graphic url='0013_Wendelin-Agathemerus-13.png' width='3319px' height='2473px'/>
+			<zone points='73,112 2214,112 2214,3155 73,3155' rendition='TextRegion' xml:id='facs_13_region_1507490346786_391'>
+				<zone points='152,304 2107,304 2107,214 152,214' rendition='Line' xml:id='facs_13_line_1507490351073_392'/>
+				<zone points='163,422 2028,422 2028,309 163,309' rendition='Line' xml:id='facs_13_line_1507490353621_393'/>
+				<zone points='586,569 1831,569 1831,416 586,416' rendition='Line' xml:id='facs_13_line_1507490355455_394'/>
+				<zone points='169,749 2010,780 2010,690 169,659' rendition='Line' xml:id='facs_13_line_1507490357492_395'/>
+				<zone points='163,830 2040,872 2040,799 163,757' rendition='Line' xml:id='facs_13_line_1507490359611_396'/>
+				<zone points='163,941 2030,958 2030,867 163,850' rendition='Line' xml:id='facs_13_line_1507490362546_397'/>
+				<zone points='174,1023 2044,1064 2044,985 174,944' rendition='Line' xml:id='facs_13_line_1507490364877_398'/>
+				<zone points='174,1132 2017,1132 2017,1053 174,1053' rendition='Line' xml:id='facs_13_line_1507490367336_399'/>
+				<zone points='197,1228 467,1228 467,1125 197,1125' rendition='Line' xml:id='facs_13_line_1507490369171_400'/>
+				<zone points='261,1303 2006,1329 2006,1245 261,1219' rendition='Line' xml:id='facs_13_line_1507490371898_401'/>
+				<zone points='185,1408 1966,1408 1966,1335 185,1335' rendition='Line' xml:id='facs_13_line_1507490374332_402'/>
+				<zone points='174,1498 1972,1498 1972,1403 174,1403' rendition='Line' xml:id='facs_13_line_1507490376735_403'/>
+				<zone points='174,1589 2034,1589 2034,1504 174,1504' rendition='Line' xml:id='facs_13_line_1507490379202_404'/>
+				<zone points='197,1679 1521,1679 1521,1583 197,1583' rendition='Line' xml:id='facs_13_line_1507490381477_405'/>
+				<zone points='247,1775 2051,1775 2051,1673 247,1673' rendition='Line' xml:id='facs_13_line_1507490383935_406'/>
+				<zone points='180,1859 2000,1859 2000,1775 180,1775' rendition='Line' xml:id='facs_13_line_1507490386562_407'/>
+				<zone points='197,1955 2006,1955 2006,1848 197,1848' rendition='Line' xml:id='facs_13_line_1507490389049_408'/>
+				<zone points='174,2022 1996,2049 1996,1974 174,1947' rendition='Line' xml:id='facs_13_line_1507490392245_409'/>
+				<zone points='163,2118 2030,2143 2030,2059 163,2034' rendition='Line' xml:id='facs_13_line_1507490394985_410'/>
+				<zone points='174,2220 2028,2220 2029,2138 174,2118' rendition='Line' xml:id='facs_13_line_1507490397483_411'/>
+				<zone points='174,2299 1977,2299 1977,2220 174,2220' rendition='Line' xml:id='facs_13_line_1507490399646_412'/>
+				<zone points='169,2389 2039,2389 2039,2310 169,2310' rendition='Line' xml:id='facs_13_line_1507490401840_413'/>
+				<zone points='163,2490 1989,2490 1989,2406 163,2406' rendition='Line' xml:id='facs_13_line_1507490404027_414'/>
+				<zone points='180,2563 1988,2567 1988,2477 180,2473' rendition='Line' xml:id='facs_13_line_1507490406382_415'/>
+				<zone points='118,2659 1989,2659 1989,2552 118,2552' rendition='Line' xml:id='facs_13_line_1507490408781_416'/>
+				<zone points='140,2738 1989,2738 1989,2659 140,2659' rendition='Line' xml:id='facs_13_line_1507490411199_417'/>
+				<zone points='135,2834 2017,2834 2017,2704 135,2704' rendition='Line' xml:id='facs_13_line_1507490413178_418'/>
+				<zone points='146,2941 2006,2941 2006,2851 146,2851' rendition='Line' xml:id='facs_13_line_1507490415437_419'/>
+			</zone>
+		</surface>
+	</facsimile> <!--
+	<facsimile xml:id='facs_14'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0014_Wendelin-Agathemerus-14.png'>
+			<graphic url='0014_Wendelin-Agathemerus-14.png' width='3319px' height='2473px'/>
+			<zone points='67,140 2406,140 2406,3178 67,3178' rendition='TextRegion' xml:id='facs_14_region_1507490432557_420'>
+				<zone points='473,338 2377,338 2377,202 473,202' rendition='Line' xml:id='facs_14_line_1507490436670_421'/>
+				<zone points='495,445 1476,445 1476,343 495,343' rendition='Line' xml:id='facs_14_line_1507490438647_422'/>
+				<zone points='625,569 2389,569 2389,450 625,450' rendition='Line' xml:id='facs_14_line_1507490440730_423'/>
+				<zone points='478,659 2383,659 2383,540 478,540' rendition='Line' xml:id='facs_14_line_1507490442821_424'/>
+				<zone points='540,743 2366,743 2366,642 540,642' rendition='Line' xml:id='facs_14_line_1507490445775_425'/>
+				<zone points='484,867 2332,867 2332,743 484,743' rendition='Line' xml:id='facs_14_line_1507490448583_426'/>
+				<zone points='473,986 2304,986 2304,873 473,873' rendition='Line' xml:id='facs_14_line_1507490450817_427'/>
+				<zone points='484,1098 2400,1098 2400,997 484,997' rendition='Line' xml:id='facs_14_line_1507490452859_428'/>
+				<zone points='512,1205 2361,1205 2361,1093 512,1093' rendition='Line' xml:id='facs_14_line_1507490455414_429'/>
+				<zone points='478,1301 2344,1341 2344,1245 478,1205' rendition='Line' xml:id='facs_14_line_1507490458134_430'/>
+				<zone points='512,1414 2361,1414 2361,1324 512,1324' rendition='Line' xml:id='facs_14_line_1507490460792_431'/>
+				<zone points='535,1510 2377,1510 2377,1420 535,1420' rendition='Line' xml:id='facs_14_line_1507490463336_432'/>
+				<zone points='478,1628 2293,1628 2293,1527 478,1527' rendition='Line' xml:id='facs_14_line_1507490465597_433'/>
+				<zone points='478,1758 2321,1758 2321,1634 478,1634' rendition='Line' xml:id='facs_14_line_1507490468324_434'/>
+				<zone points='507,1876 2372,1876 2372,1769 507,1769' rendition='Line' xml:id='facs_14_line_1507490470775_435'/>
+				<zone points='478,2006 2327,2006 2327,1865 478,1865' rendition='Line' xml:id='facs_14_line_1507490473257_436'/>
+				<zone points='473,2096 1076,2096 1076,1994 473,1994' rendition='Line' xml:id='facs_14_line_1507490475244_437'/>
+				<zone points='597,2214 2389,2214 2389,2096 597,2096' rendition='Line' xml:id='facs_14_line_1507490477093_438'/>
+				<zone points='512,2315 2400,2315 2400,2220 512,2220' rendition='Line' xml:id='facs_14_line_1507490479564_439'/>
+				<zone points='467,2417 2361,2417 2361,2332 467,2332' rendition='Line' xml:id='facs_14_line_1507490481886_440'/>
+				<zone points='467,2552 2394,2552 2394,2411 467,2411' rendition='Line' xml:id='facs_14_line_1507490484362_441'/>
+				<zone points='67,2592 371,2592 371,2428 67,2428' rendition='Line' xml:id='facs_14_line_1507490486244_442'/>
+				<zone points='439,2642 721,2642 721,2552 439,2552' rendition='Line' xml:id='facs_14_line_1507490488210_443'/>
+				<zone points='586,2749 2383,2749 2383,2631 586,2631' rendition='Line' xml:id='facs_14_line_1507490490311_444'/>
+				<zone points='495,2851 2349,2851 2349,2744 495,2744' rendition='Line' xml:id='facs_14_line_1507490492271_445'/>
+				<zone points='462,2975 2383,2975 2383,2868 462,2868' rendition='Line' xml:id='facs_14_line_1507490494377_446'/>
+			</zone>
+		</surface>
+	</facsimile> -->
+	<facsimile xml:id='facs_15'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0015_Wendelin-Agathemerus-15.png'>
+			<graphic url='0015_Wendelin-Agathemerus-15.png' width='3319px' height='2473px'/>
+			<zone points='61,152 2068,152 2068,3257 61,3257' rendition='TextRegion' xml:id='facs_15_region_1507490804918_448'>
+				<zone points='157,315 2028,315 2028,231 157,231' rendition='Line' xml:id='facs_15_line_1507490815049_451'/>
+				<zone points='180,394 1865,394 1865,315 180,315' rendition='Line' xml:id='facs_15_line_1507490817382_452'/>
+				<zone points='293,484 2011,484 2011,400 293,400' rendition='Line' xml:id='facs_15_line_1507490819737_453'/>
+				<zone points='157,586 2022,586 2022,490 157,490' rendition='Line' xml:id='facs_15_line_1507490821948_454'/>
+				<zone points='163,664 2068,664 2068,557 163,557' rendition='Line' xml:id='facs_15_line_1507490824134_455'/>
+				<zone points='157,732 1989,732 1989,636 157,636' rendition='Line' xml:id='facs_15_line_1507490826121_456'/>
+				<zone points='174,828 2051,828 2051,743 174,743' rendition='Line' xml:id='facs_15_line_1507490828628_457'/>
+				<zone points='174,918 2028,918 2028,822 174,822' rendition='Line' xml:id='facs_15_line_1507490831046_458'/>
+				<zone points='169,1008 2017,1008 2017,912 169,912' rendition='Line' xml:id='facs_15_line_1507490833393_459'/>
+				<zone points='191,1115 2045,1115 2045,1008 191,1008' rendition='Line' xml:id='facs_15_line_1507490835846_460'/>
+				<zone points='185,1194 2006,1194 2006,1093 185,1093' rendition='Line' xml:id='facs_15_line_1507490837927_461'/>
+				<zone points='191,1301 2022,1301 2022,1200 191,1200' rendition='Line' xml:id='facs_15_line_1507490840033_462'/>
+				<zone points='202,1374 2034,1374 2034,1290 202,1290' rendition='Line' xml:id='facs_15_line_1507490842800_463'/>
+				<zone points='208,1476 2017,1476 2017,1380 208,1380' rendition='Line' xml:id='facs_15_line_1507490844932_464'/>
+				<zone points='185,1566 1966,1566 1966,1470 185,1470' rendition='Line' xml:id='facs_15_line_1507490847037_465'/>
+				<zone points='214,1656 2006,1656 2006,1549 214,1549' rendition='Line' xml:id='facs_15_line_1507490849305_466'/>
+				<zone points='203,1721 1995,1721 1994,1651 202,1651' rendition='Line' xml:id='facs_15_line_1507490851835_467'/>
+				<zone points='214,1823 2011,1823 2011,1718 214,1718' rendition='Line' xml:id='facs_15_line_1507490854094_468'/>
+				<zone points='214,1927 2011,1927 2011,1831 214,1831' rendition='Line' xml:id='facs_15_line_1507490856393_469'/>
+				<zone points='219,2034 2006,2034 2006,1904 219,1904' rendition='Line' xml:id='facs_15_line_1507490858499_470'/>
+				<zone points='309,2175 2051,2175 2051,2051 309,2051' rendition='Line' xml:id='facs_15_line_1507490860895_471'/>
+				<zone points='219,2259 2062,2259 2062,2175 219,2175' rendition='Line' xml:id='facs_15_line_1507490863033_472'/>
+				<zone points='231,2361 2017,2361 2017,2259 231,2259' rendition='Line' xml:id='facs_15_line_1507490865156_473'/>
+				<zone points='219,2456 1994,2456 1994,2344 219,2344' rendition='Line' xml:id='facs_15_line_1507490867541_474'/>
+				<zone points='202,2541 2051,2541 2051,2428 202,2428' rendition='Line' xml:id='facs_15_line_1507490870049_475'/>
+				<zone points='208,2637 1374,2637 1374,2524 208,2524' rendition='Line' xml:id='facs_15_line_1507490872154_476'/>
+				<zone points='298,2738 1994,2738 1994,2625 298,2625' rendition='Line' xml:id='facs_15_line_1507490874503_477'/>
+				<zone points='202,2817 2000,2817 2000,2721 202,2721' rendition='Line' xml:id='facs_15_line_1507490876763_478'/>
+				<zone points='231,2907 2006,2907 2006,2811 231,2811' rendition='Line' xml:id='facs_15_line_1507490878879_479'/>
+				<zone points='185,3065 2011,3065 2011,2885 185,2885' rendition='Line' xml:id='facs_15_line_1507490881730_480'/>
+			</zone>
+			<zone points='2073,614 2400,614 2400,1228 2073,1228' rendition='TextRegion' xml:id='facs_15_region_1507490808079_449'>
+				<zone points='2101,726 2383,726 2383,1138 2101,1138' rendition='Line' xml:id='facs_15_line_1507490812376_450'/>
+			</zone>
+		</surface>
+	</facsimile> <!--
+	<facsimile xml:id='facs_16'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0016_Wendelin-Agathemerus-16.png'>
+			<graphic url='0016_Wendelin-Agathemerus-16.png' width='3319px' height='2473px'/>
+			<zone points='107,123 2451,123 2451,3178 107,3178' rendition='TextRegion' xml:id='facs_16_region_1507490892388_481'>
+				<zone points='507,315 1690,315 1690,185 507,185' rendition='Line' xml:id='facs_16_line_1507490895891_482'/>
+				<zone points='625,450 2422,472 2422,354 625,332' rendition='Line' xml:id='facs_16_line_1507490897948_483'/>
+				<zone points='535,540 2410,596 2410,506 535,450' rendition='Line' xml:id='facs_16_line_1507490900183_484'/>
+				<zone points='535,659 2377,723 2389,608 547,544' rendition='Line' xml:id='facs_16_line_1507490902426_485'/>
+				<zone points='552,783 2406,823 2406,710 552,670' rendition='Line' xml:id='facs_16_line_1507490904540_486'/>
+				<zone points='524,884 2423,942 2423,828 524,770' rendition='Line' xml:id='facs_16_line_1507490906879_487'/>
+				<zone points='518,1011 2414,1059 2414,949 518,901' rendition='Line' xml:id='facs_16_line_1507490909114_488'/>
+				<zone points='563,1126 2434,1126 2434,1003 563,1003' rendition='Line' xml:id='facs_16_line_1507490911613_489'/>
+				<zone points='535,1228 2417,1280 2428,1146 546,1094' rendition='Line' xml:id='facs_16_line_1507490913913_490'/>
+				<zone points='101,1324 388,1324 388,1172 101,1172' rendition='Line' xml:id='facs_16_line_1507490917764_492'/>
+				<zone points='518,1341 2320,1390 2320,1283 518,1234' rendition='Line' xml:id='facs_16_line_1507490915802_491'/>
+				<zone points='537,1436 2361,1500 2361,1399 537,1335' rendition='Line' xml:id='facs_16_line_1507490919771_493'/>
+				<zone points='546,1572 957,1572 957,1453 546,1453' rendition='Line' xml:id='facs_16_line_1507490921581_494'/>
+				<zone points='788,1746 2118,1746 2118,1605 788,1605' rendition='Line' xml:id='facs_16_line_1507490923464_495'/>
+				<zone points='839,1865 2000,1865 2000,1752 839,1752' rendition='Line' xml:id='facs_16_line_1507490925582_496'/>
+				<zone points='512,1994 2428,2051 2428,1933 512,1876' rendition='Line' xml:id='facs_16_line_1507490927960_497'/>
+				<zone points='546,2101 2417,2146 2417,2010 546,1965' rendition='Line' xml:id='facs_16_line_1507490930435_498'/>
+				<zone points='529,2203 2415,2253 2415,2156 529,2106' rendition='Line' xml:id='facs_16_line_1507490932791_499'/>
+				<zone points='532,2300 2426,2360 2426,2253 532,2193' rendition='Line' xml:id='facs_16_line_1507490935052_500'/>
+				<zone points='516,2403 2420,2451 2420,2355 516,2307' rendition='Line' xml:id='facs_16_line_1507490937419_501'/>
+				<zone points='439,2525 2408,2554 2408,2447 439,2418' rendition='Line' xml:id='facs_16_line_1507490939422_502'/>
+				<zone points='524,2648 2434,2648 2434,2552 524,2552' rendition='Line' xml:id='facs_16_line_1507490941601_503'/>
+				<zone points='522,2725 1775,2772 1775,2665 522,2618' rendition='Line' xml:id='facs_16_line_1507490943715_504'/>
+				<zone points='690,2840 2428,2856 2428,2761 690,2745' rendition='Line' xml:id='facs_16_line_1507490945653_505'/>
+				<zone points='552,2963 2406,2963 2405,2848 551,2848' rendition='Line' xml:id='facs_16_line_1507490947679_506'/>
+			</zone>
+		</surface>
+	</facsimile> -->
+	<facsimile xml:id='facs_17'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0017_Wendelin-Agathemerus-17.png'>
+			<graphic url='0017_Wendelin-Agathemerus-17.png' width='3319px' height='2473px'/>
+			<zone points='90,118 2051,118 2051,3200 90,3200' rendition='TextRegion' xml:id='facs_17_region_1507491294958_508'>
+				<zone points='146,281 1543,281 1543,169 146,169' rendition='Line' xml:id='facs_17_line_1507491313931_517'/>
+				<zone points='214,416 2079,416 2079,309 214,309' rendition='Line' xml:id='facs_17_line_1507491316254_518'/>
+				<zone points='174,501 2180,501 2180,416 174,416' rendition='Line' xml:id='facs_17_line_1507491318464_519'/>
+				<zone points='191,591 2056,591 2056,507 191,507' rendition='Line' xml:id='facs_17_line_1507491320651_520'/>
+				<zone points='180,698 2096,698 2096,591 180,591' rendition='Line' xml:id='facs_17_line_1507491322757_521'/>
+				<zone points='202,760 2030,782 2030,720 202,698' rendition='Line' xml:id='facs_17_line_1507491324807_522'/>
+				<zone points='197,845 2022,845 2022,766 197,766' rendition='Line' xml:id='facs_17_line_1507491326689_523'/>
+				<zone points='197,929 1989,929 1989,833 197,833' rendition='Line' xml:id='facs_17_line_1507491328796_524'/>
+				<zone points='185,1011 2026,1004 2025,923 187,924' rendition='Line' xml:id='facs_17_line_1507491331030_525'/>
+				<zone points='214,1104 1994,1104 1994,986 214,986' rendition='Line' xml:id='facs_17_line_1507491333527_526'/>
+				<zone points='214,1188 2017,1188 2017,1093 214,1093' rendition='Line' xml:id='facs_17_line_1507491335599_527'/>
+				<zone points='208,1267 2017,1267 2017,1166 208,1166' rendition='Line' xml:id='facs_17_line_1507491338210_528'/>
+				<zone points='202,1323 2045,1323 2045,1239 202,1239' rendition='Line' xml:id='facs_17_line_1507491340445_529'/>
+				<zone points='180,1420 2084,1420 2084,1324 180,1324' rendition='Line' xml:id='facs_17_line_1507491342583_530'/>
+				<zone points='202,1515 2051,1515 2051,1403 202,1403' rendition='Line' xml:id='facs_17_line_1507491345120_531'/>
+				<zone points='191,1594 1893,1594 1893,1493 191,1493' rendition='Line' xml:id='facs_17_line_1507491347272_532'/>
+				<zone points='586,1775 1791,1775 1791,1639 586,1639' rendition='Line' xml:id='facs_17_line_1507491349346_533'/>
+				<zone points='546,1876 1729,1876 1729,1769 546,1769' rendition='Line' xml:id='facs_17_line_1507491351141_534'/>
+				<zone points='180,2006 2068,2006 2068,1887 180,1887' rendition='Line' xml:id='facs_17_line_1507491354954_535'/>
+				<zone points='202,2079 2045,2079 2045,1989 202,1989' rendition='Line' xml:id='facs_17_line_1507491357535_536'/>
+				<zone points='208,2163 2068,2163 2068,2068 208,2068' rendition='Line' xml:id='facs_17_line_1507491359712_537'/>
+				<zone points='231,2253 2051,2253 2051,2141 231,2141' rendition='Line' xml:id='facs_17_line_1507491361720_538'/>
+				<zone points='202,2315 2045,2315 2045,2214 202,2214' rendition='Line' xml:id='facs_17_line_1507491363600_539'/>
+				<zone points='185,2383 1977,2383 1977,2304 185,2304' rendition='Line' xml:id='facs_17_line_1507491366001_540'/>
+				<zone points='185,2473 2068,2473 2068,2377 185,2377' rendition='Line' xml:id='facs_17_line_1507491368266_541'/>
+				<zone points='202,2558 2034,2558 2034,2456 202,2456' rendition='Line' xml:id='facs_17_line_1507491370509_542'/>
+				<zone points='163,2659 2045,2659 2045,2530 163,2530' rendition='Line' xml:id='facs_17_line_1507491372568_543'/>
+				<zone points='197,2749 895,2749 895,2648 197,2648' rendition='Line' xml:id='facs_17_line_1507491374798_544'/>
+				<zone points='309,2845 2079,2845 2079,2732 309,2732' rendition='Line' xml:id='facs_17_line_1507491376856_545'/>
+				<zone points='169,2918 2056,2918 2056,2817 169,2817' rendition='Line' xml:id='facs_17_line_1507491378778_546'/>
+				<zone points='202,3009 2113,3009 2113,2918 202,2918' rendition='Line' xml:id='facs_17_line_1507491380612_547'/>
+			</zone>
+			<zone points='2107,749 2107,957 2372,957 2372,749' rendition='TextRegion' xml:id='facs_17_region_1507491305158_509'>
+				<zone points='2107,749 2372,749 2372,957 2107,957' rendition='Line' xml:id='facs_17_line_1507491305194_510'/>
+			</zone>
+			<zone points='2124,1222 2124,1397 2383,1397 2383,1222' rendition='TextRegion' xml:id='facs_17_region_1507491306801_511'>
+				<zone points='2124,1222 2383,1222 2383,1397 2124,1397' rendition='Line' xml:id='facs_17_line_1507491306835_512'/>
+			</zone>
+			<zone points='2197,2051 2197,2220 2411,2220 2411,2051' rendition='TextRegion' xml:id='facs_17_region_1507491309006_513'>
+				<zone points='2197,2051 2411,2051 2411,2220 2197,2220' rendition='Line' xml:id='facs_17_line_1507491309039_514'/>
+			</zone>
+			<zone points='2084,2310 2084,2749 2383,2749 2383,2310' rendition='TextRegion' xml:id='facs_17_region_1507491310599_515'>
+				<zone points='2084,2310 2383,2310 2383,2749 2084,2749' rendition='Line' xml:id='facs_17_line_1507491310635_516'/>
+			</zone>
+		</surface>
+	</facsimile> <!--
+	<facsimile xml:id='facs_18'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0018_Wendelin-Agathemerus-18.png'>
+			<graphic url='0018_Wendelin-Agathemerus-18.png' width='3319px' height='2473px'/>
+			<zone points='73,140 2434,140 2434,3251 73,3251' rendition='TextRegion' xml:id='facs_18_region_1507491492757_548'>
+				<zone points='428,312 2335,348 2335,224 428,188' rendition='Line' xml:id='facs_18_line_1507491497535_549'/>
+				<zone points='433,428 2341,454 2341,341 433,315' rendition='Line' xml:id='facs_18_line_1507491499984_550'/>
+				<zone points='495,535 2325,573 2325,471 495,433' rendition='Line' xml:id='facs_18_line_1507491502011_551'/>
+				<zone points='467,608 2361,673 2361,581 467,516' rendition='Line' xml:id='facs_18_line_1507491504852_552'/>
+				<zone points='478,755 2377,755 2377,636 478,636' rendition='Line' xml:id='facs_18_line_1507491515065_553'/>
+				<zone points='495,856 2366,856 2366,738 495,738' rendition='Line' xml:id='facs_18_line_1507491517915_554'/>
+				<zone points='484,957 2366,957 2366,856 484,856' rendition='Line' xml:id='facs_18_line_1507491520422_555'/>
+				<zone points='490,1081 2377,1081 2377,969 490,969' rendition='Line' xml:id='facs_18_line_1507491523053_556'/>
+				<zone points='484,1183 2389,1183 2389,1076 484,1076' rendition='Line' xml:id='facs_18_line_1507491525647_557'/>
+				<zone points='507,1284 2304,1284 2304,1183 507,1183' rendition='Line' xml:id='facs_18_line_1507491527946_558'/>
+				<zone points='73,1256 450,1256 450,1696 73,1696' rendition='Line' xml:id='facs_18_line_1507491535654_561'/>
+				<zone points='512,1408 2315,1408 2315,1296 512,1296' rendition='Line' xml:id='facs_18_line_1507491530340_559'/>
+				<zone points='490,1521 2000,1521 2000,1420 490,1420' rendition='Line' xml:id='facs_18_line_1507491532296_560'/>
+				<zone points='407,1644 2400,1667 2400,1549 407,1526' rendition='Line' xml:id='facs_18_line_1507491538064_562'/>
+				<zone points='490,1735 2372,1810 2372,1720 490,1645' rendition='Line' xml:id='facs_18_line_1507491540662_563'/>
+				<zone points='495,1865 2366,1865 2366,1775 495,1775' rendition='Line' xml:id='facs_18_line_1507491543474_564'/>
+				<zone points='501,1966 2400,1966 2400,1865 501,1865' rendition='Line' xml:id='facs_18_line_1507491545988_565'/>
+				<zone points='428,2068 2355,2103 2355,2012 428,1977' rendition='Line' xml:id='facs_18_line_1507491548239_566'/>
+				<zone points='495,2203 2372,2203 2372,2096 495,2096' rendition='Line' xml:id='facs_18_line_1507491550669_567'/>
+				<zone points='473,2310 2321,2310 2321,2208 473,2208' rendition='Line' xml:id='facs_18_line_1507491552884_568'/>
+				<zone points='462,2411 2372,2411 2372,2321 462,2321' rendition='Line' xml:id='facs_18_line_1507491554898_569'/>
+				<zone points='473,2524 2361,2524 2361,2411 473,2411' rendition='Line' xml:id='facs_18_line_1507491556893_570'/>
+				<zone points='495,2637 2394,2637 2394,2541 495,2541' rendition='Line' xml:id='facs_18_line_1507491558991_571'/>
+				<zone points='484,2772 2377,2772 2377,2642 484,2642' rendition='Line' xml:id='facs_18_line_1507491560922_572'/>
+				<zone points='462,2840 2355,2840 2355,2755 462,2755' rendition='Line' xml:id='facs_18_line_1507491563004_573'/>
+				<zone points='478,2958 2344,2958 2344,2840 478,2840' rendition='Line' xml:id='facs_18_line_1507491565208_574'/>
+			</zone>
+		</surface>
+	</facsimile> -->
+	<facsimile xml:id='facs_19'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0019_Wendelin-Agathemerus-19.png'>
+			<graphic url='0019_Wendelin-Agathemerus-19.png' width='3319px' height='2473px'/>
+			<zone points='180,89 1989,89 1989,3239 180,3239' rendition='TextRegion' xml:id='facs_19_region_1507491853681_576'>
+				<zone points='935,219 1374,219 1374,123 935,123' rendition='Line' xml:id='facs_19_line_1507491866873_585'/>
+				<zone points='163,309 2034,309 2034,230 163,230' rendition='Line' xml:id='facs_19_line_1507491869159_586'/>
+				<zone points='197,388 1994,388 1994,309 197,309' rendition='Line' xml:id='facs_19_line_1507491871242_587'/>
+				<zone points='185,467 2034,467 2034,399 185,399' rendition='Line' xml:id='facs_19_line_1507491873213_588'/>
+				<zone points='180,563 2017,563 2017,472 180,472' rendition='Line' xml:id='facs_19_line_1507491875303_589'/>
+				<zone points='202,642 2034,642 2034,574 202,574' rendition='Line' xml:id='facs_19_line_1507491877730_590'/>
+				<zone points='242,732 2006,732 2006,630 242,630' rendition='Line' xml:id='facs_19_line_1507491880309_591'/>
+				<zone points='202,827 2006,827 2006,726 202,726' rendition='Line' xml:id='facs_19_line_1507491882487_592'/>
+				<zone points='202,912 1977,912 1977,822 202,822' rendition='Line' xml:id='facs_19_line_1507491884609_593'/>
+				<zone points='185,1002 2039,1002 2039,912 185,912' rendition='Line' xml:id='facs_19_line_1507491886661_594'/>
+				<zone points='202,1087 2039,1087 2039,1019 202,1019' rendition='Line' xml:id='facs_19_line_1507491888846_595'/>
+				<zone points='197,1171 2017,1171 2017,1092 197,1092' rendition='Line' xml:id='facs_19_line_1507491890860_596'/>
+				<zone points='185,1250 1989,1250 1989,1177 185,1177' rendition='Line' xml:id='facs_19_line_1507491892915_597'/>
+				<zone points='202,1335 2056,1335 2056,1267 202,1267' rendition='Line' xml:id='facs_19_line_1507491894733_598'/>
+				<zone points='219,1436 2019,1431 2019,1341 219,1346' rendition='Line' xml:id='facs_19_line_1507491896743_599'/>
+				<zone points='236,1509 2028,1509 2028,1430 236,1430' rendition='Line' xml:id='facs_19_line_1507491898794_600'/>
+				<zone points='191,1583 2022,1583 2022,1504 191,1504' rendition='Line' xml:id='facs_19_line_1507491900925_601'/>
+				<zone points='214,1650 1560,1650 1560,1571 214,1571' rendition='Line' xml:id='facs_19_line_1507491902867_602'/>
+				<zone points='146,1746 2079,1746 2079,1667 146,1667' rendition='Line' xml:id='facs_19_line_1507491905207_603'/>
+				<zone points='197,1819 2017,1819 2017,1752 197,1752' rendition='Line' xml:id='facs_19_line_1507491907353_604'/>
+				<zone points='180,1915 1983,1915 1983,1831 180,1831' rendition='Line' xml:id='facs_19_line_1507491909222_605'/>
+				<zone points='180,1983 1955,1983 1955,1898 180,1898' rendition='Line' xml:id='facs_19_line_1507491912371_606'/>
+				<zone points='191,2095 1955,2095 1955,1988 191,1988' rendition='Line' xml:id='facs_19_line_1507491914703_607'/>
+				<zone points='214,2186 1949,2186 1949,2107 214,2107' rendition='Line' xml:id='facs_19_line_1507491916672_608'/>
+				<zone points='219,2259 2006,2259 2006,2189 219,2189' rendition='Line' xml:id='facs_19_line_1507491918546_609'/>
+				<zone points='185,2383 2022,2383 2022,2253 185,2253' rendition='Line' xml:id='facs_19_line_1507491920580_610'/>
+				<zone points='197,2445 1955,2445 1955,2360 197,2360' rendition='Line' xml:id='facs_19_line_1507491922519_611'/>
+				<zone points='208,2557 2034,2557 2034,2428 208,2428' rendition='Line' xml:id='facs_19_line_1507491924417_612'/>
+				<zone points='191,2625 2034,2625 2034,2552 191,2552' rendition='Line' xml:id='facs_19_line_1507491926347_613'/>
+				<zone points='208,2710 2011,2710 2011,2608 208,2608' rendition='Line' xml:id='facs_19_line_1507491928234_614'/>
+				<zone points='202,2817 2034,2817 2034,2687 202,2687' rendition='Line' xml:id='facs_19_line_1507491930216_615'/>
+				<zone points='197,2896 2045,2896 2045,2794 197,2794' rendition='Line' xml:id='facs_19_line_1507491932372_616'/>
+				<zone points='185,2969 2011,2969 2011,2879 185,2879' rendition='Line' xml:id='facs_19_line_1507491934391_617'/>
+			</zone>
+			<zone points='2034,208 2034,816 2299,816 2299,208' rendition='TextRegion' xml:id='facs_19_region_1507491857220_577'>
+				<zone points='2034,208 2299,208 2299,816 2034,816' rendition='Line' xml:id='facs_19_line_1507491857260_578'/>
+			</zone>
+			<zone points='2028,1329 2028,1645 2377,1645 2377,1329' rendition='TextRegion' xml:id='facs_19_region_1507491859171_579'>
+				<zone points='2028,1329 2377,1329 2377,1645 2028,1645' rendition='Line' xml:id='facs_19_line_1507491859210_580'/>
+			</zone>
+			<zone points='2265,1667 2265,3081 2406,3081 2406,1667' rendition='TextRegion' xml:id='facs_19_region_1507491863505_583'>
+				<zone points='2265,1667 2406,1667 2406,3081 2265,3081' rendition='Line' xml:id='facs_19_line_1507491863545_584'/>
+			</zone>
+			<zone points='2022,1712 2022,2028 2186,2028 2186,1712' rendition='TextRegion' xml:id='facs_19_region_1507491861051_581'>
+				<zone points='2022,1712 2186,1712 2186,2028 2022,2028' rendition='Line' xml:id='facs_19_line_1507491861092_582'/>
+			</zone>
+		</surface>
+	</facsimile> <!--
+	<facsimile xml:id='facs_20'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0020_Wendelin-Agathemerus-20.png'>
+			<graphic url='0020_Wendelin-Agathemerus-20.png' width='3319px' height='2473px'/>
+			<zone points='95,89 2400,89 2400,3160 95,3160' rendition='TextRegion' xml:id='facs_20_region_1507492042474_618'>
+				<zone points='405,309 2417,309 2417,146 405,146' rendition='Line' xml:id='facs_20_line_1507492047589_619'/>
+				<zone points='462,388 2389,388 2389,287 462,287' rendition='Line' xml:id='facs_20_line_1507492050102_620'/>
+				<zone points='180,523 400,523 400,405 180,405' rendition='Line' xml:id='facs_20_line_1507492055224_622'/>
+				<zone points='473,529 2366,529 2366,405 473,405' rendition='Line' xml:id='facs_20_line_1507492053270_621'/>
+				<zone points='473,619 2355,619 2355,523 473,523' rendition='Line' xml:id='facs_20_line_1507492059516_623'/>
+				<zone points='490,749 2366,749 2366,630 490,630' rendition='Line' xml:id='facs_20_line_1507492061999_624'/>
+				<zone points='495,861 1555,861 1555,743 495,743' rendition='Line' xml:id='facs_20_line_1507492063713_625'/>
+				<zone points='73,918 185,918 185,799 73,799' rendition='Line' xml:id='facs_20_line_1507492075221_630'/>
+				<zone points='636,957 2366,957 2366,861 636,861' rendition='Line' xml:id='facs_20_line_1507492066051_626'/>
+				<zone points='73,1115 484,1115 484,951 73,951' rendition='Line' xml:id='facs_20_line_1507492073513_629'/>
+				<zone points='518,1075 2389,1075 2389,985 518,985' rendition='Line' xml:id='facs_20_line_1507492068905_627'/>
+				<zone points='484,1171 2321,1171 2321,1092 484,1092' rendition='Line' xml:id='facs_20_line_1507492071183_628'/>
+				<zone points='512,1278 2304,1278 2304,1194 512,1194' rendition='Line' xml:id='facs_20_line_1507492081584_631'/>
+				<zone points='495,1380 2304,1380 2304,1290 495,1290' rendition='Line' xml:id='facs_20_line_1507492085711_632'/>
+				<zone points='484,1521 2383,1521 2383,1402 484,1402' rendition='Line' xml:id='facs_20_line_1507492088108_633'/>
+				<zone points='501,1622 2372,1622 2372,1521 501,1521' rendition='Line' xml:id='facs_20_line_1507492090493_634'/>
+				<zone points='495,1729 2372,1729 2372,1605 495,1605' rendition='Line' xml:id='facs_20_line_1507492092370_635'/>
+				<zone points='61,1921 478,1921 478,1684 61,1684' rendition='Line' xml:id='facs_20_line_1507492099383_638'/>
+				<zone points='507,1836 2355,1836 2355,1723 507,1723' rendition='Line' xml:id='facs_20_line_1507492094555_636'/>
+				<zone points='495,1960 2338,1960 2338,1842 495,1842' rendition='Line' xml:id='facs_20_line_1507492096988_637'/>
+				<zone points='467,2050 2389,2050 2389,1949 467,1949' rendition='Line' xml:id='facs_20_line_1507492101661_639'/>
+				<zone points='484,2174 2293,2174 2293,2067 484,2067' rendition='Line' xml:id='facs_20_line_1507492103736_640'/>
+				<zone points='490,2281 2361,2281 2361,2152 490,2152' rendition='Line' xml:id='facs_20_line_1507492105810_641'/>
+				<zone points='495,2394 2321,2394 2321,2253 495,2253' rendition='Line' xml:id='facs_20_line_1507492107828_642'/>
+				<zone points='101,2400 473,2400 473,2264 101,2264' rendition='Line' xml:id='facs_20_line_1507492111965_644'/>
+				<zone points='433,2501 2366,2501 2366,2377 433,2377' rendition='Line' xml:id='facs_20_line_1507492109975_643'/>
+				<zone points='78,2659 478,2659 478,2417 78,2417' rendition='Line' xml:id='facs_20_line_1507492118652_647'/>
+				<zone points='495,2597 2377,2597 2377,2479 495,2479' rendition='Line' xml:id='facs_20_line_1507492114431_645'/>
+				<zone points='507,2710 2299,2710 2299,2574 507,2574' rendition='Line' xml:id='facs_20_line_1507492116730_646'/>
+				<zone points='512,2834 2338,2834 2338,2687 512,2687' rendition='Line' xml:id='facs_20_line_1507492120762_648'/>
+				<zone points='405,3048 2006,3048 2006,2828 405,2828' rendition='Line' xml:id='facs_20_line_1507492123026_649'/>
+			</zone>
+		</surface>
+	</facsimile> -->
+	<facsimile xml:id='facs_21'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0021_Wendelin-Agathemerus-21.png'>
+			<graphic url='0021_Wendelin-Agathemerus-21.png' width='3319px' height='2473px'/>
+			<zone points='146,90 2411,90 2411,3200 146,3200' rendition='TextRegion' xml:id='facs_21_region_1507493003887_651'>
+				<zone points='1543,214 1910,214 1910,112 1543,112' rendition='Line' xml:id='facs_21_line_1507493008295_652'/>
+				<zone points='202,270 2028,270 2028,225 202,225' rendition='Line' xml:id='facs_21_line_1507493011040_653'/>
+				<zone points='202,366 2423,366 2423,298 202,298' rendition='Line' xml:id='facs_21_line_1507493013395_654'/>
+				<zone points='230,423 2016,423 2017,355 231,355' rendition='Line' xml:id='facs_21_line_1507493015612_655'/>
+				<zone points='219,484 1989,484 1989,400 219,400' rendition='Line' xml:id='facs_21_line_1507493019211_656'/>
+				<zone points='225,586 1955,586 1955,478 225,478' rendition='Line' xml:id='facs_21_line_1507493021293_657'/>
+				<zone points='219,676 2039,676 2039,574 219,574' rendition='Line' xml:id='facs_21_line_1507493023310_658'/>
+				<zone points='231,755 1306,760 1306,669 231,664' rendition='Line' xml:id='facs_21_line_1507493026025_659'/>
+				<zone points='1325,669 2428,669 2428,789 1325,789' rendition='Line' xml:id='facs_21_line_1507553486861_3'/>
+				<zone points='259,873 2152,873 2152,755 259,755' rendition='Line' xml:id='facs_21_line_1507493028487_660'/>
+				<zone points='2203,766 2383,766 2383,811 2203,811' rendition='Line' xml:id='facs_21_line_1507493033155_662'/>
+				<zone points='236,935 2007,942 2007,863 236,856' rendition='Line' xml:id='facs_21_line_1507493031073_661'/>
+				<zone points='2017,895 2406,895 2406,1081 2017,1081' rendition='Line' xml:id='facs_21_line_1507493035658_663'/>
+				<zone points='225,1019 1972,1019 1972,924 225,924' rendition='Line' xml:id='facs_21_line_1507493037954_664'/>
+				<zone points='247,1098 1932,1098 1932,1025 247,1025' rendition='Line' xml:id='facs_21_line_1507493040790_665'/>
+				<zone points='2107,1104 2366,1104 2366,1369 2107,1369' rendition='Line' xml:id='facs_21_line_1507493046375_668'/>
+				<zone points='236,1162 1966,1183 1966,1126 236,1105' rendition='Line' xml:id='facs_21_line_1507493042783_666'/>
+				<zone points='225,1262 1944,1262 1944,1194 225,1194' rendition='Line' xml:id='facs_21_line_1507493044751_667'/>
+				<zone points='236,1324 1921,1324 1921,1256 236,1256' rendition='Line' xml:id='facs_21_line_1507493048321_669'/>
+				<zone points='214,1420 1994,1420 1994,1324 214,1324' rendition='Line' xml:id='facs_21_line_1507493050337_670'/>
+				<zone points='2130,1414 2349,1414 2349,1532 2130,1532' rendition='Line' xml:id='facs_21_line_1507493053576_672'/>
+				<zone points='201,1481 2083,1535 2083,1450 201,1396' rendition='Line' xml:id='facs_21_line_1507493052240_671'/>
+				<zone points='238,1566 2000,1628 2000,1538 238,1476' rendition='Line' xml:id='facs_21_line_1507493056123_673'/>
+				<zone points='219,1673 1989,1673 1989,1589 219,1589' rendition='Line' xml:id='facs_21_line_1507493058293_674'/>
+				<zone points='202,1763 1977,1763 1977,1667 202,1667' rendition='Line' xml:id='facs_21_line_1507493060519_675'/>
+				<zone points='231,1825 1962,1860 1965,1774 234,1739' rendition='Line' xml:id='facs_21_line_1507493062544_676'/>
+				<zone points='225,1921 1921,1921 1921,1825 225,1825' rendition='Line' xml:id='facs_21_line_1507493064402_677'/>
+				<zone points='206,1974 2039,2009 2039,1947 206,1912' rendition='Line' xml:id='facs_21_line_1507493066785_678'/>
+				<zone points='236,2084 1972,2084 1972,1994 236,1994' rendition='Line' xml:id='facs_21_line_1507493069291_679'/>
+				<zone points='219,2163 1904,2163 1904,2084 219,2084' rendition='Line' xml:id='facs_21_line_1507493072113_680'/>
+				<zone points='213,2221 1932,2257 1932,2175 213,2139' rendition='Line' xml:id='facs_21_line_1507493073951_681'/>
+				<zone points='2022,2180 2406,2180 2397,2717 2013,2717' rendition='Line' xml:id='facs_21_line_1507493082058_685'/>
+				<zone points='202,2311 1927,2311 1927,2237 202,2237' rendition='Line' xml:id='facs_21_line_1507493075928_682'/>
+				<zone points='219,2400 1887,2400 1887,2315 219,2315' rendition='Line' xml:id='facs_21_line_1507493077858_683'/>
+				<zone points='231,2479 1944,2479 1944,2400 231,2400' rendition='Line' xml:id='facs_21_line_1507493079860_684'/>
+				<zone points='204,2536 1955,2563 1955,2490 204,2463' rendition='Line' xml:id='facs_21_line_1507493084789_686'/>
+				<zone points='214,2623 1944,2642 1944,2580 214,2561' rendition='Line' xml:id='facs_21_line_1507493086799_687'/>
+				<zone points='202,2721 1960,2721 1960,2642 202,2642' rendition='Line' xml:id='facs_21_line_1507493094959_689'/>
+				<zone points='1949,2796 2363,2796 2363,2693 1949,2693' rendition='Line' xml:id='facs_21_line_1507554143289_4'/>
+				<zone points='225,2817 1944,2817 1944,2710 225,2710' rendition='Line' xml:id='facs_21_line_1507493096872_690'/>
+				<zone points='231,2873 1966,2873 1966,2794 231,2794' rendition='Line' xml:id='facs_21_line_1507493098914_691'/>
+				<zone points='180,3009 2039,3009 2039,2873 180,2873' rendition='Line' xml:id='facs_21_line_1507493100662_692'/>
+			</zone>
+		</surface>
+	</facsimile> <!--
+	<facsimile xml:id='facs_22'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0022_Wendelin-Agathemerus-22.png'>
+			<graphic url='0022_Wendelin-Agathemerus-22.png' width='3319px' height='2473px'/>
+			<zone points='39,107 2417,107 2417,3189 39,3189' rendition='TextRegion' xml:id='facs_22_region_1507493112811_693'>
+				<zone points='586,309 2338,309 2338,169 586,169' rendition='Line' xml:id='facs_22_line_1507493116521_694'/>
+				<zone points='529,411 2315,411 2315,276 529,276' rendition='Line' xml:id='facs_22_line_1507493119005_695'/>
+				<zone points='517,508 2337,508 2338,371 518,371' rendition='Line' xml:id='facs_22_line_1507493121512_696'/>
+				<zone points='490,578 2338,578 2341,485 493,485' rendition='Line' xml:id='facs_22_line_1507493124462_697'/>
+				<zone points='78,608 304,608 304,490 78,490' rendition='Line' xml:id='facs_22_line_1507493128194_698'/>
+				<zone points='553,692 2300,679 2299,569 552,582' rendition='Line' xml:id='facs_22_line_1507493131076_699'/>
+				<zone points='526,802 2301,802 2295,707 520,707' rendition='Line' xml:id='facs_22_line_1507493133314_700'/>
+				<zone points='163,710 394,710 394,828 163,828' rendition='Line' xml:id='facs_22_line_1507493135244_701'/>
+				<zone points='534,917 2331,917 2331,796 534,796' rendition='Line' xml:id='facs_22_line_1507493137321_702'/>
+				<zone points='512,1025 1380,1025 1380,907 512,907' rendition='Line' xml:id='facs_22_line_1507493139508_703'/>
+				<zone points='817,1172 1910,1172 1910,1003 817,1003' rendition='Line' xml:id='facs_22_line_1507493141738_704'/>
+				<zone points='1087,1267 1521,1267 1521,1132 1087,1132' rendition='Line' xml:id='facs_22_line_1507493143291_705'/>
+				<zone points='534,1384 2264,1384 2265,1259 535,1259' rendition='Line' xml:id='facs_22_line_1507493145461_706'/>
+				<zone points='586,1521 2299,1521 2299,1369 586,1369' rendition='Line' xml:id='facs_22_line_1507493147712_707'/>
+				<zone points='540,1611 1842,1611 1842,1481 540,1481' rendition='Line' xml:id='facs_22_line_1507493149609_708'/>
+				<zone points='726,1729 2355,1729 2353,1601 724,1601' rendition='Line' xml:id='facs_22_line_1507493151947_709'/>
+				<zone points='512,1859 2304,1859 2299,1722 507,1722' rendition='Line' xml:id='facs_22_line_1507493153885_710'/>
+				<zone points='512,1955 1705,1937 1705,1830 512,1848' rendition='Line' xml:id='facs_22_line_1507493155854_711'/>
+				<zone points='726,2045 2372,2045 2372,1904 726,1904' rendition='Line' xml:id='facs_22_line_1507493157857_712'/>
+				<zone points='514,2148 2340,2148 2338,2028 512,2028' rendition='Line' xml:id='facs_22_line_1507493159915_713'/>
+				<zone points='557,2248 2332,2248 2332,2130 557,2130' rendition='Line' xml:id='facs_22_line_1507493162244_714'/>
+				<zone points='535,2355 2304,2355 2304,2231 535,2231' rendition='Line' xml:id='facs_22_line_1507493164190_715'/>
+				<zone points='524,2451 2355,2451 2352,2341 521,2341' rendition='Line' xml:id='facs_22_line_1507493166528_716'/>
+				<zone points='530,2595 2338,2559 2344,2434 536,2470' rendition='Line' xml:id='facs_22_line_1507493168393_717'/>
+				<zone points='546,2678 1918,2655 1927,2552 555,2575' rendition='Line' xml:id='facs_22_line_1507493170203_718'/>
+				<zone points='679,2783 2297,2783 2299,2659 681,2659' rendition='Line' xml:id='facs_22_line_1507493172037_719'/>
+				<zone points='591,2868 2327,2868 2327,2761 591,2761' rendition='Line' xml:id='facs_22_line_1507493174317_720'/>
+				<zone points='574,2969 2338,2969 2338,2851 574,2851' rendition='Line' xml:id='facs_22_line_1507493176141_721'/>
+				<zone points='552,3104 2315,3104 2315,2947 552,2947' rendition='Line' xml:id='facs_22_line_1507493177906_722'/>
+			</zone>
+		</surface>
+	</facsimile> -->
+	<facsimile xml:id='facs_23'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0023_Wendelin-Agathemerus-23.png'>
+			<graphic url='0023_Wendelin-Agathemerus-23.png' width='3319px' height='2473px'/>
+			<zone points='118,95 2039,95 2039,3240 118,3240' rendition='TextRegion' xml:id='facs_23_region_1507493459464_723'>
+				<zone points='191,343 2073,343 2073,236 191,236' rendition='Line' xml:id='facs_23_line_1507493470090_729'/>
+				<zone points='236,422 2000,422 2000,332 236,332' rendition='Line' xml:id='facs_23_line_1507493471795_730'/>
+				<zone points='185,518 2039,518 2039,433 185,433' rendition='Line' xml:id='facs_23_line_1507493473726_731'/>
+				<zone points='236,619 2039,619 2039,535 236,535' rendition='Line' xml:id='facs_23_line_1507493475592_732'/>
+				<zone points='225,693 2017,693 2017,619 225,619' rendition='Line' xml:id='facs_23_line_1507493477353_733'/>
+				<zone points='202,786 2017,786 2017,715 202,715' rendition='Line' xml:id='facs_23_line_1507493479491_734'/>
+				<zone points='2011,777 2389,777 2389,1138 2011,1138' rendition='Line' xml:id='facs_23_line_1507493462326_724'/>
+				<zone points='236,879 2000,879 2000,788 236,788' rendition='Line' xml:id='facs_23_line_1507493481851_735'/>
+				<zone points='214,969 2011,969 2011,856 214,856' rendition='Line' xml:id='facs_23_line_1507493483486_736'/>
+				<zone points='185,1070 1915,1070 1915,935 185,935' rendition='Line' xml:id='facs_23_line_1507493485140_737'/>
+				<zone points='597,1217 2096,1217 2096,1048 597,1048' rendition='Line' xml:id='facs_23_line_1507493487254_738'/>
+				<zone points='850,1273 1312,1273 1312,1149 850,1149' rendition='Line' xml:id='facs_23_line_1507493488976_739'/>
+				<zone points='208,1391 2028,1391 2028,1290 208,1290' rendition='Line' xml:id='facs_23_line_1507493490850_740'/>
+				<zone points='202,1481 1949,1481 1949,1386 202,1386' rendition='Line' xml:id='facs_23_line_1507493493188_741'/>
+				<zone points='242,1566 2011,1566 2011,1481 242,1481' rendition='Line' xml:id='facs_23_line_1507493495086_742'/>
+				<zone points='208,1667 1696,1667 1696,1577 208,1577' rendition='Line' xml:id='facs_23_line_1507493496950_743'/>
+				<zone points='349,1775 2034,1775 2034,1662 349,1662' rendition='Line' xml:id='facs_23_line_1507493498854_744'/>
+				<zone points='180,1848 2034,1848 2034,1729 180,1729' rendition='Line' xml:id='facs_23_line_1507493500888_745'/>
+				<zone points='202,1944 2056,1944 2056,1831 202,1831' rendition='Line' xml:id='facs_23_line_1507493502874_746'/>
+				<zone points='231,2022 1735,2022 1735,1927 231,1927' rendition='Line' xml:id='facs_23_line_1507493504638_747'/>
+				<zone points='315,2113 1983,2113 1983,2011 315,2011' rendition='Line' xml:id='facs_23_line_1507493506438_748'/>
+				<zone points='197,2192 2022,2192 2022,2113 197,2113' rendition='Line' xml:id='facs_23_line_1507493508256_749'/>
+				<zone points='231,2265 2017,2265 2017,2180 231,2180' rendition='Line' xml:id='facs_23_line_1507493510284_750'/>
+				<zone points='2034,2203 2389,2203 2389,2361 2034,2361' rendition='Line' xml:id='facs_23_line_1507493464129_725'/>
+				<zone points='208,2338 1989,2338 1989,2276 208,2276' rendition='Line' xml:id='facs_23_line_1507493512548_751'/>
+				<zone points='214,2439 1994,2439 1994,2338 214,2338' rendition='Line' xml:id='facs_23_line_1507493514685_752'/>
+				<zone points='2034,2406 2287,2406 2287,2563 2034,2563' rendition='Line' xml:id='facs_23_line_1507493465618_726'/>
+				<zone points='214,2530 2034,2530 2034,2445 214,2445' rendition='Line' xml:id='facs_23_line_1507493516738_753'/>
+				<zone points='219,2648 2028,2648 2028,2524 219,2524' rendition='Line' xml:id='facs_23_line_1507493518547_754'/>
+				<zone points='219,2749 614,2749 614,2631 219,2631' rendition='Line' xml:id='facs_23_line_1507493520533_755'/>
+				<zone points='332,2817 2000,2817 2000,2716 332,2716' rendition='Line' xml:id='facs_23_line_1507493522278_756'/>
+				<zone points='225,2907 2028,2907 2028,2800 225,2800' rendition='Line' xml:id='facs_23_line_1507493524420_757'/>
+				<zone points='214,3003 2011,3003 2011,2890 214,2890' rendition='Line' xml:id='facs_23_line_1507493526320_758'/>
+				<zone points='231,3099 1989,3099 1989,2980 231,2980' rendition='Line' xml:id='facs_23_line_1507493528397_759'/>
+			</zone>
+			<zone points='2039,2783 2039,2969 2394,2969 2394,2783' rendition='TextRegion' xml:id='facs_23_region_1507493467190_727'>
+				<zone points='2039,2783 2394,2783 2394,2969 2039,2969' rendition='Line' xml:id='facs_23_line_1507493467232_728'/>
+			</zone>
+		</surface>
+	</facsimile> <!--
+	<facsimile xml:id='facs_24'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0024_Wendelin-Agathemerus-24.png'>
+			<graphic url='0024_Wendelin-Agathemerus-24.png' width='3319px' height='2473px'/>
+			<zone points='56,101 2456,101 2456,3189 56,3189' rendition='TextRegion' xml:id='facs_24_region_1507493542350_760'>
+				<zone points='648,321 2310,321 2310,197 648,197' rendition='Line' xml:id='facs_24_line_1507493545985_761'/>
+				<zone points='484,422 1634,422 1634,287 484,287' rendition='Line' xml:id='facs_24_line_1507493548416_762'/>
+				<zone points='619,524 2423,524 2423,388 619,388' rendition='Line' xml:id='facs_24_line_1507493550185_763'/>
+				<zone points='524,631 2389,631 2389,495 524,495' rendition='Line' xml:id='facs_24_line_1507493552372_764'/>
+				<zone points='490,738 2349,738 2349,586 490,586' rendition='Line' xml:id='facs_24_line_1507493554491_765'/>
+				<zone points='512,833 2259,833 2259,670 512,670' rendition='Line' xml:id='facs_24_line_1507493556744_766'/>
+				<zone points='84,755 580,755 580,1318 84,1318' rendition='Line' xml:id='facs_24_line_1507493565582_770'/>
+				<zone points='625,941 2293,941 2293,845 625,845' rendition='Line' xml:id='facs_24_line_1507493559067_767'/>
+				<zone points='507,1065 2299,1065 2299,957 507,957' rendition='Line' xml:id='facs_24_line_1507493560956_768'/>
+				<zone points='535,1155 2377,1155 2377,1042 535,1042' rendition='Line' xml:id='facs_24_line_1507493562734_769'/>
+				<zone points='557,1256 2327,1256 2327,1143 557,1143' rendition='Line' xml:id='facs_24_line_1507493569889_771'/>
+				<zone points='490,1369 2321,1369 2321,1262 490,1262' rendition='Line' xml:id='facs_24_line_1507493576800_772'/>
+				<zone points='552,1487 2389,1487 2389,1358 552,1358' rendition='Line' xml:id='facs_24_line_1507493578938_773'/>
+				<zone points='512,1605 1780,1605 1780,1493 512,1493' rendition='Line' xml:id='facs_24_line_1507493581213_774'/>
+				<zone points='715,1729 2411,1729 2411,1549 715,1549' rendition='Line' xml:id='facs_24_line_1507493582982_775'/>
+				<zone points='501,1842 2372,1842 2372,1701 501,1701' rendition='Line' xml:id='facs_24_line_1507493584945_776'/>
+				<zone points='529,1944 2377,1944 2377,1803 529,1803' rendition='Line' xml:id='facs_24_line_1507493587646_777'/>
+				<zone points='225,1972 462,1972 462,1859 225,1859' rendition='Line' xml:id='facs_24_line_1507493589541_778'/>
+				<zone points='540,2034 2349,2034 2349,1938 540,1938' rendition='Line' xml:id='facs_24_line_1507493591921_779'/>
+				<zone points='518,2163 2361,2163 2361,2011 518,2011' rendition='Line' xml:id='facs_24_line_1507493594085_780'/>
+				<zone points='524,2270 2175,2270 2175,2163 524,2163' rendition='Line' xml:id='facs_24_line_1507493596144_781'/>
+				<zone points='698,2389 2349,2389 2349,2259 698,2259' rendition='Line' xml:id='facs_24_line_1507493598017_782'/>
+				<zone points='535,2485 2332,2485 2332,2366 535,2366' rendition='Line' xml:id='facs_24_line_1507493600043_783'/>
+				<zone points='535,2608 2332,2608 2332,2485 535,2485' rendition='Line' xml:id='facs_24_line_1507493602351_784'/>
+				<zone points='495,2744 2321,2744 2321,2592 495,2592' rendition='Line' xml:id='facs_24_line_1507493604712_785'/>
+				<zone points='501,2851 2383,2851 2383,2716 501,2716' rendition='Line' xml:id='facs_24_line_1507493607179_786'/>
+				<zone points='648,2958 2383,2958 2383,2811 648,2811' rendition='Line' xml:id='facs_24_line_1507493609755_787'/>
+			</zone>
+		</surface>
+	</facsimile> -->
+	<facsimile xml:id='facs_25'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0025_Wendelin-Agathemerus-25.png'>
+			<graphic url='0025_Wendelin-Agathemerus-25.png' width='3319px' height='2473px'/>
+			<zone points='101,112 2073,112 2073,3228 101,3228' rendition='TextRegion' xml:id='facs_25_region_1507493896748_788'>
+				<zone points='169,326 2039,326 2039,174 169,174' rendition='Line' xml:id='facs_25_line_1507493908502_793'/>
+				<zone points='152,416 1966,416 1966,321 152,321' rendition='Line' xml:id='facs_25_line_1507493910368_794'/>
+				<zone points='242,507 2000,507 2000,394 242,394' rendition='Line' xml:id='facs_25_line_1507493912362_795'/>
+				<zone points='189,591 2032,591 2033,491 190,491' rendition='Line' xml:id='facs_25_line_1507493914252_796'/>
+				<zone points='178,681 2010,681 2006,574 174,574' rendition='Line' xml:id='facs_25_line_1507493916166_797'/>
+				<zone points='212,767 2004,767 2005,679 213,679' rendition='Line' xml:id='facs_25_line_1507493918111_798'/>
+				<zone points='232,871 1904,853 1904,754 232,772' rendition='Line' xml:id='facs_25_line_1507493919945_799'/>
+				<zone points='300,939 2027,930 2026,842 299,851' rendition='Line' xml:id='facs_25_line_1507493921947_800'/>
+				<zone points='201,1052 2039,1033 2044,937 190,937' rendition='Line' xml:id='facs_25_line_1507493924085_801'/>
+				<zone points='2056,969 2282,969 2282,1222 2056,1222' rendition='Line' xml:id='facs_25_line_1507493900118_789'/>
+				<zone points='231,1132 2022,1132 2022,1014 231,1014' rendition='Line' xml:id='facs_25_line_1507493926079_802'/>
+				<zone points='236,1194 2028,1194 2028,1110 236,1110' rendition='Line' xml:id='facs_25_line_1507493928082_803'/>
+				<zone points='231,1290 2022,1290 2022,1211 231,1211' rendition='Line' xml:id='facs_25_line_1507493930368_804'/>
+				<zone points='140,1358 2022,1358 2022,1290 140,1290' rendition='Line' xml:id='facs_25_line_1507493932242_805'/>
+				<zone points='253,1448 2039,1448 2039,1358 253,1358' rendition='Line' xml:id='facs_25_line_1507493934419_806'/>
+				<zone points='208,1572 1977,1572 1977,1459 208,1459' rendition='Line' xml:id='facs_25_line_1507493936422_807'/>
+				<zone points='247,1656 1904,1656 1904,1566 247,1566' rendition='Line' xml:id='facs_25_line_1507493938280_808'/>
+				<zone points='322,1726 2036,1727 2034,1639 320,1638' rendition='Line' xml:id='facs_25_line_1507493940835_809'/>
+				<zone points='208,1859 1949,1859 1949,1718 208,1718' rendition='Line' xml:id='facs_25_line_1507493942653_810'/>
+				<zone points='180,1910 2017,1910 2017,1814 180,1814' rendition='Line' xml:id='facs_25_line_1507493944664_811'/>
+				<zone points='236,2011 1982,2011 1983,1916 237,1916' rendition='Line' xml:id='facs_25_line_1507493946833_812'/>
+				<zone points='196,2102 2027,2102 2025,2011 194,2011' rendition='Line' xml:id='facs_25_line_1507493952354_814'/>
+				<zone points='214,2192 2034,2192 2034,2079 214,2079' rendition='Line' xml:id='facs_25_line_1507493954225_815'/>
+				<zone points='214,2299 648,2299 648,2175 214,2175' rendition='Line' xml:id='facs_25_line_1507493956050_816'/>
+				<zone points='281,2377 2051,2377 2051,2276 281,2276' rendition='Line' xml:id='facs_25_line_1507493957877_817'/>
+				<zone points='163,2468 2237,2468 2237,2366 163,2366' rendition='Line' xml:id='facs_25_line_1507493960038_818'/>
+				<zone points='208,2563 2011,2563 2011,2456 208,2456' rendition='Line' xml:id='facs_25_line_1507493962067_819'/>
+				<zone points='208,2659 1955,2659 1955,2563 208,2563' rendition='Line' xml:id='facs_25_line_1507493963921_820'/>
+				<zone points='2000,2575 2186,2575 2186,2851 2000,2851' rendition='Line' xml:id='facs_25_line_1507493903701_792'/>
+				<zone points='247,2772 1932,2772 1932,2654 247,2654' rendition='Line' xml:id='facs_25_line_1507493965806_821'/>
+				<zone points='231,2862 1634,2862 1634,2744 231,2744' rendition='Line' xml:id='facs_25_line_1507493967573_822'/>
+				<zone points='247,2963 2056,2963 2056,2873 247,2873' rendition='Line' xml:id='facs_25_line_1507493969681_823'/>
+				<zone points='169,3065 1262,3065 1262,2963 169,2963' rendition='Line' xml:id='facs_25_line_1507493971520_824'/>
+			</zone>
+			<zone points='2079,1245 2079,1600 2372,1600 2372,1245' rendition='TextRegion' xml:id='facs_25_region_1507493901793_790'>
+				<zone points='2079,1245 2372,1245 2372,1600 2079,1600' rendition='Line' xml:id='facs_25_line_1507493901830_791'/>
+			</zone>
+		</surface>
+	</facsimile> <!--
+	<facsimile xml:id='facs_26'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0026_Wendelin-Agathemerus-26.png'>
+			<graphic url='0026_Wendelin-Agathemerus-26.png' width='3319px' height='2473px'/>
+			<zone points='101,84 2439,84 2439,3217 101,3217' rendition='TextRegion' xml:id='facs_26_region_1507493990401_825'>
+				<zone points='602,281 2349,281 2349,163 602,163' rendition='Line' xml:id='facs_26_line_1507494000521_826'/>
+				<zone points='507,371 2364,417 2364,316 507,270' rendition='Line' xml:id='facs_26_line_1507494003210_827'/>
+				<zone points='535,512 2394,512 2394,343 535,343' rendition='Line' xml:id='facs_26_line_1507494005276_828'/>
+				<zone points='501,602 986,602 986,462 501,462' rendition='Line' xml:id='facs_26_line_1507494007278_829'/>
+				<zone points='619,715 2409,749 2409,625 619,591' rendition='Line' xml:id='facs_26_line_1507494009328_830'/>
+				<zone points='524,811 2296,865 2296,764 524,710' rendition='Line' xml:id='facs_26_line_1507494011467_831'/>
+				<zone points='101,732 416,732 416,867 101,867' rendition='Line' xml:id='facs_26_line_1507494016024_833'/>
+				<zone points='490,929 2379,985 2379,856 490,800' rendition='Line' xml:id='facs_26_line_1507494013885_832'/>
+				<zone points='501,1059 2321,1059 2321,929 501,929' rendition='Line' xml:id='facs_26_line_1507494018472_834'/>
+				<zone points='512,1155 2372,1194 2372,1098 512,1059' rendition='Line' xml:id='facs_26_line_1507494021064_835'/>
+				<zone points='535,1267 2368,1296 2376,1178 543,1149' rendition='Line' xml:id='facs_26_line_1507494027851_837'/>
+				<zone points='518,1357 1818,1404 1818,1314 518,1267' rendition='Line' xml:id='facs_26_line_1507494029957_838'/>
+				<zone points='653,1487 2394,1487 2394,1374 653,1374' rendition='Line' xml:id='facs_26_line_1507494031798_839'/>
+				<zone points='512,1577 2379,1612 2379,1511 512,1476' rendition='Line' xml:id='facs_26_line_1507494034012_840'/>
+				<zone points='524,1684 2286,1721 2286,1620 524,1583' rendition='Line' xml:id='facs_26_line_1507494035981_841'/>
+				<zone points='540,1814 2315,1814 2315,1696 540,1696' rendition='Line' xml:id='facs_26_line_1507494038077_842'/>
+				<zone points='546,1927 2332,1927 2332,1825 546,1825' rendition='Line' xml:id='facs_26_line_1507494040047_843'/>
+				<zone points='495,2045 2383,2045 2383,1949 495,1949' rendition='Line' xml:id='facs_26_line_1507494041889_844'/>
+				<zone points='507,2180 2377,2180 2377,2039 507,2039' rendition='Line' xml:id='facs_26_line_1507494044004_845'/>
+				<zone points='84,2051 456,2051 456,2163 84,2163' rendition='Line' xml:id='facs_26_line_1507494045766_846'/>
+				<zone points='518,2270 2225,2270 2225,2163 518,2163' rendition='Line' xml:id='facs_26_line_1507494047652_847'/>
+				<zone points='507,2372 2022,2372 2022,2242 507,2242' rendition='Line' xml:id='facs_26_line_1507494049381_848'/>
+				<zone points='693,2485 2372,2485 2372,2315 693,2315' rendition='Line' xml:id='facs_26_line_1507494051127_849'/>
+				<zone points='535,2603 2383,2603 2383,2468 535,2468' rendition='Line' xml:id='facs_26_line_1507494052921_850'/>
+				<zone points='535,2710 2383,2710 2383,2563 535,2563' rendition='Line' xml:id='facs_26_line_1507494054671_851'/>
+				<zone points='529,2823 2383,2823 2383,2693 529,2693' rendition='Line' xml:id='facs_26_line_1507494056613_852'/>
+				<zone points='529,2913 2377,2913 2377,2817 529,2817' rendition='Line' xml:id='facs_26_line_1507494058457_853'/>
+				<zone points='501,3042 2372,3042 2372,2913 501,2913' rendition='Line' xml:id='facs_26_line_1507494060633_854'/>
+			</zone>
+		</surface>
+	</facsimile>  -->
+	<facsimile xml:id='facs_27'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0027_Wendelin-Agathemerus-27.png'>
+			<graphic url='0027_Wendelin-Agathemerus-27.png' width='3319px' height='2473px'/>
+			<zone points='112,95 2400,95 2400,3234 112,3234' rendition='TextRegion' xml:id='facs_27_region_1507494386489_855'>
+				<zone points='298,293 2028,317 2028,198 298,174' rendition='Line' xml:id='facs_27_line_1507494390146_856'/>
+				<zone points='174,400 2017,400 2017,303 174,303' rendition='Line' xml:id='facs_27_line_1507494392357_857'/>
+				<zone points='180,473 2028,473 2028,366 180,366' rendition='Line' xml:id='facs_27_line_1507494394550_858'/>
+				<zone points='208,574 2068,574 2068,450 208,450' rendition='Line' xml:id='facs_27_line_1507494396665_859'/>
+				<zone points='202,670 1465,670 1465,563 202,563' rendition='Line' xml:id='facs_27_line_1507494398619_860'/>
+				<zone points='326,766 2051,766 2051,631 326,631' rendition='Line' xml:id='facs_27_line_1507494400653_861'/>
+				<zone points='163,839 1966,839 1959,746 156,746' rendition='Line' xml:id='facs_27_line_1507494402839_862'/>
+				<zone points='2073,755 2383,755 2383,935 2073,935' rendition='Line' xml:id='facs_27_line_1507494406839_864'/>
+				<zone points='225,929 1994,929 1994,833 225,833' rendition='Line' xml:id='facs_27_line_1507494404953_863'/>
+				<zone points='185,1014 1966,1014 1966,907 185,907' rendition='Line' xml:id='facs_27_line_1507494414477_865'/>
+				<zone points='163,1138 2000,1138 2000,1031 163,1031' rendition='Line' xml:id='facs_27_line_1507494416543_866'/>
+				<zone points='208,1228 1983,1228 1983,1098 208,1098' rendition='Line' xml:id='facs_27_line_1507494418809_867'/>
+				<zone points='202,1318 1977,1318 1977,1188 202,1188' rendition='Line' xml:id='facs_27_line_1507494420963_868'/>
+				<zone points='202,1391 1667,1391 1667,1279 202,1279' rendition='Line' xml:id='facs_27_line_1507494423077_869'/>
+				<zone points='321,1487 2017,1487 2017,1380 321,1380' rendition='Line' xml:id='facs_27_line_1507494425144_870'/>
+				<zone points='208,1600 1960,1600 1960,1470 208,1470' rendition='Line' xml:id='facs_27_line_1507494427186_871'/>
+				<zone points='231,1679 2011,1679 2011,1572 231,1572' rendition='Line' xml:id='facs_27_line_1507494429172_872'/>
+				<zone points='242,1758 2006,1758 2006,1651 242,1651' rendition='Line' xml:id='facs_27_line_1507494436195_873'/>
+				<zone points='225,1837 1910,1837 1910,1724 225,1724' rendition='Line' xml:id='facs_27_line_1507494438388_874'/>
+				<zone points='2406,1994 1374,1994 1374,1825 2406,1825' rendition='Line' xml:id='facs_27_line_1507494443602_876'/>
+				<zone points='219,1960 1975,1957 1975,1856 219,1859' rendition='Line' xml:id='facs_27_line_1507494441179_875'/>
+				<zone points='219,2034 1977,2034 1977,1949 219,1949' rendition='Line' xml:id='facs_27_line_1507494446088_877'/>
+				<zone points='219,2118 1983,2118 1983,2028 219,2028' rendition='Line' xml:id='facs_27_line_1507494448411_878'/>
+				<zone points='208,2220 1949,2220 1949,2118 208,2118' rendition='Line' xml:id='facs_27_line_1507494450701_879'/>
+				<zone points='214,2327 1944,2327 1944,2220 214,2220' rendition='Line' xml:id='facs_27_line_1507494452960_880'/>
+				<zone points='287,2417 1989,2417 1989,2304 287,2304' rendition='Line' xml:id='facs_27_line_1507494455082_881'/>
+				<zone points='197,2524 1966,2524 1966,2423 197,2423' rendition='Line' xml:id='facs_27_line_1507494457292_882'/>
+				<zone points='185,2608 1966,2608 1966,2507 185,2507' rendition='Line' xml:id='facs_27_line_1507494459510_883'/>
+				<zone points='197,2699 2028,2699 2028,2603 197,2603' rendition='Line' xml:id='facs_27_line_1507494461417_884'/>
+				<zone points='169,2806 2068,2806 2068,2699 169,2699' rendition='Line' xml:id='facs_27_line_1507494463580_885'/>
+				<zone points='191,2879 2101,2879 2101,2806 191,2806' rendition='Line' xml:id='facs_27_line_1507494465950_886'/>
+				<zone points='208,2975 1983,2975 1983,2862 208,2862' rendition='Line' xml:id='facs_27_line_1507494469350_887'/>
+				<zone points='202,3065 1865,3065 1865,2969 202,2969' rendition='Line' xml:id='facs_27_line_1507494471424_888'/>
+			</zone>
+		</surface>
+	</facsimile> <!--
+	<facsimile xml:id='facs_28'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0028_Wendelin-Agathemerus-28.png'>
+			<graphic url='0028_Wendelin-Agathemerus-28.png' width='3319px' height='2473px'/>
+			<zone points='78,123 2434,123 2434,3228 78,3228' rendition='TextRegion' xml:id='facs_28_region_1507494482700_889'>
+				<zone points='648,309 2242,309 2242,174 648,174' rendition='Line' xml:id='facs_28_line_1507494486518_890'/>
+				<zone points='507,405 1188,405 1188,270 507,270' rendition='Line' xml:id='facs_28_line_1507494488358_891'/>
+				<zone points='619,507 2372,507 2372,388 619,388' rendition='Line' xml:id='facs_28_line_1507494490466_892'/>
+				<zone points='518,608 2287,608 2287,501 518,501' rendition='Line' xml:id='facs_28_line_1507494492523_893'/>
+				<zone points='495,726 2361,726 2361,597 495,597' rendition='Line' xml:id='facs_28_line_1507494494614_894'/>
+				<zone points='473,833 2372,833 2372,710 473,710' rendition='Line' xml:id='facs_28_line_1507494496585_895'/>
+				<zone points='501,941 1380,941 1380,828 501,828' rendition='Line' xml:id='facs_28_line_1507494498770_896'/>
+				<zone points='659,1065 2321,1065 2321,884 659,884' rendition='Line' xml:id='facs_28_line_1507494500845_897'/>
+				<zone points='518,1177 2349,1177 2349,1025 518,1025' rendition='Line' xml:id='facs_28_line_1507494503392_898'/>
+				<zone points='512,1301 2361,1301 2361,1126 512,1126' rendition='Line' xml:id='facs_28_line_1507494505748_899'/>
+				<zone points='524,1414 2383,1414 2383,1262 524,1262' rendition='Line' xml:id='facs_28_line_1507494508761_900'/>
+				<zone points='518,1515 1183,1515 1183,1397 518,1397' rendition='Line' xml:id='facs_28_line_1507494510749_901'/>
+				<zone points='631,1639 2349,1639 2349,1476 631,1476' rendition='Line' xml:id='facs_28_line_1507494512879_902'/>
+				<zone points='501,1735 2366,1735 2366,1589 501,1589' rendition='Line' xml:id='facs_28_line_1507494515343_903'/>
+				<zone points='524,1831 2327,1831 2327,1673 524,1673' rendition='Line' xml:id='facs_28_line_1507494517465_904'/>
+				<zone points='501,1944 1397,1944 1397,1797 501,1797' rendition='Line' xml:id='facs_28_line_1507494519524_905'/>
+				<zone points='636,2079 2366,2079 2366,1898 636,1898' rendition='Line' xml:id='facs_28_line_1507494521485_906'/>
+				<zone points='490,2197 2394,2197 2394,2034 490,2034' rendition='Line' xml:id='facs_28_line_1507494523833_907'/>
+				<zone points='518,2315 2321,2315 2321,2180 518,2180' rendition='Line' xml:id='facs_28_line_1507494525954_908'/>
+				<zone points='524,2406 1352,2406 1352,2259 524,2259' rendition='Line' xml:id='facs_28_line_1507494527877_909'/>
+				<zone points='636,2501 2400,2501 2400,2372 636,2372' rendition='Line' xml:id='facs_28_line_1507494529937_910'/>
+				<zone points='518,2637 2389,2637 2389,2479 518,2479' rendition='Line' xml:id='facs_28_line_1507494532938_911'/>
+				<zone points='557,2732 2310,2732 2310,2597 557,2597' rendition='Line' xml:id='facs_28_line_1507494535100_912'/>
+				<zone points='101,2806 495,2806 495,2648 101,2648' rendition='Line' xml:id='facs_28_line_1507494537303_913'/>
+				<zone points='507,2845 2389,2845 2389,2716 507,2716' rendition='Line' xml:id='facs_28_line_1507494539762_914'/>
+				<zone points='473,3003 800,3003 800,2828 473,2828' rendition='Line' xml:id='facs_28_line_1507494542279_915'/>
+			</zone>
+		</surface>
+	</facsimile> -->
+	<facsimile xml:id='facs_29'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0029_Wendelin-Agathemerus-29.png'>
+			<graphic url='0029_Wendelin-Agathemerus-29.png' width='3319px' height='2473px'/>
+			<zone points='123,111 2379,111 2379,3254 123,3254' rendition='TextRegion' xml:id='facs_29_region_1507557905467_6'>
+				<zone points='262,299 1983,299 1983,185 262,185' rendition='Line' xml:id='facs_29_line_1507557915505_9'/>
+				<zone points='197,411 1953,411 1953,330 197,330' rendition='Line' xml:id='facs_29_line_1507557918439_10'/>
+				<zone points='284,503 2184,503 2184,426 284,426' rendition='Line' xml:id='facs_29_line_1507557985747_11'/>
+				<zone points='194,596 1931,596 1931,503 194,503' rendition='Line' xml:id='facs_29_line_1507557988682_12'/>
+				<zone points='163,673 2017,673 2017,596 163,596' rendition='Line' xml:id='facs_29_line_1507557991269_13'/>
+				<zone points='197,769 1953,769 1953,664 197,664' rendition='Line' xml:id='facs_29_line_1507557994004_14'/>
+				<zone points='200,856 1956,856 1956,766 200,766' rendition='Line' xml:id='facs_29_line_1507557996235_15'/>
+				<zone points='191,948 1965,948 1965,852 191,852' rendition='Line' xml:id='facs_29_line_1507557999338_16'/>
+				<zone points='222,1032 1940,1032 1940,936 222,936' rendition='Line' xml:id='facs_29_line_1507558001942_17'/>
+				<zone points='213,1100 890,1100 890,1010 213,1010' rendition='Line' xml:id='facs_29_line_1507558004377_18'/>
+				<zone points='309,1186 1909,1186 1909,1059 309,1059' rendition='Line' xml:id='facs_29_line_1507558006931_19'/>
+				<zone points='241,1263 1912,1263 1912,1161 241,1161' rendition='Line' xml:id='facs_29_line_1507558010278_20'/>
+				<zone points='228,1344 1928,1344 1928,1257 228,1257' rendition='Line' xml:id='facs_29_line_1507558013776_21'/>
+				<zone points='222,1421 1885,1421 1885,1344 222,1344' rendition='Line' xml:id='facs_29_line_1507558017077_22'/>
+				<zone points='225,1511 1860,1511 1860,1427 225,1427' rendition='Line' xml:id='facs_29_line_1507558020415_23'/>
+				<zone points='318,1606 1863,1606 1863,1511 318,1511' rendition='Line' xml:id='facs_29_line_1507558023201_24'/>
+				<zone points='169,1690 1860,1690 1860,1600 169,1600' rendition='Line' xml:id='facs_29_line_1507558026783_25'/>
+				<zone points='231,1773 2073,1773 2073,1681 231,1681' rendition='Line' xml:id='facs_29_line_1507558029815_26'/>
+				<zone points='2206,1656 2388,1656 2388,1773 2206,1773' rendition='Line' xml:id='facs_29_line_1507557910241_7'/>
+				<zone points='222,1857 1897,1857 1897,1780 222,1780' rendition='Line' xml:id='facs_29_line_1507558033641_27'/>
+				<zone points='1934,1783 2237,1783 2237,1946 1934,1946' rendition='Line' xml:id='facs_29_line_1507557912108_8'/>
+				<zone points='207,1965 1922,1965 1922,1875 207,1875' rendition='Line' xml:id='facs_29_line_1507558037337_28'/>
+				<zone points='213,2048 1662,2048 1662,1943 213,1943' rendition='Line' xml:id='facs_29_line_1507558039975_29'/>
+				<zone points='290,2126 1977,2126 1977,2055 290,2055' rendition='Line' xml:id='facs_29_line_1507558042907_30'/>
+				<zone points='213,2218 1906,2218 1906,2132 213,2132' rendition='Line' xml:id='facs_29_line_1507558046683_31'/>
+				<zone points='216,2311 1909,2311 1909,2225 216,2225' rendition='Line' xml:id='facs_29_line_1507558049641_32'/>
+				<zone points='207,2401 1906,2401 1906,2302 207,2302' rendition='Line' xml:id='facs_29_line_1507558052446_33'/>
+				<zone points='210,2493 914,2493 914,2391 210,2391' rendition='Line' xml:id='facs_29_line_1507558054901_34'/>
+				<zone points='299,2598 1938,2638 1938,2524 299,2484' rendition='Line' xml:id='facs_29_line_1507558057748_35'/>
+				<zone points='213,2654 1946,2718 1946,2647 213,2583' rendition='Line' xml:id='facs_29_line_1507558061918_36'/>
+				<zone points='213,2753 1930,2827 1930,2734 213,2660' rendition='Line' xml:id='facs_29_line_1507558065286_37'/>
+				<zone points='225,2818 1931,2901 1931,2830 225,2747' rendition='Line' xml:id='facs_29_line_1507558067977_38'/>
+				<zone points='194,2921 1961,2970 1961,2886 194,2837' rendition='Line' xml:id='facs_29_line_1507558071657_39'/>
+			</zone>
+		</surface>
+	</facsimile> <!--
+	<facsimile xml:id='facs_30'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0030_Wendelin-Agathemerus-30.png'>
+			<graphic url='0030_Wendelin-Agathemerus-30.png' width='3319px' height='2473px'/>
+			<zone points='670,139 2283,139 2283,590 670,590' rendition='TextRegion' xml:id='facs_30_region_1507558810443_40'>
+				<zone points='942,191 2116,191 2116,559 942,559' rendition='Line' xml:id='facs_30_line_1507558817890_41'/>
+			</zone>
+		</surface>
+	</facsimile> -->
+	<facsimile xml:id='facs_31'>
+		<surface ulx='0' uly='0' lrx='3319' lry='2473' corresp='0031_Wendelin-Agathemerus-31.png'>
+			<graphic url='0031_Wendelin-Agathemerus-31.png' width='3319px' height='2473px'/>
+			<zone points='420,154 1798,154 1798,630 420,630' rendition='TextRegion' xml:id='facs_31_region_1507558868443_42'>
+				<zone points='494,200 1585,200 1585,512 494,512' rendition='Line' xml:id='facs_31_line_1507558873070_43'/>
+			</zone>
+		</surface>
+	</facsimile>
+    
+    <text>
+        <body>
+        	<div type="edition" subtype="translation" xml:lang="lat" n="urn:cts:greekLit:tlg.0090.tlg001.wendelin-lat">
+                
+
+                <pb facs='#facs_1' n='1'/>
+                <head facs='#facs_1_region_1507487254270_47'>
+                    <lb facs='#facs_1_line_1507487257783_48' n='N001' xml:lang="grc"/>ΑΓΑΘΗΜΕΡΟΥΣ
+                    <lb facs='#facs_1_line_1507487259778_49' n='N002' xml:lang="grc"/>ΤΟΥ ΟΡΘΩΝΟΣ
+                    <lb facs='#facs_1_line_1507487262087_50' n='N003' xml:lang="grc"/>ΓΕΩΓΡΑΦΙΑΣ
+                    <lb facs='#facs_1_line_1507487264218_51' n='N004' xml:lang="grc"/>ΥΠΟΡΥΠΩΣΙΣ
+                    <lb facs='#facs_1_line_1507487266043_52' n='N005' xml:lang="grc"/>ΕΝ ΕΠΙΤΟΜΗΙ
+                    <lb facs='#facs_1_line_1507487267670_53' n='N006' xml:lang="grc"/>ΛΟΓΟΙΣ Β.
+                	<lb facs='#facs_1_line_1507487269768_54' n='N007'/>AGATHEMERIS
+                	<lb facs='#facs_1_line_1507487271430_55' n='N008'/>ORTHONIS F. 
+                	<lb facs='#facs_1_line_1507487273700_56' n='N009'/>GEOGRAPHIAE
+                	<lb facs='#facs_1_line_1507487276119_57' n='N010' /><subst><del rend="overstrike">DELINEATIO</del> <add place="inline">REPRAESENTATIO</add></subst>
+                	<lb facs='#facs_1_line_1507487278120_58' n='N011'/>COMPENDIARIA
+                	<lb facs='#facs_1_line_1507487279926_59' n='N012'/>Libris duobus
+                	<lb facs='#facs_1_line_1507487282413_60' n='N013'/>Ex Bibliotheca <hi rend="underline">Io. Iac. Chiffletij</hi> <add place="above">Ioani Iaci Chifletii</add>
+                	<lb facs='#facs_1_line_1507487284943_61' n='N014'/>depromebat, vertebatque 
+                	<lb facs='#facs_1_line_1507487288256_62' n='N015'/><hi rend="underline">Godefridus Vendelinus</hi>.
+                </head>
+
+                <div type="textpart" subtype="chapter" n="1">
+                 
+                    <div type="textpart" subtype="section" n="1">
+                       
+                        <pb facs='#facs_7'  n='7'/>
+              <head>
+                            <lb facs='#facs_7_line_1507488280467_214' n='N001'/>AGATHEMERIS
+                            <lb facs='#facs_7_line_1507488282061_215' n='N002'/>Orthonis f. 
+                            <lb facs='#facs_7_line_1507488283703_216' n='N003'/>Geographiae expositionis
+                            <lb facs='#facs_7_line_1507488285417_217' n='N004'/>compendiariae
+                            <lb facs='#facs_7_line_1507488287010_218' n='N005'/>Ad Philonem 
+                            <lb facs='#facs_7_line_1507488289292_219' n='N006'/>LIBER <del rend="overstrike">PRIMUS</del> PRIMUS
+                            <lb facs='#facs_7_line_1507488291452_220' n='N007'/><del rend="overstrike">Editore Godefrido Wendelino interprete</del>
+              </head>     
+                    	<p facs='#facs_7_region_1507488276778_213'><title type="subtitle">
+                            <lb facs='#facs_7_line_1507488293454_221' n='N008'/>De Veterum Geographia.
+                            <lb facs='#facs_7_line_1507488295087_222' n='N009'/>Caput primum.</title>
+                            <lb facs='#facs_7_line_1507488297291_223' n='N010'/>Anaximander Milesius auditor Thalis primus om-
+                            <lb facs='#facs_7_line_1507488299670_224' n='N011' break="no"/>nium ausus est orbem terrarum in tabella exprimere: 
+                            <lb facs='#facs_7_line_1507488301736_225' n='N012'/>quem secutus Hecataeus Milesius multae peregrinationis vir 
+                            <lb facs='#facs_7_line_1507488304255_226' n='N013'/>ad miraculum usque idem argumentum excoluit. Nam 
+                            <lb facs='#facs_7_line_1507488306619_227' n='N014'/>Hellanicus Lesbius quamquam alioquin doctissimus minus 
+                            <lb facs='#facs_7_line_1507488308403_228' n='N015'/>tamen concinne ista tractavit. Subinde autem Damastes 
+                            <lb facs='#facs_7_line_1507488310398_229' n='N016'/>Cittiensis sua describens ex Hecataeo Periplum littorialis 
+                            <lb facs='#facs_7_line_1507488312505_230' n='N017'/>orae composuit. Moxque Democritus atque Eudoxus 
+                            <lb facs='#facs_7_line_1507488314739_231' n='N018'/>aliique nonnulli Terrarum Circumitiones navi-
+                            <lb facs='#facs_7_line_1507488316534_232' n='N019'/>gationesque persecuti sunt. 
+                        </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="2">
+                        <p facs='#facs_7_region_1507488276778_213'>
+                            
+                            
+                            <lb facs='#facs_7_line_1507488318989_233' n='N020'/><space unit="character" quantity="3"/>Antiqui ergo Terrarum orben quatenus habitatur  
+                            <lb facs='#facs_7_line_1507488321143_234' n='N021'/>effigiarunt rotundum, mediam complexum Graeciam, cuius 
+                            <lb facs='#facs_7_line_1507488323242_235' n='N022'/>medio<subst><del rend="erasure">sque hanc</del><add place="above">statuant</add></subst> Delphos, quos umbilicum dixerunt orbis. 
+                            <lb facs='#facs_7_line_1507488325589_236' n='N023'/>At vero Democritus multis vir experimentis exercitus primus
+                            <lb facs='#facs_7_line_1507488327735_237' n='N024'/>asseruit oblongam esse terram. Sesquialtera sui longitudine 
+                            <lb facs='#facs_7_line_1507488330161_238' n='N025'/>ad latitudinem. cui etiam assensus est Dicaearchus Peripateticus. 
+                        </p>
+                        
+                        <pb facs='#facs_9' n='9'/>
+                        <p facs='#facs_9_region_1507488895063_271'>
+                            <lb facs='#facs_9_line_1507488899136_272' n='N001'/>Eudoxus autem longitudinem pronuntiavit duplam la-
+                            <lb facs='#facs_9_line_1507488901293_273' n='N002' break="no"/>titudinis; sicut Eratosthenes maiorem quoque dupla. 
+                            <lb facs='#facs_9_line_1507488903656_274' n='N003'/>Crates semicirculi figuram illi dedit; Hipparchus 
+                            <lb facs='#facs_9_line_1507488905498_275' n='N004'/>Trapezij: nonnulli etiam caudae belluinae; denique 
+                            <lb facs='#facs_9_line_1507488907733_276' n='N005'/>Posidonius Stoicus fundae illi formam tribuit, cuius 
+                            <lb facs='#facs_9_line_1507488910279_277' n='N006'/>media <del rend="erasure">long</del> latitudo porrigatur ab Austro in Boream, 
+                            <lb facs='#facs_9_line_1507488912593_278' n='N007'/>angustiae pars <subst><del rend="erasure"/><add place="above">infra</add></subst> orientem <subst><del rend="erasure">atque occidentem</del><add place="above">atque occidentem procedat.</add></subst>
+                            
+                 
+                        </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="3">
+
+                        <p facs='#facs_9_region_1507488895063_271'>
+                            
+                            <lb facs='#facs_9_line_1507488915259_279' n='N008'/><add place="above">Sic tamen ut latissima sit qua parte in Eurum vergit India.</add><space unit="character" quantity="3"/> Continentium termini sunt. Europae quidem atque <note place="inline">1.3</note> 
+                            <lb facs='#facs_9_line_1507488918134_280' n='N009'/>Africae Columnae Herculis; Africae atque Asiae Nilus, 
+                            <lb facs='#facs_9_line_1507488920265_281' n='N010'/>aut ut alijs visum Isthmus, qui Sarbonidem inter pa-
+                            <lb facs='#facs_9_line_1507488922683_282' n='N011' break="no"/>ludem et Arabicum sinum <unclear>interipitur</unclear>: Asiae denique 
+                            <note facs='#facs_9_line_1507488930671_284' xml:lang="lat">Procopius. 46.4. f. 414. 413. <add place="above">424</add></note>
+                            <lb facs='#facs_9_line_1507488924825_283' n='N013'/>et Europae confinia prisci quidem afferuerunt Phasin 
+                            <lb facs='#facs_9_line_1507488934054_285' n='N014'/>fluvium, at mox Isthmum exporretum a <hi rend="underline">Sarbo in mare</hi>
+                            <lb facs='#facs_9_line_1507488936081_286' n='N015'/>Caspium; recentiores vero postea definierunt Maeotin 
+                            <lb facs='#facs_9_line_1507488937986_287' n='N016'/>paludem una cum fluvio Tanai. 
+                            
+                            
+                        </p>
+                    </div>
+                 
+                    <div type="textpart" subtype="section" n="4">
+
+                        <p facs='#facs_9_region_1507488895063_271'>
+                            
+                            
+                            <lb facs='#facs_9_line_1507488940057_288' n='N017'/><space unit="character" quantity="3"/>Vocantur autem Continentes vocabulo Graeco Epiri, quod 
+                            <lb facs='#facs_9_line_1507488942372_289' n='N018'/>scilicet inexplorata sint magnitudinis. Harum Asia sic dicta 
+                         
+                        	<lb facs='#facs_9_line_1507488945025_290' n='N020'/>est quod propinque statim sic in illam  <g ref="#symb1"/>   <add place="margin" facs='#facs_9_line_1507488948922_292'><g ref="#symb1"/>ex Europa</add> tendentibus, suo ter-
+                            <lb facs='#facs_9_line_1507488947016_291' n='N021' break="no"/>restri itinere <add place="above">id hac</add> sive navali secundum insulas continuas, cu-
+                            <lb facs='#facs_9_line_1507488952740_293' n='N022' break="no"/>iusmodi sunt Euboea, Andros, Tenos, Myconos, Icaria, 
+                            <lb facs='#facs_9_line_1507488954942_294' n='N023'/>Samos, Mycale, <note place="above"><unclear reason="illegible"/></note> Europa nomen <unclear>inherit</unclear> a Vento Euro. 
+                            <lb facs='#facs_9_line_1507488957349_295' n='N024'/>Libyae vocabulum Graecos plane fugit, sed id a populo 
+                            <lb facs='#facs_9_line_1507488959279_296' n='N025'/>quodam inter Phoenices nobili venit, idemque sonat quod 
+                            <lb facs='#facs_9_line_1507488961418_297' n='N026'/>Leones. Oceanum dicimus ab aestuum concitatione terras 
+                            <lb facs='#facs_9_line_1507488963255_298' n='N027'/>undique alluentium. 
+                        </p>
+
+
+                    </div>
+                
+                    <div type="textpart" subtype="section" n="5">
+                        <p facs='#facs_9_region_1507488895063_271'>
+                            
+                            
+                            
+                            
+                            <lb facs='#facs_9_line_1507488965105_299' n='N028'/><space unit="character" quantity="3"/>Denique Dicaearchus Terrarum orbem non aquis 
+                            <lb facs='#facs_9_line_1507488967195_300' n='N029'/>disterminat. sed ductu linea cuiusdam simpliciter 
+                            <lb facs='#facs_9_line_1507488969589_301' n='N030'/>recta; quam a Columnis Herculis arcessit per Sardini-
+                            <lb facs='#facs_9_line_1507488971728_302' n='N031' break="no"/>am, Siciliam, Peloponesum, Ioniam, Cariam, Lyciam, 
+                            <lb facs='#facs_9_line_1507488974044_303' n='N032'/>Pamphyliam, Ciliciam, ac Tautum montem <add place="above">\4.</add>, unde in 
+                            <lb facs='#facs_9_line_1507488976234_304' n='N033'/>Imaum eandem agit: secundum qua loca partes orbis 
+                            <lb facs='#facs_9_line_1507488978146_305' n='N034'/>terrarum has Boreales, illas esse iubet Australes. 
+                        </p>
+                    </div>
+                </div>
+
+
+                <div type="textpart" subtype="chapter" n="2">
+                  
+                    <div type="textpart" subtype="section" n="6">
+                      
+
+                        
+                        <pb facs='#facs_11' n='11'/>
+                        <p facs='#facs_11_region_1507489633530_334'><title type="subtitle">
+                            <lb facs='#facs_11_line_1507489637598_335' n='N001'/>6. De Ventis Caput II. </title>
+                            <lb facs='#facs_11_line_1507489640024_336' n='N002'/>Spirant vero venti aliunde alij, ab ortu nimirum 
+                            <lb facs='#facs_11_line_1507489642252_337' n='N003'/>Aequinoctiali Apeliotes, ab occasu item Aequinoctiali 
+                            <lb facs='#facs_11_line_1507489644366_338' n='N004'/>Zephyrus: ab meridie Notus, a septentrione Ap-
+                            <lb facs='#facs_11_line_1507489646760_339' n='N005' break="no"/>arctias. Rursum ab ortu aestium Tropici flat Caecias, 
+                            <lb facs='#facs_11_line_1507489649091_340' n='N006'/>moxque ab ortu aequinoctiali (sicut dictum est) Apeliotes, 
+                            <lb facs='#facs_11_line_1507489651633_341' n='N007'/>ab hyberno denique Eurus. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="7">
+                       
+
+                        <p facs='#facs_11_region_1507489633530_334'>
+                            
+                            
+                            
+                            <lb facs='#facs_11_line_1507489651633_341' n='N007'/>Parte alia secundum 
+                            <lb facs='#facs_11_line_1507489653796_342' n='N008'/>solem occiduum, ab occasu hiberno procedit Libs, mox-
+                            <lb facs='#facs_11_line_1507489656222_343' n='N009' break="no"/>que ab o<unclear reason="ink_stain">cca</unclear>su aequinoctiali iam memorato Zephyrus, 
+                            <lb facs='#facs_11_line_1507489658601_344' n='N010'/>ab occasu aestivo Argestes qui et Olympias vocatur 
+                            <lb facs='#facs_11_line_1507489660964_345' n='N011'/>postremo Notus et Aparctias adversi spirant. ita venti 
+                            <lb facs='#facs_11_line_1507489663238_346' n='N012'/>octo intelliguntur in universum. 
+                        	<lb facs='#facs_11_line_1507489665493_347' n='N013'/><space unit="character" quantity="3"/>At vero Timosthenes qui Periplos ac circumnaviga-
+                            <lb facs='#facs_11_line_1507489667703_348' n='N014' break="no"/>tiones marium scripsit, ventorum nomina <unclear>recenset</unclear> duode-
+                            <lb facs='#facs_11_line_1507489670041_349' n='N015' break="no"/>cim. Etenim inter Aparctiam et Caeciam, medius illi collo-
+                            <lb facs='#facs_11_line_1507489672204_350' n='N016' break="no"/>catur Boreas; inter Eurum ac Notum Phoenix, qui et 
+                            <lb facs='#facs_11_line_1507489674422_351' n='N017'/>Euronotus dicitur: tum inter Notum et Libem Leuco-
+                            <lb facs='#facs_11_line_1507489676897_352' n='N018' break="no"/>notus seu mavis Libonotus; postremo inter Apar-
+                            <lb facs='#facs_11_line_1507489679576_353' n='N019' break="no"/>ctiam et Argestem Thrascias, quem eundem accolae Thra-
+                            <lb facs='#facs_11_line_1507489682028_354' n='N020' break="no"/>ciae orae Circium appellant. 
+                            <lb facs='#facs_11_line_1507489684391_355' n='N021'/>Addit <del rend="overstrike">secundum horizontem Alexandrinum</del> ventorum 
+                            <lb facs='#facs_11_line_1507489687502_356' n='N022'/>istorum plagas populos ipsos <unclear>subijci</unclear>: Apelioti Bactrianos; 
+                            <lb facs='#facs_11_line_1507489689575_357' n='N023'/>Euro Indos; Phoenici Mare rubrum et Aethiopiam; No-
+                            <lb facs='#facs_11_line_1507489691778_358' n='N024' break="no"/>to Aethiopiam alteram, quae <hi rend="underline">supra</hi> Aegyptum sita est; Leu-
+                            <lb facs='#facs_11_line_1507489694172_359' n='N025' break="no"/>conoto Garamantas Syrtibus superiores; Libi Aethiopas 
+                            <lb facs='#facs_11_line_1507489696728_360' n='N026'/>et quidquid est populorum occidentalium supra Mauros; 
+                            <lb facs='#facs_11_line_1507489699082_361' n='N027'/>Zephyro columnas Herculis, ubi Africae sunt atque 
+                            <lb facs='#facs_11_line_1507489701371_362' n='N028'/>Europae principia pariter ac confinia; Argesti Iberi-
+                            <lb facs='#facs_11_line_1507489703598_363' n='N029' break="no"/>am, quae nunc Hispania dicitur; <hi rend="underline">Borea Pontum 
+                            <lb facs='#facs_11_line_1507489705944_364' n='N030'/>Euxinum Maeotin</hi> Thrasciae Scythas supra Thraciam 
+                            <lb facs='#facs_11_line_1507489707531_365' n='N031'/>sitos; 
+                        </p>
+                        
+                        <pb facs='#facs_13'  n='13'/>
+                        <p facs='#facs_13_region_1507490346786_391'>
+                            <lb facs='#facs_13_line_1507490351073_392' n='N001'/>Borea Pontum Euxinum. paludem Maeotin ac Sau-
+                            <lb facs='#facs_13_line_1507490353621_393' n='N002' break="no"/>romatas; Cariae denique mare Caspium et Sacas. </p>
+                    </div>
+                </div>
+
+
+                <div type="textpart" subtype="chapter" n="3">
+
+                    <div type="textpart" subtype="section" n="8">
+                      
+                        <p facs='#facs_13_region_1507490346786_391'>
+                            
+                            
+                            <title type="subtitle">
+                            <lb facs='#facs_13_line_1507490355455_394' n='N003'/>Navigatio Marium Cap. III. </title>
+                            <lb facs='#facs_13_line_1507490357492_395' n='N004'/>Caeterum Syrtes cum duae sint; earum maior stadijs 
+                            <lb facs='#facs_13_line_1507490359611_396' n='N005'/>ambitur quinquies millenis, minor in mille et sex-
+                            <lb facs='#facs_13_line_1507490362546_397' n='N006' break="no"/>centa patet. Fauces vero Adriatici maris (quod idem 
+                            <lb facs='#facs_13_line_1507490364877_398' n='N007'/>Ionium pelagus nonnulli vocant) traiectum habet stadia 
+                            <lb facs='#facs_13_line_1507490367336_399' n='N008'/>1700 latum ab extrema Iapygia in Ceraunios montes 
+                            <lb facs='#facs_13_line_1507490369171_400' n='N009'/>Epiri. 
+                            
+                        </p>
+
+
+
+                    </div>
+
+                    <div type="textpart" subtype="section" n="9">
+
+                        <p facs='#facs_13_region_1507490346786_391'>
+                            
+                            
+                            
+                            
+                            
+                        	<lb facs='#facs_13_line_1507490371898_401' n='N010'/><space unit="character" quantity="3"/>Aegaeum mare mox excipit Hellespontus ad Aby-
+                            <lb facs='#facs_13_line_1507490374332_402' n='N011' break="no"/>dum ac Sestum oppida desinens. Abinde Propontis 
+                            <lb facs='#facs_13_line_1507490376735_403' n='N012'/>Chalcedonem usque et Byzantium patet ubi rursum 
+                            <lb facs='#facs_13_line_1507490379202_404' n='N013'/>in angustias contraxitur a quibus Pontus Euxinus iam 
+                            <lb facs='#facs_13_line_1507490381477_405' n='N014'/>incipit. Post hunc Maeotis palus iacet. 
+                            <lb facs='#facs_13_line_1507490383935_406' n='N015'/>Rursum initio sumpto ab Europae atque Africae con-
+                            <lb facs='#facs_13_line_1507490386562_407' n='N016' break="no"/>finijs. illinc mare se aperit Ibericum seu Hispanicum 
+                            <lb facs='#facs_13_line_1507490389049_408' n='N017'/>quod a Columnis Herculis protenditur in montem usque 
+                            <lb facs='#facs_13_line_1507490392245_409' n='N018'/>Pyrenaeum. unde iam incipit esse Ligusticum usque ad 
+                            <lb facs='#facs_13_line_1507490394985_410' n='N019'/>fines Hetruriae. Sardoum huic adiacet Sardiniam inter 
+                            <lb facs='#facs_13_line_1507490397483_411' n='N020'/>et Africam inferne declinatum; nam a laeva Tyrrhenum 
+                            <lb facs='#facs_13_line_1507490399646_412' n='N021'/>sequitur ab extrema Liguria protensum usque in Siciliam 
+                            <lb facs='#facs_13_line_1507490401840_413' n='N022'/>Excipit hoc Africanum, Creticumque mox, et Siculum; 
+                            <lb facs='#facs_13_line_1507490404027_414' n='N023'/>tum et Ionium, cum Adriatico: quod ipsum a Siculo mari 
+                            <lb facs='#facs_13_line_1507490406382_415' n='N024'/>refunditur. Post offert se Corinthiacus sinus quod item 
+                            <lb facs='#facs_13_line_1507490408781_416' n='N025'/>Alcyonium mare vocant. Sunio deinde ac Scylaceo <note place="above">Scylaeo <unclear reason="illegible"/></note> pro-
+                            <lb facs='#facs_13_line_1507490411199_417' n='N026' break="no"/>tenditur mare <del rend="overstrike">Myrtoum</del> Saronicum: post quod aditur 
+                            <lb facs='#facs_13_line_1507490413178_418' n='N027'/>Myrtoum, et ab hoc Icarium Cycladibus insulis 
+                            <lb facs='#facs_13_line_1507490415437_419' n='N028' break="no"/>perspersum. Hinc navigatio procedit in Carpathium 
+                        </p>
+                        
+                        
+                        <pb facs='#facs_15' n='15'/>
+                        <p facs='#facs_15_region_1507490804918_448'>
+                            <lb facs='#facs_15_line_1507490815049_451' n='N001'/>mare, mox in Pamphylium atque Aegyptium. Careium 
+                            <lb facs='#facs_15_line_1507490817382_452' n='N002'/>supra Icarium mare, statim se aperit Aegaeum. 
+                            
+                        </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="10">
+
+                        <p facs='#facs_15_region_1507490804918_448'>
+                            
+                        	<lb facs='#facs_15_line_1507490819737_453' n='N003'/><space unit="character" quantity="3"/>At enim Europa praeternavigatur ab ostijs Tanais 
+                            <lb facs='#facs_15_line_1507490821948_454' n='N004'/>fluvij ad columnas Herculis stadijs 69709 omnino: 
+                            <lb facs='#facs_15_line_1507490824134_455' n='N005'/>Africae vero <unclear reason="ink_stain">leguntur</unclear> littora in ostium Nili quod Cano-
+                            <lb facs='#facs_15_line_1507490826121_456' n='N006' break="no"/>bicum vocant a Tingi oppido stadijs 29252. Asiae 
+                            <lb facs='#facs_15_line_1507490828628_457' n='N007'/>omnis ora stringitur a Canopo ad ostia Tanais flu-
+                            <lb facs='#facs_15_line_1507490831046_458' n='N008' break="no"/>vij per stadia 40<subst><del>2</del><add place="overstrike">1</add></subst>11 littoribus simul omnibus sini-
+                            <lb facs='#facs_15_line_1507490833393_459' n='N009' break="no"/>busque connumeratis. Ad summam: littoralis om-
+                            <lb facs='#facs_15_line_1507490835846_460' n='N010' break="no"/>nis ora universi nostri orbis qua internum mare  
+                            <lb facs='#facs_15_line_1507490837927_461' n='N011'/>accolitur excurrit in stadia 130072: si tamen et 
+                            <lb facs='#facs_15_line_1507490840033_462' n='N012'/>Maeotis palus in suum censum veniat; cuius ambitus 
+                            <lb facs='#facs_15_line_1507490842800_463' n='N013'/>stadia colligit 9000. Huius autem ostium perquod 
+                            <lb facs='#facs_15_line_1507490844932_464' n='N014'/>in Euxinum pontus deflunt Cymmerius Bosphorus 
+                            <lb facs='#facs_15_line_1507490847037_465' n='N015'/>dicitur et stadia 78 longus est. 
+                        </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="11">
+                        <p facs='#facs_15_region_1507490804918_448'>
+                            
+                            
+                            
+                            <lb facs='#facs_15_line_1507490847037_465' n='N015'/>Ipsa Euxinus 
+                            <lb facs='#facs_15_line_1507490849305_466' n='N016'/>pontus <del rend="erasure">in ambitum</del> stadia patet <del>2</del>3083, coitque 
+                            <lb facs='#facs_15_line_1507490851835_467' n='N017'/>in angustias freti quod Thracius Bosphorus appella-
+                            <lb facs='#facs_15_line_1507490854094_468' n='N018' break="no"/>tur: quem aliquando <note place="above">Herodotus usque isthmum</note> Rex Persarum Darius cum <note place="above">Herodot. 4.97 ad Isthmum pontem fecit</note>
+                            <lb facs='#facs_15_line_1507490856393_469' n='N019'/>oppositionem suscepisset adversus Scythas <del rend="erasure">Europam</del> 
+                            <lb facs='#facs_15_line_1507490858499_470' n='N020'/><del rend="erasure">incolentes</del> subitanio ponte iunxit, sex stadia longo. <note place="above">4 stadia Herod. 4.65</note>
+                        </p>
+                    </div>
+
+
+        
+                    <div type="textpart" subtype="section" n="12">
+                        <p facs='#facs_15_region_1507490804918_448'>
+                            
+                            
+                            
+                        	<lb facs='#facs_15_line_1507490860895_471' n='N021'/><space unit="character" quantity="3"/>Iam vero Persum mare (cuius finis magis pro-
+                            <lb facs='#facs_15_line_1507490863033_472' n='N022' break="no"/>prie dicendus et) cum rotundum ferme sit, ostium 
+                            <lb facs='#facs_15_line_1507490865156_473' n='N023'/>suum aperit inter extremam Carmaniam atque 
+                            <lb facs='#facs_15_line_1507490867541_474' n='N024'/>Arabiam ambitusque stadijs 20000: nam 
+                            <lb facs='#facs_15_line_1507490870049_475' n='N025'/>ostium ipsum Arabiam inter et Carmaniam inter-
+                            <lb facs='#facs_15_line_1507490872154_476' n='N026' break="no"/>ruptum stadia patet 400. 
+                        </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="13">
+                        <p facs='#facs_15_region_1507490804918_448'>
+                            
+                        	<lb facs='#facs_15_line_1507490874503_477' n='N027'/><space unit="character" quantity="3"/>Hyrcanum mare quod idem etiam Caspium 
+                            <lb facs='#facs_15_line_1507490876763_478' n='N028'/>vocant lunato flexu sinuatum sive etiam (quod
+                            <lb facs='#facs_15_line_1507490878879_479' n='N029'/>alijs visum est) oblongum in stadia extenditur <del>ad</del> 
+                            <lb facs='#facs_15_line_1507490881730_480' n='N030'/>22000 admodum: <del rend="erasure">cuius ab Oceano <unclear/> usque ostij</del> 
+                        
+                            <note place="margin" facs='#facs_15_line_1507490812376_450' n='N001'>69709+29252+40711+<del>9000</del>=149072 <unclear reason="illegible"/></note>
+                        </p>
+                        
+                        <pb facs='#facs_17' n='17'/>
+                        <p facs='#facs_17_region_1507491294958_508'>
+                            <lb facs='#facs_17_line_1507491313931_517' n='N001'/>fauces traijciuntur stadijs quatuor 
+                        </p>
+
+                    </div>
+
+                    <div type="textpart" subtype="section" n="14">
+
+                        <p facs='#facs_17_region_1507491294958_508'>
+                        	<lb facs='#facs_17_line_1507491316254_518' n='N002'/><space unit="character" quantity="3"/>Arabicus denique sinus angustior aliquanto, sed 
+                            <lb facs='#facs_17_line_1507491318464_519' n='N003'/>in longum effusus exordium sumit ab Heroum <subst><del rend="underline">flu</del><add place="inline">oppido</add></subst> 
+                            <lb facs='#facs_17_line_1507491320651_520' n='N004'/><del>men</del> pergitque secundum oram Trogloditicam <add place="above"><g ref="#symb1"/>ad</add> Ptole-
+                            <lb facs='#facs_17_line_1507491322757_521' n='N005' break="no"/>maidam usque oppidum, quod <del rend="overstrike">Elephante cum aliarum</del>
+                            <lb facs='#facs_17_line_1507491324807_522' n='N006'/><del rend="overstrike">quis flumen</del> venationibus exercendis illis conditum est 
+                            <lb facs='#facs_17_line_1507491326689_523' n='N007'/>medio 9000 stadiorum spacio interiecto. Arabici <unclear>finis</unclear> 
+                            <lb facs='#facs_17_line_1507491328796_524' n='N008'/>sinus fauces sunt ad oppidum Diren lata stadia non 
+                            <lb facs='#facs_17_line_1507491331030_525' n='N009'/>amplius 60. ad hunc locum a Ptolemaida navigatur 
+                            <lb facs='#facs_17_line_1507491333527_526' n='N010'/>stadijs 6500. quod Rubri maris reliquum est ultra 
+                            <lb facs='#facs_17_line_1507491335599_527' n='N011'/>Diren usque ad Oceanum in octo millia stadiorum 
+                            <lb facs='#facs_17_line_1507491338210_528' n='N012'/>extenditur, ibique navigari desinit. At vero latus 
+                            <lb facs='#facs_17_line_1507491340445_529' n='N013'/>istius sinus (de quo agimus) quod Arabiae obiacet ab 
+                            <lb facs='#facs_17_line_1507491342583_530' n='N014'/>regressu Elamite ad eandem Diren stadiorum est <del>1</del>4000.
+                            <lb facs='#facs_17_line_1507491345120_531' n='N015'/>Porrho ipsa Arabia in Rubrum mare exporrecta 
+                            <lb facs='#facs_17_line_1507491347272_532' n='N016'/>per longitudinem extenditur 12000 stadiorum. 
+                      
+                    		<note place="margin" facs='#facs_17_line_1507491305194_510'>9000+6500=15500</note>
+                    	
+                    		<note place="margin" facs='#facs_17_line_1507491306835_512' n='N001'>9000+6500=15500</note>
+                    	</p>
+                    	
+                    </div>
+                </div>
+
+                <div type="textpart" subtype="chapter" n="4">
+                  
+                    <div type="textpart" subtype="section" n="15">
+                    	
+                    		
+                    	
+                        <p facs='#facs_17_region_1507491294958_508'>
+                            <title type="subtitle">
+                            <lb facs='#facs_17_line_1507491349346_533' n='N017'/>De longitudine ac latitudine 
+                            <lb facs='#facs_17_line_1507491351141_534' n='N018'/>habitati orbis Cap. IV </title>
+                            <lb facs='#facs_17_line_1507491354954_535' n='N019'/>Ad longitudinem autem terrarum orbis quod attinet 
+                            <lb facs='#facs_17_line_1507491357535_536' n='N020'/>ea concipitur a Gange ad Gades in stadia 68549 
+                        	<lb facs='#facs_17_line_1507491359712_537' n='N021'/>hoc fermo modo. A Gange fluvio cuiusque ostio quo 	<note place="margin" facs='#facs_17_line_1507491309039_514' n='N001'>Plin. 244</note>
+                            <lb facs='#facs_17_line_1507491361720_538' n='N022'/>se in Oceanum Indicum effundit ad Myriandrum urbem 
+                            <lb facs='#facs_17_line_1507491363600_539' n='N023'/>Syriae in Issico sinu positam stadia sunt 41725: quod 
+                            <lb facs='#facs_17_line_1507491366001_540' n='N024'/>mensurae sic currit. A Gange ad Indi amnis ostia 
+                            <lb facs='#facs_17_line_1507491368266_541' n='N025'/><del>2</del>6000 sunt stadia, ab Indo ad portas Caspias 15300, 
+                            <lb facs='#facs_17_line_1507491370509_542' n='N026'/>abinde ad Euphratem 10050: postremo Myriandrum 
+                            <lb facs='#facs_17_line_1507491372568_543' n='N027'/>reliqua sunt stadia 375 ita summa <note place="above">Plin. 215 Mil. 41720</note> illa 41725 
+                            <lb facs='#facs_17_line_1507491374798_544' n='N028'/>stadiorum conflatur. 
+                        
+                        	
+                        	
+                        	<note place="margin" facs='#facs_17_line_1507491310635_516' n='N001'>16000+15/1300+10050+375=41725; 26920+26920=69575</note>
+                        </p>
+                    </div>
+
+
+                    <div type="textpart" subtype="section" n="16">
+                        <p facs='#facs_17_region_1507491294958_508'>
+                            <lb facs='#facs_17_line_1507491376856_545' n='N029'/><space quantity="3" unit="character"/>At vero iam Myriandro Gades stadia compu-
+                            <lb facs='#facs_17_line_1507491378778_546' n='N030' break="no"/>tamus 26820 per haec intervalla: Myriandro 
+                            <lb facs='#facs_17_line_1507491380612_547' n='N031'/>proxima navigatione solvitur in Cyprum eiusque 
+                        </p>
+                       
+                        <pb facs='#facs_18' n='18'/>
+                        
+                        
+                        <pb facs='#facs_19' n='19'/>
+                        <p facs='#facs_19_region_1507491853681_576'>
+                        	<note place="top" facs='#facs_19_line_1507491866873_585'>Clidas Rhodum</note>  <note place="margin" facs='#facs_19_line_1507491857260_578'>41725+1400+3300 1300+900+700+140+1450+4000+1520+2900+10000+7332=76467</note>
+                        	
+                            <lb facs='#facs_19_line_1507491869159_586' n='N002'/>primas insulas quas Cleidas (quasi dixeris Claves) ap-
+                            <lb facs='#facs_19_line_1507491871242_587' n='N003' break="no"/>pellant stadijs 1400. Inde abest eiusdem insulae pro-
+                            <lb facs='#facs_19_line_1507491873213_588' n='N004' break="no"/>montorium ultimum Acamas stadijs <hi rend="underline">3300</hi>. hinc in Che-
+                            <lb facs='#facs_19_line_1507491875303_589' n='N005' break="no"/>lidonias insulas per mare Pamphylium stadia sunt 
+                            <lb facs='#facs_19_line_1507491877730_590' n='N006'/>1300: tum ad oppidum Lyciae Patara 800: dein 
+                            <lb facs='#facs_19_line_1507491880309_591' n='N007'/>ut a regione sit Rhodi insulae 700 numerantur. 
+                            <lb facs='#facs_19_line_1507491882487_592' n='N008'/>postea Carpathium mare navigatur stadijs 140 donec 
+                            <lb facs='#facs_19_line_1507491884609_593' n='N009'/>Astypalaeam pervenias. abest inde Taenarus Pelopo-
+                            <lb facs='#facs_19_line_1507491886661_594' n='N010' break="no"/>nesi promontorium stadijs 1450 et ab hoc Pachynus 
+                            <lb facs='#facs_19_line_1507491888846_595' n='N011'/>Siciliae 4000 unde Lilybaeum eiusdem insulae oppidum 
+                            <lb facs='#facs_19_line_1507491890860_596' n='N012'/>distat navigatione maris Libyci stadia 1520. ab hoc 
+                            <lb facs='#facs_19_line_1507491892915_597' n='N013'/>loco per mare Tyrrhenum abest Caralis Sardiniae 
+                            <lb facs='#facs_19_line_1507491894733_598' n='N014'/>oppidum stadia 2800 unde Gades tenditur praeterna-
+                        	<lb facs='#facs_19_line_1507491896743_599' n='N015' break="no"/>vigatis insulis Gymnesijs seu Balearibus 10000 stadi-      <note place="margin" facs='#facs_19_line_1507491859210_580'>hic st. 69135 <unclear reason="illegible"/>ant + 590 = 69545+3932=72477</note>
+                        	
+                            <lb facs='#facs_19_line_1507491898794_600' n='N016' break="no"/>orum cursu. Ad extremum Gadibus praeter Sacrum pro-
+                            <lb facs='#facs_19_line_1507491900925_601' n='N017' break="no"/>montorium navigatur in Artabrorum portum stadijs 7332 <note place="above" xml:lang="grc">γϡλβ</note>
+                            <lb facs='#facs_19_line_1507491902867_602' n='N018'/>Ita fiunt in universum 72477 stadia. 
+                        </p>
+
+
+                    </div>
+
+                    <div type="textpart" subtype="section" n="17">
+
+                        <p facs='#facs_19_region_1507491853681_576'>
+                            
+                            
+                            
+                            
+                            <lb facs='#facs_19_line_1507491905207_603' n='N019'/><note place="inline">incipit 4.10</note> <space unit="character" quantity="3"/>Alia via quae certior itinere terreno maxime pa-
+                            <lb facs='#facs_19_line_1507491907353_604' n='N020' break="no"/>tet. A Gange ad Euphratem amnem stadia 41350 <note place="above">Plin. <unclear reason="illegible"/></note> 
+                        	<lb facs='#facs_19_line_1507491909222_605' n='N021'/>ab Euphrate ad oppidum Cappadociae Mazaca <unclear reason="erasure">2</unclear>550.          <note place="margin" facs='#facs_19_line_1507491861092_582'>41350+2550+3320=47220</note>
+                        	
+                            <lb facs='#facs_19_line_1507491912371_606' n='N022'/>a Mazacis vero per mediam Phrygiam submontanam 
+                            <lb facs='#facs_19_line_1507491914703_607' n='N023'/><hi rend="underline">magnamque</hi> Cariam recta Ephesum 43320. Ita 
+                            <lb facs='#facs_19_line_1507491916672_608' n='N024'/>colliguntur a Gange Ephesum usque stadia in uni-
+                            <lb facs='#facs_19_line_1507491918546_609' n='N025' break="no"/>versum 47220. Iam Epheso per Aegaeum pe-
+                            <lb facs='#facs_19_line_1507491920580_610' n='N026' break="no"/>lagus Delum stadia sunt 1600 <note place="above">200 Mil. 600</note>. Hinc ad Isth-
+                            <lb facs='#facs_19_line_1507491922519_611' n='N027' break="no"/>mum Corinthium 1700 <note place="above">212 % 1696</note> omnino. ab Isthmo per 
+                            <lb facs='#facs_19_line_1507491924417_612' n='N028'/>sinum Corinthiacum Patras Achaiae oppidum stadia in-
+                            <lb facs='#facs_19_line_1507491926347_613' n='N029' break="no"/>teriacent. 720 abinde Leucadem 700 mox 
+                            <lb facs='#facs_19_line_1507491928234_614' n='N030'/>hinc Corcyram tantundem. Corcyra in montes Epi-
+                            <lb facs='#facs_19_line_1507491930216_615' n='N031' break="no"/>ri quos Acroceraunia vocant stadia sunt 2060 
+                            <lb facs='#facs_19_line_1507491932372_616' n='N032'/>Brundusium deinde 700 unde terrestri itinere Romam 
+                            <lb facs='#facs_19_line_1507491934391_617' n='N033'/>ita facienti stadia restant 2820. Roma <add place="above">usque</add> ad Alpes et 
+                        
+                          
+                        
+                            <note place="margin" facs='#facs_19_line_1507491863545_584'>A Gadibus ad Artabrum in Gange ad Caralin 25 1700+3932 425+943 sic stadia 3932</note>
+                      
+                        </p>
+                        
+                        
+                        <pb facs='#facs_21' n='21'/>
+                        <p facs='#facs_21_region_1507493003887_651'>
+                            <note place="top" facs='#facs_21_line_1507493008295_652'>71560+63393 Ergo 9177</note>
+                            <lb facs='#facs_21_line_1507493011040_653' n='N002'/>Scingomagum vicum sub ipsis Alpinum radicibus po-
+                            <lb facs='#facs_21_line_1507493013395_654' n='N003' break="no"/>situm stadia sunt 4152. Unde per Galliam ad Pyrenaeos <note place="inline">plin. 519/4144</note>
+                            <lb facs='#facs_21_line_1507493015612_655' n='N004'/>montes et oppidum Illiberim <g type="asterisk"/> <hi rend="underline">2960</hi> <note place="above"><gap reason="lost" resp="#GW" extent="unknown"/></note> numerantur. Abin-
+                            <lb facs='#facs_21_line_1507493019211_656' n='N005' break="no"/>de Gades <note place="above">Plin. 2656</note> 2651 computant secundum mansiones in 
+                            <lb facs='#facs_21_line_1507493021293_657' n='N006'/>quam insulam traiectus est stadiorum 603 <note place="above">Plin. <unclear reason="illegible"/></note> Omnis 
+                            <lb facs='#facs_21_line_1507493023310_658' n='N007'/>ergo numerans ab extremo Gange colligitur ad Gades 
+                            <lb facs='#facs_21_line_1507493026025_659' n='N008'/>in stadia consurgere 71560. 
+                            <note place="inline" facs='#facs_21_line_1507553486861_3'>atque pag. 43. dicit 52342. quia ad grad. 190. sed Gange ad 145.</note>
+                            
+                        </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="18">
+                        <p facs='#facs_21_region_1507493003887_651'>
+                            
+                            
+                            <lb facs='#facs_21_line_1507493028487_660' n='N010'/><space unit="character" quantity="3"/>Latitudo terrae qua modo habitatur currit ab extremo <note place="above">sub Ganges ad 145.</note>
+                            <lb facs='#facs_21_line_1507493031073_661' n='N012'/>Aethiopico Oceano ad Aequatorem primum, in stadia 8000; 
+                            <add place="margin" facs='#facs_21_line_1507493035658_663'>ac rursum in Meroen altera totidem:</add>
+                            <lb facs='#facs_21_line_1507493037954_664' n='N014'/>abinde Alexandriam in alia <note place="above">1200 M. 500. plin. 9600</note> 1000 stadia. Ab vero 
+                            <lb facs='#facs_21_line_1507493040790_665' n='N015'/>ab Alexandria in Ostium Tanais amnis stadiorum 
+                            <note place="margin" facs='#facs_21_line_1507493046375_668'>9000+9000+10000+19016=<unclear>2</unclear>4056</note>
+                            <lb facs='#facs_21_line_1507493042783_666' n='N017'/>summa procedit ad 18056 <hi rend="underline">ubi iam latitudinis 
+                            <lb facs='#facs_21_line_1507493044751_667' n='N018'/>mensura desinit</hi>. nam ab Ostio Tanais ulteriora 
+                            <lb facs='#facs_21_line_1507493048321_669' n='N019'/>septentriones versus incomperta sunt. hanc vero di-
+                            <lb facs='#facs_21_line_1507493050337_670' n='N020' break="no"/>numerationem sic instituunt. Ab Alexandria Lin-
+                        	<lb facs='#facs_21_line_1507493052240_671' n='N022' break="no"/>dum oppidum Rhodi insulae stadia definiunt 4500: sed    <note place="margin" facs='#facs_21_line_1507493053576_672' n='N021'>503 4664 Plin.</note>
+                        	
+                            <lb facs='#facs_21_line_1507493056123_673' n='N023'/><subst><del>Relicta dein</del><add place="above">relicta</add></subst> Rhodo ad dexteram <note place="above"><unclear reason="illegible"/></note> in Thoantium Carpa-
+                            <lb facs='#facs_21_line_1507493058293_674' n='N024' break="no"/>thii promontorium navigatur stadijs 400 <add place="above"><g ref="#symb1"/> amplius</add> inde in Telum 
+                            <lb facs='#facs_21_line_1507493060519_675' n='N025'/>insulam stadijs 560 hinc ad Lactera promontorium 
+                            <lb facs='#facs_21_line_1507493062544_676' n='N026'/>Co insula 320 stadijs curritur. ad eiusdem insulae 
+                            <lb facs='#facs_21_line_1507493064402_677' n='N027'/>promontorium alterum quod Drepanum vocant 100.
+                            <lb facs='#facs_21_line_1507493066785_678' n='N028'/>tum ad Acriten insulam <hi rend="underline">(sive autem Cerciten promon-
+                            <lb facs='#facs_21_line_1507493069291_679' n='N029' break="no"/>torium Laei insula)</hi> stadia sunt 230 moxque ad 
+                            <lb facs='#facs_21_line_1507493072113_680' n='N030'/>Corassias insulas 200 a quibus abest Ampelos 
+                            <lb facs='#facs_21_line_1507493073951_681' n='N031'/>insula Sami promontorium stadijs 30. abinde ad Ae-
+                            <note place="margin" facs='#facs_21_line_1507493082058_685'>4500+400+560+320+100+360+900+450+100+2500+2900+2500+2670=19060</note>
+                            <lb facs='#facs_21_line_1507493075928_682' n='N033' break="no"/>gaeum Argenon Lesbi promontorium Aegaeo iam mari
+                            <lb facs='#facs_21_line_1507493077858_683' n='N034'/>navigatur stadijs 800 hunc in modum computatis 
+                            <lb facs='#facs_21_line_1507493079860_684' n='N035'/>Abest Samo Erythraeum Corycaeum stadijs 270. inde 
+                            <lb facs='#facs_21_line_1507493084789_686' n='N036'/>Phlium promontorium Chij 50 unde ad Melanea 
+                            <lb facs='#facs_21_line_1507493086799_687' n='N037'/>promontorioum Lesbi sunt 450. Deinceps ad Si-
+                            <lb facs='#facs_21_line_1507493094959_689' n='N038' break="no"/>grium eiusdem Lesbi promontorium alterum 500 
+                        
+                        	<lb facs='#facs_21_line_1507493096872_690' n='N040'/>sunt stadia. a quo 100 sunt ad Sigeum: <g ref="#symb1"/> <add place="margin" facs='#facs_21_line_1507554143289_4'><g ref="#symb1"/> hinc vero</add> 2500 
+                            <lb facs='#facs_21_line_1507493098914_691' n='N041'/><del rend="underline">vero</del> ad Os Ponti. tum Carambin 2800. mox ad Os 
+                            <lb facs='#facs_21_line_1507493100662_692' n='N042'/>Maeotidis paludis 2500 ac denique in Tanain 1670. 
+                        </p>
+                    </div>
+                    <milestone unit="section" n="17"/>
+
+                    <div type="textpart" subtype="section" n="19">
+                        <pb facs='#facs_23' n='23'/>
+                        <p facs='#facs_23_region_1507493459464_723'>
+                            <lb facs='#facs_23_line_1507493470090_729' n='N001'/>Aliter etiam a Rhodo cursus hic intelligitur, in Gnidum 
+                            <lb facs='#facs_23_line_1507493471795_730' n='N002'/>insulam numeratis stadijs 700: in Co insulam 200 
+                            <lb facs='#facs_23_line_1507493473726_731' n='N003'/>Samum deinde 800. Abest hinc Chios stadia 750 
+                            <lb facs='#facs_23_line_1507493475592_732' n='N004'/>et ultra hanc Mitylene 520. Sequitur Tanaedos post 
+                            <lb facs='#facs_23_line_1507493477353_733' n='N005'/>stadia 350 mox Sigeum ab stadijs 100. Os Pon-
+                            <lb facs='#facs_23_line_1507493479491_734' n='N006' break="no"/>ti abest inde stadijs 2500: et Carambis hinc post 
+                            <note place="margin" facs='#facs_23_line_1507493462326_724'>10000+19620=29620</note>
+                            <lb facs='#facs_23_line_1507493481851_735' n='N008'/>2800 stadia. Iam ad Os Maeotidis paludis sunt 2500 
+                            <lb facs='#facs_23_line_1507493483486_736' n='N009'/>est deinceps ad Tanaim fluvium 2200. Summa 
+                            <lb facs='#facs_23_line_1507493485140_737' n='N010'/>stadiorum ab Alexandria in Tanaim fit 18620. </p>
+                    </div>
+                </div>
+
+                <div type="textpart" subtype="chapter" n="5">
+  
+                    <div type="textpart" subtype="section" n="20">
+                   
+                        <p facs='#facs_23_region_1507493459464_723'><title type="subtitle">
+                            <lb facs='#facs_23_line_1507493487254_738' n='N011'/>Insularum dimensio <note place="margin">hic incipit f. 16</note>
+                            <lb facs='#facs_23_line_1507493488976_739' n='N012'/>Cap. V. </title>
+                            <lb facs='#facs_23_line_1507493490850_740' n='N013'/>Deinceps vero disseremus de insulis et insu-
+                            <lb facs='#facs_23_line_1507493493188_741' n='N014' break="no"/>larum ambitu quatenus nobis sunt cognitae; 
+                            <lb facs='#facs_23_line_1507493495086_742' n='N015'/>secundum ea quae accipimus ab Artemidoro ac
+                            <lb facs='#facs_23_line_1507493496950_743' n='N016'/>Menippo, classicisque auctoribus alijs. 
+                            <lb facs='#facs_23_line_1507493498854_744' n='N017'/><space unit="character" quantity="3"/>Gades in ora Hispaniae patet in longum sta- 
+                            <lb facs='#facs_23_line_1507493500888_745' n='N018' break="no"/>dia 120 in latum 16 tantum. At quod et ad-
+                            <lb facs='#facs_23_line_1507493502874_746' n='N019' break="no"/>iacet Fretum <del rend="erasure">Herculeum sta</del> Columnarum Herculis 
+                            <lb facs='#facs_23_line_1507493504638_747' n='N020'/>qua angustissimus est stadia patet 80 
+                        	<lb facs='#facs_23_line_1507493506438_748' n='N021'/><space unit="character" quantity="3"/>In Hispanico deinde mari iacent insulae, ut 
+                            <lb facs='#facs_23_line_1507493508256_749' n='N022'/>in his Pityusae duae: quarum maior itaque exculta 
+                            <lb facs='#facs_23_line_1507493510284_750' n='N023'/>stadiorum 300 longitudinem occupat, minor 100 tantum. 
+                            <note place="margin" facs='#facs_23_line_1507493464129_725'>469/369 stad. plin 3.5</note>
+                            <lb facs='#facs_23_line_1507493512548_751' n='N025'/>Gymnesiarum quoque quas Carthaginienses Baleares 
+                            <lb facs='#facs_23_line_1507493514685_752' n='N026'/>vocant quasi dicas Fundibularias (quoniam funditores 
+                            <note place="margin" facs='#facs_23_line_1507493465618_726'>Plin. 3.5. f. 197+10000=900 stad. </note>
+                            <lb facs='#facs_23_line_1507493516738_753' n='N028'/>sic appellant) earum Maior longa est stadia 1200
+                            <lb facs='#facs_23_line_1507493518547_754' n='N029'/>lata 400: Minor in stadia 300 non plura 
+                            <lb facs='#facs_23_line_1507493520533_755' n='N030'/>extenditur. 
+                            <lb facs='#facs_23_line_1507493522278_756' n='N031'/>Stoechades post has (quae ipso nomine, quod
+                            <lb facs='#facs_23_line_1507493524420_757' n='N032'/>in directum positae sint, ordinem indicant) obiacent 
+                            <lb facs='#facs_23_line_1507493526320_758' n='N033'/>Massiliensum oppidis. Harum tres maiores sunt; mi-
+                            <lb facs='#facs_23_line_1507493528397_759' n='N034' break="no"/>nores duae proximae <del rend="erasure">omnes</del> ipsam Massiliam 
+                      
+                            <note place="margin" facs='#facs_23_line_1507493467232_728'>quinque st. apud Ptolmaeum. </note>
+                        </p>
+                        
+                        <pb facs='#facs_25' n='25'/>
+                        <p facs='#facs_25_region_1507493896748_788'>
+                            <lb facs='#facs_25_line_1507493908502_793' n='N001'/>Iam Sardinia figuram exhibet vestigij equini,  
+                            <lb facs='#facs_25_line_1507493910368_794' n='N002'/>medio in velut cava: longitudine 2200 stadiorum. 
+                            <lb facs='#facs_25_line_1507493912362_795' n='N003'/>Cyrnus (quae Latinis est Corsica) Sardiniae adia-
+                            <lb facs='#facs_25_line_1507493914252_796' n='N004' break="no"/>cet, multo hac deterior, breviorque paullo minus 
+                            <lb facs='#facs_25_line_1507493916166_797' n='N005'/>dimidio : <add place="above">in</add> longum patens stadia <gap reason="lost" resp="#GW" extent="unknown"/> Solvitur 
+                            <lb facs='#facs_25_line_1507493918111_798' n='N006'/>vero in Sardiniam perinde ac Corsicam Populonio 
+                            <lb facs='#facs_25_line_1507493919945_799' n='N007'/>Hetruriae oppido, traiectu stadiorum 2200. 
+                        	<lb facs='#facs_25_line_1507493921947_800' n='N008'/><space unit="character" quantity="3"/>Siciliae ambitus iuxta Timosthenem stadiorum 
+                            <lb facs='#facs_25_line_1507493924085_801' n='N009'/>est 4740 <note place="above">Ptol. 7944</note> sui figura Triangulum constituens late-
+                            <note place="margin" facs='#facs_25_line_1507493900118_789'>1037+1600+1700=4537</note>
+                            <lb facs='#facs_25_line_1507493926079_802' n='N011' break="no"/>rum inter se inaequalium, cuius traiectus in Italiam 
+                            <lb facs='#facs_25_line_1507493928082_803' n='N012'/>patet a Peloro promontorio stadia <note place="above">Plin. 3.5.12. stad.</note> undecim. Latera 
+                            <lb facs='#facs_25_line_1507493930368_804' n='N013'/>insula sunt haec. a Peloro ad Pachynum <add place="above">in</add> stadia 1037. <note place="above">Plin. 13229</note> a  
+                            <lb facs='#facs_25_line_1507493932242_805' n='N014'/>Pachyno in Lilybaeum 1600 <note place="above">ita 17 Plin.</note>: ac secundum Ti-
+                            <lb facs='#facs_25_line_1507493934419_806' n='N015' break="no"/>mosthenem a lilybaeo <g ref="#symb1"/> <add place="above">cursum</add> in Peloriadam oram stadia 
+                            <lb facs='#facs_25_line_1507493936422_807' n='N016'/>1700. <note place="above">Plin. 1360</note> A Lilybaeo trajctum Clypeam Africae 
+                        	<lb facs='#facs_25_line_1507493938280_808' n='N017'/>oppidum per stadia plus minus 1600.   <note place="margin" facs='#facs_25_line_1507493901830_791'><unclear reason="erasure" unit="line" quantity="2"/> Plin. 1329+1600+1360=4299 <unclear reason="illegible"/></note>
+                        </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="21">
+                        <p facs='#facs_25_region_1507493896748_788'>
+                            
+                            
+                            
+                            
+                        	<lb facs='#facs_25_line_1507493940835_809' n='N018'/><space unit="character" quantity="3"/>Cercina insula longitudinem obtinet stadiorum  
+                            <lb facs='#facs_25_line_1507493942653_810' n='N019'/>70; <note place="above">Plin. 200</note> eadem ubi est angustissima <hi rend="underline">40</hi> <note place="above">Plin. 5.7. 5 millia % 40 stad.</note> tantum patet: 
+                            <lb facs='#facs_25_line_1507493944664_811' n='N020'/>ita vero est ex adverso Thaenarum oppidi in Africae 
+                            <lb facs='#facs_25_line_1507493946833_812' n='N021'/>continente positi iuxta principium Syrtis minoris. 
+                            <lb facs='#facs_25_line_1507493952354_814' n='N022'/>Adiacet autem Cercinae Carcinitis insula pon-
+                            <lb facs='#facs_25_line_1507493954225_815' n='N023' break="no"/>te iuncta. eademque longa stadia 40 lata 
+                            <lb facs='#facs_25_line_1507493956050_816' n='N024'/>vero 25. 
+                            
+                            
+                        </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="22">
+                        <p facs='#facs_25_region_1507493896748_788'>
+                            
+                            
+                            
+                            
+                            
+                            
+                        	<lb facs='#facs_25_line_1507493957877_817' n='N025'/><space unit="character" quantity="3"/>A Cercina solvitur in Meningem insulam regioni  
+                            <lb facs='#facs_25_line_1507493960038_818' n='N026'/>Lotophagorum adiacentens velificatione stadiorum 600 <note place="above">Plin. vero millia. 900</note> 
+                            <lb facs='#facs_25_line_1507493962067_819' n='N027'/>quantum etiam asseritur patere ostiam Syrtis mi-
+                            <lb facs='#facs_25_line_1507493963921_820' n='N028' break="no"/>noris. Ea vero Meninx longa est stadia 600. 
+                            <note place="margin" facs='#facs_25_line_1507493903701_792'>35+9 290 Plin. 25+9 200 </note>
+                            <lb facs='#facs_25_line_1507493965806_821' n='N030'/>lata 180. circa quam etiam maximae contin-
+                            <lb facs='#facs_25_line_1507493967573_822' n='N031' break="no"/>gunt aestuantis pelagi reciprocationes. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="23">
+                        <p facs='#facs_25_region_1507493896748_788'>
+                            
+                            
+                            
+                            
+                        	<lb facs='#facs_25_line_1507493969681_823' n='N032'/><space unit="character" quantity="3"/>Cephallenia insula quatuor habitatur oppidis, 
+                            <lb facs='#facs_25_line_1507493971520_824' n='N033'/>atque longa stadia 400. 
+                        </p>
+                       
+                        <pb facs='#facs_27' n='27'/>
+                        <p facs='#facs_27_region_1507494386489_855'>
+                            <lb facs='#facs_27_line_1507494390146_856' n='N001'/><space unit="character" quantity="3"/>Sunt vero etiam in Adriatico mari complu-
+                            <lb facs='#facs_27_line_1507494392357_857' n='N002' break="no"/>res insulae secundum oram Illyrici, quarum max-
+                            <lb facs='#facs_27_line_1507494394550_858' n='N003' break="no"/>ime insignis est Issa; tum Corcyra Melanea <note place="above">Plin. 3.20</note>
+                            <lb facs='#facs_27_line_1507494396665_859' n='N004'/>dein Pharos <note place="above">Illyrici insula Plin. 3.21</note> itemque Melite; quarum incom-
+                            <lb facs='#facs_27_line_1507494398619_860' n='N005' break="no"/>perta mihi sunt dimensiones. 
+                        </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="24">
+                        <p facs='#facs_27_region_1507494386489_855'>
+                            
+                            
+                            
+                        	<lb facs='#facs_27_line_1507494400653_861' n='N006'/><space unit="character" quantity="3"/>Peloponesi ambitus connumeratis simul suis 
+                            <lb facs='#facs_27_line_1507494402839_862' n='N007'/>sinibus enavigatur stadijs 8627: sui autem 
+                            <lb facs='#facs_27_line_1507494404953_863' n='N009'/>sinus ipsos praeteveharis 4500 stadijs constat cir-
+                            <lb facs='#facs_27_line_1507494414477_865' n='N010' break="no"/>cuitus. Longitudo sinus a Malea promontorio 
+                            <lb facs='#facs_27_line_1507494416543_866' n='N011'/>ad Aegaeum mare stadia numerat 1400, figura 
+                            <lb facs='#facs_27_line_1507494418809_867' n='N012'/>tota platam folio similis ita magnis sinibus in 
+                            <lb facs='#facs_27_line_1507494420963_868' n='N013'/>angulosos recessus dispescitur. Coarctatur tandem in angusti-
+                            <lb facs='#facs_27_line_1507494423077_869' n='N014' break="no"/>as Isthmi Corinthiaci <note place="above">Plin. 4.4. dicit V. Mill. % 40 st.</note> 40 stadia lati. 
+                            <lb facs='#facs_27_line_1507494425144_870' n='N015'/>A Corinthio sinu et Saronico iam illi mari
+                            <lb facs='#facs_27_line_1507494427186_871' n='N016'/>in Scyllaeum promontorium Peloponesi tendentibus 
+                            <lb facs='#facs_27_line_1507494429172_872' n='N017'/>levorsum obiacet Calauria insula Neptuno sa-
+                            <lb facs='#facs_27_line_1507494436195_873' n='N018' break="no"/>cra. Hinc iam se aperit Argolicus sinus ad 
+                            <lb facs='#facs_27_line_1507494438388_874' n='N019'/>promontorium usque Malea quod longissima 
+                            <note place="above" facs='#facs_27_line_1507494443602_876'><unclear reason="illegible"/> 2.2.3. <unclear reason="illegible"/> hermionem ad Troezena at ibi <unclear reason="illegible"/> e Strabone 335. </note>
+                            <lb facs='#facs_27_line_1507494441179_875' n='N021'/>mare excurrit. Sequitur sinus <hi rend="underline">Hermionicus</hi>, ac
+                            <lb facs='#facs_27_line_1507494446088_877' n='N022'/>postquam superaveris Maleam <hi rend="underline">dextrorsum</hi> Laconicus, 
+                            <lb facs='#facs_27_line_1507494448411_878' n='N023'/>ad Tanarium usque promontorium pertinent, quod 
+                            <lb facs='#facs_27_line_1507494450701_879' n='N024'/>ipsum a Laeva terminat sinum Messeniacum, 
+                            <lb facs='#facs_27_line_1507494452960_880' n='N025'/>nam finens cornum dextrum Acritas extrema finiunt. 
+                        	<lb facs='#facs_27_line_1507494455082_881' n='N026'/><space unit="character" quantity="3"/>Postea in mare procumbit promontorium Ichtys 
+                            <lb facs='#facs_27_line_1507494457292_882' n='N027'/>(iunxta quod Zacynthus insula obiacet) alterumque 
+                            <lb facs='#facs_27_line_1507494459510_883' n='N028'/>quod vocant Chelonatas ac denique postremum A-
+                            <lb facs='#facs_27_line_1507494461417_884' n='N029' break="no"/>raxus situm ex adverso Acarnania. Ab hoc autem 
+                            <lb facs='#facs_27_line_1507494463580_885' n='N030'/>incipit sinus Corinthiacus effundi <del rend="underline">Corinthium usque</del> 
+                            <lb facs='#facs_27_line_1507494465950_886' n='N031'/>ostio conclusus septem <note place="above">Plin. 4. millia</note> tantum stadia lato, inter sinum
+                            <lb facs='#facs_27_line_1507494469350_887' n='N032'/>Toriasum <note place="above">ignoti Plin. 10.51. Mil. <unclear reason="illegible"/></note> <del rend="erasure"/> promontorium peloponesi, atque 
+                            <lb facs='#facs_27_line_1507494471424_888' n='N033'/>inde Antirrhium quod ad Locridem pertinet. 
+                        </p>
+                        
+                        <pb facs='#facs_29' n='29'/>
+                        <p facs='#facs_29_region_1507557905467_6'>
+                            <lb facs='#facs_29_line_1507557915505_9' n='N001'/>Caeterum a Taenaro peloponesi promontorio 
+                            <lb facs='#facs_29_line_1507557918439_10' n='N002'/>in Phycuntem Africae traiectus est stadiorum 3000. 
+                        </p>
+                    </div>
+                 
+                    <div type="textpart" subtype="section" n="25">
+                        <p facs='#facs_29_region_1507557905467_6'>
+                            
+                            
+                            
+                            
+                        	<lb facs='#facs_29_line_1507557985747_11' n='N003'/><space unit="character" quantity="3"/>Aegina insula peloponeso adiacens <add place="interlinear">ex adverso terrae Atticae</add> oblonga est, et in 
+                            <lb facs='#facs_29_line_1507557988682_12' n='N004'/>stadia extenditur 160. 
+                            <lb facs='#facs_29_line_1507557991269_13' n='N005'/>Salamis quoque in eadem ora longitudinem habet 
+                            <lb facs='#facs_29_line_1507557994004_14' n='N006'/>stadiorum 70. Ceus <note place="above">Plin. 12.4.46</note> longa est 120 stadia. De 
+                            <lb facs='#facs_29_line_1507557996235_15' n='N007'/>Cycladum vero insularum numero principem facile 
+                            <lb facs='#facs_29_line_1507557999338_16' n='N008'/>horum Naxos obtinet, qua de <sic>caussa</sic> etiam minor 
+                            <lb facs='#facs_29_line_1507558001942_17' n='N009'/>appellatur Sicilia. Ab hac ad dextram Sporades in-
+                            <lb facs='#facs_29_line_1507558004377_18' n='N010' break="no"/>sulae sitae sunt. 
+                        	<lb facs='#facs_29_line_1507558006931_19' n='N011'/><space unit="character" quantity="3"/>Euboea tam propinqua Boeotiae est ut cum ea 
+                            <lb facs='#facs_29_line_1507558010278_20' n='N012'/>ponte iungatur; praetenta Boeotiae; Phocidi, Lo-
+                            <lb facs='#facs_29_line_1507558013776_21' n='N013' break="no"/>cris, atque altera sui parte etiam aliquantum ipsi
+                            <lb facs='#facs_29_line_1507558017077_22' n='N014'/>Atticae, tanta enim longitudo est: Macris quippe ob 
+                            <lb facs='#facs_29_line_1507558020415_23' n='N015'/>hoc ipsum dicta et est sane longa stadia 1700. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="26">
+                        
+                        <p facs='#facs_29_region_1507557905467_6'>
+                            
+                            
+                        	<lb facs='#facs_29_line_1507558023201_24' n='N016'/><space unit="character" quantity="3"/>At vero Creta proxime videtur accedere ad 
+                            <lb facs='#facs_29_line_1507558026783_25' n='N017'/>Maleam peloponesi promontorium. Et sinus 
+                            <lb facs='#facs_29_line_1507558029815_26' n='N018'/>quidem ambitus in stadia excurrit 4700, <note place="above">Plin. 4.12. 509 mill. % 4712</note> longitu-
+                            <note place="margin" facs='#facs_29_line_1507557910241_7'>4500</note>
+                            <lb facs='#facs_29_line_1507558033641_27' n='N020' break="no"/>do in 2300 porrigitur: plurimum quippe de 
+                            <note place="margin" facs='#facs_29_line_1507557912108_8'>270+9 2160 Plin. </note>
+                            <lb facs='#facs_29_line_1507558037337_28' n='N022'/>longitudine occupat. Cythera insula inter Cre-
+                            <lb facs='#facs_29_line_1507558039975_29' n='N023' break="no"/>tam et oram Laconicam medium tenet. 
+                            <lb facs='#facs_29_line_1507558042907_30' n='N024'/>Cyprus tergo bubulo similis est <note place="above">f. 17</note> ambiturque 
+                            <lb facs='#facs_29_line_1507558046683_31' n='N025'/>stadijs 3420: longitudini cuius dantur 1300. 
+                            <lb facs='#facs_29_line_1507558049641_32' n='N026'/>et ab eius promontorio Papho flante vento 
+                            <lb facs='#facs_29_line_1507558052446_33' n='N027'/>Borea traijcitur Alexandriam spatio stadiorum 
+                            <lb facs='#facs_29_line_1507558054901_34' n='N028'/>3800 admodum. 
+                        	<lb facs='#facs_29_line_1507558057748_35' n='N029'/><space unit="character" quantity="3"/>Rhodi ambitus stadijs debetur 1300. Cos 
+                            <lb facs='#facs_29_line_1507558061918_36' n='N030'/>stadijs cingitur 550. Samos circuitum suum 
+                            <lb facs='#facs_29_line_1507558065286_37' n='N031'/>definit stadijs 630 Icaria confractosa undique 
+                            <lb facs='#facs_29_line_1507558067977_38' n='N032'/>et asperis vallata rupibus stadijs clauditur 300 
+                            <lb facs='#facs_29_line_1507558071657_39' n='N033'/>Chius ambitus stadijs 660. Lesbus 110 ipsis. 
+                        </p>
+                                            </div>
+                </div>
+
+           <div type="edition">
+               <pb facs='#facs_31' n='31'/>
+               <head facs='#facs_31_region_1507558868443_42'>
+                   <lb facs='#facs_31_line_1507558873070_43' n='N001'/>Summaria ratio Geographiae in Sphaera intelligenda Cap. VI. 
+               </head>
+           </div>
+
+            </div>
+        </body>
+    </text>
+</TEI>
+
+

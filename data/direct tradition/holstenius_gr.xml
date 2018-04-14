@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="../../../../../Repos/agathemerus-ui/epidoc-stylesheets/start-edition.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="holstenius_gr"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="lat">Geographiae Informatio</title>
+                <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0090"
+                    >Agathemerus</author>
+                <author role="editor"/>
+                <author role="translator"/>
+                <sponsor>University of Leipzig</sponsor>
+                <sponsor>Università degli Studi di Bari Aldo Moro</sponsor>
+                <respStmt>
+                    <persName xml:id="CP">Chiara Palladino</persName>
+                    <resp>Editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Pasquale Massimo Pinto</persName>
+                    <resp>Supervisor</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">holstenius_gr.xml</idno>
+ 
+                <authority>University of Leipzig</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2017</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+
+            <sourceDesc>
+
+                <listBibl>
+
+                    <msDesc>
+
+                        <msIdentifier xml:id="holstenius" n="urn:cite:agathemerus:tlg0090.tlg001.holstenius">
+                            <settlement>Rome</settlement>
+                            <repository>Biblioteca Vallicelliana </repository>
+                            <collection>Carte Allacci</collection>
+                            <idno>XCVII 4</idno>
+                        </msIdentifier>
+
+                        <msContents>
+
+                            <msItem>
+
+                                <locus>ff. 157r, 158r, 159r, 159v, 160v, 161v, 162v, 163v, 164v,
+                                    165v, 166v, 168v, 169v, 170v, 171v, 172v, 173v, 174v, 175v </locus>
+                                <editor>
+                                    <persName xml:id="LH">
+                                        <name xml:lang="lat">Lucas Holstenius</name>
+                                        <addName xml:lang="de">Lukas Holste</addName>
+                                        <addName xml:lang="it">Luca Olstenio</addName>
+                                        <ref>http://viaf.org/viaf/9870846</ref>
+                                    </persName>
+                                </editor>
+
+                                <filiation type="witness">
+                                    <msDesc xml:id="Regius1" sameAs="#c1">
+                                        <msIdentifier>
+                                            <settlement>Paris</settlement>
+                                            <institution xml:lang="fr">Bibliothèque
+                                                Nationale</institution>
+                                            <idno>Par. gr. 2554, fols. 109-130</idno>
+                                            <msName>c1 Diller</msName>
+                                            <msName>C Müller</msName>
+                                            <msName>Regi Codices Holstenius</msName>
+                                        </msIdentifier>
+                                    </msDesc>
+                                </filiation>
+
+                                <filiation type="witness">
+                                    <msDesc xml:id="Regius2" sameAs="#c2">
+                                        <msIdentifier>
+                                            <settlement>Paris</settlement>
+                                            <institution xml:lang="fr">Bibliothèque
+                                                Nationale</institution>
+                                            <idno>Par. gr. 2554, fols. 135-159</idno>
+                                            <msName>c2 Diller</msName>
+                                            <msName>D Müller</msName>
+                                            <msName>Regi Codices Holstenius</msName>
+                                        </msIdentifier>
+                                    </msDesc>
+                                </filiation>
+
+                                <filiation type="witness">
+                                    <msDesc xml:id="Regius3" sameAs="#c3">
+                                        <msIdentifier>
+                                            <settlement>Paris</settlement>
+                                            <institution xml:lang="fr">Bibliothèque
+                                                Nationale</institution>
+                                            <idno>Par. gr. 1405</idno>
+                                            <msName>c3 Diller</msName>
+                                            <msName>B Müller</msName>
+                                            <msName>Regi Codices Holstenius</msName>
+                                        </msIdentifier>
+                                    </msDesc>
+                                </filiation>
+
+                                <filiation type="witness">
+                                    <msDesc xml:id="Vaticanus_Palatinus" sameAs="#c9">
+                                        <msIdentifier>
+                                            <institution>Vatican Library</institution>
+                                            <idno>Vat. Pal. Gr. 62</idno>
+                                            <msName>c9 Diller</msName>
+                                            <msName>Palatinus Müller</msName>
+                                            <msName>Vaticanus Holsten</msName>
+                                        </msIdentifier>
+                                    </msDesc>
+                                </filiation>
+
+                                <filiation type="witness">
+                                    <msDesc xml:id="Altempsianus" sameAs="#c8">
+                                        <msIdentifier>
+                                            <settlement>Paris</settlement>
+                                            <institution xml:lang="fr">Bibliothèque
+                                                Nationale</institution>
+                                            <idno>Par. gr. 1406</idno>
+                                            <msName>c8 Diller</msName>
+                                            <msName>Altempsianus Müller?</msName>
+                                            <!-- Müller non identifica il codice perché non riesce a ricondurlo al Parigino c8 Diller. Quindi lascia questa dicitura vaga riportando le parole di Holsten.
+                                 Questo è un problema perché così accade che i mss. identificati con c8 siano due: Il Par. gr. 1406, A per Müller, e questo non identificato codice Altempsiano-->
+                                            <msName>Altempsianus Holsten</msName>
+                                        </msIdentifier>
+                                    </msDesc>
+                                </filiation>
+
+
+
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <handDesc hands="2">
+                                <handNote xml:id="LH1" scope="major">Lucas Holstenius</handNote>
+                                <handNote xml:id="LH2" scope="minor">Lucas Holstenius, corrections
+                                    and variant readings recorded on the margins</handNote>
+
+
+                            </handDesc>
+                        </physDesc>
+
+                    </msDesc>
+
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <xi:include href="file:/Users/Chiara/Dropbox/AGATEMERO/Manuscripts/Glyphs/glyphs.xml"/>
+       
+        <encodingDesc>
+
+            <projectDesc>
+                <ab>
+                    <title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>
+                </ab>
+            </projectDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+            <refsDecl n="CTS">
+                <cRefPattern n="section" matchPattern="(.+).(.+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+                    <p>This pointer pattern extracts chapters and sections</p>
+                </cRefPattern>
+                <cRefPattern n="chapter" matchPattern="(.+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                    <p>This pointer pattern extracts chapters</p>
+                </cRefPattern>
+            </refsDecl>
+            <variantEncoding method="location-referenced" location="internal"/>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="lat">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="CP" when="2017-09-20">Created the XML file</change>
+        </revisionDesc>
+    </teiHeader> <!--  
+    <facsimile xml:id="facs_1">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0001_Allacci XCVII 4 - Agathemerus-1.png">
+            <graphic url="0001_Allacci XCVII 4 - Agathemerus-1.png" width="3508px" height="2479px"/>
+        </surface>
+    </facsimile> -->
+    <facsimile xml:id="facs_2">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0002_Allacci XCVII 4 - Agathemerus-2.png">
+            <graphic url="0002_Allacci XCVII 4 - Agathemerus-2.png" width="3508px" height="2479px"/>
+            <zone points="271,499 1964,499 1964,2425 271,2425" rendition="TextRegion"
+                xml:id="facs_2_region_1505999095216_1"> </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id="facs_3">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0003_Allacci XCVII 4 - Agathemerus-3.png">
+            <graphic url="0003_Allacci XCVII 4 - Agathemerus-3.png" width="3508px" height="2479px"/>
+            <zone points="160,360 1731,360 1731,2836 160,2836" rendition="TextRegion"
+                xml:id="facs_3_region_1505999114109_2"> </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id="facs_4">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0004_Allacci XCVII 4 - Agathemerus-4.png">
+            <graphic url="0004_Allacci XCVII 4 - Agathemerus-4.png" width="3508px" height="2479px"/>
+            <zone points="61,133 2220,133 2220,3152 61,3152" rendition="Image"
+                xml:id="facs_4_Image_1505999131319_3"/>
+        </surface>
+    </facsimile>
+    <facsimile xml:id="facs_5">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0005_Allacci XCVII 4 - Agathemerus-5.png">
+            <graphic url="0005_Allacci XCVII 4 - Agathemerus-5.png" width="3508px" height="2479px"/>
+            <zone points="266,677 2125,677 2125,2342 266,2342" rendition="TextRegion"
+                xml:id="facs_5_region_1505999144840_4"> </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id="facs_6">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0006_Allacci XCVII 4 - Agathemerus-6.png">
+            <graphic url="0006_Allacci XCVII 4 - Agathemerus-6.png" width="3508px" height="2479px"/>
+            <zone points="72,216 2130,216 2130,2969 72,2969" rendition="TextRegion"
+                xml:id="facs_6_region_1505999163691_5"> </zone>
+        </surface>
+    </facsimile>
+    
+    <facsimile xml:id="facs_8">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0008_Allacci XCVII 4 - Agathemerus-8.png">
+            <graphic url="0008_Allacci XCVII 4 - Agathemerus-8.png" width="3508px" height="2479px"/>
+            <zone points="108,144 2429,144 2429,3142 108,3142" rendition="TextRegion"
+                xml:id="facs_8_region_1505999207614_7"> </zone>
+        </surface>
+    </facsimile>
+    
+    <facsimile xml:id="facs_10">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0010_Allacci XCVII 4 - Agathemerus-10.png">
+            <graphic url="0010_Allacci XCVII 4 - Agathemerus-10.png" width="3508px" height="2479px"/>
+            <zone points="3,67 2151,67 2218,2936 3,2936" rendition="TextRegion"
+                xml:id="facs_10_region_1505999250749_9"> </zone>
+        </surface>
+    </facsimile>
+  
+    <facsimile xml:id="facs_12">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0012_Allacci XCVII 4 - Agathemerus-12.png">
+            <graphic url="0012_Allacci XCVII 4 - Agathemerus-12.png" width="3508px" height="2479px"/>
+            <zone points="9,228 2184,228 2184,3131 9,3131" rendition="TextRegion"
+                xml:id="facs_12_region_1505999293393_11"> </zone>
+        </surface>
+    </facsimile>
+    
+    <facsimile xml:id="facs_14">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0014_Allacci XCVII 4 - Agathemerus-14.png">
+            <graphic url="0014_Allacci XCVII 4 - Agathemerus-14.png" width="3508px" height="2479px"/>
+            <zone points="5,88 2236,88 2236,3108 5,3108" rendition="TextRegion"
+                xml:id="facs_14_region_1505999370884_13"> </zone>
+        </surface>
+    </facsimile>
+    
+    <facsimile xml:id="facs_16">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0016_Allacci XCVII 4 - Agathemerus-16.png">
+            <graphic url="0016_Allacci XCVII 4 - Agathemerus-16.png" width="3508px" height="2479px"/>
+            <zone points="22,20 2296,61 2441,3226 22,3213" rendition="TextRegion"
+                xml:id="facs_16_region_1505999420083_15"> </zone>
+        </surface>
+    </facsimile>
+   
+    <facsimile xml:id="facs_18">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0018_Allacci XCVII 4 - Agathemerus-18.png">
+            <graphic url="0018_Allacci XCVII 4 - Agathemerus-18.png" width="3508px" height="2479px"/>
+            <zone points="-173,37 2103,37 2286,3159 -173,3159" rendition="TextRegion"
+                xml:id="facs_18_region_1505999484792_17"> </zone>
+        </surface>
+    </facsimile>
+   
+    <facsimile xml:id="facs_20">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0020_Allacci XCVII 4 - Agathemerus-20.png">
+            <graphic url="0020_Allacci XCVII 4 - Agathemerus-20.png" width="3508px" height="2479px"/>
+            <zone points="31,129 2134,130 2252,3131 286,3111" rendition="TextRegion"
+                xml:id="facs_20_region_1505999556455_19"> </zone>
+        </surface>
+    </facsimile>
+    
+    <facsimile xml:id="facs_24">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0024_Allacci XCVII 4 - Agathemerus-24.png">
+            <graphic url="0024_Allacci XCVII 4 - Agathemerus-24.png" width="3508px" height="2479px"/>
+            <zone points="7,214 2228,214 2263,2958 42,2958" rendition="TextRegion"
+                xml:id="facs_24_region_1505999666560_21"> </zone>
+        </surface>
+    </facsimile>
+  
+    <facsimile xml:id="facs_26">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0026_Allacci XCVII 4 - Agathemerus-26.png">
+            <graphic url="0026_Allacci XCVII 4 - Agathemerus-26.png" width="3508px" height="2479px"/>
+            <zone points="26,145 2179,145 2179,3044 26,3044" rendition="TextRegion"
+                xml:id="facs_26_region_1505999752491_23"> </zone>
+        </surface>
+    </facsimile>
+   
+   
+    <facsimile xml:id="facs_29">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0029_Allacci XCVII 4 - Agathemerus-29.png">
+            <graphic url="0029_Allacci XCVII 4 - Agathemerus-29.png" width="3508px" height="2479px"/>
+            <zone points="95,182 2196,182 2196,2971 95,2971" rendition="TextRegion"
+                xml:id="facs_29_region_1505999821285_26"> </zone>
+        </surface>
+    </facsimile>
+   
+    <facsimile xml:id="facs_31">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0031_Allacci XCVII 4 - Agathemerus-31.png">
+            <graphic url="0031_Allacci XCVII 4 - Agathemerus-31.png" width="3508px" height="2479px"/>
+            <zone points="11,136 2248,136 2248,3126 11,3126" rendition="TextRegion"
+                xml:id="facs_31_region_1505999852710_28"> </zone>
+        </surface>
+    </facsimile>
+    
+    <facsimile xml:id="facs_33">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0033_Allacci XCVII 4 - Agathemerus-33.png">
+            <graphic url="0033_Allacci XCVII 4 - Agathemerus-33.png" width="3508px" height="2479px"/>
+            <zone points="30,121 2242,121 2242,2864 30,2864" rendition="TextRegion"
+                xml:id="facs_33_region_1505999900606_31"> </zone>
+        </surface>
+    </facsimile>
+  
+    <facsimile xml:id="facs_35">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0035_Allacci XCVII 4 - Agathemerus-35.png">
+            <graphic url="0035_Allacci XCVII 4 - Agathemerus-35.png" width="3508px" height="2479px"/>
+            <zone points="83,38 2392,38 2392,2975 83,2975" rendition="TextRegion"
+                xml:id="facs_35_region_1506000016628_33"> </zone>
+        </surface>
+    </facsimile>
+   
+    <facsimile xml:id="facs_37">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0037_Allacci XCVII 4 - Agathemerus-37.png">
+            <graphic url="0037_Allacci XCVII 4 - Agathemerus-37.png" width="3508px" height="2479px"/>
+            <zone points="170,112 2270,136 2373,2964 190,2958" rendition="TextRegion"
+                xml:id="facs_37_region_1506000088866_35"> </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id="facs_38">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0038_Allacci XCVII 4 - Agathemerus-38.png">
+            <graphic url="0038_Allacci XCVII 4 - Agathemerus-38.png" width="3508px" height="2479px"/>
+            <zone points="2190,108 100,97 83,3402 2268,3352" rendition="TextRegion"
+                xml:id="facs_38_region_1506000133191_36"> </zone>
+        </surface>
+    </facsimile>
+    <!-- 
+    <facsimile xml:id="facs_39">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0039_Allacci XCVII 4 - Agathemerus-39.png">
+            <graphic url="0039_Allacci XCVII 4 - Agathemerus-39.png" width="3508px" height="2479px"
+            />
+        </surface>
+    </facsimile>
+    <facsimile xml:id="facs_40">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0040_Allacci XCVII 4 - Agathemerus-40.png">
+            <graphic url="0040_Allacci XCVII 4 - Agathemerus-40.png" width="3508px" height="2479px"/>
+            <zone points="188,138 2136,72 2087,3008 188,3008" rendition="TextRegion"
+                xml:id="facs_40_region_1506000193444_37"> </zone>
+        </surface>
+    </facsimile>
+    <facsimile xml:id="facs_41">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0041_Allacci XCVII 4 - Agathemerus-41.png">
+            <graphic url="0041_Allacci XCVII 4 - Agathemerus-41.png" width="3508px" height="2479px"
+            />
+        </surface>
+    </facsimile>
+    <facsimile xml:id="facs_42">
+        <surface ulx="0" uly="0" lrx="3508" lry="2479"
+            corresp="0001_Allacci XCVII 4 - Agathemerus, f. 175r-1.png">
+            <graphic url="0001_Allacci XCVII 4 - Agathemerus, f. 175r-1.png" width="3508px"
+                height="2479px"/>
+            <zone points="40,115 2190,-75 2128,3296 40,3296" rendition="TextRegion"
+                xml:id="facs_42_region_1506089624285_1"> </zone>
+        </surface>
+    </facsimile>
+ -->
+
+    <text>
+        <body>
+            <div type="edition" subtype="transcription" n="urn:cts:greekLit:tlg.0090.tlg001.holstenius-grc"
+                xml:lang="grc">
+
+                <pb n="157r" facs="#facs_2"/>
+                <head xml:lang="lat">
+                    <title type="main">
+                        <lb n="1"/>AGATHEMERI <lb n="2"/>Orthonis <lb n="3"/>Geographiae
+                        Hÿpotÿposis</title>
+                    <title type="desc" xml:lang="lat">
+                        <lb n="4"/>Nunc primum Graece et Latine edita <lb n="5"/>Ex IIII Mss. <ref
+                            target="#Regius1">
+                            <ref target="#Regius2">
+                                <ref target="#Regius3">Regiae</ref>
+                            </ref>
+                        </ref> , <ref target="#Vaticanus_Palatinus">Vaticanae</ref> , et <lb n="6"
+                            /><ref target="#Altempsianus">Altempsianae</ref> biblioth(ecae) </title>
+                </head>
+                <pb n="157v"/>
+                <pb n="158r" facs="#facs_3"/>
+
+                <epigraph>
+                    <quote xml:lang="grc">
+                        <title>
+                            <lb n="1"/>ἘΠΙΓΡΑΜΜΑ <lb n="2"/>εἰς Ἀγάθημερον <lb n="3"/>Π.
+                            ΜΟΡΕΛΛΟΥ.</title>
+                        <lb n="1"/>Παῦρα λόγοισι, νόῳ δ᾿ ὅτι πλεῖς Ἀγάθήμερε τυτθή
+                        <lb n="2"/>Ἀνδράσι <expan><abbr>μ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>σοπόλοις</abbr></expan> ἡ σέο τεῦχε πίναξ.
+                        <lb n="3"/>Γεωγραφίης ᾄδουσα γραφεῖς, χθονὸς <expan><abbr>εἶδ</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan>, ἀήτων
+                        <lb n="4"/>Πνεύματα, <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> <expan><abbr>κόλπ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ς</abbr></expan> τῆς ἁλὸς <expan><abbr>ἀτρυγέτ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan>.
+                        <lb n="5"/>Ἀλλά γε καὶ σταδίοις ὁπόσοις ἀπόπροσθε Γαδείρων
+                        <lb n="6"/>Πάρ τε ποσῶν ἀκτῶν ῥεῖ Σκυθικὸς Τάναις.
+                    </quote>
+                    <quote xml:lang="lat">
+                        <lb/><title type="desc">Idem Latine, ipso Morello interp(rete)</title>
+                        <lb n="1"/>Pauca quidem verbis sed sensu Agathemere multa
+                        <lb n="2"/>Haec tua fert doctis parva tabella viris,
+                        <lb n="3"/>Geographiae auctores, terrae formamque situmque,
+                        <lb n="4"/>Haec canit et ventos, aequoreosque sinus:
+                        <lb n="5"/>Denique quot stadijs distent à Gadibus usque
+                        <lb n="6"/>Ad Scÿthicum Tanain littora quaeque refert.
+                    </quote>
+                </epigraph>
+                <pb n="158v"/>
+                <figure type="windrose" facs="#facs_4"/>
+                <p>
+                    <title xml:lang="lat">Ventorum nomina regionesque, gentesque, ijs sup. positae,
+                        ex menti Agathemeri</title>
+                </p>
+
+
+
+
+                <pb n="159r" facs="#facs_5"/>
+                <ab>
+                    <title type="main">ἈΓΑΘΗΜΕΡΟΥ ΤΟΥ Ὄ<add place="above">Ρ</add>ΘΩΝΟΣ
+                        <lb/>Γεωγραφίας Ὑποτύπωσις</title><lb/>
+                    <title type="main" xml:lang="lat">AGATHEMERI ORTHONIS <lb/> brevis Geographiae delineatio</title>
+                    <title type="sub">Lucas Holstenius ex MSS Codice <lb/> Regiae bibliothecae descripsit, re<lb break="no"/>censuit et Latine vertit.</title>
+                </ab>
+
+                <pb n="159v" facs="#facs_6"/>
+
+                <ab>
+                    <title type="main">ἌΓΑΘΗΜΕΡΟΥ ΤΟ῀Υ Ὄ<add place="above">Ρ</add>ΘΩΝΟΣ <lb/> Γεωγραφίας ὑποτύπωσις.</title>
+                </ab>
+                <div type="textpart" subtype="chapter" n="1">
+                    <div type="textpart" subtype="section" n="1">
+
+                        <p>
+                            <lb n="1"/>ἈΝΑΞΊΜΑΝΔΡΟΣ Ὁ ΜΙΛΉΣΙΟΣ 
+                            <lb n="2"/>ἀκουστὴς <subst><del>Θάλεω</del><add place="overstrike">Θαλέω</add></subst> πρῶτος ἐτόλμησε τὴν <expan><abbr>οἰ-
+                             <lb n="3" break="no"/>κ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>μένην</abbr></expan> ἐν πίνακι γράψαι. μεθ᾿ ὃν Ἑκαταῖος 
+                            <lb n="4"/>ὁ Μιλήσιος ἀνὴρ πολυπλανὴς διηκρίβωσεν ὥστε 
+                            <lb n="5"/>θαυμασθῆναι τὸ πρᾶγμα. Ἑλλάνικος γὰρ Λέσ
+                            <lb n="6" break="no"/>βιος ἀνὴρ πολυῗστωρ ἀπλάστως π<hi rend="superscript">α</hi>ρέδωκε τὴν <lb n="7"/>ἱστορίαν. εἶτα Δαμάστης ὁ Κητιεὺς τὰ πλεῖ-
+                             <lb n="7" break="no"/>στα ἐκ τῶν <expan><abbr>Ἑκαταί</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan> μεταγράψας <expan><abbr>περίπλ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ν</abbr></expan>
+                            <lb n="8"/>ἔγραψεν. ἑξῆς Δημόκριτος καὶ Εὔδοξος καὶ
+                            <lb n="9"/>ἄλλοι τινες γῆς <expan><abbr>περιόδ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ς</abbr></expan> καὶ <expan><abbr>περίπλ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ς</abbr></expan> ἐ-
+                            <lb n="10"/>πραγματεύσαντο.</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="2">
+                        <p>
+                            <lb n="10"/>[Οἱ μὲν <expan><am><g ref="#abbr6"/></am><ex>οὖ</ex><abbr>ν</abbr></expan> πάλαιοὶ τὴν 
+                            <lb n="11"/><expan><abbr>οἰκ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>μένην</abbr></expan> ἔγραφον στρογγύλην, μέσην δὲ ἡ-
+                            <lb n="12" break="no"/>γεῖσθαι τὴν Ἑλλάδα, <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> ταύτης <expan><abbr>Δελφ</abbr><am><g ref="#abbr6"/></am><ex>ού</ex><abbr>ς</abbr></expan>· τὸν 
+                            <lb n="13"/>ὄμφαλον γὰρ ἔχειν τῆς γῆς. Πρῶτος δὲ 
+                            <lb n="14"/>Δημόκριτος πολύπειρος ἀνὴρ συνεῖδεν ὅτι προ-
+                            <lb n="15" break="no"/>μήκης ἐστὶν ἡ γῆ, ἡμιόλιον τὸ μῆκος <expan><abbr>τ</abbr><am><g ref="#abbr6"/></am><ex>οῦ</ex></expan> <expan><abbr>πλά- 
+                                <lb n="16" break="no"/>τ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ς</abbr></expan> <expan><abbr>ἔχ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>σα</abbr></expan>· <subst> <del rend="erasure">συνοίκεται</del><add place="margin">συνήνεσε</add> </subst><note resp="#LH2" xml:lang="lat" place="margin">R. Al.</note> τούτῳ καὶ Δικαίαρχος ὁ 
+                            <lb n="17"/>Περιπατητικός. <expan><abbr>Εὔδοξ</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan> δὲ τὸ μῆκος <expan><abbr>διπλ</abbr><am><g ref="#abbr6"/></am><ex>οῦ</ex><abbr>ν</abbr></expan>
+                            <pb n="160v" facs="#facs_8"/>
+                            <lb n="1"/>τοῦ <expan><abbr>πλάτ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ς</abbr></expan>· ὁ δὲἘρατοσθένης πλέον τοῦ 
+                            <lb n="2"/>διπλοῦ· Κράτης δὲ ὡς ἡμικύκλου· Ἵππαρχος
+                            <lb n="3"/>δὲ τραπεζοειδῆ· ἄλλοι <expan><hi rend="underline"><am><g ref="#abbr6"/></am><ex>οὐ</ex></hi><abbr>ροειδῆ</abbr></expan> <note place="margin" resp="#LH2"><foreign xml:lang="lat">in MS. Reg.
+                                    bib. N. 1229 continentur excerpta geographica, ubi legitur</foreign><app> <rdgGrp>
+                                        <rdg wit="#Regius1 #Regius2 #Regius3"> εὐροειδῆ </rdg>
+                                        <rdg wit="#Altempsianus">ἐροειδῆ </rdg>
+                                    </rdgGrp>
+                                </app>
+                                <foreign xml:lang="lat">Altemps.</foreign></note>· Ποσειδώνιος δ᾿
+                                <lb n="4"/>ὁ Στωϊκὸς σφενδονοειδῆ, <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> μεσόπλατον, 
+                            <lb n="5"/>ἀπὸ <expan><abbr>νότ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan> εἰς Βορρᾶν, στενὴν πρὸς ἕω καὶ 
+                            <lb n="6"/>δύσιν· τὰ πρὸς Εὖρον δὲ <g ref="#symb1"/><add place="margin"><g ref="#symb1"/>ὁμοίως</add> πλατύτερα πρὸς 
+                            <lb n="7"/>τὴν Ἰνδικήν.</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="3">
+                        <p><lb n="7"/>[Ὅροι ἠπείρων, Εὐρώπης μὲν <lb n="8"/>καὶ <unclear reason="erasure">Λιβύης</unclear> αἱ <expan><abbr>Ἡρακλέ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ς</abbr></expan> στῆλαι· Λιβύης δὲ 
+                            <lb n="9"/><expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> Ἀσίας ὁ
+                            Νεῖλος, οἱ δὲ ἰσθμὸν τὸν ἀπὸ 
+                            <lb n="10"/><expan><abbr>Σαρβωνίδ</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan> λίμνης <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> <expan><abbr>Ἀραβί</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan> <expan><abbr>κόλπ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan>. Ἀσί- 
+                            <lb n="11" break="no"/>ας δὲ καὶ Εὐρώπης οἱ μὲν ἀρχαῖοι Φάσιν 
+                            <lb n="12"/>ποταμὸν, καὶ τὸν ἕως Κασπίας ἰσθμὸν· οἱ δὲ 
+                            <lb n="13"/>ὕστερον νεώτεροι Μαιῶτιν λίμνην καὶ Τάναϊν <lb n="14"/>ποταμόν. <space unit="character" quantity="3"/></p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="4">
+                        <p><lb n="14"/>Ἐκλήθησαν δ᾿ ἤπειροι ἄπειροί 
+                            <lb n="15"/>τινες <expan><am><g ref="#abbr6"/></am><ex>οὖ</ex><abbr>σαι</abbr></expan> δι᾿ ἄγνοιαν. Ἀσία δὲ ἀπὸ τοῦ 
+                            <lb n="16"/>ἆσσον ἰέναι τοῖς <g ref="#symb1"/> <add place="margin"><g ref="#symb1"/>ἀπ᾿ </add> Εὐρώπης ἀπιοῦσι, καὶ πε-
+                             <lb n="17"/>ζῇ καὶ νήσοις στιχηδὸν κειμέναις. Εὔβοια 
+                            <lb n="18"/>Ἄνδρος, Τῆνος, Μύκωνος, Ἰκαρία, Σάμος, 
+                            <lb n="19"/>Μυκάλη· <space unit="character" quantity="2"/>ἡ δὲ Εὐρώπη ἀπὸ τοῦ Εὔρου 
+                            <lb n="20"/>ὠνομάσθη· Λιβύη δὲ ὑφ᾿ Ἑλλήνων ἦν ἄγνω- 
+                            <lb n="21"/>στος πάνυ<del rend="erasure"/>· ἀπὸ δὲ <expan><abbr>ἔθν</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ς</abbr></expan> ἐπισήμου Φοίνι- 
+                            <pb n="161v" break="no" facs="#facs_10"/>
+                            <lb n="1" break="no"/>κες ἐπωνομάσθησαν πλέοντες <space unit="character" quantity="2"/> Ὠκε- 
+                            <lb n="2" break="no"/>ανὸς δὲ διὰ τὸ ὠκέως ἀνύειν κύκλῳ τὴν
+                                <lb n="3"/>γῆν. <space quantity="3" unit="character"/></p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="5">
+                        <p>
+                            <lb n="3"/><expan><abbr>Δικαίαρχ</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan> δ᾿ ὁρίζει τὴν γῆν <expan><am><g ref="#abbr6"/></am><ex>οὐ</ex><abbr>χ</abbr></expan>
+                            <lb n="4"/>ὕδασιν, ἀλλὰ τομῇ εὐθείᾳ ἀκράτῳ, ἀπὸ 
+                            <lb n="5"/>στηλῶν διὰ <expan><abbr>Σαρδ</abbr><am><g ref="#abbr6"/></am><ex>οῦ</ex><abbr>ς</abbr></expan>, Σικελίας, Πελοπον- 
+                            <lb n="6"/>νήσου, <g ref="#symb1"/><add place="margin"><g ref="#symb1"/>Ἰωνίας</add> Καρίας, Λυκίας, Παμφυλίας, Κιλι- 
+                            <lb n="7"/>κίας καὶ <expan><abbr>Ταύρ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan> ἑξῆς ἕως <expan><abbr>Ἱμά<del rend="erasure">ι</del></abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan> <expan><abbr>ὄρ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ς</abbr></expan>. 
+                            <lb n="8"/>τῶν τοίνυν τόπων, τὸ μὲν Βόρειον, τὸ δὲ 
+                            <lb n="9"/>Νότιον ὀνομάζει. </p>
+                    </div>
+                </div>
+                <div type="textpart" subtype="chapter" n="2">
+                    <div type="textpart" subtype="section" n="6">
+                        <p><lb n="9"/>[Ἄνεμοι δὲ <expan><abbr>πνέ-</abbr>
+                                <lb n="10" break="no"/><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>σιν</abbr></expan> ἀπὸ μὲν ἰσημερινῆς ἀνατολῆς, Ἀπη-
+                            <lb n="11" break="no"/>λιώτης· ἀπὸ δὲ ἰσημερινῆς δύσεως, Ζέ-
+                            <lb n="12" break="no"/>φυρος· ἀπὸ δὲ μεσημβρίας, Νότος· ἀπὸ 
+                            <lb n="13"/>δὲ ἄρκτου, Ἀπαρκτίας· ἀπὸ δὲ <g ref="#symb5"/> <subst><del rend="erasure">τρο-
+                               <lb n="14" break="no"/>πῆς</del><add place="margin" resp="#LH2"><g ref="#symb5"/>ἀνατολῆς <note resp="#LH2" xml:lang="lat" place="margin">Reg.</note></add> </subst> θερινῆς, Καικίας· ἑξῆς δὲ ἀπὸ 
+                            <lb n="15"/>ἰσημερινῆς<del rend="erasure">ἀνατολῆς</del>, Ἀπηλιώτης· καὶ 
+                            <lb n="16"/>ἀπὸ χειμερινῆς, Εὖρος. <space unit="character" quantity="1"/> δυσμι<hi rend="underline">κὸς</hi><add place="margin" resp="#LH2"><del rend="erasure">κοὶ</del> </add> <note resp="#LH2" place="margin" xml:lang="lat">R. Al.</note> δὲ 
+                            <lb n="17"/>ἀπὸ μὲν δύσεως χειμερινῆς, Λίψ· καὶ
+                            <lb n="18"/>ἑξῆς πάλιν ἀπὸ δύσεως ἰσημερινῆς, 
+                            <lb n="19"/>Ζέφυρος· ἀπὸ δὲ δύσεως θερινῆς, Ἀρ-
+                                <lb n="20" break="no"/>γέστης, ἤτοι Ὀλυμπίας· εἶτα Νότος καὶ 
+                            <pb n="162v" facs="#facs_12"/>
+                            <lb n="1"/>Ἀπαρκτίας· ἀντιπνέοντες. γίνονται <expan><am><g ref="#abbr6"/></am><ex>οὖ</ex><abbr>ν</abbr></expan>
+                            <lb n="2"/>ὀκτώ. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="7">
+                        <p>
+                            <lb n="3"/>Τιμοσθένης δὲ ὁ γράψας <expan><abbr>τ</abbr><am><g ref="#abbr6"/></am><ex>οὺ</ex><abbr>ς</abbr></expan>
+                            <lb n="4"/>περίπλους, δώδεκά φησὶ<del rend="erasure">ν</del> <g ref="#symb5"/> <hi rend="underline">προσθεὶς</hi> <note place="margin" resp="#LH2"> <g ref="#symb5"/><app> <rdg wit="#Altempsianus">προστιθεὶς</rdg></app><foreign xml:lang="lat">R. Al.</foreign></note> μέ- 
+                            <lb n="5"/>σον <expan><abbr>ἀπαρκτί</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan> καὶ <expan><abbr>Καικί</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan> Βορέαν· Εὔ-
+                            <lb n="6" break="no"/>ρου δὲ καὶ Νότου φοίνικα, τὸν καὶ 
+                            <lb n="7"/>Εὐρόνοτον· μέσον δὲ Νότου καὶ Λιβὸς τὸν 
+                            <lb n="8"/>Λευκόνοτον, ἤτοι Λιβόνοτον· μέσον δὲ <expan><abbr>Ἀπ- 
+                                <lb n="9" break="no"/>αρκτί</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan> καὶ <expan><abbr>Ἀργέστ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan> Θρασκίαν, ἤτοι 
+                            <lb n="10"/>Κίρκιον ὑπὸ τῶν περιοίκων [ὀνομαζόμε-
+                            <lb n="11" break="no"/>νον]. [Ἔθνη δὲ οἰκεῖν τὰ πέρατα, κατ᾿ 
+                            <lb n="12"/>Ἀπηλιώτην <expan><abbr>Βακτριαν</abbr><am><g ref="#abbr6"/></am><ex>οὺ</ex><abbr>ς</abbr></expan>· κατ᾿ Εὖρον <expan><abbr>Ἰν-
+                                <lb n="13" break="no"/>δ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ς</abbr></expan>· κατὰ Φοίνικα ἐρυθρὰν θάλασσαν
+                            <lb n="14"/>καὶ <g ref="#symb5"/><subst> <del rend="underline">Αἰθιοπίαν</del> <add place="margin"><g ref="#symb5"/>Ἀραβίαν</add> </subst>· κατὰ Νότον τὴν ὑπὲρ Αἴ-
+                            <lb n="15" break="no"/>γυπτον Αἰθιοπίαν· κατὰ Λευκόνοτον τοὺς 
+                            <lb n="16"/>ὑπὲρ Σύρτεις Γαράμαντας· κατὰ Λίβα 
+                            <lb n="17"/>Αἰθίοπας καὶ <expan><abbr>δυσμικ</abbr><am><g ref="#abbr6"/></am><ex>οὺ</ex><abbr>ς</abbr></expan> <expan><abbr>ὑπὲρμαύρ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ς</abbr></expan>· 
+                            <lb n="18"/>κατὰ Ζέφυρον στήλας καὶ ἀρχὰς Λι- 
+                            <lb n="19" break="no"/>βύης <g ref="#symb1"/> <add place="margin"><g ref="#symb1"/>καὶ Εὐρώπης</add>· κατ᾿ Ἀργέστην Ἰβηρίαν, τὴν νῦν 
+                            <lb n="20"/>Ἱσπανίαν· κατὰ δὲ Θρασκίαν <del rend="erasure">[</del> <expan><abbr>Κελ-
+                                <lb n="21" break="no"/>τ</abbr><am><g ref="#abbr6"/></am><ex>οὺ</ex><abbr>ς</abbr></expan> καὶ τὰ ὅμορα· κατὰ Ἀπαρκτίαν<del rend="erasure">]</del>
+                            <pb n="163v" facs="#facs_14"/>
+                            <lb n="1"/>τοὺς ὑπὲρ Θρᾴκην Σκύθας· κατὰ δὲ 
+                            <lb n="2"/>Βοῤῥᾶν, Πόντον, Μαιῶτιν, Σαρμάτας· κατὰ 
+                            <lb n="3"/>Καικίαν Κασπίαν θάλασσαν <g ref="#symb1"/> <add place="margin"><g ref="#symb1"/>καὶ Σάκας.</add></p>
+                    </div>
+                </div>
+                <div type="textpart" subtype="chapter" n="3">
+                    <div type="textpart" subtype="section" n="8">
+                        <p>
+                            <note type="margin" resp="#LH2" xml:lang="lat">Idem de Sÿrtibus earumque ambitu Strabo lib. 2 in sua illa <foreign xml:lang="grc">ὑποτυπώσει</foreign></note>
+                            <lb n="3"/>[Ἔστι δὲ <lb n="4"/>ἡ μεγάλη Σύρτις σταδίων ͵ε· ἡ δὲ μι-
+                            <lb  n="5" break="no"/>κρὰ ... ͵αχʹ· τὸ δὲ στόμα τοῦ <expan><abbr>Ἀδρί</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan>, 
+                            <lb n="6"/>ὁ <expan><abbr>καλ</abbr><am><g ref="#abbr6"/></am><ex>οῦ</ex><abbr>σι</abbr></expan> τινὲς Ἰόνιον πέλαγος, ἔχει διά- 
+                            <lb n="7"/>πλουν σταδίων ͵αψʹ· ἀπὸ ἄκρας Ἰα-
+                            <lb n="8" break="no"/>πυγίας ἐπὶ Κεραύνια ὄρη τῆς Ἠπεί- 
+                            <lb n="9" break="no"/>ρου. </p>
+
+                    </div>
+
+                    <div type="textpart" subtype="section" n="9">
+                        <p>
+                            <lb n="9"/>διαδέχεται τὸ Αἰγαῖον Ἑλλήσποντος
+                            <lb n="10"/>λήγον εἰς Ἄβυδον καὶ Σηστόν· εἶτα ἡ 
+                            <lb n="11"/><subst><del rend="erasure">Προπόντις</del><add place="overstrike">Προποντὶς</add></subst> λή<hi rend="underline">γει</hi> <note place="margin" resp="#LH2"><app> <rdg wit="#Dam">γουσα</rdg></app> <foreign xml:lang="lat">Dam.</foreign></note> εἰς Χαλκηδόνα <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan>
+                            <lb n="12"/>Βυζάντιον· ἔνθα τὰ στενὰ, ἀφ᾿ ὧν 
+                            <lb n="13"/>ὁ Πόντος ἄρχεται· εἶτα ἡ Μαι-
+                            <lb n="14"/>ῶτις λίμνη. Πάλιν δ᾿ ἀπ᾿ ἀρ- 
+                            <lb n="15" break="no"/>χῆς Εὐρώπης καὶ Λιβύης Ἰβηρι- 
+                            <lb n="16" break="no"/>κὸν, τὸ ἀπὸ στηλῶν εἰς Πυρήνην 
+                            <lb n="17"/>τὸ ὄρος· Λιγυστικὸν δὲ, τὸ ἕως τῶν 
+                            <lb n="18"/>τῆς Τυῤῥηνίας περάτων. Σαρδῶον δὲ 
+                            <lb n="19"/>τὸ ὑπὲρ Σαρδὼ νεῦον πρὸς Λιβύην 
+                            <pb n="164v" facs="#facs_16"/>
+                            <lb n="1"/>κάτω· Τυρρηνικὸν δὲ τὸ μέχρι Σικε- 
+                            <lb n="2" break="no"/>λίας, ἀρχόμενον ἀπὸ τῶν <g ref="#symb1"/> <add place="margin"><g ref="#symb1"/>τῆς</add> Λιγυστικῆς ἄ- 
+                            <lb n="3" break="no"/>κρων· εἶτα Λιβυκὸν· εἶτα Κρητικὸν 
+                            <lb n="4"/>καὶ Σικελικὸν καὶ Ἰόνιον καὶ Ἀδρίαν <note resp="#LH2" place="margin"><app><rdg wit="#Dam.">Ἀδριανόν </rdg></app><foreign xml:lang="lat">Dam.</foreign></note>
+                            <lb n="5"/><hi rend="underline">τὸν</hi>
+                            <note place="margin" resp="#LH2"><app><rdg wit="Dam.">τὸ</rdg> <rdg>ἴσ. τό τ'</rdg></app><foreign xml:lang="lat">Dam.</foreign></note> ἀνακεχυμένον ἐκ τοῦ <expan><abbr>Σικελικ</abbr><am><g ref="#abbr6"/></am><ex>οῦ</ex></expan> <expan><abbr>πελάγ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ς</abbr></expan>, 
+                            <lb n="6"/>ὃν <expan><abbr>καλ</abbr><am><g ref="#abbr6"/></am><ex>οῦ</ex><abbr>σι</abbr></expan> Κορινθιακὸν κόλπον ἤτοι Ἀλκυο-
+                            <lb n="7" break="no"/>νίδα θάλασσαν. <subst><del rend="erasure">τῷ</del><add place="inline">τὸ</add></subst> Σουνίῳ καὶ Σκυλ-
+                            <lb n="8" break="no"/>λαίῳ περιεχόμενον <expan><abbr>πέλαγ</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan> Σαρωνικὸν. 
+                            <lb n="9"/>εἶτα Μυρτῶον, καὶ Ἰκάριον· ἐν ᾧ αἱ Κυ- 
+                            <lb n="10" break="no"/>κλάδες· εἶτα Καρπάθιον καὶ Παμφύλιον 
+                            <lb n="11"/>καί Αἰγύπτιον. ὑπὲρ δὲ τὸ Ἰκάριον ἑξῆς 
+                            <lb n="12"/>ἀνάκειται τὸ Αἰγαῖον. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="10">
+                        <p>
+                            <lb n="12"/>Ἔστι δὲ ὁ τῆς Εὐ-
+                            <lb n="13" break="no"/>ρώπης <expan><abbr>π<hi rend="superscript">α</hi>ράπλ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ς</abbr></expan> ἀπὸ <expan><abbr>Τανάϊδ</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan> <expan><abbr>ποτα- 
+                                <lb n="14" break="no"/>μ</abbr><am><g ref="#abbr6"/></am><ex>οῦ</ex></expan> ἐκβολῶν ἕως Ἡρακλείων στήλων στα-
+                            <lb n="15" break="no"/>δίων μυριάδων ἓξ καὶ <hi rend="supraline">͵θψθ</hi>. τῆς δὲ 
+                            <lb n="16"/>Λιβύης ἀπὸ <hi rend="underline"><expan><abbr>Τιγγ</abbr><am><g ref="#abbr43"/></am><ex>ὸς</ex></expan></hi>
+                            <note place="margin" resp="#LH2"> <app><rdg wit="#Dam">Τίγγεως </rdg></app><foreign xml:lang="lat">Dam.</foreign></note> ἕως στόματος Κανω-
+                            <lb n="17" break="no"/>βικοῦ σταδίων μυριάδων δύο καὶ <hi rend="supraline">͵θσνβ</hi>. 
+                            <lb n="18"/>τῆς δ᾿ Ἀσίας, ἀπὸ Κανώβου ἕως Τανάϊδος 
+                            <pb n="165v" facs="#facs_18"/>
+                            <lb n="1"/>ποταμοῦ μετὰ τῶν κόλπων ὁ π<hi rend="superscript">α</hi>ράπλους 
+                            <lb n="2"/>σταδίων μυριάδων <hi rend="supraline">δ</hi> καὶ <hi rend="supraline">ρια</hi>· ὁμοῦ 
+                            <lb n="3"/>π<hi rend="superscript">α</hi>ράλιος σὺν κόλποις τῆς καθ᾿ ἡμᾶς 
+                            <lb n="4"/><expan><abbr>οἰκ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>μένης</abbr></expan> σταδίων μυριάδων <hi rend="supraline">ιγ</hi> καί <hi rend="supraline">θοβ</hi>, 
+                            <lb n="5"/><expan><abbr>συμμετρ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>μένης</abbr></expan> τῆς <expan><abbr>Μαιώτιδ</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan> λίμνης, ἧς 
+                            <lb n="6"/><expan><abbr>π</abbr><am><g ref="#abbr18"/></am><ex>ερ</ex><abbr>ίμετρος</abbr></expan> σταδίων <hi rend="supraline">͵θ</hi>· τὸ δὲ στόμα ὁ 
+                            <lb n="7"/>κιμέριος βόσπορος σταδίων <hi rend="underline">οκ</hi>
+                            <note place="margin" resp="#LH2">
+                                <foreign xml:lang="lat">ad MS.</foreign>
+                                <app>
+                                    <rdgGrp>
+                                        <rdg wit="Codd"> κ <foreign xml:lang="lat">sed puto hanc
+                                                notam omnino delendam.</foreign>
+                                        </rdg>
+                                        <rdg wit="#Altempsianus">
+                                            <hi rend="supraline">υμ</hi>
+                                        </rdg>
+                                    </rdgGrp>
+                                </app><foreign xml:lang="lat">Altimps.</foreign>
+                            </note>
+                        </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="11">
+                        <p>
+                            <lb n="7"/>ὁ δὲ <lb n="8"/>Πόντος σταδίων <hi rend="supraline">͵γπγ</hi>· ὁ δὲ Θρᾴκιος <expan><abbr>βό-
+                                <lb n="9" break="no"/>σπορ</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan> τὰ στενὰ, ὅπη <expan><abbr>Δαρεῖ</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan> ἔζευξεν 
+                            <lb n="10"/>ἐπὶ Σκύθας τὴν σχεδίαν, σταδίων <hi rend="supraline">͵Ϛ</hi>. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="12">
+                        <p>
+                            <lb n="10"/>Ἡ 
+                            <lb n="11"/>δὲ Περσικὴ θάλασσα κυκλοτερὴς <expan><am><g ref="#abbr6"/></am><ex>οὖ</ex><abbr>σα</abbr></expan>, 
+                            <lb n="12"/><expan><abbr>συνάγ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>σα</abbr></expan> τὸ στόμα ἄκρῳ Καρμανίας <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan>
+                            <lb n="13"/>Ἀραβίας, περίμετρον ἔχει μυριάδων δύο 
+                            <lb n="14"/>σταδίων. Ἔστι <expan><am><g ref="#tach2"/></am><ex>δὲ</ex></expan>  <g ref="#symb1"/> <add place="margin"><g ref="#symb1"/>τὸ</add> μεταξὺ <hi rend="underline">στόμα</hi> Ἀραβίας 
+                            <lb n="15"/>καὶ Καρμανίας σταδίων <hi rend="supraline">υ</hi>. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="13">
+                        <p>
+                            <lb n="15"/>Ἡ δὲ Ὑρκα-
+                            <lb n="16" break="no"/>νία ἤτοι Κασπία θάλασσα μηνοειδὴς <expan><am><g ref="#abbr6"/></am><ex>οὖ-</ex>
+                                <lb n="17" break="no"/><abbr>σα</abbr></expan> κατὰ δέ τινας καὶ προμήκης, ἐστὶ 
+                            <lb n="18"/>σταδίων δισμυρίων δισχυλίων. <hi rend="underline">τοῦ δὲ</hi> στό- 
+                            <lb n="19" break="no"/>ματος ἔχει τὸ δίαρμα σταδίους <hi rend="supraline">͵δ</hi>. <note place="margin"><expan><abbr>μῦθ</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan></note>
+                        </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="14">
+                        <p><pb n="166v" facs="#facs_20"/>
+                            <lb n="1"/>ὁ δὲ <expan><abbr>Ἀράβι</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan> κόλπος στενὸς ὢν <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> προ-
+                            <lb n="2" break="no"/>μήκης ἄρχεται. ἀπὸ Ἡρώων πόλεως π<hi rend="superscript">α</hi>ρὰ 
+                            <lb n="3"/>τὴν Τρωγλοδυτικὴν ἕως τῆς <expan><abbr>Πτολεμαΐδ</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan>
+                            <lb n="4"/>τῆς ἐπὶ θύρας σταδίων <hi rend="supraline">͵θ</hi> τὸ μῆκος. τὰ δὲ 
+                            <lb n="5"/>κατὰ διρὴν <g ref="#symb5"/>
+                            <note place="margin" resp="#LH2"><g ref="#symb5"/> <app><rdg wit="#Altempsianus"> Δειρὴν </rdg></app><foreign xml:lang="lat">Alt.</foreign></note> στενὰ σταδίων <hi rend="supraline">ξ</hi>. ἔνθεν ἑξῆς 
+                            <lb n="6"/>πλοῦς σταδίων <hi rend="supraline">͵Ϛφ</hi>. τὸ δὲ λοιπὸν <expan><am><g ref="#abbr6"/></am><ex>οὐ</ex></expan> πλεῖ- 
+                            <lb n="7" break="no"/>ται π<hi rend="superscript">α</hi>ρὰ τὴν ἐρυθρὰν θάλασσαν ἕως ὠκε-
+                            <lb n="8" break="no"/>ανοῦ σταδίων <hi rend="supraline">͵Ϛ</hi>· τὸ δὲ π<hi rend="superscript">α</hi>ρὰ τὴν Ἀραβί- 
+                            <lb n="9" break="no"/>αν πλευρὰν ἀπὸ Αἰλανίτου μυχοῦ στα- 
+                            <lb n="10" break="no"/>δίων μυριάδων ͵δ. αὐτὴ δὲ ἡ Ἀραβία 
+                            <lb n="11"/>εἰς τὴν Ἐρυθρὰν καθήκει, καὶ μεμήκιται ἐπὶ 
+                            <lb n="12"/>σταδίων μυρίων δισχυλίων. </p>
+                    </div>
+                </div>
+                <div type="textpart" subtype="chapter" n="4">
+                    <div type="textpart" subtype="section" n="15">
+                        <p>
+                            <lb n="12"/>μῆκος δὲ τῆς 
+                            <lb n="13"/><expan><abbr>οἰκ</abbr><am><g  ref="#abbr6"/></am><ex>ου</ex><abbr>μένης</abbr></expan> ἀπὸ Γάγγου εἰς τὰ Γάδειρα στα- 
+                            <lb n="14" break="no"/>δίων μυριάδων <hi rend="supraline">͵Ϛ</hi> καὶ <hi rend="supraline">͵ηφμθ</hi>· <expan><am><g ref="#abbr6"/></am><ex>οὔ</ex><abbr>τως</abbr></expan>
+                            <lb n="15"/>ἀπὸ μὲν Γάγγου <expan><abbr>ποταμ</abbr><am><g ref="#abbr6"/></am><ex>οῦ</ex></expan> ἕως <expan><abbr>Μυριάνδρ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan>
+                            <lb n="16"/>τῆς ἐν Ἰσσικῷ κόλπῳ σταδίων μυριάδων
+                            <lb n="17"/><hi rend="supraline">δ</hi> καὶ <hi rend="supraline">͵αψκε</hi>· <expan><am><g ref="#abbr6"/></am><ex>οὕ</ex><abbr>τως</abbr></expan> ἀπὸ <expan><abbr>Γάγγ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan> ἐπὶ 
+                            <lb n="18"/>ἐκβολὰς Ἰνδοῦ <expan><abbr>ποταμ</abbr><am><g ref="#abbr6"/></am><ex>οῦ</ex></expan> σταδίων δισμυρίων 
+                            <pb n="167v"/>
+                            <pb n="168v" facs="#facs_24"/>
+                            <lb n="1"/><hi rend="supraline">͵Ϛ</hi>· ἀπὸ Ἰνδοῦ ἕως Κασπίων πυλῶν μίλ. 
+                            <lb n="2"/><hi rend="supraline">͵ετ</hi>· ἐπὶ τὸν Εὐφράτην σταδίων μυρίων νʹ· 
+                            <lb n="3"/>εἰς μυρίανδρον σταδίων <hi rend="supraline">τοε</hi>.</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="16">
+                        <p><lb n="3"/>ἀπὸ δὲ <unclear reason="erasure">Μυ-</unclear>
+                            <lb n="4" break="no"/><hi rend="underline">ριάνδρων</hi>
+                            <note place="margin" resp="#LH2"><app> <rdg wit="#Altempsianus">δρου</rdg> </app><foreign xml:lang="lat">Altemp.</foreign></note> ἐπὶ Γάδειρα σταδίων δισμυρίων 
+                            <lb n="5"/><hi rend="supraline">͵Ϛωκ</hi>. <expan><am><g ref="#abbr6"/></am><ex>οὕ</ex><abbr>τως</abbr></expan>· ἀπὸ <hi rend="underline">Μυρι</hi>άνδρου ἐπὶ κλεῖδας 
+                            <lb n="6"/>Κύπρου στάδια <hi rend="supraline">͵αυ</hi>· ἐπὶ ἀκάμαντα τὸ 
+                            <lb n="7"/>ἀκρωτήριον στάδια <hi rend="supraline">͵γτ</hi>. ἐπὶ δὲ Χελιδονίας 
+                            <lb n="8"/>διὰ Παμφυλίου πελάγους στάδια <hi rend="supraline">͵ατ</hi>· εἰς 
+                            <lb n="9"/>Πάταρα στάδια <hi rend="supraline">·ω·</hi> ὡς εἰς ῥόδον στάδια ψʹ· 
+                            <lb n="10"/>εἰς Ἀστυπάλειαν <note place="margin" resp="#LH2"><app> <rdg wit="#Altempsianus">λαιαν</rdg> </app> <foreign xml:lang="lat">Altemp.</foreign></note> διὰ Καρπαθίου στάδια <hi rend="supraline">ρμ</hi>
+                            <lb n="11"/>ἐπὶ Ταίναρον στάδια <hi rend="supraline">͵αυν</hi>· ἐπὶ Πάχυνον 
+                            <lb n="12"/>Σικελίας στάδια ͵δ. ἐπὶ Λιλύβαιον διὰ Λι-
+                            <lb n="13" break="no"/>βυκοῦ πελάγους στάδια <hi rend="supraline">͵αφκ</hi>. ἐπὶ δὲ Κά-
+                            <lb n="14" break="no"/>ραλιν Σαρδοῦς διὰ Τυρσηνικοῦ πελάγους
+                                <lb n="15"/><del rend="erasure">πελάγους</del> στάδια <hi rend="supraline">͵βω</hi>. ἐπὶ Γάδειρα ὑπερπλεύ-
+                            <lb n="16"  break="no"/>σαντι Γυμνησίας νήσους στάδια μύρια. ἀπὸ 
+                            <lb n="17"/>Γαδείρων δὲ διὰ ἱεροῦ ἀκρωτηρίου <g ref="#symb1"/><gap reason="lost" resp="#LH1"/>
+                            <note place="margin" resp="#LH1">λείπει μέχρι <space quantity="6" unit="character"/> ἀκρωτηρίου</note> καὶ Ἀρτάβρων
+                            <lb n="18"/><expan><abbr>λιμέν</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan> στάδιοι ͵ζ<hi rend="supraline">τλβ</hi>· ὁμοῦ γίνονται μυριά- 
+                            <lb n="19" break="no"/>δες <hi rend="supraline">ζ</hi> καὶ <hi rend="supraline">͵βυοζ</hi>·</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="17">
+                        <p>
+                            <lb n="19"/>καὶ ἄλλως· ἀπὸ Γάγγου <pb n="169v" facs="#facs_26"/>
+                            <lb n="1"/>ἕως Εὐφράτου μυριάδων <hi rend="supraline">δ</hi> καὶ <hi  rend="supraline">͵ατν</hi>· ἀπὸ 
+                            <lb n="2"/>Εὐφράτου εἰς Μάζακα Καππαδοκῶν στάδια 
+                            <lb n="3"/><hi rend="supraline">͵δρν</hi>· ἀπὸ δὲ Μαζάκων διὰ Φρυγίας τῆς π<hi rend="superscript">α</hi>ρ- 
+                            <lb n="4" break="no"/>ορίας <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> μεγάλης <g ref="#symb1"/><gap  reason="lost" resp="#LH1"/>
+                            <note resp="#LH1" place="margin">λείπει</note><add place="margin"><g ref="#symb1"/>καὶ</add> Καρίας ἕως <expan><abbr>Ἐφέσ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan> στάδιοι 
+                            <lb n="5"/><hi rend="supraline">͵γτ<del rend="erasure">Ϛʹ</del><add place="margin" resp="#LH2">ϟ <note resp="#LH2" xml:lang="lat" place="margin">R. Alt.</note></add></hi>. ὁμοῦ ἀπὸ Γάγγου εἰς Ἔφεσον σταδίων
+                                <lb n="6"/>μυριάδων <hi rend="supraline">δ</hi> καὶ <hi rend="supraline">͵ζσ<add place="overstrike" resp="#LH2">ϟ</add></hi>
+                            <note place="margin" resp="#LH2">ϟ</note>· ἀπὸ δὲ <expan><abbr>Ἐφέσ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan> εἰς Δῆ- 
+                            <lb n="7" break="no"/>λον διὰ τοῦ <expan><abbr>Αἰγαί</abbr><am><g ref="#abbr6"/></am><ex>ου</ex></expan> στάδια <hi rend="supraline">͵αχ</hi>· ἐπὶ Ἰσθμὸν 
+                            <lb n="8"/>στάδια <hi rend="supraline">͵αψ</hi>. ἀπὸ <expan><abbr>Ἰσθμ</abbr><am><g ref="#abbr6"/></am><ex>οῦ</ex></expan> διὰ Κορινθίου κόλ- 
+                            <lb n="9" break="no"/>που εἰς Πάτρας σταδίων <hi rend="supraline">ψη</hi>
+                            <note place="margin" resp="#LH2"><app> <rdg wit="#Altempsianus"><hi rend="supraline">ψη<hi rend="superscript">κ</hi></hi></rdg> </app><foreign xml:lang="lat">sic in Alt.</foreign></note>· καὶ ἐπὶ Λευ- 
+                            <lb n="10" break="no"/>κάδα στάδια <hi rend="supraline">ψ</hi>· ἐπὶ Κόρκυραν στάδια <hi rend="supraline">ψ</hi>· 
+                            <lb n="11"/>ἐπ᾿ ἀκροκεραύνια ὄρη στάδια <hi rend="supraline">χξ</hi> ἐπὶ <unclear>Βρεν-</unclear>
+                            <lb n="12"/>τέσιον στάδια <hi rend="supraline">ψ</hi>· ἀπὸ Βρεντεσίου πεζῇ ὁ-
+                            <lb n="13" break="no"/>δεύοντι ἕως Ῥώμης στάδια <hi rend="supraline">͵βωπ</hi>· ἀπὸ Ῥώμης 
+                            <lb n="14"/>ἐπὶ τὰς Ἄλπεις ἕως τὸν μαύρον <note place="margin" resp="#LH1">
+                                <app>
+                                    <rdgGrp>
+                                        <rdg wit="#Altempsianus">ἑως τοῦ οὐάρου</rdg>
+                                        <rdg wit="#Altempsianus">ἑως <expan><abbr>τομάρ</abbr><am><g
+                                                  ref="#abbr6"/></am><ex>ου</ex></expan></rdg>
+                                    </rdgGrp>
+                                </app>
+                                <foreign xml:lang="lat">Altemp.</foreign></note> ὑπὸ ταῖς Ἄλπεσιν
+                                <lb n="15"/><expan><am><g ref="#abbr6"/></am><ex>οὔ</ex><abbr>σης</abbr></expan> στάδια <hi rend="supraline">͵δρνβ</hi>· εἶτα διὰ Κελτικῆς ἕως 
+                            <lb n="16"/>πόλεως Ἰλλυγύρεως <g ref="#symb1"/> <note place="margin" resp="#LH1">λείπει</note> ἕως Γαδείρων <hi rend="supraline">͵βχνα</hi>. καὶ ὁ 
+                            <lb n="17"/>διάπλους ἐπὶ Γάδειρα διὰ τῶν <g ref="#symb5"/>
+                            <add place="margin" resp="#LH2"><unclear reason="erasure" unit="character" quantity="9"/><note resp="#LH2" xml:lang="lat">leg.</note><expan><abbr>τρανσδ</abbr><am><g ref="#abbr6"/></am><ex>ού</ex><abbr>κτων</abbr></expan></add> πανδόκων στάδια 
+                            <lb n="18"/><hi rend="supraline">ξ</hi>. ὁμοῦ ἀπὸ Γάγγου εἰς Γάδειρα σταδίων μυρι-
+                            <lb n="19" break="no"/>άδων <hi rend="supraline">ζ</hi> καὶ <hi rend="supraline">͵αφξ</hi>.</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="18">
+                        <p>
+                            <lb n="19"/>πλάτος δὲ τῆς <expan><abbr>οἰκ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>μένης</abbr></expan>
+                            <pb n="170v" facs="#facs_29"/>
+                            <lb n="1"/>ἀπὸ τῆς Αἰθιοπικῆς θαλάσσης ἐπὶ τὴν Με- 
+                            <lb n="2" break="no"/>ρόην σταδίων <hi rend="supraline">͵ε</hi>· ἀπὸ Μερόης εἰς Ἀλεξάνδρειαν
+                                <lb n="3"/>σταδίων μυρίων <g ref="#symb5"/>
+                            <note resp="#LH1" xml:lang="lat" place="margin">Strabo lib. I ubi Eratosthenis sententiam refert <foreign xml:lang="grc">μουρίους</foreign> tantum habet, et videtur haec nota a principio sequentis vocis orta.</note> <hi rend="supraline">͵α</hi>· ἀπὸ δὲ Ἀλεξανδρείας 
+                            <lb n="4"/>ἐπὶ Τάναϊν μυρίων <hi rend="supraline">͵ανϚ</hi>. (τὰ γὰρ ἄνω 
+                            <lb n="5"/>τῶν ἐκβολῶν τοῦ Τανάϊδος ἀγνοεῖται εἰς 
+                            <lb n="6"/>Βοῤῥᾶν.) οὕτως· ἀπὸ Ἀλεξανδρείας εἰς Λίν- 
+                            <lb n="7" break="no"/>δον ῥόδου στάδια <hi rend="supraline">͵δφ</hi>· ἐπὶ τὸ <hi rend="underline">θεάν</hi>τιον
+                                <note place="margin" resp="#LH2"><app> <rdg wit="#Altempsianus">θοάντιον</rdg></app><foreign xml:lang="lat">Alt.</foreign></note> δε- 
+                            <lb n="8"/>ξιὸν π<hi rend="superscript">α</hi>ραπλέοντι Ῥόδον στάδια <hi rend="supraline">υ</hi>· ἐπὶ Τῆ- 
+                            <lb n="9" break="no"/>λον στάδια <hi  rend="supraline">ρξ</hi>· ἐπὶ Λακτῆρα τῆς Κώας στά- 
+                            <lb n="10" break="no"/>δια <hi rend="supraline">ρη</hi>· ἐπὶ δρέπανον Κώας στάδια <hi rend="supraline">ρ</hi>· ἐπὶ 
+                            <lb n="11"/>Ἀρκίτιν νῆσον στάδια <hi rend="supraline">σλ</hi>· ἐπὶ <g ref="#symb5"/> Κορσίας <note place="margin"><g ref="#symb5"/>
+                                <app> <rdg wit="Strabo">χορασσίας</rdg>  </app><note resp="#LH2" place="margin" xml:lang="lat">Str.</note></note> <hi rend="supraline">ρ</hi>· <lb n="12"/>ἐπὶ Σαμίων ἄμπελον στάδια <hi rend="supraline">λ</hi>. ἐπὶ τὸ 
+                            <lb n="13"/><g ref="#symb5"/>
+                            <note place="margin" resp="#LH1" xml:lang="lat">an <foreign xml:lang="grc">ἄκρον</foreign> leg.?</note> αἰγαῖον Ἄργεννον διὰ τοῦ Αἰγαίου στάδια <hi rend="supraline">φ</hi>· 
+                            <lb n="14"/><add place="overstrike">ἐ</add>πὶ τὸ Ἐρυθραῖον Κορυναῖον στάδια <hi rend="supraline">σο</hi>· ἐπὶ 
+                            <lb n="15"/>Φλίον ἄκρον Χίου στάδια <hi rend="supraline">ν</hi>. ἐπὶ Μελανέα
+                            <lb n="16"/>ἄκρον Λέσβου στάδια <hi rend="supraline">υν</hi>· ἐπὶ Σίγριον <g type="cross"/>
+                            <note place="margin" resp="#LH2"><g type="cross"/><app> <rdg wit="#Altempsianus">Σίγιον</rdg></app><foreign xml:lang="lat">Alt.</foreign></note>
+                            <lb n="17"/>Λέσβου στάδια <hi rend="supraline">φ</hi>. εἰς Τένεδον νῆσον στάδια 
+                            <lb n="18"/><hi rend="supraline">υν</hi>· εἰς Σί<hi rend="underline">γιον</hi>
+                            <note place="margin"><app><rdg>Σιγείον</rdg></app></note> στάδια <hi rend="supraline">ρ</hi>· ἐπὶ στόμα Πόντου
+                                <lb n="19"/>στάδια <hi rend="supraline"><hi rend="underline">͵βρ</hi></hi>
+                            <note place="margin" resp="#LH2"><app><rdg wit="#Altempsianus">͵βφ</rdg></app><foreign xml:lang="lat">Alt.</foreign></note>· ἐπὶ Καράμβιν στάδια <hi rend="supraline">͵βω</hi>· ἐπὶ 
+                            <pb n="171v"/>
+                            <lb n="1" facs="#facs_31"/>στόμα Μαιώτιδος στάδια <hi rend="supraline">͵βφ</hi>· ἐπὶ Τάναϊν στά- 
+                            <lb n="2" break="no"/>δια <hi rend="supraline">͵βσ</hi>.</p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="19">
+                        <p><lb n="2"/>ἄλλως· ἀπὸ πόλεως εἰς πόλιν, ἀπὸ 
+                            <lb n="3"/>Ἄλεξανδρείας εἰς Ῥόδον στάδια <hi rend="supraline">͵δχο</hi>. εἰς Κνί- 
+                            <lb n="4" break="no"/>δον στάδια <hi rend="supraline">ψ</hi>· εἰς Κῶ στάδια <hi rend="supraline" >σ</hi>· εἰς Σάμον 
+                            <lb n="5"/>στάδια <hi rend="supraline">ω</hi>· εἰς Χίον στάδια <hi rend="supraline">ψν</hi>. εἰς Μιτυλήνην 
+                            <lb n="6"/>στάδια <hi rend="supraline">φκ</hi>· εἰς Τένεδον <hi rend="supraline">τν</hi>· εἰς Σί<hi rend="underline">γιο</hi>ν <hi rend="supraline">ρ</hi>· 
+                            <lb n="7"/>ἐπὶ τὸ στόμα Πόντου <hi rend="supraline">͵βφ</hi>· εἰς Κάραμβιν <hi rend="supraline">͵βω</hi>. 
+                            <lb n="8" />εἰς στόμα <expan><abbr>Μαιώτιδ</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan> <hi rend="supraline">͵αφ</hi>. ἐπὶ Τάναϊν ποτα- 
+                            <lb n="9" break="no"/>μὸν <hi rend="supraline">͵βσ</hi>· ὁμοῦ ἀπὸ Ἀλεξανδρείας ἕως <expan><abbr>Τα- 
+                                        <lb n="10" break="no"/>νάϊδ</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan> σταδίων μυρίων <hi rend="supraline">͵ηχϚ</hi>. </p>
+                    </div>
+                </div>
+                <div type="textpart" subtype="chapter" n="5">
+                    <div type="textpart" subtype="section" n="20">
+                        <p><lb n="10"/>Λοιπὸν δὲ 
+                            <lb n="11"/><expan><abbr>ἐρ</abbr><am><g ref="#abbr6"/></am><ex>οῦ</ex><abbr>μεν</abbr></expan> τῶν καθ᾿ ἡμᾶς νήσων τὰς <expan><abbr>περιμέ- 
+                                <lb n="12" break="no" />τρ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>ς</abbr></expan> λαβόντες π<hi rend="superscript">α</hi>ρὰ Ἀρτεμιδώρου καὶ Με- 
+                            <lb n="13" break="no"/>νίππου καὶ ἑτέρων ἀξιοπίστων. Γάδειρα μῆ- 
+                            <lb n="14" break="no"/>κος σταδίων <hi rend="supraline">ρη</hi>· πλάτος σταδίων <hi rend="supraline">ιϚ</hi>. ὁ δὲ 
+                            <lb n="15"/>καθ᾿ Ἡρακλείους στήλας πορθμὸς στενότατος 
+                            <lb n="16"/>ἐστὶ σταδίων <hi rend="supraline">π</hi>. ἐν δὲ τῷ Ἰβηρικῷ πελάγει 
+                            <lb n="17"/>νῆσοι πιτύουσα ἡ  μείζων καὶ <expan><abbr>οἰκ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>μένη</abbr></expan> στα- 
+                            <lb n="18" break="no"/>δίων <g ref="#symb5"/> <hi rend="underline">τῷ</hi>
+                            <note place="margin" resp="#LH2"><app><rdg wit="#Altempsianus">τῆς</rdg> </app><foreign xml:lang="lat">Altemp.</foreign></note> μῆκος· ἡ δὲ ἐλάττων στάδια <hi rend="supraline">ρ</hi>. <expan><abbr>τ</abbr><am><g ref="#abbr5"/></am><ex>ῶν</ex></expan>
+                            <lb n="19"/>δε Γυμνασίων ἃς Καρχηδόνιοι Βαλιαρίας 
+                            <lb n="20"/>καλοῦσιν· οἱ γὰρ σφενδονηταὶ <expan><am><g ref="#abbr6"/></am><ex>οὕ</ex><abbr>τω</abbr></expan> καλοῦ<unclear>νται</unclear>
+                           
+                            <pb n="172v" facs="#facs_33"/>
+                            <lb n="1"/>οἱ βαλιαρεῖς· ἡ μείζων μῆκος σταδίων <hi rend="supraline">͵ασ</hi>· πλά- 
+                            <lb n="2" break="no"/>τος σταδίων <hi rend="supraline">υ</hi>·  ἡ ἐλάττων σταδίων <hi rend="supraline">τ</hi>, αἱ δὲ 
+                            <lb n="3"/>Στοιχάδες αἱ φερώνυμοι ἑξῆς ἐπ᾿ εὐθείας κεῖν- 
+                            <lb n="4" break="no"/>ται πρὸ <expan><abbr>τ</abbr><am><g ref="#abbr5"/></am><ex>ῶν</ex></expan> Μασσαλιακῶν πόλεων· αἱ μὲν μεί- 
+                            <lb n="5"  break="no"/>ζους τρεῖς· δύο δὲ μικραὶ αὐτῆς ἐγγὺς Μασσα- 
+                            <lb n="6" break="no"/>λίας· ἡ δὲ Σαρδῶ ἔχει σχῆμα ὡς ποδὸς 
+                            <lb n="7"/>ἰχνὸς, μεσόκοιλος· τὸ μῆκος <hi rend="supraline">͵βσ</hi>· Κύρνος 
+                            <lb n="8"/>ἐγγὺς Σαρδοῦς, πολλῷ δὲ ἀγεννεστέρα, ἔλαττον 
+                            <lb n="9"/>ἢ ἤμισυ τοῦ Σαρδοῦς μήκους ἔχει. ἀφετήριον 
+                            <lb n="10"/>δ᾿ ἐς Σαρδὼ <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> Κύρνον <g ref="#symb5"/> Ποζουπώνιον <note resp="#LH2" place="margin"><g ref="#symb5"/><foreign xml:lang="lat">leg.</foreign><app>
+                                    <rdgGrp><rdg wit="Strabo">Ποπουλώνιον<foreign xml:lang="lat">vel ut Str. 1.5.</foreign></rdg> <rdg wit="Strabo">ποπλώνιον</rdg></rdgGrp></app></note> τῆς Τυρ- 
+                            <lb n="11" break="no"/>σηνίας· τὸ δὲ δίαρμα σταδίων <hi rend="supraline">͵βσ</hi>. τῆς Σι- 
+                            <lb n="12" break="no"/>κελίας κατὰ Τιμοσθένην περίμετρος σταδίων 
+                            <lb n="13" break="no"/><hi rend="supraline">ψμ</hi>· σχῆμα τρίγωνον σκαληνοειδές. δίαρμα 
+                            <lb n="14"/>δ᾿ ἔχει ἀπὸ Πελώρου ἄκρου εἰς Ἰταλίαν σταδίων 
+                            <lb n="15" /><hi rend="supraline">ια</hi>. πορθμῶν πλευρὰ νήσου ἀπὸ Πελώρου εἰς
+                                <lb n="16"/>Πάχυνον στάδια <hi rend="supraline">͵ατξ</hi>· ἀπὸ Παχύνου εἰς Λι- 
+                            <lb n="17" break="no"/>λύβαιον στάδια <hi rend="supraline">͵αχ</hi>. κατὰ Τιμοσθένην ἀπὸ Λιλυ- 
+                            <lb n="18" break="no"/>βαίου εἰς Πελωριάδα στάδια <hi rend="supraline">͵αψ</hi>· ἀπὸ Λιλυ- 
+                            <lb n="19" break="no"/>βαίου διάπλους <g ref="#symb1"/>
+                            <note place="margin" resp="#LH1"><del rend="erasure">λείπει</del></note><add place="margin"><g ref="#symb1"/>εἰς <note place="margin" xml:lang="lat">Alt.</note></add> ἀσπίδα τῆς Λιβύης ἐγγὺς στά- 
+                            <lb n="20" break="no"/>δια <hi rend="supraline">͵αχ</hi>. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="21">
+                        <p><lb n="20"/>Κέρκινα νῆσος μῆκος πλάτος <hi rend="supraline">ο</hi>.
+                            
+                            <pb n="173v" facs="#facs_35"/>
+                            <lb n="1"/>ὅπου δὲ στενοτάτη στάδια <hi rend="supraline">μ</hi>. ὑπέρκειται 
+                            <lb n="2"/>δὲ <g ref="#symb5"/> πόλεως <note place="margin" resp="#LH2"><app> <rdg wit="#Altempsianus"><g ref="#symb5"/>πόλιν<hi rend="superscript">ς</hi></rdg></app><foreign xml:lang="lat">Αlt.</foreign></note> ἠπειρωτικῆς <hi rend="underline">ἐθρ</hi>ήνης 
+                            <note place="margin" resp="#LH2"><foreign xml:lang="lat">id.</foreign><app> <rdg wit="#Altempsianus" cert="low">θρήνης</rdg> </app></note> ἣ κεῖται τῆς 
+                            <lb n="3"/><expan><abbr>μικρ</abbr><am><g ref="#abbr6"/></am><ex>οῦ</ex></expan>  <expan><abbr>Σύρτιδ</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan> ἐπὶ τῆς ἀρχῆς. τῇ δὲ Κερ- 
+                            <lb n="4" break="no"/>κίνῃ π<hi rend="superscript">α</hi>ράκειται νῆσος Καρνινίτις γεφύρᾳ ζευ- 
+                            <lb n="5" break="no"/>χθεῖσα στάδια μῆκος <hi rend="supraline">μ</hi>· πλάτος <expan><am><g ref="#tach2"/></am><ex>δὲ</ex></expan> στάδια <hi rend="supraline"><hi rend="underline">ε</hi></hi>
+                            <note place="margin" resp="#LH2"><app> <rdg wit="#Altempsianus"><hi rend="supraline">κε</hi></rdg> </app><foreign xml:lang="lat">Al.</foreign></note>. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="22">
+                        <p>
+                            <lb n="6"/>ἀπὸ Κερκίνης ἐπὶ νῆσον Μήνιγγα τὴν Λωτο- 
+                            <lb n="7" break="no"/>φαγίτιν ὁ <expan><abbr>διάπλ</abbr><am><g ref="#abbr6" /></am><ex>ου</ex><abbr>ς</abbr></expan> σταδίων <hi rend="supraline">χ</hi>. ὅσον τῆς <expan><abbr>μι- 
+                                    <lb n="8" break="no"/>κρ</abbr><am><g ref="#abbr6"/></am><ex>οῦ</ex></expan> <expan><abbr>Σύρτιδ</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan> λέγεται τὸ στόμα. ἡ <expan><am><g ref="#tach2"/></am><ex>δὲ</ex></expan> Μήνιγξ 
+                            <lb n="9"/>μῆκος σταδίων <hi rend="supraline">χ</hi>· πλάτος σταδίων <hi rend="supraline">ρπ</hi>. μεγά- 
+                            <lb n="10" break="no"/>λαι δ᾿ εἰσὶ περὶ αὐτὴν παλίῤῥοιαι. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="23">
+                        <p>
+                            <lb n="10"/>Κεφα<add place="overstrike">λλ</add>ηνία 
+                            <lb n="11"/>νῆσος τετράπολις μῆκος σταδίων <hi rend="supraline">υ</hi>. εἰσὶ <expan><am><g ref="#tach2"/></am><ex>δὲ</ex></expan>
+                            <lb n="12"/><expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> ἐν τῷ Ἀδρίᾳ νῆσοι π<hi rend="superscript">α</hi>ρὰ τὴν Ἰλλυρίδα, ὧν
+                            <lb n="13"/>ἐπισημότεραι Ἴσση, <del rend="erasure" unit="character" quantity="1"/>  <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> ἡ Μέλανα Κόρ- 
+                            <lb n="14" break="no"/>κυρα, <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> φάρος, <expan><am><g ref="#tach1"/></am><ex>καί</ex></expan> Μελίτη, ὧν ἀγνοῶ τὰς 
+                            <lb n="15"/>περιμέτρους. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="24">
+                        <p>
+                            <lb n="15"/>Πελοποννήσου δὲ ὁ <subst> <del rend="corrected">περίμετρος</del> <add place="overstrike">περίπλους</add></subst>
+                            <lb n="16"/>καὶ τῶν κόλπων <expan><abbr>συμμετρ</abbr><am><g ref="#abbr6"/></am><ex>ου</ex><abbr>μένων</abbr></expan> στάδια <hi rend="supraline">͵εχ 
+                                <lb n="17" break="no"/>κζ</hi>. χωρὶς δὲ τοῦ κατακολπίσαι ὁ περίπλους 
+                            <lb n="18"/>σταδίων <hi rend="supraline">͵δ</hi>. μῆκος δὲ ἀπὸ Μαλέας ἕως 
+                            <lb n="19"/>Αἰ<hi rend="underline">γαί</hi>ου <note place="margin"><app> <rdg>Αἰγείου</rdg> </app></note> στάδια <hi rend="supraline">͵αν</hi>. ἔχει δὲ ὅμοιον σχῆμα φύλ- 
+                          
+                            <pb n="174v" break="no" facs="#facs_37"/>
+                            <lb n="1" break="no"/>λῳ πλατάνου, κόλποις μεγάλοις τεμνομένη. συν- 
+                            <lb  n="2" break="no"/>άγεται μὲν εἰς τὸν Κορινθίων ἰσθμὸν, πλάτος 
+                            <lb n="3"/>σταδίων <hi rend="supraline">μ</hi>. ἀπὸ <expan><abbr>τ</abbr><am><g ref="#abbr6"/></am><ex>οῦ</ex></expan> κορινθίου κόλπου καὶ Σα- 
+                            <lb n="4" break="no"/>ρωνικοῦ ἐπὶ τὸ Σκύλλαιον ἄκρον ἐξ εὐωνύ- 
+                            <lb n="5" break="no"/>μων ἔνθα πρόκειται νῆσος <g ref="#symb5"/> καρία 
+                            <note place="margin" resp="#LH2"><app> <rdg wit="#LH2">Καλαυρία</rdg> </app> <foreign xml:lang="lat">Leg.</foreign></note> Ποσειδῶνος 
+                            <lb n="6"/>ἱερά· ἑξῆς δ᾿ ὁ Ἀργολικὸς κόλπος μέχρι Μα-
+                            <lb n="7" break="no"/>λέας ἄκρου, ὃ πολὺ προπέπτωκεν εἰς πέλα- 
+                            <lb n="8" break="no"/>γος. εἶτα ὁ Ἑρμιονικὸς κόλπος. ἑξῆς <expan><am><g ref="#tach2"/></am><ex>δὲ</ex></expan> <expan><am><g ref="#tach8"/></am><ex>μετὰ</ex></expan>
+                            <lb n="9"/>Μαλέαν Λακωνικὸς κόλπος ἕως Ταινάρου 
+                            <lb n="19"/>ἐκ δεξιῶν· ὃ περιορίζει ἐξ εὐωνύμων τὸν
+                            <lb n="20"/>Μεσσηνιακὸν κόλπον· οὗ ἐκ δεξιῶν Ἀκρίτας 
+                            <lb n="21"/>ἄκρα. εἶτα προπέπτωκεν ἄκρον Ἰχθὺς, <unclear>καθ᾿</unclear>
+                            <lb n="22"/>ὃν κεῖται <expan><abbr>Ζάκυνθ</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan>, καὶ ἕτερον ὁ Χελωνάτας· 
+                            <lb n="23"/>τελευταῖον δ᾿ ἄκρον ἄῤῥαξος ἀντιπρόσωπον
+                            <lb n="24"/>Ἀκαρνανίας. μεθ᾿ ὃν ὁ Κορινθιακὸς ἀναχεῖται 
+                            <lb n="25"/>κόλπος· <hi rend="supraline">ζ</hi> σταδίων <expan><abbr>συγκλειόμεν</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan> στόματι
+                            <lb n="26"/><expan><am><g  ref="#tach6"/></am><ex>κατὰ</ex></expan> τὸ ῥίον ἄκρον, ὅ ἐστι τῆς Πελοποννήσου τὸ 
+                            <lb n="27"/>δ᾿ Ἀντίῤῥιον <expan><abbr>Λοκρίδ</abbr><am><g ref="#abbr43"/></am><ex>ος</ex></expan>. ἀπὸ Ταινάρου ἐπὶ 
+                            <lb n="28"/>Φυκοῦντα Λιβύης τὸ δίαρμα στάδια ͵γ. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="25">
+                        <p>
+                            <lb n="28"/>Αἴγινα 
+                            <pb n="175v" facs="#facs_38"/>
+                            <lb n="1"/>νῆσος προμήκης στάδια <hi rend="supraline">ρξ</hi>· ἐξ ἐναντίας κεῖται 
+                            <lb n="2"/>τῆς Ἀττικῆς. Σαλαμὶς μῆκος στάδ. <hi rend="supraline">ο</hi>. ἡ 
+                            <lb n="3"/>Κεία <hi rend="supraline">ρκ</hi>. τῶν δὲ Κυκλάδων κρατίστη ἐστὶν 
+                            <lb n="4"/>ἡ Νάξος, διὸ μικρὰ λέγεται Σικελία. ἐκ δε- 
+                            <lb n="5" break="no"/>ξιῶν δ᾿ αἱ Σποράδες.  ἡ δ᾿ Εὔβοια γεφύ- 
+                            <lb n="6" break="no"/>ρᾳ πρὸς τὴν Βοιωτίαν ἔζευκται· π<hi rend="superscript">α</hi>ρατείνει δὲ 
+                            <lb n="7"/>Βοιωτίδα, Φωκίδα, Λοκροὺς. ἐκ δὲ θατέρου 
+                            <lb n="8"/><hi rend="superscript">ἐ</hi>πὶ ποσὸν καὶ τῇ Ἀττικῇ· ἔστι γὰρ μακρὰ, διὸ
+                            <lb n="9"/>Μάκρις ὠνομάσθη, μῆκος σταδίων <hi rend="supraline">͵αψ</hi>. </p>
+                    </div>
+
+                    <div type="textpart" subtype="section" n="26">
+                        <p>
+                            <lb n="9"/>ἡ δὲ 
+                            <lb n="10"/>Κρήτη κατὰ Μαλέαν πλησιάζει Πελοποννήσῳ· 
+                            <lb n="11"/>περίμετρον δὲ αὐτῆς σταδίων ͵δ<hi rend="supraline">ρ</hi>. μῆκος ͵β<hi rend="supraline">τ</hi>. 
+                            <lb n="12"/>κατὰ πολὺ γὰρ μεμή<subst><del rend="erasure">κυν</del><add place="margin">κεν</add></subst>ται. Κύθηρα μέσον 
+                            <lb n="13"/>Κρήτης <expan><am><g ref="#tach1"/></am><ex>καὶ</ex></expan> Λακωνικῆς. Κύπρος βύρσῃ τὸ 
+                            <lb n="14"/>σχῆμα ὁμοία· <expan><abbr>π</abbr><am><g ref="#abbr18"/></am><ex>ερ</ex><abbr>ίπλους</abbr></expan> σταδίων <hi rend="supraline">͵γυκ</hi>. μῆκος 
+                            <lb n="15"/>δὲ <hi rend="supraline">͵ατ</hi>· ἀπὸ Πάφου εἰς Ἀλεξάνδρειαν δίαρ- 
+                            <lb n="16" break="no"/>μα βορέου σταδίων <hi rend="supraline">͵γω</hi>. Ῥόδου περίμετρος 
+                            <lb n="17"/>σταδίων <hi rend="supraline">͵ατ</hi>. Κῶ περίμετρος στάδια <hi rend="supraline">φν</hi>. Σά- 
+                            <lb n="18" break="no"/>μος στάδια <hi rend="supraline">χλ</hi>. Ἰκαρία δὲ ἐστὶ μακρὰ, τρα- 
+                            <lb n="19" break="no"/>χεῖα, μῆκος σταδίων <hi rend="supraline">τ</hi>· Χίου περίμετρος σταδίων 
+                            <lb n="20"/><hi rend="supraline">χξ</hi>. Λέσβου περίμετρος <hi rend="supraline">͵αρ</hi>. </p>
+
+                    </div>
+                </div>
+                <fw type="subscription"><expan><abbr>ΤΕΛ</abbr><am><g ref="#abbr43"/></am><ex>ΟΣ</ex></expan>.</fw>
+            </div>
+        </body>
+    </text>
+
+</TEI>
