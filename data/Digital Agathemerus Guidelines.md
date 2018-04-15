@@ -135,7 +135,8 @@ We encode everything inside a `<listBibl>` with the language of the book, and in
 
                     <biblStruct>
 
-<monogr>```
+<monogr>
+```
 
 
 The `<title>` of the edition has to be the same as reported on the main title page of the original book. If there is a double or triple title, possibly in different languages, they should be transcribed as they appear, with an additional @xml:lang attribute.  
@@ -375,7 +376,7 @@ In this case, we simply record the location and presence of the fragment, indica
 ```
 
 An excerpt of Agathemerus is preserved in another work, with no indication of its provenance.  
-This is the specific case of the Excerpta J and K. [a] We use several `<msItem>` elements, indicating the location of the bigger work (e.g. Johannes Damascenus), and the location of the fragments, which are indicated as Excerpta J.
+This is the specific case of the Excerpta J and K. [^a] We use several `<msItem>` elements, indicating the location of the bigger work (e.g. Johannes Damascenus), and the location of the fragments, which are indicated as Excerpta J.
 
 ```xml
         <msItem n="1">
@@ -930,7 +931,7 @@ Abbreviations indicated by a symbol or glyph: usually there is no way to specify
 
 ```xml
                 <corr>ἡ</corr>μῶν
-                ```
+```
 
 **Variant readings** indicated in the margins, or somewhere in the layout of a manuscript or printed edition: When this happens, usually the editor has indicated the witness reporting the variant reading, which should also be declared in the `<filiation>` element following the Manuscript description (@type=”antigraph”). This witness should be recalled when referring the variant reading.  
   
@@ -953,9 +954,9 @@ Generally the first `<rdg>` element refers to the reading actually appearing in 
 
 ### SPECIAL CHARACTERS IN THE GREEK TEXT
 
-* Numbers: Apices
 Greek numbers are generally indicated with an Upper and/or a Lower numeral sign.  
 
+* Numbers: Apices
 ʹ = Unicode Character U+0374 http://www.fileformat.info/info/unicode/char/0374/index.htm 
 
 * Numbers: Pedices
@@ -971,7 +972,3 @@ Apostrophe is not consistently indicated in current XML for Greek and there are 
 * Greek Psili (combining comma above) is also accepted, e.g. in the Nemo edition of Agathemerus: ᾿ (http://www.fileformat.info/info/unicode/char/0313/index.htm).
 
 * Separators: ˙, •, lemnisks, asterisks. Generally, we try to be as faithful to the original text as possible. If the scribe uses the upper point, we will use the upper point (aka semi-column), if the scribe uses other types of separators, such as lemnisks, asterisks, variously combined dashes, etc., we will try to render them.  
-
-
-[1] There will be cases where it is not necessary to indicate a siglum, e.g. in fragmentary mss. In that case, the ID will be the name of the manuscript and its number, separated by a _. E.g. xml:id=”Parisinus_1739”.
-[a] the fragments will be more precisely indicated with xml:ids, that will be used in the transcription to indicate the beginning and end.
