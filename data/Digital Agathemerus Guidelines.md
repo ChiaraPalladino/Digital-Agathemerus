@@ -716,11 +716,7 @@ Greek numbers are generally indicated with an Upper and/or a Lower numeral sign.
 ͵ = Unicode Character U+0375 http://www.fileformat.info/info/unicode/char/0375/index.htm 
 
 * Apostrophe:  
-Apostrophe is not consistently indicated in current XML for Greek and there are several equivalent symbols for it, which should not affect textual research (in principle). However, we’d like some consistency throughout the edition, so we will use the Unicode APOSTROPHE entity:
-
-                ' (same place of Latin apostrophe on the Mac Greek keyboard)
-
-                Unicode Character U+0027 (http://www.fileformat.info/info/unicode/char/0027/index.htm)
+Apostrophe is not consistently indicated in current XML for Greek and there are several equivalent symbols for it, which should not affect textual research (in principle). However, we’d like some consistency throughout the edition, so we will use the Unicode APOSTROPHE entity: ' Unicode Character U+0027 (http://www.fileformat.info/info/unicode/char/0027/index.htm)
 
 * Greek Psili (combining comma above) is also accepted, e.g. in the Nemo edition of Agathemerus: ᾿ (http://www.fileformat.info/info/unicode/char/0313/index.htm).
 
