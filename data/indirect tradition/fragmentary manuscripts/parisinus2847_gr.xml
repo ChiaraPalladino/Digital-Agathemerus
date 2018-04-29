@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
+<?xml-stylesheet type="text/xsl" href="../../epidoc-stylesheets/start-edition.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="parisinus2847_gr">
 	
 	<teiHeader>
@@ -23,10 +24,6 @@
 				</respStmt>
 				<respStmt>
 					<persName xml:id="GC">Gregory Crane</persName>
-					<resp>Supervisor</resp>
-				</respStmt>
-				<respStmt>
-					<persName>Pasquale Massimo Pinto</persName>
 					<resp>Supervisor</resp>
 				</respStmt>
 			</titleStmt>

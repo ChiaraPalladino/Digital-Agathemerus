@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../epidoc-stylesheets/start-edition.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vossius_lat" xmlns:xi="http://www.w3.org/2001/XInclude">
    
     <teiHeader>
@@ -24,11 +25,7 @@
                     <persName xml:id="GC">Gregory Crane</persName>
                     <resp>Supervisor</resp>
                 </respStmt>
-                <respStmt>
-                    <persName>Pasquale Massimo Pinto</persName>
-                    <resp>Supervisor</resp>
-                </respStmt>
-            </titleStmt>
+             </titleStmt>
             
             <publicationStmt>
                 <authority/>
@@ -58,32 +55,7 @@
                         </msIdentifier>
                         
                         <msContents xml:lang="lat">
-                            
-                            <!-- 
-                            <msItem n="1">
-                                
-                                
-                                <locus>ff. 1-3</locus>
-                                <title>Adnotationes variae</title>
-                                <note>ff. 4-8 vacant</note>
-                                
-                                
-                            </msItem>
-                            
-                            <msItem n="2">
-                                <locus>ff. 9-11</locus>
-                                <title>Excerpta ex Scholiaste Strabonis qui exstat apud Patricium Junium</title>
-                                <note>f. 11v vacat</note>
-                            </msItem>
-                            <msItem n="3">
-                                
-                                <locus>ff. 12-17v</locus>
-                                <title>Variantes Lectiones ex MS. Pircheimeri...in librum Taciti de Moribus Germanorum</title>
-                                
-                                
-                            </msItem>
-                            
-                            -->
+                      
                             <msItem n="4">
                                 <locus>ff. 18-20v; 48-51v</locus>
                                 
@@ -161,69 +133,7 @@
                                 
                                 
                             </msItem>
-                        	<!-- 
-                            
-                            <msItem n="7">
-                                <locus>ff. 53-56v</locus>
-                                
-                                <title>Epigrammata graeca</title>
-                                <note>f. 57 vacat</note>
-                                
-                            </msItem>
-                            
-                            <msItem n="8">
-                                <locus>f. 58-66v</locus>
-                                
-                                <title>Vita Secundi Philosophi et Secundi Sententiae</title>
-                                
-                            </msItem>
-                            
-                            <msItem n="9">
-                                <locus>f. 67-71</locus>
-                                
-                                <title>Hieroclis Facetiae</title>
-                                <note>f. 71v vacat</note>
-                                
-                            </msItem>
-                            
-                            <msItem n="10">
-                                <locus>f. 72-75</locus>
-                                
-                                <title>Hippocratis libellus de remediis</title>
-                                <note>ff. 76-129 vacant</note>
-                                
-                            </msItem>
-                            <msItem n="11">
-                                <locus>f. 130-131v</locus>
-                                
-                                <title>In Ammonii librum περὶ ὁμοίων καὶ διαφόρων λέξεων variantes lectiones</title>
-                                
-                            </msItem>
-                            
-                            <msItem n="12">
-                                <locus>f. 132</locus>
-                                
-                                <title>Collatio Musaei</title>
-                                <note>f. 132v vacat</note>
-                                
-                            </msItem>
-                            
-                            <msItem n="13">
-                                <locus>ff. 133-152v</locus>
-                                
-                                <title>Emendationes in varios Panegyricorum auctores ex vett. codd.</title>
-                                <note>ff. 153-161r vacant</note>
-                                <note>f. 161v Vossii adnotatio</note>
-                                <note>f. 162 vacat. </note>
-                                
-                            </msItem>
-                            <msItem n="14">
-                                <locus>f. 162v</locus>
-                                
-                                <title>Glossae: Caponnula, Capilli, Castiferum, Caupones</title>
-                                
-                            </msItem>
-                            -->
+                        
                         </msContents>
                         
                         <physDesc>
@@ -290,8 +200,8 @@
 
             
         </fileDesc>
-        <xi:include href="file:/Users/Chiara/Dropbox/AGATEMERO/Manuscripts/Glyphs/glyphs.xml"/> 
-        <encodingDesc>
+    	<xi:include href="../glyphs/glyphs.xml"/> 
+    	<encodingDesc>
             <projectDesc>
                 <ab>
                     <title>Agathemerus' Sketch of Geography: from Manuscript to Digital</title>

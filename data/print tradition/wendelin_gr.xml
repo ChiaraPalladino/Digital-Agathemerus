@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-
+<?xml-stylesheet type="text/xsl" href="../epidoc-stylesheets/start-edition.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wendelin_gr" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
@@ -24,11 +24,7 @@
                     <persName xml:id="GC">Gregory Crane</persName>
                     <resp>Supervisor</resp>
                 </respStmt>
-                <respStmt>
-                    <persName>Pasquale Massimo Pinto</persName>
-                    <resp>Supervisor</resp>
-                </respStmt>
-            </titleStmt>
+                 </titleStmt>
 
             <publicationStmt>
                 <authority/>
@@ -40,7 +36,7 @@
                         under a Creative Commons Attribution-ShareAlike International 4.0
                         License</licence>
                 </availability>
-                <date>2017</date>
+                <date>2018</date>
                 <publisher>University of Leipzig</publisher>
                 <pubPlace>Germany</pubPlace>
             </publicationStmt>
@@ -95,7 +91,7 @@
                 </listBibl>
             </sourceDesc>
         </fileDesc>
-    	<xi:include href="file:/Users/Chiara/Dropbox/AGATEMERO/Manuscripts/Glyphs/glyphs.xml"/>
+    	<xi:include href="../glyphs/glyphs.xml"/>
     	
         <encodingDesc>
             <projectDesc>

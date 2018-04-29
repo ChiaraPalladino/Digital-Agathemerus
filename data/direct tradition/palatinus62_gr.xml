@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../epidoc-stylesheets/start-edition.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="palatinus62_gr" xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <teiHeader>
@@ -24,11 +25,7 @@
                     <persName xml:id="GC">Gregory Crane</persName>
                     <resp>Supervisor</resp>
                 </respStmt>
-                <respStmt>
-                    <persName>Pasquale Massimo Pinto</persName>
-                    <resp>Supervisor</resp>
-                </respStmt>
-            </titleStmt>
+             </titleStmt>
             
             <publicationStmt>
                 <authority/>
@@ -39,7 +36,7 @@
                         under a Creative Commons Attribution-ShareAlike International 4.0
                         License</licence>
                 </availability>
-                <date>2017</date>
+                <date>2018</date>
                 <publisher>University of Leipzig</publisher>
                 <pubPlace>Germany</pubPlace>
             </publicationStmt>
@@ -62,95 +59,7 @@
                         
                         <msContents xml:lang="lat">
                            
-                            <!-- 
-                            <msItem n="1">
-                                
-                                
-                                <locus>ff. 1-36v</locus>
-                                <title>Sphaerica</title>
-                                <author>Theodosius</author>
-                                <note>f. 37 vacuum</note>
-                            </msItem>
-                            
-                            <msItem n="2">
-                                <locus>ff. 38-41v</locus>
-                                <title xml:lang="grc">Παράδοσις σύντομος καὶ σαφέστη τῆς ψηφοφορικῆς ἐπιστήμη</title>
-                                
-                            </msItem>
-                            <msItem n="3">
-                                
-                                <locus>ff. 41v-47</locus>
-                                
-                                <author>Maximus Planudes</author>
-                                <title>Calculatoria Scientia ex Indorum Disciplina, Magna Dicta</title>
-                                <note>ff. 47v-48v vacui</note>
-                                <note>ff.  49-57v, tabulae et addenda</note>
-                                <note>f. 58 vacuum</note>
-                            </msItem>
-                            
-                            
-                            <msItem n="4">
-                                <locus>ff. 59-72</locus>
-                                <author>Johannes Pediasmos</author>
-                                <title>Synopsis Geometrica de terrae dimensione et partitione</title>
-                                
-                            </msItem>
-                            
-                            <msItem n="5">
-                                <locus>ff. 72v-77v</locus>
-                                <author>Hero</author>
-                                <title>Geodaesia</title>
-                                
-                            </msItem>
-                            
-                            <msItem n="6">
-                                <locus>ff. 78-80</locus>
-                                 <author>Isaccus Argyrus</author>
-                                <title>Tractatus de reducendis triangulis non rectis in rectos, et de aliis quibusdam figuris</title>
-                                <note>f. 80v vacuum</note>
-                               
-                                
-                            </msItem>
-                            
-                            <msItem n="7">
-                                <locus>ff. 81-112v</locus>
-                                <author>Barlaam</author>
-                                <title>Logistica, seu Arithmetica</title>
-                                
-                            </msItem>
-                            
-                            <msItem n="8">
-                                <locus>ff. 112v-115v</locus>
-                                <author>Barlaam</author>
-                                <title>Arithmetica demonstratio</title>
-                                <note>ff. 116-117v vacui</note>
-                                
-                            </msItem>
-                            <msItem n="9">
-                                <locus>ff. 118-125v</locus>
-                                <author>Michael Psellus</author>
-                                <title>In Platonis Psychogoniam Commentarius</title>
 
-                                
-                            </msItem>
-                            
-                            <msItem n="10">
-                                <locus>ff. 126-185</locus>
-                                <author>Gemistus Pletho</author>
-                                <title>Excerpta ex Strabonis Geographia</title>
-                                <note type="margin" resp="M2">Eadem in volumine 70 ex Platonis emendatione.</note>
-                                <note>ff. 185v-189v vacui</note>
-                                
-                            </msItem>
-                            
-                            <msItem n="11">
-                                <locus>ff. 190-198v</locus>
-                                <author>Gemistus Pletho</author>
-                                <title>Chorographia Thessaliae</title>
-                                <note>f. 199 vacuum</note>
-                                
-                            </msItem> -->
-                            
                             <msItem n="12">
                                 <locus>ff. 200-203</locus>
                                 <author>Agathemerus</author>
@@ -243,7 +152,7 @@
             </sourceDesc>
             
         </fileDesc>
-        <xi:include href="file:/Users/Chiara/Dropbox/AGATEMERO/Manuscripts/Glyphs/glyphs.xml"/> 
+        <xi:include href="../glyphs/glyphs.xml"/> 
         <encodingDesc>
             <projectDesc>
                 <ab>
