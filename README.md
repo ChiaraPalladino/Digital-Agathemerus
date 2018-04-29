@@ -8,7 +8,7 @@ This is the repository where the primary data of the Digital Agathemerus project
 * The XML exported data from the aligned translations 
 * The CTS and CITE data from the Manuscript Catalog
 
-These data are the backbone of the Digital Agathemerus Website: http://www.digitalagathemerus.org/.  
+These data are the backbone of the Digital Agathemerus Website: https://www.digitalagathemerus.org/.  
 
 Other resources related to the project are variously available online: 
 
@@ -17,5 +17,6 @@ Other resources related to the project are variously available online:
 * The fully annotated text and spatial data are hosted by the Pelagios Project: https://recogito.pelagios.org/document/vjar6k90gzwsel/map
 * The morphosyntactical reconstruction by means of treebanking is also hosted by Arethusa (Perseids Project): https://www.perseids.org/tools/arethusa/app/#/perseids?chunk=1&doc=42371
 * The fully aligned translations of several editions are hosted by Ugarit: http://ugarit.ialigner.com/userProfile.php?userid=3 
+* A dynamic comparison of all the available transcriptions can be seen at: http://ialigner.com/Agathemerus
 * You can also see a map of the manuscripts and editions on Neatline: http://139.18.40.155/neatline/fullscreen/agathemerus-manuscripts 
 
