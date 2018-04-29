@@ -8,7 +8,7 @@ This is the repository where the primary data of the Digital Agathemerus project
 * The XML exported data from the aligned translations 
 * The CTS and CITE data from the Manuscript Catalog
 
-These data are the backbone of the Digital Agathemerus Website: https://www.digitalagathemerus.org/.  
+These data are the backbone of the Digital Agathemerus Website: http://www.digitalagathemerus.org/.  
 
 Other resources related to the project are variously available online: 
 
