@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/50170524.svg)](https://zenodo.org/badge/latestdoi/50170524)
+
+
 # Digital-Agathemerus
 This is the repository where the primary data of the Digital Agathemerus project is stored. It contains:   
 
