@@ -426,70 +426,10 @@
 			</zone>
 		</surface>
 	</facsimile>
-	<!-- 
-	<facsimile xml:id='facs_12'>
-		<surface ulx='0' uly='0' lrx='2942' lry='4267'>
-			<graphic url='0012_Par. gr. 1406-12.png' width='2942px' height='4267px'/>
-		</surface>
-	</facsimile>
-	<facsimile xml:id='facs_13'>
-		<surface ulx='0' uly='0' lrx='2903' lry='4267'>
-			<graphic url='0013_Par. gr. 1406-13.png' width='2903px' height='4267px'/>
-		</surface>
-	</facsimile>
-	<facsimile xml:id='facs_14'>
-		<surface ulx='0' uly='0' lrx='2907' lry='4267'>
-			<graphic url='0014_Par. gr. 1406-14.png' width='2907px' height='4267px'/>
-		</surface>
-	</facsimile>
-	<facsimile xml:id='facs_15'>
-		<surface ulx='0' uly='0' lrx='2911' lry='4267'>
-			<graphic url='0015_Par. gr. 1406-15.png' width='2911px' height='4267px'/>
-		</surface>
-	</facsimile>
-	<facsimile xml:id='facs_16'>
-		<surface ulx='0' uly='0' lrx='2911' lry='4267'>
-			<graphic url='0016_Par. gr. 1406-16.png' width='2911px' height='4267px'/>
-		</surface>
-	</facsimile>
-	<facsimile xml:id='facs_17'>
-		<surface ulx='0' uly='0' lrx='2920' lry='4267'>
-			<graphic url='0017_Par. gr. 1406-17.png' width='2920px' height='4267px'/>
-		</surface>
-	</facsimile>
-	<facsimile xml:id='facs_18'>
-		<surface ulx='0' uly='0' lrx='2926' lry='4267'>
-			<graphic url='0018_Par. gr. 1406-18.png' width='2926px' height='4267px'/>
-		</surface>
-	</facsimile>
-	<facsimile xml:id='facs_19'>
-		<surface ulx='0' uly='0' lrx='2936' lry='4267'>
-			<graphic url='0019_Par. gr. 1406-19.png' width='2936px' height='4267px'/>
-		</surface>
-	</facsimile>
-	<facsimile xml:id='facs_20'>
-		<surface ulx='0' uly='0' lrx='2934' lry='4267'>
-			<graphic url='0020_Par. gr. 1406-20.png' width='2934px' height='4267px'/>
-		</surface>
-	</facsimile>
-	<facsimile xml:id='facs_21'>
-		<surface ulx='0' uly='0' lrx='2926' lry='4267'>
-			<graphic url='0021_Par. gr. 1406-21.png' width='2926px' height='4267px'/>
-		</surface>
-	</facsimile>
-	<facsimile xml:id='facs_22'>
-		<surface ulx='0' uly='0' lrx='2915' lry='4267'>
-			<graphic url='0022_Par. gr. 1406-22.png' width='2915px' height='4267px'/>
-		</surface>
-	</facsimile>
-	<facsimile xml:id='facs_23'>
-		<surface ulx='0' uly='0' lrx='6204' lry='4267'>
-			<graphic url='0023_Par. gr. 1406-23.png' width='6204px' height='4267px'/>
-		</surface>
-	</facsimile> -->
+	
 	<text>
 		<body>
-			<div type="textpart" subtype="transcription" xml:lang="grc" n="urn:cts:greekLit:tlg.0090.tlg001.msc8">
+			<div type="edition" subtype="transcription" xml:lang="grc" n="urn:cts:greekLit:tlg.0090.tlg001.msc8">
 		    	<head>
 		    	<lb facs='#facs_7_line_1503769818568_721' n='N001'/>Ἀγα<hi rend='supraline'>θημ</hi>έρου τοῦ ὄρθωνος <expan><abbr>γεωγραφί</abbr><am><g ref='#abbr1'/></am><ex>ας</ex></expan> ὑποτύπωσις – 
 		    	</head>
